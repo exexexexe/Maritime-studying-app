@@ -15,6 +15,7 @@ import type { BuoyScene, LanternScene, Option, StabilityScene } from '@/content/
 import { recordAnswer } from '@/db/reviews';
 import { attemptSeed, seededShuffle } from '@/lib/shuffle';
 import { buildSession } from '@/srs/session';
+import { markActivity } from '@/state/activity';
 import { useTrack } from '@/state/track-context';
 
 export default function DrillScreen() {
@@ -125,7 +126,9 @@ export default function DrillScreen() {
     setSelected(optionIndex);
     const correct = options[optionIndex].isCorrect;
     if (correct) setCorrectCount((c) => c + 1);
-    recordAnswer(item.id, track, correct, Date.now());
+    const now = Date.now();
+    recordAnswer(item.id, track, correct, now);
+    markActivity(now);
   }
 
   function next() {

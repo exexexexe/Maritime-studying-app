@@ -15,6 +15,7 @@ import type { BuoyScene, Item, LanternScene, Option, StabilityScene } from '@/co
 import { recordExamSession } from '@/db/exams';
 import { assembleExam, examConfig, tallyByModule, type ExamMode } from '@/exam/assemble';
 import { attemptSeed, seededShuffle } from '@/lib/shuffle';
+import { markActivity } from '@/state/activity';
 import { TRACK_NAMES, useTrack } from '@/state/track-context';
 
 interface Answer {
@@ -70,6 +71,7 @@ export default function ExamRunScreen() {
     if (result) return;
     const answers = answersRef.current;
     const tally = tallyByModule(answers);
+    markActivity(Date.now());
     setResult(
       recordExamSession({
         track,
