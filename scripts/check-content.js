@@ -66,7 +66,7 @@ function normalize(s) {
 // in parallel-structure distractor sets ("135° …" vs "225° …", "vitt" vs
 // "rött"). Differences confined to these are good authoring, not smells.
 const KEY_TOKEN =
-  /^[\d,.]+°?$|^(vitt?|rött?|grönt?|gult?|vita|röda|gröna|gula|styrbord|babord|styrbords?sidan?|babords?sidan?|nord|syd|ost|väst|norr|söder|öster|väster|nordkardinal|sydkardinal|ostkardinal|västkardinal|lovart|lä|förut|akterut|uppåt|nedåt|moturs|medurs)$/;
+  /^[\d,.]+°?$|^(vitt?|rött?|grönt?|gult?|vita|röda|gröna|gula|styrbord|babord|styrbords?sidan?|babords?sidan?|nord|syd|ost|väst|norr|söder|öster|väster|nordkardinal|sydkardinal|ostkardinal|västkardinal|lovart|lä|förut|akterut|uppåt|nedåt|moturs|medurs)$|^[a-h]$/;
 
 function isParallelStructure(aTokens, bTokens) {
   const aSet = new Set(aTokens);
@@ -233,7 +233,23 @@ for (const file of topicFiles(CONTENT_DIR)) {
 }
 
 // --- report -------------------------------------------------------------
-for (const w of warnings) console.warn(`WARN  ${w}`);
+// Default: errors in full, warnings summarized. --verbose lists every warning.
+if (process.argv.includes('--verbose')) {
+  for (const w of warnings) console.warn(`WARN  ${w}`);
+} else if (warnings.length) {
+  const byKind = {};
+  for (const w of warnings) {
+    const kind = w.includes('length outlier')
+      ? 'option length outlier'
+      : w.includes('near-duplicate')
+        ? 'near-duplicate options'
+        : 'other';
+    byKind[kind] = (byKind[kind] ?? 0) + 1;
+  }
+  for (const [kind, n] of Object.entries(byKind)) {
+    console.warn(`WARN  ${n}× ${kind} (run with --verbose for details)`);
+  }
+}
 for (const e of errors) console.error(`ERROR ${e}`);
 
 if (needsReviewItems.length && process.argv.includes('--needs-review')) {

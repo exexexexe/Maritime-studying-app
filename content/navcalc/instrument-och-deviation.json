@@ -1,0 +1,226 @@
+{
+  "topicId": "top-nav-instrument",
+  "items": [
+    {
+      "id": "nav-instr-001",
+      "topicId": "top-nav-instrument",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Den bestämmer i stället sin position i relation till mobilnätet, vilket fungerar men blir mindre noggrant än GPS",
+          "isCorrect": true
+        },
+        {
+          "text": "Den visar den senast kända GPS-positionen tills satellitmottagningen kommer tillbaka",
+          "isCorrect": false
+        },
+        {
+          "text": "Den räknar fram positionen med inbyggda rörelsesensorer utifrån hur telefonen har flyttats",
+          "isCorrect": false
+        },
+        {
+          "text": "Den tar emot försvagade satellitsignaler som studsar in genom fönster och väggar",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "När GPS-mottagningen är obefintlig går telefonen över till att fastställa sin position i relation till mobilnätets master. Det fungerar, men blir inte lika noggrant som GPS-positionering. Det är bra att veta att en telefonposition inomhus alltså kan vara betydligt grövre än en riktig GPS-position.",
+      "explanationEn": "When GPS reception is unavailable, the phone falls back to determining its position relative to the mobile network's base stations. This works, but is less accurate than GPS positioning. It is worth knowing that an indoor phone position can therefore be considerably coarser than a true GPS fix.",
+      "payload": {
+        "questionSv": "Hur kommer det sig att en mobiltelefon klarar att ange sin position inne i ett hus där GPS-mottagningen är obefintlig eftersom satelliterna är skymda?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "3:1 / photo_81, photo_37"
+    },
+    {
+      "id": "nav-instr-002",
+      "topicId": "top-nav-instrument",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Nej – det viktiga är att antennen har någorlunda fri sikt mot himlen",
+          "isCorrect": true
+        },
+        {
+          "text": "Ja – ju högre antennen sitter, desto starkare blir satellitsignalerna",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja – en hög placering krävs för att antennen ska nå satelliter nära horisonten",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej – antennen bör sitta så nära vattenytan som möjligt för bästa mottagning",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En GPS-antenn behöver inte monteras högt. Det viktiga är att den har någorlunda fri sikt mot himlen så att den kan ta emot signaler från satelliterna. Höjden i sig förbättrar inte mottagningen av satellitsignaler.",
+      "explanationEn": "A GPS antenna does not need to be mounted high. What matters is that it has a reasonably clear view of the sky so it can receive the satellite signals. Height itself does not improve satellite reception.",
+      "payload": {
+        "questionSv": "Ska en GPS-antenn monteras högt?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "3:2 / photo_81, photo_37"
+    },
+    {
+      "id": "nav-instr-003",
+      "topicId": "top-nav-instrument",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Differentiell GPS – sändare på exakt kända positioner tar emot satellitsignalerna och sänder korrektionsuppgifter till GPS-navigatörer i området",
+          "isCorrect": true
+        },
+        {
+          "text": "Digital GPS – en nyare generation mottagare som avkodar satellitsignalerna digitalt för högre noggrannhet",
+          "isCorrect": false
+        },
+        {
+          "text": "Dubbel GPS – två antenner ombord jämför sina positioner och räknar bort mätfelen",
+          "isCorrect": false
+        },
+        {
+          "text": "Dynamisk GPS – mottagaren kompenserar positionen för båtens fart och kursändringar",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "DGPS betyder differentiell GPS. Sändare på exakt kända positioner tar emot GPS-satelliternas signaler, räknar ut felet och sänder korrektionsuppgifter till dem som navigerar med GPS i området. DGPS förbättrar systemets noggrannhet till några få meter.",
+      "explanationEn": "DGPS stands for differential GPS. Reference stations at precisely known positions receive the GPS satellite signals, compute the error, and broadcast corrections to GPS users in the area. DGPS improves the system's accuracy to just a few metres.",
+      "payload": {
+        "questionSv": "Vad menas med DGPS?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": "Markerad med kustskepparkunskap-triangel i boken – därför taggad utan forarintyg.",
+      "sourceRef": "3:3 / photo_81, photo_37"
+    },
+    {
+      "id": "nav-instr-004",
+      "topicId": "top-nav-instrument",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Deviation",
+          "isCorrect": true
+        },
+        {
+          "text": "Missvisning",
+          "isCorrect": false
+        },
+        {
+          "text": "Inklination",
+          "isCorrect": false
+        },
+        {
+          "text": "Refraktion",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Felvisningen som uppstår när järnföremål finns nära kompassen kallas deviation. Den ska inte förväxlas med missvisningen, som är skillnaden mellan geografisk och magnetisk nord och beror på jordens magnetfält, inte på båten och dess utrustning.",
+      "explanationEn": "The compass error caused by iron objects near the compass is called deviation. It should not be confused with variation (magnetic declination), which is the difference between true and magnetic north and is caused by the Earth's magnetic field, not by the boat and its equipment.",
+      "payload": {
+        "questionSv": "Kompassen visar fel när järnföremål finns nära den. Vad kallas felvisningen?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "3:4 / photo_81, photo_37"
+    },
+    {
+      "id": "nav-instr-005",
+      "topicId": "top-nav-instrument",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Den ska synas bra för den som styr, riktas så att styrstrecket ligger parallellt med långskeppslinjen, placeras långt från störningskällor och kontrolleras för deviation",
+          "isCorrect": true
+        },
+        {
+          "text": "Den ska monteras så nära båtens tyngdpunkt som möjligt, skärmas av från direkt solljus och stämmas av mot GPS-kursen en gång per säsong",
+          "isCorrect": false
+        },
+        {
+          "text": "Den ska riktas mot norr vid monteringen, sitta i rorsmannens ögonhöjd och avmagnetiseras inför varje säsong",
+          "isCorrect": false
+        },
+        {
+          "text": "Den ska placeras skyddad mot stänk intill instrumentpanelen och justeras med hjälp av missvisningen i sjökortet",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Kompassen ska synas bra för den som styr och riktas så att linjen genom rosens centrum och styrstrecket är parallell med båtens långskeppslinje. Den ska placeras så långt från störningskällor som möjligt och sedan kontrolleras för deviation. Ett snett monterat styrstreck ger ett konstant kursfel.",
+      "explanationEn": "The compass must be clearly visible to the helmsman and aligned so that the line through the centre of the card and the lubber line is parallel to the boat's fore-and-aft line. It should be placed as far from sources of magnetic disturbance as possible and then checked for deviation. A misaligned lubber line gives a constant steering error.",
+      "payload": {
+        "questionSv": "Vad ska man tänka på vid kompassens placering?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "3:5 / photo_81, photo_37"
+    },
+    {
+      "id": "nav-instr-006",
+      "topicId": "top-nav-instrument",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Nej – de är inte magnetiska, men metallföremål kan ändå vara lömska eftersom legeringar ibland är magnetiska",
+          "isCorrect": true
+        },
+        {
+          "text": "Ja – alla metaller, även mässing, påverkar kompassen på ungefär samma sätt som järn",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja – plast kan laddas statiskt och drar då till sig kompassnålen på samma sätt som järn",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej – enbart elektriska kablar och elektronik kan ge felvisning på en magnetkompass",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Plast och mässing är inte magnetiska material och påverkar därför inte kompassen som järn gör. Men metaller är ofta lite lömska – det kan vara fråga om en legering som trots allt är magnetisk. Testa därför gärna föremål mot kompassen innan de placeras nära den.",
+      "explanationEn": "Plastic and brass are not magnetic materials and therefore do not affect the compass the way iron does. But metals can be deceptive – an object may be an alloy that is in fact magnetic. It is wise to test items against the compass before placing them near it.",
+      "payload": {
+        "questionSv": "Inverkar plast och mässing som järn på kompassen?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "3:6 / photo_81, photo_37"
+    }
+  ]
+}

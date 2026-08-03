@@ -4,53 +4,137 @@
     {
       "id": "rad-gru-001",
       "topicId": "top-radar-grund",
-      "tracks": ["klass8"],
+      "tracks": [
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "Ekots rörelse i förhållande till eget fartyg", "isCorrect": true },
-        { "text": "Ekots sanna kurs och fart över grund", "isCorrect": false },
-        { "text": "Endast ekots avstånd, inte dess rörelse", "isCorrect": false },
-        { "text": "Ekots rörelse genom vattnet rensad från ström", "isCorrect": false }
+        {
+          "text": "Ekots rörelse i förhållande till eget fartyg",
+          "isCorrect": true
+        },
+        {
+          "text": "Ekots sanna kurs och fart över grund",
+          "isCorrect": false
+        },
+        {
+          "text": "Endast ekots avstånd, inte dess rörelse",
+          "isCorrect": false
+        },
+        {
+          "text": "Ekots rörelse genom vattnet rensad från ström",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "I relativ rörelse (head-up/north-up utan sann rörelse) visar plotten ekots rörelse relativt eget fartyg. Ett eko med konstant bäring och minskande avstånd är på kollisionskurs. Sann kurs och fart fås först genom plotting eller ARPA.",
       "explanationEn": "A relative-motion display shows target motion relative to own ship; constant bearing, decreasing range = collision course.",
       "theoryAnchor": "radar/relativ-rorelse",
       "authorReviewed": false,
-      "payload": { "questionSv": "Vad visar ett ekospår på en radarbild i relativ rörelse?" }
+      "payload": {
+        "questionSv": "Vad visar ett ekospår på en radarbild i relativ rörelse?"
+      }
     },
     {
       "id": "rad-gru-002",
       "topicId": "top-radar-grund",
-      "tracks": ["klass8"],
+      "tracks": [
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "Closest Point of Approach — minsta passageavstånd till ekot", "isCorrect": true },
-        { "text": "Course Plotted Ahead — ekots förväntade kurs", "isCorrect": false },
-        { "text": "Contact Position Accuracy — ekots positionsnoggrannhet", "isCorrect": false },
-        { "text": "Current Point of Alteration — punkten där ekot girade", "isCorrect": false }
+        {
+          "text": "Closest Point of Approach — minsta passageavstånd till ekot",
+          "isCorrect": true
+        },
+        {
+          "text": "Course Plotted Ahead — ekots förväntade kurs",
+          "isCorrect": false
+        },
+        {
+          "text": "Contact Position Accuracy — ekots positionsnoggrannhet",
+          "isCorrect": false
+        },
+        {
+          "text": "Current Point of Alteration — punkten där ekot girade",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "CPA är det minsta avstånd ekot kommer att passera på om båda fartygen håller kurs och fart; TCPA är tiden dit. Små CPA-värden med kort TCPA kräver tidiga och tydliga åtgärder.",
       "explanationEn": "CPA: closest point of approach; TCPA is the time until it.",
       "theoryAnchor": "radar/cpa",
       "authorReviewed": false,
-      "payload": { "questionSv": "Vad betyder CPA i radarplotting och ARPA?" }
+      "payload": {
+        "questionSv": "Vad betyder CPA i radarplotting och ARPA?"
+      }
     },
     {
       "id": "rad-gru-003",
       "topicId": "top-radar-grund",
-      "tracks": ["klass8"],
+      "tracks": [
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "Att ekot är på stadig bäring och kollisionsrisk föreligger", "isCorrect": true },
-        { "text": "Att ekot girar undan och faran är över", "isCorrect": false },
-        { "text": "Att ekot är en fast punkt, till exempel en prick", "isCorrect": false },
-        { "text": "Att den egna radarns bäringsskala behöver kalibreras", "isCorrect": false }
+        {
+          "text": "Att ekot är på stadig bäring och kollisionsrisk föreligger",
+          "isCorrect": true
+        },
+        {
+          "text": "Att ekot girar undan och faran är över",
+          "isCorrect": false
+        },
+        {
+          "text": "Att ekot är en fast punkt, till exempel en prick",
+          "isCorrect": false
+        },
+        {
+          "text": "Att den egna radarns bäringsskala behöver kalibreras",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Ett eko som ligger kvar på samma bäring medan avståndet minskar är den klassiska kollisionsvarningen — samma regel som visuellt: oförändrad bäring, minskande avstånd. Plotta och agera enligt väjningsreglerna i god tid.",
       "explanationEn": "Steady bearing with decreasing range = risk of collision.",
       "theoryAnchor": "radar/barings-regel",
       "authorReviewed": false,
-      "payload": { "questionSv": "Ett radareko närmar sig på oförändrad bäring. Vad betyder det?" }
+      "payload": {
+        "questionSv": "Ett radareko närmar sig på oförändrad bäring. Vad betyder det?"
+      }
+    },
+    {
+      "id": "rad-gru-004",
+      "topicId": "top-radar-grund",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Bra syns land i form av steniga berg, stora stålfartyg, brytande vågor i lovart, kraftigt regn och raconfyrar; sämre syns låga öar, land som inte består av sten samt små båtar av trä eller plast",
+          "isCorrect": true
+        },
+        {
+          "text": "Bra syns små båtar av trä eller plast, låga öar och öarnas bortsidor; sämre syns stora stålfartyg, steniga berg och raconfyrar",
+          "isCorrect": false
+        },
+        {
+          "text": "Bra syns allt som ligger under vattenytan nära båten, låga sandöar och träbåtar; sämre syns brytande vågor, kraftigt regn och stålfartyg",
+          "isCorrect": false
+        },
+        {
+          "text": "Bra syns land av alla slag oavsett höjd och material; sämre syns enbart fartyg som är byggda av stål eller aluminium",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Bra på radarn syns exempelvis land i form av steniga berg, stora stålfartyg, brytande vågor nära båtens vindsida (lovartssidan), kraftigt regn eller hagel samt raconfyrar. Sämre syns låga öar och skär, land som inte består av sten och små båtar av trä eller plast. Öarnas bortsidor och sådant som befinner sig under vattenytan syns inte alls – radarn ser bara det som reflekterar radiovågorna.",
+      "explanationEn": "Objects that show up well on radar include rocky, mountainous land, large steel ships, breaking waves on the boat's windward side, heavy rain or hail, and racon beacons. Poor radar targets are low islands and skerries, land not made of rock, and small wooden or plastic boats. The far sides of islands and anything below the surface do not show at all – radar only sees what reflects its radio waves.",
+      "payload": {
+        "questionSv": "Räkna upp en del föremål som har förutsättningar att synas bra på radarn och andra som syns sämre."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": "Markerad med kustskepparkunskap-triangel i boken – därför taggad utan forarintyg.",
+      "sourceRef": "3:7 / photo_81, photo_37"
     }
   ]
 }

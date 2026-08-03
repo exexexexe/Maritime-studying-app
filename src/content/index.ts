@@ -41,6 +41,7 @@ const TOPIC_FILES: TopicFile[] = [
   require('../../content/radar/radarnavigering.json'),
   require('../../content/radar/mal-och-storningar.json'),
   require('../../content/navcalc/sjokortslasning.json'),
+  require('../../content/navcalc/instrument-och-deviation.json'),
 ];
 
 export const modules: ModuleDef[] = [...modulesJson.modules].sort(

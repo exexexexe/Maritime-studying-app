@@ -4,20 +4,408 @@
     {
       "id": "nav-sjo-001",
       "topicId": "top-nav-sjokort",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "chart_question",
       "imageAsset": "chart/exempel-1.png",
       "options": [
-        { "text": "En fyr", "isCorrect": true },
-        { "text": "Ett vrak", "isCorrect": false },
-        { "text": "En kyrka", "isCorrect": false },
-        { "text": "Ett kummel", "isCorrect": false }
+        {
+          "text": "En fyr",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett vrak",
+          "isCorrect": false
+        },
+        {
+          "text": "En kyrka",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett kummel",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Symbolen vid A — en punkt med strålar — betecknar en fyr. Siffrorna i det fria vattnet är djup i meter, och den gröna konen vid B är styrbords sidomärke. OBS: exempelbild — ersätts med riktigt sjökortsutsnitt.",
       "explanationEn": "The starred point symbol at A is a lighthouse; blue italic figures are depths in metres.",
       "theoryAnchor": "navigation/sjokortssymboler",
       "authorReviewed": false,
-      "payload": { "questionSv": "Vad betecknar symbolen vid A i sjökortsutsnittet?" }
+      "payload": {
+        "questionSv": "Vad betecknar symbolen vid A i sjökortsutsnittet?"
+      }
+    },
+    {
+      "id": "nav-sjo-002",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Väg B, eftersom den lilla ön ger skydd mot bränningen även om vägen blir något längre",
+          "isCorrect": true
+        },
+        {
+          "text": "Väg A, eftersom den är rakare och kortare än väg B",
+          "isCorrect": false
+        },
+        {
+          "text": "Väg A, eftersom den går i öppet vatten längre från öarna",
+          "isCorrect": false
+        },
+        {
+          "text": "Väg B, eftersom den är kortare och går längre från bränningen",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Den som tar vägen vid B har den lilla ön som skydd för bränningen. Ett sådant vägval lönar sig även om vägen är lite längre – lä av en ö ger lugnare vatten och säkrare navigering än en kortare väg exponerad för sjöhävning.",
+      "explanationEn": "Taking route B puts the small island between you and the breaking swell. Choosing shelter like this pays off even if the route is slightly longer – the lee of an island gives calmer water and safer navigation than a shorter but exposed route.",
+      "payload": {
+        "questionSv": "Se kartskissen i boken: två alternativa vägar A och B leder genom ett skärgårdsområde med bränningar. Väg B passerar i skydd av en liten ö men är något längre. Vilken av vägarna A och B är lättast och säkrast för navigatören?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Figurberoende fråga – kartskissen behöver beskäras från photo_83.",
+      "sourceRef": "2:1 / photo_83, photo_39"
+    },
+    {
+      "id": "nav-sjo-003",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Förbindelselinje D",
+          "isCorrect": true
+        },
+        {
+          "text": "Förbindelselinje C",
+          "isCorrect": false
+        },
+        {
+          "text": "Förbindelselinje E",
+          "isCorrect": false
+        },
+        {
+          "text": "Förbindelselinje F",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Genom att jämföra hur Tallholmen ser ut akteröver och hur Furuholmen ser ut förover med kartskissen kan man avgöra vilken av de utritade förbindelselinjerna man följer. Silhuetterna i bilderna stämmer med linje D – att kontrollera vyer både förut och akterut är ett bra sätt att fastställa vilken linje man ligger på.",
+      "explanationEn": "By comparing how Tallholmen appears astern and how Furuholmen appears ahead with the sketch chart, you can decide which of the drawn connecting lines you are following. The silhouettes match line D – checking views both ahead and astern is a good way to confirm which line you are on.",
+      "payload": {
+        "questionSv": "Du är på väg mellan Tallholmen och Furuholmen. Akteröver ser du Tallholmen och förover Furuholmen enligt bilderna i boken. Vilken av förbindelselinjerna C–F i kartskissen ligger du på?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Figurberoende fråga – kartskiss och silhuettbilder behöver beskäras från photo_83.",
+      "sourceRef": "2:2 / photo_83, photo_39"
+    },
+    {
+      "id": "nav-sjo-004",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "I enslinje G, därför att fyrarna där står längre isär",
+          "isCorrect": true
+        },
+        {
+          "text": "I enslinje H, därför att fyrarna där står tätare ihop",
+          "isCorrect": false
+        },
+        {
+          "text": "I enslinje H, därför att den bortre fyren där är högre",
+          "isCorrect": false
+        },
+        {
+          "text": "Det är ingen skillnad – båda enslinjerna reagerar lika snabbt",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En enslinje blir känsligare ju längre isär märkena står. I enslinje G står fyrarna längre isär, och då syns det snabbare att märkena glider ur ens när båten avviker från linjen.",
+      "explanationEn": "A transit (leading line) is more sensitive the farther apart its marks are. In leading line G the beacons stand farther apart, so the marks visibly slide out of alignment sooner when the boat drifts off the line.",
+      "payload": {
+        "questionSv": "I vilken av enslinjerna G eller H i kartskissen märker man fortast en avvikelse från enslinjen?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "2:3 / photo_83, photo_39"
+    },
+    {
+      "id": "nav-sjo-005",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Åt styrbord",
+          "isCorrect": true
+        },
+        {
+          "text": "Åt babord",
+          "isCorrect": false
+        },
+        {
+          "text": "Ingen gir behövs – du ligger fortfarande kvar på enslinjen",
+          "isCorrect": false
+        },
+        {
+          "text": "Det går inte att avgöra utan att först vända båten mot fyrarna",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "När man går på en enslinje akteröver ser man i vilken riktning märkena glidit isär och girar så att de åter ställer sig i ens. Enligt bilden har märkena glidit ur ens åt det håll som betyder att båten hamnat vänster om linjen – därför ska du gira åt styrbord för att komma tillbaka.",
+      "explanationEn": "When following a leading line astern you watch which way the marks have slid apart and turn so they line up again. According to the picture the marks have opened in the direction that means the boat is left of the line – so you turn to starboard to get back on it.",
+      "payload": {
+        "questionSv": "Du fortsätter på enslinjen akteröver och ser fyrarna enligt bilden i boken (märkena har glidit ur ens). Åt vilket håll ska du gira för att komma tillbaka till enslinjen?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Figurberoende fråga – bilden med fyrarnas inbördes läge behöver beskäras från photo_83 för att girriktningen ska kunna motiveras.",
+      "sourceRef": "2:4 / photo_83, photo_39"
+    },
+    {
+      "id": "nav-sjo-006",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "J-sundet och L-sundet syns öppna, medan K-sundet och M-sundet inte syns",
+          "isCorrect": true
+        },
+        {
+          "text": "J-sundet och K-sundet syns öppna, medan L-sundet och M-sundet inte syns",
+          "isCorrect": false
+        },
+        {
+          "text": "K-sundet och M-sundet syns öppna, medan J-sundet och L-sundet inte syns",
+          "isCorrect": false
+        },
+        {
+          "text": "Endast L-sundet syns öppet, medan J-, K- och M-sunden flyter ihop",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Från position I på enslinjen ligger J-sundet och L-sundet så att man kan se rakt igenom dem – de syns öppna. K-sundet och M-sundet ligger snett mot betraktaren, så deras öar flyter ihop och sunden syns inte. Om ett sund syns öppet eller inte beror på betraktarens position, inte bara på sundets bredd.",
+      "explanationEn": "From position I on the leading line, sounds J and L are aligned so you can see straight through them – they appear open. Sounds K and M lie at an angle to the observer, so their islands merge visually and the gaps cannot be seen. Whether a sound appears open depends on the observer's position, not just the width of the gap.",
+      "payload": {
+        "questionSv": "Du befinner dig vid punkt I på enslinjen. Vilka av sunden J, K, L och M mellan Långskärgårdens öar syns öppna och vilka flyter ihop?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Figurberoende fråga – kartskissen med Långskärgården behöver beskäras från photo_83.",
+      "sourceRef": "2:5 / photo_83, photo_39"
+    },
+    {
+      "id": "nav-sjo-007",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Den sydliga vägen",
+          "isCorrect": true
+        },
+        {
+          "text": "Den norra vägen – den är säker även utan lokalkännedom",
+          "isCorrect": false
+        },
+        {
+          "text": "Den mellersta vägen – den går fritt från de omärkta grunden",
+          "isCorrect": false
+        },
+        {
+          "text": "Den norra och den mellersta vägen är båda säkrare än den sydliga",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Den sydliga vägen är den säkraste. Den norra vägen kan vara säker när man har lokalkännedom och hittar rätt udde – bergiga uddar i skärgården kan vara lätta att förväxla. Den mellersta vägen är minst säker: att gå mellan icke-utmärkta grund utan bra frimärken är en utmaning.",
+      "explanationEn": "The southern route is the safest. The northern route can be safe if you have local knowledge and identify the right headland – rocky points in the archipelago are easy to confuse. The middle route is the least safe: passing between unmarked shoals without good landmarks is a real challenge.",
+      "payload": {
+        "questionSv": "Enligt skissen över Hamnsundet finns tre vägval in i sundet: en nordlig, en mellersta och en sydlig väg. Vilket vägval verkar säkrast för att komma in i Hamnsundet?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Figurberoende fråga – skissen över Hamnsundet behöver beskäras från photo_83.",
+      "sourceRef": "2:6 / photo_83, photo_39"
+    },
+    {
+      "id": "nav-sjo-008",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Från din position syns Rödgrunden åt samma håll som Huvudskärs fyr – grundet ligger rakt under fyren och de bildar en enslinje",
+          "isCorrect": true
+        },
+        {
+          "text": "Norra Rödgrunden är det enda av grunden som alltid har en synlig bränning omkring sig",
+          "isCorrect": false
+        },
+        {
+          "text": "Norra Rödgrunden kan pejlas genom att hålla Svarta grundet i ens med Valö kobbar",
+          "isCorrect": false
+        },
+        {
+          "text": "Norra Rödgrunden känns igen på att det ligger helt fritt mitt i fjärden, långt från andra skär",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Från positionen vid sundet intill Skötrökans fyr syns Rödgrunden åt samma håll som Huvudskärs fyr. Rödgrunden syns alltså under fyren, och de bildar en enslinje med varandra. Att utnyttja sådana naturliga enslinjer är ett klassiskt knep för att säkert identifiera skär som annars är lätta att förväxla.",
+      "explanationEn": "From the position at the sound near Skötrökan lighthouse, Rödgrunden appears in the same direction as Huvudskär lighthouse – the skerry sits right under the lighthouse, forming a natural transit with it. Using such natural leading lines is a classic trick for positively identifying skerries that are otherwise easy to confuse.",
+      "payload": {
+        "questionSv": "Du är på väg med motorbåt mot Huvudskär och går ut genom St Röksund vid fyren Skötrökan. Huvudskärs fyr syns i kikare från din position. Kan du komma på något knep för att lätt och säkert identifiera det norra av Rödgrunden?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Bygger på kartskiss (retuscherat kort 616) – figuren behöver beskäras från photo_82.",
+      "sourceRef": "2:7a / photo_82, photo_38"
+    },
+    {
+      "id": "nav-sjo-009",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Styr något utanför norra Rödgrundens norra udde och passera udden på 150–200 meters avstånd",
+          "isCorrect": true
+        },
+        {
+          "text": "Styr mitt emellan Rödgrunden och Valgrynnan och håll noga utkik efter bränningar",
+          "isCorrect": false
+        },
+        {
+          "text": "Styr något söder om Valgrynnan och passera grynnan på 150–200 meters avstånd",
+          "isCorrect": false
+        },
+        {
+          "text": "Gå öster om Valgrynnan med Svarta grundet rätt akteröver som riktmärke",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Genom att styra något utanför norra Rödgrundens norra udde och passera udden på 150–200 meters avstånd får du en tydlig, identifierbar referens (udden) att hålla avstånd till, samtidigt som kursen håller dig fri från Valgrynnan. Att navigera på en osynlig grynna direkt är osäkert – bättre att hålla känt avstånd till något som syns.",
+      "explanationEn": "By steering slightly outside the northern point of the northern Rödgrunden and passing it at 150–200 metres, you use a clearly identifiable reference (the point) to keep your distance from, while the track keeps you clear of Valgrynnan. Navigating on an invisible shoal directly is unreliable – it is better to keep a known distance from something you can see.",
+      "payload": {
+        "questionSv": "På väg mot Huvudskär över Huvudskärsfjärden ligger grynnan Valgrynnan i din väg. Hur väljer du väg för att undvika Valgrynnan?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Bygger på kartskiss (retuscherat kort 616) – figuren behöver beskäras från photo_82.",
+      "sourceRef": "2:7b / photo_82, photo_38"
+    },
+    {
+      "id": "nav-sjo-010",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Sundet mellan Stora Korskobben och Vita Korskobben",
+          "isCorrect": true
+        },
+        {
+          "text": "Sundet mellan Vita Korsk och Röda Korsk",
+          "isCorrect": false
+        },
+        {
+          "text": "Sundet mellan V Korskobben och Långskottet",
+          "isCorrect": false
+        },
+        {
+          "text": "Sundet mellan Småkorskobbarna och Torskbaljan",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Med Rökans östra udde rätt akteröver leder kursen rakt ner i sundet mellan Stora Korskobben och Vita Korskobben – det är den öppning du ser rätt förut mellan de låga skären. Att hålla ett känt föremål rätt akteröver är ett enkelt sätt att hålla en rak kurslinje utan instrument.",
+      "explanationEn": "With the eastern point of Rökan dead astern, the course leads straight into the sound between Stora Korskobben and Vita Korskobben – that is the opening you see right ahead between the low skerries. Keeping a known object dead astern is a simple way to hold a straight track without instruments.",
+      "payload": {
+        "questionSv": "Du befinner dig mellan det norra av Rödgrunden och Valgrynnan och styr så att Rökans östra udde siktas rätt akteröver. Förut syns en rad låga skär, och rätt förut ser du en öppning mellan några skär. Vilka skär är det?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Bygger på kartskiss (retuscherat kort 616) – figuren behöver beskäras från photo_82.",
+      "sourceRef": "2:7c / photo_82, photo_38"
+    },
+    {
+      "id": "nav-sjo-011",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Den västra vägen – där slipper man bekymra sig om enmetersgrundet och behöver inte gå lika nära skären",
+          "isCorrect": true
+        },
+        {
+          "text": "Den östra vägen – där är vattnet djupare och man passerar längre från Småkorskobbarna",
+          "isCorrect": false
+        },
+        {
+          "text": "Den östra vägen – enmetersgrundet ligger på den västra sidan och måste undvikas",
+          "isCorrect": false
+        },
+        {
+          "text": "Vägarna är likvärdiga – båda kräver samma passageavstånd till Småkorskobbarna",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Väljer man att gå öster om Småkorskobbarna gäller det att styra tämligen nära dem. Att gå väster om Småkorskobbarna är något enklare och säkrare eftersom man slipper bekymra sig för enmetersgrundet. Grund på en–två meters djup är ofta de riktigt farliga eftersom de inte syns lika bra som grund i vattenytan, men ändå är farliga för de flesta båtar.",
+      "explanationEn": "If you go east of Småkorskobbarna you must steer quite close to them. Going west of Småkorskobbarna is somewhat simpler and safer because you avoid worrying about the one-metre shoal. Shoals lying one to two metres deep are often the truly dangerous ones: they are not as visible as rocks awash, yet still dangerous to most boats.",
+      "payload": {
+        "questionSv": "Du har fortsatt mot sundet mellan Stora Korskobben och Vita Korskobben, och mitt emellan skären finns det två vägar in mot Huvudskär: öster respektive väster om Småkorskobbarna. Vilken av vägarna är lättare och säkrare?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Bygger på kartskiss (retuscherat kort 616) – figuren behöver beskäras från photo_82. Ursprungsfrågan är öppen (beskriv navigeringen för båda vägarna).",
+      "sourceRef": "2:8 / photo_82, photo_38"
     }
   ]
 }
