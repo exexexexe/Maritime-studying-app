@@ -1,0 +1,110 @@
+# Innehållsförfattande — riktlinjer
+
+Hur frågor skrivs för Plugga Sjöexamen. Kör `npm run check:content` efter varje
+ändring — fel bryter bygget, varningar ska åtgärdas innan `authorReviewed: true`.
+
+## Grundregler
+
+1. **Korrekthet ligger på alternativet, aldrig på positionen.** Varje alternativ
+   har `isCorrect: true/false`. Appen blandar ordningen vid varje försök —
+   skriv aldrig innehåll som antar att rätt svar står först.
+2. **Exakt ett rätt svar.** Inga "alla ovanstående" eller "både A och B".
+3. **Förklaringen är lektionen.** `explanationSv` ska förklara *varför* rätt
+   svar är rätt och gärna varför den vanligaste felläsningen är fel — inte
+   bara upprepa svaret.
+4. **`authorReviewed: false` tills en människa granskat.** AI-utkast och
+   ogranskade frågor får aldrig sättas till `true` i förbifarten.
+
+## Distraktorer (fel svar)
+
+En bra distraktor är ett svar som en student med en *vanlig missuppfattning*
+skulle välja. En dålig distraktor är utfyllnad som ingen väljer.
+
+- **Bygg på verkliga förväxlingar.** Sektorgrader förväxlas med varandra
+  (112,5° / 135° / 225°), lanternkombinationer med närliggande betydelser
+  (rött över vitt = fiske, vitt över rött = lots), styrbord med babord.
+- **Parallell struktur.** Alternativen ska ha samma form och detaljnivå, så
+  att formen inte avslöjar svaret. Ändra nyckelordet (siffran, färgen,
+  ordningen) — inte meningsbyggnaden.
+- **Längdparitet.** Rätt svar får inte vara det längsta/mest kvalificerade
+  alternativet. Lintern varnar för längdavvikare.
+- **Inget avslöjande ordval.** Undvik att rätt svar ensamt innehåller
+  facktermen från frågan, absoluta ord ("alltid", "aldrig") i fel svar, eller
+  tvekord ("kan möjligen") i rätt svar.
+- **Tre distraktorer** är målet (fyra alternativ totalt). Färre ger varning.
+
+## Bra kontra dåligt — tre exempel
+
+### 1. Sektorfråga
+
+**Bra** — alla alternativ är trovärdiga grader ur samma regelverk:
+
+> Över hur stor båge lyser ett toppljus?
+> - 225°, riktat förut ✓
+> - 135°, riktat förut
+> - 112,5°, riktat förut
+> - 360°, synligt runtom
+
+**Dåligt** — distraktorerna är omöjliga påhitt, rätt svar är längst och mest
+kvalificerat:
+
+> Över hur stor båge lyser ett toppljus?
+> - 225°, från rätt förut till 22,5° akter om tvärs på vardera sidan ✓
+> - 100°
+> - 300°
+> - Det beror på fartygets längd
+
+### 2. Ljusbildsfråga
+
+**Bra** — varje distraktor är en granne i regelverket som *nästan* stämmer:
+
+> Rött ljus över vitt ljus, båda synliga runtom. Vad ser du?
+> - Ett fiskefartyg som fiskar med annat redskap än trål ✓
+> - Ett fiskefartyg som trålar          *(grönt över vitt — närliggande regel)*
+> - Ett lotsfartyg i tjänst             *(vitt över rött — omvänd ordning)*
+> - Ett ej manöverfärdigt fartyg som gör fart   *(rött över rött — närliggande)*
+
+**Dåligt** — distraktorer från fel domän som ingen med grundkunskap väljer:
+
+> Rött ljus över vitt ljus. Vad ser du?
+> - Ett fiskefartyg som fiskar med annat redskap än trål ✓
+> - En fyr
+> - Ett flygplan
+> - En bil på en strandväg
+
+### 3. Regelfråga
+
+**Bra** — distraktorerna är verkliga missuppfattningar om när regeln gäller:
+
+> När ska ett fartyg föra lanternor?
+> - Från solnedgång till soluppgång, samt vid nedsatt sikt ✓
+> - Endast mellan klockan 22 och 06      *(tro att klockslag styr)*
+> - Endast när andra fartyg finns i närheten   *(tro att det är situationsstyrt)*
+> - Endast utanför skyddade farvatten    *(tro att det är områdesstyrt)*
+
+**Dåligt** — avslöjande ordval: absolutord i distraktorerna, tvekord saknas
+bara i rätt svar, och rätt svar återanvänder frågans formulering:
+
+> När ska ett fartyg föra lanternor?
+> - Fartyg för lanternor från solnedgång till soluppgång ✓
+> - Aldrig på sommaren
+> - Bara om kaptenen vill
+> - Alltid, utan undantag
+
+## Bild- och diagramfrågor
+
+- `lantern`-frågor: ljusbilden definieras i `payload.scene` (positioner i ett
+  100×60-fält). Kontrollera spegelbilden: ett fartyg *mot* betraktaren visar
+  sitt gröna ljus till *vänster* i bilden.
+- `chart_question` / `radar_question`: kräver `imageAsset` (relativ sökväg
+  under `assets/content-images/`). Optimera för mobilskärm; inga
+  fullupplösta scanningar. Fotograferat läromedel under `questions/` är
+  **endast lokal referens** — upphovsrättsskyddat, får inte paketeras i appen
+  eller pushas till repot.
+
+## Spårmärkning
+
+Märk varje fråga med de spår där den faktiskt ingår i kunskapskraven:
+`forarintyg`, `kustskeppare`, `klass8`, `vhf`. Osäker på en radar- eller
+specialfråga? Märk bara `klass8` och flagga för granskning i stället för att
+gissa brett.
