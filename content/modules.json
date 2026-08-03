@@ -8,7 +8,9 @@
     { "id": "mod-safety", "slug": "sakerhet", "titleSv": "Säkerhet", "titleEn": "Safety", "order": 6 },
     { "id": "mod-stability", "slug": "stabilitet", "titleSv": "Stabilitet & balans", "titleEn": "Stability & Balance", "order": 7 },
     { "id": "mod-vhf", "slug": "vhf", "titleSv": "VHF / SRC", "titleEn": "VHF / SRC", "order": 8 },
-    { "id": "mod-radar", "slug": "radar", "titleSv": "Radar", "titleEn": "Radar", "order": 9 }
+    { "id": "mod-radar", "slug": "radar", "titleSv": "Radar", "titleEn": "Radar", "order": 9 },
+    { "id": "mod-seamanship", "slug": "sjomanskap", "titleSv": "Sjömanskap", "titleEn": "Seamanship", "order": 10 },
+    { "id": "mod-rules", "slug": "regler-och-miljo", "titleSv": "Regler & miljö", "titleEn": "Rules & Environment", "order": 11 }
   ],
   "topics": [
     { "id": "top-col-vajning", "moduleId": "mod-colreg", "slug": "vajningsregler", "titleSv": "Väjningsregler", "titleEn": "Steering and sailing rules" },
@@ -22,6 +24,16 @@
     { "id": "top-weather-sikt", "moduleId": "mod-weather", "slug": "sikt-och-prognos", "titleSv": "Sikt, dimma och prognoser", "titleEn": "Visibility, fog and forecasts" },
     { "id": "top-safety-nod", "moduleId": "mod-safety", "slug": "nodsignaler", "titleSv": "Nödsignaler och sjöräddning", "titleEn": "Distress signals and SAR" },
     { "id": "top-safety-ombord", "moduleId": "mod-safety", "slug": "sakerhet-ombord", "titleSv": "Säkerhet ombord", "titleEn": "Safety on board" },
+    { "id": "top-safety-sjukvard", "moduleId": "mod-safety", "slug": "forsta-hjalpen", "titleSv": "Första hjälpen och sjukvård", "titleEn": "First aid" },
+    { "id": "top-buoy-fyrar", "moduleId": "mod-buoyage", "slug": "fyrar-och-ljuskaraktarer", "titleSv": "Fyrar och ljuskaraktärer", "titleEn": "Lighthouses and light characteristics" },
+    { "id": "top-nav-instrument", "moduleId": "mod-navcalc", "slug": "instrument-och-deviation", "titleSv": "Instrument och deviation", "titleEn": "Instruments and deviation" },
+    { "id": "top-nav-baring", "moduleId": "mod-navcalc", "slug": "baringar-och-position", "titleSv": "Bäringar och positionsbestämning", "titleEn": "Bearings and position fixing" },
+    { "id": "top-lan-bilder", "moduleId": "mod-lanterns", "slug": "ljusbildsovningar", "titleSv": "Ljusbildsövningar", "titleEn": "Light picture drills" },
+    { "id": "top-sjo-fortojning", "moduleId": "mod-seamanship", "slug": "fortojning-och-ankring", "titleSv": "Förtöjning och ankring", "titleEn": "Mooring and anchoring" },
+    { "id": "top-sjo-tagvirke", "moduleId": "mod-seamanship", "slug": "tagvirke-och-knopar", "titleSv": "Tågvirke och knopar", "titleEn": "Ropes and knots" },
+    { "id": "top-reg-miljo", "moduleId": "mod-rules", "slug": "miljo-och-allemansratt", "titleSv": "Miljö, allemansrätt och fiske", "titleEn": "Environment and public access" },
+    { "id": "top-reg-utland", "moduleId": "mod-rules", "slug": "utomlands-och-passagerare", "titleSv": "Utomlands och passagerartrafik", "titleEn": "Abroad and passenger rules" },
+    { "id": "top-reg-sjolag", "moduleId": "mod-rules", "slug": "sjolag-och-bemanning", "titleSv": "Sjölag och bemanning", "titleEn": "Maritime law and manning" },
     { "id": "top-vhf-rutiner", "moduleId": "mod-vhf", "slug": "anrop-och-rutiner", "titleSv": "Anrop och trafikrutiner", "titleEn": "Calls and procedures" },
     { "id": "top-vhf-dsc", "moduleId": "mod-vhf", "slug": "dsc-och-nod", "titleSv": "DSC och nödtrafik", "titleEn": "DSC and distress traffic" },
     { "id": "top-radar-grund", "moduleId": "mod-radar", "slug": "grunder-och-plotting", "titleSv": "Grunder och plotting", "titleEn": "Basics and plotting" },
