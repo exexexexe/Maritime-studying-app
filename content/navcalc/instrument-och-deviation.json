@@ -221,6 +221,117 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "3:6 / photo_81, photo_37"
+    },
+    {
+      "id": "nav-instr-007",
+      "topicId": "top-nav-instrument",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Nej, deviationen är olika stor på olika kurser",
+          "isCorrect": true
+        },
+        {
+          "text": "Ja, deviationen är konstant så länge båten är på samma plats",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej, men den är alltid lika stor på två motsatta kurser",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja, deviationen beror bara på var på jorden båten befinner sig",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Deviationen orsakas av magnetiska föremål ombord, och deras påverkan på kompassnålen ändras när båten (och därmed föremålen) vrids i förhållande till jordmagnetfältet. Därför är deviationen olika stor på olika kurser — det är därför en deviationstabell görs upp för många kurser.",
+      "explanationEn": "Deviation is caused by magnetic objects on board, and their effect on the compass needle changes as the boat turns relative to the Earth's magnetic field. That is why deviation differs from course to course and a deviation table is made for many headings.",
+      "payload": {
+        "questionSv": "Är deviationen lika stor på alla kurser?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:10 / photo_80 (facit photo_36)"
+    },
+    {
+      "id": "nav-instr-008",
+      "topicId": "top-nav-instrument",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Genom att flytta magnetiska föremål längre bort från kompassen och/eller sätta kompenseringsmagneter nära kompassen",
+          "isCorrect": true
+        },
+        {
+          "text": "Genom att räkna om kursen med hjälp av kompassrosen i sjökortet",
+          "isCorrect": false
+        },
+        {
+          "text": "Genom att kalibrera kompassen mot GPS-mottagarens kursvisning",
+          "isCorrect": false
+        },
+        {
+          "text": "Genom att montera kompassen på en plats med extra mycket järn omkring",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Deviationen minskas vid källan: magnetiska föremål flyttas bort från kompassen och/eller kompenseringsmagneter monteras nära kompassen så att de motverkar den störande magnetismen. Kvarvarande deviation dokumenteras i en deviationstabell.",
+      "explanationEn": "Deviation is reduced at the source: magnetic objects are moved away from the compass and/or compensating magnets are fitted near it to counteract the disturbing magnetism. Any remaining deviation is recorded in a deviation table.",
+      "payload": {
+        "questionSv": "Hur minskas deviationen?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:12 / photo_80 (facit photo_36)"
+    },
+    {
+      "id": "nav-instr-009",
+      "topicId": "top-nav-instrument",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Den kan ändras — till exempel efter vinteruppläggning eller om ny utrustning med magnetiskt material monteras nära kompassen",
+          "isCorrect": true
+        },
+        {
+          "text": "Ja, deviationen är konstant så länge samma kompass sitter kvar ombord",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej, den ändras kraftigt varje år i takt med jordmagnetfältets förändring",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja, deviationen påverkas bara av var på jorden båten används",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Det är olika från båt till båt, men man får vara beredd på att deviationen förändras något när båten legat stilla länge i samma riktning, till exempel under vinteruppläggningen, och naturligtvis om ny utrustning med magnetiskt material monteras nära kompassen. Därför bör deviationen kontrolleras regelbundet.",
+      "explanationEn": "It varies from boat to boat, but you should expect deviation to change somewhat after the boat has lain still in the same direction for a long time (e.g. winter storage), and of course if new equipment containing magnetic material is fitted near the compass. Check the deviation regularly.",
+      "payload": {
+        "questionSv": "Är deviationen lika stor från år till år?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:14 / photo_80 (facit photo_36)"
     }
   ]
 }

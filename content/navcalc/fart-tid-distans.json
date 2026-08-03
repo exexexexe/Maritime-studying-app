@@ -4,50 +4,2038 @@
     {
       "id": "nav-fart-001",
       "topicId": "top-nav-fart",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "calculation",
       "options": [],
       "explanationSv": "Genereras med nya värden vid varje försök: distans ur fart och tid.",
       "explanationEn": "Generated per attempt: distance from speed and time.",
       "theoryAnchor": "navigation/fart-tid-distans",
       "authorReviewed": false,
-      "payload": { "questionSv": "Fartberäkning: distans", "generator": "std-distance" }
+      "payload": {
+        "questionSv": "Fartberäkning: distans",
+        "generator": "std-distance"
+      }
     },
     {
       "id": "nav-fart-002",
       "topicId": "top-nav-fart",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "calculation",
       "options": [],
       "explanationSv": "Genereras med nya värden vid varje försök: gångtid ur distans och fart.",
       "explanationEn": "Generated per attempt: time from distance and speed.",
       "theoryAnchor": "navigation/fart-tid-distans",
       "authorReviewed": false,
-      "payload": { "questionSv": "Fartberäkning: gångtid", "generator": "std-time" }
+      "payload": {
+        "questionSv": "Fartberäkning: gångtid",
+        "generator": "std-time"
+      }
     },
     {
       "id": "nav-fart-003",
       "topicId": "top-nav-fart",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "calculation",
       "options": [],
       "explanationSv": "Genereras med nya värden vid varje försök: erforderlig fart ur distans och tid.",
       "explanationEn": "Generated per attempt: required speed from distance and time.",
       "theoryAnchor": "navigation/fart-tid-distans",
       "authorReviewed": false,
-      "payload": { "questionSv": "Fartberäkning: erforderlig fart", "generator": "std-speed" }
+      "payload": {
+        "questionSv": "Fartberäkning: erforderlig fart",
+        "generator": "std-speed"
+      }
     },
     {
       "id": "nav-fart-004",
       "topicId": "top-nav-fart",
-      "tracks": ["kustskeppare", "klass8"],
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "calculation",
       "options": [],
       "explanationSv": "Genereras med nya värden vid varje försök: fart över grund med ström längs kursen.",
       "explanationEn": "Generated per attempt: speed over ground with current along track.",
       "theoryAnchor": "navigation/strom",
       "authorReviewed": false,
-      "payload": { "questionSv": "Fartberäkning: ström längs kursen", "generator": "current-speed" }
+      "payload": {
+        "questionSv": "Fartberäkning: ström längs kursen",
+        "generator": "current-speed"
+      }
+    },
+    {
+      "id": "nav-fart-005",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "1 852 meter",
+          "isCorrect": true
+        },
+        {
+          "text": "1 000 meter",
+          "isCorrect": false
+        },
+        {
+          "text": "1 609 meter",
+          "isCorrect": false
+        },
+        {
+          "text": "1 500 meter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En sjömil (nautisk mil, M) är 1 852 meter och motsvarar en latitudminut. Därför kan distanser alltid mätas på sjökortets latitudskala. 1 609 meter är en engelsk landmile.",
+      "explanationEn": "One nautical mile (M) is 1,852 metres and corresponds to one minute of latitude, which is why distances are always measured on the chart's latitude scale. 1,609 metres is a statute mile.",
+      "payload": {
+        "questionSv": "Hur lång är en sjömil i meter?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:16 / photo_79 (facit photo_36)"
+    },
+    {
+      "id": "nav-fart-006",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ungefär 4 timmar 10 minuter",
+          "isCorrect": true
+        },
+        {
+          "text": "Ungefär 3 timmar 20 minuter",
+          "isCorrect": false
+        },
+        {
+          "text": "Ungefär 5 timmar",
+          "isCorrect": false
+        },
+        {
+          "text": "Ungefär 2 timmar 45 minuter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Med 5 knop avverkas 5 sjömil per timme. Genom att ta 5 M i passaren och stega längs färdvägen får man antalet timmar direkt. Enligt facit tar resan ungefär 4 timmar 10 minuter (distansen är alltså cirka 21 M).",
+      "explanationEn": "At 5 knots you cover 5 nautical miles per hour. Setting the dividers to 5 M and stepping along the route gives the number of hours directly. According to the answer key the trip takes about 4 hours 10 minutes (so the distance is roughly 21 M).",
+      "payload": {
+        "questionSv": "Du ligger i Askfatshamnen vid Dalarö (N-delen av sjökort 616) och ska till marinan (gästhamnen) i Nynäshamn (SV-delen av 616). Hur lång tid tar resan om din båt gör 5 knop? Lös frågan genom att ta fem sjömil i passaren och stega i sjökortet."
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 för att stega distansen.",
+      "sourceRef": "4:21 / photo_79 (facit photo_36)"
+    },
+    {
+      "id": "nav-fart-007",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Cirka 5 timmar 30 minuter",
+          "isCorrect": true
+        },
+        {
+          "text": "Cirka 4 timmar 40 minuter",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 6 timmar 15 minuter",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 5 timmar",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Med 3,7 knop avverkas 3,7 sjömil per timme. Stegar man 3,7 M i passaren längs samma färdväg får man enligt facit ungefär 5 timmar 30 minuter.",
+      "explanationEn": "At 3.7 knots you cover 3.7 nautical miles per hour. Stepping 3.7 M along the same route gives about 5 hours 30 minutes according to the answer key.",
+      "payload": {
+        "questionSv": "Om båten i förra frågan (Askfatshamnen–Nynäshamn, sjökort 616) i stället hade gjort 3,7 knop — hur lång tid hade färden då tagit? Lös frågan genom att ta 3,7 sjömil i passaren och stega."
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 för att stega distansen.",
+      "sourceRef": "4:22 / photo_79 (facit photo_36)"
+    },
+    {
+      "id": "nav-fart-008",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Omkring 3 timmar",
+          "isCorrect": true
+        },
+        {
+          "text": "Omkring 2 timmar",
+          "isCorrect": false
+        },
+        {
+          "text": "Omkring 4 timmar",
+          "isCorrect": false
+        },
+        {
+          "text": "Omkring 3 timmar 30 minuter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Med 5 knop avverkas 5 sjömil per timme. Enligt facit tar resan omkring 3 timmar, vilket motsvarar en distans på ungefär 15 M.",
+      "explanationEn": "At 5 knots you cover 5 nautical miles per hour. According to the answer key the trip takes about 3 hours, i.e. a distance of roughly 15 M.",
+      "payload": {
+        "questionSv": "Du ligger ute på Huvudskär (SO-delen av sjökort 616) och ska till Karlslunds marina (NV-delen av 616). Hur lång tid tar resan om din båt gör 5 knop? Lös frågan genom att ta fem sjömil i passaren och stega."
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 för att stega distansen.",
+      "sourceRef": "4:23 / photo_79 (facit photo_36)"
+    },
+    {
+      "id": "nav-fart-009",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "1 timme",
+          "isCorrect": true
+        },
+        {
+          "text": "2 timmar",
+          "isCorrect": false
+        },
+        {
+          "text": "30 minuter",
+          "isCorrect": false
+        },
+        {
+          "text": "1 timme 30 minuter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tiden = distansen/farten: 1/1 = 1 timme. Alternativ metod som ger svaret direkt i minuter: distansen × 60/farten = 1 × 60/1 = 60 minuter.",
+      "explanationEn": "Time = distance/speed: 1/1 = 1.0 hours = 1 hour. Alternative: distance × 60/speed gives the answer directly in minutes.",
+      "payload": {
+        "questionSv": "Hur lång tid tar det att gå 1 sjömil med 1 knops fart?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:24a / photo_79 (facit photo_36, photo_35)"
+    },
+    {
+      "id": "nav-fart-010",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "2 timmar",
+          "isCorrect": true
+        },
+        {
+          "text": "4 timmar",
+          "isCorrect": false
+        },
+        {
+          "text": "1 timme",
+          "isCorrect": false
+        },
+        {
+          "text": "3 timmar",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tiden = distansen/farten: 2/1 = 2 timmar. Alternativ metod som ger svaret direkt i minuter: distansen × 60/farten = 2 × 60/1 = 120 minuter.",
+      "explanationEn": "Time = distance/speed: 2/1 = 2.0 hours = 2 hours. Alternative: distance × 60/speed gives the answer directly in minutes.",
+      "payload": {
+        "questionSv": "Hur lång tid tar det att gå 2 sjömil med 1 knops fart?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:24b / photo_79 (facit photo_36, photo_35)"
+    },
+    {
+      "id": "nav-fart-011",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "2 timmar",
+          "isCorrect": true
+        },
+        {
+          "text": "4 timmar",
+          "isCorrect": false
+        },
+        {
+          "text": "1 timme",
+          "isCorrect": false
+        },
+        {
+          "text": "3 timmar",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tiden = distansen/farten: 6/3 = 2 timmar. Alternativ metod som ger svaret direkt i minuter: distansen × 60/farten = 6 × 60/3 = 120 minuter.",
+      "explanationEn": "Time = distance/speed: 6/3 = 2.0 hours = 2 hours. Alternative: distance × 60/speed gives the answer directly in minutes.",
+      "payload": {
+        "questionSv": "Hur lång tid tar det att gå 6 sjömil med 3 knops fart?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:24c / photo_79 (facit photo_36, photo_35)"
+    },
+    {
+      "id": "nav-fart-012",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "2 timmar",
+          "isCorrect": true
+        },
+        {
+          "text": "4 timmar",
+          "isCorrect": false
+        },
+        {
+          "text": "1 timme",
+          "isCorrect": false
+        },
+        {
+          "text": "3 timmar",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tiden = distansen/farten: 60/30 = 2 timmar. Alternativ metod som ger svaret direkt i minuter: distansen × 60/farten = 60 × 60/30 = 120 minuter.",
+      "explanationEn": "Time = distance/speed: 60/30 = 2.0 hours = 2 hours. Alternative: distance × 60/speed gives the answer directly in minutes.",
+      "payload": {
+        "questionSv": "Hur lång tid tar det att gå 60 sjömil med 30 knops fart?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:24d / photo_79 (facit photo_36, photo_35)"
+    },
+    {
+      "id": "nav-fart-013",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "4 timmar",
+          "isCorrect": true
+        },
+        {
+          "text": "8 timmar",
+          "isCorrect": false
+        },
+        {
+          "text": "2 timmar",
+          "isCorrect": false
+        },
+        {
+          "text": "6 timmar",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tiden = distansen/farten: 60/15 = 4 timmar. Alternativ metod som ger svaret direkt i minuter: distansen × 60/farten = 60 × 60/15 = 240 minuter.",
+      "explanationEn": "Time = distance/speed: 60/15 = 4.0 hours = 4 hours. Alternative: distance × 60/speed gives the answer directly in minutes.",
+      "payload": {
+        "questionSv": "Hur lång tid tar det att gå 60 sjömil med 15 knops fart?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:24e / photo_79 (facit photo_36, photo_35)"
+    },
+    {
+      "id": "nav-fart-014",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "6 timmar",
+          "isCorrect": true
+        },
+        {
+          "text": "12 timmar",
+          "isCorrect": false
+        },
+        {
+          "text": "3 timmar",
+          "isCorrect": false
+        },
+        {
+          "text": "9 timmar",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tiden = distansen/farten: 60/10 = 6 timmar. Alternativ metod som ger svaret direkt i minuter: distansen × 60/farten = 60 × 60/10 = 360 minuter.",
+      "explanationEn": "Time = distance/speed: 60/10 = 6.0 hours = 6 hours. Alternative: distance × 60/speed gives the answer directly in minutes.",
+      "payload": {
+        "questionSv": "Hur lång tid tar det att gå 60 sjömil med 10 knops fart?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:24f / photo_79 (facit photo_36, photo_35)"
+    },
+    {
+      "id": "nav-fart-015",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "10 timmar",
+          "isCorrect": true
+        },
+        {
+          "text": "20 timmar",
+          "isCorrect": false
+        },
+        {
+          "text": "5 timmar",
+          "isCorrect": false
+        },
+        {
+          "text": "15 timmar",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tiden = distansen/farten: 60/6 = 10 timmar. Alternativ metod som ger svaret direkt i minuter: distansen × 60/farten = 60 × 60/6 = 600 minuter.",
+      "explanationEn": "Time = distance/speed: 60/6 = 10.0 hours = 10 hours. Alternative: distance × 60/speed gives the answer directly in minutes.",
+      "payload": {
+        "questionSv": "Hur lång tid tar det att gå 60 sjömil med 6 knops fart?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:24g / photo_79 (facit photo_36, photo_35)"
+    },
+    {
+      "id": "nav-fart-016",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "12 timmar",
+          "isCorrect": true
+        },
+        {
+          "text": "24 timmar",
+          "isCorrect": false
+        },
+        {
+          "text": "6 timmar",
+          "isCorrect": false
+        },
+        {
+          "text": "18 timmar",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tiden = distansen/farten: 60/5 = 12 timmar. Alternativ metod som ger svaret direkt i minuter: distansen × 60/farten = 60 × 60/5 = 720 minuter.",
+      "explanationEn": "Time = distance/speed: 60/5 = 12.0 hours = 12 hours. Alternative: distance × 60/speed gives the answer directly in minutes.",
+      "payload": {
+        "questionSv": "Hur lång tid tar det att gå 60 sjömil med 5 knops fart?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:24h / photo_79 (facit photo_36, photo_35)"
+    },
+    {
+      "id": "nav-fart-017",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "1 timme",
+          "isCorrect": true
+        },
+        {
+          "text": "2 timmar",
+          "isCorrect": false
+        },
+        {
+          "text": "30 minuter",
+          "isCorrect": false
+        },
+        {
+          "text": "1 timme 30 minuter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tiden = distansen/farten: 6/6 = 1 timme. Alternativ metod som ger svaret direkt i minuter: distansen × 60/farten = 6 × 60/6 = 60 minuter.",
+      "explanationEn": "Time = distance/speed: 6/6 = 1.0 hours = 1 hour. Alternative: distance × 60/speed gives the answer directly in minutes.",
+      "payload": {
+        "questionSv": "Hur lång tid tar det att gå 6 sjömil med 6 knops fart?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:24i / photo_79 (facit photo_36, photo_35)"
+    },
+    {
+      "id": "nav-fart-018",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "30 minuter",
+          "isCorrect": true
+        },
+        {
+          "text": "1 timme",
+          "isCorrect": false
+        },
+        {
+          "text": "15 minuter",
+          "isCorrect": false
+        },
+        {
+          "text": "45 minuter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tiden = distansen/farten: 6/12 = 0,5 timmar = 30 minuter. Alternativ metod som ger svaret direkt i minuter: distansen × 60/farten = 6 × 60/12 = 30 minuter.",
+      "explanationEn": "Time = distance/speed: 6/12 = 0.5 hours = 30 minutes. Alternative: distance × 60/speed gives the answer directly in minutes.",
+      "payload": {
+        "questionSv": "Hur lång tid tar det att gå 6 sjömil med 12 knops fart?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:24j / photo_79 (facit photo_36, photo_35)"
+    },
+    {
+      "id": "nav-fart-019",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "15 minuter",
+          "isCorrect": true
+        },
+        {
+          "text": "30 minuter",
+          "isCorrect": false
+        },
+        {
+          "text": "8 minuter",
+          "isCorrect": false
+        },
+        {
+          "text": "22 minuter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tiden = distansen/farten: 6/24 = 0,25 timmar = 15 minuter. Alternativ metod som ger svaret direkt i minuter: distansen × 60/farten = 6 × 60/24 = 15 minuter.",
+      "explanationEn": "Time = distance/speed: 6/24 = 0.25 hours = 15 minutes. Alternative: distance × 60/speed gives the answer directly in minutes.",
+      "payload": {
+        "questionSv": "Hur lång tid tar det att gå 6 sjömil med 24 knops fart?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:24k / photo_79 (facit photo_36, photo_35)"
+    },
+    {
+      "id": "nav-fart-020",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "36 minuter",
+          "isCorrect": true
+        },
+        {
+          "text": "1 timme 12 minuter",
+          "isCorrect": false
+        },
+        {
+          "text": "18 minuter",
+          "isCorrect": false
+        },
+        {
+          "text": "54 minuter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tiden = distansen/farten: 6/10 = 0,6 timmar = 36 minuter. Alternativ metod som ger svaret direkt i minuter: distansen × 60/farten = 6 × 60/10 = 36 minuter.",
+      "explanationEn": "Time = distance/speed: 6/10 = 0.6 hours = 36 minutes. Alternative: distance × 60/speed gives the answer directly in minutes.",
+      "payload": {
+        "questionSv": "Hur lång tid tar det att gå 6 sjömil med 10 knops fart?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:24l / photo_79 (facit photo_36, photo_35)"
+    },
+    {
+      "id": "nav-fart-021",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "6 timmar 30 minuter",
+          "isCorrect": true
+        },
+        {
+          "text": "13 timmar",
+          "isCorrect": false
+        },
+        {
+          "text": "3 timmar 15 minuter",
+          "isCorrect": false
+        },
+        {
+          "text": "9 timmar 45 minuter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tiden = distansen/farten: 6,5/1 = 6,5 timmar = 6 timmar 30 minuter. Alternativ metod som ger svaret direkt i minuter: distansen × 60/farten = 6,5 × 60/1 = 390 minuter.",
+      "explanationEn": "Time = distance/speed: 6.5/1 = 6.5 hours = 6 hours 30 minutes. Alternative: distance × 60/speed gives the answer directly in minutes.",
+      "payload": {
+        "questionSv": "Hur lång tid tar det att gå 6,5 sjömil med 1 knops fart?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:24m / photo_79 (facit photo_36, photo_35)"
+    },
+    {
+      "id": "nav-fart-022",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "3 timmar 15 minuter",
+          "isCorrect": true
+        },
+        {
+          "text": "6 timmar 30 minuter",
+          "isCorrect": false
+        },
+        {
+          "text": "1 timme 38 minuter",
+          "isCorrect": false
+        },
+        {
+          "text": "4 timmar 52 minuter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tiden = distansen/farten: 6,5/2 = 3,25 timmar = 3 timmar 15 minuter. Alternativ metod som ger svaret direkt i minuter: distansen × 60/farten = 6,5 × 60/2 = 195 minuter.",
+      "explanationEn": "Time = distance/speed: 6.5/2 = 3.25 hours = 3 hours 15 minutes. Alternative: distance × 60/speed gives the answer directly in minutes.",
+      "payload": {
+        "questionSv": "Hur lång tid tar det att gå 6,5 sjömil med 2 knops fart?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:24n / photo_79 (facit photo_36, photo_35)"
+    },
+    {
+      "id": "nav-fart-023",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "30 minuter",
+          "isCorrect": true
+        },
+        {
+          "text": "1 timme",
+          "isCorrect": false
+        },
+        {
+          "text": "15 minuter",
+          "isCorrect": false
+        },
+        {
+          "text": "45 minuter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tiden = distansen/farten: 6,5/13 = 0,5 timmar = 30 minuter. Alternativ metod som ger svaret direkt i minuter: distansen × 60/farten = 6,5 × 60/13 = 30 minuter.",
+      "explanationEn": "Time = distance/speed: 6.5/13 = 0.5 hours = 30 minutes. Alternative: distance × 60/speed gives the answer directly in minutes.",
+      "payload": {
+        "questionSv": "Hur lång tid tar det att gå 6,5 sjömil med 13 knops fart?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:24o / photo_79 (facit photo_36, photo_35)"
+    },
+    {
+      "id": "nav-fart-024",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "15 minuter",
+          "isCorrect": true
+        },
+        {
+          "text": "30 minuter",
+          "isCorrect": false
+        },
+        {
+          "text": "8 minuter",
+          "isCorrect": false
+        },
+        {
+          "text": "22 minuter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tiden = distansen/farten: 6,5/26 = 0,25 timmar = 15 minuter. Alternativ metod som ger svaret direkt i minuter: distansen × 60/farten = 6,5 × 60/26 = 15 minuter.",
+      "explanationEn": "Time = distance/speed: 6.5/26 = 0.25 hours = 15 minutes. Alternative: distance × 60/speed gives the answer directly in minutes.",
+      "payload": {
+        "questionSv": "Hur lång tid tar det att gå 6,5 sjömil med 26 knops fart?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:24p / photo_79 (facit photo_36, photo_35)"
+    },
+    {
+      "id": "nav-fart-025",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "2 timmar",
+          "isCorrect": true
+        },
+        {
+          "text": "4 timmar",
+          "isCorrect": false
+        },
+        {
+          "text": "1 timme",
+          "isCorrect": false
+        },
+        {
+          "text": "3 timmar",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tiden = distansen/farten: 8,4/4,2 = 2 timmar. Alternativ metod som ger svaret direkt i minuter: distansen × 60/farten = 8,4 × 60/4,2 = 120 minuter.",
+      "explanationEn": "Time = distance/speed: 8.4/4.2 = 2.0 hours = 2 hours. Alternative: distance × 60/speed gives the answer directly in minutes.",
+      "payload": {
+        "questionSv": "Hur lång tid tar det att gå 8,4 sjömil med 4,2 knops fart?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:24q / photo_79 (facit photo_36, photo_35)"
+    },
+    {
+      "id": "nav-fart-026",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "48 minuter",
+          "isCorrect": true
+        },
+        {
+          "text": "1 timme 36 minuter",
+          "isCorrect": false
+        },
+        {
+          "text": "24 minuter",
+          "isCorrect": false
+        },
+        {
+          "text": "1 timme 12 minuter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tiden = distansen/farten: 8,4/10,5 = 0,8 timmar = 48 minuter. Alternativ metod som ger svaret direkt i minuter: distansen × 60/farten = 8,4 × 60/10,5 = 48 minuter.",
+      "explanationEn": "Time = distance/speed: 8.4/10.5 = 0.8 hours = 48 minutes. Alternative: distance × 60/speed gives the answer directly in minutes.",
+      "payload": {
+        "questionSv": "Hur lång tid tar det att gå 8,4 sjömil med 10,5 knops fart?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:24r / photo_79 (facit photo_36, photo_35)"
+    },
+    {
+      "id": "nav-fart-027",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "1 knop",
+          "isCorrect": true
+        },
+        {
+          "text": "2 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "0,5 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "3 knop",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Farten = distansen/tiden: 1 sjömil på 1 timme ger 1/1 = 1 knop.",
+      "explanationEn": "Speed = distance/time: 1 nautical miles in 1 hour gives 1/1.0 = 1 knots. With the time in minutes you can also use distance × 60/minutes.",
+      "payload": {
+        "questionSv": "Hur snabbt går en båt som har avverkat 1 sjömil på 1 timme?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:25a / photo_79 (facit photo_35)"
+    },
+    {
+      "id": "nav-fart-028",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "2 knop",
+          "isCorrect": true
+        },
+        {
+          "text": "4 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "1 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "3 knop",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Farten = distansen/tiden: 2 sjömil på 1 timme ger 2/1 = 2 knop.",
+      "explanationEn": "Speed = distance/time: 2 nautical miles in 1 hour gives 2/1.0 = 2 knots. With the time in minutes you can also use distance × 60/minutes.",
+      "payload": {
+        "questionSv": "Hur snabbt går en båt som har avverkat 2 sjömil på 1 timme?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:25b / photo_79 (facit photo_35)"
+    },
+    {
+      "id": "nav-fart-029",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "2 knop",
+          "isCorrect": true
+        },
+        {
+          "text": "4 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "1 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "3 knop",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Farten = distansen/tiden: 6 sjömil på 3 timmar ger 6/3 = 2 knop.",
+      "explanationEn": "Speed = distance/time: 6 nautical miles in 3 hours gives 6/3.0 = 2 knots. With the time in minutes you can also use distance × 60/minutes.",
+      "payload": {
+        "questionSv": "Hur snabbt går en båt som har avverkat 6 sjömil på 3 timmar?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:25c / photo_79 (facit photo_35)"
+    },
+    {
+      "id": "nav-fart-030",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "2 knop",
+          "isCorrect": true
+        },
+        {
+          "text": "4 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "1 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "3 knop",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Farten = distansen/tiden: 60 sjömil på 30 timmar ger 60/30 = 2 knop.",
+      "explanationEn": "Speed = distance/time: 60 nautical miles in 30 hours gives 60/30.0 = 2 knots. With the time in minutes you can also use distance × 60/minutes.",
+      "payload": {
+        "questionSv": "Hur snabbt går en båt som har avverkat 60 sjömil på 30 timmar?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:25d / photo_79 (facit photo_35)"
+    },
+    {
+      "id": "nav-fart-031",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "4 knop",
+          "isCorrect": true
+        },
+        {
+          "text": "8 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "2 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "5 knop",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Farten = distansen/tiden: 60 sjömil på 15 timmar ger 60/15 = 4 knop.",
+      "explanationEn": "Speed = distance/time: 60 nautical miles in 15 hours gives 60/15.0 = 4 knots. With the time in minutes you can also use distance × 60/minutes.",
+      "payload": {
+        "questionSv": "Hur snabbt går en båt som har avverkat 60 sjömil på 15 timmar?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:25e / photo_79 (facit photo_35)"
+    },
+    {
+      "id": "nav-fart-032",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "6 knop",
+          "isCorrect": true
+        },
+        {
+          "text": "12 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "3 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "7 knop",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Farten = distansen/tiden: 60 sjömil på 10 timmar ger 60/10 = 6 knop.",
+      "explanationEn": "Speed = distance/time: 60 nautical miles in 10 hours gives 60/10.0 = 6 knots. With the time in minutes you can also use distance × 60/minutes.",
+      "payload": {
+        "questionSv": "Hur snabbt går en båt som har avverkat 60 sjömil på 10 timmar?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:25f / photo_79 (facit photo_35)"
+    },
+    {
+      "id": "nav-fart-033",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "10 knop",
+          "isCorrect": true
+        },
+        {
+          "text": "20 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "5 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "11 knop",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Farten = distansen/tiden: 60 sjömil på 6 timmar ger 60/6 = 10 knop.",
+      "explanationEn": "Speed = distance/time: 60 nautical miles in 6 hours gives 60/6.0 = 10 knots. With the time in minutes you can also use distance × 60/minutes.",
+      "payload": {
+        "questionSv": "Hur snabbt går en båt som har avverkat 60 sjömil på 6 timmar?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:25g / photo_79 (facit photo_35)"
+    },
+    {
+      "id": "nav-fart-034",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "12 knop",
+          "isCorrect": true
+        },
+        {
+          "text": "24 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "6 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "13 knop",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Farten = distansen/tiden: 60 sjömil på 5 timmar ger 60/5 = 12 knop.",
+      "explanationEn": "Speed = distance/time: 60 nautical miles in 5 hours gives 60/5.0 = 12 knots. With the time in minutes you can also use distance × 60/minutes.",
+      "payload": {
+        "questionSv": "Hur snabbt går en båt som har avverkat 60 sjömil på 5 timmar?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:25h / photo_79 (facit photo_35)"
+    },
+    {
+      "id": "nav-fart-035",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "12 knop",
+          "isCorrect": true
+        },
+        {
+          "text": "24 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "6 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "13 knop",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Farten = distansen/tiden: 6 sjömil på 30 minuter ger 6/0,5 = 12 knop. Alternativ metod: distansen × 60/tiden i minuter = 6 × 60/30 = 12 knop.",
+      "explanationEn": "Speed = distance/time: 6 nautical miles in 30 minutes gives 6/0.5 = 12 knots. With the time in minutes you can also use distance × 60/minutes.",
+      "payload": {
+        "questionSv": "Hur snabbt går en båt som har avverkat 6 sjömil på 30 minuter?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:25i / photo_79 (facit photo_35)"
+    },
+    {
+      "id": "nav-fart-036",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "24 knop",
+          "isCorrect": true
+        },
+        {
+          "text": "48 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "12 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "25 knop",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Farten = distansen/tiden: 6 sjömil på 15 minuter ger 6/0,25 = 24 knop. Alternativ metod: distansen × 60/tiden i minuter = 6 × 60/15 = 24 knop.",
+      "explanationEn": "Speed = distance/time: 6 nautical miles in 15 minutes gives 6/0.25 = 24 knots. With the time in minutes you can also use distance × 60/minutes.",
+      "payload": {
+        "questionSv": "Hur snabbt går en båt som har avverkat 6 sjömil på 15 minuter?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:25j / photo_79 (facit photo_35)"
+    },
+    {
+      "id": "nav-fart-037",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "30 knop",
+          "isCorrect": true
+        },
+        {
+          "text": "60 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "15 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "31 knop",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Farten = distansen/tiden: 3 sjömil på 6 minuter ger 3/0,1 = 30 knop. Alternativ metod: distansen × 60/tiden i minuter = 3 × 60/6 = 30 knop.",
+      "explanationEn": "Speed = distance/time: 3 nautical miles in 6 minutes gives 3/0.1 = 30 knots. With the time in minutes you can also use distance × 60/minutes.",
+      "payload": {
+        "questionSv": "Hur snabbt går en båt som har avverkat 3 sjömil på 6 minuter?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:25k / photo_79 (facit photo_35)"
+    },
+    {
+      "id": "nav-fart-038",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "4 knop",
+          "isCorrect": true
+        },
+        {
+          "text": "8 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "2 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "5 knop",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Farten = distansen/tiden: 6 sjömil på 1 timme 30 minuter ger 6/1,5 = 4 knop. Alternativ metod: distansen × 60/tiden i minuter = 6 × 60/90 = 4 knop.",
+      "explanationEn": "Speed = distance/time: 6 nautical miles in 1 hour 30 minutes gives 6/1.5 = 4 knots. With the time in minutes you can also use distance × 60/minutes.",
+      "payload": {
+        "questionSv": "Hur snabbt går en båt som har avverkat 6 sjömil på 1 timme 30 minuter?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:25l / photo_79 (facit photo_35)"
+    },
+    {
+      "id": "nav-fart-039",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "26 knop",
+          "isCorrect": true
+        },
+        {
+          "text": "52 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "13 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "27 knop",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Farten = distansen/tiden: 6,5 sjömil på 15 minuter ger 6,5/0,25 = 26 knop. Alternativ metod: distansen × 60/tiden i minuter = 6,5 × 60/15 = 26 knop.",
+      "explanationEn": "Speed = distance/time: 6.5 nautical miles in 15 minutes gives 6.5/0.25 = 26 knots. With the time in minutes you can also use distance × 60/minutes.",
+      "payload": {
+        "questionSv": "Hur snabbt går en båt som har avverkat 6,5 sjömil på 15 minuter?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:25m / photo_79 (facit photo_35)"
+    },
+    {
+      "id": "nav-fart-040",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "3,25 knop",
+          "isCorrect": true
+        },
+        {
+          "text": "6,5 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "1,62 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "4,25 knop",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Farten = distansen/tiden: 6,5 sjömil på 2 timmar ger 6,5/2 = 3,25 knop.",
+      "explanationEn": "Speed = distance/time: 6.5 nautical miles in 2 hours gives 6.5/2.0 = 3.25 knots. With the time in minutes you can also use distance × 60/minutes.",
+      "payload": {
+        "questionSv": "Hur snabbt går en båt som har avverkat 6,5 sjömil på 2 timmar?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:25n / photo_79 (facit photo_35)"
+    },
+    {
+      "id": "nav-fart-041",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "3 knop",
+          "isCorrect": true
+        },
+        {
+          "text": "6 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "1,5 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "4 knop",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Farten = distansen/tiden: 6,75 sjömil på 2 timmar 15 minuter ger 6,75/2,25 = 3 knop. Alternativ metod: distansen × 60/tiden i minuter = 6,75 × 60/135 = 3 knop.",
+      "explanationEn": "Speed = distance/time: 6.75 nautical miles in 2 hours 15 minutes gives 6.75/2.25 = 3 knots. With the time in minutes you can also use distance × 60/minutes.",
+      "payload": {
+        "questionSv": "Hur snabbt går en båt som har avverkat 6,75 sjömil på 2 timmar 15 minuter?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:25o / photo_79 (facit photo_35)"
+    },
+    {
+      "id": "nav-fart-042",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "5,1 knop",
+          "isCorrect": true
+        },
+        {
+          "text": "10,2 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "2,55 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "6,1 knop",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Farten = distansen/tiden: 10,2 sjömil på 2 timmar ger 10,2/2 = 5,1 knop.",
+      "explanationEn": "Speed = distance/time: 10.2 nautical miles in 2 hours gives 10.2/2.0 = 5.1 knots. With the time in minutes you can also use distance × 60/minutes.",
+      "payload": {
+        "questionSv": "Hur snabbt går en båt som har avverkat 10,2 sjömil på 2 timmar?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:25p / photo_79 (facit photo_35)"
+    },
+    {
+      "id": "nav-fart-043",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "4,86 knop",
+          "isCorrect": true
+        },
+        {
+          "text": "9,72 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "2,43 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "5,86 knop",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Farten = distansen/tiden: 10,2 sjömil på 2 timmar 6 minuter ger 10,2/2,1 = 4,86 knop. Alternativ metod: distansen × 60/tiden i minuter = 10,2 × 60/126 = 4,86 knop.",
+      "explanationEn": "Speed = distance/time: 10.2 nautical miles in 2 hours 6 minutes gives 10.2/2.1 = 4.86 knots. With the time in minutes you can also use distance × 60/minutes.",
+      "payload": {
+        "questionSv": "Hur snabbt går en båt som har avverkat 10,2 sjömil på 2 timmar 6 minuter?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:25q / photo_79 (facit photo_35)"
+    },
+    {
+      "id": "nav-fart-044",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "9,91 knop",
+          "isCorrect": true
+        },
+        {
+          "text": "19,82 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "4,96 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "10,91 knop",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Farten = distansen/tiden: 21,8 sjömil på 2 timmar 12 minuter ger 21,8/2,2 = 9,91 knop. Alternativ metod: distansen × 60/tiden i minuter = 21,8 × 60/132 = 9,91 knop.",
+      "explanationEn": "Speed = distance/time: 21.8 nautical miles in 2 hours 12 minutes gives 21.8/2.2 = 9.91 knots. With the time in minutes you can also use distance × 60/minutes.",
+      "payload": {
+        "questionSv": "Hur snabbt går en båt som har avverkat 21,8 sjömil på 2 timmar 12 minuter?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:25r / photo_79 (facit photo_35)"
+    },
+    {
+      "id": "nav-fart-045",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "6 M",
+          "isCorrect": true
+        },
+        {
+          "text": "12 M",
+          "isCorrect": false
+        },
+        {
+          "text": "3 M",
+          "isCorrect": false
+        },
+        {
+          "text": "9 M",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Distansen = farten × tiden: 6 knop i 1 timme ger 6 × 1 = 6 M.",
+      "explanationEn": "Distance = speed × time: 6 knots for 1 hour gives 6 × 1.0 = 6 nautical miles.",
+      "payload": {
+        "questionSv": "Båten gör 6 knop. Hur lång distans avverkar den på 1 timme?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:26a / photo_79 + photo_78 (facit photo_35)"
+    },
+    {
+      "id": "nav-fart-046",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "12 M",
+          "isCorrect": true
+        },
+        {
+          "text": "24 M",
+          "isCorrect": false
+        },
+        {
+          "text": "6 M",
+          "isCorrect": false
+        },
+        {
+          "text": "18 M",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Distansen = farten × tiden: 6 knop i 2 timmar ger 6 × 2 = 12 M.",
+      "explanationEn": "Distance = speed × time: 6 knots for 2 hours gives 6 × 2.0 = 12 nautical miles.",
+      "payload": {
+        "questionSv": "Båten gör 6 knop. Hur lång distans avverkar den på 2 timmar?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:26b / photo_79 + photo_78 (facit photo_35)"
+    },
+    {
+      "id": "nav-fart-047",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "3 M",
+          "isCorrect": true
+        },
+        {
+          "text": "6 M",
+          "isCorrect": false
+        },
+        {
+          "text": "1,5 M",
+          "isCorrect": false
+        },
+        {
+          "text": "4,5 M",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Distansen = farten × tiden. Med tiden i minuter: 6 × 30/60 = 3 M. Samma sak med tiden i timmar: 6 × 0,5 timmar ≈ 3 M.",
+      "explanationEn": "Distance = speed × time. With the time in minutes: 6 × 30/60 = 3 nautical miles. The same result follows with the time expressed in hours.",
+      "payload": {
+        "questionSv": "Båten gör 6 knop. Hur lång distans avverkar den på 30 minuter?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:26c / photo_79 + photo_78 (facit photo_35)"
+    },
+    {
+      "id": "nav-fart-048",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "1,5 M",
+          "isCorrect": true
+        },
+        {
+          "text": "3 M",
+          "isCorrect": false
+        },
+        {
+          "text": "0,75 M",
+          "isCorrect": false
+        },
+        {
+          "text": "2,25 M",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Distansen = farten × tiden. Med tiden i minuter: 6 × 15/60 = 1,5 M. Samma sak med tiden i timmar: 6 × 0,25 timmar ≈ 1,5 M.",
+      "explanationEn": "Distance = speed × time. With the time in minutes: 6 × 15/60 = 1.5 nautical miles. The same result follows with the time expressed in hours.",
+      "payload": {
+        "questionSv": "Båten gör 6 knop. Hur lång distans avverkar den på 15 minuter?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:26d / photo_79 + photo_78 (facit photo_35)"
+    },
+    {
+      "id": "nav-fart-049",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "0,1 M",
+          "isCorrect": true
+        },
+        {
+          "text": "0,2 M",
+          "isCorrect": false
+        },
+        {
+          "text": "0,05 M",
+          "isCorrect": false
+        },
+        {
+          "text": "0,15 M",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Distansen = farten × tiden. Med tiden i minuter: 6 × 1/60 = 0,1 M. Samma sak med tiden i timmar: 6 × 0,0167 timmar ≈ 0,1 M.",
+      "explanationEn": "Distance = speed × time. With the time in minutes: 6 × 1/60 = 0.1 nautical miles. The same result follows with the time expressed in hours.",
+      "payload": {
+        "questionSv": "Båten gör 6 knop. Hur lång distans avverkar den på 1 minut?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:26e / photo_79 + photo_78 (facit photo_35)"
+    },
+    {
+      "id": "nav-fart-050",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "10 M",
+          "isCorrect": true
+        },
+        {
+          "text": "20 M",
+          "isCorrect": false
+        },
+        {
+          "text": "5 M",
+          "isCorrect": false
+        },
+        {
+          "text": "15 M",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Distansen = farten × tiden. Med tiden i minuter: 8 × 75/60 = 10 M. Samma sak med tiden i timmar: 8 × 1,25 timmar ≈ 10 M.",
+      "explanationEn": "Distance = speed × time. With the time in minutes: 8 × 75/60 = 10 nautical miles. The same result follows with the time expressed in hours.",
+      "payload": {
+        "questionSv": "Båten gör 8 knop. Hur lång distans avverkar den på 1 timme 15 minuter?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:26f / photo_79 + photo_78 (facit photo_35)"
+    },
+    {
+      "id": "nav-fart-051",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "68 M",
+          "isCorrect": true
+        },
+        {
+          "text": "136 M",
+          "isCorrect": false
+        },
+        {
+          "text": "34 M",
+          "isCorrect": false
+        },
+        {
+          "text": "102 M",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Distansen = farten × tiden. Med tiden i minuter: 8 × 510/60 = 68 M. Samma sak med tiden i timmar: 8 × 8,5 timmar ≈ 68 M.",
+      "explanationEn": "Distance = speed × time. With the time in minutes: 8 × 510/60 = 68 nautical miles. The same result follows with the time expressed in hours.",
+      "payload": {
+        "questionSv": "Båten gör 8 knop. Hur lång distans avverkar den på 8 timmar 30 minuter?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:26g / photo_79 + photo_78 (facit photo_35)"
+    },
+    {
+      "id": "nav-fart-052",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "21,6 M",
+          "isCorrect": true
+        },
+        {
+          "text": "43,2 M",
+          "isCorrect": false
+        },
+        {
+          "text": "10,8 M",
+          "isCorrect": false
+        },
+        {
+          "text": "32,4 M",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Distansen = farten × tiden. Med tiden i minuter: 8 × 162/60 = 21,6 M. Samma sak med tiden i timmar: 8 × 2,7 timmar ≈ 21,6 M.",
+      "explanationEn": "Distance = speed × time. With the time in minutes: 8 × 162/60 = 21.6 nautical miles. The same result follows with the time expressed in hours.",
+      "payload": {
+        "questionSv": "Båten gör 8 knop. Hur lång distans avverkar den på 2 timmar 42 minuter?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:26h / photo_79 + photo_78 (facit photo_35)"
+    },
+    {
+      "id": "nav-fart-053",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "15,2 M",
+          "isCorrect": true
+        },
+        {
+          "text": "30,4 M",
+          "isCorrect": false
+        },
+        {
+          "text": "7,6 M",
+          "isCorrect": false
+        },
+        {
+          "text": "22,8 M",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Distansen = farten × tiden. Med tiden i minuter: 8 × 114/60 = 15,2 M. Samma sak med tiden i timmar: 8 × 1,9 timmar ≈ 15,2 M.",
+      "explanationEn": "Distance = speed × time. With the time in minutes: 8 × 114/60 = 15.2 nautical miles. The same result follows with the time expressed in hours.",
+      "payload": {
+        "questionSv": "Båten gör 8 knop. Hur lång distans avverkar den på 1 timme 54 minuter?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:26i / photo_79 + photo_78 (facit photo_35)"
+    },
+    {
+      "id": "nav-fart-054",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "4,4 M",
+          "isCorrect": true
+        },
+        {
+          "text": "8,8 M",
+          "isCorrect": false
+        },
+        {
+          "text": "2,2 M",
+          "isCorrect": false
+        },
+        {
+          "text": "6,6 M",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Distansen = farten × tiden. Med tiden i minuter: 8 × 33/60 = 4,4 M. Samma sak med tiden i timmar: 8 × 0,55 timmar ≈ 4,4 M.",
+      "explanationEn": "Distance = speed × time. With the time in minutes: 8 × 33/60 = 4.4 nautical miles. The same result follows with the time expressed in hours.",
+      "payload": {
+        "questionSv": "Båten gör 8 knop. Hur lång distans avverkar den på 33 minuter?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:26j / photo_79 + photo_78 (facit photo_35)"
+    },
+    {
+      "id": "nav-fart-055",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "8 M",
+          "isCorrect": true
+        },
+        {
+          "text": "16 M",
+          "isCorrect": false
+        },
+        {
+          "text": "4 M",
+          "isCorrect": false
+        },
+        {
+          "text": "12 M",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Distansen = farten × tiden. Med tiden i minuter: 40 × 12/60 = 8 M. Samma sak med tiden i timmar: 40 × 0,2 timmar ≈ 8 M.",
+      "explanationEn": "Distance = speed × time. With the time in minutes: 40 × 12/60 = 8 nautical miles. The same result follows with the time expressed in hours.",
+      "payload": {
+        "questionSv": "Båten gör 40 knop. Hur lång distans avverkar den på 12 minuter?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:26k / photo_79 + photo_78 (facit photo_35)"
+    },
+    {
+      "id": "nav-fart-056",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "24,67 M",
+          "isCorrect": true
+        },
+        {
+          "text": "49,34 M",
+          "isCorrect": false
+        },
+        {
+          "text": "12,34 M",
+          "isCorrect": false
+        },
+        {
+          "text": "37,01 M",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Distansen = farten × tiden. Med tiden i minuter: 40 × 37/60 = 24,67 M. Samma sak med tiden i timmar: 40 × 0,6167 timmar ≈ 24,67 M.",
+      "explanationEn": "Distance = speed × time. With the time in minutes: 40 × 37/60 = 24.67 nautical miles. The same result follows with the time expressed in hours.",
+      "payload": {
+        "questionSv": "Båten gör 40 knop. Hur lång distans avverkar den på 37 minuter?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:26l / photo_79 + photo_78 (facit photo_35)"
+    },
+    {
+      "id": "nav-fart-057",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "0,67 M",
+          "isCorrect": true
+        },
+        {
+          "text": "1,34 M",
+          "isCorrect": false
+        },
+        {
+          "text": "0,34 M",
+          "isCorrect": false
+        },
+        {
+          "text": "1,01 M",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Distansen = farten × tiden. Med tiden i minuter: 40 × 1/60 = 0,67 M. Samma sak med tiden i timmar: 40 × 0,0167 timmar ≈ 0,67 M.",
+      "explanationEn": "Distance = speed × time. With the time in minutes: 40 × 1/60 = 0.67 nautical miles. The same result follows with the time expressed in hours.",
+      "payload": {
+        "questionSv": "Båten gör 40 knop. Hur lång distans avverkar den på 1 minut?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:26m / photo_79 + photo_78 (facit photo_35)"
     }
   ]
 }

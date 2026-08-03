@@ -4,87 +4,471 @@
     {
       "id": "lan-grund-001",
       "topicId": "top-lan-grund",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "225°, riktat förut", "isCorrect": true },
-        { "text": "135°, riktat akterut", "isCorrect": false },
-        { "text": "112,5°, riktat åt sidan", "isCorrect": false },
-        { "text": "360°, synligt runtom", "isCorrect": false }
+        {
+          "text": "225°, riktat förut",
+          "isCorrect": true
+        },
+        {
+          "text": "135°, riktat akterut",
+          "isCorrect": false
+        },
+        {
+          "text": "112,5°, riktat åt sidan",
+          "isCorrect": false
+        },
+        {
+          "text": "360°, synligt runtom",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Toppljuset är vitt och lyser över en båge om 225°, från rätt förut till 22,5° akter om tvärs på vardera sidan. Akterljusets 135° fyller resten av cirkeln.",
       "explanationEn": "The masthead light is white and shows over 225°, from right ahead to 22.5° abaft the beam on each side.",
       "theoryAnchor": "lanternor/sektorer",
       "authorReviewed": false,
-      "payload": { "questionSv": "Över hur stor båge lyser ett toppljus?" }
+      "payload": {
+        "questionSv": "Över hur stor båge lyser ett toppljus?"
+      }
     },
     {
       "id": "lan-grund-002",
       "topicId": "top-lan-grund",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "112,5° vardera, från rätt förut till 22,5° akter om tvärs", "isCorrect": true },
-        { "text": "135° vardera, från tvärs till rätt akterut", "isCorrect": false },
-        { "text": "90° vardera, från rätt förut till tvärs", "isCorrect": false },
-        { "text": "225° vardera, med överlapp rätt förut", "isCorrect": false }
+        {
+          "text": "112,5° vardera, från rätt förut till 22,5° akter om tvärs",
+          "isCorrect": true
+        },
+        {
+          "text": "135° vardera, från tvärs till rätt akterut",
+          "isCorrect": false
+        },
+        {
+          "text": "90° vardera, från rätt förut till tvärs",
+          "isCorrect": false
+        },
+        {
+          "text": "225° vardera, med överlapp rätt förut",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Sidoljusen (grönt om styrbord, rött om babord) lyser vardera över 112,5° — från rätt förut till 22,5° akter om tvärs. Tillsammans täcker de samma båge som toppljuset.",
       "explanationEn": "Sidelights each cover 112.5°, from right ahead to 22.5° abaft the beam on their side.",
       "theoryAnchor": "lanternor/sektorer",
       "authorReviewed": false,
-      "payload": { "questionSv": "Vilken sektor täcker sidoljusen?" }
+      "payload": {
+        "questionSv": "Vilken sektor täcker sidoljusen?"
+      }
     },
     {
       "id": "lan-grund-003",
       "topicId": "top-lan-grund",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "135°, riktat rätt akterut", "isCorrect": true },
-        { "text": "112,5°, riktat rätt akterut", "isCorrect": false },
-        { "text": "225°, riktat rätt akterut", "isCorrect": false },
-        { "text": "180°, riktat rätt akterut", "isCorrect": false }
+        {
+          "text": "135°, riktat rätt akterut",
+          "isCorrect": true
+        },
+        {
+          "text": "112,5°, riktat rätt akterut",
+          "isCorrect": false
+        },
+        {
+          "text": "225°, riktat rätt akterut",
+          "isCorrect": false
+        },
+        {
+          "text": "180°, riktat rätt akterut",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Akterljuset är vitt och lyser över 135° — 67,5° in på vardera sidan räknat från rätt akterut. Toppljusets 225° och akterljusets 135° blir tillsammans hela horisonten.",
       "explanationEn": "The sternlight is white and covers 135°, centred right astern.",
       "theoryAnchor": "lanternor/sektorer",
       "authorReviewed": false,
-      "payload": { "questionSv": "Över hur stor båge lyser akterljuset?" }
+      "payload": {
+        "questionSv": "Över hur stor båge lyser akterljuset?"
+      }
     },
     {
       "id": "lan-grund-004",
       "topicId": "top-lan-grund",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "Från solnedgång till soluppgång, samt vid nedsatt sikt", "isCorrect": true },
-        { "text": "Endast mellan klockan 22 och 06", "isCorrect": false },
-        { "text": "Endast när andra fartyg finns i närheten", "isCorrect": false },
-        { "text": "Endast utanför skyddade farvatten", "isCorrect": false }
+        {
+          "text": "Från solnedgång till soluppgång, samt vid nedsatt sikt",
+          "isCorrect": true
+        },
+        {
+          "text": "Endast mellan klockan 22 och 06",
+          "isCorrect": false
+        },
+        {
+          "text": "Endast när andra fartyg finns i närheten",
+          "isCorrect": false
+        },
+        {
+          "text": "Endast utanför skyddade farvatten",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Lanternor ska föras från solnedgång till soluppgång och dessutom vid nedsatt sikt, till exempel i dimma eller kraftigt regn — även dagtid.",
       "explanationEn": "Navigation lights are carried from sunset to sunrise and in restricted visibility, day or night.",
       "theoryAnchor": "lanternor/nar",
       "authorReviewed": false,
-      "payload": { "questionSv": "När ska ett fartyg föra lanternor?" }
+      "payload": {
+        "questionSv": "När ska ett fartyg föra lanternor?"
+      }
     },
     {
       "id": "lan-grund-005",
       "topicId": "top-lan-grund",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "Ett vitt ljus synligt runtom", "isCorrect": true },
-        { "text": "Sidoljus och toppljus som större fartyg", "isCorrect": false },
-        { "text": "Ett gult ljus synligt runtom", "isCorrect": false },
-        { "text": "Inga ljus alls, oavsett förhållanden", "isCorrect": false }
+        {
+          "text": "Ett vitt ljus synligt runtom",
+          "isCorrect": true
+        },
+        {
+          "text": "Sidoljus och toppljus som större fartyg",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett gult ljus synligt runtom",
+          "isCorrect": false
+        },
+        {
+          "text": "Inga ljus alls, oavsett förhållanden",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "En maskindriven båt under 7 meter som inte går fortare än 7 knop får som minimum föra ett vitt runtomlysande ljus. Om möjligt ska den även föra sidoljus.",
       "explanationEn": "A power-driven vessel under 7 m and under 7 knots may show just an all-round white light, plus sidelights if practicable.",
       "theoryAnchor": "lanternor/smabatar",
       "authorReviewed": false,
-      "payload": { "questionSv": "Vilken lanterna får en maskindriven båt under 7 meter (max 7 knop) föra som minimum?" }
+      "payload": {
+        "questionSv": "Vilken lanterna får en maskindriven båt under 7 meter (max 7 knop) föra som minimum?"
+      }
+    },
+    {
+      "id": "lan-grund-006",
+      "topicId": "top-lan-grund",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "När solen är nere; i svenskt inre vatten behöver de dock inte föras i skymning och gryning om båten ändå syns på betryggande avstånd, men finns lanternor ombord ska de tändas i nedsatt sikt",
+          "isCorrect": true
+        },
+        {
+          "text": "Endast mellan solnedgång och soluppgång; i nedsatt sikt dagtid räcker det att föra dagersignaler om båten ändå syns på betryggande avstånd",
+          "isCorrect": false
+        },
+        {
+          "text": "Alltid när båten är i rörelse, oavsett ljusförhållanden och sikt, så snart det finns lanternor ombord",
+          "isCorrect": false
+        },
+        {
+          "text": "Endast i fullt mörker; i skymning och gryning räcker det alltid att visa ett vitt ljussken med ficklampa vid behov",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Internationellt ska lanternorna vara tända när solen är nere. Enligt Sjötrafikkungörelsen 2 kap 11 § behöver fartyg i svenskt inre vatten inte föra lanternor under skymning och gryning om de ändå syns på betryggande avstånd. Finns lanternor ombord ska de tändas i nedsatt sikt – även om solen är uppe.",
+      "explanationEn": "Internationally, navigation lights must be lit whenever the sun is below the horizon. In Swedish inland waters, the Maritime Traffic Ordinance allows boats to omit lights during dusk and dawn if they are still visible at a safe distance. If lights are carried on board, they must be switched on in reduced visibility, even in daytime.",
+      "payload": {
+        "questionSv": "När ska lanternorna vara tända vid färder på svenska vatten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:1 / photo_62, photo_21"
+    },
+    {
+      "id": "lan-grund-007",
+      "topicId": "top-lan-grund",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Lampa eller lanterna med vitt ljussken som visas vid behov, alternativt sido- och akterlanterna",
+          "isCorrect": true
+        },
+        {
+          "text": "Sido- och akterlanterna är obligatoriska så snart det är mörkt",
+          "isCorrect": false
+        },
+        {
+          "text": "Vit runtlysande lanterna som ska vara tänd hela tiden",
+          "isCorrect": false
+        },
+        {
+          "text": "Röd runtlysande lanterna som visas när annan båt närmar sig",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En roddbåt behöver bara ha en lampa eller lanterna med vitt sken till hands, som visas i god tid när en annan båt närmar sig. Den får i stället föra sido- och akterlanterna om man vill.",
+      "explanationEn": "A rowing boat only needs to have a torch or lantern showing a white light ready, to be shown in time when another vessel approaches. It may carry side lights and a stern light instead if desired.",
+      "payload": {
+        "questionSv": "Vilka lanternor ska en roddbåt föra?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:2 / photo_62, photo_21"
+    },
+    {
+      "id": "lan-grund-008",
+      "topicId": "top-lan-grund",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Sidolanternorna 112,5° vardera, akterlanternan 135°, topplanternan 225°",
+          "isCorrect": true
+        },
+        {
+          "text": "Sidolanternorna 135° vardera, akterlanternan 112,5°, topplanternan 225°",
+          "isCorrect": false
+        },
+        {
+          "text": "Sidolanternorna 112,5° vardera, akterlanternan 225°, topplanternan 135°",
+          "isCorrect": false
+        },
+        {
+          "text": "Sidolanternorna 90° vardera, akterlanternan 180°, topplanternan 270°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Sett uppifrån lyser den röda (babord) och den gröna (styrbord) sidolanternan i 112,5° vardera – från rätt förut till 22,5° akter om tvärs. Den vita akterlanternan täcker resterande 135° akteröver. Den vita topplanternan lyser förut över samma sektor som båda sidolanternorna tillsammans, 225°. Summan blir hela horisonten: 225° + 135° = 360°.",
+      "explanationEn": "Seen from above, the red (port) and green (starboard) side lights each cover 112.5° – from right ahead to 22.5° abaft the beam. The white stern light covers the remaining 135° aft. The white masthead light shines forward over the same sector as both side lights combined, 225°. Together they cover the full horizon: 225° + 135° = 360°.",
+      "payload": {
+        "questionSv": "Vilka lysvinklar har sidolanternorna, akterlanternan och topplanternan, och vilka färger har de?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:3 / photo_62, photo_21"
+    },
+    {
+      "id": "lan-grund-009",
+      "topicId": "top-lan-grund",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "En segelbåt – jag väjer",
+          "isCorrect": true
+        },
+        {
+          "text": "En segelbåt – jag håller kurs och fart",
+          "isCorrect": false
+        },
+        {
+          "text": "En motorbåt från babord – jag håller kurs och fart",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett ankarliggande fartyg – ingen åtgärd behövs",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En ensam grön sidolanterna utan vit topplanterna betyder segelbåt (du ser dess styrbordssida). En motorbåt ska väja för segelbåt, alltså väjer du.",
+      "explanationEn": "A single green side light with no white masthead light means a sailing vessel (you are seeing its starboard side). A power-driven vessel must give way to a sailing vessel, so you give way.",
+      "payload": {
+        "questionSv": "Du sitter i en motorbåt och ser i mörkret en ensam grön lanterna närma sig på kollisionskurs (se bild till fråga 10:4). Vilket fartyg är det och vilken är din åtgärd?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:4 / photo_62, photo_20"
+    },
+    {
+      "id": "lan-grund-010",
+      "topicId": "top-lan-grund",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "En motorbåt som kommer från babord – jag håller kurs och fart",
+          "isCorrect": true
+        },
+        {
+          "text": "En motorbåt som kommer från styrbord – jag väjer",
+          "isCorrect": false
+        },
+        {
+          "text": "En segelbåt som kommer från babord – jag väjer",
+          "isCorrect": false
+        },
+        {
+          "text": "En motorbåt rakt förifrån – båda ska gira styrbord",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vit topplanterna plus grön sidolanterna betyder maskindrivet fartyg som visar sin styrbordssida – det kommer alltså från babord. Vid skärande kurser ska den som har den andra på sin styrbordssida väja; den andra båten ser din röda lanterna och ska väja, medan du håller kurs och fart.",
+      "explanationEn": "A white masthead light plus a green side light means a power-driven vessel showing its starboard side – it is approaching from your port side. In a crossing situation the vessel that has the other on its own starboard side must give way; the other boat sees your red light and must keep clear, while you stand on with course and speed.",
+      "payload": {
+        "questionSv": "Du sitter i en motorbåt och ser i mörkret en vit topplanterna och en grön sidolanterna närma sig på kollisionskurs (se bild till fråga 10:4). Vilket fartyg är det och vilken är din åtgärd?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:4 / photo_62, photo_20"
+    },
+    {
+      "id": "lan-grund-011",
+      "topicId": "top-lan-grund",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ett stort fartyg (över 50 meter) som kommer från styrbord – jag väjer enligt styrbordsregeln",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett stort fartyg (över 50 meter) som kommer från babord – jag håller kurs och fart",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg som bogserar och kommer från styrbord – jag håller kurs och fart",
+          "isCorrect": false
+        },
+        {
+          "text": "En segelbåt med topplanterna som kommer från styrbord – den väjer för mig",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Två vita topplanternor (den aktra högre än den förliga) betyder maskindrivet fartyg över 50 meter, och den röda sidolanternan visar att du ser dess babordssida – det kommer från styrbord. Du har fartyget på din styrbordssida och ska väja enligt styrbordsregeln; dessutom går stora fartyg ofta i trång farled där de har företräde.",
+      "explanationEn": "Two white masthead lights (the after one higher) mean a power-driven vessel over 50 metres, and the red side light shows you are seeing its port side – it is approaching from your starboard. You have it on your starboard side and must give way under the crossing rule; large vessels are also often confined to a narrow channel where they have priority.",
+      "payload": {
+        "questionSv": "Du sitter i en motorbåt och ser i mörkret två vita topplanternor och en röd sidolanterna närma sig på kollisionskurs (se bild till fråga 10:4). Vilket fartyg är det och vilken är din åtgärd?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:4 / photo_62, photo_20"
+    },
+    {
+      "id": "lan-grund-012",
+      "topicId": "top-lan-grund",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Sidolanternorna, vita akterlanternan, topplanternorna samt gula akterlanternan för bogserare",
+          "isCorrect": true
+        },
+        {
+          "text": "Ankarlanternan, sidolanternorna samt alla runtlysande signallanternor",
+          "isCorrect": false
+        },
+        {
+          "text": "Endast sidolanternorna – alla vita och gula lanternor lyser horisonten runt",
+          "isCorrect": false
+        },
+        {
+          "text": "Sidolanternorna och ankarlanternan, men aldrig akter- eller topplanternor",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "De lanternor som bara lyser i vissa vinklar är: röd och grön sidolanterna (112,5° vardera), vit akterlanterna (135°), vit topplanterna för maskindrivna fartyg (225°; två för fartyg över 50 m), extra topplanternor för fartyg som bogserar samt gul akterlanterna (135°) för fartyg som bogserar. Övriga lanternor, som ankarlanternan och signallanternor, lyser horisonten runt.",
+      "explanationEn": "The lights that shine only in sectors are: the red and green side lights (112.5° each), the white stern light (135°), the white masthead light of power-driven vessels (225°; two for vessels over 50 m), the extra masthead lights of towing vessels, and the yellow towing light (135°). Other lights, such as anchor and signal lights, are all-round.",
+      "payload": {
+        "questionSv": "Vilka lanternor lyser inte horisonten runt utan bara i vissa vinklar?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:12 / photo_61, photo_19"
+    },
+    {
+      "id": "lan-grund-013",
+      "topicId": "top-lan-grund",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "När solen är nere och i nedsatt sikt",
+          "isCorrect": true
+        },
+        {
+          "text": "Endast mellan midnatt och soluppgång",
+          "isCorrect": false
+        },
+        {
+          "text": "Endast i fullt mörker – i skymning räcker dagersignaler",
+          "isCorrect": false
+        },
+        {
+          "text": "Dygnet runt så snart fartyget är under gång",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "På internationellt vatten gäller sjövägsreglerna fullt ut: lanternorna ska vara tända från solnedgång till soluppgång samt i nedsatt sikt, även dagtid. Här finns inget sådant skymnings- och gryningsundantag som i svenskt inre vatten.",
+      "explanationEn": "In international waters the COLREGs apply in full: lights must be shown from sunset to sunrise and in restricted visibility, even in daytime. There is no dusk-and-dawn exemption like the one in Swedish inland waters.",
+      "payload": {
+        "questionSv": "När ska du tända lanternorna på internationellt vatten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:15 / photo_61, photo_19"
     }
   ]
 }

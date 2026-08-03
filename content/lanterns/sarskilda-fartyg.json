@@ -4,13 +4,28 @@
     {
       "id": "lan-sar-001",
       "topicId": "top-lan-sarskilda",
-      "tracks": ["kustskeppare", "klass8"],
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "lantern",
       "options": [
-        { "text": "Ett ej manöverfärdigt fartyg som inte gör fart genom vattnet", "isCorrect": true },
-        { "text": "Ett fartyg med begränsad manöverförmåga", "isCorrect": false },
-        { "text": "Ett fiskefartyg som fiskar med annat än trål", "isCorrect": false },
-        { "text": "Två babords sidomarkeringar i linje bakom varandra", "isCorrect": false }
+        {
+          "text": "Ett ej manöverfärdigt fartyg som inte gör fart genom vattnet",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett fartyg med begränsad manöverförmåga",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fiskefartyg som fiskar med annat än trål",
+          "isCorrect": false
+        },
+        {
+          "text": "Två babords sidomarkeringar i linje bakom varandra",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Rött över rött, båda runtomlysande, betyder ej manöverfärdigt fartyg (till exempel maskinhaveri). Utan sidoljus tända gör fartyget ingen fart genom vattnet. Begränsad manöverförmåga visas med rött–vitt–rött.",
       "explanationEn": "All-round red over red: vessel not under command, not making way. Red–white–red would mean restricted in ability to manoeuvre.",
@@ -20,8 +35,16 @@
         "questionSv": "Två röda ljus i lodrät linje — inget mer. Vad ser du?",
         "scene": {
           "lights": [
-            { "color": "red", "x": 50, "y": 22 },
-            { "color": "red", "x": 50, "y": 34 }
+            {
+              "color": "red",
+              "x": 50,
+              "y": 22
+            },
+            {
+              "color": "red",
+              "x": 50,
+              "y": 34
+            }
           ],
           "captionSv": "Båda ljusen synliga runtom"
         }
@@ -30,13 +53,28 @@
     {
       "id": "lan-sar-002",
       "topicId": "top-lan-sarskilda",
-      "tracks": ["kustskeppare", "klass8"],
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "lantern",
       "options": [
-        { "text": "Ett fartyg med begränsad manöverförmåga", "isCorrect": true },
-        { "text": "Ett ej manöverfärdigt fartyg", "isCorrect": false },
-        { "text": "Ett lotsfartyg i tjänst", "isCorrect": false },
-        { "text": "Ett fartyg hindrat av sitt djupgående", "isCorrect": false }
+        {
+          "text": "Ett fartyg med begränsad manöverförmåga",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett ej manöverfärdigt fartyg",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett lotsfartyg i tjänst",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg hindrat av sitt djupgående",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Rött–vitt–rött i lodrät linje, alla runtomlysande, betyder begränsad manöverförmåga — till exempel muddring, dykeriarbete eller bojläggning. Fartyg hindrat av sitt djupgående för i stället tre röda ljus.",
       "explanationEn": "All-round red–white–red: restricted in ability to manoeuvre. Three all-round reds would mean constrained by draught.",
@@ -46,9 +84,21 @@
         "questionSv": "Rött, vitt och rött ljus i lodrät linje. Vad ser du?",
         "scene": {
           "lights": [
-            { "color": "red", "x": 50, "y": 18 },
-            { "color": "white", "x": 50, "y": 28 },
-            { "color": "red", "x": 50, "y": 38 }
+            {
+              "color": "red",
+              "x": 50,
+              "y": 18
+            },
+            {
+              "color": "white",
+              "x": 50,
+              "y": 28
+            },
+            {
+              "color": "red",
+              "x": 50,
+              "y": 38
+            }
           ],
           "captionSv": "Alla ljus synliga runtom"
         }
@@ -57,13 +107,28 @@
     {
       "id": "lan-sar-003",
       "topicId": "top-lan-sarskilda",
-      "tracks": ["kustskeppare", "klass8"],
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "lantern",
       "options": [
-        { "text": "Ett fiskefartyg som trålar", "isCorrect": true },
-        { "text": "Ett fiskefartyg som fiskar med annat redskap än trål", "isCorrect": false },
-        { "text": "Ett segelfartyg med frivilliga masttoppsljus", "isCorrect": false },
-        { "text": "Ett lotsfartyg i tjänst, sett akterifrån", "isCorrect": false }
+        {
+          "text": "Ett fiskefartyg som trålar",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett fiskefartyg som fiskar med annat redskap än trål",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett segelfartyg med frivilliga masttoppsljus",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett lotsfartyg i tjänst, sett akterifrån",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Grönt över vitt, båda runtomlysande, betyder fartyg som trålar. Annat fiske än trålning visas med rött över vitt. Minnesregel: ”trålarens gröna släp”.",
       "explanationEn": "All-round green over white: vessel trawling. Red over white means fishing other than trawling.",
@@ -73,8 +138,16 @@
         "questionSv": "Grönt ljus över vitt ljus, båda synliga runtom. Vad ser du?",
         "scene": {
           "lights": [
-            { "color": "green", "x": 50, "y": 22 },
-            { "color": "white", "x": 50, "y": 34 }
+            {
+              "color": "green",
+              "x": 50,
+              "y": 22
+            },
+            {
+              "color": "white",
+              "x": 50,
+              "y": 34
+            }
           ],
           "captionSv": "Fartyget gör ingen fart genom vattnet"
         }
@@ -83,13 +156,28 @@
     {
       "id": "lan-sar-004",
       "topicId": "top-lan-sarskilda",
-      "tracks": ["kustskeppare", "klass8"],
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "lantern",
       "options": [
-        { "text": "Ett fiskefartyg som fiskar med annat redskap än trål", "isCorrect": true },
-        { "text": "Ett fiskefartyg som trålar", "isCorrect": false },
-        { "text": "Ett ej manöverfärdigt fartyg som gör fart", "isCorrect": false },
-        { "text": "Ett lotsfartyg i tjänst, sett förifrån", "isCorrect": false }
+        {
+          "text": "Ett fiskefartyg som fiskar med annat redskap än trål",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett fiskefartyg som trålar",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett ej manöverfärdigt fartyg som gör fart",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett lotsfartyg i tjänst, sett förifrån",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Rött över vitt, båda runtomlysande, betyder fiske med annat redskap än trål, till exempel garn eller långrev. Lotsfartygets ljus är tvärtom: vitt överst, rött underst.",
       "explanationEn": "All-round red over white: fishing other than trawling. A pilot vessel shows the opposite — white over red.",
@@ -99,8 +187,16 @@
         "questionSv": "Rött ljus över vitt ljus, båda synliga runtom. Vad ser du?",
         "scene": {
           "lights": [
-            { "color": "red", "x": 50, "y": 22 },
-            { "color": "white", "x": 50, "y": 34 }
+            {
+              "color": "red",
+              "x": 50,
+              "y": 22
+            },
+            {
+              "color": "white",
+              "x": 50,
+              "y": 34
+            }
           ],
           "captionSv": "Minnesregel: red over white — fishing at night"
         }
@@ -109,13 +205,28 @@
     {
       "id": "lan-sar-005",
       "topicId": "top-lan-sarskilda",
-      "tracks": ["kustskeppare", "klass8"],
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "lantern",
       "options": [
-        { "text": "Ett lotsfartyg i tjänst", "isCorrect": true },
-        { "text": "Ett fiskefartyg som fiskar med annat redskap än trål", "isCorrect": false },
-        { "text": "Ett fartyg till ankars, längre än 50 meter", "isCorrect": false },
-        { "text": "Ett fartyg med begränsad manöverförmåga", "isCorrect": false }
+        {
+          "text": "Ett lotsfartyg i tjänst",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett fiskefartyg som fiskar med annat redskap än trål",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg till ankars, längre än 50 meter",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg med begränsad manöverförmåga",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Vitt över rött, båda runtomlysande i masttoppen, betyder lotsfartyg i tjänst. Minnesregel: ”white over red — pilot ahead”. Fiskefartyget för det omvända: rött över vitt.",
       "explanationEn": "All-round white over red at the masthead: pilot vessel on duty.",
@@ -125,8 +236,16 @@
         "questionSv": "Vitt ljus över rött ljus, båda synliga runtom. Vad ser du?",
         "scene": {
           "lights": [
-            { "color": "white", "x": 50, "y": 22 },
-            { "color": "red", "x": 50, "y": 34 }
+            {
+              "color": "white",
+              "x": 50,
+              "y": 22
+            },
+            {
+              "color": "red",
+              "x": 50,
+              "y": 34
+            }
           ],
           "captionSv": "Ljusen sitter i masttoppen"
         }
@@ -135,30 +254,63 @@
     {
       "id": "lan-sar-006",
       "topicId": "top-lan-sarskilda",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "Ett vitt runtomlysande ljus där det syns bäst", "isCorrect": true },
-        { "text": "Ett rött runtomlysande ljus där det syns bäst", "isCorrect": false },
-        { "text": "Sidoljus och akterljus, men inget toppljus", "isCorrect": false },
-        { "text": "Två vita runtomlysande ljus i lodrät linje", "isCorrect": false }
+        {
+          "text": "Ett vitt runtomlysande ljus där det syns bäst",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett rött runtomlysande ljus där det syns bäst",
+          "isCorrect": false
+        },
+        {
+          "text": "Sidoljus och akterljus, men inget toppljus",
+          "isCorrect": false
+        },
+        {
+          "text": "Två vita runtomlysande ljus i lodrät linje",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Ett fartyg till ankars under 50 meter för ett vitt runtomlysande ankarljus där det syns bäst. Fartyg på 50 meter eller mer för två: ett i fören och ett lägre i aktern.",
       "explanationEn": "A vessel at anchor under 50 m shows one all-round white anchor light; 50 m or more shows two.",
       "theoryAnchor": "lanternor/ankarljus",
       "authorReviewed": false,
-      "payload": { "questionSv": "Vilket ljus för ett fartyg under 50 meter som ligger till ankars?" }
+      "payload": {
+        "questionSv": "Vilket ljus för ett fartyg under 50 meter som ligger till ankars?"
+      }
     },
     {
       "id": "lan-sar-007",
       "topicId": "top-lan-sarskilda",
-      "tracks": ["kustskeppare", "klass8"],
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "lantern",
       "options": [
-        { "text": "Ett fartyg som bogserar, sett akterifrån", "isCorrect": true },
-        { "text": "Ett fiskefartyg som trålar, sett akterifrån", "isCorrect": false },
-        { "text": "Ett fartyg till ankars med däcksbelysning", "isCorrect": false },
-        { "text": "Ett lotsfartyg i tjänst, sett akterifrån", "isCorrect": false }
+        {
+          "text": "Ett fartyg som bogserar, sett akterifrån",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett fiskefartyg som trålar, sett akterifrån",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg till ankars med däcksbelysning",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett lotsfartyg i tjänst, sett akterifrån",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Ett gult bogserljus rakt över akterljuset förs av bogserande fartyg och syns bara akterifrån — en varning att inte gå in mellan bogserare och släp.",
       "explanationEn": "A yellow towing light above the sternlight identifies a towing vessel seen from astern.",
@@ -168,12 +320,493 @@
         "questionSv": "Ett gult ljus rakt över ett vitt ljus. Vad ser du?",
         "scene": {
           "lights": [
-            { "color": "yellow", "x": 50, "y": 24 },
-            { "color": "white", "x": 50, "y": 34 }
+            {
+              "color": "yellow",
+              "x": 50,
+              "y": 24
+            },
+            {
+              "color": "white",
+              "x": 50,
+              "y": 34
+            }
           ],
           "captionSv": "Sett akterifrån"
         }
       }
+    },
+    {
+      "id": "lan-sar-008",
+      "topicId": "top-lan-sarskilda",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Nej, det behövs inte i en skärgårdsvik som är skyddad ur trafiksynpunkt",
+          "isCorrect": true
+        },
+        {
+          "text": "Ja, ankarlanternan ska alltid vara tänd mellan solnedgång och soluppgång",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja, men bara om båten är längre än 7 meter",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej, ankarlanterna krävs över huvud taget bara på internationellt vatten",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Den som ankrar långt in i en skyddad skärgårdsvik, utanför farleder och stråk där andra båtar normalt inte passerar, är inte skyldig att tända ankarlanterna. Kravet på ankarlanterna gäller där andra fartyg kan tänkas navigera.",
+      "explanationEn": "A boat anchored deep inside a sheltered archipelago bay, away from fairways where other vessels normally pass, is not obliged to show an anchor light. The anchor light requirement applies where other vessels may be navigating.",
+      "payload": {
+        "questionSv": "Du ankrar på svaj långt in i Mörkviken på Fjärdlång (NO-delen av sjökort 616). Är du skyldig att tända ankarlanterna?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:5 / photo_62, photo_20"
+    },
+    {
+      "id": "lan-sar-009",
+      "topicId": "top-lan-sarskilda",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Maskindrivet fartyg trots hissat segel",
+          "isCorrect": true
+        },
+        {
+          "text": "Fartyg som fiskar med utestående redskap",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyg som ligger för ankar",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyg hämmat av sitt djupgående",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En svart kon med spetsen nedåt visas av segelfartyg som går för motor samtidigt som seglen är hissade. Signalen talar om att båten väjningsmässigt ska betraktas som maskindriven, inte som seglande.",
+      "explanationEn": "A black cone, apex downward, is shown by a sailing vessel using its engine while sails are hoisted. It tells other vessels the boat must be treated as power-driven under the steering rules, not as sailing.",
+      "payload": {
+        "questionSv": "Se figur A till fråga 10:6: en segelbåt med hissat segel visar en svart kon med spetsen nedåt. Vad innebär signalfiguren?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:6 / photo_62, photo_20"
+    },
+    {
+      "id": "lan-sar-010",
+      "topicId": "top-lan-sarskilda",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Fartyget ligger för ankar (ankarliggare)",
+          "isCorrect": true
+        },
+        {
+          "text": "Fartyget är ej manöverfärdigt",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyget fiskar med utestående redskap",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyget är maskindrivet trots hissat segel",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett svart klot, väl synligt i förskeppet, är dagersignalen för ankarliggare. På natten motsvaras signalen av det vita runtlysande ankarljuset. Ej manöverfärdigt fartyg visar i stället två svarta klot lodrätt.",
+      "explanationEn": "A single black ball displayed forward is the day signal for a vessel at anchor. At night the equivalent is the all-round white anchor light. A vessel not under command shows two black balls in a vertical line instead.",
+      "payload": {
+        "questionSv": "Se figur E till fråga 10:6: ett fartyg visar ett ensamt svart klot. Vad innebär signalfiguren?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:6 / photo_62, photo_20"
+    },
+    {
+      "id": "lan-sar-011",
+      "topicId": "top-lan-sarskilda",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Dykarflagg (signalflagga A) – dykning pågår, håll undan och sakta in",
+          "isCorrect": true
+        },
+        {
+          "text": "Lotsflagg – fartyget önskar lots ombord",
+          "isCorrect": false
+        },
+        {
+          "text": "Karantänflagg – fartyget begär fri praktika",
+          "isCorrect": false
+        },
+        {
+          "text": "Märke som visar att båten ligger för ankar i farled",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En tvåtungad flagga i vitt och blått är signalflagga A, dykarflaggen. Den betyder att dykning pågår från båten – andra fartyg ska hålla väl undan och gå med låg fart eftersom det kan finnas dykare i vattnet nära båten.",
+      "explanationEn": "A swallow-tailed white and blue flag is code flag A, the diver's flag. It means diving operations are in progress – other vessels must keep well clear and proceed slowly since divers may be in the water near the boat.",
+      "payload": {
+        "questionSv": "Du ser en ankrad båt som för en utspänd, tvåtungad flagga i vitt och blått. Vad är det för flagg?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:7 / photo_62, photo_20"
+    },
+    {
+      "id": "lan-sar-012",
+      "topicId": "top-lan-sarskilda",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Vitt sken horisonten runt (360°)",
+          "isCorrect": true
+        },
+        {
+          "text": "Vitt sken akteröver i en sektor om 135°",
+          "isCorrect": false
+        },
+        {
+          "text": "Gult sken horisonten runt (360°)",
+          "isCorrect": false
+        },
+        {
+          "text": "Vitt sken förut i en sektor om 225°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ankarlanternan lyser med vitt sken runt hela horisonten, 360°. Den ska kunna ses från alla håll eftersom ett ankrat fartyg kan närmas från vilken riktning som helst.",
+      "explanationEn": "The anchor light shows a white light all around the horizon, 360°. It must be visible from every direction since an anchored vessel can be approached from any bearing.",
+      "payload": {
+        "questionSv": "Hur lyser ankarlanternan (färg och riktning)?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:8 / photo_62, photo_20"
+    },
+    {
+      "id": "lan-sar-013",
+      "topicId": "top-lan-sarskilda",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Bogserlanternor ska föras – extra topplanterna och gul akterlanterna",
+          "isCorrect": true
+        },
+        {
+          "text": "En vit runtlysande lanterna i aktern på den sista jollen räcker",
+          "isCorrect": false
+        },
+        {
+          "text": "Gul runtlysande blixtlanterna i masttoppen på bogseraren",
+          "isCorrect": false
+        },
+        {
+          "text": "Inga särskilda ljus krävs vid bogsering av småbåtar",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vid en planerad bogsering ska bogserlanternor föras: bogseraren visar en extra topplanterna lodrätt över den vanliga (två vid släplängd upp till 200 m) samt en gul akterlanterna ovanför den vita.",
+      "explanationEn": "For a planned tow, towing lights must be shown: the tug carries an extra masthead light vertically above the normal one (two lights for a tow up to 200 m) and a yellow towing light above the white stern light.",
+      "payload": {
+        "questionSv": "Hur markerar du på natten att du bogserar ett antal jollar till seglarlägret (planerad bogsering)?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:11a / photo_61, photo_20"
+    },
+    {
+      "id": "lan-sar-014",
+      "topicId": "top-lan-sarskilda",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Tillgängliga medel får användas, till exempel att lysa upp bogsertrossen med strålkastare",
+          "isCorrect": true
+        },
+        {
+          "text": "Bogseringen får inte påbörjas förrän riktiga bogserlanternor har monterats",
+          "isCorrect": false
+        },
+        {
+          "text": "Den bogserade båten ska släcka alla ljus så att den inte förväxlas med ett gående fartyg",
+          "isCorrect": false
+        },
+        {
+          "text": "Båda båtarna ska visa gult runtlysande sken horisonten runt",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vid en oplanerad nödbogsering, som när du hjälper en båt med motorhaveri till närmsta natthamn, saknas ofta bogserlanternor. Då får tillgängliga medel användas för att uppmärksamma andra på bogseringen, till exempel strålkastarbelysning av bogsertrossen.",
+      "explanationEn": "In an unplanned emergency tow, such as helping a boat with engine failure to the nearest harbour, proper towing lights are often not available. You may then use whatever means are at hand to draw attention to the tow, for example illuminating the tow line with a searchlight.",
+      "payload": {
+        "questionSv": "Hur markerar du på natten att du bogserar en båt med motorhaveri som du hjälper till närmaste natthamn?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:11b / photo_61, photo_20"
+    },
+    {
+      "id": "lan-sar-015",
+      "topicId": "top-lan-sarskilda",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Bogsering med släp över 200 meter samt begränsad manöverförmåga",
+          "isCorrect": true
+        },
+        {
+          "text": "Bogsering med släp under 200 meter samt ej manöverfärdigt fartyg",
+          "isCorrect": false
+        },
+        {
+          "text": "Fiske med redskap som sträcker sig mer än 150 meter ut samt ankarliggare",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyg hämmat av sitt djupgående som bogserar en pråm",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Bogseraren visar en svart romb, vilket betyder att släpets längd överstiger 200 meter (samma romb visas även på släpet). Signalen klot–romb–klot betyder begränsad manöverförmåga, vilket ett bogserande ekipage med lång släplängd ofta har.",
+      "explanationEn": "The tug shows a black diamond, meaning the tow exceeds 200 metres (the same diamond is also shown on the tow). The ball–diamond–ball signal means restricted ability to manoeuvre, which a tug with a long tow often has.",
+      "payload": {
+        "questionSv": "Se figur B till fråga 10:16: en bogserbåt visar en svart romb samt signalen klot–romb–klot lodrätt. Vad betyder signalfigurerna?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:16 (B) / photo_61, photo_20"
+    },
+    {
+      "id": "lan-sar-016",
+      "topicId": "top-lan-sarskilda",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Fartyg med begränsad manöverförmåga",
+          "isCorrect": true
+        },
+        {
+          "text": "Fartyg som ej är manöverfärdigt",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyg hämmat av sitt djupgående",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyg som ligger för ankar",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Klot–romb–klot i lodrät linje är dagersignalen för fartyg med begränsad manöverförmåga, till exempel vid muddring, kabelarbete eller dykeriarbete. Förväxla inte med ej manöverfärdigt fartyg, som visar två svarta klot.",
+      "explanationEn": "Ball–diamond–ball in a vertical line is the day signal for a vessel restricted in her ability to manoeuvre, for example dredging, cable work or diving operations. Do not confuse it with a vessel not under command, which shows two black balls.",
+      "payload": {
+        "questionSv": "Se figur C till fråga 10:16: ett fartyg visar signalen klot–romb–klot i lodrät linje. Vad betyder signalfiguren?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:16 (C) / photo_61, photo_20"
+    },
+    {
+      "id": "lan-sar-017",
+      "topicId": "top-lan-sarskilda",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Fartyg hämmat av sitt djupgående",
+          "isCorrect": true
+        },
+        {
+          "text": "Fartyg med begränsad manöverförmåga",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyg som ligger för ankar",
+          "isCorrect": false
+        },
+        {
+          "text": "Maskindrivet fartyg trots hissat segel",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En svart cylinder är dagersignalen för fartyg hämmat av sitt djupgående – ett djupgående fartyg som har mycket begränsade möjligheter att avvika från sin kurs i förhållande till tillgängligt vattendjup.",
+      "explanationEn": "A black cylinder is the day signal for a vessel constrained by her draught – a deep-draught vessel with very limited ability to deviate from her course given the available water depth.",
+      "payload": {
+        "questionSv": "Se figur D till fråga 10:16: ett fartyg visar en svart cylinder. Vad betyder signalfiguren?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:16 (D) / photo_61, photo_20"
+    },
+    {
+      "id": "lan-sar-018",
+      "topicId": "top-lan-sarskilda",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Fartyg med styranordning även i förskeppet, under backning i hamn",
+          "isCorrect": true
+        },
+        {
+          "text": "Fartyg som ej är manöverfärdigt",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyg som ligger för ankar på svaj",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyg som bogserar med släp över 200 meter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Två svarta klot i sidled visas av fartyg med styranordning även i förskeppet (till exempel vissa färjor) när det backar i hamn. Ej manöverfärdigt fartyg visar i stället två klot i lodrät linje.",
+      "explanationEn": "Two black balls displayed horizontally are shown by a vessel that also has steering gear in the bow (for example some ferries) when going astern in harbour. A vessel not under command shows two balls in a vertical line instead.",
+      "payload": {
+        "questionSv": "Se figur F till fråga 10:16: ett fartyg visar två svarta klot i sidled (bredvid varandra). Vad betyder signalfiguren?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:16 (F) / photo_61, photo_20"
+    },
+    {
+      "id": "lan-sar-019",
+      "topicId": "top-lan-sarskilda",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Fartyg som fiskar",
+          "isCorrect": true
+        },
+        {
+          "text": "Segelfartyg som samtidigt går för motor",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyg hämmat av sitt djupgående",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyg som ligger för ankar",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Två svarta koner med spetsarna mot varandra i lodrät linje är dagersignalen för fartyg som fiskar (trålar eller fiskar med annat redskap). Ett fiskande fartyg har företräde framför både maskindrivna fartyg och segelfartyg.",
+      "explanationEn": "Two black cones apex-to-apex in a vertical line is the day signal for a vessel engaged in fishing (trawling or using other gear). A fishing vessel has priority over both power-driven and sailing vessels.",
+      "payload": {
+        "questionSv": "Se figur G till fråga 10:16: ett fartyg visar två svarta koner med spetsarna mot varandra i lodrät linje. Vad betyder signalfiguren?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:16 (G) / photo_61, photo_20"
+    },
+    {
+      "id": "lan-sar-020",
+      "topicId": "top-lan-sarskilda",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Fartyg som ej är manöverfärdigt",
+          "isCorrect": true
+        },
+        {
+          "text": "Fartyg med begränsad manöverförmåga",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyg som ligger för ankar",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyg som fiskar med utestående redskap",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Två svarta klot i lodrät linje betyder ej manöverfärdigt fartyg – fartyget kan på grund av till exempel maskin- eller roderhaveri inte manövrera enligt reglerna. Ett ensamt klot betyder ankarliggare och klot–romb–klot betyder begränsad manöverförmåga.",
+      "explanationEn": "Two black balls in a vertical line mean a vessel not under command – due to, for example, engine or rudder failure, it cannot manoeuvre as required by the rules. A single ball means at anchor, and ball–diamond–ball means restricted ability to manoeuvre.",
+      "payload": {
+        "questionSv": "Se figur H till fråga 10:16: ett fartyg visar två svarta klot i lodrät linje. Vad betyder signalfiguren?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:16 (H) / photo_61, photo_20"
     }
   ]
 }

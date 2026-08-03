@@ -4,13 +4,29 @@
     {
       "id": "lan-maskin-001",
       "topicId": "top-lan-maskin",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "lantern",
       "options": [
-        { "text": "Ett maskindrivet fartyg som kommer rakt emot mig", "isCorrect": true },
-        { "text": "Ett maskindrivet fartyg som går ifrån mig", "isCorrect": false },
-        { "text": "Ett segelfartyg som kommer rakt emot mig", "isCorrect": false },
-        { "text": "Ett fartyg till ankars med tänt ankarljus", "isCorrect": false }
+        {
+          "text": "Ett maskindrivet fartyg som kommer rakt emot mig",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett maskindrivet fartyg som går ifrån mig",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett segelfartyg som kommer rakt emot mig",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg till ankars med tänt ankarljus",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Toppljus över båda sidoljusen betyder maskindrivet fartyg sett rätt förifrån — det kommer emot dig. Grönt syns till vänster eftersom du ser fartygets styrbordssida spegelvänd. Ett segelfartyg saknar toppljus.",
       "explanationEn": "Masthead light above both sidelights: a power-driven vessel head-on. A sailing vessel would show no masthead light.",
@@ -20,9 +36,21 @@
         "questionSv": "Du ser dessa ljus en mörk natt. Vad ser du?",
         "scene": {
           "lights": [
-            { "color": "white", "x": 50, "y": 20 },
-            { "color": "green", "x": 41, "y": 38 },
-            { "color": "red", "x": 59, "y": 38 }
+            {
+              "color": "white",
+              "x": 50,
+              "y": 20
+            },
+            {
+              "color": "green",
+              "x": 41,
+              "y": 38
+            },
+            {
+              "color": "red",
+              "x": 59,
+              "y": 38
+            }
           ],
           "captionSv": "Sett rätt förifrån"
         }
@@ -31,13 +59,29 @@
     {
       "id": "lan-maskin-002",
       "topicId": "top-lan-maskin",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "lantern",
       "options": [
-        { "text": "Ett stort maskindrivet fartyg (50 m eller längre) som visar sin styrbordssida", "isCorrect": true },
-        { "text": "Ett litet maskindrivet fartyg (under 50 m) som visar sin styrbordssida", "isCorrect": false },
-        { "text": "Ett fartyg som bogserar, sett från styrbordssidan", "isCorrect": false },
-        { "text": "Ett stort maskindrivet fartyg som visar sin babordssida", "isCorrect": false }
+        {
+          "text": "Ett stort maskindrivet fartyg (50 m eller längre) som visar sin styrbordssida",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett litet maskindrivet fartyg (under 50 m) som visar sin styrbordssida",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg som bogserar, sett från styrbordssidan",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett stort maskindrivet fartyg som visar sin babordssida",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Två toppljus — det aktra högre än det förliga — förs av maskindrivna fartyg som är 50 meter eller längre. Det gröna sidoljuset visar att du ser styrbordssidan. Fartyget går åt höger från din synpunkt.",
       "explanationEn": "Two masthead lights (after one higher) mean a power-driven vessel of 50 m or more; the green sidelight shows her starboard side.",
@@ -47,9 +91,21 @@
         "questionSv": "Vilket fartyg visar dessa ljus?",
         "scene": {
           "lights": [
-            { "color": "white", "x": 40, "y": 18 },
-            { "color": "white", "x": 64, "y": 24 },
-            { "color": "green", "x": 56, "y": 38 }
+            {
+              "color": "white",
+              "x": 40,
+              "y": 18
+            },
+            {
+              "color": "white",
+              "x": 64,
+              "y": 24
+            },
+            {
+              "color": "green",
+              "x": 56,
+              "y": 38
+            }
           ],
           "hull": "silhouette",
           "captionSv": "Sett från fartygets styrbordssida"
@@ -59,13 +115,29 @@
     {
       "id": "lan-maskin-003",
       "topicId": "top-lan-maskin",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "lantern",
       "options": [
-        { "text": "Akterljuset på ett fartyg som går ifrån mig — eller ett ankarljus", "isCorrect": true },
-        { "text": "Toppljuset på ett fartyg som kommer emot mig", "isCorrect": false },
-        { "text": "Ett lotsfartyg i tjänst, sett förifrån", "isCorrect": false },
-        { "text": "Ett fartyg med begränsad manöverförmåga", "isCorrect": false }
+        {
+          "text": "Akterljuset på ett fartyg som går ifrån mig — eller ett ankarljus",
+          "isCorrect": true
+        },
+        {
+          "text": "Toppljuset på ett fartyg som kommer emot mig",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett lotsfartyg i tjänst, sett förifrån",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg med begränsad manöverförmåga",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Ett ensamt vitt ljus kan vara akterljuset på ett fartyg du hinner upp — eller ett ankarljus, eller en liten båt. Du är i så fall upphinnande och ska hålla undan. Ett mötande maskindrivet fartyg hade också visat sidoljus.",
       "explanationEn": "A single white light may be a sternlight (you are overtaking), an anchor light, or a small craft. A vessel meeting you head-on would also show sidelights.",
@@ -74,7 +146,13 @@
       "payload": {
         "questionSv": "Ett ensamt vitt ljus syns i mörkret. Vad kan det vara?",
         "scene": {
-          "lights": [{ "color": "white", "x": 50, "y": 32 }],
+          "lights": [
+            {
+              "color": "white",
+              "x": 50,
+              "y": 32
+            }
+          ],
           "captionSv": "Inga andra ljus syns"
         }
       }
@@ -82,19 +160,364 @@
     {
       "id": "lan-maskin-004",
       "topicId": "top-lan-maskin",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "Att fartyget är 50 meter långt eller längre", "isCorrect": true },
-        { "text": "Att fartyget bogserar ett annat fartyg", "isCorrect": false },
-        { "text": "Att fartyget är på grund och står stilla", "isCorrect": false },
-        { "text": "Att fartyget begär fri väg genom trång farled", "isCorrect": false }
+        {
+          "text": "Att fartyget är 50 meter långt eller längre",
+          "isCorrect": true
+        },
+        {
+          "text": "Att fartyget bogserar ett annat fartyg",
+          "isCorrect": false
+        },
+        {
+          "text": "Att fartyget är på grund och står stilla",
+          "isCorrect": false
+        },
+        {
+          "text": "Att fartyget begär fri väg genom trång farled",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Ett andra toppljus, placerat aktern om och högre än det förliga, är obligatoriskt för maskindrivna fartyg på 50 meter eller mer. Bogsering visas i stället med två eller tre toppljus i lodrät linje på samma mast.",
       "explanationEn": "A second masthead light abaft of and higher than the forward one is required for power-driven vessels of 50 m or more.",
       "theoryAnchor": "lanternor/maskindrivna",
       "authorReviewed": false,
-      "payload": { "questionSv": "Vad betyder två toppljus, där det aktra sitter högre än det förliga?" }
+      "payload": {
+        "questionSv": "Vad betyder två toppljus, där det aktra sitter högre än det förliga?"
+      }
+    },
+    {
+      "id": "lan-maskin-005",
+      "topicId": "top-lan-maskin",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Vit runtlysande lanterna som är tänd hela tiden",
+          "isCorrect": true
+        },
+        {
+          "text": "Vit lampa som visas endast vid behov när annan båt närmar sig",
+          "isCorrect": false
+        },
+        {
+          "text": "Sido-, akter- och topplanterna som är tända hela tiden",
+          "isCorrect": false
+        },
+        {
+          "text": "Sido- och akterlanterna men ingen topplanterna",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En motorbåt under 7 meter vars maxfart inte överstiger 7 knop får föra en vit runtlysande lanterna i stället för de vanliga lanternorna. Den ska vara tänd hela tiden – det räcker inte att visa den vid behov.",
+      "explanationEn": "A motorboat under 7 metres whose maximum speed does not exceed 7 knots may carry an all-round white light instead of the normal lights. It must be lit continuously, not just shown when needed.",
+      "payload": {
+        "questionSv": "Vilka lanternor ska en motorbåt under 7 meter med 7 knop som högsta fart föra?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:2 / photo_62, photo_21"
+    },
+    {
+      "id": "lan-maskin-006",
+      "topicId": "top-lan-maskin",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Sido-, akter- och topplanterna",
+          "isCorrect": true
+        },
+        {
+          "text": "Vit runtlysande lanterna, tänd hela tiden",
+          "isCorrect": false
+        },
+        {
+          "text": "Sido- och akterlanterna utan topplanterna",
+          "isCorrect": false
+        },
+        {
+          "text": "Vit lampa som visas vid behov när annan båt närmar sig",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Undantaget med enbart vit runtlysande lanterna gäller bara motorbåtar under 7 meter med högst 7 knops fart. En motorbåt som gör 30 knop måste föra fullständiga lanternor: sido-, akter- och topplanterna.",
+      "explanationEn": "The exemption allowing a single all-round white light only applies to motorboats under 7 metres with a top speed of 7 knots or less. A motorboat doing 30 knots must carry full lights: side lights, stern light and masthead light.",
+      "payload": {
+        "questionSv": "Vilka lanternor ska en motorbåt under 7 meter som gör 30 knops fart föra?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:2 / photo_62, photo_21"
+    },
+    {
+      "id": "lan-maskin-007",
+      "topicId": "top-lan-maskin",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ja, det är tillåtet om båten är kortare än 12 meter",
+          "isCorrect": true
+        },
+        {
+          "text": "Nej, topp- och akterlanterna får aldrig ersättas med en runtlysande lanterna",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja, det är tillåtet för alla motorbåtar oavsett längd",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja, men bara om båtens fart inte överstiger 7 knop",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En maskindriven båt kortare än 12 meter får ersätta topp- och akterlanternan med en vit runtlysande lanterna. Sidolanternorna måste dock fortfarande föras. Den vita runtlysande lanternan täcker då både topplanternans sektor förut (225°) och akterlanternans sektor (135°).",
+      "explanationEn": "A power-driven boat shorter than 12 metres may replace the masthead and stern lights with a single all-round white light. The side lights must still be carried. The all-round white light then covers both the masthead sector (225°) and the stern sector (135°).",
+      "payload": {
+        "questionSv": "En motorbåtsägare vill ersätta topp- och akterlanternan med en vit runtlysande lanterna. Är det tillåtet?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:9 / photo_62, photo_20"
+    },
+    {
+      "id": "lan-maskin-008",
+      "topicId": "top-lan-maskin",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Minst 3 sjömil",
+          "isCorrect": true
+        },
+        {
+          "text": "Minst 1 sjömil",
+          "isCorrect": false
+        },
+        {
+          "text": "Minst 2 sjömil",
+          "isCorrect": false
+        },
+        {
+          "text": "Minst 5 sjömil",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Enligt facit ska lanternorna på en motor- eller segelbåt med längd 12–20 meter som går för motor ha en lysvidd om minst 3 sjömil.",
+      "explanationEn": "According to the answer key, the lights of a 12–20 metre boat under engine power must have a visibility range of at least 3 nautical miles.",
+      "payload": {
+        "questionSv": "En motorbåt eller segelbåt med längd 12–20 meter går för motor. Vilken lysvidd gäller för topp-, sido- och akterlanternorna?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Facit anger kort 'Minst 3 M' för alla tre lanternorna, men enligt sjövägsreglerna gäller 3 M för topplanternan och 2 M för sido- och akterlanterna på fartyg 12–20 m – kontrollera bokens text.",
+      "sourceRef": "10:13a / photo_61, photo_19"
+    },
+    {
+      "id": "lan-maskin-009",
+      "topicId": "top-lan-maskin",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Minst 2,5 meter över relingen och minst 1 meter över sammansatt lanterna",
+          "isCorrect": true
+        },
+        {
+          "text": "Minst 1 meter över relingen och minst 2,5 meter över sammansatt lanterna",
+          "isCorrect": false
+        },
+        {
+          "text": "Minst 2 meter över relingen och i höjd med sidolanternorna",
+          "isCorrect": false
+        },
+        {
+          "text": "Minst 4 meter över relingen och minst 2 meter över sammansatt lanterna",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "På en båt med längd 12–20 meter som går för motor ska topplanternan sitta minst 2,5 meter över relingen och minst 1 meter över en sammansatt sidolanterna. Topplanternan ska alltid synas tydligt ovanför sidoljusen.",
+      "explanationEn": "On a 12–20 metre boat under engine power, the masthead light must be at least 2.5 metres above the gunwale and at least 1 metre above a combined side light. The masthead light must always be clearly visible above the side lights.",
+      "payload": {
+        "questionSv": "En motorbåt eller segelbåt med längd 12–20 meter går för motor. Vad gäller för topplanternans höjd över reling och över sidolanternor?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:13b / photo_61, photo_19"
+    },
+    {
+      "id": "lan-maskin-010",
+      "topicId": "top-lan-maskin",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ja, sidolanternorna får vara sammansatta i en gemensam lanterna",
+          "isCorrect": true
+        },
+        {
+          "text": "Nej, sammansatt lanterna är bara tillåten på segelbåtar under segel",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja, men bara vid färd i svenskt inre vatten",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej, sammansatt lanterna är bara tillåten på båtar under 7 meter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "På fartyg under 20 meter får de röda och gröna sidoljusen kombineras i en sammansatt lanterna som placeras i fartygets mittlinje. Topplanternan ska då sitta minst 1 meter över den sammansatta lanternan.",
+      "explanationEn": "On vessels under 20 metres, the red and green side lights may be combined in one lantern placed on the vessel's centreline. The masthead light must then be at least 1 metre above the combined lantern.",
+      "payload": {
+        "questionSv": "En motorbåt eller segelbåt med längd 12–20 meter går för motor. Får sidolanternorna vara sammansatta?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:13c / photo_61, photo_19"
+    },
+    {
+      "id": "lan-maskin-011",
+      "topicId": "top-lan-maskin",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Den ska placeras så nära aktern som möjligt",
+          "isCorrect": true
+        },
+        {
+          "text": "Den ska placeras minst 1 meter över relingen midskepps",
+          "isCorrect": false
+        },
+        {
+          "text": "Den får placeras var som helst, bara skenet syns akterifrån",
+          "isCorrect": false
+        },
+        {
+          "text": "Den ska placeras i masttoppen ovanför topplanternan",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Akterlanternan ska sitta så nära aktern som möjligt. Där ger dess 135°-sektor akteröver en korrekt ljusbild för upphinnande fartyg.",
+      "explanationEn": "The stern light must be placed as near the stern as practicable. From there its 135° aft-facing sector gives overtaking vessels the correct light picture.",
+      "payload": {
+        "questionSv": "Vad säger reglerna om akterlanternans placering?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:13d / photo_61, photo_19"
+    },
+    {
+      "id": "lan-maskin-012",
+      "topicId": "top-lan-maskin",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Topp- och akterlanterna minst 2 sjömil, sidolanternorna minst 1 sjömil",
+          "isCorrect": true
+        },
+        {
+          "text": "Topp- och akterlanterna minst 1 sjömil, sidolanternorna minst 2 sjömil",
+          "isCorrect": false
+        },
+        {
+          "text": "Samtliga lanternor minst 3 sjömil",
+          "isCorrect": false
+        },
+        {
+          "text": "Topp- och akterlanterna minst 3 sjömil, sidolanternorna minst 2 sjömil",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "På ett maskindrivet fartyg kortare än 12 meter ska topp- och akterlanternan synas minst 2 sjömil och sidolanternorna minst 1 sjömil.",
+      "explanationEn": "On a power-driven vessel shorter than 12 metres, the masthead and stern lights must be visible at least 2 nautical miles and the side lights at least 1 nautical mile.",
+      "payload": {
+        "questionSv": "Ett maskindrivet fartyg kortare än 12 meter går för motor. Vilken lysvidd gäller för topp-, sido- och akterlanternorna?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:14a / photo_61, photo_19"
+    },
+    {
+      "id": "lan-maskin-013",
+      "topicId": "top-lan-maskin",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Minst 1 meter; i svenskt inre vatten får den föras lägre, dock minst 0,5 meter över sidolanternorna om båten saknar mast",
+          "isCorrect": true
+        },
+        {
+          "text": "Minst 2,5 meter; i svenskt inre vatten får den föras lägre, dock minst 1 meter över sidolanternorna",
+          "isCorrect": false
+        },
+        {
+          "text": "Minst 0,5 meter; i svenskt inre vatten får den föras i höjd med sidolanternorna om båten saknar mast",
+          "isCorrect": false
+        },
+        {
+          "text": "Minst 2 meter över sidolanternorna – inga undantag medges i svenskt vatten",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "På ett maskindrivet fartyg under 12 meter ska topplanternan normalt sitta minst 1 meter över sidolanternorna. I svenskt inre vatten får den föras lägre, dock minst 0,5 meter över sidolanternorna, om båten saknar mast.",
+      "explanationEn": "On a power-driven vessel under 12 metres, the masthead light must normally be at least 1 metre above the side lights. In Swedish inland waters it may be carried lower, but at least 0.5 metre above the side lights, if the boat has no mast.",
+      "payload": {
+        "questionSv": "Ett maskindrivet fartyg kortare än 12 meter går för motor. Vad gäller för topplanternans höjd över sidolanternorna?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:14b / photo_61, photo_19"
     }
   ]
 }

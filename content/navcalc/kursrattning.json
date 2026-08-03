@@ -4,50 +4,707 @@
     {
       "id": "nav-kurs-001",
       "topicId": "top-nav-kurs",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "calculation",
       "options": [],
       "explanationSv": "Genereras med nya värden vid varje försök: rättvisande kurs till kompasskurs.",
       "explanationEn": "Generated per attempt: true course to compass course.",
       "theoryAnchor": "navigation/kursrattning",
       "authorReviewed": false,
-      "payload": { "questionSv": "Kursrättning: rättvisande till kompass", "generator": "compass-course" }
+      "payload": {
+        "questionSv": "Kursrättning: rättvisande till kompass",
+        "generator": "compass-course"
+      }
     },
     {
       "id": "nav-kurs-002",
       "topicId": "top-nav-kurs",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "calculation",
       "options": [],
       "explanationSv": "Genereras med nya värden vid varje försök: rättvisande kurs till kompasskurs, andra variant.",
       "explanationEn": "Generated per attempt: true to compass, second variant.",
       "theoryAnchor": "navigation/kursrattning",
       "authorReviewed": false,
-      "payload": { "questionSv": "Kursrättning: rättvisande till kompass (variant)", "generator": "compass-course" }
+      "payload": {
+        "questionSv": "Kursrättning: rättvisande till kompass (variant)",
+        "generator": "compass-course"
+      }
     },
     {
       "id": "nav-kurs-003",
       "topicId": "top-nav-kurs",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "calculation",
       "options": [],
       "explanationSv": "Genereras med nya värden vid varje försök: kompasskurs till rättvisande kurs.",
       "explanationEn": "Generated per attempt: compass course to true course.",
       "theoryAnchor": "navigation/kursrattning",
       "authorReviewed": false,
-      "payload": { "questionSv": "Kursrättning: kompass till rättvisande", "generator": "true-course" }
+      "payload": {
+        "questionSv": "Kursrättning: kompass till rättvisande",
+        "generator": "true-course"
+      }
     },
     {
       "id": "nav-kurs-004",
       "topicId": "top-nav-kurs",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "calculation",
       "options": [],
       "explanationSv": "Genereras med nya värden vid varje försök: kompasskurs till rättvisande kurs, andra variant.",
       "explanationEn": "Generated per attempt: compass to true, second variant.",
       "theoryAnchor": "navigation/kursrattning",
       "authorReviewed": false,
-      "payload": { "questionSv": "Kursrättning: kompass till rättvisande (variant)", "generator": "true-course" }
+      "payload": {
+        "questionSv": "Kursrättning: kompass till rättvisande (variant)",
+        "generator": "true-course"
+      }
+    },
+    {
+      "id": "nav-kurs-005",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Åt styrbord",
+          "isCorrect": true
+        },
+        {
+          "text": "Åt babord",
+          "isCorrect": false
+        },
+        {
+          "text": "Ingen avdrift behöver motverkas",
+          "isCorrect": false
+        },
+        {
+          "text": "Omväxlande åt styrbord och babord",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Med nordvästlig vind på denna kurs kommer båten att driva åt babord (i lä), och avdriften motverkas därför genom att hålla upp åt styrbord, mot vinden. Grundregeln är att man alltid håller upp mot vinden för att kompensera avdriften.",
+      "explanationEn": "You always compensate for leeway by steering up toward the wind. On this course the wind pushes the boat to leeward, so the helm must hold up to starboard, into the wind.",
+      "payload": {
+        "questionSv": "Ska avdriften motverkas åt styrbord eller åt babord på följande kurs: från Huvudskär mot Storskär (i havet ost Utö) med NV vind (sjökort 616)?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort (616 resp. båtsportkort blad 21) för att se kursens riktning i förhållande till vinden. Facit: a styrbord, b babord, c styrbord.",
+      "sourceRef": "4:7a / photo_80 (facit photo_36)"
+    },
+    {
+      "id": "nav-kurs-006",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Åt babord",
+          "isCorrect": true
+        },
+        {
+          "text": "Åt styrbord",
+          "isCorrect": false
+        },
+        {
+          "text": "Ingen avdrift behöver motverkas",
+          "isCorrect": false
+        },
+        {
+          "text": "Omväxlande åt styrbord och babord",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Med ostlig vind på denna kurs driver båten åt styrbord (i lä), och avdriften motverkas därför genom att hålla upp åt babord, mot vinden. Grundregeln är att man alltid håller upp mot vinden för att kompensera avdriften.",
+      "explanationEn": "You always compensate for leeway by steering up toward the wind. On this course the wind pushes the boat to leeward, so the helm must hold up to port, into the wind.",
+      "payload": {
+        "questionSv": "Ska avdriften motverkas åt styrbord eller åt babord på följande kurs: mysingeholm in mot viken vid Utö kyrka med O vind (sjökort 616)?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort (616 resp. båtsportkort blad 21) för att se kursens riktning i förhållande till vinden. Facit: a styrbord, b babord, c styrbord.",
+      "sourceRef": "4:7b / photo_80 (facit photo_36)"
+    },
+    {
+      "id": "nav-kurs-007",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Åt styrbord",
+          "isCorrect": true
+        },
+        {
+          "text": "Åt babord",
+          "isCorrect": false
+        },
+        {
+          "text": "Ingen avdrift behöver motverkas",
+          "isCorrect": false
+        },
+        {
+          "text": "Omväxlande åt styrbord och babord",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Med sydlig vind på denna kurs driver båten åt babord (i lä), och avdriften motverkas därför genom att hålla upp åt styrbord, mot vinden. Grundregeln är att man alltid håller upp mot vinden för att kompensera avdriften.",
+      "explanationEn": "You always compensate for leeway by steering up toward the wind. On this course the wind pushes the boat to leeward, so the helm must hold up to starboard, into the wind.",
+      "payload": {
+        "questionSv": "Ska avdriften motverkas åt styrbord eller åt babord på följande kurs: från Finnhällorna (utanför Nynäshamn) mot skäret Båten (litet skär V Nåttarö) vid S vind (löses i båtsportkort blad 21)?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort (616 resp. båtsportkort blad 21) för att se kursens riktning i förhållande till vinden. Facit: a styrbord, b babord, c styrbord.",
+      "sourceRef": "4:7c / photo_80 (facit photo_36)"
+    },
+    {
+      "id": "nav-kurs-008",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Den driver åt styrbord",
+          "isCorrect": true
+        },
+        {
+          "text": "Den driver åt babord",
+          "isCorrect": false
+        },
+        {
+          "text": "Den driver inte, men farten minskar",
+          "isCorrect": false
+        },
+        {
+          "text": "Den driver inte, men farten ökar",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vind tvärs in från babord trycker båten i lä, det vill säga åt styrbord. Facit: båt A driver åt styrbord.",
+      "explanationEn": "Wind on the port beam pushes the boat to leeward, i.e. to starboard.",
+      "payload": {
+        "questionSv": "En motorbåt går fram med vinden in tvärs från babordssidan. Hur påverkas båten av vinden?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:8a båt A / photo_80 (facit photo_36)"
+    },
+    {
+      "id": "nav-kurs-009",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Den driver inte alls eller obetydligt åt styrbord om den går mycket långsamt",
+          "isCorrect": true
+        },
+        {
+          "text": "Den driver kraftigt åt styrbord oavsett fart",
+          "isCorrect": false
+        },
+        {
+          "text": "Den driver kraftigt åt babord oavsett fart",
+          "isCorrect": false
+        },
+        {
+          "text": "Den driver åt babord, men bara vid hög fart",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Med vinden nästan rakt akterifrån blir sidkraften mycket liten. Facit: båt B driver inget, eller obetydligt åt styrbord om båten går mycket långsamt.",
+      "explanationEn": "With the wind almost dead astern the sideways force is very small; only at very low speed does a slight starboard drift appear.",
+      "payload": {
+        "questionSv": "En motorbåt går med vinden nästan rakt akterifrån, aningen in på babordssidan. Hur påverkas båten av vinden i sidled?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:8a båt B / photo_80 (facit photo_36)"
+    },
+    {
+      "id": "nav-kurs-010",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Den driver inte, men farten minskar",
+          "isCorrect": true
+        },
+        {
+          "text": "Den driver inte, men farten ökar",
+          "isCorrect": false
+        },
+        {
+          "text": "Den driver åt styrbord",
+          "isCorrect": false
+        },
+        {
+          "text": "Den driver åt babord",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Rakt mot vinden uppstår ingen sidledes avdrift, men motvinden bromsar båten. Facit: båt C driver inte, men får nedsatt fart.",
+      "explanationEn": "Head to wind there is no sideways drift, but the headwind slows the boat down.",
+      "payload": {
+        "questionSv": "En motorbåt går rakt mot vinden. Hur påverkas båten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:8a båt C / photo_80 (facit photo_36)"
+    },
+    {
+      "id": "nav-kurs-011",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Den driver inte, men farten ökar",
+          "isCorrect": true
+        },
+        {
+          "text": "Den driver inte, men farten minskar",
+          "isCorrect": false
+        },
+        {
+          "text": "Den driver åt styrbord",
+          "isCorrect": false
+        },
+        {
+          "text": "Den driver åt babord",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Med vinden rakt akterifrån uppstår ingen sidledes avdrift, men medvinden ger båten högre fart. Facit: båt D driver inte, men får högre fart.",
+      "explanationEn": "With the wind dead astern there is no sideways drift, but the tailwind increases the boat's speed.",
+      "payload": {
+        "questionSv": "En motorbåt går med vinden rakt akterifrån. Hur påverkas båten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:8a båt D / photo_80 (facit photo_36)"
+    },
+    {
+      "id": "nav-kurs-012",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Den driver åt styrbord, det vill säga närmare bränningarna",
+          "isCorrect": true
+        },
+        {
+          "text": "Den driver åt babord, det vill säga bort från bränningarna",
+          "isCorrect": false
+        },
+        {
+          "text": "Den driver inte, men farten minskar",
+          "isCorrect": false
+        },
+        {
+          "text": "Den driver åt babord, det vill säga närmare bränningarna",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vinden från babord trycker båten i lä åt styrbord — mot bränningarna. Här måste avdriften motverkas genom att hålla upp mot vinden. Facit: båt E driver åt styrbord, närmare bränningen.",
+      "explanationEn": "Wind from port pushes the boat to leeward, to starboard — toward the breakers. The helmsman must hold up into the wind to stay clear.",
+      "payload": {
+        "questionSv": "En motorbåt går längs en kust med bränningar om styrbord och vinden in från babordssidan. Vad händer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:8a båt E / photo_80 (facit photo_36)"
+    },
+    {
+      "id": "nav-kurs-013",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Den driver åt babord, det vill säga närmare bränningarna",
+          "isCorrect": true
+        },
+        {
+          "text": "Den driver åt styrbord, det vill säga bort från bränningarna",
+          "isCorrect": false
+        },
+        {
+          "text": "Den driver inte, men farten minskar",
+          "isCorrect": false
+        },
+        {
+          "text": "Den driver åt styrbord, det vill säga närmare bränningarna",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vinden från styrbord trycker båten i lä åt babord — mot bränningarna. Avdriften måste motverkas genom att hålla upp mot vinden. Facit: båt F driver åt babord, närmare bränningen.",
+      "explanationEn": "Wind from starboard pushes the boat to leeward, to port — toward the breakers. The helmsman must hold up into the wind to stay clear.",
+      "payload": {
+        "questionSv": "En motorbåt går längs en kust med bränningar om babord och vinden in från styrbordssidan. Vad händer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:8a båt F / photo_80 (facit photo_36)"
+    },
+    {
+      "id": "nav-kurs-014",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "275°",
+          "isCorrect": true
+        },
+        {
+          "text": "265°",
+          "isCorrect": false
+        },
+        {
+          "text": "270°",
+          "isCorrect": false
+        },
+        {
+          "text": "280°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Den nordliga vinden trycker båten söderut, i lä. Du kompenserar genom att hålla upp 5° mot vinden (norrut): styrd kurs = 275°. Facit till 4:8b: 275°, 85°, 40°, 320°.",
+      "explanationEn": "The northerly wind pushes the boat south, to leeward. You compensate by steering 5° up into the wind (toward north), giving a steered course of 275°.",
+      "payload": {
+        "questionSv": "Din planerade kurs är 270° och en nordlig vind ger dig 5° avdrift (ingen missvisning eller deviation). Vilken kompasskurs ska du styra för att följa den planerade kursen?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:8b / photo_80 (facit photo_36)"
+    },
+    {
+      "id": "nav-kurs-015",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "85°",
+          "isCorrect": true
+        },
+        {
+          "text": "95°",
+          "isCorrect": false
+        },
+        {
+          "text": "90°",
+          "isCorrect": false
+        },
+        {
+          "text": "80°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Den nordliga vinden trycker båten söderut, i lä. Du kompenserar genom att hålla upp 5° mot vinden (norrut): styrd kurs = 85°. Facit till 4:8b: 275°, 85°, 40°, 320°.",
+      "explanationEn": "The northerly wind pushes the boat south, to leeward. You compensate by steering 5° up into the wind (toward north), giving a steered course of 85°.",
+      "payload": {
+        "questionSv": "Din planerade kurs är 90° och en nordlig vind ger dig 5° avdrift (ingen missvisning eller deviation). Vilken kompasskurs ska du styra för att följa den planerade kursen?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:8b / photo_80 (facit photo_36)"
+    },
+    {
+      "id": "nav-kurs-016",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "40°",
+          "isCorrect": true
+        },
+        {
+          "text": "50°",
+          "isCorrect": false
+        },
+        {
+          "text": "45°",
+          "isCorrect": false
+        },
+        {
+          "text": "55°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Den nordliga vinden trycker båten söderut, i lä. Du kompenserar genom att hålla upp 5° mot vinden (norrut): styrd kurs = 40°. Facit till 4:8b: 275°, 85°, 40°, 320°.",
+      "explanationEn": "The northerly wind pushes the boat south, to leeward. You compensate by steering 5° up into the wind (toward north), giving a steered course of 40°.",
+      "payload": {
+        "questionSv": "Din planerade kurs är 45° och en nordlig vind ger dig 5° avdrift (ingen missvisning eller deviation). Vilken kompasskurs ska du styra för att följa den planerade kursen?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:8b / photo_80 (facit photo_36)"
+    },
+    {
+      "id": "nav-kurs-017",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "320°",
+          "isCorrect": true
+        },
+        {
+          "text": "310°",
+          "isCorrect": false
+        },
+        {
+          "text": "315°",
+          "isCorrect": false
+        },
+        {
+          "text": "325°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Den nordliga vinden trycker båten söderut, i lä. Du kompenserar genom att hålla upp 5° mot vinden (norrut): styrd kurs = 320°. Facit till 4:8b: 275°, 85°, 40°, 320°.",
+      "explanationEn": "The northerly wind pushes the boat south, to leeward. You compensate by steering 5° up into the wind (toward north), giving a steered course of 320°.",
+      "payload": {
+        "questionSv": "Din planerade kurs är 315° och en nordlig vind ger dig 5° avdrift (ingen missvisning eller deviation). Vilken kompasskurs ska du styra för att följa den planerade kursen?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:8b / photo_80 (facit photo_36)"
+    },
+    {
+      "id": "nav-kurs-018",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Kompassens felvisning som beror på att jordmagnetismen inte har samma riktning som meridianerna i sjökortet",
+          "isCorrect": true
+        },
+        {
+          "text": "Kompassens felvisning som beror på magnetiska föremål ombord i närheten av kompassen",
+          "isCorrect": false
+        },
+        {
+          "text": "Skillnaden mellan styrd kurs och verklig färdväg som beror på vind och ström",
+          "isCorrect": false
+        },
+        {
+          "text": "Kompassens felvisning som beror på slitage och lagerfel i kompassrosen",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Missvisning (variation) är vinkeln mellan magnetisk nord och geografisk nord — jordmagnetfältets riktning sammanfaller inte med meridianerna i sjökortet. Felvisning som orsakas av järnföremål ombord kallas i stället deviation.",
+      "explanationEn": "Variation is the angle between magnetic north and true north — the Earth's magnetic field does not line up with the chart's meridians. Compass error caused by iron on board is called deviation instead.",
+      "payload": {
+        "questionSv": "Vad är missvisning?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:9 / photo_80 (facit photo_36)"
+    },
+    {
+      "id": "nav-kurs-019",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ja, den är lika stor på alla kurser, men olika stor på olika ställen på jorden",
+          "isCorrect": true
+        },
+        {
+          "text": "Nej, den varierar med kursen precis som deviationen",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja, den är lika stor på alla kurser och överallt på jorden",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej, den är störst på nordliga kurser och minst på sydliga",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Missvisningen beror på jordmagnetfältet och är därför oberoende av vilken kurs båten styr — den är lika stor på alla kurser. Däremot varierar den geografiskt från plats till plats, vilket framgår av sjökortens kompassrosor.",
+      "explanationEn": "Variation depends on the Earth's magnetic field and is therefore independent of the boat's heading — it is the same on all courses. It does, however, vary geographically from place to place, as shown in the chart's compass roses.",
+      "payload": {
+        "questionSv": "Är missvisningen lika stor på alla kurser?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:11 / photo_80 (facit photo_36)"
+    },
+    {
+      "id": "nav-kurs-020",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "I kompassrosorna i sjökorten",
+          "isCorrect": true
+        },
+        {
+          "text": "I båtens deviationstabell",
+          "isCorrect": false
+        },
+        {
+          "text": "I Sjöfartsverkets fyrlista",
+          "isCorrect": false
+        },
+        {
+          "text": "På sjöväderrapportens kustöversikt",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Missvisningen anges i sjökortens kompassrosor, tillsammans med uppgift om årlig förändring. Deviationstabellen gäller i stället båtens egen deviation.",
+      "explanationEn": "Variation is stated in the chart's compass roses, together with its annual change. The deviation table, by contrast, covers the boat's own deviation.",
+      "payload": {
+        "questionSv": "Var finns uppgifter om missvisningen?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:13 / photo_80 (facit photo_36)"
+    },
+    {
+      "id": "nav-kurs-021",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Nej, den ändrar sig på de flesta platser på jorden, men mycket långsamt",
+          "isCorrect": true
+        },
+        {
+          "text": "Ja, missvisningen är helt konstant över tid på varje plats",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej, den ändrar sig snabbt och måste mätas om varje säsong",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja, den ändras bara när sjökortet ges ut i ny utgåva",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Missvisningen ändrar sig på de flesta platser på jorden, men mycket långsamt. Uppgifter om missvisningen och dess årliga förändring finns i sjökortens kompassrosor.",
+      "explanationEn": "Variation changes at most places on Earth, but very slowly. The chart's compass roses give the variation and its annual rate of change.",
+      "payload": {
+        "questionSv": "Är missvisningen lika stor från år till år?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:15 / photo_80 (facit photo_36)"
     }
   ]
 }

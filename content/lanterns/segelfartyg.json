@@ -4,13 +4,29 @@
     {
       "id": "lan-segel-001",
       "topicId": "top-lan-segel",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "lantern",
       "options": [
-        { "text": "Ett segelfartyg som kommer rakt emot mig", "isCorrect": true },
-        { "text": "Ett maskindrivet fartyg som kommer rakt emot mig", "isCorrect": false },
-        { "text": "Ett fartyg till ankars, sett från sidan", "isCorrect": false },
-        { "text": "Ett fiskefartyg som trålar, sett förifrån", "isCorrect": false }
+        {
+          "text": "Ett segelfartyg som kommer rakt emot mig",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett maskindrivet fartyg som kommer rakt emot mig",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg till ankars, sett från sidan",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fiskefartyg som trålar, sett förifrån",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Båda sidoljusen utan något toppljus ovanför betyder segelfartyg under segel, sett rätt förifrån. Ett maskindrivet fartyg hade fört ett vitt toppljus över sidoljusen.",
       "explanationEn": "Both sidelights with no masthead light above: a sailing vessel head-on. A power-driven vessel would add a white masthead light.",
@@ -20,8 +36,16 @@
         "questionSv": "Du ser dessa ljus rakt förut. Vad möter du?",
         "scene": {
           "lights": [
-            { "color": "green", "x": 42, "y": 34 },
-            { "color": "red", "x": 58, "y": 34 }
+            {
+              "color": "green",
+              "x": 42,
+              "y": 34
+            },
+            {
+              "color": "red",
+              "x": 58,
+              "y": 34
+            }
           ],
           "captionSv": "Inget vitt ljus syns"
         }
@@ -30,13 +54,29 @@
     {
       "id": "lan-segel-002",
       "topicId": "top-lan-segel",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "lantern",
       "options": [
-        { "text": "Ett segelfartyg som visar sin babordssida", "isCorrect": true },
-        { "text": "Ett maskindrivet fartyg som visar sin babordssida", "isCorrect": false },
-        { "text": "Ett fartyg som ligger till ankars", "isCorrect": false },
-        { "text": "Babords sidomarkering i en farled", "isCorrect": false }
+        {
+          "text": "Ett segelfartyg som visar sin babordssida",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett maskindrivet fartyg som visar sin babordssida",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg som ligger till ankars",
+          "isCorrect": false
+        },
+        {
+          "text": "Babords sidomarkering i en farled",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Ett ensamt rött ljus utan toppljus är babords sidoljus på ett segelfartyg. Från ett maskindrivet fartyg hade du dessutom sett ett eller två vita toppljus.",
       "explanationEn": "A single red light with no masthead light is the port sidelight of a sailing vessel.",
@@ -45,7 +85,13 @@
       "payload": {
         "questionSv": "Ett ensamt rött ljus syns i mörkret. Vad är det troligast?",
         "scene": {
-          "lights": [{ "color": "red", "x": 50, "y": 33 }],
+          "lights": [
+            {
+              "color": "red",
+              "x": 50,
+              "y": 33
+            }
+          ],
           "captionSv": "Inget vitt ljus syns"
         }
       }
@@ -53,36 +99,219 @@
     {
       "id": "lan-segel-003",
       "topicId": "top-lan-segel",
-      "tracks": ["kustskeppare", "klass8"],
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "Rött över grönt, båda synliga runtom, i eller nära masttoppen", "isCorrect": true },
-        { "text": "Grönt över rött, båda synliga runtom, i eller nära masttoppen", "isCorrect": false },
-        { "text": "Vitt över rött, båda synliga runtom, i eller nära masttoppen", "isCorrect": false },
-        { "text": "Två röda ljus i lodrät linje, synliga runtom", "isCorrect": false }
+        {
+          "text": "Rött över grönt, båda synliga runtom, i eller nära masttoppen",
+          "isCorrect": true
+        },
+        {
+          "text": "Grönt över rött, båda synliga runtom, i eller nära masttoppen",
+          "isCorrect": false
+        },
+        {
+          "text": "Vitt över rött, båda synliga runtom, i eller nära masttoppen",
+          "isCorrect": false
+        },
+        {
+          "text": "Två röda ljus i lodrät linje, synliga runtom",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Ett segelfartyg under segel får frivilligt föra två runtomlysande ljus i eller nära masttoppen: rött överst och grönt underst. Vitt över rött är lotsfartygets ljus, och rött över rött betyder ej manöverfärdigt fartyg.",
       "explanationEn": "A sailing vessel may optionally carry all-round red over green at or near the masthead.",
       "theoryAnchor": "lanternor/segelfartyg",
       "authorReviewed": false,
-      "payload": { "questionSv": "Vilka frivilliga extraljus får ett segelfartyg föra i masttoppen?" }
+      "payload": {
+        "questionSv": "Vilka frivilliga extraljus får ett segelfartyg föra i masttoppen?"
+      }
     },
     {
       "id": "lan-segel-004",
       "topicId": "top-lan-segel",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "Som ett maskindrivet fartyg, med toppljus tänt", "isCorrect": true },
-        { "text": "Som ett segelfartyg, med enbart sidoljus och akterljus", "isCorrect": false },
-        { "text": "Med rött över grönt i masttoppen som särskild signal", "isCorrect": false },
-        { "text": "Med två toppljus i lodrät linje som särskild signal", "isCorrect": false }
+        {
+          "text": "Som ett maskindrivet fartyg, med toppljus tänt",
+          "isCorrect": true
+        },
+        {
+          "text": "Som ett segelfartyg, med enbart sidoljus och akterljus",
+          "isCorrect": false
+        },
+        {
+          "text": "Med rött över grönt i masttoppen som särskild signal",
+          "isCorrect": false
+        },
+        {
+          "text": "Med två toppljus i lodrät linje som särskild signal",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "En segelbåt som går för motor — även med seglen uppe — räknas som maskindrivet fartyg och ska föra toppljus. Dagtid visas i stället en kon med spetsen nedåt.",
       "explanationEn": "A sailing vessel under engine power counts as power-driven and carries a masthead light; by day, a cone apex down.",
       "theoryAnchor": "lanternor/segelfartyg",
       "authorReviewed": false,
-      "payload": { "questionSv": "Hur ska en segelbåt föra lanternor när den går för motor?" }
+      "payload": {
+        "questionSv": "Hur ska en segelbåt föra lanternor när den går för motor?"
+      }
+    },
+    {
+      "id": "lan-segel-005",
+      "topicId": "top-lan-segel",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Lampa eller lanterna med vitt ljussken som visas vid behov, alternativt sido- och akterlanterna",
+          "isCorrect": true
+        },
+        {
+          "text": "Vit runtlysande lanterna som är tänd hela tiden",
+          "isCorrect": false
+        },
+        {
+          "text": "Sido-, akter- och topplanterna som är tända hela tiden",
+          "isCorrect": false
+        },
+        {
+          "text": "Trefärgad lanterna i masttoppen – inga andra alternativ är tillåtna",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En segelbåt under 7 meter behandlas som roddbåt: det räcker med en lampa eller lanterna med vitt sken som visas i god tid för att förhindra kollision. Vill man får man i stället föra sido- och akterlanterna.",
+      "explanationEn": "A sailing boat under 7 metres is treated like a rowing boat: an electric torch or lantern showing a white light, shown in time to prevent collision, is sufficient. Side lights and a stern light may be carried instead.",
+      "payload": {
+        "questionSv": "Vilka lanternor ska en segelbåt under 7 meter föra?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:2 / photo_62, photo_21"
+    },
+    {
+      "id": "lan-segel-006",
+      "topicId": "top-lan-segel",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Sido- och akterlanterna",
+          "isCorrect": true
+        },
+        {
+          "text": "Sido-, akter- och topplanterna",
+          "isCorrect": false
+        },
+        {
+          "text": "Vit runtlysande lanterna, tänd hela tiden",
+          "isCorrect": false
+        },
+        {
+          "text": "Trefärgad lanterna samt vit topplanterna",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En segelbåt över 7 meter ska föra sido- och akterlanterna. Topplanterna förs bara vid motorgång – ett segelfartyg under segel för aldrig vit topplanterna. Sidolanternorna och akterlanternan kan på segelbåt även kombineras i en trefärgad lanterna i masttoppen.",
+      "explanationEn": "A sailing boat over 7 metres must show side lights and a stern light. A masthead light is only used under engine power – a sailing vessel under sail never shows a white masthead light. On a sailing boat the three lights may alternatively be combined in a tricolour lantern at the masthead.",
+      "payload": {
+        "questionSv": "Vilka lanternor ska en segelbåt över 7 meter föra?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:2 / photo_62, photo_21"
+    },
+    {
+      "id": "lan-segel-007",
+      "topicId": "top-lan-segel",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Trefärgad sammansatt lanterna (masttoppen), topplanterna för motorgång, sidolanternor och akterlanterna",
+          "isCorrect": true
+        },
+        {
+          "text": "Ankarlanterna (masttoppen), topplanterna för motorgång, sidolanternor och akterlanterna",
+          "isCorrect": false
+        },
+        {
+          "text": "Topplanterna (masttoppen), trefärgad sammansatt lanterna, sidolanternor och akterlanterna",
+          "isCorrect": false
+        },
+        {
+          "text": "Trefärgad sammansatt lanterna (masttoppen), ankarlanterna, sidolanternor och gånglanterna",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "I masttoppen sitter den trefärgade sammansatta lanternan (rött, grönt och vitt i en lanterna) som bara får användas under segel. En bit ned på masten sitter topplanternan som förs vid motorgång. Vid sidorna sitter sidolanternorna (röd om babord, grön om styrbord) och i aktern den vita akterlanternan.",
+      "explanationEn": "At the masthead sits the combined tricolour lantern (red, green and white in one), used only under sail. Lower on the mast is the masthead light, used under engine power. At the bow sides are the side lights (red port, green starboard) and at the stern the white stern light.",
+      "payload": {
+        "questionSv": "Se figur: en segelbåt har lanternor på fyra ställen – i masttoppen, en bit ned på masten, vid sidorna i fören och i aktern. Vad kallas de olika lanternorna?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:3 / photo_62, photo_21"
+    },
+    {
+      "id": "lan-segel-008",
+      "topicId": "top-lan-segel",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Nej – vid motorgång ska vanliga sidolanternor och topplanterna föras; med den trefärgade tänd skulle sidoljusen synas ovanför det vita toppljuset",
+          "isCorrect": true
+        },
+        {
+          "text": "Ja – huvudsaken är att en vit topplanterna är tänd så snart motorn används",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja – om topplanternan sitter minst en meter under den trefärgade lanternan är kombinationen tillåten",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej – en segelbåt får aldrig föra vit topplanterna, inte ens vid motorgång",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En segelbåt som går för motor i mörker räknas som maskindrivet fartyg och ska föra vanliga sidolanternor, akterlanterna och topplanterna. Den trefärgade lanternan i masttoppen får bara användas under segel. Kombineras den med ett lägre sittande vitt toppljus hamnar sidoljusen ovanför topplanternan, vilket ger en felaktig ljusbild och är förbjudet.",
+      "explanationEn": "A sailing boat motoring in darkness counts as a power-driven vessel and must show ordinary side lights, stern light and masthead light. The tricolour masthead lantern may only be used under sail. Combining it with a lower white masthead light would put the side lights above the masthead light, giving a false light picture, which is prohibited.",
+      "payload": {
+        "questionSv": "En seglare har sin trefärgade lanterna i masttoppen tänd. När det blir dags att söka hamn startas motorn och dessutom tänds den vita topplanternan som sitter några meter upp på mastens förkant. Är det tillåtet att på detta vis kombinera en trefärgad lanterna med vitt toppljus som sitter lägre?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:10 / photo_61, photo_20"
     }
   ]
 }

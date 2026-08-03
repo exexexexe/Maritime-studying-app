@@ -406,6 +406,1079 @@
       "needsReview": true,
       "needsReviewNote": "Bygger på kartskiss (retuscherat kort 616) – figuren behöver beskäras från photo_82. Ursprungsfrågan är öppen (beskriv navigeringen för båda vägarna).",
       "sourceRef": "2:8 / photo_82, photo_38"
+    },
+    {
+      "id": "nav-sjo-012",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "045°",
+          "isCorrect": true
+        },
+        {
+          "text": "135°",
+          "isCorrect": false
+        },
+        {
+          "text": "315°",
+          "isCorrect": false
+        },
+        {
+          "text": "090°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Mitt emellan norr (000°) och ost (090°) ligger nordost, det vill säga 045°. Att kunna uppskatta kurser med ögonmått är en bra kontroll av att den uppmätta kursen är rimlig.",
+      "explanationEn": "Halfway between north (000°) and east (090°) is northeast, i.e. 045°. Estimating courses by eye is a good sanity check on measured courses.",
+      "payload": {
+        "questionSv": "För att minska risken för misstag vid kursmätning är det bra att träna ögonmåttet. En pil i sjökortet pekar snett uppåt höger, mitt emellan nordriktningen och ostriktningen. Vilken kurs representerar pilen?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Originaluppgiften avser en figur med många pilar (kurser 090°, 135°, 045°, 100°, 350°, 180°, 190°, 010°, 315°, 225°, 020°, 000°/360°, 270°, 135°); omgjord till en representativ pil. Figur behöver beskäras från photo_81.",
+      "sourceRef": "4:1 / photo_81 (facit photo_37)"
+    },
+    {
+      "id": "nav-sjo-013",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Transportören läggs längs kurslinjen och riktas in mot sjökortets nordriktning, varefter kursen läses av i grader",
+          "isCorrect": true
+        },
+        {
+          "text": "Transportören läggs längs kurslinjen och riktas in mot närmaste farledslinje, varefter kursen läses av i grader",
+          "isCorrect": false
+        },
+        {
+          "text": "Transportören läggs vinkelrätt mot kurslinjen och riktas mot ostriktningen, varefter kursen läses av i grader",
+          "isCorrect": false
+        },
+        {
+          "text": "Transportören läggs längs latitudskalan och flyttas parallellt till kurslinjen, varefter distansen läses av i grader",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Transportören (kursmätaren) läggs med sin långsida längs kurslinjen och rutnätet/linjalen riktas in mot meridianerna (nordriktningen) i sjökortet. Då kan kursen läsas av direkt i grader. Facit till bokens övning är kurserna 275°, 237°, 029°, 025°, 085°, 282°, 120°, 202° och 052°.",
+      "explanationEn": "A course protractor is aligned along the course line and squared up with the chart's meridians (north direction), after which the course can be read directly in degrees.",
+      "payload": {
+        "questionSv": "Du övar på att använda transportören genom att mäta kurser enligt pilar i sjökortet över Dalarö (sjökort 6163), med en mätnoggrannhet på ca ±1°. Hur använder du transportören för att mäta en kurs i sjökortet?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 6163 och figuren i photo_81; bokens facit är uppmätta kurser (275°, 237°, 029°, 025°, 085°, 282°, 120°, 202°, 052°). Omgjord till metodfråga.",
+      "sourceRef": "4:2 / photo_81 (facit photo_37)"
+    },
+    {
+      "id": "nav-sjo-014",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "073°",
+          "isCorrect": true
+        },
+        {
+          "text": "063°",
+          "isCorrect": false
+        },
+        {
+          "text": "083°",
+          "isCorrect": false
+        },
+        {
+          "text": "253°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Enligt facit är kursen från fyren Örngrund till fyren Östra Röko 073°. Kursen mäts med transportör längs linjen mellan de två punkterna, inriktad mot sjökortets nordriktning. Räkna med en mätnoggrannhet på någon grad.",
+      "explanationEn": "According to the answer key, the course from fyren Örngrund to fyren Östra Röko is 073°. The course is measured with a protractor along the line between the two points, aligned with the chart's north direction.",
+      "payload": {
+        "questionSv": "Ute på Mysingen kan kompassen komma till användning. Mät kursen i sjökort 616 från fyren Örngrund till fyren Östra Röko. Vilken kurs får du?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 för att mäta kursen.",
+      "sourceRef": "4:3a / photo_80 (facit photo_37)"
+    },
+    {
+      "id": "nav-sjo-015",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "031°",
+          "isCorrect": true
+        },
+        {
+          "text": "041°",
+          "isCorrect": false
+        },
+        {
+          "text": "021°",
+          "isCorrect": false
+        },
+        {
+          "text": "211°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Enligt facit är kursen från fyren Östra Röko till pricken Ventlandsgrund 031°. Kursen mäts med transportör längs linjen mellan de två punkterna, inriktad mot sjökortets nordriktning. Räkna med en mätnoggrannhet på någon grad.",
+      "explanationEn": "According to the answer key, the course from fyren Östra Röko to pricken Ventlandsgrund is 031°. The course is measured with a protractor along the line between the two points, aligned with the chart's north direction.",
+      "payload": {
+        "questionSv": "Ute på Mysingen kan kompassen komma till användning. Mät kursen i sjökort 616 från fyren Östra Röko till pricken Ventlandsgrund. Vilken kurs får du?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 för att mäta kursen.",
+      "sourceRef": "4:3b / photo_80 (facit photo_37)"
+    },
+    {
+      "id": "nav-sjo-016",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "063°",
+          "isCorrect": true
+        },
+        {
+          "text": "053°",
+          "isCorrect": false
+        },
+        {
+          "text": "073°",
+          "isCorrect": false
+        },
+        {
+          "text": "243°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Enligt facit är kursen från pricken Ventlandsgrund till pricken Rånögrund 063°. Kursen mäts med transportör längs linjen mellan de två punkterna, inriktad mot sjökortets nordriktning. Räkna med en mätnoggrannhet på någon grad.",
+      "explanationEn": "According to the answer key, the course from pricken Ventlandsgrund to pricken Rånögrund is 063°. The course is measured with a protractor along the line between the two points, aligned with the chart's north direction.",
+      "payload": {
+        "questionSv": "Ute på Mysingen kan kompassen komma till användning. Mät kursen i sjökort 616 från pricken Ventlandsgrund till pricken Rånögrund. Vilken kurs får du?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 för att mäta kursen.",
+      "sourceRef": "4:3c / photo_80 (facit photo_37)"
+    },
+    {
+      "id": "nav-sjo-017",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "024°",
+          "isCorrect": true
+        },
+        {
+          "text": "034°",
+          "isCorrect": false
+        },
+        {
+          "text": "014°",
+          "isCorrect": false
+        },
+        {
+          "text": "204°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Enligt facit är kursen från pricken Rånögrund till fyren Älvsnabben 024°. Kursen mäts med transportör längs linjen mellan de två punkterna, inriktad mot sjökortets nordriktning. Räkna med en mätnoggrannhet på någon grad.",
+      "explanationEn": "According to the answer key, the course from pricken Rånögrund to fyren Älvsnabben is 024°. The course is measured with a protractor along the line between the two points, aligned with the chart's north direction.",
+      "payload": {
+        "questionSv": "Ute på Mysingen kan kompassen komma till användning. Mät kursen i sjökort 616 från pricken Rånögrund till fyren Älvsnabben. Vilken kurs får du?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 för att mäta kursen.",
+      "sourceRef": "4:3d / photo_80 (facit photo_37)"
+    },
+    {
+      "id": "nav-sjo-018",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Bodskär",
+          "isCorrect": true
+        },
+        {
+          "text": "Alskär",
+          "isCorrect": false
+        },
+        {
+          "text": "Stenkobb",
+          "isCorrect": false
+        },
+        {
+          "text": "Storö",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Kurs 004° är nästan rakt norrut, och norr om nordmärket ligger Bodskär. Övningen tränar ögonmåttet: översätt gradtalet till ett väderstreck (000° = N, 045° = NO, 090° = O, 135° = SO, 180° = S, 225° = SV, 270° = V, 315° = NV).",
+      "explanationEn": "Course 004° points almost due north from the north cardinal mark, which leads to Bodskär. The drill trains estimating courses by eye: translate the degrees into a compass point (000° = N, 045° = NE, 090° = E, 135° = SE, 180° = S, 225° = SW, 270° = W, 315° = NW).",
+      "payload": {
+        "questionSv": "Du befinner dig vid ett nordmärke som omges av öar: Bodskär i norr, Stenkobb i nordost, Storö i öster, Lillön i sydost, Sydskär i söder, Högskär i sydväst, Tallskär i väster och Alskär i nordväst. Du styr kurs 004° från nordmärket. Vilken ö kommer du till? Syfta med ögonmått."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:4a / photo_80 (facit photo_37)"
+    },
+    {
+      "id": "nav-sjo-019",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Storö",
+          "isCorrect": true
+        },
+        {
+          "text": "Stenkobb",
+          "isCorrect": false
+        },
+        {
+          "text": "Lillön",
+          "isCorrect": false
+        },
+        {
+          "text": "Sydskär",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Kurs 093° är nästan rakt österut, och öster om nordmärket ligger Storö. Övningen tränar ögonmåttet: översätt gradtalet till ett väderstreck (000° = N, 045° = NO, 090° = O, 135° = SO, 180° = S, 225° = SV, 270° = V, 315° = NV).",
+      "explanationEn": "Course 093° points almost due east from the north cardinal mark, which leads to Storö. The drill trains estimating courses by eye: translate the degrees into a compass point (000° = N, 045° = NE, 090° = E, 135° = SE, 180° = S, 225° = SW, 270° = W, 315° = NW).",
+      "payload": {
+        "questionSv": "Du befinner dig vid ett nordmärke som omges av öar: Bodskär i norr, Stenkobb i nordost, Storö i öster, Lillön i sydost, Sydskär i söder, Högskär i sydväst, Tallskär i väster och Alskär i nordväst. Du styr kurs 093° från nordmärket. Vilken ö kommer du till? Syfta med ögonmått."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:4b / photo_80 (facit photo_37)"
+    },
+    {
+      "id": "nav-sjo-020",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Lillön",
+          "isCorrect": true
+        },
+        {
+          "text": "Storö",
+          "isCorrect": false
+        },
+        {
+          "text": "Sydskär",
+          "isCorrect": false
+        },
+        {
+          "text": "Högskär",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Kurs 135° är sydost, och i sydost ligger Lillön. Övningen tränar ögonmåttet: översätt gradtalet till ett väderstreck (000° = N, 045° = NO, 090° = O, 135° = SO, 180° = S, 225° = SV, 270° = V, 315° = NV).",
+      "explanationEn": "Course 135° points southeast from the north cardinal mark, which leads to Lillön. The drill trains estimating courses by eye: translate the degrees into a compass point (000° = N, 045° = NE, 090° = E, 135° = SE, 180° = S, 225° = SW, 270° = W, 315° = NW).",
+      "payload": {
+        "questionSv": "Du befinner dig vid ett nordmärke som omges av öar: Bodskär i norr, Stenkobb i nordost, Storö i öster, Lillön i sydost, Sydskär i söder, Högskär i sydväst, Tallskär i väster och Alskär i nordväst. Du styr kurs 135° från nordmärket. Vilken ö kommer du till? Syfta med ögonmått."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:4c / photo_80 (facit photo_37)"
+    },
+    {
+      "id": "nav-sjo-021",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Alskär",
+          "isCorrect": true
+        },
+        {
+          "text": "Tallskär",
+          "isCorrect": false
+        },
+        {
+          "text": "Bodskär",
+          "isCorrect": false
+        },
+        {
+          "text": "Högskär",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Kurs 320° är nordväst, och i nordväst ligger Alskär. Övningen tränar ögonmåttet: översätt gradtalet till ett väderstreck (000° = N, 045° = NO, 090° = O, 135° = SO, 180° = S, 225° = SV, 270° = V, 315° = NV).",
+      "explanationEn": "Course 320° points northwest from the north cardinal mark, which leads to Alskär. The drill trains estimating courses by eye: translate the degrees into a compass point (000° = N, 045° = NE, 090° = E, 135° = SE, 180° = S, 225° = SW, 270° = W, 315° = NW).",
+      "payload": {
+        "questionSv": "Du befinner dig vid ett nordmärke som omges av öar: Bodskär i norr, Stenkobb i nordost, Storö i öster, Lillön i sydost, Sydskär i söder, Högskär i sydväst, Tallskär i väster och Alskär i nordväst. Du styr kurs 320° från nordmärket. Vilken ö kommer du till? Syfta med ögonmått."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:4d / photo_80 (facit photo_37)"
+    },
+    {
+      "id": "nav-sjo-022",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Stenkobb",
+          "isCorrect": true
+        },
+        {
+          "text": "Bodskär",
+          "isCorrect": false
+        },
+        {
+          "text": "Storö",
+          "isCorrect": false
+        },
+        {
+          "text": "Alskär",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Kurs 040° är nordost, och i nordost ligger Stenkobb. Övningen tränar ögonmåttet: översätt gradtalet till ett väderstreck (000° = N, 045° = NO, 090° = O, 135° = SO, 180° = S, 225° = SV, 270° = V, 315° = NV).",
+      "explanationEn": "Course 040° points northeast from the north cardinal mark, which leads to Stenkobb. The drill trains estimating courses by eye: translate the degrees into a compass point (000° = N, 045° = NE, 090° = E, 135° = SE, 180° = S, 225° = SW, 270° = W, 315° = NW).",
+      "payload": {
+        "questionSv": "Du befinner dig vid ett nordmärke som omges av öar: Bodskär i norr, Stenkobb i nordost, Storö i öster, Lillön i sydost, Sydskär i söder, Högskär i sydväst, Tallskär i väster och Alskär i nordväst. Du styr kurs 040° från nordmärket. Vilken ö kommer du till? Syfta med ögonmått."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:4e / photo_80 (facit photo_37)"
+    },
+    {
+      "id": "nav-sjo-023",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Sydskär",
+          "isCorrect": true
+        },
+        {
+          "text": "Lillön",
+          "isCorrect": false
+        },
+        {
+          "text": "Högskär",
+          "isCorrect": false
+        },
+        {
+          "text": "Bodskär",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Kurs 173° är nästan rakt söderut, och söder om nordmärket ligger Sydskär. Övningen tränar ögonmåttet: översätt gradtalet till ett väderstreck (000° = N, 045° = NO, 090° = O, 135° = SO, 180° = S, 225° = SV, 270° = V, 315° = NV).",
+      "explanationEn": "Course 173° points almost due south from the north cardinal mark, which leads to Sydskär. The drill trains estimating courses by eye: translate the degrees into a compass point (000° = N, 045° = NE, 090° = E, 135° = SE, 180° = S, 225° = SW, 270° = W, 315° = NW).",
+      "payload": {
+        "questionSv": "Du befinner dig vid ett nordmärke som omges av öar: Bodskär i norr, Stenkobb i nordost, Storö i öster, Lillön i sydost, Sydskär i söder, Högskär i sydväst, Tallskär i väster och Alskär i nordväst. Du styr kurs 173° från nordmärket. Vilken ö kommer du till? Syfta med ögonmått."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:4f / photo_80 (facit photo_37)"
+    },
+    {
+      "id": "nav-sjo-024",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Tallskär",
+          "isCorrect": true
+        },
+        {
+          "text": "Högskär",
+          "isCorrect": false
+        },
+        {
+          "text": "Alskär",
+          "isCorrect": false
+        },
+        {
+          "text": "Storö",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Kurs 280° är nästan rakt västerut, och väster om nordmärket ligger Tallskär. Övningen tränar ögonmåttet: översätt gradtalet till ett väderstreck (000° = N, 045° = NO, 090° = O, 135° = SO, 180° = S, 225° = SV, 270° = V, 315° = NV).",
+      "explanationEn": "Course 280° points almost due west from the north cardinal mark, which leads to Tallskär. The drill trains estimating courses by eye: translate the degrees into a compass point (000° = N, 045° = NE, 090° = E, 135° = SE, 180° = S, 225° = SW, 270° = W, 315° = NW).",
+      "payload": {
+        "questionSv": "Du befinner dig vid ett nordmärke som omges av öar: Bodskär i norr, Stenkobb i nordost, Storö i öster, Lillön i sydost, Sydskär i söder, Högskär i sydväst, Tallskär i väster och Alskär i nordväst. Du styr kurs 280° från nordmärket. Vilken ö kommer du till? Syfta med ögonmått."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:4g / photo_80 (facit photo_37)"
+    },
+    {
+      "id": "nav-sjo-025",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Högskär",
+          "isCorrect": true
+        },
+        {
+          "text": "Sydskär",
+          "isCorrect": false
+        },
+        {
+          "text": "Tallskär",
+          "isCorrect": false
+        },
+        {
+          "text": "Lillön",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Kurs 220° är sydväst, och i sydväst ligger Högskär. Övningen tränar ögonmåttet: översätt gradtalet till ett väderstreck (000° = N, 045° = NO, 090° = O, 135° = SO, 180° = S, 225° = SV, 270° = V, 315° = NV).",
+      "explanationEn": "Course 220° points southwest from the north cardinal mark, which leads to Högskär. The drill trains estimating courses by eye: translate the degrees into a compass point (000° = N, 045° = NE, 090° = E, 135° = SE, 180° = S, 225° = SW, 270° = W, 315° = NW).",
+      "payload": {
+        "questionSv": "Du befinner dig vid ett nordmärke som omges av öar: Bodskär i norr, Stenkobb i nordost, Storö i öster, Lillön i sydost, Sydskär i söder, Högskär i sydväst, Tallskär i väster och Alskär i nordväst. Du styr kurs 220° från nordmärket. Vilken ö kommer du till? Syfta med ögonmått."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:4h / photo_80 (facit photo_37)"
+    },
+    {
+      "id": "nav-sjo-026",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "St Äggskäret",
+          "isCorrect": true
+        },
+        {
+          "text": "Kuggholmen",
+          "isCorrect": false
+        },
+        {
+          "text": "Stenskär",
+          "isCorrect": false
+        },
+        {
+          "text": "Stora Mysingeholm",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Enligt facit leder kurs 297° från pricken Norrhäll först till St Äggskäret. Dra kurslinjen i sjökortet från pricken och se vilket land eller grund linjen först träffar.",
+      "explanationEn": "According to the answer key, course 297° from the buoy Norrhäll first leads to St Äggskäret. Draw the course line on the chart from the buoy and see which land or shoal it hits first.",
+      "payload": {
+        "questionSv": "Du befinner dig vid den röda pricken Norrhäll i norra Mysingen (sjökort 616) och styr kurs 297° från pricken. Var kommer du först att stöta på land eller grund?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 för att följa kurslinjen.",
+      "sourceRef": "4:5a / photo_80 (facit photo_37)"
+    },
+    {
+      "id": "nav-sjo-027",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Kuggholmen",
+          "isCorrect": true
+        },
+        {
+          "text": "St Äggskäret",
+          "isCorrect": false
+        },
+        {
+          "text": "Fjärdgrundet",
+          "isCorrect": false
+        },
+        {
+          "text": "V Pjukan",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Enligt facit leder kurs 228° från pricken Norrhäll först till Kuggholmen. Dra kurslinjen i sjökortet från pricken och se vilket land eller grund linjen först träffar.",
+      "explanationEn": "According to the answer key, course 228° from the buoy Norrhäll first leads to Kuggholmen. Draw the course line on the chart from the buoy and see which land or shoal it hits first.",
+      "payload": {
+        "questionSv": "Du befinner dig vid den röda pricken Norrhäll i norra Mysingen (sjökort 616) och styr kurs 228° från pricken. Var kommer du först att stöta på land eller grund?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 för att följa kurslinjen.",
+      "sourceRef": "4:5b / photo_80 (facit photo_37)"
+    },
+    {
+      "id": "nav-sjo-028",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Fjärdgrundet",
+          "isCorrect": true
+        },
+        {
+          "text": "V Pjukan",
+          "isCorrect": false
+        },
+        {
+          "text": "Stora Mysingeholm",
+          "isCorrect": false
+        },
+        {
+          "text": "Stenskär",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Enligt facit leder kurs 162° från pricken Norrhäll först till Fjärdgrundet. Dra kurslinjen i sjökortet från pricken och se vilket land eller grund linjen först träffar.",
+      "explanationEn": "According to the answer key, course 162° from the buoy Norrhäll first leads to Fjärdgrundet. Draw the course line on the chart from the buoy and see which land or shoal it hits first.",
+      "payload": {
+        "questionSv": "Du befinner dig vid den röda pricken Norrhäll i norra Mysingen (sjökort 616) och styr kurs 162° från pricken. Var kommer du först att stöta på land eller grund?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 för att följa kurslinjen.",
+      "sourceRef": "4:5c / photo_80 (facit photo_37)"
+    },
+    {
+      "id": "nav-sjo-029",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "V Pjukan",
+          "isCorrect": true
+        },
+        {
+          "text": "Fjärdgrundet",
+          "isCorrect": false
+        },
+        {
+          "text": "Stenskär",
+          "isCorrect": false
+        },
+        {
+          "text": "Stora Mysingeholm",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Enligt facit leder kurs 132° från pricken Norrhäll först till V Pjukan. Dra kurslinjen i sjökortet från pricken och se vilket land eller grund linjen först träffar.",
+      "explanationEn": "According to the answer key, course 132° from the buoy Norrhäll first leads to V Pjukan. Draw the course line on the chart from the buoy and see which land or shoal it hits first.",
+      "payload": {
+        "questionSv": "Du befinner dig vid den röda pricken Norrhäll i norra Mysingen (sjökort 616) och styr kurs 132° från pricken. Var kommer du först att stöta på land eller grund?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 för att följa kurslinjen.",
+      "sourceRef": "4:5d / photo_80 (facit photo_37)"
+    },
+    {
+      "id": "nav-sjo-030",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Stenskär",
+          "isCorrect": true
+        },
+        {
+          "text": "Kuggholmen",
+          "isCorrect": false
+        },
+        {
+          "text": "St Äggskäret",
+          "isCorrect": false
+        },
+        {
+          "text": "V Pjukan",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Enligt facit leder kurs 037° från pricken Norrhäll först till Stenskär. Dra kurslinjen i sjökortet från pricken och se vilket land eller grund linjen först träffar.",
+      "explanationEn": "According to the answer key, course 037° from the buoy Norrhäll first leads to Stenskär. Draw the course line on the chart from the buoy and see which land or shoal it hits first.",
+      "payload": {
+        "questionSv": "Du befinner dig vid den röda pricken Norrhäll i norra Mysingen (sjökort 616) och styr kurs 037° från pricken. Var kommer du först att stöta på land eller grund?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 för att följa kurslinjen.",
+      "sourceRef": "4:5e / photo_80 (facit photo_37)"
+    },
+    {
+      "id": "nav-sjo-031",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Stora Mysingeholm",
+          "isCorrect": true
+        },
+        {
+          "text": "Fjärdgrundet",
+          "isCorrect": false
+        },
+        {
+          "text": "Sydskär",
+          "isCorrect": false
+        },
+        {
+          "text": "Kuggholmen",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Enligt facit leder kurs 180° från pricken Norrhäll först till Stora Mysingeholm. Dra kurslinjen i sjökortet från pricken och se vilket land eller grund linjen först träffar.",
+      "explanationEn": "According to the answer key, course 180° from the buoy Norrhäll first leads to Stora Mysingeholm. Draw the course line on the chart from the buoy and see which land or shoal it hits first.",
+      "payload": {
+        "questionSv": "Du befinner dig vid den röda pricken Norrhäll i norra Mysingen (sjökort 616) och styr kurs 180° från pricken. Var kommer du först att stöta på land eller grund?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 för att följa kurslinjen.",
+      "sourceRef": "4:5f / photo_80 (facit photo_37)"
+    },
+    {
+      "id": "nav-sjo-032",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Från startpunkten dras varje kurslinje i tur och ordning med transportören, och distansen sätts av längs linjen med passaren, hämtad från latitudskalan",
+          "isCorrect": true
+        },
+        {
+          "text": "Från startpunkten dras varje kurslinje i tur och ordning med transportören, och distansen sätts av längs linjen med passaren, hämtad från longitudskalan",
+          "isCorrect": false
+        },
+        {
+          "text": "En rak linje dras direkt från startpunkten till slutmålet, och de olika kurserna fördelas jämnt längs linjen med transportören",
+          "isCorrect": false
+        },
+        {
+          "text": "Från slutpunkten dras kurslinjerna baklänges i omvänd ordning, och distanserna sätts av med linjal direkt i centimeter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Varje ben ritas i tur och ordning: rikta transportören mot nord, dra kurslinjen, och sätt av distansen längs linjen med passaren. Distanser tas alltid från latitudskalan (1 minut = 1 sjömil) vid samma höjd i sjökortet — aldrig från longitudskalan.",
+      "explanationEn": "Each leg is plotted in turn: align the protractor with north, draw the course line, then step off the distance along the line with dividers. Distances are always taken from the latitude scale (1 minute = 1 nautical mile) at the same height on the chart — never from the longitude scale.",
+      "payload": {
+        "questionSv": "Du kryssar från styrbordspricken N fyren Piltholmsknall (NO-delen av sjökort 6163) och ska rita in färden i sjökortet enligt kurserna och distanserna 115° 0,8 M, 230° 0,6 M, 130° 0,35 M och 230° 0,3 M. Hur ritar du in en sådan färd?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Rituppgift; bokens facit är en figur med den inritade färden (photo_36). Kräver övningssjökort 6163.",
+      "sourceRef": "4:6 / photo_80 (facit photo_36)"
+    },
+    {
+      "id": "nav-sjo-033",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "2,45 M",
+          "isCorrect": true
+        },
+        {
+          "text": "1,95 M",
+          "isCorrect": false
+        },
+        {
+          "text": "2,90 M",
+          "isCorrect": false
+        },
+        {
+          "text": "3,45 M",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Enligt facit är avståndet Måsknuv – Örngrund cirka 2,45 M. Distansen mäts med passare mot sjökortets latitudskala, där 1 latitudminut = 1 sjömil.",
+      "explanationEn": "According to the answer key the distance Måsknuv – Örngrund is about 2,45 M. Distances are measured with dividers against the chart's latitude scale, where 1 minute of latitude = 1 nautical mile.",
+      "payload": {
+        "questionSv": "Mät avståndet i sjömil mellan fyrarna Måsknuv – Örngrund (följ farleden från SV-delen av sjökort 616). Hur långt är det?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 för att mäta distansen.",
+      "sourceRef": "4:17a / photo_79 (facit photo_36)"
+    },
+    {
+      "id": "nav-sjo-034",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "1,90 M",
+          "isCorrect": true
+        },
+        {
+          "text": "1,45 M",
+          "isCorrect": false
+        },
+        {
+          "text": "2,45 M",
+          "isCorrect": false
+        },
+        {
+          "text": "2,90 M",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Enligt facit är avståndet Örngrund – Östra Röko cirka 1,90 M. Distansen mäts med passare mot sjökortets latitudskala, där 1 latitudminut = 1 sjömil.",
+      "explanationEn": "According to the answer key the distance Örngrund – Östra Röko is about 1,90 M. Distances are measured with dividers against the chart's latitude scale, where 1 minute of latitude = 1 nautical mile.",
+      "payload": {
+        "questionSv": "Mät avståndet i sjömil mellan fyrarna Örngrund – Östra Röko (följ farleden från SV-delen av sjökort 616). Hur långt är det?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 för att mäta distansen.",
+      "sourceRef": "4:17b / photo_79 (facit photo_36)"
+    },
+    {
+      "id": "nav-sjo-035",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "12,2 M",
+          "isCorrect": true
+        },
+        {
+          "text": "10,2 M",
+          "isCorrect": false
+        },
+        {
+          "text": "14,2 M",
+          "isCorrect": false
+        },
+        {
+          "text": "8,7 M",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Enligt facit är avståndet Östra Röko via farleden – Långgarn cirka 12,2 M. Distansen mäts med passare mot sjökortets latitudskala, där 1 latitudminut = 1 sjömil.",
+      "explanationEn": "According to the answer key the distance Östra Röko via farleden – Långgarn is about 12,2 M. Distances are measured with dividers against the chart's latitude scale, where 1 minute of latitude = 1 nautical mile.",
+      "payload": {
+        "questionSv": "Mät avståndet i sjömil mellan fyrarna Östra Röko via farleden – Långgarn (följ farleden från SV-delen av sjökort 616). Hur långt är det?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 för att mäta distansen.",
+      "sourceRef": "4:17c / photo_79 (facit photo_36)"
+    },
+    {
+      "id": "nav-sjo-036",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "1,97 M",
+          "isCorrect": true
+        },
+        {
+          "text": "1,55 M",
+          "isCorrect": false
+        },
+        {
+          "text": "2,45 M",
+          "isCorrect": false
+        },
+        {
+          "text": "2,90 M",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Enligt facit är avståndet Långgarn – Gålö cirka 1,97 M. Mät med passare och sätt av mot latitudskalan (1 minut = 1 sjömil).",
+      "explanationEn": "According to the answer key the distance Långgarn – Gålö is about 1,97 M. Measure with dividers against the latitude scale (1 minute = 1 nautical mile).",
+      "payload": {
+        "questionSv": "Mät avståndet i sjömil mellan följande fyrar (följ farleden från SV-delen av sjökort 6163): Långgarn – Gålö. Hur långt är det?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 6163 för att mäta distansen.",
+      "sourceRef": "4:18a / photo_79 (facit photo_36)"
+    },
+    {
+      "id": "nav-sjo-037",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "4,8 M",
+          "isCorrect": true
+        },
+        {
+          "text": "3,8 M",
+          "isCorrect": false
+        },
+        {
+          "text": "5,8 M",
+          "isCorrect": false
+        },
+        {
+          "text": "6,4 M",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Enligt facit är avståndet Gålö via östra farledsförgreningen – Piltholmsknall cirka 4,8 M. Mät med passare och sätt av mot latitudskalan (1 minut = 1 sjömil).",
+      "explanationEn": "According to the answer key the distance Gålö via östra farledsförgreningen – Piltholmsknall is about 4,8 M. Measure with dividers against the latitude scale (1 minute = 1 nautical mile).",
+      "payload": {
+        "questionSv": "Mät avståndet i sjömil mellan följande fyrar (följ farleden från SV-delen av sjökort 6163): Gålö via östra farledsförgreningen – Piltholmsknall. Hur långt är det?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 6163 för att mäta distansen.",
+      "sourceRef": "4:18b / photo_79 (facit photo_36)"
+    },
+    {
+      "id": "nav-sjo-038",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "2,9 M",
+          "isCorrect": true
+        },
+        {
+          "text": "2,2 M",
+          "isCorrect": false
+        },
+        {
+          "text": "3,6 M",
+          "isCorrect": false
+        },
+        {
+          "text": "4,3 M",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Enligt facit är avståndet Piltholmsknall – Fjärdhällan cirka 2,9 M. Mät med passare och sätt av mot latitudskalan (1 minut = 1 sjömil).",
+      "explanationEn": "According to the answer key the distance Piltholmsknall – Fjärdhällan is about 2,9 M. Measure with dividers against the latitude scale (1 minute = 1 nautical mile).",
+      "payload": {
+        "questionSv": "Mät avståndet i sjömil mellan följande fyrar (följ farleden från SV-delen av sjökort 6163): Piltholmsknall – Fjärdhällan. Hur långt är det?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 6163 för att mäta distansen.",
+      "sourceRef": "4:18c / photo_79 (facit photo_36)"
+    },
+    {
+      "id": "nav-sjo-039",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Cirka 70 meter (≈ 0,04 M)",
+          "isCorrect": true
+        },
+        {
+          "text": "Cirka 185 meter (≈ 0,1 M)",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 350 meter (≈ 0,19 M)",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 35 meter (≈ 0,02 M)",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Enligt facit är avståndet cirka 70 meter, vilket motsvarar ungefär 0,04 sjömil (70/1852 ≈ 0,04). I en special (delförstoring) är skalan större, så korta avstånd kan mätas noggrant.",
+      "explanationEn": "According to the answer key the distance is about 70 metres, i.e. roughly 0.04 nautical miles (70/1852 ≈ 0.04). The inset chart's larger scale allows short distances to be measured accurately.",
+      "payload": {
+        "questionSv": "Hur långt är det mellan Huvudskär och Manskär? Mät i specialen som finns i NV-delen av sjökort 616 och ange svaret både i meter och i sjömil."
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 (specialen i NV-delen) för att mäta avståndet.",
+      "sourceRef": "4:19 / photo_79 (facit photo_36)"
+    },
+    {
+      "id": "nav-sjo-040",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Cirka 100 meter (≈ 0,05 M)",
+          "isCorrect": true
+        },
+        {
+          "text": "Cirka 50 meter (≈ 0,03 M)",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 200 meter (≈ 0,11 M)",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 500 meter (≈ 0,27 M)",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Enligt facit är avståndet cirka 100 meter, vilket motsvarar ungefär 0,05 sjömil (100/1852 ≈ 0,05).",
+      "explanationEn": "According to the answer key the distance is about 100 metres, i.e. roughly 0.05 nautical miles (100/1852 ≈ 0.05).",
+      "payload": {
+        "questionSv": "Hur långt är det mellan Mörtö-Bunsön och Kymmendö-Bunsön? Mät i sjökort 616 (ungefärlig position 59° 07′N, 18° 34′E) och ange svaret både i meter och i sjömil."
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 för att mäta avståndet.",
+      "sourceRef": "4:20 / photo_79 (facit photo_36)"
     }
   ]
 }
