@@ -35,6 +35,11 @@ const TOPIC_FILES: TopicFile[] = [
   require('../../content/vhf/dsc-och-nod.json'),
   require('../../content/radar/grunder-och-plotting.json'),
   require('../../content/radar/ekotolkning.json'),
+  require('../../content/radar/installning.json'),
+  require('../../content/radar/presentationslagen.json'),
+  require('../../content/radar/antenn-och-puls.json'),
+  require('../../content/radar/radarnavigering.json'),
+  require('../../content/radar/mal-och-storningar.json'),
   require('../../content/navcalc/sjokortslasning.json'),
 ];
 

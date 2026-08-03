@@ -1,0 +1,413 @@
+{
+  "topicId": "top-radar-navigation",
+  "items": [
+    {
+      "id": "radar-nav-001",
+      "topicId": "top-radar-navigation",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Med range-ringar eller VRM (Variable Range Marker), och läser avståndet direkt",
+          "isCorrect": true
+        },
+        {
+          "text": "Endast genom att räkna antennens rotationer per minut",
+          "isCorrect": false
+        },
+        {
+          "text": "Endast med EBL, avstånd kan inte mätas separat från bäring",
+          "isCorrect": false
+        },
+        {
+          "text": "Genom att jämföra ekots färg med en referenstabell",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Avstånd mäts med de fasta range-ringarna (koncentriska cirklar) eller med en flyttbar VRM som ställs in exakt på målet.",
+      "explanationEn": "Distance is measured using the fixed range rings (concentric circles) or a movable VRM set precisely on the target.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Hur mäter du avstånd till ett mål med radarn?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    },
+    {
+      "id": "radar-nav-002",
+      "topicId": "top-radar-navigation",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Med EBL (Electronic Bearing Line) som roteras mot målet, eller kompassrosen i north-up-läge",
+          "isCorrect": true
+        },
+        {
+          "text": "Endast med VRM, EBL används inte för bäringsmätning",
+          "isCorrect": false
+        },
+        {
+          "text": "Genom att räkna antalet range-ringar till målet",
+          "isCorrect": false
+        },
+        {
+          "text": "Bäring kan inte mätas med radar, endast med kompass",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Bäring mäts med EBL, en elektronisk linje som roteras för att peka mot målet, eller via kompassrosen i north-up-presentation.",
+      "explanationEn": "Bearing is measured with the EBL, an electronic line rotated to point at the target, or via the compass rose in north-up presentation.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Hur mäter du bäring till ett mål med radarn?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    },
+    {
+      "id": "radar-nav-003",
+      "topicId": "top-radar-navigation",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Avstånd — det är betydligt mer exakt än bäring (avstånd ±50–100 m, bäring ±1–2°)",
+          "isCorrect": true
+        },
+        {
+          "text": "Bäring — det är alltid mer exakt eftersom EBL är digital",
+          "isCorrect": false
+        },
+        {
+          "text": "Avstånd och bäring är alltid exakt lika noggranna",
+          "isCorrect": false
+        },
+        {
+          "text": "Det beror endast på vädret, inte på mätmetoden i sig",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Radar är mycket bättre på avståndsmätning än bäringsmätning. Avståndsnoggrannheten är typiskt ±50–100 m medan bäringsnoggrannheten är ±1–2°, beroende på antenn, målstorlek och avstånd.",
+      "explanationEn": "Radar is much better at range measurement than bearing measurement. Range accuracy is typically ±50–100 m while bearing accuracy is ±1–2°, depending on antenna, target size, and distance.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Vilken radarmätning är mest exakt — avstånd eller bäring?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    },
+    {
+      "id": "radar-nav-004",
+      "topicId": "top-radar-navigation",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "En cirkel — alla punkter på det avståndet från radarn",
+          "isCorrect": true
+        },
+        {
+          "text": "En exakt punkt",
+          "isCorrect": false
+        },
+        {
+          "text": "En rät linje i den uppmätta bäringens riktning",
+          "isCorrect": false
+        },
+        {
+          "text": "Två möjliga punkter direkt, utan ytterligare mätning",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En enskild avståndsmätning ger en hel cirkel av möjliga positioner (alla punkter på det avståndet). Fler mätningar krävs för att smalna av till en position.",
+      "explanationEn": "A single range measurement gives a whole circle of possible positions (all points at that range). More measurements are needed to narrow down to one position.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Vilken positionsinformation ger en enskild avståndsmätning?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    },
+    {
+      "id": "radar-nav-005",
+      "topicId": "top-radar-navigation",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Högst 2 skärningspunkter — vanligtvis är bara en logisk (den andra kan ligga på land eller vara orimlig)",
+          "isCorrect": true
+        },
+        {
+          "text": "Exakt en entydig position utan tvetydighet",
+          "isCorrect": false
+        },
+        {
+          "text": "Oändligt många möjliga positioner",
+          "isCorrect": false
+        },
+        {
+          "text": "Noll positioner, minst tre cirklar krävs för att någon skärning ska uppstå",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Två cirklar (från två avståndsmätningar) skär varandra i som mest två punkter. Ofta är bara en av dem geografiskt rimlig, men en tredje mätning eller kompasskurs behövs för en säker, entydig position.",
+      "explanationEn": "Two circles (from two range measurements) intersect at at most two points. Often only one is geographically sensible, but a third measurement or compass heading is needed for a certain, unambiguous position.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Hur många skärningspunkter ger två avståndscirklar från två radarmätningar?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    },
+    {
+      "id": "radar-nav-006",
+      "topicId": "top-radar-navigation",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Minst 3 avståndsmätningar från olika objekt, eller 2 avstånd plus en kompassbäring om objekten är väl spridda",
+          "isCorrect": true
+        },
+        {
+          "text": "Alltid exakt 1 mätning räcker om objektet är tillräckligt stort",
+          "isCorrect": false
+        },
+        {
+          "text": "2 mätningar räcker alltid, oavsett geografi",
+          "isCorrect": false
+        },
+        {
+          "text": "5 mätningar krävs alltid enligt internationell standard",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Minst tre avståndsmätningar från tre olika objekt ger en entydig position. Alternativt kan två avstånd plus en kompassbäring fungera om objekten är tillräckligt väl spridda.",
+      "explanationEn": "At least three range measurements from three different objects give an unambiguous position. Alternatively, two ranges plus a compass bearing can work if the objects are sufficiently well spread out.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Vad krävs för en entydig positionsbestämning med radar?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    },
+    {
+      "id": "radar-nav-007",
+      "topicId": "top-radar-navigation",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "En EBL som rör sig med eller följer ett mål, används för att bedöma bäringsförändring och kollisionsrisk (konstant bäring = risk)",
+          "isCorrect": true
+        },
+        {
+          "text": "En permanent fast EBL som aldrig kan flyttas efter inställning",
+          "isCorrect": false
+        },
+        {
+          "text": "En funktion som automatiskt undviker kollisioner utan operatörsinmatning",
+          "isCorrect": false
+        },
+        {
+          "text": "En EBL som endast mäter avstånd, inte bäring",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En 'flytande' EBL följer eller spårar ett mål och används för att övervaka bäringsförändring — en konstant bäring med minskande avstånd indikerar kollisionsrisk.",
+      "explanationEn": "A 'floating' EBL follows or tracks a target and is used to monitor bearing change — a constant bearing with decreasing range indicates collision risk.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Vad är en flytande EBL och vad används den till?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    },
+    {
+      "id": "radar-nav-008",
+      "topicId": "top-radar-navigation",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Den faktiska rörelsen (spåret) avviker från den styrda kompasskursen — fartyget 'krabbar' i sidled på radarbilden",
+          "isCorrect": true
+        },
+        {
+          "text": "Radarn visar automatiskt den korrekta kursen och kompenserar för drift utan vidare åtgärd",
+          "isCorrect": false
+        },
+        {
+          "text": "Drift syns aldrig på radarn, endast på GPS",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartygets kompasskurs ändras fysiskt av strömmen",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vind och ström från sidan gör att fartygets faktiska spår (track) avviker vinkelrätt från den styrda kompasskursen — detta syns tydligt som en avvikelse på radarbilden över tid.",
+      "explanationEn": "Wind and current from the side cause the ship's actual track to deviate from the steered compass course — this shows clearly as a deviation on the radar picture over time.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Hur märks avdrift av vind eller ström på radarbilden?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    },
+    {
+      "id": "radar-nav-009",
+      "topicId": "top-radar-navigation",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Avståndsringar kan användas som girlinjer/riskzoner, EBL-linjer kan användas som bäringslinjer eller transitlinjer",
+          "isCorrect": true
+        },
+        {
+          "text": "Endast avstånd kan användas som girmärke, aldrig bäring",
+          "isCorrect": false
+        },
+        {
+          "text": "Girmärken kan aldrig baseras på radarmätningar, endast på synliga landmärken",
+          "isCorrect": false
+        },
+        {
+          "text": "EBL kan bara peka norrut, aldrig i valfri riktning",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Range-ringar kan sättas på specifika avstånd som riskzoner/girlinjer, medan EBL-linjer kan sättas på kompassbäringar för att användas som transit- eller inseglingslinjer.",
+      "explanationEn": "Range rings can be set at specific distances as risk zones/turn markers, while EBL lines can be set at compass bearings for use as transit or approach lines.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Hur kan range-ringar och EBL användas vid ruttplanering?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    },
+    {
+      "id": "radar-nav-010",
+      "topicId": "top-radar-navigation",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "En längre mätning — samma absoluta fel (t.ex. ±100 m) blir en mindre andel av en lång distans än av en kort",
+          "isCorrect": true
+        },
+        {
+          "text": "En kort mätning — kortare avstånd ger alltid bättre precision oavsett felmarginal",
+          "isCorrect": false
+        },
+        {
+          "text": "Noggrannheten är alltid identisk oavsett avstånd",
+          "isCorrect": false
+        },
+        {
+          "text": "Endast bäringsmätningar blir mer exakta med avstånd, inte avståndsmätningar",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vid t.ex. 10 nm blir ett fel på ±100 m en liten procentandel av totalavståndet; vid 0.5 nm är samma absoluta fel en mycket större andel. Använd alltid den längsta tillförlitliga mätningen.",
+      "explanationEn": "At 10 nm, an error of ±100 m is a small percentage of the total distance; at 0.5 nm, the same absolute error is a much larger share. Always use the longest reliable measurement available.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Vilken avståndsmätning ger bäst relativ noggrannhet — en kort eller en lång?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    },
+    {
+      "id": "radar-nav-011",
+      "topicId": "top-radar-navigation",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Planera girpunkt och landmärken i förväg, beräkna girradie, bevaka trafik och djup, och använd radarn kontinuerligt under själva giren",
+          "isCorrect": true
+        },
+        {
+          "text": "Det räcker att endast titta ut genom fönstret under giren, radarn behövs inte i skärgården",
+          "isCorrect": false
+        },
+        {
+          "text": "Girar i skärgården kräver ingen särskild planering jämfört med öppet vatten",
+          "isCorrect": false
+        },
+        {
+          "text": "Endast hastigheten behöver kontrolleras, inget annat",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Stora girar i skärgården kräver noggrann planering: girpunkt, landmärken, girradie vid aktuell fart, trafikbevakning, djup/hinder, och kontinuerlig radarövervakning under själva giren.",
+      "explanationEn": "Large turns in the archipelago require careful planning: turn point, landmarks, turn radius at current speed, traffic watch, depth/obstacles, and continuous radar monitoring during the turn itself.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Vad kräver en större gir i skärgården i fråga om planering och radaranvändning?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    },
+    {
+      "id": "radar-nav-012",
+      "topicId": "top-radar-navigation",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Genom att undersöka form, storlek, stabilitet, avstånds-/bäringsförändring, jämföra med sjökortet, och vid osäkerhet kontakta via radio",
+          "isCorrect": true
+        },
+        {
+          "text": "Genom att endast titta på ekots färg på skärmen",
+          "isCorrect": false
+        },
+        {
+          "text": "Nya ekon kan aldrig identifieras säkert, de ska alltid ignoreras",
+          "isCorrect": false
+        },
+        {
+          "text": "Genom att enbart lita på AIS-data, radarekot i sig ger ingen information",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett nytt eko undersöks genom form, storlek, om det är stabilt eller flimrar, hur avstånd/bäring förändras, jämförelse med sjökortet för kända objekt, och vid osäkerhet — särskilt om det närmar sig — kontakt via radio.",
+      "explanationEn": "A new echo is examined by shape, size, whether it's stable or flickering, how range/bearing change, comparison with the chart for known objects, and — especially if it's closing — radio contact when in doubt.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Hur undersöker du ett nytt, okänt eko på radarbilden?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    }
+  ]
+}

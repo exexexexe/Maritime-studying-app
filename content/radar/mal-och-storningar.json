@@ -1,0 +1,209 @@
+{
+  "topicId": "top-radar-storningar",
+  "items": [
+    {
+      "id": "radar-targets-001",
+      "topicId": "top-radar-storningar",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Stora metallstrukturer, fyrar/bojar med radarreflektor och klippiga kuster; sämst är små träbåtar, glasfiberskrov och undervattensklippor",
+          "isCorrect": true
+        },
+        {
+          "text": "Alla flytande objekt är lika bra radarmål oavsett material",
+          "isCorrect": false
+        },
+        {
+          "text": "Segelbåtar är alltid bättre radarmål än motorbåtar",
+          "isCorrect": false
+        },
+        {
+          "text": "Undervattensklippor syns alltid tydligt oavsett djup",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Radarreflektion beror på material och form. Metall och skarpa vinklar reflekterar bra; trä, glasfiber och mjuka former reflekterar dåligt. Undervattensklippor syns inte alls om de inte bryter ytan.",
+      "explanationEn": "Radar reflection depends on material and shape. Metal and sharp angles reflect well; wood, fiberglass, and soft shapes reflect poorly. Underwater rocks don't show unless they break the surface.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Vilka objekt är bra respektive dåliga radarmål?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    },
+    {
+      "id": "radar-targets-002",
+      "topicId": "top-radar-storningar",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Gain och anti-clutterinställningar (sjö-/regnclutter) — hög gain gör svaga närliggande ekon synliga men förstärker även brus",
+          "isCorrect": true
+        },
+        {
+          "text": "Endast antennens rotationshastighet avgör detta",
+          "isCorrect": false
+        },
+        {
+          "text": "Endast pulslängden, oavsett gain-inställning",
+          "isCorrect": false
+        },
+        {
+          "text": "Skalan (range) är den enda inställningen som spelar roll här",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "'Skuggan' runt eget fartyg styrs främst av gain och clutterinställningar — dessa avgör hur mycket brus och svaga ekon som syns nära fartyget.",
+      "explanationEn": "The 'shadow' around your own ship is mainly controlled by gain and clutter settings — these determine how much noise and weak echoes appear near the ship.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Vilka inställningar styr hur mycket som syns i området närmast eget fartyg?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    },
+    {
+      "id": "radar-targets-003",
+      "topicId": "top-radar-storningar",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Regn- eller sjöclutter — minska respektive clutterreglage, minska gain något och öka kontrast",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett fast, verkligt mål — inget behöver justeras",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fel i antennmotorn som kräver service innan fortsatt användning",
+          "isCorrect": false
+        },
+        {
+          "text": "En ghost-eko orsakad av flervägsreflektion från en bro",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett spritt, brusigt mönster runt eget fartyg är typiskt regn- eller sjöclutter. Åtgärd: minska relevant clutterreglage, minska gain något, öka kontrast för bättre separation.",
+      "explanationEn": "A scattered, noisy pattern around your own ship is typically rain or sea clutter. Fix: reduce the relevant clutter control, reduce gain slightly, increase contrast for better separation.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Ett spritt, brusigt mönster syns runt eget fartyg. Vad är det troligen, och hur åtgärdar du det?"
+      },
+      "needsReview": true,
+      "needsReviewNote": "Var chart_question med platshållarbild som saknas — konverterad till mcq; lägg till riktig radar-/sjökortsbild och byt tillbaka typen."
+    },
+    {
+      "id": "radar-targets-004",
+      "topicId": "top-radar-storningar",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Troligen regn- eller väderrelaterad clutter, eller sjöhävning",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett bekräftat fartyg på kollisionskurs",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fel i EBL-inställningen",
+          "isCorrect": false
+        },
+        {
+          "text": "En felaktigt inställd stävmarkering",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Diffusa ekon på babord kan bero på väder (regn) eller sjöstate snarare än ett verkligt, fast objekt — bör tolkas med försiktighet och jämföras med andra källor.",
+      "explanationEn": "Diffuse echoes to port can be weather-related (rain) or sea-state related rather than a real, solid object — should be interpreted cautiously and cross-checked against other sources.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Du ser diffusa, svaga ekon om babord i regnväder. Hur bör de tolkas?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    },
+    {
+      "id": "radar-targets-005",
+      "topicId": "top-radar-storningar",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Sjöclutter (vågor skapar bågformade ekon runt fartyget); åtgärdas med ökad sjöclutter-dämpning, minskad gain, eller FTC om tillgängligt",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett verkligt mönster av flera fartyg i formation",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett tekniskt fel i magnetronen som kräver omstart",
+          "isCorrect": false
+        },
+        {
+          "text": "Regn utan koppling till sjötillstånd, åtgärdas endast med kontrastjustering",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Bågformade ekon nära eget fartyg är en klassisk signatur för sjöclutter orsakad av vågtoppar. Sjöclutter-kontrollen, minskad gain, eller FTC-funktionen (Fast Time Constant) hjälper.",
+      "explanationEn": "Arc-shaped echoes near your own ship are a classic sea-clutter signature caused by wave crests. The sea clutter control, reduced gain, or FTC (Fast Time Constant) helps remove it.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Bågformade ekon syns nära eget fartyg i frisk vind. Vad är det, och vad hjälper?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    },
+    {
+      "id": "radar-targets-006",
+      "topicId": "top-radar-storningar",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Minska clutterreglagen, öka gain försiktigt, minska brilliance, öka kontrast, och/eller växla till kortare skala för bättre upplösning",
+          "isCorrect": true
+        },
+        {
+          "text": "Öka pulslängden till max, det är enda sättet att hitta svaga mål",
+          "isCorrect": false
+        },
+        {
+          "text": "Stänga av radarn och starta om för att återställa alla inställningar",
+          "isCorrect": false
+        },
+        {
+          "text": "Byta till 'course up'-presentation, det förstärker automatiskt svaga ekon",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett svagt/litet mål som prickar på sjökortet men inte syns på radarn kan ofta hittas genom att minska clutter, försiktigt öka gain, minska brilliance (svaga ekon syns bättre mot mörk bakgrund), öka kontrast, eller gå till en kortare skala.",
+      "explanationEn": "A weak/small charted target not showing on radar can often be found by reducing clutter, carefully increasing gain, reducing brilliance (weak echoes show better against a dark background), increasing contrast, or switching to a shorter range scale.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "En prick finns på sjökortet men syns inte på radarn. Hur får du fram det svaga ekot?"
+      },
+      "needsReview": true,
+      "needsReviewNote": "Var chart_question med platshållarbild som saknas — konverterad till mcq; lägg till riktig radar-/sjökortsbild och byt tillbaka typen."
+    }
+  ]
+}

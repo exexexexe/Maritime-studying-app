@@ -100,6 +100,7 @@ function editDistance(a, b) {
 const seenItemIds = new Set();
 let itemCount = 0;
 let unreviewedCount = 0;
+const needsReviewItems = [];
 
 for (const file of topicFiles(CONTENT_DIR)) {
   const rel = path.relative(CONTENT_DIR, file);
@@ -145,6 +146,9 @@ for (const file of topicFiles(CONTENT_DIR)) {
       err(where, 'missing authorReviewed flag');
     } else if (!item.authorReviewed) {
       unreviewedCount++;
+    }
+    if (item.needsReview === true) {
+      needsReviewItems.push(`${item.id}: ${item.needsReviewNote ?? '(no note)'}`);
     }
     if (!item.payload?.questionSv) err(where, 'missing payload.questionSv');
     if (item.type === 'lantern' && !item.payload?.scene?.lights?.length) {
@@ -232,8 +236,14 @@ for (const file of topicFiles(CONTENT_DIR)) {
 for (const w of warnings) console.warn(`WARN  ${w}`);
 for (const e of errors) console.error(`ERROR ${e}`);
 
+if (needsReviewItems.length && process.argv.includes('--needs-review')) {
+  console.log('\nItems flagged needsReview:');
+  for (const n of needsReviewItems) console.log(`  ${n}`);
+}
+
 console.log(
   `\ncheck-content: ${itemCount} items, ${errors.length} errors, ${warnings.length} warnings` +
-    (unreviewedCount ? ` (${unreviewedCount} items not yet authorReviewed)` : ''),
+    (unreviewedCount ? ` (${unreviewedCount} not authorReviewed` : '(' ) +
+    (needsReviewItems.length ? `, ${needsReviewItems.length} flagged needsReview)` : ')'),
 );
 process.exit(errors.length ? 1 : 0);

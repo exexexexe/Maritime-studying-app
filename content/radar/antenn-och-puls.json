@@ -1,0 +1,277 @@
+{
+  "topicId": "top-radar-antenn",
+  "items": [
+    {
+      "id": "radar-horizon-001",
+      "topicId": "top-radar-antenn",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Den kan dölja svaga mål eller skräpa ner bilden, t.ex. vid sökning efter svaga ekon i komplicerade områden",
+          "isCorrect": true
+        },
+        {
+          "text": "Den är alltid felaktig och bör tas bort permanent",
+          "isCorrect": false
+        },
+        {
+          "text": "Den förbrukar för mycket ström vid långvarig drift",
+          "isCorrect": false
+        },
+        {
+          "text": "Den stör antennens rotationshastighet",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Stävmarkeringen visar fartygets kurs som en linje på skärmen, men kan dölja svaga eller små ekon. Man tar bort den tillfälligt vid sökning efter svåra mål.",
+      "explanationEn": "The heading marker shows the ship's heading as a line on screen, but can obscure weak or small echoes. It's removed temporarily when hunting for difficult targets.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Varför kan man tillfälligt vilja ta bort stävmarkeringen från radarbilden?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    },
+    {
+      "id": "radar-horizon-002",
+      "topicId": "top-radar-antenn",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Radarhorisonten ligger längre bort, ca 1.2–1.3 gånger den optiska horisonten, på grund av refraktion",
+          "isCorrect": true
+        },
+        {
+          "text": "Radarhorisonten ligger alltid närmare, eftersom radiovågor böjs mindre än ljus",
+          "isCorrect": false
+        },
+        {
+          "text": "De sammanfaller alltid exakt oavsett antennhöjd",
+          "isCorrect": false
+        },
+        {
+          "text": "Radarhorisonten är dubbelt så långt bort som den optiska",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Radarvågor bryts något i atmosfären (refraktion), vilket gör att radarhorisonten når längre än den optiska horisonten — typiskt en faktor på ca 1.2–1.3.",
+      "explanationEn": "Radar waves bend slightly in the atmosphere (refraction), so the radar horizon reaches farther than the optical horizon — typically a factor of about 1.2–1.3.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Hur förhåller sig radarhorisonten till den optiska horisonten?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    },
+    {
+      "id": "radar-horizon-003",
+      "topicId": "top-radar-antenn",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Målet måste vara tillräckligt högt, eller så måste antennen vara högre placerad",
+          "isCorrect": true
+        },
+        {
+          "text": "Målet måste sända en aktiv radarsignal tillbaka",
+          "isCorrect": false
+        },
+        {
+          "text": "Man måste öka pulslängden till max",
+          "isCorrect": false
+        },
+        {
+          "text": "Man måste byta till en högre frekvens permanent",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett mål bakom radarhorisonten syns bara om det är tillräckligt högt för att dess eko ska nå antennen, eller om antennen själv höjs.",
+      "explanationEn": "A target beyond the radar horizon is only visible if it's tall enough for its echo to reach the antenna, or if the antenna itself is raised.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Vad krävs för att ett mål bortom radarhorisonten ska synas på radarn?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    },
+    {
+      "id": "radar-horizon-004",
+      "topicId": "top-radar-antenn",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Lobbredd är radarstrålens vinkelbredd, typiskt 2–4 grader",
+          "isCorrect": true
+        },
+        {
+          "text": "Lobbredd är avståndet mellan två range-ringar på skärmen",
+          "isCorrect": false
+        },
+        {
+          "text": "Lobbredd är hur snabbt antennen roterar per minut",
+          "isCorrect": false
+        },
+        {
+          "text": "Lobbredd är hur länge en puls varar i mikrosekunder",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Lobbredden är radarstrålens vinkelmässiga bredd, oftast 2–4°. Smal lob ger bättre upplösning, bred lob ger bättre räckvidd/känslighet.",
+      "explanationEn": "Beamwidth is the angular width of the radar beam, usually 2–4°. Narrow beam gives better resolution, wide beam gives better range/sensitivity.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Vad är antennens lobbredd?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    },
+    {
+      "id": "radar-horizon-005",
+      "topicId": "top-radar-antenn",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Smal lob ger skarpare bild men sämre räckvidd; bred lob ger bättre räckvidd men sämre separation av närliggande mål",
+          "isCorrect": true
+        },
+        {
+          "text": "Lobbredden påverkar bara färgen på ekona, inte upplösningen",
+          "isCorrect": false
+        },
+        {
+          "text": "En bredare lob ger alltid en skarpare bild i alla situationer",
+          "isCorrect": false
+        },
+        {
+          "text": "Lobbredden har ingen praktisk effekt på bildkvaliteten",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Bildkvaliteten är en avvägning: smal lob = bättre detaljupplösning, bred lob = bättre förmåga att fånga svaga/avlägsna mål men sämre separation.",
+      "explanationEn": "Image quality is a trade-off: narrow beam = better detail resolution, wide beam = better at catching weak/distant targets but worse separation.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Hur påverkar lobbredden radarbilden?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    },
+    {
+      "id": "radar-horizon-006",
+      "topicId": "top-radar-antenn",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Vid hög fart eller i trånga farvatten med många mål, där uppdateringsfrekvens och 'dwell time' påverkar detektionen",
+          "isCorrect": true
+        },
+        {
+          "text": "Endast när fartyget ligger still för ankar",
+          "isCorrect": false
+        },
+        {
+          "text": "Rotationshastigheten spelar aldrig någon praktisk roll",
+          "isCorrect": false
+        },
+        {
+          "text": "Endast vid natt-till-dag-övergångar på grund av ljusförhållanden",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Snabb rotation ger tätare uppdateringar men kortare 'dwell time' per bäring (svagare signal); långsam rotation ger bättre detektion men mer inaktuell information. Avgörande i trafiktäta eller trånga områden.",
+      "explanationEn": "Fast rotation gives more frequent updates but shorter dwell time per bearing (weaker signal); slow rotation gives better detection but staler information. Critical in busy or confined waters.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "När har antennens rotationshastighet praktisk betydelse?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    },
+    {
+      "id": "radar-horizon-007",
+      "topicId": "top-radar-antenn",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Kort puls ger bättre avståndsupplösning men svagare signal på långt håll; lång puls ger bättre räckvidd men sämre upplösning",
+          "isCorrect": true
+        },
+        {
+          "text": "Pulslängden påverkar bara ljudsignalen, inte bilden",
+          "isCorrect": false
+        },
+        {
+          "text": "Lång puls ger alltid bättre upplösning och räckvidd samtidigt",
+          "isCorrect": false
+        },
+        {
+          "text": "Kort puls används endast i hamn, lång puls endast till havs",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Det är en avvägning: kort puls särskiljer närliggande mål bättre men tappar räckvidd; lång puls når längre men mål på nära håll flyter ihop.",
+      "explanationEn": "It's a trade-off: short pulse separates close targets better but loses range; long pulse reaches farther but nearby targets blur together.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Hur påverkar pulslängden radarbilden?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    },
+    {
+      "id": "radar-horizon-008",
+      "topicId": "top-radar-antenn",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Genom att segla runt ett känt objekt (t.ex. en boj) på olika bäringar och notera var ekot försvinner",
+          "isCorrect": true
+        },
+        {
+          "text": "Genom att endast läsa radarns tekniska manual, blinda sektorer kan inte upptäckas praktiskt",
+          "isCorrect": false
+        },
+        {
+          "text": "Genom att öka gain till max och se om alla ekon syns lika starkt",
+          "isCorrect": false
+        },
+        {
+          "text": "Genom att jämföra radarbilden med sjökortet vid enbart ett tillfälle",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Blinda sektorer (oftast orsakade av fartygets egen struktur) upptäcks genom att observera ett känt mål på olika bäringar och notera var det försvinner. Viktigt att dokumentera för navigationssäkerheten.",
+      "explanationEn": "Blind sectors (usually caused by the ship's own structure) are found by observing a known target across different bearings and noting where it disappears. Important to document for navigation safety.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Hur upptäcker man radarns blinda sektorer i praktiken?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    }
+  ]
+}

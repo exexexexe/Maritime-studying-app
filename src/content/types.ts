@@ -52,6 +52,10 @@ export interface Item {
   theoryAnchor?: string;
   /** False until a human has signed off on the item. */
   authorReviewed: boolean;
+  /** True when conversion required guessing — see needsReviewNote. */
+  needsReview?: boolean;
+  /** Short note on what is uncertain, for the focused review pass. */
+  needsReviewNote?: string | null;
 }
 
 /** Night-view light picture rendered by LanternDiagram. */

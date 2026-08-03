@@ -1,0 +1,209 @@
+{
+  "topicId": "top-radar-display",
+  "items": [
+    {
+      "id": "radar-display-001",
+      "topicId": "top-radar-display",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Fördel: intuitiv, matchar riktning framåt. Nackdel: bilden roterar under girar, svårt att hålla stabil referens för plottning",
+          "isCorrect": true
+        },
+        {
+          "text": "Fördel: bilden roterar aldrig. Nackdel: kräver mental rotation för att förstå kursen",
+          "isCorrect": false
+        },
+        {
+          "text": "Fördel: matchar alltid sjökortet perfekt. Nackdel: kräver konstant hastighetsinmatning",
+          "isCorrect": false
+        },
+        {
+          "text": "Fördel: professionell standard för plottning. Nackdel: opraktisk vid låg fart",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Stäven upp (heading up) är intuitivt eftersom skärmen matchar vad du ser framåt, men bilden roterar konstant vid girar, vilket gör stabil plottning svårare.",
+      "explanationEn": "Heading up is intuitive because the screen matches what's ahead, but the image rotates constantly during turns, making stable plotting harder.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Vilka för- och nackdelar har presentationsläget stäven upp (head up)?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    },
+    {
+      "id": "radar-display-002",
+      "topicId": "top-radar-display",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "North up — stabil referensram som aldrig roterar och matchar sjökortet, men kräver mental rotation eftersom egen kurs kan peka åt olika håll på skärmen",
+          "isCorrect": true
+        },
+        {
+          "text": "Stäven upp — matchar alltid riktning framåt utan mental ansträngning",
+          "isCorrect": false
+        },
+        {
+          "text": "Course up — visar färdriktning snarare än kompasskurs",
+          "isCorrect": false
+        },
+        {
+          "text": "True motion — eget fartyg rör sig över skärmen medan land står still",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "North up har norr konstant upp på skärmen — stabilt och matchar sjökortet perfekt, professionell standard, men kräver att man mentalt roterar för att förstå egen kurs.",
+      "explanationEn": "North up keeps north constantly at the top — stable and matches the chart perfectly, a professional standard, but requires mentally rotating to understand your own heading.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Vilket presentationsläge har norr konstant uppåt på skärmen, och vilka egenskaper ger det?"
+      },
+      "needsReview": true,
+      "needsReviewNote": "Var chart_question med platshållarbild som saknas — konverterad till mcq; lägg till riktig radar-/sjökortsbild och byt tillbaka typen."
+    },
+    {
+      "id": "radar-display-003",
+      "topicId": "top-radar-display",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Course up / true motion — visar färdriktning eller absolut position; bra för kollisionsundvikande men kräver mer processorkraft och exakt hastighets-/kursinmatning",
+          "isCorrect": true
+        },
+        {
+          "text": "Stäven upp — visar alltid kompasskursen, aldrig färdriktningen",
+          "isCorrect": false
+        },
+        {
+          "text": "North up utan true motion — kräver ingen hastighetsinmatning alls",
+          "isCorrect": false
+        },
+        {
+          "text": "Relativ rörelse-presentation — eget fartyg är alltid stillastående i mitten utan undantag",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Course up/true motion visar riktningen fartyget faktiskt rör sig i (inte bara kompasskursen), vilket är bra för kollisionsundvikande, men kräver noggrann hastighets- och kursinmatning — fel ackumuleras annars.",
+      "explanationEn": "Course up/true motion shows the direction the ship is actually moving (not just compass heading), good for collision avoidance, but requires accurate speed/heading input — errors otherwise accumulate.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Vilket presentationsläge visar fartygets verkliga färdriktning, och vad kräver det?"
+      },
+      "needsReview": true,
+      "needsReviewNote": "Var chart_question med platshållarbild som saknas — konverterad till mcq; lägg till riktig radar-/sjökortsbild och byt tillbaka typen."
+    },
+    {
+      "id": "radar-display-004",
+      "topicId": "top-radar-display",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Eget fartyg rör sig över skärmen medan land/bojar står stilla, som en rörlig karta — jämförbart med sjökort men kräver mer processorkraft och exakt fart-/kursinmatning",
+          "isCorrect": true
+        },
+        {
+          "text": "Eget fartyg står alltid still i mitten, och alla andra mål rör sig runt det",
+          "isCorrect": false
+        },
+        {
+          "text": "Endast land rör sig på skärmen, eget fartyg och andra mål står stilla",
+          "isCorrect": false
+        },
+        {
+          "text": "True motion kräver ingen hastighetsinmatning eftersom det är helt GPS-baserat",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "I true motion rör sig eget fartyg över en stillastående bakgrund (land, bojar) — som att titta på en rörlig karta. Bra för jämförelse med sjökort, men kräver noggrann fart-/kursinmatning eftersom fel ackumuleras.",
+      "explanationEn": "In true motion, your own ship moves across a stationary background (land, buoys) — like watching a moving map. Good for chart comparison, but requires accurate speed/heading input since errors accumulate.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Hur fungerar true motion-presentation?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    },
+    {
+      "id": "radar-display-005",
+      "topicId": "top-radar-display",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "'Expanded range', 'Zoom' eller förstoringsfunktion — fokuserar på ett specifikt område utan att byta huvudskala",
+          "isCorrect": true
+        },
+        {
+          "text": "'Range doubling', som permanent fördubblar radarns maximala räckvidd",
+          "isCorrect": false
+        },
+        {
+          "text": "'Auto tune', som automatiskt justerar fokus var 10:e sekund",
+          "isCorrect": false
+        },
+        {
+          "text": "'True motion lock', som låser bilden till en fast geografisk punkt",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Många radarapparater har en 'expanded range'/zoom-funktion som förstorar ett specifikt område utan att den övergripande skalan (och därmed helhetsbilden) ändras.",
+      "explanationEn": "Many radars have an 'expanded range'/zoom feature that magnifies a specific area without changing the overall scale (and thus the general picture).",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Vilken funktion låter dig förstora ett område utan att byta huvudskala?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    },
+    {
+      "id": "radar-display-006",
+      "topicId": "top-radar-display",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Antennfel, kompassfel, fart-/logfel, pulstidsdrift, refraktion, flervägsreflektioner, sidolobsmottagning, horisontbegränsning, och felaktig clutterjustering",
+          "isCorrect": true
+        },
+        {
+          "text": "Endast väderförhållanden kan orsaka felkällor i radarbilden",
+          "isCorrect": false
+        },
+        {
+          "text": "Modern radar har inga kända felkällor så länge den är korrekt installerad",
+          "isCorrect": false
+        },
+        {
+          "text": "Enbart operatörens erfarenhet avgör om felkällor uppstår",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Felkällor är många: antennjustering, kompassfel, fart/log-fel, pulstidsdrift, refraktion, flervägsreflektioner (ghost-ekon), sidolober, radarhorisontens begränsning, och felaktig clutterjustering som döljer riktiga mål eller förstärker brus.",
+      "explanationEn": "There are many error sources: antenna alignment, compass error, speed/log error, pulse timing drift, refraction, multiple reflections (ghost echoes), side-lobe pickup, radar horizon limits, and clutter misadjustment suppressing real targets or amplifying noise.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Vilka felkällor kan påverka radarbilden?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    }
+  ]
+}

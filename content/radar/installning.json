@@ -1,0 +1,243 @@
+{
+  "topicId": "top-radar-installning",
+  "items": [
+    {
+      "id": "radar-basics-001",
+      "topicId": "top-radar-installning",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Radarn är påslagen och redo, men sändaren är avstängd",
+          "isCorrect": true
+        },
+        {
+          "text": "Radarn är helt avstängd",
+          "isCorrect": false
+        },
+        {
+          "text": "Radarn sänder normalt men bilden är fryst",
+          "isCorrect": false
+        },
+        {
+          "text": "Endast antennen är avstängd, resten fungerar",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "I Standby-läge är radarn påslagen och redo, men sändaren (magnetronen) är avstängd för att spara energi. Antennen roterar oftast fortfarande.",
+      "explanationEn": "In Standby, the radar is powered on and ready, but the transmitter is off to save energy. The antenna typically keeps rotating.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Vad innebär det att radarn står i Standby-läge?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    },
+    {
+      "id": "radar-basics-002",
+      "topicId": "top-radar-installning",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ungefär 2–5 minuter, beroende på radarmodell",
+          "isCorrect": true
+        },
+        {
+          "text": "Ungefär 15–20 sekunder",
+          "isCorrect": false
+        },
+        {
+          "text": "Ungefär 20–30 minuter",
+          "isCorrect": false
+        },
+        {
+          "text": "Övergången sker momentant utan fördröjning",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Uppvärmningstiden varierar med modell, men 2–5 minuter är typiskt medan magnetronen värms upp och systemet gör säkerhetskontroller.",
+      "explanationEn": "Warm-up time varies by model, but 2–5 minutes is typical while the magnetron warms up and the system runs safety checks.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Ungefär hur lång tid tar uppvärmningen när radarn slås på?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    },
+    {
+      "id": "radar-basics-003",
+      "topicId": "top-radar-installning",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Gain och sjö-/regnclutter, eftersom de påverkar hur alla andra inställningar uppfattas",
+          "isCorrect": true
+        },
+        {
+          "text": "Brilliance och kontrast, eftersom bilden annars är osynlig",
+          "isCorrect": false
+        },
+        {
+          "text": "Range och stävmarkering, eftersom avstånd alltid ska ställas in först",
+          "isCorrect": false
+        },
+        {
+          "text": "Fokus och antennrotation, eftersom skärpan påverkar allt annat",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Gain sätter den övergripande känsligheten, och clutter-inställningarna tar bort störningar från vågor och regn. Man börjar här eftersom de påverkar tolkningen av alla senare justeringar.",
+      "explanationEn": "Gain sets overall sensitivity, and the clutter controls remove wave and rain interference. You start here because they affect how every later adjustment is perceived.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Vilka inställningar bör justeras först när radarbilden ställs in, och varför?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    },
+    {
+      "id": "radar-basics-004",
+      "topicId": "top-radar-installning",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ja — olika skalor har olika brusegenskaper, så man bör ställa in bilden på en medelskala (ca 3–6 nm) först",
+          "isCorrect": true
+        },
+        {
+          "text": "Nej, skalan påverkar bara hur långt bort mål syns, inte bildkvaliteten",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja, men bara på skalor under 1 nm",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej, moderna radar kompenserar automatiskt för skalan",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Olika range-skalor uppvisar brus olika. En medelskala (3–6 nm) ger en bra utgångspunkt för justering, som sedan kan verifieras på andra skalor.",
+      "explanationEn": "Different range scales show noise differently. A medium scale (3–6 nm) is a good baseline for adjustment, which can then be verified at other ranges.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Spelar vald avståndsskala någon roll när radarbilden ställs in?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    },
+    {
+      "id": "radar-basics-005",
+      "topicId": "top-radar-installning",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Brilliance, kontrast och fokus/tuning",
+          "isCorrect": true
+        },
+        {
+          "text": "Gain, range och stävmarkering",
+          "isCorrect": false
+        },
+        {
+          "text": "Sjöclutter, regnclutter och antennrotation",
+          "isCorrect": false
+        },
+        {
+          "text": "EBL, VRM och pulslängd",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Efter gain och clutter kontrolleras brilliance (ljusstyrka), kontrast (separation mål/bakgrund) och fokus/tuning (skärpa på ekona).",
+      "explanationEn": "After gain and clutter, check brilliance (brightness), contrast (target/background separation), and focus/tuning (echo sharpness).",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Vilka inställningar kontrolleras efter gain och clutter?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    },
+    {
+      "id": "radar-basics-006",
+      "topicId": "top-radar-installning",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Brilliance = ljusstyrka, kontrast = separation mål/bakgrund, fokus = skärpa på ekona",
+          "isCorrect": true
+        },
+        {
+          "text": "Brilliance = räckvidd, kontrast = färgmättnad, fokus = rotationshastighet",
+          "isCorrect": false
+        },
+        {
+          "text": "Brilliance = ekostyrka, kontrast = pulslängd, fokus = antennvinkel",
+          "isCorrect": false
+        },
+        {
+          "text": "Brilliance = skärpa, kontrast = ljusstyrka, fokus = separation mål/bakgrund",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Brilliance styr skärmens allmänna ljusstyrka, kontrast styr hur väl mål särskiljs från bakgrunden, och fokus/tuning styr hur skarpa ekona blir.",
+      "explanationEn": "Brilliance controls overall screen brightness, contrast controls how well targets separate from the background, and focus/tuning controls echo sharpness.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Vad styr brilliance, kontrast respektive fokus på radarbilden?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    },
+    {
+      "id": "radar-basics-007",
+      "topicId": "top-radar-installning",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Inte avgörande, men en logisk ordning (gain → clutter → brilliance → kontrast → fokus) undviker att man 'jagar sin egen svans'",
+          "isCorrect": true
+        },
+        {
+          "text": "Ja, fel ordning gör radarn permanent feljusterad tills omstart",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja, fokus måste alltid ställas in allra först annars fungerar inget annat",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej, ordningen är helt betydelselös och påverkar aldrig upplevelsen",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En logisk ordning underlättar eftersom varje inställning påverkar hur nästa uppfattas, men det är inte ett strikt tekniskt krav.",
+      "explanationEn": "A logical order helps because each setting affects how the next one is perceived, but it isn't a strict technical requirement.",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Spelar ordningen mellan radarns bildinställningar någon roll?"
+      },
+      "needsReview": false,
+      "needsReviewNote": null
+    }
+  ]
+}
