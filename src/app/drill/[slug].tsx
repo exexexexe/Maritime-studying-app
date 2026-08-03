@@ -5,9 +5,10 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { BuoyDiagram } from '@/components/buoy-diagram';
 import { LanternDiagram } from '@/components/lantern-diagram';
+import { StabilityDiagram } from '@/components/stability-diagram';
 import { moduleBySlug, questionText } from '@/content';
 import { generateCalculation } from '@/content/generators/navcalc';
-import type { BuoyScene, LanternScene, Option } from '@/content/types';
+import type { BuoyScene, LanternScene, Option, StabilityScene } from '@/content/types';
 import { recordAnswer } from '@/db/reviews';
 import { attemptSeed, seededShuffle } from '@/lib/shuffle';
 import { buildSession } from '@/srs/session';
@@ -111,6 +112,10 @@ export default function DrillScreen() {
       : undefined;
   const buoyScene =
     item.type === 'buoy' ? (item.payload as { scene?: BuoyScene }).scene : undefined;
+  const stabilityScene =
+    item.type === 'stability_diagram'
+      ? (item.payload as { scene?: StabilityScene }).scene
+      : undefined;
 
   function answer(optionIndex: number) {
     if (answered) return;
@@ -158,6 +163,11 @@ export default function DrillScreen() {
         {buoyScene ? (
           <View className="mt-5">
             <BuoyDiagram scene={buoyScene} />
+          </View>
+        ) : null}
+        {stabilityScene ? (
+          <View className="mt-5">
+            <StabilityDiagram scene={stabilityScene} />
           </View>
         ) : null}
 

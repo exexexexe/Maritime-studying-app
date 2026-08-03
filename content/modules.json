@@ -21,6 +21,8 @@
     { "id": "top-weather-sikt", "moduleId": "mod-weather", "slug": "sikt-och-prognos", "titleSv": "Sikt, dimma och prognoser", "titleEn": "Visibility, fog and forecasts" },
     { "id": "top-safety-nod", "moduleId": "mod-safety", "slug": "nodsignaler", "titleSv": "Nödsignaler och sjöräddning", "titleEn": "Distress signals and SAR" },
     { "id": "top-safety-ombord", "moduleId": "mod-safety", "slug": "sakerhet-ombord", "titleSv": "Säkerhet ombord", "titleEn": "Safety on board" },
+    { "id": "top-stab-begrepp", "moduleId": "mod-stability", "slug": "begrepp", "titleSv": "Begrepp och jämvikt", "titleEn": "Concepts and equilibrium" },
+    { "id": "top-stab-praktik", "moduleId": "mod-stability", "slug": "last-och-vatskor", "titleSv": "Last, fria vätskeytor och slagsida", "titleEn": "Cargo, free surface and list" },
     { "id": "top-lan-grund", "moduleId": "mod-lanterns", "slug": "grundlanternor", "titleSv": "Grundlanternor och sektorer", "titleEn": "Basic lights and arcs" },
     { "id": "top-lan-maskin", "moduleId": "mod-lanterns", "slug": "maskindrivna", "titleSv": "Maskindrivna fartyg", "titleEn": "Power-driven vessels" },
     { "id": "top-lan-segel", "moduleId": "mod-lanterns", "slug": "segelfartyg", "titleSv": "Segelfartyg och rodda båtar", "titleEn": "Sailing vessels and rowing boats" },

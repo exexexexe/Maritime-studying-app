@@ -1,0 +1,73 @@
+{
+  "topicId": "top-stab-praktik",
+  "items": [
+    {
+      "id": "stab-pra-001",
+      "topicId": "top-stab-praktik",
+      "tracks": ["klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Stabiliteten försämras — vätskans tyngdpunkt rör sig med krängningen", "isCorrect": true },
+        { "text": "Stabiliteten förbättras — vätskan lägger sig alltid lägst i tanken", "isCorrect": false },
+        { "text": "Stabiliteten påverkas inte så länge tanken inte läcker", "isCorrect": false },
+        { "text": "Endast trimmet påverkas, inte tvärskeppsstabiliteten", "isCorrect": false }
+      ],
+      "explanationSv": "En fri vätskeyta låter vätskan strömma mot den låga sidan när fartyget kränger — tyngdpunkten flyttas åt fel håll och verkar som om G höjts. Effekten minskar den effektiva metacenterhöjden. Fyll tankar helt eller töm dem, och dela stora tankar med skvalpskott.",
+      "explanationEn": "Free surface lets liquid shift with heel, effectively raising G and reducing GM.",
+      "theoryAnchor": "stabilitet/fri-vatskeyta",
+      "authorReviewed": false,
+      "payload": { "questionSv": "En tank är halvfull med fri vätskeyta. Hur påverkas stabiliteten?" }
+    },
+    {
+      "id": "stab-pra-002",
+      "topicId": "top-stab-praktik",
+      "tracks": ["klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "G höjs och metacenterhöjden GM minskar", "isCorrect": true },
+        { "text": "G sänks och metacenterhöjden GM ökar", "isCorrect": false },
+        { "text": "B höjs och metacenterhöjden GM ökar", "isCorrect": false },
+        { "text": "M höjs lika mycket som G, så GM är oförändrad", "isCorrect": false }
+      ],
+      "explanationSv": "Vikt som placeras högt — däckslast, is på överbyggnad, utrustning på tak — höjer fartygets tyngdpunkt G. Eftersom M i huvudsak bestäms av skrovformen minskar GM, och fartyget blir rankare.",
+      "explanationEn": "High-placed weight raises G; M is set by hull form, so GM shrinks.",
+      "theoryAnchor": "stabilitet/lastplacering",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Vad händer när tung last placeras högt i fartyget?" }
+    },
+    {
+      "id": "stab-pra-003",
+      "topicId": "top-stab-praktik",
+      "tracks": ["klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Slagsida är lutning tvärskepps, trim är skillnaden i djupgående för- och akterut", "isCorrect": true },
+        { "text": "Slagsida är skillnaden i djupgående, trim är lutning tvärskepps", "isCorrect": false },
+        { "text": "Båda beskriver tvärskeppslutning men vid olika vinklar", "isCorrect": false },
+        { "text": "Trim avser endast segelfartygs lutning i vind", "isCorrect": false }
+      ],
+      "explanationSv": "Slagsida (list) är fartygets lutning tvärskepps, till exempel av förskjuten last. Trim är skillnaden mellan djupgåendet förut och akterut — fartyget ligger på näsan eller på häcken.",
+      "explanationEn": "List is transverse inclination; trim is the difference between forward and aft draught.",
+      "theoryAnchor": "stabilitet/slagsida-trim",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Vad är skillnaden mellan slagsida och trim?" }
+    },
+    {
+      "id": "stab-pra-004",
+      "topicId": "top-stab-praktik",
+      "tracks": ["klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Flytta last lågt och mot centerlinjen, och säkra den mot ny förskjutning", "isCorrect": true },
+        { "text": "Flytta last högt upp på motsatt sida som motvikt", "isCorrect": false },
+        { "text": "Öka farten så att fartyget rätar upp sig av framfarten", "isCorrect": false },
+        { "text": "Fylla en tank till hälften på den höga sidan", "isCorrect": false }
+      ],
+      "explanationSv": "Slagsida av förskjuten last rättas genom att lasten flyttas tillbaka lågt och mot centerlinjen och surras. Motvikt högt upp eller halvfyllda tankar förvärrar stabiliteten — det senare skapar dessutom en ny fri vätskeyta.",
+      "explanationEn": "Correct list by restowing weight low and on the centreline; avoid high counterweights and slack tanks.",
+      "theoryAnchor": "stabilitet/slagsida-trim",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Fartyget har fått slagsida av last som förskjutits. Vilken är rätt åtgärd?" }
+    }
+  ]
+}

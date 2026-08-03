@@ -153,6 +153,12 @@ for (const file of topicFiles(CONTENT_DIR)) {
     if (item.type === 'buoy' && !item.payload?.scene?.colors?.length) {
       err(where, 'buoy item without payload.scene.colors');
     }
+    if (
+      item.type === 'stability_diagram' &&
+      !['upright', 'heeled'].includes(item.payload?.scene?.variant)
+    ) {
+      err(where, 'stability_diagram item without a valid payload.scene.variant');
+    }
 
     // Generator-backed calculations produce options at runtime.
     // Keep this list in sync with GENERATOR_IDS in src/content/generators/navcalc.ts.

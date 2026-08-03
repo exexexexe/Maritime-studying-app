@@ -83,6 +83,14 @@ export interface BuoyScene {
   captionSv?: string;
 }
 
+/** Hull cross-section rendered by StabilityDiagram. */
+export interface StabilityScene {
+  variant: 'upright' | 'heeled';
+  /** Which of K/B/G/M to mark; defaults to all four. */
+  markPoints?: ('K' | 'B' | 'G' | 'M')[];
+  captionSv?: string;
+}
+
 export interface TopicFile {
   topicId: string;
   items: Item[];

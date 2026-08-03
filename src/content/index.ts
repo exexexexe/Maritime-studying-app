@@ -29,6 +29,8 @@ const TOPIC_FILES: TopicFile[] = [
   require('../../content/weather/sikt-och-prognos.json'),
   require('../../content/safety/nodsignaler.json'),
   require('../../content/safety/sakerhet-ombord.json'),
+  require('../../content/stability/begrepp.json'),
+  require('../../content/stability/last-och-vatskor.json'),
 ];
 
 export const modules: ModuleDef[] = [...modulesJson.modules].sort(

@@ -1,0 +1,79 @@
+{
+  "topicId": "top-stab-begrepp",
+  "items": [
+    {
+      "id": "stab-beg-001",
+      "topicId": "top-stab-begrepp",
+      "tracks": ["klass8"],
+      "type": "stability_diagram",
+      "options": [
+        { "text": "Metacentrum M ligger över tyngdpunkten G", "isCorrect": true },
+        { "text": "Tyngdpunkten G ligger över metacentrum M", "isCorrect": false },
+        { "text": "Deplacementets tyngdpunkt B ligger över G", "isCorrect": false },
+        { "text": "Metacentrum M sammanfaller med kölpunkten K", "isCorrect": false }
+      ],
+      "explanationSv": "Fartyget har positiv initialstabilitet när M ligger över G — metacenterhöjden GM är då positiv och en krängning ger ett rätande moment. Hamnar G över M blir momentet i stället stjälpande.",
+      "explanationEn": "Positive initial stability requires M above G (positive GM).",
+      "theoryAnchor": "stabilitet/gm",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "När är fartyget i figuren stabilt i sitt upprätta läge?",
+        "scene": { "variant": "upright", "captionSv": "Midskeppssektion, upprätt läge" }
+      }
+    },
+    {
+      "id": "stab-beg-002",
+      "topicId": "top-stab-begrepp",
+      "tracks": ["klass8"],
+      "type": "stability_diagram",
+      "options": [
+        { "text": "Den rätande hävarmen — avståndet som ger det rätande momentet", "isCorrect": true },
+        { "text": "Metacenterhöjden — avståndet mellan G och M", "isCorrect": false },
+        { "text": "Fribordet — avståndet mellan vattenlinjen och däck", "isCorrect": false },
+        { "text": "Djupgåendet — avståndet mellan vattenlinjen och kölen", "isCorrect": false }
+      ],
+      "explanationSv": "GZ är den rätande hävarmen: det vågräta avståndet mellan tyngdkraftens verkningslinje genom G och uppdriftens verkningslinje genom B. Rätande momentet är deplacementet × GZ. GZ-kurvan visar hävarmen som funktion av krängningsvinkeln.",
+      "explanationEn": "GZ is the righting arm; righting moment = displacement × GZ.",
+      "theoryAnchor": "stabilitet/gz",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Vad visar sträckan GZ i figuren?",
+        "scene": { "variant": "heeled", "markPoints": ["B", "G", "M"], "captionSv": "Krängt fartyg" }
+      }
+    },
+    {
+      "id": "stab-beg-003",
+      "topicId": "top-stab-begrepp",
+      "tracks": ["klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Uppdriftens angreppspunkt — tyngdpunkten i den undanträngda vattenvolymen", "isCorrect": true },
+        { "text": "Fartygets tyngdpunkt inklusive last och besättning", "isCorrect": false },
+        { "text": "Punkten där kölen möter centerlinjen", "isCorrect": false },
+        { "text": "Skärningen mellan uppdriftens verkningslinje och centerlinjen", "isCorrect": false }
+      ],
+      "explanationSv": "B (deplacementstyngdpunkten) är tyngdpunkten i den vattenvolym fartyget tränger undan — där uppdriften angriper. G är fartygets egen tyngdpunkt, och skärningen mellan uppdriftens verkningslinje och centerlinjen vid små vinklar är M.",
+      "explanationEn": "B is the centroid of the displaced volume, where buoyancy acts.",
+      "theoryAnchor": "stabilitet/begrepp",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Vad är punkten B i stabilitetssammanhang?" }
+    },
+    {
+      "id": "stab-beg-004",
+      "topicId": "top-stab-begrepp",
+      "tracks": ["klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Metacenterhöjden GM", "isCorrect": true },
+        { "text": "Djupgåendet midskepps", "isCorrect": false },
+        { "text": "Deplacementets storlek", "isCorrect": false },
+        { "text": "Fribordshöjden vid däckslinjen", "isCorrect": false }
+      ],
+      "explanationSv": "Initialstabiliteten — styvheten vid små krängningsvinklar — bestäms av metacenterhöjden GM. Stor GM ger ett styvt fartyg med snabb, ryckig rullning; liten GM ger ett rankt fartyg.",
+      "explanationEn": "Initial stability is measured by the metacentric height GM.",
+      "theoryAnchor": "stabilitet/gm",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Vilket mått bestämmer fartygets initialstabilitet?" }
+    }
+  ]
+}
