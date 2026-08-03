@@ -4,70 +4,437 @@
     {
       "id": "wx-sikt-001",
       "topicId": "top-weather-sikt",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "Varm och fuktig luft strömmar in över en kall vattenyta", "isCorrect": true },
-        { "text": "Kall och torr luft strömmar in över en varm vattenyta", "isCorrect": false },
-        { "text": "Marken kyls av nattlig utstrålning under klara nätter", "isCorrect": false },
-        { "text": "Regn faller genom ett varmare luftlager nära ytan", "isCorrect": false }
+        {
+          "text": "Varm och fuktig luft strömmar in över en kall vattenyta",
+          "isCorrect": true
+        },
+        {
+          "text": "Kall och torr luft strömmar in över en varm vattenyta",
+          "isCorrect": false
+        },
+        {
+          "text": "Marken kyls av nattlig utstrålning under klara nätter",
+          "isCorrect": false
+        },
+        {
+          "text": "Regn faller genom ett varmare luftlager nära ytan",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Advektionsdimma bildas när varm, fuktig luft glider in över en kallare yta — till exempel vårvarma luftmassor över ännu kallt hav. Det är den vanligaste dimman till sjöss och kan ligga kvar länge även i frisk vind.",
       "explanationEn": "Advection fog: warm moist air over a colder sea surface — the classic sea fog.",
       "theoryAnchor": "vader/dimma",
       "authorReviewed": false,
-      "payload": { "questionSv": "Hur bildas advektionsdimma — sjödimman?" }
+      "payload": {
+        "questionSv": "Hur bildas advektionsdimma — sjödimman?"
+      }
     },
     {
       "id": "wx-sikt-002",
       "topicId": "top-weather-sikt",
-      "tracks": ["kustskeppare", "klass8"],
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "Under klara, vindstilla nätter när marken kyls genom utstrålning", "isCorrect": true },
-        { "text": "Under mulna, blåsiga nätter när molnen håller kvar värmen", "isCorrect": false },
-        { "text": "Mitt på dagen när solen värmer fuktig luft", "isCorrect": false },
-        { "text": "När varm luft strömmar in över kallt hav", "isCorrect": false }
+        {
+          "text": "Under klara, vindstilla nätter när marken kyls genom utstrålning",
+          "isCorrect": true
+        },
+        {
+          "text": "Under mulna, blåsiga nätter när molnen håller kvar värmen",
+          "isCorrect": false
+        },
+        {
+          "text": "Mitt på dagen när solen värmer fuktig luft",
+          "isCorrect": false
+        },
+        {
+          "text": "När varm luft strömmar in över kallt hav",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Strålningsdimma bildas över land under klara och nästan vindstilla nätter, när marken kyls genom utstrålning. På morgonen kan den driva ut över vikar och kustnära vatten men löses ofta upp när solen värmer.",
       "explanationEn": "Radiation fog forms over land on clear calm nights and can drift over coastal waters by morning.",
       "theoryAnchor": "vader/dimma",
       "authorReviewed": false,
-      "payload": { "questionSv": "När bildas strålningsdimma?" }
+      "payload": {
+        "questionSv": "När bildas strålningsdimma?"
+      }
     },
     {
       "id": "wx-sikt-003",
       "topicId": "top-weather-sikt",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "Medelvinden över tio minuter, i meter per sekund", "isCorrect": true },
-        { "text": "Kraftigaste byvinden, i meter per sekund", "isCorrect": false },
-        { "text": "Medelvinden över en timme, i knop", "isCorrect": false },
-        { "text": "Vindstyrkan enligt Beaufortskalan", "isCorrect": false }
+        {
+          "text": "Medelvinden över tio minuter, i meter per sekund",
+          "isCorrect": true
+        },
+        {
+          "text": "Kraftigaste byvinden, i meter per sekund",
+          "isCorrect": false
+        },
+        {
+          "text": "Medelvinden över en timme, i knop",
+          "isCorrect": false
+        },
+        {
+          "text": "Vindstyrkan enligt Beaufortskalan",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Sjörapportens vinduppgift avser medelvinden (tiominutersmedel) i m/s. Byarna kan vara avsevärt kraftigare — räkna med byvind på uppåt 1,5 gånger medelvinden.",
       "explanationEn": "Swedish marine forecasts give ten-minute mean wind in m/s; gusts run well above the mean.",
       "theoryAnchor": "vader/sjorapport",
       "authorReviewed": false,
-      "payload": { "questionSv": "Vad avser vinduppgiften i sjörapporten?" }
+      "payload": {
+        "questionSv": "Vad avser vinduppgiften i sjörapporten?"
+      }
     },
     {
       "id": "wx-sikt-004",
       "topicId": "top-weather-sikt",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "Gå ned i fart, sätt ut utkik och avge föreskrivna mistsignaler", "isCorrect": true },
-        { "text": "Öka farten för att snabbast möjligt komma ur dimbanken", "isCorrect": false },
-        { "text": "Ankra omedelbart oavsett position och vattendjup", "isCorrect": false },
-        { "text": "Fortsätt med oförändrad fart men tänd däcksbelysningen", "isCorrect": false }
+        {
+          "text": "Gå ned i fart, sätt ut utkik och avge föreskrivna mistsignaler",
+          "isCorrect": true
+        },
+        {
+          "text": "Öka farten för att snabbast möjligt komma ur dimbanken",
+          "isCorrect": false
+        },
+        {
+          "text": "Ankra omedelbart oavsett position och vattendjup",
+          "isCorrect": false
+        },
+        {
+          "text": "Fortsätt med oförändrad fart men tänd däcksbelysningen",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "I nedsatt sikt gäller säker fart anpassad till sikten, skärpt utkik även med hörseln, tända lanternor och föreskrivna mistsignaler. Att öka farten eller ankra i farled skapar nya faror.",
       "explanationEn": "In restricted visibility: safe speed, sharpened lookout, lights on and fog signals.",
       "theoryAnchor": "vader/nedsatt-sikt",
       "authorReviewed": false,
-      "payload": { "questionSv": "Du går in i tät dimma. Vad gör du?" }
+      "payload": {
+        "questionSv": "Du går in i tät dimma. Vad gör du?"
+      }
+    },
+    {
+      "id": "wx-sikt-005",
+      "topicId": "top-weather-sikt",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "I det \"Väderkort\" som Sjösäkerhetsrådet/Transportstyrelsen brukar ge ut varje år",
+          "isCorrect": true
+        },
+        {
+          "text": "I Underrättelser för sjöfarande (Ufs) som Sjöfartsverket ger ut varje vecka",
+          "isCorrect": false
+        },
+        {
+          "text": "I den almanacka som SMHI skickar ut till alla registrerade båtägare",
+          "isCorrect": false
+        },
+        {
+          "text": "I sjökortets informationsruta, som uppdateras vid varje ny utgåva",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Sjösäkerhetsrådet/Transportstyrelsen brukar varje år ge ut ett \"Väderkort\" med aktuella sändningstider och frekvenser för väderrapporter via Sveriges Radio, VHF och automatiska telefonsvarare. Tiderna kan ändras från år till år, därför behövs en årligen uppdaterad källa.",
+      "explanationEn": "The Swedish Maritime Safety Council/Transport Agency publishes an annual \"weather card\" listing current broadcast times and frequencies for marine weather reports on Sveriges Radio, VHF and automatic telephone services. Schedules change from year to year, so an annually updated source is needed.",
+      "payload": {
+        "questionSv": "Väderrapporter kan fås bl.a. via Sveriges Radio, VHF och automatiska telefonsvarare. Var kan du få information om aktuella sändningstider och frekvenser?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "9:1 / photo_64 + photo_22"
+    },
+    {
+      "id": "wx-sikt-006",
+      "topicId": "top-weather-sikt",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "På våren och i början av sommaren",
+          "isCorrect": true
+        },
+        {
+          "text": "På hösten och i början av vintern",
+          "isCorrect": false
+        },
+        {
+          "text": "Mitt i högsommaren",
+          "isCorrect": false
+        },
+        {
+          "text": "Mitt i vintern",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Havsdimma är vanligast på våren och i början av sommaren, när varm och fuktig luft strömmar ut över det ännu kalla havsvattnet och kyls ner till daggpunkten.",
+      "explanationEn": "Sea fog is most common in spring and early summer, when warm, moist air flows out over sea water that is still cold and is cooled to its dew point.",
+      "payload": {
+        "questionSv": "Vilken årstid är havsdimma vanligast?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "9:8 / photo_63 + photo_21"
+    },
+    {
+      "id": "wx-sikt-007",
+      "topicId": "top-weather-sikt",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "När det är som kallast, det vill säga vid soluppgången",
+          "isCorrect": true
+        },
+        {
+          "text": "När det är som varmast, det vill säga mitt på dagen",
+          "isCorrect": false
+        },
+        {
+          "text": "När solen just har gått ner och marken börjar svalna",
+          "isCorrect": false
+        },
+        {
+          "text": "Vid midnatt, när temperaturskillnaden mellan land och hav är störst",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Havsdimman är mest utbredd inne i skärgården när det är som kallast, det vill säga vid soluppgången. När solen sedan värmer upp land och luft under dagen upplöses dimman ofta.",
+      "explanationEn": "Sea fog is most widespread inside the archipelago when it is coldest, that is at sunrise. As the sun warms the land and air during the day, the fog often dissolves.",
+      "payload": {
+        "questionSv": "När på dygnet kan man räkna med att havsdimman är mest utbredd inne i skärgården?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "9:9 / photo_63 + photo_21"
+    },
+    {
+      "id": "wx-sikt-008",
+      "topicId": "top-weather-sikt",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "På hösten",
+          "isCorrect": true
+        },
+        {
+          "text": "På våren",
+          "isCorrect": false
+        },
+        {
+          "text": "På högsommaren",
+          "isCorrect": false
+        },
+        {
+          "text": "Mitt i vintern",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Strålningsdimma är vanligast på hösten, då marken snabbt kyls av under klara och lugna nätter medan luften fortfarande innehåller mycket fukt.",
+      "explanationEn": "Radiation fog is most common in autumn, when the ground cools quickly during clear, calm nights while the air still holds plenty of moisture.",
+      "payload": {
+        "questionSv": "Vid vilken årstid är strålningsdimman som vanligast?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "9:10 / photo_63 + photo_21"
+    },
+    {
+      "id": "wx-sikt-009",
+      "topicId": "top-weather-sikt",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "På läsidan",
+          "isCorrect": true
+        },
+        {
+          "text": "På vindsidan (lovartsidan)",
+          "isCorrect": false
+        },
+        {
+          "text": "På öns södra sida, oavsett vindriktning",
+          "isCorrect": false
+        },
+        {
+          "text": "Sikten är lika dålig runt hela ön",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Bäst sikt är det på öns läsida. När den fuktiga luften passerar över den varmare ön värms den upp något och dimman upplöses delvis, så att en \"lucka\" med bättre sikt bildas i lä om ön.",
+      "explanationEn": "Visibility is best on the lee side of the island. As the moist air passes over the warmer island it is heated slightly and the fog partly dissolves, creating a pocket of better visibility downwind of the island.",
+      "payload": {
+        "questionSv": "Det råder havsdimma. Se figur: en ö med vinden in mot öns ena sida, och dimman strömmar med vinden runt och över ön. På vilken sida om ön är det bäst sikt – vindsidan eller läsidan?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "9:11 / photo_63 + photo_21"
+    },
+    {
+      "id": "wx-sikt-010",
+      "topicId": "top-weather-sikt",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Nej – vid havsdimma blåser det normalt en del, och dimma i kombination med kuling kan till och med förekomma",
+          "isCorrect": true
+        },
+        {
+          "text": "Ja – dimma kan bara bildas och ligga kvar när vinden är helt stilla",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej – det blåser tvärtom alltid kuling eller mer när dimma bildas",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja – utom vid strålningsdimma, då det i regel blåser hårt",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Nej. Vid havsdimma blåser det normalt en del, och kombinationen dimma och kuling kan till och med förekomma. Vid strålningsdimma och sjörök är det däremot lugnt. Man kan alltså inte utgå från att dimma betyder stiltje.",
+      "explanationEn": "No. With sea fog there is usually some wind, and fog combined with gale-force wind can even occur. With radiation fog and arctic sea smoke, however, it is calm. You cannot assume that fog means calm conditions.",
+      "payload": {
+        "questionSv": "Är det alltid stiltje när det är dimma?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "9:12 / photo_63 + photo_21"
+    },
+    {
+      "id": "wx-sikt-011",
+      "topicId": "top-weather-sikt",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Sikten är kortare än cirka 0,5 sjömil (1 000 meter)",
+          "isCorrect": true
+        },
+        {
+          "text": "Sikten är kortare än cirka 1 sjömil (1 852 meter)",
+          "isCorrect": false
+        },
+        {
+          "text": "Sikten är kortare än cirka 100 meter",
+          "isCorrect": false
+        },
+        {
+          "text": "Sikten är kortare än cirka 2 sjömil (3 700 meter)",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Dimma definieras som att sikten är kortare än cirka 0,5 sjömil eller 1 000 meter. Vid längre siktavstånd talar man i stället om dis.",
+      "explanationEn": "Fog is defined as visibility shorter than about 0.5 nautical miles, or 1,000 metres. With longer visibility the correct term is mist or haze.",
+      "payload": {
+        "questionSv": "Vilken är definitionen på dimma (ange siktens längd)?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "9:13 / photo_63 + photo_21"
+    },
+    {
+      "id": "wx-sikt-012",
+      "topicId": "top-weather-sikt",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Över land",
+          "isCorrect": true
+        },
+        {
+          "text": "Över vatten",
+          "isCorrect": false
+        },
+        {
+          "text": "Den är lika tät över land och vatten",
+          "isCorrect": false
+        },
+        {
+          "text": "Över öppna havet, långt från kusten",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Strålningsdimman är tätast över land. Den bildas när marken kyls av genom utstrålning under klara, lugna nätter – vattnet håller temperaturen bättre och kyls inte av lika snabbt.",
+      "explanationEn": "Radiation fog is densest over land. It forms when the ground cools by radiation during clear, calm nights – water retains its temperature better and does not cool as quickly.",
+      "payload": {
+        "questionSv": "Var är strålningsdimman som tätast – över land eller vatten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "9:14 / photo_63 + photo_21"
     }
   ]
 }

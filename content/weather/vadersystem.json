@@ -4,70 +4,622 @@
     {
       "id": "wx-sys-001",
       "topicId": "top-weather-system",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "Moturs, in mot centrum", "isCorrect": true },
-        { "text": "Medurs, in mot centrum", "isCorrect": false },
-        { "text": "Moturs, ut från centrum", "isCorrect": false },
-        { "text": "Medurs, ut från centrum", "isCorrect": false }
+        {
+          "text": "Moturs, in mot centrum",
+          "isCorrect": true
+        },
+        {
+          "text": "Medurs, in mot centrum",
+          "isCorrect": false
+        },
+        {
+          "text": "Moturs, ut från centrum",
+          "isCorrect": false
+        },
+        {
+          "text": "Medurs, ut från centrum",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "På norra halvklotet blåser vinden moturs och något in mot centrum runt ett lågtryck. Runt ett högtryck blåser den medurs och ut från centrum.",
       "explanationEn": "Northern hemisphere: wind circulates anticlockwise and slightly inwards around a low.",
       "theoryAnchor": "vader/tryocksystem",
       "authorReviewed": false,
-      "payload": { "questionSv": "Hur blåser vinden runt ett lågtryck på norra halvklotet?" }
+      "payload": {
+        "questionSv": "Hur blåser vinden runt ett lågtryck på norra halvklotet?"
+      }
     },
     {
       "id": "wx-sys-002",
       "topicId": "top-weather-system",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "Att ett lågtryck med försämrat väder närmar sig", "isCorrect": true },
-        { "text": "Att ett högtryck med stabilt väder närmar sig", "isCorrect": false },
-        { "text": "Att vinden snart mojnar helt", "isCorrect": false },
-        { "text": "Att temperaturen snart stiger kraftigt", "isCorrect": false }
+        {
+          "text": "Att ett lågtryck med försämrat väder närmar sig",
+          "isCorrect": true
+        },
+        {
+          "text": "Att ett högtryck med stabilt väder närmar sig",
+          "isCorrect": false
+        },
+        {
+          "text": "Att vinden snart mojnar helt",
+          "isCorrect": false
+        },
+        {
+          "text": "Att temperaturen snart stiger kraftigt",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Snabbt fallande lufttryck är det klassiska tecknet på ett annalkande lågtryck med tilltagande vind och nederbörd. Ju snabbare fallet, desto kraftigare väderomslag kan väntas.",
       "explanationEn": "Rapidly falling pressure signals an approaching low with deteriorating weather.",
       "theoryAnchor": "vader/barometer",
       "authorReviewed": false,
-      "payload": { "questionSv": "Barometern faller snabbt. Vad är det tecken på?" }
+      "payload": {
+        "questionSv": "Barometern faller snabbt. Vad är det tecken på?"
+      }
     },
     {
       "id": "wx-sys-003",
       "topicId": "top-weather-system",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "Solen värmer land snabbare än hav — en vind från sjön mot land uppstår på dagen", "isCorrect": true },
-        { "text": "Solen värmer havet snabbare än land — en vind från land mot sjön uppstår på dagen", "isCorrect": false },
-        { "text": "Nattlig utstrålning ger en vind från sjön mot land efter midnatt", "isCorrect": false },
-        { "text": "Tidvattnet driver luften mot land vid stigande vatten", "isCorrect": false }
+        {
+          "text": "Solen värmer land snabbare än hav — en vind från sjön mot land uppstår på dagen",
+          "isCorrect": true
+        },
+        {
+          "text": "Solen värmer havet snabbare än land — en vind från land mot sjön uppstår på dagen",
+          "isCorrect": false
+        },
+        {
+          "text": "Nattlig utstrålning ger en vind från sjön mot land efter midnatt",
+          "isCorrect": false
+        },
+        {
+          "text": "Tidvattnet driver luften mot land vid stigande vatten",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Sjöbrisen uppstår soliga dagar när land värms snabbare än havet: varm luft stiger över land och ersätts av svalare luft från sjön. Den sätter in på förmiddagen/eftermiddagen och dör ut mot kvällen — då kan en svagare landbris uppstå åt andra hållet.",
       "explanationEn": "Sea breeze: land heats faster than sea, rising warm air over land draws cooler sea air in during the day.",
       "theoryAnchor": "vader/sjobris",
       "authorReviewed": false,
-      "payload": { "questionSv": "Hur uppstår sjöbris?" }
+      "payload": {
+        "questionSv": "Hur uppstår sjöbris?"
+      }
     },
     {
       "id": "wx-sys-004",
       "topicId": "top-weather-system",
-      "tracks": ["kustskeppare", "klass8"],
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "Cirka 14 m/s", "isCorrect": true },
-        { "text": "Cirka 8 m/s", "isCorrect": false },
-        { "text": "Cirka 21 m/s", "isCorrect": false },
-        { "text": "Cirka 25 m/s", "isCorrect": false }
+        {
+          "text": "Cirka 14 m/s",
+          "isCorrect": true
+        },
+        {
+          "text": "Cirka 8 m/s",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 21 m/s",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 25 m/s",
+          "isCorrect": false
+        }
       ],
-      "explanationSv": "Kulingvarning utfärdas när medelvinden väntas nå kuling, från cirka 14 m/s. Vid 21 m/s börjar storm, och 25 m/s och däröver ger stormvarning av högre klass.",
-      "explanationEn": "Gale warning (kulingvarning) from about 14 m/s mean wind; storm from about 21 m/s.",
+      "explanationSv": "Kulingvarning utfärdas när medelvinden väntas nå kuling, från cirka 14 m/s. Kulingintervallet sträcker sig till cirka 24 m/s, där storm tar vid.",
+      "explanationEn": "Gale warning (kulingvarning) from about 14 m/s mean wind; the gale range runs to about 24 m/s, where storm begins.",
       "theoryAnchor": "vader/varningar",
       "authorReviewed": false,
-      "payload": { "questionSv": "Vid vilken medelvind utfärdas kulingvarning?" }
+      "payload": {
+        "questionSv": "Vid vilken medelvind utfärdas kulingvarning?"
+      }
+    },
+    {
+      "id": "wx-sys-005",
+      "topicId": "top-weather-system",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Vid cirka 14 m/s",
+          "isCorrect": true
+        },
+        {
+          "text": "Vid cirka 10 m/s",
+          "isCorrect": false
+        },
+        {
+          "text": "Vid cirka 18 m/s",
+          "isCorrect": false
+        },
+        {
+          "text": "Vid cirka 24 m/s",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Kuling börjar vid cirka 14 m/s. Intervallet kuling sträcker sig upp till cirka 24 m/s, där storm tar vid. Gränserna är bra att kunna för att tolka sjörapporten rätt.",
+      "explanationEn": "Gale-force wind (kuling) begins at about 14 m/s. The gale range extends up to about 24 m/s, where storm begins. Knowing these thresholds helps you interpret marine forecasts correctly.",
+      "payload": {
+        "questionSv": "Var, i meter per sekund, går nedre gränsen för kuling?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "9:2a / photo_64 + photo_22"
+    },
+    {
+      "id": "wx-sys-006",
+      "topicId": "top-weather-system",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Vid cirka 24 m/s",
+          "isCorrect": true
+        },
+        {
+          "text": "Vid cirka 14 m/s",
+          "isCorrect": false
+        },
+        {
+          "text": "Vid cirka 20 m/s",
+          "isCorrect": false
+        },
+        {
+          "text": "Vid cirka 28 m/s",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Storm börjar vid cirka 24 m/s. Under det, från cirka 14 m/s, talar man om kuling. Vindar över stormgränsen är mycket farliga för fritidsbåtar.",
+      "explanationEn": "Storm-force wind begins at about 24 m/s. Below that, from about 14 m/s, the term is gale (kuling). Winds above storm force are extremely dangerous for recreational craft.",
+      "payload": {
+        "questionSv": "Var, i meter per sekund, går nedre gränsen för storm?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "9:2b / photo_64 + photo_22"
+    },
+    {
+      "id": "wx-sys-007",
+      "topicId": "top-weather-system",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Hård vind",
+          "isCorrect": true
+        },
+        {
+          "text": "Frisk vind",
+          "isCorrect": false
+        },
+        {
+          "text": "Styv bris",
+          "isCorrect": false
+        },
+        {
+          "text": "Halv storm",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "I landrapporterna kallas intervallet kuling upp till storm (7–9 Beaufort, 14–24 m/s) för \"hård vind\". Begreppet kuling används i sjörapporterna, medan landväderleksrapporterna använder andra benämningar.",
+      "explanationEn": "In land weather reports the range from gale up to storm (Beaufort 7–9, 14–24 m/s) is called \"hård vind\" (strong wind). The term \"kuling\" is used in marine forecasts, while land forecasts use different terminology.",
+      "payload": {
+        "questionSv": "Kuling upp till storm (7–9 Beaufort) kallas för något annat i landrapporterna. Vad?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "9:3 / photo_64 + photo_22"
+    },
+    {
+      "id": "wx-sys-008",
+      "topicId": "top-weather-system",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Vid god bris, cirka 3,4–5,4 m/s",
+          "isCorrect": true
+        },
+        {
+          "text": "Vid svag vind, cirka 1,6–3,3 m/s",
+          "isCorrect": false
+        },
+        {
+          "text": "Vid frisk vind, cirka 8,0–10,7 m/s",
+          "isCorrect": false
+        },
+        {
+          "text": "Vid kuling, cirka 14 m/s och däröver",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Redan vid god bris (cirka 3,4–5,4 m/s) börjar vågkammarna brytas ute på öppna havet. Brytande vågkammar (\"vita gäss\") är alltså ett tecken på att vinden nått god bris, inte på hårt väder.",
+      "explanationEn": "Wave crests start to break on the open sea already at a gentle-to-moderate breeze of about 3.4–5.4 m/s. Whitecaps are therefore a sign that the wind has reached a moderate breeze, not necessarily heavy weather.",
+      "payload": {
+        "questionSv": "När ungefär börjar vågkammarna att brytas ute på öppna havet?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "9:4 / photo_64 + photo_22"
+    },
+    {
+      "id": "wx-sys-009",
+      "topicId": "top-weather-system",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Först omkring sydvästlig vind som via väst vrider till nordvästlig",
+          "isCorrect": true
+        },
+        {
+          "text": "Först omkring sydostlig vind som via ost vrider till nordostlig",
+          "isCorrect": false
+        },
+        {
+          "text": "Först omkring nordvästlig vind som via väst vrider till sydvästlig",
+          "isCorrect": false
+        },
+        {
+          "text": "Först omkring nordostlig vind som via nord vrider till nordvästlig",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vinden blåser moturs runt ett lågtryck (på norra halvklotet). Göteborg ligger söder om lågtryckets bana: när centrumet är väster om Skandinavien blir vinden sydvästlig, när det ligger norr om Göteborg blir den västlig, och när det passerat ut i Östersjön blir den nordvästlig. Söder om banan vrider vinden alltså medurs (SV–V–NV).",
+      "explanationEn": "Wind circulates counterclockwise around a low (in the northern hemisphere). Gothenburg lies south of the low's track: with the centre west of Scandinavia the wind is southwesterly, with the centre north of Gothenburg it is westerly, and once the low has moved out into the Baltic it becomes northwesterly. South of the track the wind thus veers (SW–W–NW).",
+      "payload": {
+        "questionSv": "Ett lågtryck passerar över Skandinavien. Tre kartbilder med förenklade, runda isobarer visar förloppet: först ligger lågtryckscentrumet över Norska havet väster om Skandinavien, sedan över mellersta Skandinavien mellan Göteborg och Luleå, och till sist över Östersjön/Bottenhavet öster om Sverige. Vilka ungefärliga vindriktningar kan väntas i Göteborgstrakten under passagen?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Facit visar endast vindpilar i figurer – vindriktningarna är härledda ur pilarna och lågtryckscirkulationen; verifiera mot photo_22/21. Figur kan ev. beskäras från photo_64.",
+      "sourceRef": "9:5a / photo_64 + photo_22 + photo_21"
+    },
+    {
+      "id": "wx-sys-010",
+      "topicId": "top-weather-system",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Först omkring sydostlig vind som via ost vrider till nordostlig",
+          "isCorrect": true
+        },
+        {
+          "text": "Först omkring sydvästlig vind som via väst vrider till nordvästlig",
+          "isCorrect": false
+        },
+        {
+          "text": "Först omkring nordostlig vind som via ost vrider till sydostlig",
+          "isCorrect": false
+        },
+        {
+          "text": "Först omkring nordvästlig vind som via nord vrider till nordostlig",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vinden blåser moturs runt ett lågtryck. Luleå ligger norr om lågtryckets bana: när centrumet är väster om Skandinavien blir vinden sydostlig, när det ligger mellan Göteborg och Luleå blir den ostlig, och när det ligger i Bottenhavet/Östersjön blir den nordostlig. Norr om banan vrider vinden alltså moturs (SO–O–NO).",
+      "explanationEn": "Wind circulates counterclockwise around a low. Luleå lies north of the low's track: with the centre west of Scandinavia the wind is southeasterly, with the centre between Gothenburg and Luleå it is easterly, and with the centre in the Gulf of Bothnia/Baltic it becomes northeasterly. North of the track the wind thus backs (SE–E–NE).",
+      "payload": {
+        "questionSv": "Samma lågtryckspassage som i föregående fråga: lågtryckscentrumet flyttar sig från Norska havet väster om Skandinavien, via mellersta Skandinavien, ut i Östersjön/Bottenhavet. Vilka ungefärliga vindriktningar kan väntas i Luleå under passagen?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Facit visar endast vindpilar i figurer – vindriktningarna är härledda ur pilarna och lågtryckscirkulationen; verifiera mot photo_22/21. Figur kan ev. beskäras från photo_64.",
+      "sourceRef": "9:5b / photo_64 + photo_22 + photo_21"
+    },
+    {
+      "id": "wx-sys-011",
+      "topicId": "top-weather-system",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Höga cirrusmoln följda av långsamt tätnande molntäcke, eventuellt halo runt solen, frisk sydlig vind, fallande lufttryck och strilande regn vid fronten",
+          "isCorrect": true
+        },
+        {
+          "text": "Bymoln som hastigt tornar upp sig, häftiga skurar och vindbyar, kanske åska, och snabbt uppklarnande när fronten passerat",
+          "isCorrect": false
+        },
+        {
+          "text": "Snabbt stigande lufttryck, klarnande himmel och byig nordvästlig vind som avtar under dagen",
+          "isCorrect": false
+        },
+        {
+          "text": "Låga stackmoln som upplöses under dagen, svag ostlig vind och oförändrat lufttryck under lång tid",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En varmfront föregås av höga cirrusmoln och ett långsamt tätnande molntäcke, eventuellt med halo runt sol eller måne. Vinden är frisk kring syd och lufttrycket faller. Vid själva fronten faller strilande, ihållande regn. Förloppet är utdraget och lugnt jämfört med kallfrontens dramatik.",
+      "explanationEn": "A warm front is preceded by high cirrus clouds and a slowly thickening cloud layer, sometimes with a halo around the sun or moon. The wind is fresh from around south and the pressure falls. At the front itself, steady drizzly rain falls. The passage is gradual and calm compared to the drama of a cold front.",
+      "payload": {
+        "questionSv": "Vilken typ av väder karaktäriserar en typisk varmfront?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "9:6a / photo_64 + photo_22"
+    },
+    {
+      "id": "wx-sys-012",
+      "topicId": "top-weather-system",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Bymoln tornar upp sig med häftiga skurar, vindbyar och kanske åska; efter fronten stiger trycket, det klarnar plötsligt och vinden vrider mot nordväst",
+          "isCorrect": true
+        },
+        {
+          "text": "Molntäcket tätnar långsamt med halo runt solen, vinden ligger kring syd, trycket faller sakta och ett strilande regn sätter in",
+          "isCorrect": false
+        },
+        {
+          "text": "Lufttrycket är oförändrat, vinden mojnar helt och ett tunt dis med duggregn ligger kvar i flera dygn",
+          "isCorrect": false
+        },
+        {
+          "text": "Trycket faller långsamt, vinden vrider mot sydost och himlen täcks av jämna, låga dimmoln utan skurar",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En kallfront ger mer dramatiskt väder: bymoln tornar upp med häftiga skurar och vindbyar, kanske åska, och fallande barometer. Efter fronten stiger lufttrycket, det klarnar plötsligt och vinden vrider till omkring nordväst. Den svala nordvinden kan bli byig, stark och farlig trots att himlen är klar!",
+      "explanationEn": "A cold front brings more dramatic weather: cumulonimbus clouds tower up with heavy showers and gusts, possibly thunder, and a falling barometer. After the front the pressure rises, the sky clears suddenly and the wind veers to around northwest. The cool northerly wind can be gusty, strong and dangerous even though the sky is clear!",
+      "payload": {
+        "questionSv": "Vilken typ av väder karaktäriserar en typisk kallfront?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "9:6b / photo_64 + photo_22"
+    },
+    {
+      "id": "wx-sys-013",
+      "topicId": "top-weather-system",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Omkring ost, vridande mot syd, vanligen 4–7 m/s",
+          "isCorrect": true
+        },
+        {
+          "text": "Omkring väst, vridande mot nord, upp till cirka 10 m/s",
+          "isCorrect": false
+        },
+        {
+          "text": "Omkring nord, vridande mot ost, vanligen 2–4 m/s",
+          "isCorrect": false
+        },
+        {
+          "text": "Omkring syd, vridande mot väst, upp till cirka 12 m/s",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Sjöbrisen blåser från havet in mot det uppvärmda landet. Vid ostkusten kommer den alltså in omkring ost och vrider under dagen mot syd, vanligen med 4–7 m/s. Vridningen beror på jordrotationens avlänkande kraft.",
+      "explanationEn": "The sea breeze blows from the sea toward the heated land. On the east coast it therefore comes in from around east, turning toward south during the day, usually at 4–7 m/s. The turning is caused by the Coriolis effect.",
+      "payload": {
+        "questionSv": "Väderrapporten talar om \"lokal sjöbris utmed kusten\". Vilka vindriktningar kan väntas vid ostkusten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "9:7a / photo_63 + photo_21"
+    },
+    {
+      "id": "wx-sys-014",
+      "topicId": "top-weather-system",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Omkring väst, vridande mot nord, upp till cirka 10 m/s",
+          "isCorrect": true
+        },
+        {
+          "text": "Omkring ost, vridande mot syd, vanligen 4–7 m/s",
+          "isCorrect": false
+        },
+        {
+          "text": "Omkring syd, vridande mot ost, vanligen 2–4 m/s",
+          "isCorrect": false
+        },
+        {
+          "text": "Omkring nord, vridande mot väst, upp till cirka 12 m/s",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vid västkusten kommer sjöbrisen in från havet omkring väst och vrider mot nord, och den kan där bli starkare än på ostkusten – upp till cirka 10 m/s. Sjöbrisen är alltid riktad från havet in mot land under dagen.",
+      "explanationEn": "On the west coast the sea breeze comes in from the sea from around west, turning toward north, and it can be stronger there than on the east coast – up to about 10 m/s. The sea breeze always blows from the sea toward land during the day.",
+      "payload": {
+        "questionSv": "Väderrapporten talar om \"lokal sjöbris utmed kusten\". Vilka vindriktningar kan väntas vid västkusten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "9:7b / photo_63 + photo_21"
+    },
+    {
+      "id": "wx-sys-015",
+      "topicId": "top-weather-system",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Elektronisk utrustning, inte minst navigationsutrustningen, kan skadas; vid allvarlig träff kan båten springa läck, ta eld och människor skadas",
+          "isCorrect": true
+        },
+        {
+          "text": "Endast rigg och antenner kan skadas – skrov, elektronik och personer ombord påverkas inte av ett nedslag",
+          "isCorrect": false
+        },
+        {
+          "text": "Bara båtar med metallskrov kan skadas; plast- och träbåtar leder inte ström och går därför fria",
+          "isCorrect": false
+        },
+        {
+          "text": "Kompassen kan tillfälligt visa fel, men i övrigt uppstår inga skador på båt eller utrustning",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Elektronisk utrustning, inte minst navigationsutrustningen, kan skadas redan av nedslag i närheten av båten. Vid en allvarlig träff kan båten springa läck, ta eld – och människor kan givetvis komma till skada.",
+      "explanationEn": "Electronic equipment, not least the navigation equipment, can be damaged even by a strike near the boat. In a serious direct hit the boat can spring a leak, catch fire – and people can of course be injured.",
+      "payload": {
+        "questionSv": "Vilka typer av skador kan åska åstadkomma på en båt?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "9:15 / photo_63 + photo_21"
+    },
+    {
+      "id": "wx-sys-016",
+      "topicId": "top-weather-system",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Undvik om möjligt öppna vattenvidder och sök hamn om det går; båten kan också förses med åskskydd",
+          "isCorrect": true
+        },
+        {
+          "text": "Gå ut på öppet vatten, där risken för nedslag är minst, och stäng av all elektronik ombord",
+          "isCorrect": false
+        },
+        {
+          "text": "Fäll masten och ankra mitt i farleden på djupt vatten tills ovädret dragit förbi",
+          "isCorrect": false
+        },
+        {
+          "text": "Jorda all elektronik mot batteriet och fortsätt gå i planerad kurs – ett åskmoln hinner man inte väja för",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Undvik om möjligt öppna vattenvidder när det åskar – där är båten det högsta föremålet och nedslagsrisken störst. Sök hamn om det går. Båtar kan också förses med åskskydd som leder ner blixtströmmen.",
+      "explanationEn": "If possible, avoid open expanses of water during thunderstorms – there the boat is the tallest object and the risk of a strike is greatest. Seek harbour if you can. Boats can also be fitted with lightning protection that conducts the strike current safely.",
+      "payload": {
+        "questionSv": "Vad kan göras för att skydda sig mot åska ombord i en båt?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "9:16 / photo_63 + photo_21"
+    },
+    {
+      "id": "wx-sys-017",
+      "topicId": "top-weather-system",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Kraftiga vindbyar, häftiga skurar, hagel och åska",
+          "isCorrect": true
+        },
+        {
+          "text": "Långvarigt stilla duggregn och avtagande vind",
+          "isCorrect": false
+        },
+        {
+          "text": "Tätnande dimma och flera dygn med dålig sikt",
+          "isCorrect": false
+        },
+        {
+          "text": "Stigande lufttryck, uppklarnande och svaga vindar",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett moln som hastigt tornar upp sig är ett bymoln (cumulonimbus). Det kan medföra kraftiga vindbyar, häftiga skurar, hagel och åska – ofta med kort varsel. Sök skydd eller var beredd att reva/minska fart i god tid.",
+      "explanationEn": "A cloud that towers up rapidly is a cumulonimbus (shower cloud). It can bring strong gusts, heavy showers, hail and thunder – often at short notice. Seek shelter or be ready to reef and reduce speed in good time.",
+      "payload": {
+        "questionSv": "Ett moln tornar hastigt upp sig framför dig och ser ut ungefär som på bilden: ett stort, tätt moln som växer på höjden med mörk undersida och skurar under. Vad kan det medföra för väder?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "9:17 / photo_63 + photo_21"
     }
   ]
 }
