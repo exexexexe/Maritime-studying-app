@@ -1,0 +1,56 @@
+{
+  "topicId": "top-radar-grund",
+  "items": [
+    {
+      "id": "rad-gru-001",
+      "topicId": "top-radar-grund",
+      "tracks": ["klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Ekots rörelse i förhållande till eget fartyg", "isCorrect": true },
+        { "text": "Ekots sanna kurs och fart över grund", "isCorrect": false },
+        { "text": "Endast ekots avstånd, inte dess rörelse", "isCorrect": false },
+        { "text": "Ekots rörelse genom vattnet rensad från ström", "isCorrect": false }
+      ],
+      "explanationSv": "I relativ rörelse (head-up/north-up utan sann rörelse) visar plotten ekots rörelse relativt eget fartyg. Ett eko med konstant bäring och minskande avstånd är på kollisionskurs. Sann kurs och fart fås först genom plotting eller ARPA.",
+      "explanationEn": "A relative-motion display shows target motion relative to own ship; constant bearing, decreasing range = collision course.",
+      "theoryAnchor": "radar/relativ-rorelse",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Vad visar ett ekospår på en radarbild i relativ rörelse?" }
+    },
+    {
+      "id": "rad-gru-002",
+      "topicId": "top-radar-grund",
+      "tracks": ["klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Closest Point of Approach — minsta passageavstånd till ekot", "isCorrect": true },
+        { "text": "Course Plotted Ahead — ekots förväntade kurs", "isCorrect": false },
+        { "text": "Contact Position Accuracy — ekots positionsnoggrannhet", "isCorrect": false },
+        { "text": "Current Point of Alteration — punkten där ekot girade", "isCorrect": false }
+      ],
+      "explanationSv": "CPA är det minsta avstånd ekot kommer att passera på om båda fartygen håller kurs och fart; TCPA är tiden dit. Små CPA-värden med kort TCPA kräver tidiga och tydliga åtgärder.",
+      "explanationEn": "CPA: closest point of approach; TCPA is the time until it.",
+      "theoryAnchor": "radar/cpa",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Vad betyder CPA i radarplotting och ARPA?" }
+    },
+    {
+      "id": "rad-gru-003",
+      "topicId": "top-radar-grund",
+      "tracks": ["klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Att ekot är på stadig bäring och kollisionsrisk föreligger", "isCorrect": true },
+        { "text": "Att ekot girar undan och faran är över", "isCorrect": false },
+        { "text": "Att ekot är en fast punkt, till exempel en prick", "isCorrect": false },
+        { "text": "Att den egna radarns bäringsskala behöver kalibreras", "isCorrect": false }
+      ],
+      "explanationSv": "Ett eko som ligger kvar på samma bäring medan avståndet minskar är den klassiska kollisionsvarningen — samma regel som visuellt: oförändrad bäring, minskande avstånd. Plotta och agera enligt väjningsreglerna i god tid.",
+      "explanationEn": "Steady bearing with decreasing range = risk of collision.",
+      "theoryAnchor": "radar/barings-regel",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Ett radareko närmar sig på oförändrad bäring. Vad betyder det?" }
+    }
+  ]
+}

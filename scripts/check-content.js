@@ -179,6 +179,16 @@ for (const file of topicFiles(CONTENT_DIR)) {
     if (['chart_question', 'radar_question'].includes(item.type) && !item.imageAsset) {
       err(where, `${item.type} without imageAsset`);
     }
+    if (item.imageAsset) {
+      const imgPath = path.join(__dirname, '../assets/content-images', item.imageAsset);
+      if (!fs.existsSync(imgPath)) {
+        err(where, `imageAsset not found on disk: assets/content-images/${item.imageAsset}`);
+      }
+      const registry = fs.readFileSync(path.join(__dirname, '../src/content/images.ts'), 'utf8');
+      if (!registry.includes(`'${item.imageAsset}'`)) {
+        err(where, `imageAsset not registered in src/content/images.ts: ${item.imageAsset}`);
+      }
+    }
 
     // options
     if (!Array.isArray(item.options) || item.options.length < 2) {

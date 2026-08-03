@@ -1,0 +1,56 @@
+{
+  "topicId": "top-vhf-dsc",
+  "items": [
+    {
+      "id": "vhf-dsc-001",
+      "topicId": "top-vhf-dsc",
+      "tracks": ["vhf", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "En digital anropskanal som radion lyssnar på för DSC-anrop", "isCorrect": true },
+        { "text": "Reservkanal för nödtrafik med tal när 16 är upptagen", "isCorrect": false },
+        { "text": "Arbetskanal för fritidsbåtar i kustnära trafik", "isCorrect": false },
+        { "text": "Kanal för väderprognoser från kustradiostationen", "isCorrect": false }
+      ],
+      "explanationSv": "Kanal 70 är reserverad för DSC — digitalt selektivanrop. Där sänds nödlarm och anrop digitalt; all taltrafik är förbjuden. Efter ett DSC-nödlarm fortsätter nödtrafiken med tal på kanal 16.",
+      "explanationEn": "Channel 70 is DSC only — digital alerts; voice follows on channel 16.",
+      "theoryAnchor": "vhf/dsc",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Vad är VHF-kanal 70?" }
+    },
+    {
+      "id": "vhf-dsc-002",
+      "topicId": "top-vhf-dsc",
+      "tracks": ["vhf", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Radiostationens unika niosiffriga identitet", "isCorrect": true },
+        { "text": "Radions serienummer från tillverkaren", "isCorrect": false },
+        { "text": "Fartygets anropssignal i bokstavsform", "isCorrect": false },
+        { "text": "En kod som byts vid varje resa av säkerhetsskäl", "isCorrect": false }
+      ],
+      "explanationSv": "MMSI (Maritime Mobile Service Identity) är stationens niosiffriga identitet som programmeras i DSC-radion och används vid digitala anrop. Den tilldelas med tillståndet och följer fartyget — den byts inte resa för resa.",
+      "explanationEn": "MMSI: the station's unique nine-digit identity used in DSC calls.",
+      "theoryAnchor": "vhf/mmsi",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Vad är ett MMSI-nummer?" }
+    },
+    {
+      "id": "vhf-dsc-003",
+      "topicId": "top-vhf-dsc",
+      "tracks": ["vhf", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Invänta kvittens, gå till kanal 16 och sänd Mayday med tal", "isCorrect": true },
+        { "text": "Stänga av radion så att larmet inte sänds flera gånger", "isCorrect": false },
+        { "text": "Byta till kanal 70 och ropa Mayday med tal där", "isCorrect": false },
+        { "text": "Sända ett nytt DSC-larm varje minut tills hjälp anländer", "isCorrect": false }
+      ],
+      "explanationSv": "Efter DSC-nödlarmet: invänta kvittens (radion upprepar larmet automatiskt med några minuters mellanrum), gå till kanal 16 och sänd det talade nödmeddelandet — Mayday ×3, fartygets namn, position, nödens art, antal ombord.",
+      "explanationEn": "After a DSC alert: await acknowledgement, then transmit the voice Mayday on channel 16.",
+      "theoryAnchor": "vhf/dsc-nod",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Du har tryckt in DSC-nödlarmet. Vad gör du därefter?" }
+    }
+  ]
+}

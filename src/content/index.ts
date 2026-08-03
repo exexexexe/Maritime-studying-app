@@ -31,6 +31,11 @@ const TOPIC_FILES: TopicFile[] = [
   require('../../content/safety/sakerhet-ombord.json'),
   require('../../content/stability/begrepp.json'),
   require('../../content/stability/last-och-vatskor.json'),
+  require('../../content/vhf/anrop-och-rutiner.json'),
+  require('../../content/vhf/dsc-och-nod.json'),
+  require('../../content/radar/grunder-och-plotting.json'),
+  require('../../content/radar/ekotolkning.json'),
+  require('../../content/navcalc/sjokortslasning.json'),
 ];
 
 export const modules: ModuleDef[] = [...modulesJson.modules].sort(

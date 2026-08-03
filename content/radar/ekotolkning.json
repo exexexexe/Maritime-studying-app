@@ -1,0 +1,23 @@
+{
+  "topicId": "top-radar-bild",
+  "items": [
+    {
+      "id": "rad-eko-001",
+      "topicId": "top-radar-bild",
+      "tracks": ["klass8"],
+      "type": "radar_question",
+      "imageAsset": "radar/exempel-1.png",
+      "options": [
+        { "text": "Eko A — det närmar sig på stadig bäring, rakt mot eget fartyg", "isCorrect": true },
+        { "text": "Eko B — det rör sig snabbast över skärmen", "isCorrect": false },
+        { "text": "Eko C — det ligger närmast land", "isCorrect": false },
+        { "text": "Inget av ekona — alla rör sig bort från centrum", "isCorrect": false }
+      ],
+      "explanationSv": "Eko A:s släpspår pekar rakt mot centrum: oförändrad bäring och minskande avstånd — kollisionskurs. B:s spår löper snett förbi (passerar klart) och C ligger stilla vid land, troligen ett sjömärke eller ankarliggare. OBS: exempelbild — ersätts med riktig radarbild.",
+      "explanationEn": "Echo A's trail points at own ship: steady bearing, decreasing range. B passes clear; C is stationary.",
+      "theoryAnchor": "radar/ekotolkning",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Radarbilden visar tre ekon med släpspår (head-up, relativ rörelse). Vilket eko utgör störst kollisionsrisk?" }
+    }
+  ]
+}

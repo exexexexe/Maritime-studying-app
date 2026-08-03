@@ -1,0 +1,56 @@
+{
+  "topicId": "top-vhf-rutiner",
+  "items": [
+    {
+      "id": "vhf-rut-001",
+      "topicId": "top-vhf-rutiner",
+      "tracks": ["vhf", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Lyssna av kanalen, anropa på 16 eller arbetskanal, och gå sedan till ledig arbetskanal", "isCorrect": true },
+        { "text": "Anropa direkt på valfri ledig kanal utan att lyssna av först", "isCorrect": false },
+        { "text": "Sända anropet på kanal 70 med tal och invänta svar där", "isCorrect": false },
+        { "text": "Anropa på kanal 16 och stanna kvar där för hela samtalet", "isCorrect": false }
+      ],
+      "explanationSv": "Lyssna först så att kanalen är ledig. Anropa kort (motstationens namn ×2–3, ”här” + eget namn), och kom överens om en ledig arbetskanal — kanal 16 hålls fri för nöd, il och anrop. Kanal 70 är enbart för DSC.",
+      "explanationEn": "Listen first, call briefly, then shift to a working channel — 16 is kept clear for distress/urgency/calling.",
+      "theoryAnchor": "vhf/anrop",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Hur genomför du ett korrekt rutinanrop till ett annat fartyg?" }
+    },
+    {
+      "id": "vhf-rut-002",
+      "topicId": "top-vhf-rutiner",
+      "tracks": ["vhf", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Sécurité", "isCorrect": true },
+        { "text": "Pan-Pan", "isCorrect": false },
+        { "text": "Mayday", "isCorrect": false },
+        { "text": "Silence", "isCorrect": false }
+      ],
+      "explanationSv": "Sécurité inleder säkerhetsmeddelanden — navigationsvarningar, drivande föremål, viktiga väderomslag. Pan-Pan är ilmeddelanden och Mayday nöd. ”Seelonce” används av ledande station för att beordra radiotystnad i nödtrafik.",
+      "explanationEn": "Sécurité prefixes safety messages such as navigational warnings.",
+      "theoryAnchor": "vhf/sakerhetsmeddelande",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Vilket signalord inleder ett säkerhetsmeddelande, till exempel en navigationsvarning?" }
+    },
+    {
+      "id": "vhf-rut-003",
+      "topicId": "top-vhf-rutiner",
+      "tracks": ["vhf"],
+      "type": "mcq",
+      "options": [
+        { "text": "Med lägsta effekt som ger säker förbindelse, oftast 1 W inomskärs", "isCorrect": true },
+        { "text": "Alltid med full effekt 25 W för säkerhets skull", "isCorrect": false },
+        { "text": "Med 25 W dagtid och 1 W nattetid", "isCorrect": false },
+        { "text": "Effektvalet påverkar inte trafiken för andra stationer", "isCorrect": false }
+      ],
+      "explanationSv": "Välj lägsta effekt som ger säker förbindelse — normalt 1 W på korta avstånd. Det minskar störningarna för andra stationer och räcker gott inomskärs. Full effekt (25 W) används vid längre avstånd och alltid vid nöd.",
+      "explanationEn": "Use the lowest power that gives reliable contact (usually 1 W close in); full power for distress.",
+      "theoryAnchor": "vhf/effekt",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Vilken sändareffekt väljer du vid vanlig trafik på korta avstånd?" }
+    }
+  ]
+}

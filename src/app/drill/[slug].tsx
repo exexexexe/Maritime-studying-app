@@ -3,11 +3,14 @@ import { useMemo, useState } from 'react';
 import { Pressable, ScrollView, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
+import { Image } from 'expo-image';
+
 import { BuoyDiagram } from '@/components/buoy-diagram';
 import { LanternDiagram } from '@/components/lantern-diagram';
 import { StabilityDiagram } from '@/components/stability-diagram';
 import { moduleBySlug, questionText } from '@/content';
 import { generateCalculation } from '@/content/generators/navcalc';
+import { contentImages } from '@/content/images';
 import type { BuoyScene, LanternScene, Option, StabilityScene } from '@/content/types';
 import { recordAnswer } from '@/db/reviews';
 import { attemptSeed, seededShuffle } from '@/lib/shuffle';
@@ -168,6 +171,23 @@ export default function DrillScreen() {
         {stabilityScene ? (
           <View className="mt-5">
             <StabilityDiagram scene={stabilityScene} />
+          </View>
+        ) : null}
+        {item.imageAsset ? (
+          <View className="mt-5 rounded-xl overflow-hidden border border-fog/15">
+            {contentImages[item.imageAsset] ? (
+              <Image
+                source={contentImages[item.imageAsset]}
+                style={{ width: '100%', aspectRatio: 800 / 520 }}
+                contentFit="contain"
+              />
+            ) : (
+              <View className="bg-surface items-center py-10">
+                <Text className="text-small font-sans text-fog">
+                  Bild saknas: {item.imageAsset}
+                </Text>
+              </View>
+            )}
           </View>
         ) : null}
 

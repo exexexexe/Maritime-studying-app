@@ -1,0 +1,23 @@
+{
+  "topicId": "top-nav-sjokort",
+  "items": [
+    {
+      "id": "nav-sjo-001",
+      "topicId": "top-nav-sjokort",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "chart_question",
+      "imageAsset": "chart/exempel-1.png",
+      "options": [
+        { "text": "En fyr", "isCorrect": true },
+        { "text": "Ett vrak", "isCorrect": false },
+        { "text": "En kyrka", "isCorrect": false },
+        { "text": "Ett kummel", "isCorrect": false }
+      ],
+      "explanationSv": "Symbolen vid A — en punkt med strålar — betecknar en fyr. Siffrorna i det fria vattnet är djup i meter, och den gröna konen vid B är styrbords sidomärke. OBS: exempelbild — ersätts med riktigt sjökortsutsnitt.",
+      "explanationEn": "The starred point symbol at A is a lighthouse; blue italic figures are depths in metres.",
+      "theoryAnchor": "navigation/sjokortssymboler",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Vad betecknar symbolen vid A i sjökortsutsnittet?" }
+    }
+  ]
+}
