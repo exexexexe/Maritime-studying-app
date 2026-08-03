@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Color tokens — values mirror src/theme/colors.js (single conceptual source;
+   keep in sync via `npm run check:tokens` guard in scripts/check-tokens.js). */
+@layer base {
+  /* Dark is the default appearance. */
+  :root {
+    --color-bg: 11 20 29;
+    --color-surface: 19 34 47;
+    --color-ink: 233 226 208;
+    --color-fog: 139 157 169;
+    --color-brass: 201 164 92;
+    --color-starboard: 63 163 114;
+    --color-port: 198 93 78;
+  }
+
+  @media (prefers-color-scheme: light) {
+    :root {
+      --color-bg: 241 235 221;
+      --color-surface: 250 246 235;
+      --color-ink: 24 38 52;
+      --color-fog: 90 108 121;
+      --color-brass: 138 109 47;
+      --color-starboard: 31 122 77;
+      --color-port: 166 62 48;
+    }
+  }
+}
