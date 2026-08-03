@@ -15,11 +15,11 @@ import type { BuoyScene, LanternScene, Option, StabilityScene } from '@/content/
 import { recordAnswer } from '@/db/reviews';
 import { attemptSeed, seededShuffle } from '@/lib/shuffle';
 import { buildSession } from '@/srs/session';
-import { getActiveTrack } from '@/state/track';
+import { useTrack } from '@/state/track-context';
 
 export default function DrillScreen() {
   const { slug } = useLocalSearchParams<{ slug: string }>();
-  const track = getActiveTrack();
+  const { track } = useTrack();
 
   // Session is fixed at mount; attemptKey seeds this attempt's option order.
   const [session] = useState(() => {

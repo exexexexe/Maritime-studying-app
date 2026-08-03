@@ -17,9 +17,18 @@ import { StatusBar } from 'expo-status-bar';
 import { useEffect } from 'react';
 import { useColorScheme } from 'react-native';
 
+import { TrackSelect } from '@/components/track-select';
+import { TrackProvider, useTrackOrNull } from '@/state/track-context';
 import { fonts, palette } from '@/theme/tokens';
 
 SplashScreen.preventAutoHideAsync();
+
+/** Gate: first run shows the track selector instead of the app. */
+function TrackGate() {
+  const { track, setTrack } = useTrackOrNull();
+  if (!track) return <TrackSelect onSelect={setTrack} />;
+  return <Stack screenOptions={{ headerShown: false }} />;
+}
 
 export default function RootLayout() {
   const scheme = useColorScheme();
@@ -62,8 +71,10 @@ export default function RootLayout() {
 
   return (
     <ThemeProvider value={navTheme}>
-      <StatusBar style="auto" />
-      <Stack screenOptions={{ headerShown: false }} />
+      <TrackProvider>
+        <StatusBar style="auto" />
+        <TrackGate />
+      </TrackProvider>
     </ThemeProvider>
   );
 }

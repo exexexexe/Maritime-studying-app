@@ -4,8 +4,10 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { Disclaimer } from '@/components/disclaimer';
 import { bumpLaunchCount } from '@/db';
+import { TRACK_NAMES, useTrack } from '@/state/track-context';
 
 export default function DashboardScreen() {
+  const { track } = useTrack();
   // Phase 1 persistence proof: increments once per app launch, survives restart.
   const [launchCount] = useState(() => bumpLaunchCount());
 
@@ -13,7 +15,7 @@ export default function DashboardScreen() {
     <SafeAreaView className="flex-1 bg-bg" edges={['top']}>
       <ScrollView contentContainerClassName="flex-grow px-6 pt-10">
         <Text className="text-caption font-mono text-fog uppercase tracking-widest">
-          Fartygsbefäl klass 8
+          {TRACK_NAMES[track]}
         </Text>
         <Text className="text-display-xl font-display text-ink mt-1">
           Plugga Sjöexamen

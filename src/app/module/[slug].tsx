@@ -5,13 +5,14 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { moduleBySlug, topicsForModule } from '@/content';
 import { moduleProgress } from '@/srs/session';
-import { getActiveTrack } from '@/state/track';
+import { useTrack } from '@/state/track-context';
 
 export default function ModuleScreen() {
   const { slug } = useLocalSearchParams<{ slug: string }>();
+  const { track } = useTrack();
   const module = moduleBySlug(slug);
   const [progress] = useState(() =>
-    module ? moduleProgress(module.id, getActiveTrack(), Date.now()) : null,
+    module ? moduleProgress(module.id, track, Date.now()) : null,
   );
 
   if (!module || !progress) {
