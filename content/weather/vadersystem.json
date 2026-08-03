@@ -1,0 +1,73 @@
+{
+  "topicId": "top-weather-system",
+  "items": [
+    {
+      "id": "wx-sys-001",
+      "topicId": "top-weather-system",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Moturs, in mot centrum", "isCorrect": true },
+        { "text": "Medurs, in mot centrum", "isCorrect": false },
+        { "text": "Moturs, ut från centrum", "isCorrect": false },
+        { "text": "Medurs, ut från centrum", "isCorrect": false }
+      ],
+      "explanationSv": "På norra halvklotet blåser vinden moturs och något in mot centrum runt ett lågtryck. Runt ett högtryck blåser den medurs och ut från centrum.",
+      "explanationEn": "Northern hemisphere: wind circulates anticlockwise and slightly inwards around a low.",
+      "theoryAnchor": "vader/tryocksystem",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Hur blåser vinden runt ett lågtryck på norra halvklotet?" }
+    },
+    {
+      "id": "wx-sys-002",
+      "topicId": "top-weather-system",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Att ett lågtryck med försämrat väder närmar sig", "isCorrect": true },
+        { "text": "Att ett högtryck med stabilt väder närmar sig", "isCorrect": false },
+        { "text": "Att vinden snart mojnar helt", "isCorrect": false },
+        { "text": "Att temperaturen snart stiger kraftigt", "isCorrect": false }
+      ],
+      "explanationSv": "Snabbt fallande lufttryck är det klassiska tecknet på ett annalkande lågtryck med tilltagande vind och nederbörd. Ju snabbare fallet, desto kraftigare väderomslag kan väntas.",
+      "explanationEn": "Rapidly falling pressure signals an approaching low with deteriorating weather.",
+      "theoryAnchor": "vader/barometer",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Barometern faller snabbt. Vad är det tecken på?" }
+    },
+    {
+      "id": "wx-sys-003",
+      "topicId": "top-weather-system",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Solen värmer land snabbare än hav — en vind från sjön mot land uppstår på dagen", "isCorrect": true },
+        { "text": "Solen värmer havet snabbare än land — en vind från land mot sjön uppstår på dagen", "isCorrect": false },
+        { "text": "Nattlig utstrålning ger en vind från sjön mot land efter midnatt", "isCorrect": false },
+        { "text": "Tidvattnet driver luften mot land vid stigande vatten", "isCorrect": false }
+      ],
+      "explanationSv": "Sjöbrisen uppstår soliga dagar när land värms snabbare än havet: varm luft stiger över land och ersätts av svalare luft från sjön. Den sätter in på förmiddagen/eftermiddagen och dör ut mot kvällen — då kan en svagare landbris uppstå åt andra hållet.",
+      "explanationEn": "Sea breeze: land heats faster than sea, rising warm air over land draws cooler sea air in during the day.",
+      "theoryAnchor": "vader/sjobris",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Hur uppstår sjöbris?" }
+    },
+    {
+      "id": "wx-sys-004",
+      "topicId": "top-weather-system",
+      "tracks": ["kustskeppare", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Cirka 14 m/s", "isCorrect": true },
+        { "text": "Cirka 8 m/s", "isCorrect": false },
+        { "text": "Cirka 21 m/s", "isCorrect": false },
+        { "text": "Cirka 25 m/s", "isCorrect": false }
+      ],
+      "explanationSv": "Kulingvarning utfärdas när medelvinden väntas nå kuling, från cirka 14 m/s. Vid 21 m/s börjar storm, och 25 m/s och däröver ger stormvarning av högre klass.",
+      "explanationEn": "Gale warning (kulingvarning) from about 14 m/s mean wind; storm from about 21 m/s.",
+      "theoryAnchor": "vader/varningar",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Vid vilken medelvind utfärdas kulingvarning?" }
+    }
+  ]
+}

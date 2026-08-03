@@ -25,6 +25,10 @@ const TOPIC_FILES: TopicFile[] = [
   require('../../content/buoyage/kardinalmarkering.json'),
   require('../../content/navcalc/kursrattning.json'),
   require('../../content/navcalc/fart-tid-distans.json'),
+  require('../../content/weather/vadersystem.json'),
+  require('../../content/weather/sikt-och-prognos.json'),
+  require('../../content/safety/nodsignaler.json'),
+  require('../../content/safety/sakerhet-ombord.json'),
 ];
 
 export const modules: ModuleDef[] = [...modulesJson.modules].sort(

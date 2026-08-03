@@ -1,0 +1,73 @@
+{
+  "topicId": "top-safety-ombord",
+  "items": [
+    {
+      "id": "saf-omb-001",
+      "topicId": "top-safety-ombord",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Stäng bränsletillförseln och kväv branden utan att öppna luckan helt", "isCorrect": true },
+        { "text": "Öppna motorrumsluckan helt för att komma åt att släcka", "isCorrect": false },
+        { "text": "Ös vatten över motorn genom luftintagen", "isCorrect": false },
+        { "text": "Öka varvtalet för att blåsa rent motorrummet", "isCorrect": false }
+      ],
+      "explanationSv": "Vid motorrumsbrand: stäng av bränsle och motor, och släck genom brandport eller springa utan att öppna luckan helt — full öppning ger branden syre. Använd släckare avsedd för vätskebränder och rikta mot brandens bas.",
+      "explanationEn": "Engine-room fire: cut fuel, smother through a fire port — opening the hatch feeds the fire oxygen.",
+      "theoryAnchor": "sakerhet/brand",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Det brinner i motorrummet. Hur agerar du?" }
+    },
+    {
+      "id": "saf-omb-002",
+      "topicId": "top-safety-ombord",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Flytväst på, stanna vid båten och klättra upp ur vattnet om det går", "isCorrect": true },
+        { "text": "Simma mot land så länge krafterna finns kvar", "isCorrect": false },
+        { "text": "Ta av tunga kläder för att lättare hålla dig flytande", "isCorrect": false },
+        { "text": "Trampa vatten aktivt för att hålla värmen uppe", "isCorrect": false }
+      ],
+      "explanationSv": "I kallt vatten är nedkylningen den stora faran. Flytvästen håller dig uppe medan köldchocken går över; stanna vid båten — den syns och flyter — och försök ta dig upp ur vattnet. Kläder isolerar även våta, och aktivitet ökar värmeförlusten.",
+      "explanationEn": "Cold water: lifejacket, stay with the boat, get out of the water; clothes insulate and activity speeds heat loss.",
+      "theoryAnchor": "sakerhet/kallt-vatten",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Du hamnar i kallt vatten en bit från land efter en kantring. Vad är rätt?" }
+    },
+    {
+      "id": "saf-omb-003",
+      "topicId": "top-safety-ombord",
+      "tracks": ["kustskeppare", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Innan avgång — gå igenom var utrustningen finns och vem som gör vad", "isCorrect": true },
+        { "text": "Först när något inträffat, för att inte oroa i onödan", "isCorrect": false },
+        { "text": "Enbart vid längre resor än tolv timmar", "isCorrect": false },
+        { "text": "Endast när nya besättningsmedlemmar mönstrar på", "isCorrect": false }
+      ],
+      "explanationSv": "Säkerhetsgenomgången hålls före avgång: var flytvästar, släckare, nödsignaler och första förband finns, hur radion används och vem som gör vad vid brand, läcka eller man överbord. Ombord i yrkesmässig trafik är detta en del av säkerhetsorganisationen.",
+      "explanationEn": "Hold the safety briefing before departure: equipment locations and roles in emergencies.",
+      "theoryAnchor": "sakerhet/genomgang",
+      "authorReviewed": false,
+      "payload": { "questionSv": "När ska säkerhetsgenomgången med besättning och passagerare hållas?" }
+    },
+    {
+      "id": "saf-omb-004",
+      "topicId": "top-safety-ombord",
+      "tracks": ["forarintyg", "kustskeppare", "klass8", "vhf"],
+      "type": "mcq",
+      "options": [
+        { "text": "Kanal 16", "isCorrect": true },
+        { "text": "Kanal 70", "isCorrect": false },
+        { "text": "Kanal 6", "isCorrect": false },
+        { "text": "Kanal 72", "isCorrect": false }
+      ],
+      "explanationSv": "Kanal 16 (156,8 MHz) är den internationella nöd-, il- och anropskanalen för tal på VHF. Kanal 70 används enbart för DSC-anrop (digitalt), inte för tal.",
+      "explanationEn": "Channel 16 is the international voice distress, urgency and calling channel; 70 is DSC only.",
+      "theoryAnchor": "sakerhet/vhf-16",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Vilken VHF-kanal används för nödtrafik med tal?" }
+    }
+  ]
+}

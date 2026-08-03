@@ -1,0 +1,73 @@
+{
+  "topicId": "top-safety-nod",
+  "items": [
+    {
+      "id": "saf-nod-001",
+      "topicId": "top-safety-nod",
+      "tracks": ["forarintyg", "kustskeppare", "klass8", "vhf"],
+      "type": "mcq",
+      "options": [
+        { "text": "När fartyg eller människoliv är i överhängande och allvarlig fara", "isCorrect": true },
+        { "text": "När du behöver bogserhjälp efter motorstopp i gott väder", "isCorrect": false },
+        { "text": "När du vill förvarna om att läget kan förvärras", "isCorrect": false },
+        { "text": "När du behöver läkarråd för en lindrig skada", "isCorrect": false }
+      ],
+      "explanationSv": "Mayday sänds endast vid överhängande och allvarlig fara för fartyg eller liv, när omedelbar hjälp behövs. Ett haveri utan fara är i stället ett Pan-Pan-läge, och läkarråd begärs via kustradions rutiner.",
+      "explanationEn": "Mayday is reserved for grave and imminent danger to vessel or life requiring immediate assistance.",
+      "theoryAnchor": "sakerhet/mayday",
+      "authorReviewed": false,
+      "payload": { "questionSv": "När får nödanropet Mayday användas?" }
+    },
+    {
+      "id": "saf-nod-002",
+      "topicId": "top-safety-nod",
+      "tracks": ["forarintyg", "kustskeppare", "klass8", "vhf"],
+      "type": "mcq",
+      "options": [
+        { "text": "Ett brådskande ilmeddelande, utan överhängande livsfara", "isCorrect": true },
+        { "text": "Ett nödanrop vid överhängande fara för liv", "isCorrect": false },
+        { "text": "Ett varningsmeddelande om navigationshinder", "isCorrect": false },
+        { "text": "Ett rutinanrop till kustradiostationen", "isCorrect": false }
+      ],
+      "explanationSv": "Pan-Pan inleder ett ilmeddelande — till exempel maskinhaveri med risk för drift mot land eller en skadad person som behöver hjälp, men utan den överhängande livsfara som kräver Mayday. Navigationsvarningar inleds med Sécurité.",
+      "explanationEn": "Pan-Pan: urgency concerning safety of vessel or person, short of grave and imminent danger.",
+      "theoryAnchor": "sakerhet/pan-pan",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Vad betyder radioanropet Pan-Pan?" }
+    },
+    {
+      "id": "saf-nod-003",
+      "topicId": "top-safety-nod",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Röda raketer, röda handbloss och orange rök", "isCorrect": true },
+        { "text": "Vita raketer, vita handbloss och svart rök", "isCorrect": false },
+        { "text": "Gröna raketer, gula handbloss och blå rök", "isCorrect": false },
+        { "text": "Blinkande lanternor och långa ljudstötar i följd", "isCorrect": false }
+      ],
+      "explanationSv": "Pyrotekniska nödsignaler är röda (fallskärmsraketer och handbloss) samt orange röksignal för dagbruk. Vita raketer används för att påkalla uppmärksamhet — de är inte nödsignaler.",
+      "explanationEn": "Pyrotechnic distress: red parachute rockets, red hand flares, orange smoke.",
+      "theoryAnchor": "sakerhet/nodsignaler",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Vilka färger har de pyrotekniska nödsignalerna?" }
+    },
+    {
+      "id": "saf-nod-004",
+      "topicId": "top-safety-nod",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Ropa ”man överbord”, peka mot personen, kasta livboj och larma", "isCorrect": true },
+        { "text": "Hoppa i vattnet för att simma till personen", "isCorrect": false },
+        { "text": "Öka farten och gira för att snabbt vända tillbaka", "isCorrect": false },
+        { "text": "Sänd omedelbart Mayday innan något annat görs", "isCorrect": false }
+      ],
+      "explanationSv": "Först: ropa så besättningen larmats, håll ögonkontakt och peka, kasta livboj eller annat flytetyg och tryck MOB om plotter finns. Att själv hoppa i ger två nödställda; en okontrollerad gir tappar ofta siktkontakten.",
+      "explanationEn": "Immediate MOB actions: shout, point and keep visual contact, throw a lifebuoy, alarm/MOB.",
+      "theoryAnchor": "sakerhet/mob",
+      "authorReviewed": false,
+      "payload": { "questionSv": "En person faller överbord. Vad gör du omedelbart?" }
+    }
+  ]
+}

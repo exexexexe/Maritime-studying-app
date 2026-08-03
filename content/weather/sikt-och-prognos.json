@@ -1,0 +1,73 @@
+{
+  "topicId": "top-weather-sikt",
+  "items": [
+    {
+      "id": "wx-sikt-001",
+      "topicId": "top-weather-sikt",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Varm och fuktig luft strömmar in över en kall vattenyta", "isCorrect": true },
+        { "text": "Kall och torr luft strömmar in över en varm vattenyta", "isCorrect": false },
+        { "text": "Marken kyls av nattlig utstrålning under klara nätter", "isCorrect": false },
+        { "text": "Regn faller genom ett varmare luftlager nära ytan", "isCorrect": false }
+      ],
+      "explanationSv": "Advektionsdimma bildas när varm, fuktig luft glider in över en kallare yta — till exempel vårvarma luftmassor över ännu kallt hav. Det är den vanligaste dimman till sjöss och kan ligga kvar länge även i frisk vind.",
+      "explanationEn": "Advection fog: warm moist air over a colder sea surface — the classic sea fog.",
+      "theoryAnchor": "vader/dimma",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Hur bildas advektionsdimma — sjödimman?" }
+    },
+    {
+      "id": "wx-sikt-002",
+      "topicId": "top-weather-sikt",
+      "tracks": ["kustskeppare", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Under klara, vindstilla nätter när marken kyls genom utstrålning", "isCorrect": true },
+        { "text": "Under mulna, blåsiga nätter när molnen håller kvar värmen", "isCorrect": false },
+        { "text": "Mitt på dagen när solen värmer fuktig luft", "isCorrect": false },
+        { "text": "När varm luft strömmar in över kallt hav", "isCorrect": false }
+      ],
+      "explanationSv": "Strålningsdimma bildas över land under klara och nästan vindstilla nätter, när marken kyls genom utstrålning. På morgonen kan den driva ut över vikar och kustnära vatten men löses ofta upp när solen värmer.",
+      "explanationEn": "Radiation fog forms over land on clear calm nights and can drift over coastal waters by morning.",
+      "theoryAnchor": "vader/dimma",
+      "authorReviewed": false,
+      "payload": { "questionSv": "När bildas strålningsdimma?" }
+    },
+    {
+      "id": "wx-sikt-003",
+      "topicId": "top-weather-sikt",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Medelvinden över tio minuter, i meter per sekund", "isCorrect": true },
+        { "text": "Kraftigaste byvinden, i meter per sekund", "isCorrect": false },
+        { "text": "Medelvinden över en timme, i knop", "isCorrect": false },
+        { "text": "Vindstyrkan enligt Beaufortskalan", "isCorrect": false }
+      ],
+      "explanationSv": "Sjörapportens vinduppgift avser medelvinden (tiominutersmedel) i m/s. Byarna kan vara avsevärt kraftigare — räkna med byvind på uppåt 1,5 gånger medelvinden.",
+      "explanationEn": "Swedish marine forecasts give ten-minute mean wind in m/s; gusts run well above the mean.",
+      "theoryAnchor": "vader/sjorapport",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Vad avser vinduppgiften i sjörapporten?" }
+    },
+    {
+      "id": "wx-sikt-004",
+      "topicId": "top-weather-sikt",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Gå ned i fart, sätt ut utkik och avge föreskrivna mistsignaler", "isCorrect": true },
+        { "text": "Öka farten för att snabbast möjligt komma ur dimbanken", "isCorrect": false },
+        { "text": "Ankra omedelbart oavsett position och vattendjup", "isCorrect": false },
+        { "text": "Fortsätt med oförändrad fart men tänd däcksbelysningen", "isCorrect": false }
+      ],
+      "explanationSv": "I nedsatt sikt gäller säker fart anpassad till sikten, skärpt utkik även med hörseln, tända lanternor och föreskrivna mistsignaler. Att öka farten eller ankra i farled skapar nya faror.",
+      "explanationEn": "In restricted visibility: safe speed, sharpened lookout, lights on and fog signals.",
+      "theoryAnchor": "vader/nedsatt-sikt",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Du går in i tät dimma. Vad gör du?" }
+    }
+  ]
+}
