@@ -46,6 +46,29 @@ export function ChartsIcon({ color, size = 24 }: IconProps) {
   );
 }
 
+/** Marine chronometer — Prov (exam mode). */
+export function ChronometerIcon({ color, size = 24 }: IconProps) {
+  const ticks = [0, 90, 180, 270].map((deg) => {
+    const rad = (deg * Math.PI) / 180;
+    return {
+      x1: 12 + 6.2 * Math.sin(rad),
+      y1: 13 - 6.2 * Math.cos(rad),
+      x2: 12 + 8 * Math.sin(rad),
+      y2: 13 - 8 * Math.cos(rad),
+    };
+  });
+  return (
+    <Svg width={size} height={size} viewBox="0 0 24 24" fill="none">
+      <Circle cx={12} cy={13} r={8} stroke={color} strokeWidth={1.5} />
+      <Path d="M10 2.5 h4 M12 2.5 v2.5" stroke={color} strokeWidth={1.5} strokeLinecap="round" />
+      {ticks.map((t, i) => (
+        <Line key={i} {...t} stroke={color} strokeWidth={1.2} strokeLinecap="round" />
+      ))}
+      <Path d="M12 13 L12 8.8 M12 13 L14.8 14.6" stroke={color} strokeWidth={1.4} strokeLinecap="round" />
+    </Svg>
+  );
+}
+
 /** Ship's helm — Inställningar. */
 export function HelmIcon({ color, size = 24 }: IconProps) {
   const spokes = [0, 45, 90, 135, 180, 225, 270, 315];

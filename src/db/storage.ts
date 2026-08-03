@@ -22,6 +22,20 @@ export interface ReviewRecord extends Sm2State {
   updatedAt: number;
 }
 
+export interface ExamSessionRecord {
+  id: string;
+  track: Track;
+  mode: 'quick' | 'full';
+  startedAt: number;
+  finishedAt: number | null;
+  itemsAttempted: number;
+  correct: number;
+  scorePct: number | null;
+  passed: boolean | null;
+  /** JSON: per-module tally for weak-area history. */
+  moduleResults: string | null;
+}
+
 export interface Storage {
   getMeta(key: string): string | null;
   setMeta(key: string, value: string): void;
@@ -31,4 +45,8 @@ export interface Storage {
   /** Item ids with due_at <= now, oldest due first. */
   dueItemIds(track: Track, now: number): string[];
   upsertReview(record: ReviewRecord): void;
+
+  upsertExamSession(record: ExamSessionRecord): void;
+  /** Sessions for a track, newest started first. */
+  listExamSessions(track: Track): ExamSessionRecord[];
 }

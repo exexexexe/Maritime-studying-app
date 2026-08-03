@@ -2,7 +2,7 @@ import * as SQLite from 'expo-sqlite';
 
 import type { Track } from '@/content/types';
 
-import type { ReviewRecord, Storage } from './storage';
+import type { ExamSessionRecord, ReviewRecord, Storage } from './storage';
 
 /** Schema changes are append-only migrations; never edit a shipped migration. */
 const MIGRATIONS: string[] = [
@@ -25,6 +25,20 @@ const MIGRATIONS: string[] = [
      PRIMARY KEY (item_id, track)
    );
    CREATE INDEX IF NOT EXISTS idx_reviews_track_due ON reviews (track, due_at);`,
+  // 3 — exam sessions (quick/full simulations), incl. per-module tally JSON
+  `CREATE TABLE IF NOT EXISTS exam_sessions (
+     id TEXT PRIMARY KEY NOT NULL,
+     track TEXT NOT NULL,
+     mode TEXT NOT NULL,
+     started_at INTEGER NOT NULL,
+     finished_at INTEGER,
+     items_attempted INTEGER NOT NULL DEFAULT 0,
+     correct INTEGER NOT NULL DEFAULT 0,
+     score_pct REAL,
+     passed INTEGER,
+     module_results TEXT
+   );
+   CREATE INDEX IF NOT EXISTS idx_exam_track_started ON exam_sessions (track, started_at DESC);`,
 ];
 
 interface RawReviewRow {
@@ -129,6 +143,63 @@ export function createSqliteStorage(): Storage {
         rec.lastResult === null ? null : rec.lastResult ? 1 : 0,
         rec.updatedAt,
       );
+    },
+
+    upsertExamSession(rec) {
+      db.runSync(
+        `INSERT INTO exam_sessions
+           (id, track, mode, started_at, finished_at, items_attempted, correct, score_pct, passed, module_results)
+         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+         ON CONFLICT(id) DO UPDATE SET
+           finished_at = excluded.finished_at,
+           items_attempted = excluded.items_attempted,
+           correct = excluded.correct,
+           score_pct = excluded.score_pct,
+           passed = excluded.passed,
+           module_results = excluded.module_results;`,
+        rec.id,
+        rec.track,
+        rec.mode,
+        rec.startedAt,
+        rec.finishedAt,
+        rec.itemsAttempted,
+        rec.correct,
+        rec.scorePct,
+        rec.passed === null ? null : rec.passed ? 1 : 0,
+        rec.moduleResults,
+      );
+    },
+
+    listExamSessions(track) {
+      interface Raw {
+        id: string;
+        track: ExamSessionRecord['track'];
+        mode: ExamSessionRecord['mode'];
+        started_at: number;
+        finished_at: number | null;
+        items_attempted: number;
+        correct: number;
+        score_pct: number | null;
+        passed: number | null;
+        module_results: string | null;
+      }
+      return db
+        .getAllSync<Raw>(
+          'SELECT * FROM exam_sessions WHERE track = ? ORDER BY started_at DESC;',
+          track,
+        )
+        .map((r) => ({
+          id: r.id,
+          track: r.track,
+          mode: r.mode,
+          startedAt: r.started_at,
+          finishedAt: r.finished_at,
+          itemsAttempted: r.items_attempted,
+          correct: r.correct,
+          scorePct: r.score_pct,
+          passed: r.passed === null ? null : r.passed === 1,
+          moduleResults: r.module_results,
+        }));
     },
   };
 }

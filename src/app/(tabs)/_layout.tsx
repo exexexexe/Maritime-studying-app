@@ -1,7 +1,7 @@
 import { Tabs } from 'expo-router';
 import { useColorScheme } from 'react-native';
 
-import { ChartsIcon, CompassIcon, HelmIcon } from '@/components/icons';
+import { ChartsIcon, ChronometerIcon, CompassIcon, HelmIcon } from '@/components/icons';
 import { fonts, palette } from '@/theme/tokens';
 
 export default function TabLayout() {
@@ -36,6 +36,13 @@ export default function TabLayout() {
         options={{
           title: 'Moduler',
           tabBarIcon: ({ color }) => <ChartsIcon color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="exam"
+        options={{
+          title: 'Prov',
+          tabBarIcon: ({ color }) => <ChronometerIcon color={color} />,
         }}
       />
       <Tabs.Screen
