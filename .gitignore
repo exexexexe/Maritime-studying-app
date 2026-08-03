@@ -44,3 +44,9 @@ example
 
 # Claude Code local settings
 .claude/settings.local.json
+
+# Browser test artifacts
+.playwright-mcp/
+
+# Local reference material (copyrighted textbook photos - do not publish)
+questions/

@@ -1,0 +1,100 @@
+{
+  "topicId": "top-lan-maskin",
+  "items": [
+    {
+      "id": "lan-maskin-001",
+      "topicId": "top-lan-maskin",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "lantern",
+      "options": [
+        { "text": "Ett maskindrivet fartyg som kommer rakt emot mig", "isCorrect": true },
+        { "text": "Ett maskindrivet fartyg som går ifrån mig", "isCorrect": false },
+        { "text": "Ett segelfartyg som kommer rakt emot mig", "isCorrect": false },
+        { "text": "Ett fartyg till ankars med tänt ankarljus", "isCorrect": false }
+      ],
+      "explanationSv": "Toppljus över båda sidoljusen betyder maskindrivet fartyg sett rätt förifrån — det kommer emot dig. Grönt syns till vänster eftersom du ser fartygets styrbordssida spegelvänd. Ett segelfartyg saknar toppljus.",
+      "explanationEn": "Masthead light above both sidelights: a power-driven vessel head-on. A sailing vessel would show no masthead light.",
+      "theoryAnchor": "lanternor/maskindrivna",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Du ser dessa ljus en mörk natt. Vad ser du?",
+        "scene": {
+          "lights": [
+            { "color": "white", "x": 50, "y": 20 },
+            { "color": "green", "x": 41, "y": 38 },
+            { "color": "red", "x": 59, "y": 38 }
+          ],
+          "captionSv": "Sett rätt förifrån"
+        }
+      }
+    },
+    {
+      "id": "lan-maskin-002",
+      "topicId": "top-lan-maskin",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "lantern",
+      "options": [
+        { "text": "Ett stort maskindrivet fartyg (50 m eller längre) som visar sin styrbordssida", "isCorrect": true },
+        { "text": "Ett litet maskindrivet fartyg (under 50 m) som visar sin styrbordssida", "isCorrect": false },
+        { "text": "Ett fartyg som bogserar, sett från styrbordssidan", "isCorrect": false },
+        { "text": "Ett stort maskindrivet fartyg som visar sin babordssida", "isCorrect": false }
+      ],
+      "explanationSv": "Två toppljus — det aktra högre än det förliga — förs av maskindrivna fartyg som är 50 meter eller längre. Det gröna sidoljuset visar att du ser styrbordssidan. Fartyget går åt höger från din synpunkt.",
+      "explanationEn": "Two masthead lights (after one higher) mean a power-driven vessel of 50 m or more; the green sidelight shows her starboard side.",
+      "theoryAnchor": "lanternor/maskindrivna",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Vilket fartyg visar dessa ljus?",
+        "scene": {
+          "lights": [
+            { "color": "white", "x": 40, "y": 18 },
+            { "color": "white", "x": 64, "y": 24 },
+            { "color": "green", "x": 56, "y": 38 }
+          ],
+          "hull": "silhouette",
+          "captionSv": "Sett från fartygets styrbordssida"
+        }
+      }
+    },
+    {
+      "id": "lan-maskin-003",
+      "topicId": "top-lan-maskin",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "lantern",
+      "options": [
+        { "text": "Akterljuset på ett fartyg som går ifrån mig — eller ett ankarljus", "isCorrect": true },
+        { "text": "Toppljuset på ett fartyg som kommer emot mig", "isCorrect": false },
+        { "text": "Ett lotsfartyg i tjänst, sett förifrån", "isCorrect": false },
+        { "text": "Ett fartyg med begränsad manöverförmåga", "isCorrect": false }
+      ],
+      "explanationSv": "Ett ensamt vitt ljus kan vara akterljuset på ett fartyg du hinner upp — eller ett ankarljus, eller en liten båt. Du är i så fall upphinnande och ska hålla undan. Ett mötande maskindrivet fartyg hade också visat sidoljus.",
+      "explanationEn": "A single white light may be a sternlight (you are overtaking), an anchor light, or a small craft. A vessel meeting you head-on would also show sidelights.",
+      "theoryAnchor": "lanternor/maskindrivna",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Ett ensamt vitt ljus syns i mörkret. Vad kan det vara?",
+        "scene": {
+          "lights": [{ "color": "white", "x": 50, "y": 32 }],
+          "captionSv": "Inga andra ljus syns"
+        }
+      }
+    },
+    {
+      "id": "lan-maskin-004",
+      "topicId": "top-lan-maskin",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Att fartyget är 50 meter långt eller längre", "isCorrect": true },
+        { "text": "Att fartyget bogserar ett annat fartyg", "isCorrect": false },
+        { "text": "Att fartyget är på grund och står stilla", "isCorrect": false },
+        { "text": "Att fartyget begär fri väg genom trång farled", "isCorrect": false }
+      ],
+      "explanationSv": "Ett andra toppljus, placerat aktern om och högre än det förliga, är obligatoriskt för maskindrivna fartyg på 50 meter eller mer. Bogsering visas i stället med två eller tre toppljus i lodrät linje på samma mast.",
+      "explanationEn": "A second masthead light abaft of and higher than the forward one is required for power-driven vessels of 50 m or more.",
+      "theoryAnchor": "lanternor/maskindrivna",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Vad betyder två toppljus, där det aktra sitter högre än det förliga?" }
+    }
+  ]
+}

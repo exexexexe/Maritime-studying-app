@@ -1,0 +1,88 @@
+{
+  "topicId": "top-lan-segel",
+  "items": [
+    {
+      "id": "lan-segel-001",
+      "topicId": "top-lan-segel",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "lantern",
+      "options": [
+        { "text": "Ett segelfartyg som kommer rakt emot mig", "isCorrect": true },
+        { "text": "Ett maskindrivet fartyg som kommer rakt emot mig", "isCorrect": false },
+        { "text": "Ett fartyg till ankars, sett från sidan", "isCorrect": false },
+        { "text": "Ett fiskefartyg som trålar, sett förifrån", "isCorrect": false }
+      ],
+      "explanationSv": "Båda sidoljusen utan något toppljus ovanför betyder segelfartyg under segel, sett rätt förifrån. Ett maskindrivet fartyg hade fört ett vitt toppljus över sidoljusen.",
+      "explanationEn": "Both sidelights with no masthead light above: a sailing vessel head-on. A power-driven vessel would add a white masthead light.",
+      "theoryAnchor": "lanternor/segelfartyg",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Du ser dessa ljus rakt förut. Vad möter du?",
+        "scene": {
+          "lights": [
+            { "color": "green", "x": 42, "y": 34 },
+            { "color": "red", "x": 58, "y": 34 }
+          ],
+          "captionSv": "Inget vitt ljus syns"
+        }
+      }
+    },
+    {
+      "id": "lan-segel-002",
+      "topicId": "top-lan-segel",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "lantern",
+      "options": [
+        { "text": "Ett segelfartyg som visar sin babordssida", "isCorrect": true },
+        { "text": "Ett maskindrivet fartyg som visar sin babordssida", "isCorrect": false },
+        { "text": "Ett fartyg som ligger till ankars", "isCorrect": false },
+        { "text": "Babords sidomarkering i en farled", "isCorrect": false }
+      ],
+      "explanationSv": "Ett ensamt rött ljus utan toppljus är babords sidoljus på ett segelfartyg. Från ett maskindrivet fartyg hade du dessutom sett ett eller två vita toppljus.",
+      "explanationEn": "A single red light with no masthead light is the port sidelight of a sailing vessel.",
+      "theoryAnchor": "lanternor/segelfartyg",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Ett ensamt rött ljus syns i mörkret. Vad är det troligast?",
+        "scene": {
+          "lights": [{ "color": "red", "x": 50, "y": 33 }],
+          "captionSv": "Inget vitt ljus syns"
+        }
+      }
+    },
+    {
+      "id": "lan-segel-003",
+      "topicId": "top-lan-segel",
+      "tracks": ["kustskeppare", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Rött över grönt, båda synliga runtom, i eller nära masttoppen", "isCorrect": true },
+        { "text": "Grönt över rött, båda synliga runtom, i eller nära masttoppen", "isCorrect": false },
+        { "text": "Vitt över rött, båda synliga runtom, i eller nära masttoppen", "isCorrect": false },
+        { "text": "Två röda ljus i lodrät linje, synliga runtom", "isCorrect": false }
+      ],
+      "explanationSv": "Ett segelfartyg under segel får frivilligt föra två runtomlysande ljus i eller nära masttoppen: rött överst och grönt underst. Vitt över rött är lotsfartygets ljus, och rött över rött betyder ej manöverfärdigt fartyg.",
+      "explanationEn": "A sailing vessel may optionally carry all-round red over green at or near the masthead.",
+      "theoryAnchor": "lanternor/segelfartyg",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Vilka frivilliga extraljus får ett segelfartyg föra i masttoppen?" }
+    },
+    {
+      "id": "lan-segel-004",
+      "topicId": "top-lan-segel",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Som ett maskindrivet fartyg, med toppljus tänt", "isCorrect": true },
+        { "text": "Som ett segelfartyg, med enbart sidoljus och akterljus", "isCorrect": false },
+        { "text": "Med rött över grönt i masttoppen som särskild signal", "isCorrect": false },
+        { "text": "Med två toppljus i lodrät linje som särskild signal", "isCorrect": false }
+      ],
+      "explanationSv": "En segelbåt som går för motor — även med seglen uppe — räknas som maskindrivet fartyg och ska föra toppljus. Dagtid visas i stället en kon med spetsen nedåt.",
+      "explanationEn": "A sailing vessel under engine power counts as power-driven and carries a masthead light; by day, a cone apex down.",
+      "theoryAnchor": "lanternor/segelfartyg",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Hur ska en segelbåt föra lanternor när den går för motor?" }
+    }
+  ]
+}

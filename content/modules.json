@@ -1,0 +1,19 @@
+{
+  "modules": [
+    { "id": "mod-colreg", "slug": "sjovagsregler", "titleSv": "Sjövägsregler (COLREG)", "titleEn": "Rules of the Road (COLREG)", "order": 1 },
+    { "id": "mod-lanterns", "slug": "lanternor", "titleSv": "Lanternor", "titleEn": "Navigation Lights", "order": 2 },
+    { "id": "mod-buoyage", "slug": "utmarkning", "titleSv": "Utmärkning & bojar", "titleEn": "Buoyage", "order": 3 },
+    { "id": "mod-navcalc", "slug": "navigationsberakningar", "titleSv": "Navigationsberäkningar", "titleEn": "Navigation Calculations", "order": 4 },
+    { "id": "mod-weather", "slug": "vader", "titleSv": "Väder", "titleEn": "Weather", "order": 5 },
+    { "id": "mod-safety", "slug": "sakerhet", "titleSv": "Säkerhet", "titleEn": "Safety", "order": 6 },
+    { "id": "mod-stability", "slug": "stabilitet", "titleSv": "Stabilitet & balans", "titleEn": "Stability & Balance", "order": 7 },
+    { "id": "mod-vhf", "slug": "vhf", "titleSv": "VHF / SRC", "titleEn": "VHF / SRC", "order": 8 },
+    { "id": "mod-radar", "slug": "radar", "titleSv": "Radar", "titleEn": "Radar", "order": 9 }
+  ],
+  "topics": [
+    { "id": "top-lan-grund", "moduleId": "mod-lanterns", "slug": "grundlanternor", "titleSv": "Grundlanternor och sektorer", "titleEn": "Basic lights and arcs" },
+    { "id": "top-lan-maskin", "moduleId": "mod-lanterns", "slug": "maskindrivna", "titleSv": "Maskindrivna fartyg", "titleEn": "Power-driven vessels" },
+    { "id": "top-lan-segel", "moduleId": "mod-lanterns", "slug": "segelfartyg", "titleSv": "Segelfartyg och rodda båtar", "titleEn": "Sailing vessels and rowing boats" },
+    { "id": "top-lan-sarskilda", "moduleId": "mod-lanterns", "slug": "sarskilda-fartyg", "titleSv": "Särskilda fartyg och signaler", "titleEn": "Special vessels and signals" }
+  ]
+}

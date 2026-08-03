@@ -1,61 +1,40 @@
-import * as SQLite from 'expo-sqlite';
+import { Platform } from 'react-native';
+
+import type { Storage } from './storage';
 
 /**
  * Data-access layer for Plugga Sjöexamen.
  *
- * All persistence goes through this module — screens never touch SQLite
- * directly. This is the seam where a future self-hosted sync backend would
- * plug in without rewriting callers.
+ * All persistence goes through this module and src/db/reviews.ts — screens
+ * never touch storage directly. This is the seam where a future self-hosted
+ * sync backend would plug in without rewriting callers.
  *
- * Schema changes are append-only migrations; never edit a shipped migration.
+ * Native uses SQLite; web (dev preview only) uses localStorage — see
+ * storage.ts for the split.
  */
 
-const MIGRATIONS: string[] = [
-  // 1 — meta key/value store (also serves as the Phase 1 persistence check)
-  `CREATE TABLE IF NOT EXISTS meta (
-     key TEXT PRIMARY KEY NOT NULL,
-     value TEXT NOT NULL
-   );`,
-];
+let storage: Storage | null = null;
 
-let db: SQLite.SQLiteDatabase | null = null;
-
-export function getDb(): SQLite.SQLiteDatabase {
-  if (!db) {
-    db = SQLite.openDatabaseSync('plugga-sjoexamen.db');
-    db.execSync('PRAGMA journal_mode = WAL;');
-    db.execSync('PRAGMA foreign_keys = ON;');
-    migrate(db);
+export function getStorage(): Storage {
+  if (!storage) {
+    if (Platform.OS === 'web') {
+      const { createWebStorage } = require('./web-storage') as typeof import('./web-storage');
+      storage = createWebStorage();
+    } else {
+      const { createSqliteStorage } =
+        require('./sqlite-storage') as typeof import('./sqlite-storage');
+      storage = createSqliteStorage();
+    }
   }
-  return db;
-}
-
-function migrate(database: SQLite.SQLiteDatabase) {
-  const { user_version: current } = database.getFirstSync<{ user_version: number }>(
-    'PRAGMA user_version;',
-  )!;
-  for (let v = current; v < MIGRATIONS.length; v++) {
-    database.withTransactionSync(() => {
-      database.execSync(MIGRATIONS[v]);
-      database.execSync(`PRAGMA user_version = ${v + 1};`);
-    });
-  }
+  return storage;
 }
 
 export function getMeta(key: string): string | null {
-  const row = getDb().getFirstSync<{ value: string }>(
-    'SELECT value FROM meta WHERE key = ?;',
-    key,
-  );
-  return row?.value ?? null;
+  return getStorage().getMeta(key);
 }
 
 export function setMeta(key: string, value: string): void {
-  getDb().runSync(
-    'INSERT INTO meta (key, value) VALUES (?, ?) ON CONFLICT(key) DO UPDATE SET value = excluded.value;',
-    key,
-    value,
-  );
+  getStorage().setMeta(key, value);
 }
 
 /** Phase 1 offline-persistence check: counts app launches across restarts. */

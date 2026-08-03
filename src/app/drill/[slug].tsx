@@ -1,0 +1,187 @@
+import { router, Stack, useLocalSearchParams } from 'expo-router';
+import { useMemo, useState } from 'react';
+import { Pressable, ScrollView, Text, View } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
+
+import { LanternDiagram } from '@/components/lantern-diagram';
+import { moduleBySlug, questionText } from '@/content';
+import type { LanternScene, Option } from '@/content/types';
+import { recordAnswer } from '@/db/reviews';
+import { attemptSeed, seededShuffle } from '@/lib/shuffle';
+import { buildSession } from '@/srs/session';
+import { getActiveTrack } from '@/state/track';
+
+export default function DrillScreen() {
+  const { slug } = useLocalSearchParams<{ slug: string }>();
+  const track = getActiveTrack();
+
+  // Session is fixed at mount; attemptKey seeds this attempt's option order.
+  const [session] = useState(() => {
+    const module = moduleBySlug(slug);
+    return {
+      module,
+      items: module ? buildSession(module.id, track, Date.now()) : [],
+      attemptKey: Date.now(),
+    };
+  });
+
+  const [index, setIndex] = useState(0);
+  const [selected, setSelected] = useState<number | null>(null);
+  const [correctCount, setCorrectCount] = useState(0);
+  const [finished, setFinished] = useState(false);
+
+  const item = session.items[index];
+
+  const options: Option[] = useMemo(
+    () =>
+      item ? seededShuffle(item.options, attemptSeed(item.id, session.attemptKey)) : [],
+    [item, session.attemptKey],
+  );
+
+  if (!session.module || session.items.length === 0) {
+    return (
+      <SafeAreaView className="flex-1 bg-bg items-center justify-center px-8">
+        <Stack.Screen options={{ headerShown: false }} />
+        <Text className="text-body font-sans text-fog text-center">
+          Inget att öva just nu — alla frågor är schemalagda framåt i tiden.
+        </Text>
+        <Pressable
+          className="mt-6 rounded-xl border border-fog/25 px-6 py-3 active:opacity-80"
+          onPress={() => router.back()}
+        >
+          <Text className="text-body font-sans text-ink">Tillbaka</Text>
+        </Pressable>
+      </SafeAreaView>
+    );
+  }
+
+  if (finished) {
+    const total = session.items.length;
+    const pct = Math.round((correctCount / total) * 100);
+    return (
+      <SafeAreaView className="flex-1 bg-bg px-6" edges={['top', 'bottom']}>
+        <Stack.Screen options={{ headerShown: false }} />
+        <View className="flex-1 items-center justify-center">
+          <Text className="text-caption font-mono text-fog uppercase tracking-widest">
+            Passet klart
+          </Text>
+          <Text className="text-display-xl font-display text-ink mt-4">
+            {correctCount} av {total} rätt
+          </Text>
+          <Text
+            className={`text-data-lg font-mono-medium mt-2 ${
+              pct >= 80 ? 'text-starboard' : 'text-brass'
+            }`}
+          >
+            {pct} %
+          </Text>
+          <Text className="text-small font-sans text-fog mt-6 text-center">
+            Repetitionerna är schemalagda. Frågor du missade kommer tillbaka
+            direkt i nästa pass.
+          </Text>
+        </View>
+        <Pressable
+          className="bg-brass rounded-xl py-4 items-center active:opacity-90 mb-4"
+          onPress={() => router.back()}
+        >
+          <Text className="text-body font-sans-semibold text-bg">Klar</Text>
+        </Pressable>
+      </SafeAreaView>
+    );
+  }
+
+  const answered = selected !== null;
+  const scene =
+    item.type === 'lantern'
+      ? (item.payload as { scene?: LanternScene }).scene
+      : undefined;
+
+  function answer(optionIndex: number) {
+    if (answered) return;
+    setSelected(optionIndex);
+    const correct = options[optionIndex].isCorrect;
+    if (correct) setCorrectCount((c) => c + 1);
+    recordAnswer(item.id, track, correct, Date.now());
+  }
+
+  function next() {
+    if (index + 1 >= session.items.length) {
+      setFinished(true);
+    } else {
+      setIndex(index + 1);
+      setSelected(null);
+    }
+  }
+
+  return (
+    <SafeAreaView className="flex-1 bg-bg" edges={['top', 'bottom']}>
+      <Stack.Screen options={{ headerShown: false }} />
+      <View className="flex-row items-center justify-between px-6 pt-2">
+        <Pressable hitSlop={8} onPress={() => router.back()}>
+          <Text className="text-small font-sans text-fog">Avbryt</Text>
+        </Pressable>
+        <Text className="text-caption font-mono text-fog tracking-widest">
+          {String(index + 1).padStart(2, '0')} / {String(session.items.length).padStart(2, '0')}
+        </Text>
+      </View>
+
+      <ScrollView
+        className="flex-1"
+        contentContainerClassName="px-6 pt-6 pb-4"
+        showsVerticalScrollIndicator={false}
+      >
+        <Text className="text-title font-sans-medium text-ink">{questionText(item)}</Text>
+
+        {scene ? (
+          <View className="mt-5">
+            <LanternDiagram scene={scene} />
+          </View>
+        ) : null}
+
+        <View className="mt-6">
+          {options.map((opt, i) => {
+            let frame = 'border-fog/15 bg-surface';
+            if (answered && opt.isCorrect) frame = 'border-starboard bg-starboard/10';
+            else if (answered && i === selected) frame = 'border-port bg-port/10';
+            return (
+              <Pressable
+                key={i}
+                disabled={answered}
+                onPress={() => answer(i)}
+                className={`rounded-xl border px-5 py-4 mb-3 active:opacity-80 ${frame}`}
+              >
+                <Text className="text-body font-sans text-ink">{opt.text}</Text>
+              </Pressable>
+            );
+          })}
+        </View>
+
+        {answered ? (
+          <View className="rounded-xl bg-surface border border-fog/15 px-5 py-4 mt-2">
+            <Text
+              className={`text-caption font-mono uppercase tracking-widest ${
+                options[selected].isCorrect ? 'text-starboard' : 'text-port'
+              }`}
+            >
+              {options[selected].isCorrect ? 'Rätt' : 'Fel'}
+            </Text>
+            <Text className="text-small font-sans text-ink mt-2">{item.explanationSv}</Text>
+          </View>
+        ) : null}
+      </ScrollView>
+
+      {answered ? (
+        <View className="px-6 pb-4">
+          <Pressable
+            className="bg-brass rounded-xl py-4 items-center active:opacity-90"
+            onPress={next}
+          >
+            <Text className="text-body font-sans-semibold text-bg">
+              {index + 1 >= session.items.length ? 'Visa resultat' : 'Nästa'}
+            </Text>
+          </Pressable>
+        </View>
+      ) : null}
+    </SafeAreaView>
+  );
+}

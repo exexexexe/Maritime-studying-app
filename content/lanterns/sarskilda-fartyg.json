@@ -1,0 +1,179 @@
+{
+  "topicId": "top-lan-sarskilda",
+  "items": [
+    {
+      "id": "lan-sar-001",
+      "topicId": "top-lan-sarskilda",
+      "tracks": ["kustskeppare", "klass8"],
+      "type": "lantern",
+      "options": [
+        { "text": "Ett ej manöverfärdigt fartyg som inte gör fart genom vattnet", "isCorrect": true },
+        { "text": "Ett fartyg med begränsad manöverförmåga", "isCorrect": false },
+        { "text": "Ett fiskefartyg som fiskar med annat än trål", "isCorrect": false },
+        { "text": "Två babords sidomarkeringar i linje bakom varandra", "isCorrect": false }
+      ],
+      "explanationSv": "Rött över rött, båda runtomlysande, betyder ej manöverfärdigt fartyg (till exempel maskinhaveri). Utan sidoljus tända gör fartyget ingen fart genom vattnet. Begränsad manöverförmåga visas med rött–vitt–rött.",
+      "explanationEn": "All-round red over red: vessel not under command, not making way. Red–white–red would mean restricted in ability to manoeuvre.",
+      "theoryAnchor": "lanternor/nuc-ram",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Två röda ljus i lodrät linje — inget mer. Vad ser du?",
+        "scene": {
+          "lights": [
+            { "color": "red", "x": 50, "y": 22 },
+            { "color": "red", "x": 50, "y": 34 }
+          ],
+          "captionSv": "Båda ljusen synliga runtom"
+        }
+      }
+    },
+    {
+      "id": "lan-sar-002",
+      "topicId": "top-lan-sarskilda",
+      "tracks": ["kustskeppare", "klass8"],
+      "type": "lantern",
+      "options": [
+        { "text": "Ett fartyg med begränsad manöverförmåga", "isCorrect": true },
+        { "text": "Ett ej manöverfärdigt fartyg", "isCorrect": false },
+        { "text": "Ett lotsfartyg i tjänst", "isCorrect": false },
+        { "text": "Ett fartyg hindrat av sitt djupgående", "isCorrect": false }
+      ],
+      "explanationSv": "Rött–vitt–rött i lodrät linje, alla runtomlysande, betyder begränsad manöverförmåga — till exempel muddring, dykeriarbete eller bojläggning. Fartyg hindrat av sitt djupgående för i stället tre röda ljus.",
+      "explanationEn": "All-round red–white–red: restricted in ability to manoeuvre. Three all-round reds would mean constrained by draught.",
+      "theoryAnchor": "lanternor/nuc-ram",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Rött, vitt och rött ljus i lodrät linje. Vad ser du?",
+        "scene": {
+          "lights": [
+            { "color": "red", "x": 50, "y": 18 },
+            { "color": "white", "x": 50, "y": 28 },
+            { "color": "red", "x": 50, "y": 38 }
+          ],
+          "captionSv": "Alla ljus synliga runtom"
+        }
+      }
+    },
+    {
+      "id": "lan-sar-003",
+      "topicId": "top-lan-sarskilda",
+      "tracks": ["kustskeppare", "klass8"],
+      "type": "lantern",
+      "options": [
+        { "text": "Ett fiskefartyg som trålar", "isCorrect": true },
+        { "text": "Ett fiskefartyg som fiskar med annat redskap än trål", "isCorrect": false },
+        { "text": "Ett segelfartyg med frivilliga masttoppsljus", "isCorrect": false },
+        { "text": "Ett lotsfartyg i tjänst, sett akterifrån", "isCorrect": false }
+      ],
+      "explanationSv": "Grönt över vitt, båda runtomlysande, betyder fartyg som trålar. Annat fiske än trålning visas med rött över vitt. Minnesregel: ”trålarens gröna släp”.",
+      "explanationEn": "All-round green over white: vessel trawling. Red over white means fishing other than trawling.",
+      "theoryAnchor": "lanternor/fiske",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Grönt ljus över vitt ljus, båda synliga runtom. Vad ser du?",
+        "scene": {
+          "lights": [
+            { "color": "green", "x": 50, "y": 22 },
+            { "color": "white", "x": 50, "y": 34 }
+          ],
+          "captionSv": "Fartyget gör ingen fart genom vattnet"
+        }
+      }
+    },
+    {
+      "id": "lan-sar-004",
+      "topicId": "top-lan-sarskilda",
+      "tracks": ["kustskeppare", "klass8"],
+      "type": "lantern",
+      "options": [
+        { "text": "Ett fiskefartyg som fiskar med annat redskap än trål", "isCorrect": true },
+        { "text": "Ett fiskefartyg som trålar", "isCorrect": false },
+        { "text": "Ett ej manöverfärdigt fartyg som gör fart", "isCorrect": false },
+        { "text": "Ett lotsfartyg i tjänst, sett förifrån", "isCorrect": false }
+      ],
+      "explanationSv": "Rött över vitt, båda runtomlysande, betyder fiske med annat redskap än trål, till exempel garn eller långrev. Lotsfartygets ljus är tvärtom: vitt överst, rött underst.",
+      "explanationEn": "All-round red over white: fishing other than trawling. A pilot vessel shows the opposite — white over red.",
+      "theoryAnchor": "lanternor/fiske",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Rött ljus över vitt ljus, båda synliga runtom. Vad ser du?",
+        "scene": {
+          "lights": [
+            { "color": "red", "x": 50, "y": 22 },
+            { "color": "white", "x": 50, "y": 34 }
+          ],
+          "captionSv": "Minnesregel: red over white — fishing at night"
+        }
+      }
+    },
+    {
+      "id": "lan-sar-005",
+      "topicId": "top-lan-sarskilda",
+      "tracks": ["kustskeppare", "klass8"],
+      "type": "lantern",
+      "options": [
+        { "text": "Ett lotsfartyg i tjänst", "isCorrect": true },
+        { "text": "Ett fiskefartyg som fiskar med annat redskap än trål", "isCorrect": false },
+        { "text": "Ett fartyg till ankars, längre än 50 meter", "isCorrect": false },
+        { "text": "Ett fartyg med begränsad manöverförmåga", "isCorrect": false }
+      ],
+      "explanationSv": "Vitt över rött, båda runtomlysande i masttoppen, betyder lotsfartyg i tjänst. Minnesregel: ”white over red — pilot ahead”. Fiskefartyget för det omvända: rött över vitt.",
+      "explanationEn": "All-round white over red at the masthead: pilot vessel on duty.",
+      "theoryAnchor": "lanternor/lots",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Vitt ljus över rött ljus, båda synliga runtom. Vad ser du?",
+        "scene": {
+          "lights": [
+            { "color": "white", "x": 50, "y": 22 },
+            { "color": "red", "x": 50, "y": 34 }
+          ],
+          "captionSv": "Ljusen sitter i masttoppen"
+        }
+      }
+    },
+    {
+      "id": "lan-sar-006",
+      "topicId": "top-lan-sarskilda",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Ett vitt runtomlysande ljus där det syns bäst", "isCorrect": true },
+        { "text": "Ett rött runtomlysande ljus där det syns bäst", "isCorrect": false },
+        { "text": "Sidoljus och akterljus, men inget toppljus", "isCorrect": false },
+        { "text": "Två vita runtomlysande ljus i lodrät linje", "isCorrect": false }
+      ],
+      "explanationSv": "Ett fartyg till ankars under 50 meter för ett vitt runtomlysande ankarljus där det syns bäst. Fartyg på 50 meter eller mer för två: ett i fören och ett lägre i aktern.",
+      "explanationEn": "A vessel at anchor under 50 m shows one all-round white anchor light; 50 m or more shows two.",
+      "theoryAnchor": "lanternor/ankarljus",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Vilket ljus för ett fartyg under 50 meter som ligger till ankars?" }
+    },
+    {
+      "id": "lan-sar-007",
+      "topicId": "top-lan-sarskilda",
+      "tracks": ["kustskeppare", "klass8"],
+      "type": "lantern",
+      "options": [
+        { "text": "Ett fartyg som bogserar, sett akterifrån", "isCorrect": true },
+        { "text": "Ett fiskefartyg som trålar, sett akterifrån", "isCorrect": false },
+        { "text": "Ett fartyg till ankars med däcksbelysning", "isCorrect": false },
+        { "text": "Ett lotsfartyg i tjänst, sett akterifrån", "isCorrect": false }
+      ],
+      "explanationSv": "Ett gult bogserljus rakt över akterljuset förs av bogserande fartyg och syns bara akterifrån — en varning att inte gå in mellan bogserare och släp.",
+      "explanationEn": "A yellow towing light above the sternlight identifies a towing vessel seen from astern.",
+      "theoryAnchor": "lanternor/bogsering",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Ett gult ljus rakt över ett vitt ljus. Vad ser du?",
+        "scene": {
+          "lights": [
+            { "color": "yellow", "x": 50, "y": 24 },
+            { "color": "white", "x": 50, "y": 34 }
+          ],
+          "captionSv": "Sett akterifrån"
+        }
+      }
+    }
+  ]
+}
