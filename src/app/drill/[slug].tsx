@@ -6,6 +6,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { BuoyDiagram } from '@/components/buoy-diagram';
 import { LanternDiagram } from '@/components/lantern-diagram';
 import { moduleBySlug, questionText } from '@/content';
+import { generateCalculation } from '@/content/generators/navcalc';
 import type { BuoyScene, LanternScene, Option } from '@/content/types';
 import { recordAnswer } from '@/db/reviews';
 import { attemptSeed, seededShuffle } from '@/lib/shuffle';
@@ -33,10 +34,22 @@ export default function DrillScreen() {
 
   const item = session.items[index];
 
+  // Calculation items generate fresh numbers per attempt from the same seed
+  // that also drives option order — stable on screen, new next time.
+  const generated = useMemo(() => {
+    if (item?.type !== 'calculation') return null;
+    const generatorId = (item.payload as { generator?: string }).generator;
+    return generatorId
+      ? generateCalculation(generatorId, attemptSeed(item.id, session.attemptKey))
+      : null;
+  }, [item, session.attemptKey]);
+
   const options: Option[] = useMemo(
     () =>
-      item ? seededShuffle(item.options, attemptSeed(item.id, session.attemptKey)) : [],
-    [item, session.attemptKey],
+      item
+        ? seededShuffle(generated?.options ?? item.options, attemptSeed(item.id, session.attemptKey))
+        : [],
+    [item, generated, session.attemptKey],
   );
 
   if (!session.module || session.items.length === 0) {
@@ -133,7 +146,9 @@ export default function DrillScreen() {
         contentContainerClassName="px-6 pt-6 pb-4"
         showsVerticalScrollIndicator={false}
       >
-        <Text className="text-title font-sans-medium text-ink">{questionText(item)}</Text>
+        <Text className="text-title font-sans-medium text-ink">
+          {generated?.questionSv ?? questionText(item)}
+        </Text>
 
         {lanternScene ? (
           <View className="mt-5">
@@ -173,7 +188,9 @@ export default function DrillScreen() {
             >
               {options[selected].isCorrect ? 'Rätt' : 'Fel'}
             </Text>
-            <Text className="text-small font-sans text-ink mt-2">{item.explanationSv}</Text>
+            <Text className="text-small font-sans text-ink mt-2">
+              {generated?.explanationSv ?? item.explanationSv}
+            </Text>
           </View>
         ) : null}
       </ScrollView>

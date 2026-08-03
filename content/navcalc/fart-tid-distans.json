@@ -1,0 +1,53 @@
+{
+  "topicId": "top-nav-fart",
+  "items": [
+    {
+      "id": "nav-fart-001",
+      "topicId": "top-nav-fart",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "calculation",
+      "options": [],
+      "explanationSv": "Genereras med nya värden vid varje försök: distans ur fart och tid.",
+      "explanationEn": "Generated per attempt: distance from speed and time.",
+      "theoryAnchor": "navigation/fart-tid-distans",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Fartberäkning: distans", "generator": "std-distance" }
+    },
+    {
+      "id": "nav-fart-002",
+      "topicId": "top-nav-fart",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "calculation",
+      "options": [],
+      "explanationSv": "Genereras med nya värden vid varje försök: gångtid ur distans och fart.",
+      "explanationEn": "Generated per attempt: time from distance and speed.",
+      "theoryAnchor": "navigation/fart-tid-distans",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Fartberäkning: gångtid", "generator": "std-time" }
+    },
+    {
+      "id": "nav-fart-003",
+      "topicId": "top-nav-fart",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "calculation",
+      "options": [],
+      "explanationSv": "Genereras med nya värden vid varje försök: erforderlig fart ur distans och tid.",
+      "explanationEn": "Generated per attempt: required speed from distance and time.",
+      "theoryAnchor": "navigation/fart-tid-distans",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Fartberäkning: erforderlig fart", "generator": "std-speed" }
+    },
+    {
+      "id": "nav-fart-004",
+      "topicId": "top-nav-fart",
+      "tracks": ["kustskeppare", "klass8"],
+      "type": "calculation",
+      "options": [],
+      "explanationSv": "Genereras med nya värden vid varje försök: fart över grund med ström längs kursen.",
+      "explanationEn": "Generated per attempt: speed over ground with current along track.",
+      "theoryAnchor": "navigation/strom",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Fartberäkning: ström längs kursen", "generator": "current-speed" }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "topicId": "top-nav-kurs",
+  "items": [
+    {
+      "id": "nav-kurs-001",
+      "topicId": "top-nav-kurs",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "calculation",
+      "options": [],
+      "explanationSv": "Genereras med nya värden vid varje försök: rättvisande kurs till kompasskurs.",
+      "explanationEn": "Generated per attempt: true course to compass course.",
+      "theoryAnchor": "navigation/kursrattning",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Kursrättning: rättvisande till kompass", "generator": "compass-course" }
+    },
+    {
+      "id": "nav-kurs-002",
+      "topicId": "top-nav-kurs",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "calculation",
+      "options": [],
+      "explanationSv": "Genereras med nya värden vid varje försök: rättvisande kurs till kompasskurs, andra variant.",
+      "explanationEn": "Generated per attempt: true to compass, second variant.",
+      "theoryAnchor": "navigation/kursrattning",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Kursrättning: rättvisande till kompass (variant)", "generator": "compass-course" }
+    },
+    {
+      "id": "nav-kurs-003",
+      "topicId": "top-nav-kurs",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "calculation",
+      "options": [],
+      "explanationSv": "Genereras med nya värden vid varje försök: kompasskurs till rättvisande kurs.",
+      "explanationEn": "Generated per attempt: compass course to true course.",
+      "theoryAnchor": "navigation/kursrattning",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Kursrättning: kompass till rättvisande", "generator": "true-course" }
+    },
+    {
+      "id": "nav-kurs-004",
+      "topicId": "top-nav-kurs",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "calculation",
+      "options": [],
+      "explanationSv": "Genereras med nya värden vid varje försök: kompasskurs till rättvisande kurs, andra variant.",
+      "explanationEn": "Generated per attempt: compass to true, second variant.",
+      "theoryAnchor": "navigation/kursrattning",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Kursrättning: kompass till rättvisande (variant)", "generator": "true-course" }
+    }
+  ]
+}

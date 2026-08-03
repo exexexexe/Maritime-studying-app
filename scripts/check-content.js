@@ -150,6 +150,26 @@ for (const file of topicFiles(CONTENT_DIR)) {
     if (item.type === 'lantern' && !item.payload?.scene?.lights?.length) {
       err(where, 'lantern item without payload.scene.lights');
     }
+    if (item.type === 'buoy' && !item.payload?.scene?.colors?.length) {
+      err(where, 'buoy item without payload.scene.colors');
+    }
+
+    // Generator-backed calculations produce options at runtime.
+    // Keep this list in sync with GENERATOR_IDS in src/content/generators/navcalc.ts.
+    const GENERATOR_IDS = [
+      'compass-course',
+      'true-course',
+      'std-distance',
+      'std-time',
+      'std-speed',
+      'current-speed',
+    ];
+    if (item.type === 'calculation') {
+      if (!GENERATOR_IDS.includes(item.payload?.generator)) {
+        err(where, `calculation item with unknown generator "${item.payload?.generator}"`);
+      }
+      continue; // options come from the generator
+    }
     if (['chart_question', 'radar_question'].includes(item.type) && !item.imageAsset) {
       err(where, `${item.type} without imageAsset`);
     }

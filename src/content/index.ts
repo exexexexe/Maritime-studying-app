@@ -23,6 +23,8 @@ const TOPIC_FILES: TopicFile[] = [
   require('../../content/lanterns/sarskilda-fartyg.json'),
   require('../../content/buoyage/sidomarkering.json'),
   require('../../content/buoyage/kardinalmarkering.json'),
+  require('../../content/navcalc/kursrattning.json'),
+  require('../../content/navcalc/fart-tid-distans.json'),
 ];
 
 export const modules: ModuleDef[] = [...modulesJson.modules].sort(
