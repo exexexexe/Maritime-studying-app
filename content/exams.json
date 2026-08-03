@@ -1,19 +1,19 @@
 {
-  "_comment": "Exam configuration per track. questions is a target — clamped to the available pool until content volume catches up. mix gives desired proportions per question category (theory: mcq/scenario, diagram: lantern/buoy/stability_diagram, calculation, image: chart_question/radar_question); the assembler backfills from other categories when a pool runs short. Times in minutes. VERIFY per track against the real exam before release.",
+  "_comment": "Exam configuration per track. forarintyg/kustskeppare verified against the course book's 'Riktlinjer för prov' (photo_50): Förarintyg ca 50 q, max 1,5 h, 60 % rätt i varje avsnitt, ingen räknedosa; Kustskepparintyg ca 70 q, max 2 h, 75 % i varje avsnitt. The app scores overall (not per section) — passPct uses the book's section threshold. Book topic weighting (F/K): sjövägsregler+lanternor 20/35, sjökort+sjömärken+fyrar 20/20, navigering 30/15, säkerhet 10/10, sjukvård+sjömanskap+miljö+väder 20/10, sjölag 0/10. klass8 numbers are the user's spec (90–100 q, 1,5–2 h, 80 %). mix = proportions per question category (theory: mcq/scenario, diagram: lantern/buoy/stability_diagram, calculation, image: chart/radar); the assembler backfills when a pool runs short.",
   "klass8": {
     "full": { "questions": 95, "minutes": 105, "passPct": 80 },
     "quick": { "questions": 35, "minutes": 40, "passPct": 80 },
     "mix": { "theory": 0.5, "diagram": 0.25, "calculation": 0.15, "image": 0.1 }
   },
   "forarintyg": {
-    "full": { "questions": 75, "minutes": 90, "passPct": 80 },
-    "quick": { "questions": 30, "minutes": 35, "passPct": 80 },
-    "mix": { "theory": 0.55, "diagram": 0.3, "calculation": 0.1, "image": 0.05 }
+    "full": { "questions": 50, "minutes": 90, "passPct": 60 },
+    "quick": { "questions": 25, "minutes": 45, "passPct": 60 },
+    "mix": { "theory": 0.45, "diagram": 0.3, "calculation": 0.2, "image": 0.05 }
   },
   "kustskeppare": {
-    "full": { "questions": 80, "minutes": 100, "passPct": 80 },
-    "quick": { "questions": 32, "minutes": 40, "passPct": 80 },
-    "mix": { "theory": 0.5, "diagram": 0.25, "calculation": 0.15, "image": 0.1 }
+    "full": { "questions": 70, "minutes": 120, "passPct": 75 },
+    "quick": { "questions": 30, "minutes": 50, "passPct": 75 },
+    "mix": { "theory": 0.5, "diagram": 0.3, "calculation": 0.1, "image": 0.1 }
   },
   "vhf": {
     "full": { "questions": 30, "minutes": 45, "passPct": 80 },
