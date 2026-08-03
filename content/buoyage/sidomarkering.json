@@ -1,0 +1,82 @@
+{
+  "topicId": "top-buoy-lateral",
+  "items": [
+    {
+      "id": "buoy-lat-001",
+      "topicId": "top-buoy-lateral",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "buoy",
+      "options": [
+        { "text": "Babords sidomärke — håll det om babord vid ingående", "isCorrect": true },
+        { "text": "Styrbords sidomärke — håll det om styrbord vid ingående", "isCorrect": false },
+        { "text": "Specialmärke — betydelsen framgår av sjökortet", "isCorrect": false },
+        { "text": "Punktmärke — passera på valfri sida med god marginal", "isCorrect": false }
+      ],
+      "explanationSv": "Ett rött märke med cylinderform (och eventuell röd cylindertoppmärke) är babords sidomärke i system A. Vid ingående — mot land eller hamn — håller du det om babord (röd sida röd lanterna).",
+      "explanationEn": "Red can: port lateral mark (IALA A). Keep it to port when entering from seaward.",
+      "theoryAnchor": "utmarkning/sidomarken",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Vilket märke är detta, och hur passerar du det?",
+        "scene": { "colors": ["red"], "topmark": "can-red", "captionSv": "Cylinderformat märke" }
+      }
+    },
+    {
+      "id": "buoy-lat-002",
+      "topicId": "top-buoy-lateral",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "buoy",
+      "options": [
+        { "text": "Styrbords sidomärke — håll det om styrbord vid ingående", "isCorrect": true },
+        { "text": "Babords sidomärke — håll det om babord vid ingående", "isCorrect": false },
+        { "text": "Ostkardinal — passera öster om märket", "isCorrect": false },
+        { "text": "Mittledsmärke — passera på valfri sida", "isCorrect": false }
+      ],
+      "explanationSv": "Ett grönt märke med konform (spetsen uppåt) är styrbords sidomärke i system A. Vid ingående håller du det om styrbord.",
+      "explanationEn": "Green cone: starboard lateral mark (IALA A). Keep it to starboard when entering.",
+      "theoryAnchor": "utmarkning/sidomarken",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Vilket märke är detta, och hur passerar du det?",
+        "scene": { "colors": ["green"], "topmark": "cone-up-green", "captionSv": "Konformat märke, spets uppåt" }
+      }
+    },
+    {
+      "id": "buoy-lat-003",
+      "topicId": "top-buoy-lateral",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Riktningen från havet in mot hamn eller uppåt i farleden", "isCorrect": true },
+        { "text": "Riktningen från hamnen ut mot öppet hav", "isCorrect": false },
+        { "text": "Alltid från syd mot nord längs kusten", "isCorrect": false },
+        { "text": "Den riktning de flesta fartyg trafikerar farleden", "isCorrect": false }
+      ],
+      "explanationSv": "Sidomärkenas betydelse utgår från ingående riktning: från sjön in mot hamn eller uppåt i farleden. I sjökortet visas den med en särskild symbol där riktningen inte är självklar.",
+      "explanationEn": "Buoyage direction (IALA A) runs from seaward towards harbour or up the fairway.",
+      "theoryAnchor": "utmarkning/ingaende",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Vad menas med ingående riktning i sjömärkessystemet?" }
+    },
+    {
+      "id": "buoy-lat-004",
+      "topicId": "top-buoy-lateral",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "buoy",
+      "options": [
+        { "text": "Mittledsmärke — passera på valfri sida", "isCorrect": true },
+        { "text": "Punktmärke — fara rakt under märket", "isCorrect": false },
+        { "text": "Babords sidomärke i angöringsled", "isCorrect": false },
+        { "text": "Specialmärke för mätstation", "isCorrect": false }
+      ],
+      "explanationSv": "Röda och vita lodräta fält med en röd kula i toppen är mittledsmärket (safe water). Det markerar farbart vatten runt om, till exempel mitt i en angöringsled — passera på valfri sida.",
+      "explanationEn": "Red/white vertical stripes with a red sphere: safe-water mark, navigable all round.",
+      "theoryAnchor": "utmarkning/mittled",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Vilket märke är detta?",
+        "scene": { "colors": ["red", "white", "red", "white"], "pattern": "vertical-stripes", "topmark": "sphere-red", "captionSv": "Lodräta fält" }
+      }
+    }
+  ]
+}

@@ -64,6 +64,25 @@ export interface LanternScene {
   captionSv?: string;
 }
 
+/** Daytime buoy picture rendered by BuoyDiagram. */
+export interface BuoyScene {
+  /** Body colors top→bottom (or left→right for vertical stripes). */
+  colors: ('red' | 'green' | 'yellow' | 'black' | 'white')[];
+  pattern?: 'bands' | 'vertical-stripes';
+  topmark?:
+    | 'cones-up'
+    | 'cones-down'
+    | 'cones-base-to-base'
+    | 'cones-point-to-point'
+    | 'spheres-2'
+    | 'sphere-red'
+    | 'x-yellow'
+    | 'cone-up-green'
+    | 'can-red'
+    | null;
+  captionSv?: string;
+}
+
 export interface TopicFile {
   topicId: string;
   items: Item[];

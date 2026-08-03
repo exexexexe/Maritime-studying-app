@@ -1,0 +1,107 @@
+{
+  "topicId": "top-col-vajning",
+  "items": [
+    {
+      "id": "col-vaj-001",
+      "topicId": "top-col-vajning",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Båda girar styrbord och går om varandra babord mot babord", "isCorrect": true },
+        { "text": "Båda girar babord och går om varandra styrbord mot styrbord", "isCorrect": false },
+        { "text": "Den snabbare båten väljer sida och den långsammare håller kurs", "isCorrect": false },
+        { "text": "Den mindre båten väjer alltid för den större", "isCorrect": false }
+      ],
+      "explanationSv": "Vid möte stäv mot stäv ska båda maskindrivna fartygen gira styrbord så att de passerar babord mot babord. Storlek och fart avgör inte väjningsplikten vid möte.",
+      "explanationEn": "Head-on: both power-driven vessels alter course to starboard and pass port to port.",
+      "theoryAnchor": "colreg/mote",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Två maskindrivna fartyg möts stäv mot stäv. Hur ska de agera?" }
+    },
+    {
+      "id": "col-vaj-002",
+      "topicId": "top-col-vajning",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Det fartyg som har det andra på sin styrbordssida väjer", "isCorrect": true },
+        { "text": "Det fartyg som har det andra på sin babordssida väjer", "isCorrect": false },
+        { "text": "Det fartyg som gör högst fart väjer", "isCorrect": false },
+        { "text": "Det fartyg som senast upptäckte det andra väjer", "isCorrect": false }
+      ],
+      "explanationSv": "Vid korsande kurser väjer det maskindrivna fartyg som har det andra om styrbord — och bör om möjligt undvika att gå för om det. Minnesregel: ser du fartygets röda (babords) lanterna har du väjningsplikt.",
+      "explanationEn": "Crossing: the vessel which has the other on her starboard side gives way.",
+      "theoryAnchor": "colreg/korsande",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Två maskindrivna fartyg går på korsande kurser. Vilket ska väja?" }
+    },
+    {
+      "id": "col-vaj-003",
+      "topicId": "top-col-vajning",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Det upphinnande fartyget, oavsett fartygstyp", "isCorrect": true },
+        { "text": "Det upphunna fartyget, som ska öka farten", "isCorrect": false },
+        { "text": "Segelfartyget, om det upphinnande går för segel", "isCorrect": false },
+        { "text": "Det största av fartygen, oavsett kurs", "isCorrect": false }
+      ],
+      "explanationSv": "Ett fartyg som hinner upp ett annat ska hålla undan — regeln gäller alla fartyg, även ett segelfartyg som hinner upp ett maskindrivet. Upphinnande är man när man närmar sig mer än 22,5° akter om tvärs, där akterljuset syns.",
+      "explanationEn": "Any overtaking vessel keeps clear, regardless of type — sail included.",
+      "theoryAnchor": "colreg/upphinnande",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Vem väjer vid upphinnande?" }
+    },
+    {
+      "id": "col-vaj-004",
+      "topicId": "top-col-vajning",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Det maskindrivna fartyget väjer för segelfartyget", "isCorrect": true },
+        { "text": "Segelfartyget väjer för det maskindrivna fartyget", "isCorrect": false },
+        { "text": "Det fartyg som har det andra om styrbord väjer", "isCorrect": false },
+        { "text": "Det fartyg som ligger i lä väjer för det i lovart", "isCorrect": false }
+      ],
+      "explanationSv": "Ett maskindrivet fartyg håller undan för ett segelfartyg under segel — utom när segelfartyget är upphinnande, eller när det andra fartyget är ej manöverfärdigt, har begränsad manöverförmåga eller fiskar.",
+      "explanationEn": "Power gives way to sail, except when sail is overtaking or the power vessel is NUC/RAM/fishing.",
+      "theoryAnchor": "colreg/segel",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Ett maskindrivet fartyg och ett segelfartyg under segel närmar sig varandra på korsande kurser. Vem väjer?" }
+    },
+    {
+      "id": "col-vaj-005",
+      "topicId": "top-col-vajning",
+      "tracks": ["kustskeppare", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Fartyget med vinden in om babord väjer", "isCorrect": true },
+        { "text": "Fartyget med vinden in om styrbord väjer", "isCorrect": false },
+        { "text": "Fartyget i lovart väjer, oavsett halsar", "isCorrect": false },
+        { "text": "Fartyget med störst segelyta väjer", "isCorrect": false }
+      ],
+      "explanationSv": "När två segelfartyg har vinden in på olika sidor väjer det som har vinden in om babord (ligger för babords halsar). Har båda vinden in på samma sida väjer lovartsfartyget.",
+      "explanationEn": "Different tacks: the vessel with the wind on her port side gives way. Same tack: windward gives way.",
+      "theoryAnchor": "colreg/segel-mot-segel",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Två segelfartyg närmar sig varandra med vinden in på olika sidor. Vem väjer?" }
+    },
+    {
+      "id": "col-vaj-006",
+      "topicId": "top-col-vajning",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Hålla kurs och fart, men vara beredd att agera om det väjande fartyget inte gör det", "isCorrect": true },
+        { "text": "Gira styrbord för att öka avståndet i god tid", "isCorrect": false },
+        { "text": "Minska farten till styrfart för säkerhets skull", "isCorrect": false },
+        { "text": "Signalera med ett långt ljudstöt och invänta svar", "isCorrect": false }
+      ],
+      "explanationSv": "Det fartyg som har företräde ska hålla kurs och fart, så att det väjande fartygets manöver blir förutsägbar. Blir det uppenbart att det andra inte väjer ska du själv agera för att undvika kollision.",
+      "explanationEn": "The stand-on vessel keeps her course and speed but must act if the give-way vessel fails to.",
+      "theoryAnchor": "colreg/stand-on",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Du har företräde i en väjningssituation. Vad ska du göra?" }
+    }
+  ]
+}

@@ -3,9 +3,10 @@ import { useMemo, useState } from 'react';
 import { Pressable, ScrollView, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
+import { BuoyDiagram } from '@/components/buoy-diagram';
 import { LanternDiagram } from '@/components/lantern-diagram';
 import { moduleBySlug, questionText } from '@/content';
-import type { LanternScene, Option } from '@/content/types';
+import type { BuoyScene, LanternScene, Option } from '@/content/types';
 import { recordAnswer } from '@/db/reviews';
 import { attemptSeed, seededShuffle } from '@/lib/shuffle';
 import { buildSession } from '@/srs/session';
@@ -91,10 +92,12 @@ export default function DrillScreen() {
   }
 
   const answered = selected !== null;
-  const scene =
+  const lanternScene =
     item.type === 'lantern'
       ? (item.payload as { scene?: LanternScene }).scene
       : undefined;
+  const buoyScene =
+    item.type === 'buoy' ? (item.payload as { scene?: BuoyScene }).scene : undefined;
 
   function answer(optionIndex: number) {
     if (answered) return;
@@ -132,9 +135,14 @@ export default function DrillScreen() {
       >
         <Text className="text-title font-sans-medium text-ink">{questionText(item)}</Text>
 
-        {scene ? (
+        {lanternScene ? (
           <View className="mt-5">
-            <LanternDiagram scene={scene} />
+            <LanternDiagram scene={lanternScene} />
+          </View>
+        ) : null}
+        {buoyScene ? (
+          <View className="mt-5">
+            <BuoyDiagram scene={buoyScene} />
           </View>
         ) : null}
 

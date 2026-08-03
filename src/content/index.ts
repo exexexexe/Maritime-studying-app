@@ -15,10 +15,14 @@ const modulesJson = require('../../content/modules.json') as {
 };
 
 const TOPIC_FILES: TopicFile[] = [
+  require('../../content/colreg/vajningsregler.json'),
+  require('../../content/colreg/ljudsignaler.json'),
   require('../../content/lanterns/grundlanternor.json'),
   require('../../content/lanterns/maskindrivna.json'),
   require('../../content/lanterns/segelfartyg.json'),
   require('../../content/lanterns/sarskilda-fartyg.json'),
+  require('../../content/buoyage/sidomarkering.json'),
+  require('../../content/buoyage/kardinalmarkering.json'),
 ];
 
 export const modules: ModuleDef[] = [...modulesJson.modules].sort(

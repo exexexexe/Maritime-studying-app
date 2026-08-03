@@ -11,6 +11,16 @@
     { "id": "mod-radar", "slug": "radar", "titleSv": "Radar", "titleEn": "Radar", "order": 9 }
   ],
   "topics": [
+    { "id": "top-col-vajning", "moduleId": "mod-colreg", "slug": "vajningsregler", "titleSv": "Väjningsregler", "titleEn": "Steering and sailing rules" },
+    { "id": "top-col-ljud", "moduleId": "mod-colreg", "slug": "ljudsignaler", "titleSv": "Ljudsignaler och uppträdande", "titleEn": "Sound signals and conduct" },
+    { "id": "top-buoy-lateral", "moduleId": "mod-buoyage", "slug": "sidomarkering", "titleSv": "Sidomärken och farleder", "titleEn": "Lateral marks" },
+    { "id": "top-buoy-kardinal", "moduleId": "mod-buoyage", "slug": "kardinalmarkering", "titleSv": "Kardinalmärken och specialmärken", "titleEn": "Cardinal and special marks" },
+    { "id": "top-nav-kurs", "moduleId": "mod-navcalc", "slug": "kursrattning", "titleSv": "Kursrättning", "titleEn": "Course corrections" },
+    { "id": "top-nav-fart", "moduleId": "mod-navcalc", "slug": "fart-tid-distans", "titleSv": "Fart, tid och distans", "titleEn": "Speed, time and distance" },
+    { "id": "top-weather-system", "moduleId": "mod-weather", "slug": "vadersystem", "titleSv": "Vädersystem och vind", "titleEn": "Weather systems and wind" },
+    { "id": "top-weather-sikt", "moduleId": "mod-weather", "slug": "sikt-och-prognos", "titleSv": "Sikt, dimma och prognoser", "titleEn": "Visibility, fog and forecasts" },
+    { "id": "top-safety-nod", "moduleId": "mod-safety", "slug": "nodsignaler", "titleSv": "Nödsignaler och sjöräddning", "titleEn": "Distress signals and SAR" },
+    { "id": "top-safety-ombord", "moduleId": "mod-safety", "slug": "sakerhet-ombord", "titleSv": "Säkerhet ombord", "titleEn": "Safety on board" },
     { "id": "top-lan-grund", "moduleId": "mod-lanterns", "slug": "grundlanternor", "titleSv": "Grundlanternor och sektorer", "titleEn": "Basic lights and arcs" },
     { "id": "top-lan-maskin", "moduleId": "mod-lanterns", "slug": "maskindrivna", "titleSv": "Maskindrivna fartyg", "titleEn": "Power-driven vessels" },
     { "id": "top-lan-segel", "moduleId": "mod-lanterns", "slug": "segelfartyg", "titleSv": "Segelfartyg och rodda båtar", "titleEn": "Sailing vessels and rowing boats" },

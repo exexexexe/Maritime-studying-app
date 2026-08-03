@@ -1,0 +1,90 @@
+{
+  "topicId": "top-col-ljud",
+  "items": [
+    {
+      "id": "col-ljud-001",
+      "topicId": "top-col-ljud",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Jag ändrar min kurs åt styrbord", "isCorrect": true },
+        { "text": "Jag ändrar min kurs åt babord", "isCorrect": false },
+        { "text": "Jag arbetar med backslag", "isCorrect": false },
+        { "text": "Jag avser att passera på din styrbordssida", "isCorrect": false }
+      ],
+      "explanationSv": "En kort stöt betyder ”jag ändrar min kurs åt styrbord”. Två korta betyder babord, tre korta betyder att maskinerna arbetar back.",
+      "explanationEn": "One short blast: altering course to starboard. Two short: to port. Three short: engines astern.",
+      "theoryAnchor": "colreg/ljudsignaler",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Vad betyder en kort ljudstöt från ett maskindrivet fartyg?" }
+    },
+    {
+      "id": "col-ljud-002",
+      "topicId": "top-col-ljud",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Jag arbetar med backslag", "isCorrect": true },
+        { "text": "Jag ändrar min kurs åt babord", "isCorrect": false },
+        { "text": "Fara — jag förstår inte dina avsikter", "isCorrect": false },
+        { "text": "Jag begär att få passera i trång farled", "isCorrect": false }
+      ],
+      "explanationSv": "Tre korta stötar betyder att fartygets framdrivningsmaskineri arbetar back. Tveksamhetssignalen (”jag förstår inte dina avsikter”) är minst fem korta, snabba stötar.",
+      "explanationEn": "Three short blasts: operating astern propulsion. Doubt/danger is at least five short rapid blasts.",
+      "theoryAnchor": "colreg/ljudsignaler",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Vad betyder tre korta ljudstötar?" }
+    },
+    {
+      "id": "col-ljud-003",
+      "topicId": "top-col-ljud",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Minst fem korta och snabba stötar", "isCorrect": true },
+        { "text": "En lång stöt följd av en kort", "isCorrect": false },
+        { "text": "Två långa stötar med kort mellanrum", "isCorrect": false },
+        { "text": "Fyra korta stötar i jämn takt", "isCorrect": false }
+      ],
+      "explanationSv": "Är du osäker på det andra fartygets avsikter, eller tveksam till om det gör tillräckligt för att undvika kollision, ger du minst fem korta och snabba stötar — tveksamhets- eller varningssignalen.",
+      "explanationEn": "Doubt signal: at least five short and rapid blasts.",
+      "theoryAnchor": "colreg/ljudsignaler",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Vilken ljudsignal använder du när du är osäker på ett annat fartygs avsikter?" }
+    },
+    {
+      "id": "col-ljud-004",
+      "topicId": "top-col-ljud",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "En lång stöt minst varannan minut", "isCorrect": true },
+        { "text": "Två långa stötar minst varannan minut", "isCorrect": false },
+        { "text": "En lång och två korta stötar minst varannan minut", "isCorrect": false },
+        { "text": "Tre korta stötar var femte minut", "isCorrect": false }
+      ],
+      "explanationSv": "Ett maskindrivet fartyg som gör fart genom vattnet i nedsatt sikt avger en lång stöt minst varannan minut. Gör det inte fart genom vattnet: två långa. En lång och två korta används bland annat av fartyg med begränsad manöverförmåga, segelfartyg och fiskefartyg.",
+      "explanationEn": "Power-driven making way in restricted visibility: one prolonged blast at intervals of not more than two minutes.",
+      "theoryAnchor": "colreg/nedsatt-sikt",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Vilken mistsignal ger ett maskindrivet fartyg som gör fart genom vattnet i nedsatt sikt?" }
+    },
+    {
+      "id": "col-ljud-005",
+      "topicId": "top-col-ljud",
+      "tracks": ["kustskeppare", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Gå så nära farledens styrbordssida som är säkert och möjligt", "isCorrect": true },
+        { "text": "Gå så nära farledens babordssida som är säkert och möjligt", "isCorrect": false },
+        { "text": "Hålla mitten av farleden för bästa vattendjup", "isCorrect": false },
+        { "text": "Ankra och invänta fri farled innan passage", "isCorrect": false }
+      ],
+      "explanationSv": "I trång farled ska du hålla dig så nära farledens yttre gräns om styrbord som är säkert och genomförbart. Små fartyg och segelfartyg får inte hindra fartyg som är beroende av farleden.",
+      "explanationEn": "In a narrow channel, keep as near to the starboard outer limit as is safe and practicable.",
+      "theoryAnchor": "colreg/trang-farled",
+      "authorReviewed": false,
+      "payload": { "questionSv": "Hur ska du uppträda i en trång farled?" }
+    }
+  ]
+}
