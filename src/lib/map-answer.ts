@@ -1,4 +1,4 @@
-import type { MapAnswer } from '@/content/types';
+import type { Item, MapAnswer } from '@/content/types';
 
 /**
  * Grading and input-state helpers for map_question's numeric_tolerance
@@ -15,6 +15,15 @@ export function emptyMapAnswerValue(answer: MapAnswer): MapAnswerValue {
   return answer.kind === 'position'
     ? { kind: 'position', latText: '', lonText: '' }
     : { kind: answer.kind, text: '' };
+}
+
+/** Empty input state for an item, or null when it isn't a numeric_tolerance
+ * map_question — shared by the drill and exam-run screens. */
+export function initialMapAnswerValue(item: Item | undefined): MapAnswerValue | null {
+  if (item?.type === 'map_question' && item.answerMode === 'numeric_tolerance' && item.answer) {
+    return emptyMapAnswerValue(item.answer);
+  }
+  return null;
 }
 
 function parseNum(raw: string): number | null {

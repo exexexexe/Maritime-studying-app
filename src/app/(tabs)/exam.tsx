@@ -4,9 +4,20 @@ import { Pressable, ScrollView, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { itemsForTrack } from '@/content';
+import type { Track } from '@/content/types';
 import { listExamSessions, type ExamSessionRecord } from '@/db/exams';
-import { examConfig, type ExamMode } from '@/exam/assemble';
+import { assembleExam, examConfig, type ExamMode } from '@/exam/assemble';
 import { TRACK_NAMES, useTrack } from '@/state/track-context';
+
+/**
+ * Estimated count of map_question items an exam draw of this mode/track
+ * would include — assembled with a fixed seed purely for this preview, so
+ * a student can gather SE61/SE93 before starting. The real run seeds from
+ * Date.now() and may land a slightly different count.
+ */
+function chartRequiredEstimate(track: Track, mode: ExamMode): number {
+  return assembleExam(track, mode, 1).filter((i) => i.type === 'map_question').length;
+}
 
 function fmtDate(ts: number) {
   const d = new Date(ts);
@@ -52,6 +63,7 @@ export default function ExamScreen() {
         {modes.map(({ mode, titleSv, descSv }) => {
           const m = config[mode];
           const count = Math.min(m.questions, poolSize);
+          const chartCount = chartRequiredEstimate(track, mode);
           return (
             <View
               key={mode}
@@ -78,6 +90,12 @@ export default function ExamScreen() {
               {count < m.questions ? (
                 <Text className="text-caption font-sans text-fog mt-2">
                   Frågebanken har {poolSize} frågor än så länge — provet använder alla.
+                </Text>
+              ) : null}
+              {chartCount > 0 ? (
+                <Text className="text-caption font-sans text-brass mt-2">
+                  Ungefär {chartCount} av {count} frågor kräver sjökort SE61/SE93 — ha dem redo
+                  innan du börjar.
                 </Text>
               ) : null}
               <Link href={{ pathname: '/exam-run/[mode]', params: { mode } }} asChild>

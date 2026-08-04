@@ -6,7 +6,9 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Image } from 'expo-image';
 
 import { BuoyDiagram } from '@/components/buoy-diagram';
+import { ChartRequiredBanner } from '@/components/chart-required-banner';
 import { LanternDiagram } from '@/components/lantern-diagram';
+import { MapAnswerInput } from '@/components/map-answer-input';
 import { StabilityDiagram } from '@/components/stability-diagram';
 import { modules, questionText } from '@/content';
 import { generateCalculation } from '@/content/generators/navcalc';
@@ -14,6 +16,12 @@ import { contentImages } from '@/content/images';
 import type { BuoyScene, Item, LanternScene, Option, StabilityScene } from '@/content/types';
 import { recordExamSession } from '@/db/exams';
 import { assembleExam, examConfig, tallyByModule, type ExamMode } from '@/exam/assemble';
+import {
+  gradeMapAnswer,
+  initialMapAnswerValue,
+  isMapAnswerComplete,
+  type MapAnswerValue,
+} from '@/lib/map-answer';
 import { attemptSeed, seededShuffle } from '@/lib/shuffle';
 import { markActivity } from '@/state/activity';
 import { TRACK_NAMES, useTrack } from '@/state/track-context';
@@ -45,11 +53,15 @@ export default function ExamRunScreen() {
 
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<number | null>(null);
+  const [mapValue, setMapValue] = useState<MapAnswerValue | null>(() =>
+    initialMapAnswerValue(exam.items[0]),
+  );
   const answersRef = useRef<Answer[]>([]);
   const [result, setResult] = useState<ReturnType<typeof recordExamSession> | null>(null);
   const [secondsLeft, setSecondsLeft] = useState(exam.config.minutes * 60);
 
   const item: Item | undefined = exam.items[index];
+  const isMapNumeric = item?.type === 'map_question' && item.answerMode === 'numeric_tolerance';
 
   const generated = useMemo(() => {
     if (item?.type !== 'calculation') return null;
@@ -190,13 +202,20 @@ export default function ExamRunScreen() {
       : undefined;
 
   function submitAnswer() {
-    if (selected === null) return;
-    answersRef.current.push({ item: item!, correct: options[selected].isCorrect });
+    if (isMapNumeric) {
+      if (!item || item.type !== 'map_question' || !item.answer || !mapValue) return;
+      answersRef.current.push({ item, correct: gradeMapAnswer(item.answer, mapValue) });
+    } else {
+      if (selected === null) return;
+      answersRef.current.push({ item: item!, correct: options[selected].isCorrect });
+    }
     if (index + 1 >= exam.items.length) {
       finish();
     } else {
+      const nextItem = exam.items[index + 1];
       setIndex(index + 1);
       setSelected(null);
+      setMapValue(initialMapAnswerValue(nextItem));
     }
   }
 
@@ -226,6 +245,10 @@ export default function ExamRunScreen() {
         contentContainerClassName="px-6 pt-6 pb-4"
         showsVerticalScrollIndicator={false}
       >
+        {item.type === 'map_question' && item.chartRef ? (
+          <ChartRequiredBanner chartRef={item.chartRef} />
+        ) : null}
+
         <Text className="text-title font-sans-medium text-ink">
           {generated?.questionSv ?? questionText(item)}
         </Text>
@@ -255,6 +278,12 @@ export default function ExamRunScreen() {
           </View>
         ) : null}
 
+        {isMapNumeric && item.type === 'map_question' && item.answer && mapValue ? (
+          <View className="mt-5">
+            <MapAnswerInput answer={item.answer} value={mapValue} onChange={setMapValue} />
+          </View>
+        ) : null}
+
         <View className="mt-6">
           {options.map((opt, i) => (
             <Pressable
@@ -272,15 +301,19 @@ export default function ExamRunScreen() {
 
       <View className="px-6 pb-4">
         <Pressable
-          disabled={selected === null}
+          disabled={isMapNumeric ? !mapValue || !isMapAnswerComplete(mapValue) : selected === null}
           className={`rounded-xl py-4 items-center ${
-            selected === null ? 'bg-surface border border-fog/15' : 'bg-brass active:opacity-90'
+            (isMapNumeric ? mapValue && isMapAnswerComplete(mapValue) : selected !== null)
+              ? 'bg-brass active:opacity-90'
+              : 'bg-surface border border-fog/15'
           }`}
           onPress={submitAnswer}
         >
           <Text
             className={`text-body font-sans-semibold ${
-              selected === null ? 'text-fog' : 'text-bg'
+              (isMapNumeric ? mapValue && isMapAnswerComplete(mapValue) : selected !== null)
+                ? 'text-bg'
+                : 'text-fog'
             }`}
           >
             {index + 1 >= exam.items.length ? 'Lämna in' : 'Nästa'}

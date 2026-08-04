@@ -6,13 +6,23 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Image } from 'expo-image';
 
 import { BuoyDiagram } from '@/components/buoy-diagram';
+import { ChartRequiredBanner } from '@/components/chart-required-banner';
 import { LanternDiagram } from '@/components/lantern-diagram';
+import { MapAnswerInput } from '@/components/map-answer-input';
 import { StabilityDiagram } from '@/components/stability-diagram';
 import { moduleBySlug, questionText } from '@/content';
 import { generateCalculation } from '@/content/generators/navcalc';
 import { contentImages } from '@/content/images';
 import type { BuoyScene, LanternScene, Option, StabilityScene } from '@/content/types';
 import { recordAnswer } from '@/db/reviews';
+import {
+  formatMapAnswerExpected,
+  formatMapAnswerGiven,
+  gradeMapAnswer,
+  initialMapAnswerValue,
+  isMapAnswerComplete,
+  type MapAnswerValue,
+} from '@/lib/map-answer';
 import { attemptSeed, seededShuffle } from '@/lib/shuffle';
 import { buildSession, buildTopicSession } from '@/srs/session';
 import { markActivity } from '@/state/activity';
@@ -39,10 +49,16 @@ export default function DrillScreen() {
 
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<number | null>(null);
+  const [mapValue, setMapValue] = useState<MapAnswerValue | null>(() =>
+    initialMapAnswerValue(session.items[0]),
+  );
+  const [mapSubmitted, setMapSubmitted] = useState(false);
+  const [mapCorrect, setMapCorrect] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
   const [finished, setFinished] = useState(false);
 
   const item = session.items[index];
+  const isMapNumeric = item?.type === 'map_question' && item.answerMode === 'numeric_tolerance';
 
   // Calculation items generate fresh numbers per attempt from the same seed
   // that also drives option order — stable on screen, new next time.
@@ -114,7 +130,7 @@ export default function DrillScreen() {
     );
   }
 
-  const answered = selected !== null;
+  const answered = isMapNumeric ? mapSubmitted : selected !== null;
   const lanternScene =
     item.type === 'lantern'
       ? (item.payload as { scene?: LanternScene }).scene
@@ -136,12 +152,29 @@ export default function DrillScreen() {
     markActivity(now);
   }
 
+  function submitMapAnswer() {
+    if (mapSubmitted || !isMapNumeric || item.type !== 'map_question' || !item.answer || !mapValue) {
+      return;
+    }
+    const correct = gradeMapAnswer(item.answer, mapValue);
+    setMapSubmitted(true);
+    setMapCorrect(correct);
+    if (correct) setCorrectCount((c) => c + 1);
+    const now = Date.now();
+    recordAnswer(item.id, track, correct, now);
+    markActivity(now);
+  }
+
   function next() {
     if (index + 1 >= session.items.length) {
       setFinished(true);
     } else {
+      const nextItem = session.items[index + 1];
       setIndex(index + 1);
       setSelected(null);
+      setMapValue(initialMapAnswerValue(nextItem));
+      setMapSubmitted(false);
+      setMapCorrect(false);
     }
   }
 
@@ -162,6 +195,10 @@ export default function DrillScreen() {
         contentContainerClassName="px-6 pt-6 pb-4"
         showsVerticalScrollIndicator={false}
       >
+        {item.type === 'map_question' && item.chartRef ? (
+          <ChartRequiredBanner chartRef={item.chartRef} />
+        ) : null}
+
         <Text className="text-title font-sans-medium text-ink">
           {generated?.questionSv ?? questionText(item)}
         </Text>
@@ -199,6 +236,17 @@ export default function DrillScreen() {
           </View>
         ) : null}
 
+        {isMapNumeric && item.type === 'map_question' && item.answer && mapValue ? (
+          <View className="mt-5">
+            <MapAnswerInput
+              answer={item.answer}
+              value={mapValue}
+              onChange={setMapValue}
+              disabled={mapSubmitted}
+            />
+          </View>
+        ) : null}
+
         <View className="mt-6">
           {options.map((opt, i) => {
             let frame = 'border-fog/15 bg-surface';
@@ -221,11 +269,19 @@ export default function DrillScreen() {
           <View className="rounded-xl bg-surface border border-fog/15 px-5 py-4 mt-2">
             <Text
               className={`text-caption font-mono uppercase tracking-widest ${
-                options[selected].isCorrect ? 'text-starboard' : 'text-port'
+                (isMapNumeric ? mapCorrect : options[selected!].isCorrect)
+                  ? 'text-starboard'
+                  : 'text-port'
               }`}
             >
-              {options[selected].isCorrect ? 'Rätt' : 'Fel'}
+              {(isMapNumeric ? mapCorrect : options[selected!].isCorrect) ? 'Rätt' : 'Fel'}
             </Text>
+            {isMapNumeric && item.type === 'map_question' && item.answer && mapValue ? (
+              <Text className="text-small font-mono text-fog mt-1">
+                Ditt svar: {formatMapAnswerGiven(mapValue)} · Rätt svar:{' '}
+                {formatMapAnswerExpected(item.answer)}
+              </Text>
+            ) : null}
             <Text className="text-small font-sans text-ink mt-2">
               {generated?.explanationSv ?? item.explanationSv}
             </Text>
@@ -241,6 +297,26 @@ export default function DrillScreen() {
           >
             <Text className="text-body font-sans-semibold text-bg">
               {index + 1 >= session.items.length ? 'Visa resultat' : 'Nästa'}
+            </Text>
+          </Pressable>
+        </View>
+      ) : isMapNumeric ? (
+        <View className="px-6 pb-4">
+          <Pressable
+            disabled={!mapValue || !isMapAnswerComplete(mapValue)}
+            className={`rounded-xl py-4 items-center ${
+              mapValue && isMapAnswerComplete(mapValue)
+                ? 'bg-brass active:opacity-90'
+                : 'bg-surface border border-fog/15'
+            }`}
+            onPress={submitMapAnswer}
+          >
+            <Text
+              className={`text-body font-sans-semibold ${
+                mapValue && isMapAnswerComplete(mapValue) ? 'text-bg' : 'text-fog'
+              }`}
+            >
+              Svara
             </Text>
           </Pressable>
         </View>
