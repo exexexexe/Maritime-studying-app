@@ -9,6 +9,7 @@ import { BuoyDiagram } from '@/components/buoy-diagram';
 import { ChartRequiredBanner } from '@/components/chart-required-banner';
 import { LanternDiagram } from '@/components/lantern-diagram';
 import { MapAnswerInput } from '@/components/map-answer-input';
+import { NumericReadout } from '@/components/numeric-readout';
 import { StabilityDiagram } from '@/components/stability-diagram';
 import { ThemedPressable, ThemedText, ThemedView, type Tone } from '@/components/themed';
 import { modules, questionText } from '@/content';
@@ -127,18 +128,28 @@ export default function ExamRunScreen() {
       <SafeAreaView className="flex-1" style={{ backgroundColor: p.bg }} edges={['top', 'bottom']}>
         <Stack.Screen options={{ headerShown: false }} />
         <ScrollView contentContainerClassName="flex-grow px-6 pt-14 pb-6">
+          {/* The score is the dominant number on this screen — the pass/
+              fail verdict is real information but secondary to it: still
+              color-coded and legible, demoted to a label under the hero
+              readout rather than competing with it at display-xl. */}
           <View className="items-center">
             <ThemedText tone="fog" className="text-caption font-mono uppercase tracking-widest">
               {mode === 'full' ? 'Full simulering' : 'Snabbprov'} · {TRACK_NAMES[track]}
             </ThemedText>
+            <NumericReadout
+              value={pct}
+              unit="%"
+              variant="mono"
+              tone={result.passed ? 'starboard' : 'port'}
+              className="mt-4"
+            />
             <ThemedText
               tone={result.passed ? 'starboard' : 'port'}
-              className="text-display-xl font-display mt-4"
+              className="text-title font-sans-semibold mt-2 uppercase tracking-widest"
             >
               {result.passed ? 'Godkänt' : 'Ej godkänt'}
             </ThemedText>
-            <ThemedText className="text-data-lg font-mono-medium mt-2">{pct} %</ThemedText>
-            <ThemedText tone="fog" className="text-small font-sans mt-1">
+            <ThemedText tone="fog" className="text-small font-sans mt-2">
               {result.correct} rätt av {result.itemsAttempted} besvarade · gräns{' '}
               {exam.config.passPct} %
             </ThemedText>

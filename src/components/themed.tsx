@@ -70,15 +70,33 @@ export const ThemedText = forwardRef<Text, ThemedTextProps>(function ThemedText(
   return <Text ref={ref} style={[{ color }, style]} {...props} />;
 });
 
-interface ThemedViewProps extends ViewProps, ColorProps {}
+interface ThemedViewProps extends ViewProps, ColorProps {
+  /**
+   * A restrained physical lift — the one surface per screen that should
+   * read as raised above the rest, not a general decoration. Same shadow
+   * recipe everywhere it's used so "elevated" stays a single deliberate
+   * signal in the hierarchy rather than a knob tuned per screen.
+   */
+  elevated?: boolean;
+}
+
+const ELEVATION_STYLE = {
+  shadowColor: '#000',
+  shadowOffset: { width: 0, height: 8 },
+  shadowOpacity: 0.22,
+  shadowRadius: 20,
+  elevation: 8,
+};
 
 export const ThemedView = forwardRef<ViewRef, ThemedViewProps>(function ThemedView(
-  { bg, bgOpacity, borderTone, borderOpacity, style, ...props },
+  { bg, bgOpacity, borderTone, borderOpacity, elevated, style, ...props },
   ref,
 ) {
   const p = palette(useColorScheme());
   const colorStyle = colorStyleFor(p, { bg, bgOpacity, borderTone, borderOpacity });
-  return <View ref={ref} style={[colorStyle, style]} {...props} />;
+  return (
+    <View ref={ref} style={[colorStyle, elevated ? ELEVATION_STYLE : null, style]} {...props} />
+  );
 });
 
 interface ThemedPressableProps extends ComponentProps<typeof PressableScale>, ColorProps {}

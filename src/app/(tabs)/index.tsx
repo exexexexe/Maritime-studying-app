@@ -4,6 +4,7 @@ import { ScrollView, useColorScheme, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { Disclaimer } from '@/components/disclaimer';
+import { NumericReadout } from '@/components/numeric-readout';
 import { ThemedPressable, ThemedText, ThemedView } from '@/components/themed';
 import { bumpLaunchCount } from '@/db';
 import { coverageLabel, dashboardStats, type DashboardStats } from '@/srs/stats';
@@ -40,12 +41,19 @@ export default function DashboardScreen() {
         </ThemedText>
         <ThemedText className="text-display-xl font-display mt-1">Plugga Sjöexamen</ThemedText>
 
-        {/* Today */}
+        {/* Today — the screen's one dominant element. Due-reviews count is
+            the single number that answers the student's actual daily
+            question ("what do I need to do today"), and it's already the
+            anchor for the CTA below it — no new derived stat, just this
+            existing one given the visual weight it earns. Elevated +
+            larger radius/padding than every card below it, so the
+            hierarchy reads as a physical stack, not a list of equals. */}
         <ThemedView
           bg="surface"
           borderTone="fog"
           borderOpacity={15}
-          className="mt-8 rounded-xl border px-5 py-6"
+          elevated
+          className="mt-8 rounded-2xl border px-6 py-8"
         >
           <View className="flex-row items-baseline justify-between">
             <ThemedText tone="fog" className="text-caption font-mono uppercase tracking-widest">
@@ -57,14 +65,10 @@ export default function DashboardScreen() {
               </ThemedText>
             ) : null}
           </View>
-          <View className="flex-row items-baseline mt-2">
-            <ThemedText tone="brass" className="text-data-lg font-mono-medium">
-              {stats.dueTotal}
-            </ThemedText>
-            <ThemedText tone="fog" className="text-small font-sans ml-2">
-              {stats.dueTotal === 1 ? 'fråga att repetera' : 'frågor att repetera'}
-            </ThemedText>
-          </View>
+          <NumericReadout value={stats.dueTotal} tone="brass" className="mt-3" />
+          <ThemedText tone="fog" className="text-small font-sans mt-1">
+            {stats.dueTotal === 1 ? 'fråga att repetera' : 'frågor att repetera'}
+          </ThemedText>
           {stats.nextModule ? (
             <Link
               href={{ pathname: '/drill/[slug]', params: { slug: stats.nextModule.slug } }}
@@ -72,7 +76,7 @@ export default function DashboardScreen() {
             >
               <ThemedPressable
                 bg="brass"
-                className="rounded-xl py-3.5 items-center mt-4 active:opacity-90"
+                className="rounded-xl py-3.5 items-center mt-6 active:opacity-90"
               >
                 <ThemedText tone="bg" className="text-body font-sans-semibold">
                   Repetera: {stats.nextModule.titleSv} ({stats.nextModule.due})
@@ -80,7 +84,7 @@ export default function DashboardScreen() {
               </ThemedPressable>
             </Link>
           ) : (
-            <ThemedText tone="fog" className="text-small font-sans mt-3">
+            <ThemedText tone="fog" className="text-small font-sans mt-5">
               {stats.reviewedTotal === 0
                 ? 'Inget schemalagt ännu — börja med en modul under Moduler.'
                 : 'Allt repeterat för i dag. Nästa repetition förfaller enligt schemat.'}
@@ -88,17 +92,14 @@ export default function DashboardScreen() {
           )}
         </ThemedView>
 
-        {/* Weak areas */}
+        {/* Weak areas — deliberately quieter than Idag: no border, no
+            shadow, tighter padding. Secondary information, not a second
+            focal point. */}
         {stats.weakModules.length > 0 ? (
-          <ThemedView
-            bg="surface"
-            borderTone="fog"
-            borderOpacity={15}
-            className="mt-5 rounded-xl border px-5 py-5"
-          >
+          <ThemedView bg="surface" bgOpacity={45} className="mt-4 rounded-xl px-5 py-4">
             <ThemedText
               tone="fog"
-              className="text-caption font-mono uppercase tracking-widest mb-3"
+              className="text-caption font-mono uppercase tracking-widest mb-2"
             >
               Svaga områden
             </ThemedText>
@@ -108,9 +109,9 @@ export default function DashboardScreen() {
                 href={{ pathname: '/module/[slug]', params: { slug: w.slug } }}
                 asChild
               >
-                <ThemedPressable className="flex-row items-center py-2 active:opacity-80">
-                  <ThemedText className="text-body font-sans flex-1">{w.titleSv}</ThemedText>
-                  <ThemedText tone="port" className="text-small font-mono">
+                <ThemedPressable className="flex-row items-center py-1.5 active:opacity-80">
+                  <ThemedText className="text-small font-sans flex-1">{w.titleSv}</ThemedText>
+                  <ThemedText tone="port" className="text-caption font-mono">
                     {w.wrong} av {w.reviewed} fel
                   </ThemedText>
                 </ThemedPressable>
@@ -121,14 +122,11 @@ export default function DashboardScreen() {
 
         {/* Content coverage — a relative bar plus a qualitative tier, never
             a raw item count (reads as marketing/padding, not something a
-            student needs to plan a study session around). */}
-        <ThemedView
-          bg="surface"
-          borderTone="fog"
-          borderOpacity={15}
-          className="mt-5 rounded-xl border px-5 py-5"
-        >
-          <ThemedText tone="fog" className="text-caption font-mono uppercase tracking-widest mb-3">
+            student needs to plan a study session around). Same quiet
+            treatment as Weak areas — supporting information, not a rival
+            to Idag's hero number. */}
+        <ThemedView bg="surface" bgOpacity={45} className="mt-3 rounded-xl px-5 py-4">
+          <ThemedText tone="fog" className="text-caption font-mono uppercase tracking-widest mb-2">
             Täckning
           </ThemedText>
           {stats.coverage.map((c) => (
