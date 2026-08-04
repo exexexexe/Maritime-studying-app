@@ -8,9 +8,11 @@
     "scheme": "pluggasjoexamen",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/expo.icon",
+      "bundleIdentifier": "se.pluggasjoexamen.app"
     },
     "android": {
+      "package": "se.pluggasjoexamen.app",
       "adaptiveIcon": {
         "backgroundColor": "#0B141D",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
