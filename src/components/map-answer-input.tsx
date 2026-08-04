@@ -1,5 +1,6 @@
-import { Text, TextInput, useColorScheme, View } from 'react-native';
+import { TextInput, useColorScheme, View } from 'react-native';
 
+import { ThemedText, ThemedView } from '@/components/themed';
 import type { MapAnswer } from '@/content/types';
 import type { MapAnswerValue } from '@/lib/map-answer';
 import { palette } from '@/theme/tokens';
@@ -27,44 +28,65 @@ export function MapAnswerInput({ answer, value, onChange, disabled }: Props) {
       <View>
         <View className="flex-row gap-3">
           <View className="flex-1">
-            <Text className="text-caption font-mono text-fog uppercase tracking-widest mb-1.5">
+            <ThemedText tone="fog" className="text-caption font-mono uppercase tracking-widest mb-1.5">
               Latitud (°N)
-            </Text>
-            <TextInput
-              editable={!disabled}
-              value={value.latText}
-              onChangeText={(text) => onChange({ ...value, latText: text })}
-              keyboardType="numbers-and-punctuation"
-              placeholder="59,1234"
-              placeholderTextColor={p.fog}
-              className="rounded-xl border border-fog/25 bg-surface px-4 py-3.5 text-body font-mono text-ink"
-            />
+            </ThemedText>
+            <ThemedView
+              bg="surface"
+              borderTone="fog"
+              borderOpacity={25}
+              className="rounded-xl border"
+            >
+              <TextInput
+                editable={!disabled}
+                value={value.latText}
+                onChangeText={(text) => onChange({ ...value, latText: text })}
+                keyboardType="numbers-and-punctuation"
+                placeholder="59,1234"
+                placeholderTextColor={p.fog}
+                style={{ color: p.ink }}
+                className="px-4 py-3.5 text-body font-mono"
+              />
+            </ThemedView>
           </View>
           <View className="flex-1">
-            <Text className="text-caption font-mono text-fog uppercase tracking-widest mb-1.5">
+            <ThemedText tone="fog" className="text-caption font-mono uppercase tracking-widest mb-1.5">
               Longitud (°E)
-            </Text>
-            <TextInput
-              editable={!disabled}
-              value={value.lonText}
-              onChangeText={(text) => onChange({ ...value, lonText: text })}
-              keyboardType="numbers-and-punctuation"
-              placeholder="18,1234"
-              placeholderTextColor={p.fog}
-              className="rounded-xl border border-fog/25 bg-surface px-4 py-3.5 text-body font-mono text-ink"
-            />
+            </ThemedText>
+            <ThemedView
+              bg="surface"
+              borderTone="fog"
+              borderOpacity={25}
+              className="rounded-xl border"
+            >
+              <TextInput
+                editable={!disabled}
+                value={value.lonText}
+                onChangeText={(text) => onChange({ ...value, lonText: text })}
+                keyboardType="numbers-and-punctuation"
+                placeholder="18,1234"
+                placeholderTextColor={p.fog}
+                style={{ color: p.ink }}
+                className="px-4 py-3.5 text-body font-mono"
+              />
+            </ThemedView>
           </View>
         </View>
-        <Text className="text-caption font-sans text-fog mt-2">
+        <ThemedText tone="fog" className="text-caption font-sans mt-2">
           Decimalgrader, t.ex. 59,1234 — komma eller punkt fungerar.
-        </Text>
+        </ThemedText>
       </View>
     );
   }
 
   if (answer.kind !== 'position' && value.kind !== 'position') {
     return (
-      <View className="flex-row items-center rounded-xl border border-fog/25 bg-surface px-4">
+      <ThemedView
+        bg="surface"
+        borderTone="fog"
+        borderOpacity={25}
+        className="flex-row items-center rounded-xl border px-4"
+      >
         <TextInput
           editable={!disabled}
           value={value.text}
@@ -72,10 +94,13 @@ export function MapAnswerInput({ answer, value, onChange, disabled }: Props) {
           keyboardType="numbers-and-punctuation"
           placeholder="0"
           placeholderTextColor={p.fog}
-          className="flex-1 py-3.5 text-body font-mono text-ink"
+          style={{ color: p.ink }}
+          className="flex-1 py-3.5 text-body font-mono"
         />
-        <Text className="text-body font-mono text-fog ml-2">{UNIT_LABEL[answer.kind]}</Text>
-      </View>
+        <ThemedText tone="fog" className="text-body font-mono ml-2">
+          {UNIT_LABEL[answer.kind]}
+        </ThemedText>
+      </ThemedView>
     );
   }
 

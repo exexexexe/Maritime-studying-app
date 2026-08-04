@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import { Pressable, Text, useColorScheme, View } from 'react-native';
+import { useColorScheme, View } from 'react-native';
 
+import { ThemedPressable, ThemedText, ThemedView } from '@/components/themed';
 import { getMeta, setMeta } from '@/db';
 import { palette } from '@/theme/tokens';
 import type { MapChartRef } from '@/content/types';
@@ -25,29 +26,34 @@ export function ChartRequiredBanner({ chartRef }: { chartRef: MapChartRef }) {
   }
 
   return (
-    <View className="rounded-xl bg-surface border border-brass/40 px-4 py-3.5 mb-5">
+    <ThemedView
+      bg="surface"
+      borderTone="brass"
+      borderOpacity={40}
+      className="rounded-xl border px-4 py-3.5 mb-5"
+    >
       <View className="flex-row items-center">
         <PaperChartIcon color={p.brass} size={22} />
-        <Text className="text-small font-sans-medium text-ink ml-3 flex-1">
+        <ThemedText className="text-small font-sans-medium ml-3 flex-1">
           Den här frågan kräver sjökort{' '}
-          <Text className="font-sans-semibold">{chartRef.chart}</Text>
-        </Text>
+          <ThemedText className="font-sans-semibold">{chartRef.chart}</ThemedText>
+        </ThemedText>
       </View>
       {!onboardingSeen ? (
-        <View className="mt-3 pt-3 border-t border-fog/15">
-          <Text className="text-caption font-sans text-fog">
+        <ThemedView borderTone="fog" borderOpacity={15} className="mt-3 pt-3 border-t">
+          <ThemedText tone="fog" className="text-caption font-sans">
             En del frågor löser du bäst genom att mäta eller plotta direkt på ett
             fysiskt sjökort (SE61 eller SE93) med passare och linjal — precis
             som på det riktiga provet. Appen visar inte själva sjökortet;
             plocka fram ditt eget och kontrollera svaret här när du är klar.
-          </Text>
-          <Pressable onPress={dismissOnboarding} hitSlop={8} className="mt-2 self-start">
-            <Text className="text-caption font-mono text-brass uppercase tracking-widest">
+          </ThemedText>
+          <ThemedPressable onPress={dismissOnboarding} hitSlop={8} className="mt-2 self-start">
+            <ThemedText tone="brass" className="text-caption font-mono uppercase tracking-widest">
               Jag förstår
-            </Text>
-          </Pressable>
-        </View>
+            </ThemedText>
+          </ThemedPressable>
+        </ThemedView>
       ) : null}
-    </View>
+    </ThemedView>
   );
 }

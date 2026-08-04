@@ -1,6 +1,6 @@
 import { router, Stack, useLocalSearchParams } from 'expo-router';
 import { useMemo, useState } from 'react';
-import { Pressable, ScrollView, Text, View } from 'react-native';
+import { ScrollView, useColorScheme, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { Image } from 'expo-image';
@@ -10,6 +10,7 @@ import { ChartRequiredBanner } from '@/components/chart-required-banner';
 import { LanternDiagram } from '@/components/lantern-diagram';
 import { MapAnswerInput } from '@/components/map-answer-input';
 import { StabilityDiagram } from '@/components/stability-diagram';
+import { ThemedPressable, ThemedText, ThemedView, type Tone } from '@/components/themed';
 import { moduleBySlug, questionText } from '@/content';
 import { generateCalculation } from '@/content/generators/navcalc';
 import { contentImages } from '@/content/images';
@@ -27,10 +28,12 @@ import { attemptSeed, seededShuffle } from '@/lib/shuffle';
 import { buildSession, buildTopicSession } from '@/srs/session';
 import { markActivity } from '@/state/activity';
 import { useTrack } from '@/state/track-context';
+import { palette } from '@/theme/tokens';
 
 export default function DrillScreen() {
   const { slug, topic } = useLocalSearchParams<{ slug: string; topic?: string }>();
   const { track } = useTrack();
+  const p = palette(useColorScheme());
 
   // Session is fixed at mount; attemptKey seeds this attempt's option order.
   const [session] = useState(() => {
@@ -80,17 +83,22 @@ export default function DrillScreen() {
 
   if (!session.module || session.items.length === 0) {
     return (
-      <SafeAreaView className="flex-1 bg-bg items-center justify-center px-8">
+      <SafeAreaView
+        className="flex-1 items-center justify-center px-8"
+        style={{ backgroundColor: p.bg }}
+      >
         <Stack.Screen options={{ headerShown: false }} />
-        <Text className="text-body font-sans text-fog text-center">
+        <ThemedText tone="fog" className="text-body font-sans text-center">
           Inget att öva just nu — alla frågor är schemalagda framåt i tiden.
-        </Text>
-        <Pressable
-          className="mt-6 rounded-xl border border-fog/25 px-6 py-3 active:opacity-80"
+        </ThemedText>
+        <ThemedPressable
+          borderTone="fog"
+          borderOpacity={25}
+          className="mt-6 rounded-xl border px-6 py-3 active:opacity-80"
           onPress={() => router.back()}
         >
-          <Text className="text-body font-sans text-ink">Tillbaka</Text>
-        </Pressable>
+          <ThemedText className="text-body font-sans">Tillbaka</ThemedText>
+        </ThemedPressable>
       </SafeAreaView>
     );
   }
@@ -99,33 +107,30 @@ export default function DrillScreen() {
     const total = session.items.length;
     const pct = Math.round((correctCount / total) * 100);
     return (
-      <SafeAreaView className="flex-1 bg-bg px-6" edges={['top', 'bottom']}>
+      <SafeAreaView className="flex-1 px-6" style={{ backgroundColor: p.bg }} edges={['top', 'bottom']}>
         <Stack.Screen options={{ headerShown: false }} />
         <View className="flex-1 items-center justify-center">
-          <Text className="text-caption font-mono text-fog uppercase tracking-widest">
+          <ThemedText tone="fog" className="text-caption font-mono uppercase tracking-widest">
             Passet klart
-          </Text>
-          <Text className="text-display-xl font-display text-ink mt-4">
+          </ThemedText>
+          <ThemedText className="text-display-xl font-display mt-4">
             {correctCount} av {total} rätt
-          </Text>
-          <Text
-            className={`text-data-lg font-mono-medium mt-2 ${
-              pct >= 80 ? 'text-starboard' : 'text-brass'
-            }`}
-          >
+          </ThemedText>
+          <ThemedText tone={pct >= 80 ? 'starboard' : 'brass'} className="text-data-lg font-mono-medium mt-2">
             {pct} %
-          </Text>
-          <Text className="text-small font-sans text-fog mt-6 text-center">
+          </ThemedText>
+          <ThemedText tone="fog" className="text-small font-sans mt-6 text-center">
             Repetitionerna är schemalagda. Frågor du missade kommer tillbaka
             direkt i nästa pass.
-          </Text>
+          </ThemedText>
         </View>
-        <Pressable
-          className="bg-brass rounded-xl py-4 items-center active:opacity-90 mb-4"
+        <ThemedPressable
+          bg="brass"
+          className="rounded-xl py-4 items-center active:opacity-90 mb-4"
           onPress={() => router.back()}
         >
-          <Text className="text-body font-sans-semibold text-bg">Klar</Text>
-        </Pressable>
+          <ThemedText tone="bg" className="text-body font-sans-semibold">Klar</ThemedText>
+        </ThemedPressable>
       </SafeAreaView>
     );
   }
@@ -179,15 +184,15 @@ export default function DrillScreen() {
   }
 
   return (
-    <SafeAreaView className="flex-1 bg-bg" edges={['top', 'bottom']}>
+    <SafeAreaView className="flex-1" style={{ backgroundColor: p.bg }} edges={['top', 'bottom']}>
       <Stack.Screen options={{ headerShown: false }} />
       <View className="flex-row items-center justify-between px-6 pt-2">
-        <Pressable hitSlop={8} onPress={() => router.back()}>
-          <Text className="text-small font-sans text-fog">Avbryt</Text>
-        </Pressable>
-        <Text className="text-caption font-mono text-fog tracking-widest">
+        <ThemedPressable hitSlop={8} onPress={() => router.back()}>
+          <ThemedText tone="fog" className="text-small font-sans">Avbryt</ThemedText>
+        </ThemedPressable>
+        <ThemedText tone="fog" className="text-caption font-mono tracking-widest">
           {String(index + 1).padStart(2, '0')} / {String(session.items.length).padStart(2, '0')}
-        </Text>
+        </ThemedText>
       </View>
 
       <ScrollView
@@ -199,9 +204,9 @@ export default function DrillScreen() {
           <ChartRequiredBanner chartRef={item.chartRef} />
         ) : null}
 
-        <Text className="text-title font-sans-medium text-ink">
+        <ThemedText className="text-title font-sans-medium">
           {generated?.questionSv ?? questionText(item)}
-        </Text>
+        </ThemedText>
 
         {lanternScene ? (
           <View className="mt-5">
@@ -219,7 +224,11 @@ export default function DrillScreen() {
           </View>
         ) : null}
         {item.imageAsset ? (
-          <View className="mt-5 rounded-xl overflow-hidden border border-fog/15">
+          <ThemedView
+            borderTone="fog"
+            borderOpacity={15}
+            className="mt-5 rounded-xl overflow-hidden border"
+          >
             {contentImages[item.imageAsset] ? (
               <Image
                 source={contentImages[item.imageAsset]}
@@ -227,13 +236,13 @@ export default function DrillScreen() {
                 contentFit="contain"
               />
             ) : (
-              <View className="bg-surface items-center py-10">
-                <Text className="text-small font-sans text-fog">
+              <ThemedView bg="surface" className="items-center py-10">
+                <ThemedText tone="fog" className="text-small font-sans">
                   Bild saknas: {item.imageAsset}
-                </Text>
-              </View>
+                </ThemedText>
+              </ThemedView>
             )}
-          </View>
+          </ThemedView>
         ) : null}
 
         {isMapNumeric && item.type === 'map_question' && item.answer && mapValue ? (
@@ -249,76 +258,86 @@ export default function DrillScreen() {
 
         <View className="mt-6">
           {options.map((opt, i) => {
-            let frame = 'border-fog/15 bg-surface';
-            if (answered && opt.isCorrect) frame = 'border-starboard bg-starboard/10';
-            else if (answered && i === selected) frame = 'border-port bg-port/10';
+            const correctReveal = answered && opt.isCorrect;
+            const wrongSelected = answered && i === selected;
+            const tone: Tone = correctReveal ? 'starboard' : wrongSelected ? 'port' : 'fog';
+            const borderOpacity = correctReveal || wrongSelected ? undefined : 15;
+            const bg: Tone = correctReveal ? 'starboard' : wrongSelected ? 'port' : 'surface';
+            const bgOpacity = correctReveal || wrongSelected ? 10 : undefined;
             return (
-              <Pressable
+              <ThemedPressable
                 key={i}
                 disabled={answered}
                 onPress={() => answer(i)}
-                className={`rounded-xl border px-5 py-4 mb-3 active:opacity-80 ${frame}`}
+                bg={bg}
+                bgOpacity={bgOpacity}
+                borderTone={tone}
+                borderOpacity={borderOpacity}
+                className="rounded-xl border px-5 py-4 mb-3 active:opacity-80"
               >
-                <Text className="text-body font-sans text-ink">{opt.text}</Text>
-              </Pressable>
+                <ThemedText className="text-body font-sans">{opt.text}</ThemedText>
+              </ThemedPressable>
             );
           })}
         </View>
 
         {answered ? (
-          <View className="rounded-xl bg-surface border border-fog/15 px-5 py-4 mt-2">
-            <Text
-              className={`text-caption font-mono uppercase tracking-widest ${
-                (isMapNumeric ? mapCorrect : options[selected!].isCorrect)
-                  ? 'text-starboard'
-                  : 'text-port'
-              }`}
+          <ThemedView
+            bg="surface"
+            borderTone="fog"
+            borderOpacity={15}
+            className="rounded-xl border px-5 py-4 mt-2"
+          >
+            <ThemedText
+              tone={(isMapNumeric ? mapCorrect : options[selected!].isCorrect) ? 'starboard' : 'port'}
+              className="text-caption font-mono uppercase tracking-widest"
             >
               {(isMapNumeric ? mapCorrect : options[selected!].isCorrect) ? 'Rätt' : 'Fel'}
-            </Text>
+            </ThemedText>
             {isMapNumeric && item.type === 'map_question' && item.answer && mapValue ? (
-              <Text className="text-small font-mono text-fog mt-1">
+              <ThemedText tone="fog" className="text-small font-mono mt-1">
                 Ditt svar: {formatMapAnswerGiven(mapValue)} · Rätt svar:{' '}
                 {formatMapAnswerExpected(item.answer)}
-              </Text>
+              </ThemedText>
             ) : null}
-            <Text className="text-small font-sans text-ink mt-2">
+            <ThemedText className="text-small font-sans mt-2">
               {generated?.explanationSv ?? item.explanationSv}
-            </Text>
-          </View>
+            </ThemedText>
+          </ThemedView>
         ) : null}
       </ScrollView>
 
       {answered ? (
         <View className="px-6 pb-4">
-          <Pressable
-            className="bg-brass rounded-xl py-4 items-center active:opacity-90"
+          <ThemedPressable
+            bg="brass"
+            className="rounded-xl py-4 items-center active:opacity-90"
             onPress={next}
           >
-            <Text className="text-body font-sans-semibold text-bg">
+            <ThemedText tone="bg" className="text-body font-sans-semibold">
               {index + 1 >= session.items.length ? 'Visa resultat' : 'Nästa'}
-            </Text>
-          </Pressable>
+            </ThemedText>
+          </ThemedPressable>
         </View>
       ) : isMapNumeric ? (
         <View className="px-6 pb-4">
-          <Pressable
+          <ThemedPressable
             disabled={!mapValue || !isMapAnswerComplete(mapValue)}
+            bg={mapValue && isMapAnswerComplete(mapValue) ? 'brass' : 'surface'}
+            borderTone={mapValue && isMapAnswerComplete(mapValue) ? undefined : 'fog'}
+            borderOpacity={15}
             className={`rounded-xl py-4 items-center ${
-              mapValue && isMapAnswerComplete(mapValue)
-                ? 'bg-brass active:opacity-90'
-                : 'bg-surface border border-fog/15'
+              mapValue && isMapAnswerComplete(mapValue) ? 'active:opacity-90' : 'border'
             }`}
             onPress={submitMapAnswer}
           >
-            <Text
-              className={`text-body font-sans-semibold ${
-                mapValue && isMapAnswerComplete(mapValue) ? 'text-bg' : 'text-fog'
-              }`}
+            <ThemedText
+              tone={mapValue && isMapAnswerComplete(mapValue) ? 'bg' : 'fog'}
+              className="text-body font-sans-semibold"
             >
               Svara
-            </Text>
-          </Pressable>
+            </ThemedText>
+          </ThemedPressable>
         </View>
       ) : null}
     </SafeAreaView>

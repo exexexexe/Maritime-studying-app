@@ -26,7 +26,7 @@ import { palette, type Palette } from '@/theme/tokens';
  * resolution through here instead. See UI rework Phase 1/3 commits.
  */
 
-type Tone = keyof Palette;
+export type Tone = keyof Palette;
 
 function withAlpha(hex: string, pct: number): string {
   const alpha = Math.round((pct / 100) * 255)
