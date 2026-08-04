@@ -845,6 +845,43 @@
       "needsReview": true,
       "needsReviewNote": "Kräver övningssjökort 616 för den exakta positionen (facit: cirka 2,5 M öster om kurslinjen).",
       "sourceRef": "4:56 / photo_73, photo_30"
+    },
+    {
+      "id": "nav-bar-024",
+      "topicId": "top-nav-baring",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Latitud 58°58,45´N, longitud 18°15,1´E",
+          "isCorrect": true
+        },
+        {
+          "text": "Latitud 58°45,58´N, longitud 18°51,1´E",
+          "isCorrect": false
+        },
+        {
+          "text": "Latitud 58°58,45´N, longitud 18°51,1´E",
+          "isCorrect": false
+        },
+        {
+          "text": "Latitud 59°15,1´N, longitud 18°58,45´E",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Rita ortlinjerna i sjökortet: bäringen 101° mot Utö kvarn och 006° mot Mysingeholms fyr. Där de två ortlinjerna skär varandra är din position: 58°58,45´N, 18°15,1´E (krysspejling).",
+      "explanationEn": "Plot the position lines on the chart: bearing 101° to Utö mill and 006° to Mysingeholm lighthouse. Your position is where the two lines cross: 58°58.45´N, 18°15.1´E (a cross bearing fix).",
+      "payload": {
+        "questionSv": "Du pejlar Utö kvarn i bäring 101° och samtidigt Mysingeholms fyr i bäring 006°. Ange din position i latitud och longitud. Sjökort 616."
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 för krysspejlingen – facits position använd.",
+      "sourceRef": "17:22 / photo_48 + photo_8"
     }
   ]
 }

@@ -44,6 +44,13 @@ const TOPIC_FILES: TopicFile[] = [
   require('../../content/navcalc/sjokortslasning.json'),
   require('../../content/navcalc/instrument-och-deviation.json'),
   require('../../content/navcalc/baringar-och-position.json'),
+  require('../../content/lanterns/ljusbildsovningar.json'),
+  require('../../content/safety/forsta-hjalpen.json'),
+  require('../../content/seamanship/fortojning-och-ankring.json'),
+  require('../../content/seamanship/tagvirke-och-knopar.json'),
+  require('../../content/rules/miljo-och-allemansratt.json'),
+  require('../../content/rules/utomlands-och-passagerare.json'),
+  require('../../content/rules/sjolag-och-bemanning.json'),
 ];
 
 export const modules: ModuleDef[] = [...modulesJson.modules].sort(

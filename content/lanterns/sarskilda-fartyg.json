@@ -807,6 +807,80 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "10:16 (H) / photo_61, photo_20"
+    },
+    {
+      "id": "lan-sar-021",
+      "topicId": "top-lan-sarskilda",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Det är dykarflaggan – dykning pågår; jag passerar på ordentligt avstånd och drar inte upp några svall",
+          "isCorrect": true
+        },
+        {
+          "text": "Det är karantänflaggan – jag får inte gå närmare än 500 meter",
+          "isCorrect": false
+        },
+        {
+          "text": "Det är lotsflaggan – pråmen väntar på lots och jag passerar som vanligt",
+          "isCorrect": false
+        },
+        {
+          "text": "Det är signalen för sprängningsarbete – jag stannar och inväntar klartecken",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Den vit-blå tvåtungade flaggan (signalflagga A) är dykarflaggan och betyder att dykning pågår. Det kan finnas dykare i vattnet nära pråmen – passera på skapligt avstånd, med låg fart och utan att dra upp svall.",
+      "explanationEn": "The white-and-blue swallow-tailed flag (code flag A) is the diver's flag – diving in progress. Divers may be in the water near the barge, so pass well clear, slowly and without making wake.",
+      "payload": {
+        "questionSv": "På dagen ser du en pråm som ligger för ankar med en vit och blå, tvåtungad flagga uppsatt. Vad betyder det och vilken blir din åtgärd?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:43 / photo_47 + photo_6"
+    },
+    {
+      "id": "lan-sar-022",
+      "topicId": "top-lan-sarskilda",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Att den motorseglar – trots hissade segel gäller den som maskindriven och väjer som ett maskindrivet fartyg",
+          "isCorrect": true
+        },
+        {
+          "text": "Att den fiskar med trål och har begränsad manöverförmåga",
+          "isCorrect": false
+        },
+        {
+          "text": "Att den ligger till ankars trots att seglen är hissade",
+          "isCorrect": false
+        },
+        {
+          "text": "Att den är manöverodugling och inte kan väja för andra",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En svart kon med spetsen nedåt visas av segelfartyg som samtidigt går för motor (motorseglar). Ett sådant fartyg räknas som maskindrivet och väjer enligt reglerna för maskindrivna fartyg – seglen ger ingen förtur.",
+      "explanationEn": "A black cone, point down, is shown by a sailing vessel that is also under engine (motor-sailing). Such a vessel counts as power-driven and gives way under the power-driven rules – the sails grant no privilege.",
+      "payload": {
+        "questionSv": "En mötande segelskuta har en svart tratt (kon med spetsen nedåt) hissad tillsammans med seglen. Vad betyder tratten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:44 / photo_47 + photo_6"
     }
   ]
 }

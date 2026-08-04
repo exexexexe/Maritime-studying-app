@@ -1,0 +1,523 @@
+{
+  "topicId": "top-sjo-tagvirke",
+  "items": [
+    {
+      "id": "sjo-tag-001",
+      "topicId": "top-sjo-tagvirke",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Elastiska och motståndskraftiga mot solljus",
+          "isCorrect": true
+        },
+        {
+          "text": "Stumma och motståndskraftiga mot solljus",
+          "isCorrect": false
+        },
+        {
+          "text": "Elastiska och flytande",
+          "isCorrect": false
+        },
+        {
+          "text": "Stumma och sjunkande",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Linor för den permanenta förtöjningen vid hemmabryggan ska vara elastiska, så att de fjädrar och tar upp ryck, och motståndskraftiga mot solljus eftersom de sitter ute hela säsongen. (I den utsträckning konstfiberlinor nu kan vara det – all konstfiber är mer eller mindre känslig för UV-ljus.)",
+      "explanationEn": "Lines for the permanent mooring at your home jetty should be elastic, so they absorb shock loads, and resistant to sunlight since they stay out all season. (To the extent synthetic-fibre lines can be – all synthetic fibre is more or less sensitive to UV light.)",
+      "payload": {
+        "questionSv": "Tågvirke kan ha olika egenskaper: elastiskt/stumt, motståndskraftigt/inte motståndskraftigt mot solljus, flyter/sjunker. Vilka av dessa egenskaper är särskilt viktiga för linor för den permanenta förtöjningen vid hemmabryggan?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "14:1a / photo_53 + photo_10"
+    },
+    {
+      "id": "sjo-tag-002",
+      "topicId": "top-sjo-tagvirke",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Att linan flyter",
+          "isCorrect": true
+        },
+        {
+          "text": "Att linan sjunker",
+          "isCorrect": false
+        },
+        {
+          "text": "Att linan är stum",
+          "isCorrect": false
+        },
+        {
+          "text": "Att linan är extra elastisk",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Kastlinor och räddningslinor (typ Hansalinan) ska flyta. En flytande lina ligger kvar i ytan så att en person i vattnet kan nå och gripa den – en sjunkande lina försvinner ur räckhåll.",
+      "explanationEn": "Heaving lines and rescue lines (like the Hansa line) must float. A floating line stays on the surface so a person in the water can reach and grab it – a sinking line disappears out of reach.",
+      "payload": {
+        "questionSv": "Vilken egenskap hos tågvirket är särskilt viktig för kastlinor/räddningslinor (typ Hansalinan)?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "14:1b / photo_53 + photo_10"
+    },
+    {
+      "id": "sjo-tag-003",
+      "topicId": "top-sjo-tagvirke",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Elastisk och sjunkande",
+          "isCorrect": true
+        },
+        {
+          "text": "Stum och sjunkande",
+          "isCorrect": false
+        },
+        {
+          "text": "Elastisk och flytande",
+          "isCorrect": false
+        },
+        {
+          "text": "Stum och flytande",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En ankarlina ska vara elastisk för att fjädra i rycken när båten ligger för ankar, och den ska sjunka så att den inte flyter upp till ytan där andra båtar – eller den egna – kan trassla in sig i den.",
+      "explanationEn": "An anchor line should be elastic so it cushions the jerks while the boat lies at anchor, and it should sink so it does not float to the surface where other boats – or your own – can get tangled in it.",
+      "payload": {
+        "questionSv": "Vilka egenskaper hos tågvirket är särskilt viktiga för ankarlinor?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "14:1c / photo_53 + photo_10"
+    },
+    {
+      "id": "sjo-tag-004",
+      "topicId": "top-sjo-tagvirke",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Att linan flyter",
+          "isCorrect": true
+        },
+        {
+          "text": "Att linan sjunker",
+          "isCorrect": false
+        },
+        {
+          "text": "Att linan är stum",
+          "isCorrect": false
+        },
+        {
+          "text": "Att linan tål solljus dåligt",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En bogserlina till jollen bör flyta. En sjunkande lina hänger ner i vattnet och riskerar att sugas in i den bogserande båtens propeller, särskilt vid fartminskning.",
+      "explanationEn": "A towline for the dinghy should float. A sinking line hangs down into the water and risks being sucked into the towing boat's propeller, especially when slowing down.",
+      "payload": {
+        "questionSv": "Vilken egenskap hos tågvirket är särskilt viktig för linan som används för att bogsera jollen?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "14:1d / photo_53 + photo_10"
+    },
+    {
+      "id": "sjo-tag-005",
+      "topicId": "top-sjo-tagvirke",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Stumma och motståndskraftiga mot solljus",
+          "isCorrect": true
+        },
+        {
+          "text": "Elastiska och motståndskraftiga mot solljus",
+          "isCorrect": false
+        },
+        {
+          "text": "Stumma och flytande",
+          "isCorrect": false
+        },
+        {
+          "text": "Elastiska och sjunkande",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Fall (linorna man hissar segel med) ska vara stumma – töjer fallet sig sjunker seglet och trimmet förstörs – och motståndskraftiga mot solljus eftersom de sitter uppe i riggen och utsätts för UV-strålning hela säsongen.",
+      "explanationEn": "Halyards (the lines used to hoist sails) should be non-stretch – a stretching halyard lets the sail sag and ruins the trim – and resistant to sunlight, since they sit in the rig exposed to UV all season.",
+      "payload": {
+        "questionSv": "Vilka egenskaper hos tågvirket är särskilt viktiga för fall (att hissa segel med)?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "14:1e / photo_53 + photo_10"
+    },
+    {
+      "id": "sjo-tag-006",
+      "topicId": "top-sjo-tagvirke",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Skotstek",
+          "isCorrect": true
+        },
+        {
+          "text": "Råbandsknop",
+          "isCorrect": false
+        },
+        {
+          "text": "Dubbelt halvslag",
+          "isCorrect": false
+        },
+        {
+          "text": "Pålstek",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Skotstek används för att skarva två linor som är ungefär men inte riktigt lika grova. Råbandsknopen ska bara användas mellan lika grova linor (och helst inte alls för skarvning under belastning) eftersom den annars lätt slirar upp.",
+      "explanationEn": "The sheet bend is used to join two lines of roughly but not exactly the same thickness. A reef knot should only join lines of equal thickness (and preferably not be used for joining under load at all), as it easily slips otherwise.",
+      "payload": {
+        "questionSv": "Vilken knop använder du för att skarva två linor som är ungefär men inte riktigt lika grova?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "14:2a / photo_53 + photo_10"
+    },
+    {
+      "id": "sjo-tag-007",
+      "topicId": "top-sjo-tagvirke",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Dubbelt halvslag om egen part",
+          "isCorrect": true
+        },
+        {
+          "text": "Råbandsknop",
+          "isCorrect": false
+        },
+        {
+          "text": "Skotstek",
+          "isCorrect": false
+        },
+        {
+          "text": "Nyckstek",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "I en ring på bryggan förtöjer du bäst med dubbelt halvslag om egen part. Pålstek är också möjligt, men det är svårare att lossa – knopen kan inte öppnas när linan är under belastning, vilket den ofta är när man ska lägga loss.",
+      "explanationEn": "In a ring on the jetty you moor best with a round turn and two half hitches on the standing part. A bowline is also possible, but harder to release – it cannot be undone while the line is loaded, which it often is when casting off.",
+      "payload": {
+        "questionSv": "Vilken knop använder du för att förtöja båten i en ring på bryggan?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "14:2b / photo_53 + photo_10"
+    },
+    {
+      "id": "sjo-tag-008",
+      "topicId": "top-sjo-tagvirke",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Dubbelt halvslag om egen part",
+          "isCorrect": true
+        },
+        {
+          "text": "Skotstek",
+          "isCorrect": false
+        },
+        {
+          "text": "Råbandsknop",
+          "isCorrect": false
+        },
+        {
+          "text": "Överhandsknop",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En fender fästs i en grabbräcke (mantågsräcke) med dubbelt halvslag om egen part. Knopen är snabb att slå, håller säkert och är lätt att flytta när fendern behöver justeras i höjd eller längs båten.",
+      "explanationEn": "A fender is attached to a grab rail with a round turn and two half hitches on the standing part. The knot is quick to tie, holds securely and is easy to move when the fender needs adjusting in height or position.",
+      "payload": {
+        "questionSv": "Vilken knop använder du för att fästa en fender i en grabbräcke?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "14:2c / photo_53 + photo_10"
+    },
+    {
+      "id": "sjo-tag-009",
+      "topicId": "top-sjo-tagvirke",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Dubbelt halvslag om egen part (eller pålstek, som dock är svårare att lossa under belastning)",
+          "isCorrect": true
+        },
+        {
+          "text": "Råbandsknop, som är lättast att lossa när linan är belastad",
+          "isCorrect": false
+        },
+        {
+          "text": "Skotstek, som låser sig hårdare ju mer det drar i linan",
+          "isCorrect": false
+        },
+        {
+          "text": "Enkel överhandsknop runt stammen med tampen instucken under",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "För att förtöja i ett träd används dubbelt halvslag om egen part. Pålstek fungerar också men med samma förbehåll som vid ring: knopen är svår att lossa så länge linan är belastad.",
+      "explanationEn": "To moor to a tree you use a round turn and two half hitches on the standing part. A bowline also works, with the same reservation as for a ring: it is hard to undo while the line is under load.",
+      "payload": {
+        "questionSv": "Vilken knop använder du för att förtöja i ett träd?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "14:2d / photo_53 + photo_10"
+    },
+    {
+      "id": "sjo-tag-010",
+      "topicId": "top-sjo-tagvirke",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Pålstek eller dubbelt halvslag om egen part",
+          "isCorrect": true
+        },
+        {
+          "text": "Råbandsknop eller överhandsknop",
+          "isCorrect": false
+        },
+        {
+          "text": "Skotstek eller dubbelt skotstek",
+          "isCorrect": false
+        },
+        {
+          "text": "Två halvslag löst lagda utan rundtörn",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vid förtöjning i en grov påle på en brygga används pålstek – öglan träs över pålen – eller dubbelt halvslag om egen part. Skotstek är en skarvknop och råbandsknop hör inte hemma i förtöjningssammanhang.",
+      "explanationEn": "When mooring to a thick pile on a jetty you use a bowline – the loop is dropped over the pile – or a round turn and two half hitches on the standing part. A sheet bend is a joining knot and a reef knot has no place in mooring.",
+      "payload": {
+        "questionSv": "Vilken knop använder du för att förtöja i en grov påle på en brygga?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "14:2e / photo_53 + photo_10"
+    },
+    {
+      "id": "sjo-tag-011",
+      "topicId": "top-sjo-tagvirke",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Råbandsknop, gärna slagen med en ögla så att den kan lossas snabbt",
+          "isCorrect": true
+        },
+        {
+          "text": "Pålstek, eftersom öglan låser seglet hårt mot bommen",
+          "isCorrect": false
+        },
+        {
+          "text": "Skotstek, som är avsedd för att fästa dukändar",
+          "isCorrect": false
+        },
+        {
+          "text": "Dubbelt halvslag, som aldrig kan skaka loss ur ett segel",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "För att surra ett nedtaget segel till bommen används råbandsknop. Här är det vanligt att göra en ögla (som när man knyter skosnören) så att knopen kan lossas snabbt när seglet ska sättas igen.",
+      "explanationEn": "To lash a lowered sail to the boom you use a reef knot. It is common to tie it slipped, with a loop (like tying shoelaces), so the knot can be released quickly when the sail is to be set again.",
+      "payload": {
+        "questionSv": "Vilken knop använder du för att surra ett nedtaget segel till bommen?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "14:2f / photo_53 + photo_10"
+    },
+    {
+      "id": "sjo-tag-012",
+      "topicId": "top-sjo-tagvirke",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Två pålstek som är lagda i varandra",
+          "isCorrect": true
+        },
+        {
+          "text": "En råbandsknop som dras åt extra hårt",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett enkelt skotstek slaget med den grövre linan som ögla",
+          "isCorrect": false
+        },
+        {
+          "text": "Dubbelt halvslag runt den grövre linan",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Två linor som är mycket olika i grovlek fogas säkrast samman med två pålstek som läggs i varandra – öglorna hakas i varandra. Det blir lite klumpigt men mycket säkert. Ett skotstek kan slira när grovleksskillnaden är stor, och råbandsknop passar bara lika grova linor.",
+      "explanationEn": "Two lines of very different thickness are most safely joined with two interlocking bowlines – the loops hooked through each other. It is a bit bulky but very secure. A sheet bend can slip when the difference in thickness is large, and a reef knot only suits lines of equal size.",
+      "payload": {
+        "questionSv": "Hur fogar du säkrast samman två linor som är mycket olika i grovlek?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "14:2g / photo_53 + photo_10"
+    },
+    {
+      "id": "sjo-tag-013",
+      "topicId": "top-sjo-tagvirke",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Dubbelt halvslag (alternativt dubbelt halvslag om egen part eller pålstek)",
+          "isCorrect": true
+        },
+        {
+          "text": "Råbandsknop slagen runt pålen med båda tamparna",
+          "isCorrect": false
+        },
+        {
+          "text": "Skotstek med pålen som den grövre parten",
+          "isCorrect": false
+        },
+        {
+          "text": "En enkel rundtörn utan låsande halvslag",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "I en tunn påle förtöjer du med dubbelt halvslag direkt om pålen (alternativt dubbelt halvslag om egen part eller pålstek). Notera att pålsteken praktiskt taget kan användas till det mesta: fast ögla, löpögla och skarvning av två linor.",
+      "explanationEn": "To a thin pile you moor with two half hitches directly around the pile (alternatively a round turn and two half hitches on the standing part, or a bowline). Note that the bowline can be used for almost anything: a fixed loop, a running loop, or joining two lines.",
+      "payload": {
+        "questionSv": "Vilken knop använder du för att förtöja i en tunn påle på en brygga?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "14:2h / photo_53 + photo_10"
+    },
+    {
+      "id": "sjo-tag-014",
+      "topicId": "top-sjo-tagvirke",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Dubbelt halvslag om egen part – eller möjligtvis pålstek",
+          "isCorrect": true
+        },
+        {
+          "text": "Råbandsknop – eller möjligtvis käringknut",
+          "isCorrect": false
+        },
+        {
+          "text": "Skotstek – eller möjligtvis åtta",
+          "isCorrect": false
+        },
+        {
+          "text": "Vantknop – eller möjligtvis trumpetstek",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Runt en telefonstolpe passar dubbelt halvslag om egen part – knopen låser mot den egna parten, håller säkert runt grova föremål och går att lossa. Även en pålstek, som bildar en fast ögla runt stolpen, fungerar.",
+      "explanationEn": "Around a pole, a round turn with two half hitches on the standing part works well – it locks against its own part, holds on thick objects and can be released. A bowline, forming a fixed loop around the pole, also works.",
+      "payload": {
+        "questionSv": "Du ska förtöja båten och det enda som finns att göra fast i är en telefonstolpe uppe på land. Föreslå en lämplig knop."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:62 / photo_46 + photo_6"
+    }
+  ]
+}

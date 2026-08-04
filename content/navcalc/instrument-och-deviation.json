@@ -728,6 +728,80 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "5:6 / photo_72, photo_29, photo_1"
+    },
+    {
+      "id": "nav-instr-021",
+      "topicId": "top-nav-instrument",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Missvisning och deviation",
+          "isCorrect": true
+        },
+        {
+          "text": "Deviation och avdrift",
+          "isCorrect": false
+        },
+        {
+          "text": "Missvisning och strömsättning",
+          "isCorrect": false
+        },
+        {
+          "text": "Krängningsfel och avdrift",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Kompassen visar här 10 grader fel. Orsakerna är missvisning (jordens magnetfält varierar lokalt och ändrar sig långsamt) och deviation (magnetiska föremål ombord – järn, elektriska prylar m.m. – stör kompassen).",
+      "explanationEn": "The compass here reads 10 degrees wrong. The causes are variation (Earth's magnetic field differs locally and changes slowly) and deviation (magnetic objects on board – iron, electrical gear – disturbing the compass).",
+      "payload": {
+        "questionSv": "Du kontrollerar din kompass i enslinjen från Mysingeholms fyr ens med tavlan på Björkö. När du styr rakt mot fyrarna visar kompassen 036°, vilket är 10° fel. Nämn två orsaker till att kompassen kan visa fel vid en sådan kontroll (dock inte ström, avdrift eller mekaniskt fel på kompassen)."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:20 / photo_48 + photo_8"
+    },
+    {
+      "id": "nav-instr-022",
+      "topicId": "top-nav-instrument",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Fördelar: givaren kan placeras fritt undan störningar, kompassen kan kopplas till autopilot och logg, och deviation/missvisning kan justeras automatiskt. Nackdelar: elberoende och mer komplicerad, alltså mindre driftsäker",
+          "isCorrect": true
+        },
+        {
+          "text": "Fördelar: helt oberoende av båtens elsystem och alltid fri från deviation. Nackdelar: kan inte kopplas till andra instrument",
+          "isCorrect": false
+        },
+        {
+          "text": "Fördelar: fungerar även utan magnetfält och påverkas inte av båtens rörelser. Nackdelar: måste kalibreras vid varje start",
+          "isCorrect": false
+        },
+        {
+          "text": "Fördelar: billigare och enklare än mekaniska kompasser. Nackdelar: visar bara kurs över grund, inte kompasskurs",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Elektroniska fjärrkompasser har givaren skilt från displayen: den kan placeras där störningskällor och båtens rörelser stör minst, kopplas ihop med autopilot och logg, och deviation/missvisning kan justeras \"automatiskt\" samt dämpas. Nackdelen är elberoendet – mer komplicerat betyder mindre driftsäkert än en mekanisk kompass.",
+      "explanationEn": "Electronic fluxgate compasses separate sensor from display: the sensor can be sited away from interference and boat motion, integrate with autopilot and log, and deviation/variation can be corrected automatically and damped. The drawback is dependence on electricity – more complexity means less reliability than a mechanical compass.",
+      "payload": {
+        "questionSv": "Förutom traditionella, mekaniska kompasser finns elektroniska fjärrkompasser. Ange några för- och nackdelar med de elektroniska fjärrkompasserna."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:34 / photo_47 + photo_7"
     }
   ]
 }

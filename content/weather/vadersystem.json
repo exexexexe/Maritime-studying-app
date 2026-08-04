@@ -620,6 +620,117 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "9:17 / photo_63 + photo_21"
+    },
+    {
+      "id": "wx-sys-018",
+      "topicId": "top-weather-system",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ostadigt väder – kanske regn, blåst och dis",
+          "isCorrect": true
+        },
+        {
+          "text": "Klart och stabilt högtrycksväder med svaga vindar",
+          "isCorrect": false
+        },
+        {
+          "text": "Kortvariga åskskurar följda av snabb uppklarning",
+          "isCorrect": false
+        },
+        {
+          "text": "Sjunkande temperatur och hastigt vridande byig vind",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En varmfront ger ostadigt väder: molnen tätnar successivt och det kommer ofta regn, blåst och dis med försämrad sikt när fronten passerar.",
+      "explanationEn": "A warm front brings unsettled weather: clouds thicken gradually, and rain, wind and haze with reduced visibility often follow as the front passes.",
+      "payload": {
+        "questionSv": "Du hör på väderrapporten att en varmfront närmar sig. Vilken vädertyp kan väntas?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:32 / photo_47 + photo_7"
+    },
+    {
+      "id": "wx-sys-019",
+      "topicId": "top-weather-system",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Från 14 m/s (13,9 m/s)",
+          "isCorrect": true
+        },
+        {
+          "text": "Från 10 m/s",
+          "isCorrect": false
+        },
+        {
+          "text": "Från 18 m/s",
+          "isCorrect": false
+        },
+        {
+          "text": "Från 21 m/s",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Kulingvarning utfärdas från och med vindhastigheten 14 m/s (13,9 m/s). Hårdare vind än så innebär kuling – kraftiga vindar som ställer stora krav på båt och besättning.",
+      "explanationEn": "A gale (kuling) warning applies from a wind speed of 14 m/s (13.9 m/s). Winds at or above this level are demanding for both boat and crew.",
+      "payload": {
+        "questionSv": "Du hör på radion att det är kulingvarning. Från vilken vindhastighet räknas kulingen?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:35 / photo_47 + photo_7"
+    },
+    {
+      "id": "wx-sys-020",
+      "topicId": "top-weather-system",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Från sjön in mot land; under dagen vrider den med solen – på ostkusten från ost mot syd, på västkusten från väst mot nord",
+          "isCorrect": true
+        },
+        {
+          "text": "Från land ut mot sjön; under dagen vrider den mot solen – på ostkusten från väst mot nord",
+          "isCorrect": false
+        },
+        {
+          "text": "Parallellt med kusten hela dagen, alltid från norr mot söder",
+          "isCorrect": false
+        },
+        {
+          "text": "Från sjön in mot land på morgonen och från land ut mot sjön mitt på dagen",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Sjöbrisen blåser i princip från sjön in mot land, driven av att land värms snabbare än vattnet. Under dagens lopp vrider den så att den \"följer solen\": på ostkusten från ost mot syd och på västkusten från väst mot nord.",
+      "explanationEn": "The sea breeze blows from the sea toward land, driven by the land heating faster than the water. During the day it veers with the sun: on the east coast from east toward south, on the west coast from west toward north.",
+      "payload": {
+        "questionSv": "Du hör på radion att det ska bli sjöbris. Hur blåser sjöbrisen?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:36 / photo_47 + photo_7"
     }
   ]
 }

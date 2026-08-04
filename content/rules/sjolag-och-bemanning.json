@@ -1,0 +1,77 @@
+{
+  "topicId": "top-reg-sjolag",
+  "items": [
+    {
+      "id": "reg-lag-001",
+      "topicId": "top-reg-sjolag",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "För att föra fritidsskepp, det vill säga fritidsfartyg som är minst 12 meter långa och minst 4 meter breda (båda måtten uppfyllda).",
+          "isCorrect": true
+        },
+        {
+          "text": "För att föra fritidsfartyg som är längre än 12 meter eller bredare än 4 meter (ett av måtten räcker).",
+          "isCorrect": false
+        },
+        {
+          "text": "För alla fritidsfartyg som framförs utomskärs eller på internationellt vatten.",
+          "isCorrect": false
+        },
+        {
+          "text": "För fritidsfartyg med en bruttodräktighet över 20.",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Kustskepparintyg krävs för att föra fritidsskepp, det vill säga fritidsfartyg som är minst 12 meter långa och minst 4 meter breda – båda måtten måste vara uppfyllda. En lång men smal båt (t.ex. 14 × 3,5 m) räknas alltså inte som skepp.",
+      "explanationEn": "The Swedish coastal skipper certificate (Kustskepparintyg) is required to command a pleasure 'ship', i.e. a pleasure craft at least 12 metres long and at least 4 metres wide – both dimensions must be met. A long but narrow boat (e.g. 14 × 3.5 m) does not count as a ship.",
+      "payload": {
+        "questionSv": "När krävs kustskepparintyg?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "11:38 / photo_54, photo_12"
+    },
+    {
+      "id": "reg-lag-002",
+      "topicId": "top-reg-sjolag",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Nej – tillsynsbok krävs inte för en skuta som används som fritidsfartyg.",
+          "isCorrect": true
+        },
+        {
+          "text": "Ja – alla fartyg med en brutto över 20 måste ha tillsynsbok.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja – men bara om skutan framförs utanför svenskt inre vatten.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej – men skutan måste i stället ha ett internationellt mätbrev.",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Nej. En skuta med brutto 23 som används som fritidsfartyg behöver ingen tillsynsbok. Tillsynsbok hör ihop med den regelbundna tillsyn (besiktning) som gäller fartyg i yrkesmässig användning, till exempel passagerarfartyg.",
+      "explanationEn": "No. A traditional sailing vessel of 23 gross tonnage used as a pleasure craft needs no inspection book. The inspection book (tillsynsbok) belongs to the periodic survey regime for commercially operated vessels, such as passenger ships.",
+      "payload": {
+        "questionSv": "Du har köpt en skuta som har en brutto på 23. Krävs tillsynsbok?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "11:39 / photo_54, photo_12"
+    }
+  ]
+}

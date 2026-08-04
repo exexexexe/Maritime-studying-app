@@ -764,6 +764,191 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "8:17 / photo_64, facit photo_22"
+    },
+    {
+      "id": "col-ljud-022",
+      "topicId": "top-col-ljud",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Min propeller arbetar för back",
+          "isCorrect": true
+        },
+        {
+          "text": "Jag girar styrbord",
+          "isCorrect": false
+        },
+        {
+          "text": "Jag girar babord",
+          "isCorrect": false
+        },
+        {
+          "text": "Jag förstår inte dina avsikter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tre korta ljudsignaler betyder att fartygets propeller arbetar för back – t.ex. när ångbåten backar ut från kajen. Observera att signalen inte säger åt vilket håll fartyget faktiskt rör sig.",
+      "explanationEn": "Three short blasts mean the vessel's engine is operating astern propulsion – for example when backing away from the quay. Note that the signal does not say which way the vessel is actually moving.",
+      "payload": {
+        "questionSv": "En liten ångbåt ligger vid en kaj. Just när du ska till att passera avger den tre korta ljudsignaler. Vad betyder det?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:29 / photo_47 + photo_7"
+    },
+    {
+      "id": "col-ljud-023",
+      "topicId": "top-col-ljud",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Jag girar babord",
+          "isCorrect": true
+        },
+        {
+          "text": "Jag girar styrbord",
+          "isCorrect": false
+        },
+        {
+          "text": "Min propeller arbetar för back",
+          "isCorrect": false
+        },
+        {
+          "text": "Jag avser att passera på din babordssida",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Två korta ljudsignaler betyder \"jag girar babord\". En kort signal betyder styrbordsgir och tre korta att propellern arbetar för back.",
+      "explanationEn": "Two short blasts mean \"I am altering course to port\". One short blast means a starboard turn, and three short blasts mean the engine is going astern.",
+      "payload": {
+        "questionSv": "En färja avger 2 korta ljudsignaler. Vad betyder det?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:30 / photo_47 + photo_7"
+    },
+    {
+      "id": "col-ljud-024",
+      "topicId": "top-col-ljud",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Fem eller flera korta signaler betyder ungefär \"jag förstår inte dina avsikter\"",
+          "isCorrect": true
+        },
+        {
+          "text": "Sju korta signaler betyder att färjan ska vända och gå tillbaka",
+          "isCorrect": false
+        },
+        {
+          "text": "Det är en mistsignal som avges var sjunde minut i nedsatt sikt",
+          "isCorrect": false
+        },
+        {
+          "text": "Det är en nödsignal som betyder att färjan behöver omedelbar hjälp",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Fem eller flera korta signaler är varnings-/tveksamhetssignalen som betyder ungefär \"jag förstår inte dina avsikter\" – fartyget är osäkert på om du tänker väja. Kontrollera direkt din egen manöver.",
+      "explanationEn": "Five or more short blasts is the wake-up/doubt signal meaning roughly \"I do not understand your intentions\" – the vessel doubts you will keep clear. Check your own manoeuvre immediately.",
+      "payload": {
+        "questionSv": "Något senare avger samma färja 7 korta signaler. Vad menas?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:31 / photo_47 + photo_7"
+    },
+    {
+      "id": "col-ljud-025",
+      "topicId": "top-col-ljud",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ett maskindrivet fartyg som gör fart genom vattnet",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett maskindrivet fartyg som ligger stilla (gör ej fart genom vattnet)",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett segelfartyg under gång",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg till ankars",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett långt ljud varannan minut är mistsignalen för ett maskindrivet fartyg som gör fart genom vattnet. Ligger det stilla avges i stället två långa, och segelfartyg m.fl. avger ett långt följt av två korta.",
+      "explanationEn": "One prolonged blast every two minutes is the fog signal of a power-driven vessel making way through the water. Stopped, she sounds two prolonged blasts; sailing vessels and others sound one prolonged plus two short.",
+      "payload": {
+        "questionSv": "I dimma hör du ett fartyg som avger ett långt ljud varannan minut. Hur tolkar du detta?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:37 / photo_47 + photo_7"
+    },
+    {
+      "id": "col-ljud-026",
+      "topicId": "top-col-ljud",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Någon kraftig ljudsignal varannan minut – eftersom båten är kortare än 12 meter krävs ingen reglementsenlig signalutrustning",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett långt och två korta ljud varannan minut med reglementsenlig mistlur",
+          "isCorrect": false
+        },
+        {
+          "text": "Klockringning i femton sekunder varje minut",
+          "isCorrect": false
+        },
+        {
+          "text": "Ingen signal alls – båtar under tolv meter är helt undantagna signalkrav vid nedsatt sikt",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En båt under 12 meter behöver inte ha \"reglementsenlig\" signalutrustning, men den är ändå skyldig att avge någon kraftig ljudsignal minst varannan minut vid nedsatt sikt, så att andra hör var den finns.",
+      "explanationEn": "A vessel under 12 metres need not carry the prescribed sound-signalling equipment, but in restricted visibility she must still make some efficient sound signal at least every two minutes so others can hear her.",
+      "payload": {
+        "questionSv": "Om du färdas i en åtta meter lång motorbåt – vilken signal är du skyldig att avge vid nedsatt sikt?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:38 / photo_47 + photo_7"
     }
   ]
 }

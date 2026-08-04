@@ -1555,6 +1555,43 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "4:53 Gustaf Dalén / photo_73, photo_31"
+    },
+    {
+      "id": "buoy-fyr-044",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Girar styrbord",
+          "isCorrect": true
+        },
+        {
+          "text": "Girar babord",
+          "isCorrect": false
+        },
+        {
+          "text": "Håller kursen – rött sken betyder att jag är mitt i farleden",
+          "isCorrect": false
+        },
+        {
+          "text": "Vänder och går tillbaka samma väg",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Farledsfyrens vita sektor ligger över farleden. När skenet växlar från vitt till rött har du kommit ut ur den vita sektorn åt sidan – här girar du styrbord för att komma in i det vita skenet igen.",
+      "explanationEn": "The white sector of a fairway light covers the fairway. When the light changes from white to red you have drifted out of the white sector – here you turn to starboard to get back into the white light.",
+      "payload": {
+        "questionSv": "Du går mot en farledsfyr. Skenet växlar från vitt till rött. Åt vilket håll girar du för att komma in i vit sektor igen?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:39 / photo_47 + photo_7"
     }
   ]
 }

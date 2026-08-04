@@ -757,6 +757,117 @@
       "needsReview": true,
       "needsReviewNote": "Facit är en figur (photo_40). Figuren med märkena (romb-topptecken) behöver beskäras från photo_84 och girriktningen verifieras mot facitbilden.",
       "sourceRef": "1:19b / photo_84, photo_40"
+    },
+    {
+      "id": "buoy-lat-021",
+      "topicId": "top-buoy-lateral",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Stoppgräns – här ska du stanna och invänta klartecken",
+          "isCorrect": true
+        },
+        {
+          "text": "Fritt genomlopp – slussen är öppen",
+          "isCorrect": false
+        },
+        {
+          "text": "Ljudsignal påbjuden före passage",
+          "isCorrect": false
+        },
+        {
+          "text": "Begränsad segelfri höjd i slussen",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Skylten med röd ram och svart vågrätt streck är en stoppgräns. Vid slussar och broar betyder den att du inte får passera skylten förrän du fått klartecken.",
+      "explanationEn": "The sign with a red frame and black horizontal bar is a stop limit. At locks and bridges it means you must not pass the sign until you are cleared to proceed.",
+      "payload": {
+        "questionSv": "Du är på väg in mot en sluss. På en brygga ser du en skylt med röd ram och ett svart vågrätt streck. Vad betyder den?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:5 / photo_49 + photo_8"
+    },
+    {
+      "id": "buoy-lat-022",
+      "topicId": "top-buoy-lateral",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Röd",
+          "isCorrect": true
+        },
+        {
+          "text": "Grön",
+          "isCorrect": false
+        },
+        {
+          "text": "Svart och gul",
+          "isCorrect": false
+        },
+        {
+          "text": "Svart med rött bälte",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Sjökortssymbolen visar en babordsprick, och babordsmärken i lateralsystemet är röda. I verkligheten ser du alltså en röd prick.",
+      "explanationEn": "The chart symbol shows a port-hand lateral mark, and port marks in the IALA lateral system are red – so in reality the buoy is red.",
+      "payload": {
+        "questionSv": "I sjökortet ser du en prick ritad som en stång med fyrkantigt topptecken (se figur vid 17:6). Vilken färg har pricken i verkligheten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:6 / photo_49 + photo_8"
+    },
+    {
+      "id": "buoy-lat-023",
+      "topicId": "top-buoy-lateral",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Nej, det är inte tillåtet",
+          "isCorrect": true
+        },
+        {
+          "text": "Ja, om det bara sker en kort stund",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja, men enbart i specialmärken (gula)",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja, om märket ligger utanför farled",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Det är förbjudet att förtöja i sjömärken, även tillfälligt. Belastningen kan dra märket ur sitt läge så att det visar fel – och ett felplacerat sjömärke kan orsaka grundstötningar.",
+      "explanationEn": "Mooring to a seamark is prohibited, even briefly. The load can drag the buoy out of position so it marks the wrong spot – and a displaced seamark can cause groundings.",
+      "payload": {
+        "questionSv": "Är det tillåtet att förtöja tillfälligt, för att till exempel meta, i ett flytande sjömärke?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:10 / photo_49 + photo_8"
     }
   ]
 }

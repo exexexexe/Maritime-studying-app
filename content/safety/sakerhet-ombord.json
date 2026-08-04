@@ -177,6 +177,1150 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "7:2 / photo_69, facit photo_26"
+    },
+    {
+      "id": "saf-omb-006",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Nej – även den som hjälper till med uppgifter av betydelse för sjösäkerheten omfattas av sjöfyllerireglerna.",
+          "isCorrect": true
+        },
+        {
+          "text": "Ja – promillegränsen gäller bara den som faktiskt styr båten.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja – så länge skepparen själv är nykter ansvarar denne för hela besättningen.",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej – men bara om båten vid tillfället framförs i mer än 15 knop.",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Sjöfyllerilagen gäller inte bara rorsmannen utan alla ombord som fullgör en uppgift av väsentlig betydelse för säkerheten, t.ex. att hissa segel, hålla utkik eller hantera förtöjningar. På en båt som kan göra mer än 15 knop (eller är minst 10 m lång) gäller promillegränsen 0,2 – därför är det olagligt att låta berusade vänner sköta segel och utkik.",
+      "explanationEn": "Swedish drink-boating law covers not only the helmsman but everyone on board performing a task essential to safety, such as hoisting sails, keeping lookout or handling lines. On a boat capable of more than 15 knots (or at least 10 m long) the 0.02% limit applies, so letting intoxicated friends handle sails and lookout is illegal.",
+      "payload": {
+        "questionSv": "Du är skeppare på en båt som kan göra mer än 15 knop, och du är själv spik nykter. Två vänner som klart överskridit promillegränsen för bilkörning hjälper till ombord: de hissar segel, hoppar iland och håller utkik eftersom sikten är dålig. Är detta lagligt?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "11:1 / photo_56, photo_14"
+    },
+    {
+      "id": "saf-omb-007",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Flytväst, brandsläckare, vattenskyddad mobiltelefon (eller VHF) och ankare.",
+          "isCorrect": true
+        },
+        {
+          "text": "Livflotte, EPIRB, radartransponder och stormsegel.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sextant, barometer, signalpistol och reservpropeller.",
+          "isCorrect": false
+        },
+        {
+          "text": "Drivankare, säkerhetsselar, vattenmakare och nödproviant.",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Inomskärs är hjälpen oftast nära. De viktigaste sakerna är därför flytväst (håller dig flytande), brandsläckare (brand är en vanlig olycksorsak), en vattenskyddad mobiltelefon eller VHF (för att larma) och ett ankare (för att hindra att båten driver på grund eller land). Livflotte, EPIRB m.m. hör hemma på långfärder utomskärs/till havs.",
+      "explanationEn": "In sheltered inshore waters help is usually close by. The key items are a lifejacket (keeps you afloat), a fire extinguisher (fire is a common cause of accidents), a waterproofed mobile phone or VHF (to raise the alarm) and an anchor (to stop the boat drifting onto rocks or shore). Life rafts, EPIRBs etc. belong on offshore passages.",
+      "payload": {
+        "questionSv": "Nämn några viktiga utrustningsdetaljer som kan komma till nytta vid en nödsituation inomskärs."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "11:2 / photo_56, photo_14"
+    },
+    {
+      "id": "saf-omb-008",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Läckande bensin.",
+          "isCorrect": true
+        },
+        {
+          "text": "Fel i det elektriska systemet.",
+          "isCorrect": false
+        },
+        {
+          "text": "Läckande gasol i pentryt.",
+          "isCorrect": false
+        },
+        {
+          "text": "Överhettade motorer.",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Den vanligaste orsaken till båtbränder är läckande bensin. Bensinångor är tyngre än luft och samlas i kölsvinet, där en gnista räcker för att antända dem – därför är täta bränslesystem, ventilation och motorrumsfläkt så viktiga.",
+      "explanationEn": "The most common cause of boat fires is leaking petrol. Petrol vapour is heavier than air and collects in the bilge, where a single spark can ignite it – which is why tight fuel systems, ventilation and a bilge blower are so important.",
+      "payload": {
+        "questionSv": "Vilken är den vanligaste orsaken till båtbränder?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "11:10 / photo_56, photo_14"
+    },
+    {
+      "id": "saf-omb-009",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Påfyllning och tankventilation utombords, jordat bränslesystem, bra slangar och ledningar samt speciell motorrumsfläkt för bensinmotorer.",
+          "isCorrect": true
+        },
+        {
+          "text": "Påfyllning inombords för att undvika vattenintrång, plastade ledningar och rejält tilltagen tankvolym.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tanken placerad så högt som möjligt, genomskinliga slangar och avstängd ventilation under gång.",
+          "isCorrect": false
+        },
+        {
+          "text": "Dubbla tankar med öppen förbindelse, oisolerade kopparledningar och ventilation genom motorrummet.",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Bränslepåfyllning och tankventilation ska mynna utombords, så att varken bensin eller bensingaser kan komma in i båten. Bränslesystemet ska vara jordat (mot statisk elektricitet), alla slangar och ledningar måste vara i gott skick, och bensininombordare ska ha speciella gnistskyddade motorrumsfläktar.",
+      "explanationEn": "The fuel filler and tank vent must lead overboard so that neither petrol nor petrol vapour can enter the boat. The fuel system must be earthed (against static electricity), all hoses and lines must be in good condition, and inboard petrol engines require special spark-proof engine-room blowers.",
+      "payload": {
+        "questionSv": "Nämn några viktiga saker som man måste tänka på när det gäller bensintanksinstallationen."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "11:11 / photo_56, photo_14"
+    },
+    {
+      "id": "saf-omb-010",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Tuben i ett gastätt utrymme med dräneringshål på båtens utsida (eller på däck), slangar och rör av godkänd standard, tändsäkring på alla gasolförbrukare och gärna en läckprovare vid tuben.",
+          "isCorrect": true
+        },
+        {
+          "text": "Tuben förvarad i kölsvinet där det är svalt, vanlig trädgårdsslang till spisen och huvudkranen alltid öppen för jämnt tryck.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tuben liggande i en stuvfack inombords, kopplingar tätade med tejp och kontroll av läckage med tändsticka.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tuben upphängd i masten, dubbla reduceringsventiler och dränering till självlänsen i sittbrunnen.",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Gasoltuben ska vara placerad i ett gastätt utrymme med dräneringshål på båtens utsida – gasol är tyngre än luft och måste kunna rinna ut. Alternativt kan tuben stå på däck. Slangar och rör ska vara av godkänd standard, spis, värmare och andra förbrukare ska ha tändsäkring, och vid tuben kan en läckprovare placeras.",
+      "explanationEn": "The LPG bottle must be stowed in a gas-tight locker draining overboard – LPG is heavier than air and must be able to run out. Alternatively the bottle can stand on deck. Hoses and piping must be of approved standard, the stove, heater and other consumers must have flame-failure devices, and a leak tester can be fitted at the bottle.",
+      "payload": {
+        "questionSv": "Nämn några viktiga saker som man måste tänka på när det gäller gasolinstallationer."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "11:12 / photo_56, photo_14"
+    },
+    {
+      "id": "saf-omb-011",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Spill inte bensin i båten, ta iland lösa/bärbara tankar och fyll dem på bryggan, kör motorrumsfläkten före start – och rök inte, stoppa motorn och släck öppen låga.",
+          "isCorrect": true
+        },
+        {
+          "text": "Tanka alltid med motorn på tomgång så att eventuella gaser vädras ut genom avgassystemet.",
+          "isCorrect": false
+        },
+        {
+          "text": "Fyll bärbara tankar ombord i sittbrunnen så att spill kan samlas upp av självlänsen.",
+          "isCorrect": false
+        },
+        {
+          "text": "Stäng alla luckor och ventiler under tankningen så att inga gaser tränger in, och starta direkt efteråt.",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Var försiktig så att ingen bensin spills ner i båten. En bärbar tank, som är vanlig till utombordsmotorer, tas iland och fylls där. Använd motorrumsfläkten innan motorn startas. Dessutom gäller de vanliga rutinerna: rök inte, stoppa motorn och släck all öppen låga och gnistbildare.",
+      "explanationEn": "Take care not to spill petrol into the boat. A portable tank, common with outboards, should be taken ashore and filled there. Run the engine-room blower before starting. The usual rules also apply: no smoking, engine stopped, and all open flames and spark sources extinguished.",
+      "payload": {
+        "questionSv": "Nämn några rutiner vid tankning som minskar brandrisken."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "11:13 / photo_56, photo_14"
+    },
+    {
+      "id": "saf-omb-012",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Pulversläckare – inte vatten.",
+          "isCorrect": true
+        },
+        {
+          "text": "Rikligt med vatten – det kyler och spolar bort bensinen.",
+          "isCorrect": false
+        },
+        {
+          "text": "En våt handduk som läggs över bensinen.",
+          "isCorrect": false
+        },
+        {
+          "text": "Länspumpen – pumpa ut den brinnande bensinen.",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Brand i utspilld bensin släcks med pulversläckare. Vatten fungerar inte – bensinen flyter ovanpå vattnet och branden sprids i stället.",
+      "explanationEn": "Burning spilled petrol is extinguished with a dry-powder extinguisher. Water does not work – petrol floats on top of it, so the fire spreads instead.",
+      "payload": {
+        "questionSv": "Vad använder du för att släcka en brand i utspilld bensin?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "11:14a / photo_56, photo_14"
+    },
+    {
+      "id": "saf-omb-013",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ett lock som sluter tätt över pannan och kväver elden.",
+          "isCorrect": true
+        },
+        {
+          "text": "Vatten som hälls försiktigt i pannan.",
+          "isCorrect": false
+        },
+        {
+          "text": "Pulversläckare riktad rakt ner i pannan.",
+          "isCorrect": false
+        },
+        {
+          "text": "Bär ut pannan i sittbrunnen och låt den brinna ut.",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Brand i matolja i en stekpanna släcks genom att lägga på ett lock som sluter tätt och kväver elden. Häll aldrig vatten på brinnande olja – det ger en explosionsartad ångbildning som sprider den brinnande oljan.",
+      "explanationEn": "A cooking-oil fire in a pan is put out by covering it with a tight-fitting lid that smothers the flames. Never pour water on burning oil – the water flashes into steam and violently spreads the burning oil.",
+      "payload": {
+        "questionSv": "Vad använder du för att släcka en brand i matolja i en stekpanna?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "11:14b / photo_56, photo_14"
+    },
+    {
+      "id": "saf-omb-014",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Vatten eller brandfilt – pulver fungerar också men smutsar ner.",
+          "isCorrect": true
+        },
+        {
+          "text": "Endast pulversläckare – vatten leder ström till elsystemet.",
+          "isCorrect": false
+        },
+        {
+          "text": "Kolsyresläckare – textilbränder kräver gas som kyler.",
+          "isCorrect": false
+        },
+        {
+          "text": "Kväv elden genom att stänga alla luckor och vänta.",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Brinnande gardiner (textil) släcks med vatten eller brandfilt. Pulver fungerar också men smutsar ner ordentligt.",
+      "explanationEn": "Burning curtains (textiles) are extinguished with water or a fire blanket. Dry powder also works but makes a serious mess.",
+      "payload": {
+        "questionSv": "Vad använder du för att släcka en brand i gardiner?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "11:14c / photo_56, photo_14"
+    },
+    {
+      "id": "saf-omb-015",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Pulver, vattendimma eller gassläckare.",
+          "isCorrect": true
+        },
+        {
+          "text": "Rikligt med sjövatten genom helt öppnade motorrumsluckor.",
+          "isCorrect": false
+        },
+        {
+          "text": "Brandfilt som trycks ner mot motorblocket.",
+          "isCorrect": false
+        },
+        {
+          "text": "Full fart framåt så att fartvinden blåser ut elden.",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Brand i motorrummet släcks med pulver, vattendimma eller gas. Öppna inte motorrumsluckan mer än nödvändigt – syretillförseln får branden att flamma upp. Många båtar har därför ett särskilt släckhål eller fast släckanläggning för motorrummet.",
+      "explanationEn": "An engine-room fire is fought with dry powder, water mist or a gas extinguisher. Do not open the engine hatch more than necessary – the added oxygen makes the fire flare up. Many boats therefore have a dedicated extinguisher port or a fixed system for the engine space.",
+      "payload": {
+        "questionSv": "Vad använder du för att släcka en brand i motorrummet?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "11:14d / photo_56, photo_14"
+    },
+    {
+      "id": "saf-omb-016",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Vatten, brandfilt eller hopp över bord – vid släckning bör personen ligga ner och filten läggas på uppifrån huvudet och neråt.",
+          "isCorrect": true
+        },
+        {
+          "text": "Pulversläckare riktad mot ansiktet så att lågorna kvävs snabbast möjligt.",
+          "isCorrect": false
+        },
+        {
+          "text": "Låt personen springa mot fören så att fartvinden kväver lågorna.",
+          "isCorrect": false
+        },
+        {
+          "text": "Riv av de brinnande kläderna innan något släckmedel används.",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Brinnande kläder på en människa släcks med vatten, brandfilt eller genom hopp över bord. Vid släckning bör personen ligga ner; filten läggs på uppifrån huvudet och neråt. Det gäller att undvika inandning av de heta gaserna.",
+      "explanationEn": "Burning clothes on a person are extinguished with water, a fire blanket or by jumping overboard. The person should lie down; the blanket is applied from the head downwards. The key point is to prevent inhalation of the hot gases.",
+      "payload": {
+        "questionSv": "Vad använder du för att släcka en brand i kläder på en människa – och hur går du tillväga?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "11:14e / photo_56, photo_14"
+    },
+    {
+      "id": "saf-omb-017",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "I små öppna båtar, oftast i skyddade vatten och ofta i samband med fiske.",
+          "isCorrect": true
+        },
+        {
+          "text": "I stora segelbåtar på öppet hav i hårt väder.",
+          "isCorrect": false
+        },
+        {
+          "text": "I snabba motorbåtar vid kollisioner i trånga farleder.",
+          "isCorrect": false
+        },
+        {
+          "text": "I hamnar, vid ombord- och ilandstigning i mörker.",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "De flesta dödsolyckorna med fritidsbåtar sker i små öppna båtar, oftast i skyddade vatten och ofta under fiske. Det är alltså inte de dramatiska havsförhållandena som skördar flest liv, utan vardagssituationer nära land – ofta utan flytväst.",
+      "explanationEn": "Most fatal recreational-boating accidents happen in small open boats, usually in sheltered waters and often while fishing. It is not dramatic offshore conditions that claim the most lives, but everyday situations close to shore – often without a lifejacket.",
+      "payload": {
+        "questionSv": "Var och hur sker de flesta dödsolyckorna i samband med fritidsbåtar?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "11:15 / photo_56, photo_14"
+    },
+    {
+      "id": "saf-omb-018",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Minst 0,5 meter under vattenytan.",
+          "isCorrect": true
+        },
+        {
+          "text": "Minst 0,2 meter under vattenytan.",
+          "isCorrect": false
+        },
+        {
+          "text": "Minst 1,5 meter under vattenytan.",
+          "isCorrect": false
+        },
+        {
+          "text": "I höjd med vattenytan – djupare steg gör stegen svår att använda.",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Det nedersta steget bör sitta minst 0,5 meter under vattenytan. Praktiska prov har visat att en normalt spänstig person med våta kläder inte kan ta sig ombord om det inte går att fälla ner ett steg under ytan. Det är också viktigt att den som ligger i vattnet själv kan nå nedfällningsmekanismen, ifall ingen finns ombord.",
+      "explanationEn": "The lowest step should be at least 0.5 metres below the surface. Practical tests have shown that a normally fit person in wet clothes cannot climb aboard unless a step can be folded down below the waterline. It is also vital that a person in the water can reach the release mechanism themselves in case nobody is on board.",
+      "payload": {
+        "questionSv": "En kraftig och fast monterad badstege är ett viktigt säkerhetstillbehör. Hur långt under vattenytan rekommenderas att det nedersta steget ska sitta?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "11:17 / photo_55, photo_13"
+    },
+    {
+      "id": "saf-omb-019",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Halkskydd, höga fotlister, livselar, grabbräcken samt ordentliga mantåg och pulpit.",
+          "isCorrect": true
+        },
+        {
+          "text": "Frälsarkrans, livflotte, nödraketer och MOB-knapp på plottern.",
+          "isCorrect": false
+        },
+        {
+          "text": "Radarreflektor, mistlur, lanternor och länspump.",
+          "isCorrect": false
+        },
+        {
+          "text": "Badstege, kastlina, värmefilt och vattentät ficklampa.",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Utrustning som förebygger fall över bord: halkskydd på däck, höga fotlister, livselar, grabbräcken samt ordentliga mantåg och pulpit. Frälsarkrans och badstege är viktiga – men de hjälper först efter att någon redan fallit i.",
+      "explanationEn": "Equipment that prevents falling overboard: non-slip deck surfaces, high toe rails, safety harnesses, grab rails, and proper guard rails (lifelines) and pulpit. A lifebuoy and bathing ladder matter too – but only after someone has already gone in.",
+      "payload": {
+        "questionSv": "Nämn några viktiga utrustningsdetaljer som förebygger fall över bord!"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "11:19 / photo_55, photo_13"
+    },
+    {
+      "id": "saf-omb-020",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "I segelbåt: minska segelytan innan vinden blivit för hård, fall av vid segelskiften och vänj dig vid att använda livsele.",
+          "isCorrect": true
+        },
+        {
+          "text": "I segelbåt: öka farten vid segelskiften så att arbetet går snabbare och båten ligger stabilare.",
+          "isCorrect": false
+        },
+        {
+          "text": "I segelbåt: gör alla segelskiften i lovart och spara revningen tills vinden nått kulingstyrka.",
+          "isCorrect": false
+        },
+        {
+          "text": "I segelbåt: håll dig alltid i sittbrunnen och låt autopiloten sköta segelskiften.",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Viktiga rutiner som minskar risken att någon faller över bord i segelbåt: minska segelytan innan vinden blivit för hård (reva i tid), fall av vid segelskiften så att båten går lugnare, och vänj dig vid att använda livsele.",
+      "explanationEn": "Important routines that reduce the risk of falling overboard on a sailing boat: reduce sail before the wind gets too strong (reef in time), bear away during sail changes so the boat rides more gently, and get into the habit of using a safety harness.",
+      "payload": {
+        "questionSv": "Nämn några viktiga rutiner ombord som minskar riskerna att någon faller över bord!"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "11:20 / photo_55, photo_13"
+    },
+    {
+      "id": "saf-omb-021",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Föroreningar i bränsletankarna skvalpar omkring i sjögången och risken för stopp i bränslesystemet ökar.",
+          "isCorrect": true
+        },
+        {
+          "text": "Propellern går ur vattnet i vågorna och motorn övervarvar tills den skär.",
+          "isCorrect": false
+        },
+        {
+          "text": "Kylvattenintaget kommer i luften och motorn överhettar.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sjövatten tränger in genom avgasröret och dränker motorn.",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "I sjögång rörs innehållet i bränsletankarna om: föroreningar och smuts som legat på botten skvalpar omkring och sugs med in i bränslesystemet, så att filter och ledningar sätts igen. Därför måste tankarna hållas rena, bränslet filtreras och tankarna inte köras tomma eller nästan tomma.",
+      "explanationEn": "In a seaway the contents of the fuel tanks are stirred up: dirt and sediment from the bottom slosh around and get drawn into the fuel system, clogging filters and lines. That is why tanks must be kept clean, fuel filtered, and tanks not run empty or nearly empty.",
+      "payload": {
+        "questionSv": "Risken för motorstopp ökar när det är sjögång. Varför?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "11:29 / photo_55, photo_13"
+    },
+    {
+      "id": "saf-omb-022",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Vatten som skvalpar omkring i båten förstärker sjögångens effekter och båten kan kantra.",
+          "isCorrect": true
+        },
+        {
+          "text": "Vatten i kölsvinet gör båten tyngre så att motorn drar mer bränsle.",
+          "isCorrect": false
+        },
+        {
+          "text": "Vatten i båten fryser till is och kan spränga bordläggningen.",
+          "isCorrect": false
+        },
+        {
+          "text": "Vattnet stiger snabbare i sjögång eftersom självlänsen slutar fungera.",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vatten som skvalpar omkring i båten (fri vätskeyta) förstärker sjögångens effekter – när båten kränger rusar vattnet över åt läsidan och ökar krängningen ytterligare, och båten kan kantra. Därför är det särskilt viktigt att hålla båten väl länsad i sjögång.",
+      "explanationEn": "Water sloshing around in the boat (free surface effect) amplifies the effect of the seas – when the boat heels, the water rushes to the low side and increases the heel further, and the boat can capsize. That is why keeping the boat well pumped out is especially important in rough water.",
+      "payload": {
+        "questionSv": "Varför är det särskilt viktigt att hålla en båt väl länsad när det är sjögång?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "11:30 / photo_55, photo_13"
+    },
+    {
+      "id": "saf-omb-023",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ligga bi under segel med focken skotad i lovart, ligga bi för bara riggen, länsa med vinden och ligga bi med drivankare.",
+          "isCorrect": true
+        },
+        {
+          "text": "Ankra på djupt vatten, gå för motor rakt mot sjön, ligga bi med storseglet och söka nödhamn oavsett läge.",
+          "isCorrect": false
+        },
+        {
+          "text": "Länsa mot vinden, ligga bi med spinnaker, ankra med drivankare från aktern och kryssa med fulla segel.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ligga bi med focken skotad i lä, driva för bara skrovet, länsa tvärs vinden och gå upp i vindögat för motor.",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "De fyra klassiska metoderna är: ligga bi under segel med focken skotad i lovart, ligga bi för bara riggen, länsa med vinden och ligga bi med drivankare. De är dock inte lämpliga i alla situationer och för alla båtar – erfarenheter från hårda havskappseglingar visar att man med moderna båtar ofta tjänar på en aktiv metod: att rida ut ovädret med bibehållen styrfart och manöverförmåga, så att rorsman kan parera sjöarna.",
+      "explanationEn": "The four classic methods are: heaving to under sail with the jib backed to windward, lying a-hull under bare poles, running before the wind, and lying to a sea anchor (drogue). They do not suit every boat and situation – experience from hard offshore races shows modern boats often do better with an active approach: riding out the storm with steerage way maintained so the helmsman can meet the seas.",
+      "payload": {
+        "questionSv": "I grundboken Navigering och sjömanskap beskrivs fyra sätt för en segelbåt att rida ut riktigt hårt väder till havs. Vilka är de fyra klassiska metoderna?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "11:31 / photo_55, photo_13"
+    },
+    {
+      "id": "saf-omb-024",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Använd en riktigt lång bogsertross som aldrig lättar ur vattnet, och sätt en tyngd på trossen.",
+          "isCorrect": true
+        },
+        {
+          "text": "Använd en kort och styv tross som hålls hårt spänd hela tiden.",
+          "isCorrect": false
+        },
+        {
+          "text": "Bogsera med kätting i stället för tross och kör med jämn hög fart.",
+          "isCorrect": false
+        },
+        {
+          "text": "Fäst trossen så högt som möjligt i masten så att den fjädrar i riggen.",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vid bogsering i hög sjö måste bogsertrossen ha svikt för att undvika häftiga ryck. Det uppnås genom att använda en riktigt lång tross – den ska aldrig lätta ur vattnet – och genom att sätta en tyngd på trossen. Trossens buktning och tyngden fungerar som fjäder som tar upp rycken.",
+      "explanationEn": "When towing in a heavy sea the towline must have elasticity to avoid violent snatching. This is achieved with a really long line – it should never lift out of the water – and by attaching a weight to it. The sag of the line and the weight act as a spring absorbing the jerks.",
+      "payload": {
+        "questionSv": "Vid bogsering i hög sjö är det viktigt att undvika häftiga ryck – bogsertrossen måste ha svikt. Ange ett par sätt att uppnå denna svikt."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "11:32 / photo_55, photo_12"
+    },
+    {
+      "id": "saf-omb-025",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Flytta tyngder långt ner, pumpa ut vatten som kommit ombord (ingen fri vätskeyta) och ha skvalpskott i stora tankar – helst helt fulla eller helt tomma tankar.",
+          "isCorrect": true
+        },
+        {
+          "text": "Flytta tyngder högre upp så att båten rullar mjukare, och håll tankarna halvfulla som ballast.",
+          "isCorrect": false
+        },
+        {
+          "text": "Öka farten så att båten planar och stabiliseras av fartvinden.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ta in mer vatten i kölsvinet som ballast och samla besättningen i fören.",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Stabiliteten förbättras genom att flytta tyngder långt ner i båten. Se också till att det inte finns någon \"fri vätskeyta\": vatten som kommit ombord ska pumpas ut, och båtar med riktigt stora vatten- och bränsletankar måste ha skvalpskott (väggar inuti tankarna med små hål) så att vätskan inte kan röra sig obehindrat. Idealet ur stabilitetssynpunkt är att en tank är antingen helt full eller helt tom.",
+      "explanationEn": "Stability is improved by moving weights as low as possible. Also eliminate free surfaces: pump out any water that has come aboard, and boats with really large water and fuel tanks need baffles (internal walls with small holes) so the liquid cannot move freely. From a stability standpoint a tank should ideally be either completely full or completely empty.",
+      "payload": {
+        "questionSv": "Vad kan göras för att förbättra en båts stabilitet?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "11:33 / photo_55, photo_12"
+    },
+    {
+      "id": "saf-omb-026",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Söderfladen – lika skyddad som Västerfladen men färden dit blir enklast och bekvämast eftersom Långön ger lä, och fyren på Fyrskär underlättar navigeringen i mörkret.",
+          "isCorrect": true
+        },
+        {
+          "text": "Österfladen – den ligger närmast i medvind och det smala inloppet ger gott skydd när ni väl är inne.",
+          "isCorrect": false
+        },
+        {
+          "text": "Klubbholmarna – hamnen är skyddad för alla vindar och ni är redan på väg dit.",
+          "isCorrect": false
+        },
+        {
+          "text": "Läsidan av Lillön – kortaste vägen och ön ger omedelbart lä för den västliga vinden.",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Facit: Söderfladen är nog det bästa alternativet. Den är lika skyddad och bra som Västerfladen fast längre bort, men färden dit blir enklast och bekvämast eftersom Långön läar, och navigeringen underlättas av fyren på Fyrskär. Klubbholmarna nås först i mörker med infart i pålandsvind; Österfladen har ett smalt inlopp omgärdat av långa utgrundningar med stor misstagsrisk; Lillön är för liten för att skydda mot svingen och vinden vrider troligen under natten.",
+      "explanationEn": "Answer key: Söderfladen is probably the best choice. It is as sheltered as Västerfladen though farther away, but the passage is easiest and most comfortable because Långön gives a lee, and the lighthouse on Fyrskär aids navigation. Klubbholmarna would be reached in darkness with an onshore-wind entrance; Österfladen has a narrow inlet flanked by long shoals with high risk of error; Lillön is too small to shelter from the swell and the wind will probably veer overnight.",
+      "payload": {
+        "questionSv": "Du befinner dig vid krysset på Lillfjärden på väg mot Klubbholmarna med en motorsnipa som gör 5 knop (se kartfigur med Klubbholmarna i norr, Väster-, Öster- och Söderfladen samt Lillön). Ett lågtryck passerar strax norr om er och vinden har plötsligt ökat till byig västan, nästan kuling. Storfjärden som är mer oskyddad ser inte lockande ut, det skymmer och om en och en halv timme är det mörkt. Barnen gråter och du vill i hamn snarast. Hamnalternativen är Klubbholmarna, Västerfladen, läsidan av Lillön, Österfladen och Söderfladen. Vilken hamn föredrar du?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kartfigur behöver beskäras från photo_54 – frågan bygger på kartskissen med fjärdarna och vindpilarna.",
+      "sourceRef": "11:34 / photo_54, photo_12"
+    },
+    {
+      "id": "saf-omb-027",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Säkerhetsselar, nödväska, självlänsande sittbrunn, verktyg för att kapa riggen, läcktätningsmaterial, starka luckor och rutor, VHF, mantåg och pulpit, stormsegel och livflotte.",
+          "isCorrect": true
+        },
+        {
+          "text": "Vattenskoter som följebåt, extra ankarspel, teakdäck, bogpropeller och landströmsanslutning.",
+          "isCorrect": false
+        },
+        {
+          "text": "Dubbla kompasser, handlod, mistlur, signalflaggor och pappersalmanacka.",
+          "isCorrect": false
+        },
+        {
+          "text": "Gennaker, spinnakerbom, epoxyspackel, extra fendrar och vattenskidor.",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "För färder utomskärs behövs bland annat: säkerhetsselar, nödväska (om båten måste överges hastigt), självlänsande sittbrunn, verktyg för att kapa sig fri från en rigg som gått överbord, läcktätningsmaterial, starka luckor och rutor, VHF-radio, mantåg och pulpit, stormsegel och livflotte. Egentligen kan listan göras hur lång som helst – det är en diskussionsfråga.",
+      "explanationEn": "For offshore passages you need, among other things: safety harnesses, a grab bag (if the boat must be abandoned quickly), a self-draining cockpit, tools to cut away a rig gone overboard, leak-stopping materials, strong hatches and windows, VHF radio, guard rails and pulpit, storm sails and a life raft. The list could really be made as long as you like.",
+      "payload": {
+        "questionSv": "Nämn några viktiga \"extra\" detaljer på båt och utrustning som är av betydelse för den som ska bege sig utomskärs. Båten är redan utrustad för färder inomskärs."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "11:35 / photo_54, photo_12"
+    },
+    {
+      "id": "saf-omb-028",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "En sits som kan hissas upp i masten – den används vid arbeten i riggen.",
+          "isCorrect": true
+        },
+        {
+          "text": "En fällbar sits vid rorkulten för rorsman på långa slag.",
+          "isCorrect": false
+        },
+        {
+          "text": "En lyftsele som används för att ta ombord en nödställd ur vattnet.",
+          "isCorrect": false
+        },
+        {
+          "text": "En pall som ställs vid relingen som hjälp vid ombordstigning.",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En båtsmansstol är en sits som kan hissas upp i masten med ett fall. Den används vid arbeten i riggen, till exempel för att inspektera eller reparera beslag högt upp i masten.",
+      "explanationEn": "A bosun's chair is a seat that can be hoisted up the mast on a halyard. It is used for work aloft in the rig, for example inspecting or repairing fittings high on the mast.",
+      "payload": {
+        "questionSv": "Vad är en båtsmansstol?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "11:36 / photo_54, photo_12"
+    },
+    {
+      "id": "saf-omb-029",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Alla fartyg som är längre än 12 meter.",
+          "isCorrect": true
+        },
+        {
+          "text": "Alla fartyg som är längre än 7 meter.",
+          "isCorrect": false
+        },
+        {
+          "text": "Alla fartyg som är längre än 20 meter.",
+          "isCorrect": false
+        },
+        {
+          "text": "Endast fartyg i yrkesmässig trafik.",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ljudsignaleringsutrustning som uppfyller de tekniska specifikationerna i de internationella sjövägsreglerna (bilaga III) krävs för alla fartyg som är längre än 12 meter – de ska ha vissla, och fartyg över 20 meter dessutom skeppsklocka. Mindre båtar ska ändå kunna avge effektiva ljudsignaler på något sätt.",
+      "explanationEn": "Sound-signalling equipment meeting the technical specifications of the International Collision Regulations (Annex III) is required for all vessels longer than 12 metres – they must carry a whistle, and vessels over 20 metres also a bell. Smaller boats must still be able to make an efficient sound signal by some means.",
+      "payload": {
+        "questionSv": "För vilka fartyg krävs en ljudsignaleringsutrustning som uppfyller tekniska specifikationer i de internationella sjövägsreglerna?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "11:37 / photo_54, photo_12"
+    },
+    {
+      "id": "saf-omb-030",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Koppla loss VHF, GPS, mobiltelefon och annan viktig elektronik från elsystemet och antennerna, och förvara dem långt från kablar och metalldelar",
+          "isCorrect": true
+        },
+        {
+          "text": "Slå på all elektronik så att den är i drift och därmed mindre känslig för överspänningar",
+          "isCorrect": false
+        },
+        {
+          "text": "Samla all elektronik nära masten där åskledaren ger bäst skydd",
+          "isCorrect": false
+        },
+        {
+          "text": "Linda in elektroniken i fuktig duk och placera den i kölsvinet",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vid åska utan särskilt åskskydd bör du koppla loss viktiga instrument som VHF, GPS och mobiltelefon från båtens elsystem och yttre antenner, och förvara dem långt från kablar och metalldelar – ett blixtnedslag inducerar strömmar i ledningar och metall.",
+      "explanationEn": "In a thunderstorm without dedicated lightning protection, disconnect key instruments such as VHF, GPS and phones from the boat's electrical system and external antennas, and store them well away from cables and metal – a strike induces currents in wiring and metal parts.",
+      "payload": {
+        "questionSv": "Du ligger med din segelbåt i en hamn i ytterskärgården en natt då en kallfront med åska passerar. Båten har inget särskilt åskskydd. Vad kan du göra för att skydda elektroniken ombord?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:33 / photo_47 + photo_7"
+    },
+    {
+      "id": "saf-omb-031",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Flytvästar till alla ombord, brandsläckare och förbandslåda",
+          "isCorrect": true
+        },
+        {
+          "text": "Radarreflektor, mistlur och ankarboll",
+          "isCorrect": false
+        },
+        {
+          "text": "Livflotte, EPIRB och överlevnadsdräkter",
+          "isCorrect": false
+        },
+        {
+          "text": "Reservpropeller, extra batteri och verktygslåda",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Viktig nödutrustning för en skärgårdsfärd med en mindre motorbåt är flytvästar till alla ombord, brandsläckare och förbandslåda – utrustning som räddar liv när något gått snett.",
+      "explanationEn": "Essential emergency equipment for an archipelago trip in a small motorboat: lifejackets for everyone aboard, a fire extinguisher and a first-aid kit – the gear that saves lives when things go wrong.",
+      "payload": {
+        "questionSv": "Med samma förutsättningar som i föregående fråga (hyrd 8 meters motorbåt, en veckas skärgårdsfärd) – nämn exempel på viktig nödutrustning."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:46 / photo_47 + photo_6"
+    },
+    {
+      "id": "saf-omb-032",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Rejäl ankarutrustning med mycket lina, handlampa oberoende av elsystemet, sjökort och navigeringsutrustning, åror, verktyg och reservdelar, bränsle i reserv samt extra startbatteri",
+          "isCorrect": true
+        },
+        {
+          "text": "Endast solskydd, kylväska och extra kläder – övrig utrustning ingår alltid i hyrbåten",
+          "isCorrect": false
+        },
+        {
+          "text": "Vattenskoter som följebåt, grill och stereoanläggning för trivseln ombord",
+          "isCorrect": false
+        },
+        {
+          "text": "Enbart mobiltelefon med laddare – med den kan all annan utrustning ersättas",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Utöver nödutrustningen har annan utrustning stor betydelse för säkerhet och trivsel: rejäl ankarutrustning med mycket lina, handlampa som är oberoende av båtens elsystem, sjökort och navigeringsutrustning, åror, reservdelar och verktyg till motorn, bränsle i reserv och extra startbatteri. Listan kan göras mycket längre.",
+      "explanationEn": "Beyond emergency gear, other equipment matters for safety and comfort: solid anchor gear with plenty of line, a torch independent of the boat's electrical system, charts and navigation equipment, oars, engine spares and tools, reserve fuel and a spare starting battery. The list can be made much longer.",
+      "payload": {
+        "questionSv": "Nämn exempel på annan utrustning som kan ha betydelse för säkerhet och trivsel och som du absolut vill ha med på skärgårdsfärden."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:47 / photo_47 + photo_6"
+    },
+    {
+      "id": "saf-omb-033",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Kväver elden med ett rejält lock som sluter tätt mot stekpannans kanter – aldrig vatten",
+          "isCorrect": true
+        },
+        {
+          "text": "Häller rikligt med vatten över pannan så att elden kyls ned",
+          "isCorrect": false
+        },
+        {
+          "text": "Bär ut den brinnande pannan på däck och kastar den överbord",
+          "isCorrect": false
+        },
+        {
+          "text": "Blåser ut lågorna och fortsätter matlagningen på lägre värme",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Brinnande matolja släcks genom kvävning – idealiskt med ett rejält lock som sluter tätt mot pannans kanter. En pulversläckare fungerar men skräpar ner. Vatten får absolut inte användas i samband med brinnande vätskor: det förångas explosionsartat och sprider elden.",
+      "explanationEn": "Burning cooking oil is extinguished by smothering – ideally with a solid lid sealing tightly over the pan. A powder extinguisher works but makes a mess. Never use water on burning liquids: it flashes to steam and spreads the fire violently.",
+      "payload": {
+        "questionSv": "Det tar eld i matoljan i stekpannan när du lagar mat nere i pentryt. Hur släcker du lämpligen elden?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:53 / photo_46 + photo_6"
+    },
+    {
+      "id": "saf-omb-034",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Gasoltuben förvaras i ett gastätt utrymme som dräneras utanför båten; läckprovare bör finnas, slangar och rör ska vara av rätt kvalitet, klamrade och skavskyddade, och spis och värmare ska ha tändsäkring",
+          "isCorrect": true
+        },
+        {
+          "text": "Gasoltuben förvaras i kölsvinet där eventuell läckande gas samlas ofarligt; slangarna byts endast om de börjar lukta",
+          "isCorrect": false
+        },
+        {
+          "text": "Gasoltuben förvaras liggande i en stängd stuvfack inne i ruffen och ventilerna öppnas bara vid matlagning",
+          "isCorrect": false
+        },
+        {
+          "text": "Gasolinstallationen kräver inga särskilda åtgärder eftersom gasol är lättare än luft och vädras ut av sig själv",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Gasol är tyngre än luft och sjunker ner i kölsvinet vid läckage. Därför ska tuben förvaras i ett gastätt utrymme som dräneras på båtens utsida. En läckprovare bör finnas, slangar och rör ska vara av rätt kvalitet, klamrade, skavskyddade och i gott skick, genomföringarna skavskyddade – och spis och värmare ska ha tändsäkring.",
+      "explanationEn": "LPG is heavier than air and sinks into the bilge if it leaks. The bottle must therefore be stowed in a gas-tight locker drained outboard. Fit a leak tester, use hoses and piping of the right quality, clamped, chafe-protected and in good condition – and the stove and heater must have flame-failure devices.",
+      "payload": {
+        "questionSv": "Nämn några viktiga detaljer när det gäller gasolinstallationen ombord."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:54 / photo_46 + photo_6"
+    },
+    {
+      "id": "saf-omb-035",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Kontroll av oljenivån och färskvattenkylningens nivå, samt att det kommer kylvatten efter start",
+          "isCorrect": true
+        },
+        {
+          "text": "Kontroll av propellerns stigning och roderlagrens spel före varje start",
+          "isCorrect": false
+        },
+        {
+          "text": "Byte av impeller och bränslefilter före varje färd",
+          "isCorrect": false
+        },
+        {
+          "text": "Mätning av batterisyrans densitet och generatorremmens ålder varje dag",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vanliga kontroller på en inombordsmotor: kolla oljenivån och färskvattenkylningens nivå före start, och kontrollera efter start att det kommer kylvatten. Uteblivet kylvatten leder snabbt till överhettning.",
+      "explanationEn": "Routine checks on an inboard engine: check the oil level and the fresh-water coolant level before starting, and after starting confirm that cooling water is flowing. No cooling water quickly means overheating.",
+      "payload": {
+        "questionSv": "Räkna upp några vanliga kontroller som görs på en inombordsmotor."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:55 / photo_46 + photo_6"
+    },
+    {
+      "id": "saf-omb-036",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Gå tillräckligt långt från land i lä så att det finns tid att ankra eller hissa segel, ha gott om linor och ankarutrustning för djupt vatten samt möjlighet till radiokommunikation (VHF och mobil)",
+          "isCorrect": true
+        },
+        {
+          "text": "Gå så nära land i lä som möjligt så att det är kort väg att simma i land om motorn stannar",
+          "isCorrect": false
+        },
+        {
+          "text": "Hålla högsta möjliga fart så att sträckan i riskområdet blir så kort som möjligt",
+          "isCorrect": false
+        },
+        {
+          "text": "Tömma bränsletanken till hälften så att båten blir lättare att paddla",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En blåsig dag inomskärs planerar du rutten så att du håller gott avstånd till land i lä – då finns tid att ankra eller hissa segel om motorn stannar. Ha gott om linor ombord, ankarutrustning med tanke på ankring på djupt vatten, och se till att kunna kalla på hjälp via VHF och mobil.",
+      "explanationEn": "On a windy day among the islands, plan the route to keep well off any lee shore – that buys time to anchor or set sail if the engine stops. Carry plenty of lines, ground tackle suited to anchoring in deep water, and means of radio communication (VHF and mobile).",
+      "payload": {
+        "questionSv": "Vad kan, i förväg, göras för att minimera konsekvenserna av ett motorstopp en blåsig dag inomskärs?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:56 / photo_46 + photo_6"
     }
   ]
 }

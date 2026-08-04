@@ -2696,6 +2696,561 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "7:1 (båt B med GPS) / photo_69, facit photo_27"
+    },
+    {
+      "id": "nav-sjo-074",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Bränning",
+          "isCorrect": true
+        },
+        {
+          "text": "Undervattenssten på okänt djup",
+          "isCorrect": false
+        },
+        {
+          "text": "Vrak på grunt vatten",
+          "isCorrect": false
+        },
+        {
+          "text": "Fiskodling",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Korssymbolen med prickar runt om betecknar en bränning – en grund klippa eller sten som sjön bryter över. Den är farlig att gå nära eftersom djupet är mycket litet.",
+      "explanationEn": "The cross symbol surrounded by dots marks a breaker – a rock so shallow that the sea breaks over it. Keep well clear, as the depth there is minimal.",
+      "payload": {
+        "questionSv": "Vad betyder sjökortssymbolen: ett kors omgivet av prickar (symbol a i figuren)?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:1a / photo_49 + photo_8"
+    },
+    {
+      "id": "nav-sjo-075",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Vrak på större djup än 18 meter",
+          "isCorrect": true
+        },
+        {
+          "text": "Vrak som delvis syns över vattenytan",
+          "isCorrect": false
+        },
+        {
+          "text": "Bränning som bryter i grov sjö",
+          "isCorrect": false
+        },
+        {
+          "text": "Undervattenssten grundare än 18 meter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vraksymbolen med tvärstreck utan omgivande fara-markering betyder ett vrak som ligger djupare än 18 meter och därför inte är farligt för normal fritidssjöfart.",
+      "explanationEn": "The wreck symbol with cross-bars and no surrounding danger line means a wreck deeper than 18 metres – deep enough not to endanger normal pleasure-boat navigation.",
+      "payload": {
+        "questionSv": "Vad betyder sjökortssymbolen: en linje med tvärstreck, vraksymbol (symbol b i figuren)?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:1b / photo_49 + photo_8"
+    },
+    {
+      "id": "nav-sjo-076",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Undervattenssten med 2,5 meters djup",
+          "isCorrect": true
+        },
+        {
+          "text": "Sten som sticker upp 2,5 meter över ytan",
+          "isCorrect": false
+        },
+        {
+          "text": "Bränning med 2,5 meter fritt vatten",
+          "isCorrect": false
+        },
+        {
+          "text": "Vrak på 2,5 meters djup",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett kors med djupsiffran (2 med nedsänkt 5) betyder en undervattenssten med 2,5 meters djup över sig. Siffran anger alltså hur mycket vatten som finns över stenen.",
+      "explanationEn": "A cross with the depth figure (2 with subscript 5) marks a submerged rock with 2.5 metres of water over it – the number tells you the clearance above the rock.",
+      "payload": {
+        "questionSv": "Vad betyder sjökortssymbolen: ett kors med siffran (2 med nedsänkt 5) intill (symbol c i figuren)?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:1c / photo_49 + photo_8"
+    },
+    {
+      "id": "nav-sjo-077",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Sten – bottenbeskaffenhet",
+          "isCorrect": true
+        },
+        {
+          "text": "Sand – bottenbeskaffenhet",
+          "isCorrect": false
+        },
+        {
+          "text": "Stång – fast sjömärke",
+          "isCorrect": false
+        },
+        {
+          "text": "Strandlinje som torkar vid lågvatten",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Förkortningen St i sjökortet anger bottenbeskaffenheten sten. Bottenarten är viktig att känna till t.ex. när du ska ankra – ett ankare fäster dåligt på stenbotten.",
+      "explanationEn": "The abbreviation St on the chart indicates a stony bottom. Bottom type matters, for example when anchoring – an anchor holds poorly on stone.",
+      "payload": {
+        "questionSv": "Vad betyder förkortningen \"St\" i sjökortet (symbol d i figuren)?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:1d / photo_49 + photo_8"
+    },
+    {
+      "id": "nav-sjo-078",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Fast sjömärke",
+          "isCorrect": true
+        },
+        {
+          "text": "Flytande sjömärke (prick)",
+          "isCorrect": false
+        },
+        {
+          "text": "Fyr med ljuskaraktär",
+          "isCorrect": false
+        },
+        {
+          "text": "Stolpe med radarreflektor",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Symbolen visar ett fast sjömärke, dvs. ett märke som står förankrat i botten eller på land (t.ex. stång eller tavla), till skillnad från flytande prickar som kan dra sig ur läge.",
+      "explanationEn": "The symbol shows a fixed seamark – a beacon standing on the bottom or on land (such as a pole or board), unlike floating buoys which can shift out of position.",
+      "payload": {
+        "questionSv": "Vad betyder sjökortssymbolen: en liten stolpe på ett fundament (symbol e i figuren)?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:1e / photo_49 + photo_8"
+    },
+    {
+      "id": "nav-sjo-079",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Skjutområdesgräns",
+          "isCorrect": true
+        },
+        {
+          "text": "Gräns för naturskyddsområde",
+          "isCorrect": false
+        },
+        {
+          "text": "Gräns för ankringsförbud",
+          "isCorrect": false
+        },
+        {
+          "text": "Kabelfält på botten",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Den röda symbolen på gränslinjen markerar gränsen för ett skjutområde (militärt övningsområde). Inom sådana områden kan skjutövningar pågå och tillträde kan vara förbjudet vissa tider.",
+      "explanationEn": "The red symbol on the boundary line marks the limit of a military firing-practice area. Live firing can take place inside, and access may be prohibited at certain times.",
+      "payload": {
+        "questionSv": "Vad betyder sjökortssymbolen: en gränslinje med röd symbol (symbol f i figuren)?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:1f / photo_49 + photo_8"
+    },
+    {
+      "id": "nav-sjo-080",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Kort 1",
+          "isCorrect": true
+        },
+        {
+          "text": "Underrättelser för sjöfarande (Ufs)",
+          "isCorrect": false
+        },
+        {
+          "text": "Svensk lots",
+          "isCorrect": false
+        },
+        {
+          "text": "Båtsportkortens legendblad",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Kort 1 är Sjöfartsverkets publikation med en förteckning över alla beteckningar, symboler och förkortningar som används i svenska sjökort.",
+      "explanationEn": "Kort 1 is the Swedish Maritime Administration's publication listing all symbols and abbreviations used on Swedish nautical charts – the Swedish equivalent of Chart No. 1.",
+      "payload": {
+        "questionSv": "Vad kallas den publikation från Sjöfartsverket som innehåller en förteckning över alla beteckningar och förkortningar i svenska sjökort?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:2 / photo_49 + photo_8"
+    },
+    {
+      "id": "nav-sjo-081",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Inom området har sjökortet begränsad information – ett kort i större skala ska användas",
+          "isCorrect": true
+        },
+        {
+          "text": "Området är ett naturreservat med fartbegränsning",
+          "isCorrect": false
+        },
+        {
+          "text": "Området är ett militärt skyddsområde med tillträdesförbud",
+          "isCorrect": false
+        },
+        {
+          "text": "Inom området råder förbud mot fiske med nät",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Den gröna, oregelbundna linjen ringar in områden där sjökortet bara innehåller begränsad information. Där ska du i stället använda ett sjökort i större skala med fler detaljer.",
+      "explanationEn": "The green irregular line encloses areas where the chart carries only limited information. Inside them you should switch to a larger-scale chart with full detail.",
+      "payload": {
+        "questionSv": "I sjökort 616 finns en grön, oregelbunden linje som ringar in två områden i södra delen av kortet. Vad betyder den?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:3 / photo_49 + photo_8"
+    },
+    {
+      "id": "nav-sjo-082",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Området visas mer detaljerat i en specialruta på annat ställe i sjökortet – här i övre vänstra hörnet",
+          "isCorrect": true
+        },
+        {
+          "text": "Området är nymätt och djupuppgifterna är extra tillförlitliga",
+          "isCorrect": false
+        },
+        {
+          "text": "Området är ett ankringsförbudsområde kring hamnen",
+          "isCorrect": false
+        },
+        {
+          "text": "Området saknar modern sjömätning och bör undvikas",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En rektangulär inramning i sjökortet betyder att området återges som en special (delförstoring i större skala) på annan plats i kortet – i det här fallet i övre vänstra hörnet.",
+      "explanationEn": "A rectangular frame on the chart means the area is reproduced as an inset at larger scale elsewhere on the chart – in this case in the upper left corner.",
+      "payload": {
+        "questionSv": "I sjökort 616 finns en rektangulär inramning av Huvudskär, ungefärlig position 58°57´N, 18°34´E. Vad innebär den?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:4 / photo_49 + photo_8"
+    },
+    {
+      "id": "nav-sjo-083",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "På Sjöfartsverkets hemsida, www.sjofartsverket.se",
+          "isCorrect": true
+        },
+        {
+          "text": "På Transportstyrelsens hemsida",
+          "isCorrect": false
+        },
+        {
+          "text": "På Kustbevakningens hemsida",
+          "isCorrect": false
+        },
+        {
+          "text": "På SMHI:s hemsida",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Rättelser till svenska sjökort publiceras av Sjöfartsverket, bland annat i Underrättelser för sjöfarande (Ufs) som finns på www.sjofartsverket.se.",
+      "explanationEn": "Corrections to Swedish charts are published by the Swedish Maritime Administration, notably in Notices to Mariners (Ufs) available at www.sjofartsverket.se.",
+      "payload": {
+        "questionSv": "Var kan du hitta uppgifter om rättelser till svenska sjökort?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:11 / photo_49 + photo_8"
+    },
+    {
+      "id": "nav-sjo-084",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Latitud 58°53,85´N, longitud 18°01,45´E",
+          "isCorrect": true
+        },
+        {
+          "text": "Latitud 58°35,85´N, longitud 18°10,45´E",
+          "isCorrect": false
+        },
+        {
+          "text": "Latitud 58°53,85´N, longitud 18°45,10´E",
+          "isCorrect": false
+        },
+        {
+          "text": "Latitud 59°01,45´N, longitud 18°53,85´E",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Fyren Örngrund ligger i SV-hörnet av övningssjökort 616 på latitud 58°53,85´N och longitud 18°01,45´E. Latitud läses på kortets sidokant och longitud på över-/underkanten.",
+      "explanationEn": "The Örngrund lighthouse lies in the SW corner of practice chart 616 at latitude 58°53.85´N, longitude 18°01.45´E. Read latitude on the side border and longitude on the top/bottom border.",
+      "payload": {
+        "questionSv": "På vilken position, i latitud och longitud, befinner sig fyren Örngrund? Du hittar den i SV-hörnet på övningssjökort 616."
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 – facits position använd som facit, distraktorer konstruerade.",
+      "sourceRef": "17:12 / photo_49 + photo_8"
+    },
+    {
+      "id": "nav-sjo-085",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "2,8 meter",
+          "isCorrect": true
+        },
+        {
+          "text": "2,0 meter",
+          "isCorrect": false
+        },
+        {
+          "text": "3,4 meter",
+          "isCorrect": false
+        },
+        {
+          "text": "4,6 meter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "På positionen 59°04,52´N, 18°32,50´E visar sjökort 616 djupsiffran 2,8 meter. Djupsiffror i kortet anger djupet vid medelvattenstånd.",
+      "explanationEn": "At position 59°04.52´N, 18°32.50´E chart 616 shows a sounding of 2.8 metres. Chart soundings give the depth at mean water level.",
+      "payload": {
+        "questionSv": "På din VHF-radio hör du att en båt har gått på grund på position 59°04,52´N, 18°32,50´E. Vilket djup har det grundet enligt sjökortet? Använd sjökort 616."
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 för att slå upp djupet – facits svar 2,8 m använt.",
+      "sourceRef": "17:13 / photo_49 + photo_8"
+    },
+    {
+      "id": "nav-sjo-086",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Styrbord",
+          "isCorrect": true
+        },
+        {
+          "text": "Babord",
+          "isCorrect": false
+        },
+        {
+          "text": "Ingen gir behövs – tavlorna är redan ens",
+          "isCorrect": false
+        },
+        {
+          "text": "Det går inte att avgöra utan att se fyrkaraktären",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Se figur: den bakre (högre) enstavlan syns till höger om den främre. Då befinner du dig till vänster om enslinjen och måste gira styrbord för att få tavlorna ens, dvs. i linje över varandra.",
+      "explanationEn": "In the figure the rear (taller) leading board appears to the right of the front one. That means you are left of the leading line, so you turn to starboard to bring the marks into line.",
+      "payload": {
+        "questionSv": "Du är på väg mot ett par enstavlor. Från din båt syns den bakre, högre tavlan till höger om den främre (se figur). Åt vilket håll ska du gira för att få märkena ens?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Figurberoende – kontrollera tavlornas inbördes läge mot figuren i photo_49 (facit: styrbord).",
+      "sourceRef": "17:14 / photo_49 + photo_8"
+    },
+    {
+      "id": "nav-sjo-087",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "6,05 sjömil (M)",
+          "isCorrect": true
+        },
+        {
+          "text": "5,40 sjömil (M)",
+          "isCorrect": false
+        },
+        {
+          "text": "6,80 sjömil (M)",
+          "isCorrect": false
+        },
+        {
+          "text": "7,25 sjömil (M)",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Avståndet mäts i sjökort 616 med passare mot latitudskalan på kortets sidokant, där 1 minut = 1 sjömil (M). Från fyren Mysingeholm till pricken Ventlandsgrund är det 6,05 M.",
+      "explanationEn": "Measure the distance on chart 616 with dividers against the latitude scale on the side border, where 1 minute = 1 nautical mile. From Mysingeholm lighthouse to the Ventlandsgrund buoy it is 6.05 M.",
+      "payload": {
+        "questionSv": "Hur långt är det från fyren Mysingeholm till pricken Ventlandsgrund? De ligger på Mysingen, sjökort 616."
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 för mätningen – facits svar 6,05 M använt.",
+      "sourceRef": "17:15 / photo_48 + photo_8"
+    },
+    {
+      "id": "nav-sjo-088",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Nej – de bygger på samma sjömätningar och underlag som de tryckta korten",
+          "isCorrect": true
+        },
+        {
+          "text": "Ja – e-sjökort rättas automatiskt och är därför alltid mer tillförlitliga",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja – e-sjökort bygger på nyare sjömätningar än tryckta kort",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej – e-sjökort är alltid mindre tillförlitliga än tryckta kort",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Nej. E-sjökortens information kommer från samma sjömätningsunderlag som de tryckta korten, så de är inte mer tillförlitliga. Gammalt mätunderlag är lika gammalt oavsett om kortet visas på skärm eller papper.",
+      "explanationEn": "No. Electronic charts are built from the same survey data as the printed charts, so they are not inherently more reliable – old survey data stays old whether shown on a screen or on paper.",
+      "payload": {
+        "questionSv": "Är e-sjökortens informationer mer tillförlitliga än motsvarande tryckta kort?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:23 / photo_48 + photo_8"
     }
   ]
 }

@@ -1,0 +1,114 @@
+{
+  "topicId": "top-reg-utland",
+  "items": [
+    {
+      "id": "reg-utl-001",
+      "topicId": "top-reg-utland",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Artighetsflaggor till de nationer som ska besökas, en ordentlig egen nationsflagga och eventuellt en gul Q-flagga",
+          "isCorrect": true
+        },
+        {
+          "text": "Signalflaggorna A och N, som tillsammans visar att båten är på utlandsresa",
+          "isCorrect": false
+        },
+        {
+          "text": "En röd flagga för tullkontroll och en blå för passkontroll i varje hamn",
+          "isCorrect": false
+        },
+        {
+          "text": "Endast den svenska flaggan – utländska flaggor får inte föras på svenska fritidsbåtar",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Inför en utlandssegling kan behövas: artighetsflaggor till de nationer som ska besökas (förs under styrbords vantskruv/salning), en ordentlig egen nationsflagga – den är inte ett måste bara i hemmavatten – samt eventuellt den gula Q-flaggan som begär tullklarering.",
+      "explanationEn": "Before a voyage abroad you may need: courtesy flags of the nations to be visited (flown from the starboard spreader), a proper national ensign of your own – only in home waters can it be dispensed with – and possibly the yellow Q flag requesting customs clearance.",
+      "payload": {
+        "questionSv": "Inför en utlandssegling kan det behövas en del flaggor. Ge exempel."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "15:1 / photo_51 + photo_9"
+    },
+    {
+      "id": "reg-utl-002",
+      "topicId": "top-reg-utland",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Vilka importregler som gäller – eftersom Norge inte är ett EU-land kan vissa, mycket kännbara, skatter och avgifter komma att krävas",
+          "isCorrect": true
+        },
+        {
+          "text": "Ingenting särskilt – inom Norden får båtar vinterförvaras fritt utan formaliteter",
+          "isCorrect": false
+        },
+        {
+          "text": "Bara att varvet har en ledig plats – EU:s regler om fri rörlighet gäller fullt ut i Norge",
+          "isCorrect": false
+        },
+        {
+          "text": "Att båten omregistreras till norsk flagg under vinteruppläggningen",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Det är viktigt att undersöka vilka importregler som gäller. Eftersom Norge inte är ett EU-land kan en båt som lämnas kvar i landet betraktas som importerad, och vissa – mycket kännbara – skatter och avgifter kan komma att krävas.",
+      "explanationEn": "It is important to investigate which import rules apply. Since Norway is not an EU country, a boat left in the country may be regarded as imported, and certain – very substantial – taxes and fees may be demanded.",
+      "payload": {
+        "questionSv": "Du planerar en semestersegling till Nordnorge och funderar på att lägga upp båten någonstans i Norge över vintern och segla hem den nästa sommar. Varv som kan ta hand om båten finns – men är det något annat som förtjänar att undersökas?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "15:2 / photo_51 + photo_9"
+    },
+    {
+      "id": "reg-utl-003",
+      "topicId": "top-reg-utland",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Nej – max 12 passagerare utöver besättningen, annars krävs passagerarfartygscertifikat; att de åker gratis har ingen betydelse",
+          "isCorrect": true
+        },
+        {
+          "text": "Ja – gränsen på 12 passagerare gäller bara när resan sker mot betalning",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja – så länge det finns flytväst till alla ombord finns ingen passagerargräns",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej – en fritidsbåt får aldrig ta fler än 8 personer ombord oavsett storlek",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Nej. En båt får ta högst 12 passagerare utöver besättningen – därutöver räknas den som passagerarfartyg och det krävs passagerarfartygscertifikat. Att passagerarna följer med gratis har ingen betydelse för regeln.",
+      "explanationEn": "No. A boat may carry at most 12 passengers in addition to the crew – beyond that it counts as a passenger ship and a passenger ship certificate is required. The fact that the passengers travel free of charge makes no difference to the rule.",
+      "payload": {
+        "questionSv": "Båtklubben ska ha fest ute på Klubbholmen. Du har en skapligt stor båt och erbjuder dig att skjutsa ut en stor del av festdeltagarna. 20 personer ryms nog ombord. Får du ta så många passagerare?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "16:1 / photo_51 + photo_9"
+    }
+  ]
+}

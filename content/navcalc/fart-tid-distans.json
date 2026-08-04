@@ -2289,6 +2289,154 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "4:32 / photo_78, photo_35"
+    },
+    {
+      "id": "nav-fart-065",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "18 minuter",
+          "isCorrect": true
+        },
+        {
+          "text": "12 minuter",
+          "isCorrect": false
+        },
+        {
+          "text": "30 minuter",
+          "isCorrect": false
+        },
+        {
+          "text": "43 minuter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tid = distans/fart: 3,6 M / 12 knop = 0,3 timme = 18 minuter. Alternativt: 3,6 × 60/12 = 18 minuter.",
+      "explanationEn": "Time = distance/speed: 3.6 M / 12 knots = 0.3 hours = 18 minutes. Alternatively 3.6 × 60/12 = 18 minutes.",
+      "payload": {
+        "questionSv": "Hur lång tid tar det att färdas 3,6 M med en båt som gör 12 knop?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:16 / photo_48 + photo_8"
+    },
+    {
+      "id": "nav-fart-066",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "9,6 knop",
+          "isCorrect": true
+        },
+        {
+          "text": "9,0 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "10,4 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "15,0 knop",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Fart = distans/tid: 1 timme 15 minuter = 1,25 timmar (75 minuter). 12 M / 1,25 h = 9,6 knop, eller 12 × 60/75 = 9,6 knop. Att multiplicera 12 × 1,25 = 15 är det klassiska felet.",
+      "explanationEn": "Speed = distance/time: 1 h 15 min = 1.25 hours. 12 M / 1.25 h = 9.6 knots (or 12 × 60/75). Multiplying 12 × 1.25 = 15 is the classic mistake.",
+      "payload": {
+        "questionSv": "Hur fort går en båt som avverkat 12 M på 1 timme 15 minuter?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:17 / photo_48 + photo_8"
+    },
+    {
+      "id": "nav-fart-067",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "4,5 M",
+          "isCorrect": true
+        },
+        {
+          "text": "2,7 M",
+          "isCorrect": false
+        },
+        {
+          "text": "4,0 M",
+          "isCorrect": false
+        },
+        {
+          "text": "5,4 M",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Distans = fart × tid: 6 knop × 45/60 timme = 6 × 0,75 = 4,5 M.",
+      "explanationEn": "Distance = speed × time: 6 knots × 45/60 hours = 6 × 0.75 = 4.5 nautical miles.",
+      "payload": {
+        "questionSv": "En båt gör 6 knop. Hur långt hinner den på 45 minuter?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:18 / photo_48 + photo_8"
+    },
+    {
+      "id": "nav-fart-068",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "15 liter",
+          "isCorrect": true
+        },
+        {
+          "text": "12 liter",
+          "isCorrect": false
+        },
+        {
+          "text": "18 liter",
+          "isCorrect": false
+        },
+        {
+          "text": "30 liter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Båten drar 6 liter per timme och gör 12 knop, alltså 6/12 = 0,5 liter per sjömil. För 30 sjömil går det åt 30 × 0,5 = 15 liter.",
+      "explanationEn": "The boat burns 6 litres per hour at 12 knots, i.e. 6/12 = 0.5 litres per nautical mile. For 30 miles that makes 30 × 0.5 = 15 litres.",
+      "payload": {
+        "questionSv": "En liten snurrebåt drar 6 liter bensin per timme vid 12 knops fart. Du ska köra en sträcka på 30 sjömil. Hur mycket bensin kan beräknas gå åt?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:19 / photo_48 + photo_8"
     }
   ]
 }

@@ -469,6 +469,117 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "10:15 / photo_61, photo_19"
+    },
+    {
+      "id": "lan-grund-014",
+      "topicId": "top-lan-grund",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Det är en segelbåt på väg åt mitt håll – jag girar för att gå akter om den eller saktar in",
+          "isCorrect": true
+        },
+        {
+          "text": "Det är en motorbåt på väg åt mitt håll – jag håller kurs och fart eftersom den är väjningsskyldig",
+          "isCorrect": false
+        },
+        {
+          "text": "Det är en båt till ankars – jag passerar på betryggande avstånd utan att väja",
+          "isCorrect": false
+        },
+        {
+          "text": "Det är en fiskebåt med redskap ute – jag väntar på dess ljudsignal innan jag väjer",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En ensam grön lanterna utan toppljus är styrbordslanternan på en segelbåt. Som motorbåt är du väjningsskyldig mot segelbåten – gira i god tid för att gå akter om den, eller sakta in.",
+      "explanationEn": "A lone green light with no masthead light is the starboard sidelight of a sailing boat. As a motorboat you must give way to sail – turn early to pass astern of her, or slow down.",
+      "payload": {
+        "questionSv": "Från din 8 meter långa motorbåt ser du 45° om babord en ensam grön lanterna. Din åtgärd?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:40 / photo_47 + photo_7"
+    },
+    {
+      "id": "lan-grund-015",
+      "topicId": "top-lan-grund",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Det är en motorbåt under 50 meter – jag håller kurs och fart tills vidare eftersom den är väjningsskyldig",
+          "isCorrect": true
+        },
+        {
+          "text": "Det är en motorbåt under 50 meter – jag väjer eftersom jag ser den om babord",
+          "isCorrect": false
+        },
+        {
+          "text": "Det är en segelbåt – jag girar styrbord och går akter om den",
+          "isCorrect": false
+        },
+        {
+          "text": "Det är ett fartyg över 50 meter – jag håller mig så långt åt sidan i leden jag kan",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vitt toppljus över en grön sidolanterna är en maskindriven båt under 50 meter. Du ser dess gröna (styrbords) sida – alltså har den dig på sin styrbordssida och är väjningsskyldig i den skärande kursen. Du håller kurs och fart, men var beredd att agera om den inte väjer.",
+      "explanationEn": "A white masthead light above a green sidelight is a power-driven vessel under 50 metres. You see her green (starboard) side, so she has you on her starboard bow and must give way in this crossing. You stand on – but be ready to act if she does not.",
+      "payload": {
+        "questionSv": "Från din 8 meter långa motorbåt ser du 45° om babord dessa lanternor: ett vitt ljus över ett grönt (se figur). Din åtgärd?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:41 / photo_47 + photo_6"
+    },
+    {
+      "id": "lan-grund-016",
+      "topicId": "top-lan-grund",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Det är ett maskindrivet fartyg över 50 meter – i den trånga farleden håller jag mig så långt åt sidan i leden som jag rimligen kan",
+          "isCorrect": true
+        },
+        {
+          "text": "Det är en motorbåt under 50 meter – jag håller kurs och fart eftersom den är väjningsskyldig",
+          "isCorrect": false
+        },
+        {
+          "text": "Det är ett fartyg som bogserar – jag stannar och släpper förbi hela släpet",
+          "isCorrect": false
+        },
+        {
+          "text": "Det är ett fiskefartyg med trål – jag passerar tätt akter om det",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Två vita toppljus och en grön sidolanterna betyder ett maskindrivet fartyg över 50 meter. I en trång farled ska en liten båt inte hindra ett stort fartyg som bara kan navigera i leden – håll dig så långt åt sidan i leden som möjligt.",
+      "explanationEn": "Two white masthead lights plus a green sidelight mean a power-driven vessel over 50 metres. In a narrow fairway a small boat must not impede a large vessel confined to the channel – keep as far to the side of the fairway as you reasonably can.",
+      "payload": {
+        "questionSv": "Från din 8 meter långa motorbåt ser du 45° om babord två vita ljus och ett grönt (se figur). Du är i en av farlederna i skärgården. Din åtgärd?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:42 / photo_47 + photo_6"
     }
   ]
 }

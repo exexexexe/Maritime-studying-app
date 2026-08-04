@@ -1,0 +1,2247 @@
+{
+  "topicId": "top-lan-bilder",
+  "items": [
+    {
+      "id": "lan-bild-001",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett segelfartyg på väg, sett från styrbordssidan",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett segelfartyg på väg, sett från babordssidan",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett maskindrivet fartyg på väg, sett från styrbordssidan",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg till ankars, under 50 meter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En ensam grön lanterna är styrbords sidolanterna. Ett segelfartyg visar bara sidolanternor och akterlanterna – ingen vit topplanterna. Ett maskindrivet fartyg skulle dessutom visa vitt toppljus, och ett ankarliggande fartyg visar vitt runtlysande ljus.",
+      "explanationEn": "A single green light is the starboard sidelight. A sailing vessel shows only sidelights and a stern light – no white masthead light. A power-driven vessel would also show a white masthead light, and an anchored vessel shows an all-round white light.",
+      "payload": {
+        "questionSv": "Du ser dessa ljus en mörk natt. Vad ser du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "green",
+              "x": 50,
+              "y": 30
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 1 / photo_60"
+    },
+    {
+      "id": "lan-bild-002",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett segelfartyg på väg, sett rakt förifrån",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett maskindrivet fartyg under 50 meter, sett rakt förifrån",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett segelfartyg på väg, sett akterifrån",
+          "isCorrect": false
+        },
+        {
+          "text": "Två små fartyg till ankars nära varandra",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Grönt och rött sida vid sida betyder att du ser båda sidolanternorna – fartyget kommer rakt emot dig. Eftersom ingen vit topplanterna syns är det ett segelfartyg. Grönt till vänster i bilden stämmer: styrbordslanternan hamnar till vänster när fartyget är på väg mot dig.",
+      "explanationEn": "Green and red side by side means you see both sidelights – the vessel is heading straight towards you. Since there is no white masthead light it is a sailing vessel. Green on the picture's left is correct: the starboard light appears on your left when the vessel heads towards you.",
+      "payload": {
+        "questionSv": "En mörk natt ser du den här ljusbilden. Vad ser du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "green",
+              "x": 46,
+              "y": 30
+            },
+            {
+              "color": "red",
+              "x": 54,
+              "y": 30
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 2 / photo_60"
+    },
+    {
+      "id": "lan-bild-003",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett segelfartyg på väg, sett från babordssidan",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett segelfartyg på väg, sett från styrbordssidan",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett maskindrivet fartyg på väg, sett från babordssidan",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett ej manöverfärdigt fartyg utan fart genom vattnet",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En ensam röd lanterna är babords sidolanterna. Utan vit topplanterna är det ett segelfartyg som visar sin babordssida. Ett maskindrivet fartyg hade även visat vitt toppljus, och ett ej manöverfärdigt fartyg visar två röda runtlysande ljus lodrätt.",
+      "explanationEn": "A single red light is the port sidelight. With no white masthead light it is a sailing vessel showing its port side. A power-driven vessel would also show a white masthead light, and a vessel not under command shows two all-round red lights in a vertical line.",
+      "payload": {
+        "questionSv": "Du ser dessa ljus en mörk natt. Vad ser du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "red",
+              "x": 50,
+              "y": 30
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 3 / photo_60"
+    },
+    {
+      "id": "lan-bild-004",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett maskindrivet fartyg under 50 meter på väg, sett från styrbordssidan",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett maskindrivet fartyg under 50 meter på väg, sett från babordssidan",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett maskindrivet fartyg över 50 meter på väg, sett från styrbordssidan",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett segelfartyg på väg, sett från styrbordssidan",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vit topplanterna tillsammans med grön sidolanterna betyder maskindrivet fartyg sett från styrbord. Bara EN topplanterna syns – alltså under 50 meter (över 50 meter kräver två topplanternor, den aktra högre). Ett segelfartyg visar ingen topplanterna alls.",
+      "explanationEn": "A white masthead light together with a green sidelight means a power-driven vessel seen from starboard. Only ONE masthead light is shown – so under 50 metres (over 50 metres requires two masthead lights, the after one higher). A sailing vessel shows no masthead light at all.",
+      "payload": {
+        "questionSv": "Du ser dessa lanternor en mörk natt. Vad är det du ser?",
+        "scene": {
+          "lights": [
+            {
+              "color": "white",
+              "x": 56,
+              "y": 22
+            },
+            {
+              "color": "green",
+              "x": 44,
+              "y": 32
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 4 / photo_60"
+    },
+    {
+      "id": "lan-bild-005",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett maskindrivet fartyg under 50 meter på väg, sett rakt förifrån",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett maskindrivet fartyg över 50 meter på väg, sett rakt förifrån",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett segelfartyg på väg, sett rakt förifrån",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg sysselsatt med trålfiske, sett rakt förifrån",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En vit topplanterna över både grön och röd sidolanterna: ett maskindrivet fartyg som kommer rakt emot dig. En enda topplanterna anger under 50 meter – vid över 50 meter hade du sett två vita i lodrät linje. Grönt till vänster stämmer när fartyget går mot betraktaren.",
+      "explanationEn": "One white masthead light above both green and red sidelights: a power-driven vessel coming straight at you. A single masthead light means under 50 metres – over 50 metres you would see two whites in a vertical line. Green on the left is correct when the vessel heads towards the viewer.",
+      "payload": {
+        "questionSv": "En mörk natt ser du den här ljusbilden. Vad ser du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "white",
+              "x": 50,
+              "y": 19
+            },
+            {
+              "color": "green",
+              "x": 41,
+              "y": 30
+            },
+            {
+              "color": "red",
+              "x": 59,
+              "y": 30
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 5 / photo_60"
+    },
+    {
+      "id": "lan-bild-006",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett maskindrivet fartyg under 50 meter på väg, sett från babordssidan",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett maskindrivet fartyg under 50 meter på väg, sett från styrbordssidan",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett maskindrivet fartyg över 50 meter på väg, sett från babordssidan",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett segelfartyg på väg, sett från babordssidan",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vit topplanterna och röd sidolanterna: ett maskindrivet fartyg sett från babord. En topplanterna = under 50 meter. Från styrbord hade du sett grönt, och ett segelfartyg visar ingen topplanterna.",
+      "explanationEn": "White masthead light and red sidelight: a power-driven vessel seen from port. One masthead light = under 50 metres. From starboard you would see green, and a sailing vessel shows no masthead light.",
+      "payload": {
+        "questionSv": "Du ser dessa ljus en mörk natt. Vad ser du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "white",
+              "x": 44,
+              "y": 22
+            },
+            {
+              "color": "red",
+              "x": 56,
+              "y": 31
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 6 / photo_60"
+    },
+    {
+      "id": "lan-bild-007",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "En akterlanterna, ett fartyg till ankars under 50 meter eller ett litet fartyg under 7 meter på väg",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett fartyg till ankars över 50 meter, sett rakt förifrån",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett maskindrivet fartyg över 50 meter på väg, sett rakt förifrån",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett lotsfartyg i tjänst, sett akterifrån en mörk natt",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett ensamt vitt ljus kan betyda flera saker: en akterlanterna, ankarljus på fartyg under 50 meter, ett segelfartyg under 7 meter eller ett maskindrivet fartyg under 7 meter med högst 7 knops fart. Just därför måste du vara extra försiktig – du vet inte säkert vad du ser eller åt vilket håll det rör sig. Ett ankarliggare över 50 meter visar två vita ljus, och ett stort maskindrivet fartyg förifrån visar två vita plus sidoljus.",
+      "explanationEn": "A single white light can mean several things: a stern light, the anchor light of a vessel under 50 metres, a sailing vessel under 7 metres, or a power-driven vessel under 7 metres doing no more than 7 knots. That is exactly why you must be extra careful – you cannot be sure what you are seeing or which way it is moving. An anchored vessel over 50 metres shows two whites, and a large power-driven vessel seen head-on shows two whites plus sidelights.",
+      "payload": {
+        "questionSv": "En mörk natt ser du bara detta ljus. Vad kan det vara?",
+        "scene": {
+          "lights": [
+            {
+              "color": "white",
+              "x": 50,
+              "y": 26
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 7 / photo_60"
+    },
+    {
+      "id": "lan-bild-008",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett segelfartyg på väg med röd-över-grön i masttoppen, sett från styrbordssidan",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett segelfartyg på väg med röd-över-grön i masttoppen, sett från babordssidan",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg sysselsatt med annat fiske än trålfiske, med fart genom vattnet",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett ej manöverfärdigt fartyg med fart genom vattnet, sett från styrbord",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett segelfartyg på väg får utöver sidolanternorna föra två runtlysande ljus i masttoppen: rött över grönt. Här syns dessutom den gröna sidolanternan – alltså ses fartyget från styrbord. Fiske (ej trål) visar rött över VITT, och ej manöverfärdigt fartyg visar rött över rött.",
+      "explanationEn": "A sailing vessel under way may, in addition to sidelights, carry two all-round lights at the masthead: red over green. Here the green sidelight is also visible – so the vessel is seen from starboard. Fishing (other than trawling) shows red over WHITE, and a vessel not under command shows red over red.",
+      "payload": {
+        "questionSv": "Du ser dessa ljus en mörk natt. Vad ser du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "red",
+              "x": 50,
+              "y": 18
+            },
+            {
+              "color": "green",
+              "x": 50,
+              "y": 24
+            },
+            {
+              "color": "green",
+              "x": 54,
+              "y": 36
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 8 / photo_60"
+    },
+    {
+      "id": "lan-bild-009",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett segelfartyg på väg, sett från babordssidan",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett segelfartyg på väg, sett från styrbordssidan",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett maskindrivet fartyg på väg, sett från babordssidan",
+          "isCorrect": false
+        },
+        {
+          "text": "En linfärja på väg över farleden",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett ensamt rött ljus högt upp: babords sidolanterna på ett segelfartyg – på mindre segelbåtar sitter sidoljusen ofta i en kombinationslanterna högt i masttoppen. Ingen vit topplanterna syns, så det är inte maskindrivet. En linfärja visar tre röda runtlysande ljus i triangel.",
+      "explanationEn": "A single red light high up: the port sidelight of a sailing vessel – on smaller sailing boats the sidelights are often combined in a tricolour lantern at the masthead. No white masthead light is visible, so it is not power-driven. A cable ferry shows three all-round red lights in a triangle.",
+      "payload": {
+        "questionSv": "En mörk natt ser du detta ljus högt över vattnet. Vad ser du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "red",
+              "x": 50,
+              "y": 18
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 9 / photo_60"
+    },
+    {
+      "id": "lan-bild-010",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett maskindrivet fartyg över 50 meter på väg, sett från styrbordssidan",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett maskindrivet fartyg under 50 meter på väg, sett från styrbordssidan",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett maskindrivet fartyg över 50 meter på väg, sett från babordssidan",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg som bogserar, släpets längd under 200 meter, från styrbord",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Två vita topplanternor – den aktra högre än den förliga – plus grön sidolanterna: ett maskindrivet fartyg över 50 meter sett från styrbord. Under 50 meter förs bara en topplanterna. En bogserare för sina två (eller tre) vita ljus i LODRÄT linje på samma mast, inte förlig/aktre.",
+      "explanationEn": "Two white masthead lights – the after one higher than the forward one – plus a green sidelight: a power-driven vessel over 50 metres seen from starboard. Under 50 metres only one masthead light is carried. A tug carries its two (or three) white lights in a VERTICAL line on the same mast, not fore and aft.",
+      "payload": {
+        "questionSv": "Du ser dessa ljus en mörk natt. Vad ser du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "white",
+              "x": 42,
+              "y": 19
+            },
+            {
+              "color": "white",
+              "x": 76,
+              "y": 26
+            },
+            {
+              "color": "green",
+              "x": 30,
+              "y": 31
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 10 / photo_59"
+    },
+    {
+      "id": "lan-bild-011",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett maskindrivet fartyg över 50 meter på väg, sett rakt förifrån",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett maskindrivet fartyg under 50 meter på väg, sett rakt förifrån",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg som bogserar, släpets längd under 200 meter, sett förifrån",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett segelfartyg på väg, sett rakt förifrån en mörk natt",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Rakt förifrån hamnar de två topplanternorna på ett stort fartyg nästan i lodrät linje – den aktra är högre. Tillsammans med grön OCH röd sidolanterna: ett maskindrivet fartyg över 50 meter rakt emot dig. Förväxla inte med bogserarens två vita som sitter tätt ihop på samma mast.",
+      "explanationEn": "Seen head-on, the two masthead lights of a large vessel line up almost vertically – the after one higher. Together with both green AND red sidelights: a power-driven vessel over 50 metres coming straight at you. Do not confuse this with a tug's two whites, which sit close together on the same mast.",
+      "payload": {
+        "questionSv": "En mörk natt ser du den här ljusbilden. Vad ser du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "white",
+              "x": 50,
+              "y": 16
+            },
+            {
+              "color": "white",
+              "x": 50,
+              "y": 22
+            },
+            {
+              "color": "green",
+              "x": 41,
+              "y": 30
+            },
+            {
+              "color": "red",
+              "x": 59,
+              "y": 30
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 11 / photo_59"
+    },
+    {
+      "id": "lan-bild-012",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett maskindrivet fartyg över 50 meter på väg, sett från babordssidan",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett maskindrivet fartyg över 50 meter på väg, sett från styrbordssidan",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett maskindrivet fartyg under 50 meter på väg, sett från babordssidan",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett ej manöverfärdigt fartyg med fart genom vattnet, från babord",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Två vita topplanternor (den aktra högre) och röd sidolanterna: ett maskindrivet fartyg över 50 meter som visar sin babordssida. Under 50 meter hade bara en topplanterna synts. Ej manöverfärdigt fartyg visar två RÖDA runtlysande ljus i lodrät linje.",
+      "explanationEn": "Two white masthead lights (the after one higher) and a red sidelight: a power-driven vessel over 50 metres showing its port side. Under 50 metres only one masthead light would be seen. A vessel not under command shows two all-round RED lights in a vertical line.",
+      "payload": {
+        "questionSv": "Du ser dessa lanternor en mörk natt. Vad är det du ser?",
+        "scene": {
+          "lights": [
+            {
+              "color": "white",
+              "x": 48,
+              "y": 17
+            },
+            {
+              "color": "white",
+              "x": 20,
+              "y": 26
+            },
+            {
+              "color": "red",
+              "x": 62,
+              "y": 28
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 12 / photo_59"
+    },
+    {
+      "id": "lan-bild-013",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett fartyg under 50 meter som bogserar med begränsad manöverförmåga, släpets längd över 200 meter, sett från styrbord",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett fartyg över 50 meter som bogserar med begränsad manöverförmåga, släpets längd över 200 meter, sett från styrbord",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg under 50 meter som bogserar med begränsad manöverförmåga, släpets längd under 200 meter, sett från styrbord",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg under 50 meter som bogserar med begränsad manöverförmåga, släpets längd över 200 meter, sett från babord",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tre vita ljus i lodrät linje = bogserare med släp längre än 200 meter. Rött-vitt-rött runtlysande = begränsad manöverförmåga. Grön sidolanterna på både bogserare och släp: du ser ekipaget från styrbord. Ingen extra hög aktre topplanterna syns, alltså under 50 meter.",
+      "explanationEn": "Three white lights in a vertical line = a tug with a tow longer than 200 metres. Red-white-red all-round = restricted ability to manoeuvre. Green sidelights on both tug and tow: you see them from starboard. No extra high after masthead light is shown, so the tug is under 50 metres.",
+      "payload": {
+        "questionSv": "Du ser dessa ljus en mörk natt. Vad ser du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "white",
+              "x": 60,
+              "y": 14
+            },
+            {
+              "color": "white",
+              "x": 60,
+              "y": 20
+            },
+            {
+              "color": "white",
+              "x": 60,
+              "y": 26
+            },
+            {
+              "color": "red",
+              "x": 52,
+              "y": 17
+            },
+            {
+              "color": "white",
+              "x": 52,
+              "y": 23
+            },
+            {
+              "color": "red",
+              "x": 52,
+              "y": 29
+            },
+            {
+              "color": "green",
+              "x": 48,
+              "y": 35
+            },
+            {
+              "color": "green",
+              "x": 8,
+              "y": 40
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt. Ljuset längst till vänster hör till ett annat objekt."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 13 / photo_59"
+    },
+    {
+      "id": "lan-bild-014",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett bogserande fartyg med begränsad manöverförmåga, sett akterifrån – gult bogserljus över akterlanternan",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett fiskefartyg med redskap ute mer än 150 meter, sett akterifrån",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg i brådskande tjänsteutövning, sett akterifrån",
+          "isCorrect": false
+        },
+        {
+          "text": "En ubåt i övervattensläge, sett akterifrån en mörk natt",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Det gula bogserljuset förs över akterlanternan och syns bara akterifrån – ett säkert tecken på att fartyget bogserar. Rött-vitt-rött runtlysande visar begränsad manöverförmåga. Det ensamma vita ljuset vid sidan är släpets akterlanterna. Ubåtens gula ljus är ett BLINKANDE ljus, inte fast.",
+      "explanationEn": "The yellow towing light is carried above the stern light and is only visible from astern – a sure sign the vessel is towing. Red-white-red all-round shows restricted ability to manoeuvre. The lone white light to the side is the tow's stern light. A submarine's yellow light is FLASHING, not fixed.",
+      "payload": {
+        "questionSv": "En mörk natt ser du den här ljusbilden. Vad ser du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "red",
+              "x": 40,
+              "y": 15
+            },
+            {
+              "color": "white",
+              "x": 40,
+              "y": 21
+            },
+            {
+              "color": "red",
+              "x": 40,
+              "y": 27
+            },
+            {
+              "color": "yellow",
+              "x": 41,
+              "y": 33
+            },
+            {
+              "color": "white",
+              "x": 41,
+              "y": 39
+            },
+            {
+              "color": "white",
+              "x": 85,
+              "y": 35
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt. Ljuset till höger hör till ett annat objekt."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 14 / photo_59"
+    },
+    {
+      "id": "lan-bild-015",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett fartyg under 50 meter som bogserar med begränsad manöverförmåga, släpets längd över 200 meter, sett från babord",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett fartyg under 50 meter som bogserar med begränsad manöverförmåga, släpets längd över 200 meter, sett från styrbord",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg över 50 meter som bogserar med begränsad manöverförmåga, släpets längd över 200 meter, sett från babord",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett ej manöverfärdigt fartyg som bogserar, släpets längd under 200 meter, sett från babord",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tre vita i lodrät linje = släp över 200 meter. Rött-vitt-rött = begränsad manöverförmåga. De röda sidolanternorna på bogseraren och släpet visar att du ser ekipaget från babord. Ett ej manöverfärdigt fartyg visar rött över rött – inte rött-vitt-rött.",
+      "explanationEn": "Three whites in a vertical line = tow over 200 metres. Red-white-red = restricted ability to manoeuvre. The red sidelights on tug and tow show you see them from port. A vessel not under command shows red over red – not red-white-red.",
+      "payload": {
+        "questionSv": "Du ser dessa ljus en mörk natt. Vad ser du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "white",
+              "x": 30,
+              "y": 13
+            },
+            {
+              "color": "white",
+              "x": 30,
+              "y": 19
+            },
+            {
+              "color": "white",
+              "x": 30,
+              "y": 25
+            },
+            {
+              "color": "red",
+              "x": 38,
+              "y": 16
+            },
+            {
+              "color": "white",
+              "x": 38,
+              "y": 22
+            },
+            {
+              "color": "red",
+              "x": 38,
+              "y": 28
+            },
+            {
+              "color": "red",
+              "x": 44,
+              "y": 34
+            },
+            {
+              "color": "red",
+              "x": 90,
+              "y": 37
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt. Ljuset längst till höger hör till ett annat objekt."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 15 / photo_59"
+    },
+    {
+      "id": "lan-bild-016",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett fartyg under 50 meter som bogserar, släpets längd under 200 meter, sett från styrbordssidan",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett fartyg under 50 meter som bogserar, släpets längd över 200 meter, sett från styrbordssidan",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett maskindrivet fartyg över 50 meter på väg, sett från styrbordssidan",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg under 50 meter som bogserar, släpets längd under 200 meter, sett från babordssidan",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Två vita ljus i lodrät linje på samma mast = bogserare med släp kortare än 200 meter (tre vita om släpet är längre). Gröna sidolanternor på bogserare och släp: sett från styrbord. Ett stort maskindrivet fartyg för visserligen två vita, men förligt/akterligt – inte lodrätt ovanför varandra.",
+      "explanationEn": "Two white lights in a vertical line on the same mast = a tug with a tow shorter than 200 metres (three whites if longer). Green sidelights on tug and tow: seen from starboard. A large power-driven vessel also carries two whites, but fore and aft – not vertically above each other.",
+      "payload": {
+        "questionSv": "En mörk natt ser du dessa ljus. Vad ser du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "white",
+              "x": 48,
+              "y": 18
+            },
+            {
+              "color": "white",
+              "x": 48,
+              "y": 24
+            },
+            {
+              "color": "green",
+              "x": 44,
+              "y": 32
+            },
+            {
+              "color": "green",
+              "x": 10,
+              "y": 38
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt. Ljuset till vänster hör till ett annat objekt."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 16 / photo_59"
+    },
+    {
+      "id": "lan-bild-017",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett fartyg under 50 meter som bogserar timmersläp längre än 200 meter, begränsad manöverförmåga – timret visar runtlysande vita ljus",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett fartyg över 50 meter som bogserar tre pråmar, släpets längd under 200 meter, med full manöverförmåga",
+          "isCorrect": false
+        },
+        {
+          "text": "En bogserare som passerar tre fartyg till ankars, alla under 50 meter, i ett ankarområde",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fiskefartyg med redskap ute mer än 150 meter, markerat med tre vita bojljus",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Bogseraren visar tre vita i lodrät linje (släp över 200 meter) och rött-vitt-rött (begränsad manöverförmåga) samt grön sidolanterna. De tre låga vita ljusen i rad är runtlysande vita ljus på timmersläpet – svårupptäckta släp som timmer märks ut med vita ljus. Facit påpekar särskilt de runtlysande vita ljusen på timret.",
+      "explanationEn": "The tug shows three whites in a vertical line (tow over 200 metres) and red-white-red (restricted ability to manoeuvre) plus a green sidelight. The three low white lights in a row are all-round white lights on the timber tow – hard-to-see tows such as timber are marked with white lights. The answer key specifically points out the all-round white lights on the timber.",
+      "payload": {
+        "questionSv": "Du ser dessa ljus en mörk natt. Vad ser du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "white",
+              "x": 80,
+              "y": 12
+            },
+            {
+              "color": "white",
+              "x": 80,
+              "y": 18
+            },
+            {
+              "color": "white",
+              "x": 80,
+              "y": 24
+            },
+            {
+              "color": "red",
+              "x": 73,
+              "y": 15
+            },
+            {
+              "color": "white",
+              "x": 73,
+              "y": 21
+            },
+            {
+              "color": "red",
+              "x": 73,
+              "y": 27
+            },
+            {
+              "color": "green",
+              "x": 70,
+              "y": 32
+            },
+            {
+              "color": "white",
+              "x": 12,
+              "y": 41
+            },
+            {
+              "color": "white",
+              "x": 22,
+              "y": 40
+            },
+            {
+              "color": "white",
+              "x": 32,
+              "y": 40
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt. De tre låga vita ljusen ligger i vattnet bakom fartyget."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 17 / photo_59"
+    },
+    {
+      "id": "lan-bild-018",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett fartyg under 50 meter som bogserar, släpets längd under 200 meter, sett från styrbordssidan",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett fartyg under 50 meter som bogserar, släpets längd över 200 meter, sett från styrbordssidan",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg under 50 meter som bogserar, släpets längd under 200 meter, sett från babordssidan",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg sysselsatt med trålfiske, med fart genom vattnet, sett från styrbordssidan",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Två vita bogserljus i lodrät linje = släpets längd under 200 meter. Både bogserarens och släpets gröna sidolanternor syns – ekipaget ses från styrbord med släpet nära bakom. En trålare visar grönt över VITT runtlysande, inte vitt över vitt.",
+      "explanationEn": "Two white towing lights in a vertical line = tow shorter than 200 metres. Both the tug's and the tow's green sidelights are visible – the pair is seen from starboard with the tow close astern. A trawler shows green over WHITE all-round, not white over white.",
+      "payload": {
+        "questionSv": "En mörk natt ser du den här ljusbilden. Vad ser du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "white",
+              "x": 76,
+              "y": 14
+            },
+            {
+              "color": "white",
+              "x": 76,
+              "y": 20
+            },
+            {
+              "color": "green",
+              "x": 68,
+              "y": 28
+            },
+            {
+              "color": "green",
+              "x": 56,
+              "y": 33
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 18 / photo_59"
+    },
+    {
+      "id": "lan-bild-019",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett fartyg över 50 meter som bogserar med begränsad manöverförmåga, släpets längd över 200 meter, sett från styrbord",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett fartyg under 50 meter som bogserar med begränsad manöverförmåga, släpets längd över 200 meter, sett från styrbord",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg över 50 meter som bogserar med begränsad manöverförmåga, släpets längd under 200 meter, sett från styrbord",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg över 50 meter som bogserar med begränsad manöverförmåga, släpets längd över 200 meter, sett från babord",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tre vita i lodrät linje = släp över 200 meter. Rött-vitt-rött = begränsad manöverförmåga. Den extra vita topplanternan högre upp och längre akteröver visar att bogseraren är över 50 meter. Gröna sidolanternor på bogserare och släp: sett från styrbord.",
+      "explanationEn": "Three whites in a vertical line = tow over 200 metres. Red-white-red = restricted ability to manoeuvre. The additional white masthead light, higher and further aft, shows the tug is over 50 metres. Green sidelights on tug and tow: seen from starboard.",
+      "payload": {
+        "questionSv": "Du ser dessa ljus en mörk natt. Vad ser du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "white",
+              "x": 62,
+              "y": 11
+            },
+            {
+              "color": "white",
+              "x": 80,
+              "y": 16
+            },
+            {
+              "color": "white",
+              "x": 80,
+              "y": 21
+            },
+            {
+              "color": "white",
+              "x": 80,
+              "y": 26
+            },
+            {
+              "color": "red",
+              "x": 72,
+              "y": 19
+            },
+            {
+              "color": "white",
+              "x": 72,
+              "y": 24
+            },
+            {
+              "color": "red",
+              "x": 72,
+              "y": 29
+            },
+            {
+              "color": "green",
+              "x": 68,
+              "y": 34
+            },
+            {
+              "color": "green",
+              "x": 15,
+              "y": 41
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt. Ljuset längst till vänster hör till ett annat objekt."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 19 / photo_58"
+    },
+    {
+      "id": "lan-bild-020",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett fartyg under 50 meter som bogserar med begränsad manöverförmåga, släpets längd över 200 meter, sett rakt förifrån",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett fartyg över 50 meter som bogserar med begränsad manöverförmåga, släpets längd över 200 meter, sett rakt förifrån",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg under 50 meter som bogserar med begränsad manöverförmåga, släpets längd över 200 meter, sett från styrbord",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg sysselsatt med muddring, med hinder- och klarsignaler, sett rakt förifrån",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tre vita i lodrät linje (släp över 200 meter) och rött-vitt-rött (begränsad manöverförmåga). Både grön och röd sidolanterna syns – fartyget kommer rakt emot dig, med grönt till vänster i bilden. Det ensamma gröna ljuset vid sidan är släpets sidolanterna. Ett mudderverk visar dessutom två gröna (fri sida) och två röda (hindersida).",
+      "explanationEn": "Three whites in a vertical line (tow over 200 metres) and red-white-red (restricted ability to manoeuvre). Both green and red sidelights are visible – the vessel is heading straight at you, green on the picture's left. The lone green light to the side is the tow's sidelight. A dredger would additionally show two greens (clear side) and two reds (obstruction side).",
+      "payload": {
+        "questionSv": "En mörk natt ser du dessa ljus. Vad ser du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "white",
+              "x": 62,
+              "y": 13
+            },
+            {
+              "color": "white",
+              "x": 62,
+              "y": 18
+            },
+            {
+              "color": "white",
+              "x": 62,
+              "y": 23
+            },
+            {
+              "color": "red",
+              "x": 55,
+              "y": 15
+            },
+            {
+              "color": "white",
+              "x": 55,
+              "y": 20
+            },
+            {
+              "color": "red",
+              "x": 55,
+              "y": 25
+            },
+            {
+              "color": "green",
+              "x": 46,
+              "y": 31
+            },
+            {
+              "color": "red",
+              "x": 72,
+              "y": 31
+            },
+            {
+              "color": "green",
+              "x": 14,
+              "y": 38
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt. Ljuset längst till vänster hör till ett annat objekt."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 20 / photo_58"
+    },
+    {
+      "id": "lan-bild-021",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett fartyg över 50 meter till ankars – två ankarljus där det förliga sitter högre",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett fartyg under 50 meter till ankars – ett ankarljus i vardera änden",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg som bogserar, släpets längd under 200 meter, sett från sidan",
+          "isCorrect": false
+        },
+        {
+          "text": "Två små fartyg till ankars nära varandra i ett ankarområde",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett fartyg över 50 meter till ankars visar två vita runtlysande ljus: ett högre i fören och ett lägre i aktern. Under 50 meter räcker ett enda vitt ljus. Bogserarens vita ljus sitter lodrätt ovanför varandra på samma mast – här sitter de långt isär i fartygets längdriktning.",
+      "explanationEn": "A vessel over 50 metres at anchor shows two all-round white lights: a higher one forward and a lower one aft. Under 50 metres a single white light is enough. A tug's white lights sit vertically on the same mast – here they are far apart along the ship's length.",
+      "payload": {
+        "questionSv": "Du ser dessa två vita ljus en mörk natt. Vad ser du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "white",
+              "x": 30,
+              "y": 20
+            },
+            {
+              "color": "white",
+              "x": 80,
+              "y": 27
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 21 / photo_58"
+    },
+    {
+      "id": "lan-bild-022",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett fartyg under 50 meter sysselsatt med trålfiske, med fart genom vattnet, sett från styrbord",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett fartyg sysselsatt med annat fiske än trålfiske, med fart genom vattnet, sett från styrbord",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg under 50 meter sysselsatt med trålfiske, utan fart genom vattnet",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg under 50 meter sysselsatt med trålfiske, med fart genom vattnet, sett från babord",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Grönt över vitt runtlysande är trålfiskets signatur (annat fiske visar rött över vitt). Den gröna sidolanternan visar att trålaren gör fart genom vattnet och ses från styrbord – utan fart släcks sidolanternor och akterlanterna.",
+      "explanationEn": "Green over white all-round is the trawler's signature (other fishing shows red over white). The green sidelight shows the trawler is making way and is seen from starboard – with no way on, sidelights and stern light are switched off.",
+      "payload": {
+        "questionSv": "En mörk natt ser du den här ljusbilden. Vad ser du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "green",
+              "x": 52,
+              "y": 19
+            },
+            {
+              "color": "white",
+              "x": 52,
+              "y": 25
+            },
+            {
+              "color": "green",
+              "x": 40,
+              "y": 33
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 22 / photo_58"
+    },
+    {
+      "id": "lan-bild-023",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett fartyg sysselsatt med trålfiske, med fart genom vattnet",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett fartyg sysselsatt med trålfiske, utan fart genom vattnet",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg sysselsatt med annat fiske än trålfiske",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett lotsfartyg i tjänst, med fart genom vattnet",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Grönt över vitt runtlysande = trålfiske. Det extra vita ljuset lägre ned är en gånglanterna (här akterlanternan) – trålaren gör alltså fart genom vattnet. Utan fart hade bara grönt-över-vitt synts. Lotsfartyg visar VITT över RÖTT.",
+      "explanationEn": "Green over white all-round = trawling. The extra white light lower down is a navigation light (here the stern light) – so the trawler is making way through the water. With no way on, only the green-over-white would show. A pilot vessel shows WHITE over RED.",
+      "payload": {
+        "questionSv": "Du ser dessa ljus en mörk natt. Vad ser du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "green",
+              "x": 52,
+              "y": 18
+            },
+            {
+              "color": "white",
+              "x": 52,
+              "y": 24
+            },
+            {
+              "color": "white",
+              "x": 43,
+              "y": 33
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 23 / photo_58"
+    },
+    {
+      "id": "lan-bild-024",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett fartyg sysselsatt med annat fiske än trålfiske, utan fart genom vattnet, redskap ute mer än 150 meter",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett fartyg sysselsatt med trålfiske, utan fart genom vattnet, redskap ute mer än 150 meter",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg sysselsatt med annat fiske än trålfiske, med fart genom vattnet",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett lotsfartyg i tjänst som ligger till ankars på lotsstationen",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Rött över vitt runtlysande = fiske med annat än trål. Det extra vita runtlysande ljuset åt sidan visar åt vilket håll redskapen sträcker sig när de går mer än 150 meter ut från fartyget. Inga sidolanternor syns – fartyget gör inte fart genom vattnet. Trålfiske visar grönt över vitt.",
+      "explanationEn": "Red over white all-round = fishing other than trawling. The extra all-round white light to the side shows the direction of the gear when it extends more than 150 metres from the vessel. No sidelights are shown – the vessel is not making way. Trawling shows green over white.",
+      "payload": {
+        "questionSv": "En mörk natt ser du dessa ljus. Vad ser du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "white",
+              "x": 30,
+              "y": 17
+            },
+            {
+              "color": "red",
+              "x": 72,
+              "y": 21
+            },
+            {
+              "color": "white",
+              "x": 72,
+              "y": 27
+            },
+            {
+              "color": "white",
+              "x": 66,
+              "y": 34
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 24 / photo_58"
+    },
+    {
+      "id": "lan-bild-025",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett ej manöverfärdigt fartyg med fart genom vattnet, sett från styrbordssidan",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett ej manöverfärdigt fartyg utan fart genom vattnet, sett från styrbordssidan",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg på grund, sett från styrbordssidan en mörk natt",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg hämmat av sitt djupgående, sett från styrbordssidan",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Två röda runtlysande ljus i lodrät linje = ej manöverfärdigt fartyg. Att den gröna sidolanternan syns betyder att fartyget gör fart genom vattnet – utan fart visas inga gånglanternor. Ett fartyg på grund visar två röda PLUS ankarljus, och hämmat av djupgående visar TRE röda.",
+      "explanationEn": "Two all-round red lights in a vertical line = vessel not under command. The visible green sidelight means the vessel is making way through the water – with no way on, no navigation lights are shown. A vessel aground shows two reds PLUS anchor lights, and a vessel constrained by her draught shows THREE reds.",
+      "payload": {
+        "questionSv": "Du ser dessa ljus en mörk natt. Vad ser du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "red",
+              "x": 50,
+              "y": 18
+            },
+            {
+              "color": "red",
+              "x": 50,
+              "y": 24
+            },
+            {
+              "color": "green",
+              "x": 41,
+              "y": 32
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 25 / photo_58"
+    },
+    {
+      "id": "lan-bild-026",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett ej manöverfärdigt fartyg utan fart genom vattnet",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett ej manöverfärdigt fartyg med fart genom vattnet",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg över 50 meter på grund",
+          "isCorrect": false
+        },
+        {
+          "text": "En linfärja på väg över farleden",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Enbart två röda runtlysande ljus i lodrät linje: ej manöverfärdigt fartyg som ligger stilla i vattnet. Med fart genom vattnet hade även sidolanternor och akterlanterna visats. På grund visas dessutom ankarljus, och linfärjan för tre röda i triangel.",
+      "explanationEn": "Only two all-round red lights in a vertical line: a vessel not under command, stopped in the water. Making way, she would also show sidelights and a stern light. Aground she would additionally show anchor lights, and a cable ferry carries three reds in a triangle.",
+      "payload": {
+        "questionSv": "En mörk natt ser du bara dessa två röda ljus. Vad ser du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "red",
+              "x": 50,
+              "y": 22
+            },
+            {
+              "color": "red",
+              "x": 50,
+              "y": 28
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 26 / photo_58"
+    },
+    {
+      "id": "lan-bild-027",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett fartyg över 50 meter hämmat av sitt djupgående, sett från babordssidan",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett fartyg över 50 meter hämmat av sitt djupgående, sett från styrbordssidan",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett ej manöverfärdigt fartyg över 50 meter med fart genom vattnet",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg över 50 meter på grund, sett från babordssidan",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tre röda runtlysande ljus i lodrät linje = fartyg hämmat av sitt djupgående. De två vita topplanternorna (den aktra högre) visar ett maskindrivet fartyg över 50 meter på väg, och den röda sidolanternan att det ses från babord. Ej manöverfärdigt visar bara TVÅ röda, och på grund visas två röda plus ankarljus.",
+      "explanationEn": "Three all-round red lights in a vertical line = a vessel constrained by her draught. The two white masthead lights (the after one higher) show a power-driven vessel over 50 metres under way, and the red sidelight that she is seen from port. Not under command shows only TWO reds, and aground shows two reds plus anchor lights.",
+      "payload": {
+        "questionSv": "Du ser dessa ljus en mörk natt. Vad ser du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "white",
+              "x": 35,
+              "y": 13
+            },
+            {
+              "color": "white",
+              "x": 18,
+              "y": 20
+            },
+            {
+              "color": "red",
+              "x": 56,
+              "y": 14
+            },
+            {
+              "color": "red",
+              "x": 56,
+              "y": 19
+            },
+            {
+              "color": "red",
+              "x": 56,
+              "y": 24
+            },
+            {
+              "color": "red",
+              "x": 66,
+              "y": 28
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 27 / photo_58"
+    },
+    {
+      "id": "lan-bild-028",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett lotsfartyg i tjänst, sett från styrbordssidan",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett lotsfartyg i tjänst, sett från babordssidan",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg sysselsatt med annat fiske än trålfiske, med fart genom vattnet",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett maskindrivet fartyg under 50 meter på väg, sett från styrbordssidan",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vitt över rött runtlysande i masttoppen är lotsfartygets kännetecken (\"white over red – pilot ahead\"). Den gröna sidolanternan visar att lotsbåten gör fart och ses från styrbord. Fiske (ej trål) visar tvärtom RÖTT över VITT, och ett vanligt maskindrivet fartyg har bara en vit topplanterna.",
+      "explanationEn": "White over red all-round at the masthead is the pilot vessel's mark (\"white over red – pilot ahead\"). The green sidelight shows the pilot boat is making way and is seen from starboard. Fishing (other than trawling) shows the opposite, RED over WHITE, and an ordinary power-driven vessel has only one white masthead light.",
+      "payload": {
+        "questionSv": "En mörk natt ser du den här ljusbilden. Vad ser du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "white",
+              "x": 50,
+              "y": 17
+            },
+            {
+              "color": "red",
+              "x": 50,
+              "y": 23
+            },
+            {
+              "color": "green",
+              "x": 42,
+              "y": 32
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 28 / photo_57"
+    },
+    {
+      "id": "lan-bild-029",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett fartyg under 50 meter i brådskande tjänsteutövning (polis, sjöräddning), sett från styrbord",
+          "isCorrect": true
+        },
+        {
+          "text": "En ubåt i övervattensläge, sett från styrbordssidan",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett lotsfartyg i tjänst, sett från styrbordssidan",
+          "isCorrect": false
+        },
+        {
+          "text": "En minsvepare i arbete, sett från styrbordssidan",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Det blå blixtljuset används av fartyg i brådskande tjänsteutövning – polis, tull, sjöräddning med flera. Under blixtljuset syns vanliga gånglanternor: vit topplanterna och grön sidolanterna (under 50 meter, sett från styrbord). Ubåten har ett GULT blixtljus, lotsbåten vitt över rött.",
+      "explanationEn": "The blue flashing light is used by vessels on urgent official duty – police, customs, sea rescue and similar. Below it are ordinary navigation lights: white masthead light and green sidelight (under 50 metres, seen from starboard). A submarine has a YELLOW flashing light, a pilot boat white over red.",
+      "payload": {
+        "questionSv": "Du ser ett blått blixtljus tillsammans med dessa lanternor en mörk natt. Vad ser du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "blue",
+              "x": 48,
+              "y": 15
+            },
+            {
+              "color": "white",
+              "x": 53,
+              "y": 21
+            },
+            {
+              "color": "green",
+              "x": 45,
+              "y": 30
+            }
+          ],
+          "captionSv": "Det översta blå ljuset är ett blixtljus."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "verifiera ljusbilden mot photo_57 panel 2 – blått blixtljus; färgen \"blue\" ligger utanför standardpaletten (white|red|green|yellow) och blinkningen kan inte återges i scenen",
+      "sourceRef": "10:17 panel 29 / photo_57"
+    },
+    {
+      "id": "lan-bild-030",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "En ubåt i övervattensläge på väg",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett fartyg i brådskande tjänsteutövning (polis, sjöräddning)",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett bogserande fartyg med gult bogserljus, sett akterifrån",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett lotsfartyg i tjänst med fart genom vattnet",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett gult blixtljus tillsammans med vanliga gånglanternor (topplanternor och röd sidolanterna) är kännetecknet för en ubåt i övervattensläge. Polis/sjöräddning använder BLÅTT blixtljus. Bogserarens gula ljus är fast och sitter över akterlanternan – det blinkar inte.",
+      "explanationEn": "A yellow flashing light together with ordinary navigation lights (masthead lights and a red sidelight) identifies a submarine on the surface. Police/sea rescue use a BLUE flashing light. A tug's yellow light is fixed and sits above the stern light – it does not flash.",
+      "payload": {
+        "questionSv": "En mörk natt ser du ett gult blixtljus tillsammans med dessa ljus. Vad ser du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "white",
+              "x": 43,
+              "y": 16
+            },
+            {
+              "color": "yellow",
+              "x": 55,
+              "y": 20
+            },
+            {
+              "color": "white",
+              "x": 23,
+              "y": 27
+            },
+            {
+              "color": "red",
+              "x": 53,
+              "y": 28
+            }
+          ],
+          "captionSv": "Det gula ljuset är ett blixtljus."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 30 / photo_57"
+    },
+    {
+      "id": "lan-bild-031",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett fartyg sysselsatt med muddring – passera på sidan med två gröna ljus, två röda markerar hindersidan",
+          "isCorrect": true
+        },
+        {
+          "text": "En minsvepare i arbete – de gröna ljusen visar åt vilket håll svepet ligger ute",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg på grund – de röda ljusen markerar den sida där grundet ligger",
+          "isCorrect": false
+        },
+        {
+          "text": "En linfärja – de röda ljusen varnar för linan som spänner över farleden",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Rött-vitt-rött = begränsad manöverförmåga, här ett mudderverk. Två röda runtlysande ljus i lodrät linje markerar sidan där hindret (t.ex. rör eller ankare) finns, och två gröna markerar den fria sidan där man får passera. Minsveparen visar tre GRÖNA ljus, och linfärjan tre röda i triangel.",
+      "explanationEn": "Red-white-red = restricted ability to manoeuvre, here a dredger. Two all-round red lights in a vertical line mark the side with the obstruction (e.g. pipes or anchors), and two greens mark the clear side where you may pass. A minesweeper shows three GREEN lights, and a cable ferry three reds in a triangle.",
+      "payload": {
+        "questionSv": "Du ser dessa ljus en mörk natt. Vad ser du, och på vilken sida får du passera?",
+        "scene": {
+          "lights": [
+            {
+              "color": "red",
+              "x": 50,
+              "y": 13
+            },
+            {
+              "color": "white",
+              "x": 50,
+              "y": 18
+            },
+            {
+              "color": "red",
+              "x": 50,
+              "y": 23
+            },
+            {
+              "color": "green",
+              "x": 38,
+              "y": 28
+            },
+            {
+              "color": "green",
+              "x": 38,
+              "y": 33
+            },
+            {
+              "color": "red",
+              "x": 62,
+              "y": 28
+            },
+            {
+              "color": "red",
+              "x": 62,
+              "y": 33
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 31 / photo_57"
+    },
+    {
+      "id": "lan-bild-032",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "En minsvepare i arbete, sett rakt förifrån – håll gott avstånd",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett mudderverk med klarsignal åt båda sidor, sett rakt förifrån",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg sysselsatt med trålfiske, sett rakt förifrån",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg i brådskande tjänsteutövning, sett rakt förifrån",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tre gröna runtlysande ljus – ett i masttoppen och ett på vardera sidan – betyder minsvepning pågår. Tillsammans med topplanterna och sidolanternorna (grönt till vänster, rött till höger = förifrån) ser du en minsvepare i arbete. Håll ordentligt avstånd; svepet kan ligga långt ut. Mudderverket visar rött-vitt-rött med gröna/röda par på sidorna.",
+      "explanationEn": "Three all-round green lights – one at the masthead and one at each side – mean minesweeping in progress. Together with the masthead light and sidelights (green left, red right = head-on) you are looking at a minesweeper at work. Keep well clear; the sweep can extend far out. A dredger shows red-white-red with green/red pairs at the sides.",
+      "payload": {
+        "questionSv": "En mörk natt ser du den här ljusbilden. Vad ser du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "green",
+              "x": 50,
+              "y": 12
+            },
+            {
+              "color": "green",
+              "x": 36,
+              "y": 18
+            },
+            {
+              "color": "green",
+              "x": 64,
+              "y": 18
+            },
+            {
+              "color": "white",
+              "x": 50,
+              "y": 23
+            },
+            {
+              "color": "green",
+              "x": 36,
+              "y": 32
+            },
+            {
+              "color": "red",
+              "x": 64,
+              "y": 32
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 32 / photo_57"
+    },
+    {
+      "id": "lan-bild-033",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "En linfärja",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett fartyg hämmat av sitt djupgående",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg över 50 meter på grund",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett ej manöverfärdigt fartyg utan fart genom vattnet",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tre röda runtlysande ljus i TRIANGEL är linfärjans kännetecken – varning för linan som kan spänna tvärs över farleden. Fartyg hämmat av sitt djupgående visar tre röda i LODRÄT linje, ej manöverfärdigt två röda, och på grund två röda plus ankarljus.",
+      "explanationEn": "Three all-round red lights in a TRIANGLE identify a cable ferry – a warning for the cable that may stretch across the fairway. A vessel constrained by her draught shows three reds in a VERTICAL line, not under command two reds, and aground two reds plus anchor lights.",
+      "payload": {
+        "questionSv": "Du ser dessa tre röda ljus en mörk natt. Vad ser du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "red",
+              "x": 50,
+              "y": 16
+            },
+            {
+              "color": "red",
+              "x": 41,
+              "y": 22
+            },
+            {
+              "color": "red",
+              "x": 59,
+              "y": 22
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 33 / photo_57"
+    },
+    {
+      "id": "lan-bild-034",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett fartyg över 50 meter med begränsad manöverförmåga, med fart genom vattnet, sett från styrbord",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett fartyg över 50 meter med begränsad manöverförmåga, utan fart genom vattnet",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett ej manöverfärdigt fartyg över 50 meter med fart genom vattnet, sett från styrbord",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg som bogserar med begränsad manöverförmåga, släpets längd över 200 meter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Rött-vitt-rött runtlysande = begränsad manöverförmåga. Att fartyget dessutom visar topplanternor (två stycken = över 50 meter) och grön sidolanterna betyder att det gör fart genom vattnet och ses från styrbord. Utan fart visas bara rött-vitt-rött. Ej manöverfärdigt fartyg visar rött över rött utan vitt emellan.",
+      "explanationEn": "Red-white-red all-round = restricted ability to manoeuvre. That the vessel also shows masthead lights (two = over 50 metres) and a green sidelight means she is making way and is seen from starboard. With no way on, only red-white-red is shown. A vessel not under command shows red over red with no white in between.",
+      "payload": {
+        "questionSv": "En mörk natt ser du dessa ljus. Vad ser du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "white",
+              "x": 38,
+              "y": 12
+            },
+            {
+              "color": "red",
+              "x": 27,
+              "y": 17
+            },
+            {
+              "color": "white",
+              "x": 27,
+              "y": 22
+            },
+            {
+              "color": "red",
+              "x": 27,
+              "y": 27
+            },
+            {
+              "color": "green",
+              "x": 22,
+              "y": 32
+            },
+            {
+              "color": "white",
+              "x": 68,
+              "y": 24
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 34 / photo_57"
+    },
+    {
+      "id": "lan-bild-035",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett fartyg över 50 meter på grund – ankarljus samt två röda runtlysande ljus",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett fartyg över 50 meter till ankars – enbart de två ankarljusen visas",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett ej manöverfärdigt fartyg över 50 meter med fart genom vattnet",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg under 50 meter på grund – ett ankarljus och två röda ljus",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett fartyg på grund visar ankarljus PLUS två röda runtlysande ljus i lodrät linje. Här syns två vita ankarljus (förligt högre, akterligt lägre) – alltså över 50 meter – tillsammans med de två röda. Enbart ankarljusen hade betytt till ankars; enbart de röda hade betytt ej manöverfärdigt.",
+      "explanationEn": "A vessel aground shows anchor lights PLUS two all-round red lights in a vertical line. Here two white anchor lights are visible (forward higher, aft lower) – so over 50 metres – together with the two reds. Anchor lights alone would mean at anchor; the reds alone would mean not under command.",
+      "payload": {
+        "questionSv": "Du ser dessa ljus en mörk natt. Vad ser du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "red",
+              "x": 38,
+              "y": 16
+            },
+            {
+              "color": "red",
+              "x": 38,
+              "y": 22
+            },
+            {
+              "color": "white",
+              "x": 80,
+              "y": 26
+            },
+            {
+              "color": "white",
+              "x": 17,
+              "y": 32
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 35 / photo_57"
+    },
+    {
+      "id": "lan-bild-036",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett fartyg med begränsad manöverförmåga, utan fart genom vattnet",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett fartyg med begränsad manöverförmåga, med fart genom vattnet",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett ej manöverfärdigt fartyg utan fart genom vattnet",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg hämmat av sitt djupgående, sett från sidan",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Enbart rött-vitt-rött runtlysande i lodrät linje: fartyg med begränsad manöverförmåga som ligger stilla – utan fart genom vattnet visas inga gånglanternor. Med fart hade även topplanternor, sidolanterna och akterlanterna synts. Ej manöverfärdigt visar rött över rött, och hämmat av djupgående tre röda.",
+      "explanationEn": "Only red-white-red all-round in a vertical line: a vessel restricted in her ability to manoeuvre, lying stopped – with no way on, no navigation lights are shown. Making way, masthead lights, sidelight and stern light would also be seen. Not under command shows red over red, and constrained by draught three reds.",
+      "payload": {
+        "questionSv": "En mörk natt ser du bara dessa tre ljus. Vad ser du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "red",
+              "x": 50,
+              "y": 17
+            },
+            {
+              "color": "white",
+              "x": 50,
+              "y": 23
+            },
+            {
+              "color": "red",
+              "x": 50,
+              "y": 29
+            }
+          ],
+          "captionSv": "Ljusbild sedd en mörk natt."
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "10:17 panel 36 / photo_57"
+    }
+  ]
+}

@@ -1533,6 +1533,43 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "4:43 del 4 / photo_76, photo_33"
+    },
+    {
+      "id": "nav-kurs-045",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "248°",
+          "isCorrect": true
+        },
+        {
+          "text": "238°",
+          "isCorrect": false
+        },
+        {
+          "text": "243°",
+          "isCorrect": false
+        },
+        {
+          "text": "253°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Kursen i sjökortet från Rånögrund till Ventlandsgrund är 243°. Nordlig vind driver båten söderut, så du måste hålla upp mot vinden: 243° + 5° = 248°.",
+      "explanationEn": "The chart course from Rånögrund to Ventlandsgrund is 243°. A northerly wind sets the boat south, so you steer up into the wind: 243° + 5° = 248°.",
+      "payload": {
+        "questionSv": "Vilken kurs ska du hålla för att ta dig från pricken Rånögrund till pricken Ventlandsgrund? Det blåser en nordlig vind som uppskattningsvis ger en avdrift på 5° som du ska ta hänsyn till vid kurssättningen. Sjökort 616."
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 för grundkursen 243° – facits beräkning 243° + 5° = 248° använd.",
+      "sourceRef": "17:21 / photo_48 + photo_8"
     }
   ]
 }

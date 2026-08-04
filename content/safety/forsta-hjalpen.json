@@ -1,0 +1,555 @@
+{
+  "topicId": "top-safety-sjukvard",
+  "items": [
+    {
+      "id": "saf-sjuk-001",
+      "topicId": "top-safety-sjukvard",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Hantera personen varsamt, klipp av de våta kläderna, linda in i torra filtar och låt värmen komma inifrån – ge varm dryck till den som själv kan hålla koppen",
+          "isCorrect": true
+        },
+        {
+          "text": "Gnid armar och ben kraftigt och placera personen så nära en värmekälla som möjligt så att kroppen värms upp snabbt utifrån",
+          "isCorrect": false
+        },
+        {
+          "text": "Lägg personen i ett hett bad på cirka 45 grader och massera huden tills hudfärgen återvänder",
+          "isCorrect": false
+        },
+        {
+          "text": "Låt personen behålla de våta kläderna som skydd mot avdunstning och ge något starkt att dricka, till exempel en snaps",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En kraftigt nedkyld person hanteras varsamt eftersom hjärtat är känsligt. Våta kläder klipps av, personen lindas in i torra filtar i normal rumstemperatur och värmen ska komma inifrån – därför varm dryck till den som orkar dricka själv. Snabb yttre uppvärmning och massage kan driva kallt blod från extremiteterna till hjärtat. Den som fortfarande orkar huttra kan aktiveras med rörelse eller måttligt varm dusch/bastu under övervakning.",
+      "explanationEn": "A severely hypothermic person must be handled gently because the heart is irritable. Cut off wet clothes, wrap the person in dry blankets at normal room temperature and let the body rewarm from within – a warm drink for someone who can hold the cup themselves. Rapid external heating or rubbing can push cold blood from the limbs to the heart. Someone still able to shiver may be rewarmed more actively (movement, moderately warm shower/sauna under supervision).",
+      "payload": {
+        "questionSv": "Du har fiskat upp en människa som är nedkyld efter att ha legat länge i kallt vatten. Hur ska uppvärmningen gå till?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "12:1 / photo_54 + photo_11"
+    },
+    {
+      "id": "saf-sjuk-002",
+      "topicId": "top-safety-sjukvard",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Genom att inte laga mat alltför lättklädd – i sjögång är det till och med motiverat att ta på sig regnstället",
+          "isCorrect": true
+        },
+        {
+          "text": "Genom att alltid laga mat i bar överkropp så att heta stänk lätt kan sköljas av huden",
+          "isCorrect": false
+        },
+        {
+          "text": "Genom att bara använda pentryt när båten ligger stilla i hamn och aldrig till sjöss",
+          "isCorrect": false
+        },
+        {
+          "text": "Genom att hålla kastrullerna maximalt fyllda så att innehållet blir tyngre och skvalpar mindre",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Heta stänk och överkokande kastruller är den stora risken i pentryt, särskilt i sjögång. Täckande kläder skyddar huden – i sjögång är det till och med motiverat att sätta på sig regnstället som skydd mot skållhett vatten.",
+      "explanationEn": "Hot splashes and pots boiling over are the main danger in the galley, especially in a seaway. Covering clothing protects the skin – in rough conditions it is even sensible to put on your oilskins as protection against scalding water.",
+      "payload": {
+        "questionSv": "Hur kan du skydda dig mot brännskador i pentryt?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "12:2 / photo_54 + photo_11"
+    },
+    {
+      "id": "saf-sjuk-003",
+      "topicId": "top-safety-sjukvard",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Stoppa ner tummen i kallt vatten och kyl riktigt länge – inte bara tills smärtan gått över",
+          "isCorrect": true
+        },
+        {
+          "text": "Smörj genast in tummen med fet salva eller smör och linda om med plåster",
+          "isCorrect": false
+        },
+        {
+          "text": "Kyl tummen snabbt några sekunder och sätt sedan på ett varmt förband",
+          "isCorrect": false
+        },
+        {
+          "text": "Stick hål på rodnaden så att vätskan kan rinna ut och såret torka",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vid skållning ska skadan kylas i kallt vatten under lång tid – värmen fortsätter annars att verka i vävnaden. Kyl inte bara tills smärtan släpper utan betydligt längre. Feta salvor stänger inne värmen och blåsor/rodnad ska inte punkteras.",
+      "explanationEn": "A scald should be cooled in cold water for a long time – heat otherwise keeps damaging the tissue. Cool well beyond the point where the pain eases. Greasy ointments trap the heat, and blisters or reddened skin should not be punctured.",
+      "payload": {
+        "questionSv": "Du har fått hett vatten på tummen. En rodnad har uppstått. Åtgärder?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "12:3 / photo_54 + photo_11"
+    },
+    {
+      "id": "saf-sjuk-004",
+      "topicId": "top-safety-sjukvard",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Se till att besättningen är mätt och utvilad, håll igång med aktivitet och frisk luft, ha varma och torra kläder – eventuellt sjösjukemedicin",
+          "isCorrect": true
+        },
+        {
+          "text": "Låt besättningen hoppa över maten före avgång och vistas under däck där rörelserna känns mindre",
+          "isCorrect": false
+        },
+        {
+          "text": "Ge alla en stadig måltid med fet mat precis när sjögången börjar och låt dem läsa för att distrahera sig",
+          "isCorrect": false
+        },
+        {
+          "text": "Håll besättningen stilla i sittbrunnen med blicken riktad ner i båten och undvik onödig aktivitet",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Sjösjuka motverkas av att besättningen är mätt och utvilad. Aktivitet och frisk luft är bra, liksom varma och torra kläder. Sjösjukemedicin kan komplettera. Att vistas under däck, läsa eller titta ner i båten förvärrar ofta besvären.",
+      "explanationEn": "Seasickness is best prevented by being well fed and rested. Activity and fresh air help, as do warm, dry clothes; seasickness medication can be added. Staying below deck, reading or looking down into the boat usually makes things worse.",
+      "payload": {
+        "questionSv": "Nämn några enkla metoder för att minska risken för sjösjuka!"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "12:4 / photo_54 + photo_11"
+    },
+    {
+      "id": "saf-sjuk-005",
+      "topicId": "top-safety-sjukvard",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Håll den bitne lugn, låt personen vila med den bitna kroppsdelen i högläge och ring läkare eller giftinformationscentralen för råd",
+          "isCorrect": true
+        },
+        {
+          "text": "Sug ut giftet ur bettet, lägg ett hårt åtsnört band ovanför bettet och låt personen springa för att hålla cirkulationen igång",
+          "isCorrect": false
+        },
+        {
+          "text": "Skär upp bettstället med en ren kniv så att giftet kan blöda ut och kyl sedan med is",
+          "isCorrect": false
+        },
+        {
+          "text": "Ge personen rikligt med varm dryck och massera den bitna kroppsdelen så att giftet späds ut i kroppen",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vid huggormsbett gäller lugna, vila och högläge – ansträngning sprider giftet snabbare i kroppen. Ring läkare eller giftinformationscentralen för råd och räkna med uppföljning inom sjukvården. Att suga, skära eller snöra av är gamla metoder som gör mer skada än nytta.",
+      "explanationEn": "For an adder bite: keep the victim calm and at rest with the bitten limb elevated – exertion spreads the venom faster. Call a doctor or the poison information centre and expect follow-up in medical care. Sucking, cutting or applying a tourniquet are outdated methods that do more harm than good.",
+      "payload": {
+        "questionSv": "Åtgärder vid huggormsbett?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "12:5 / photo_53 + photo_11"
+    },
+    {
+      "id": "saf-sjuk-006",
+      "topicId": "top-safety-sjukvard",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Skölj med mycket vatten, skrapa (gnugga inte) bort tentaklerna – kortisonkräm och 40–45-gradigt vatten lindrar smärtan",
+          "isCorrect": true
+        },
+        {
+          "text": "Gnugga bort tentaklerna med en handduk och kyl sedan huden med isbitar tills domningen släpper",
+          "isCorrect": false
+        },
+        {
+          "text": "Torka av huden torr utan att skölja och smörj in med fet solkräm som kvävar nässelcellerna",
+          "isCorrect": false
+        },
+        {
+          "text": "Skölj med sprit eller bensin som neutraliserar giftet och linda sedan om med tryckförband",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Efter kontakt med brännmanet sköljs området med mycket vatten och tentakelrester skrapas bort – gnuggning trycker ut mer gift ur nässelcellerna. Kortisonkräm och 40–45-gradigt vatten lindrar smärtan. Uppsök sjukvård vid svåra besvär.",
+      "explanationEn": "After contact with a stinging jellyfish, rinse with plenty of water and scrape – do not rub – off the tentacle remains, as rubbing fires more stinging cells. Cortisone cream and water at 40–45 °C ease the pain. Seek medical care if symptoms are severe.",
+      "payload": {
+        "questionSv": "Åtgärder vid skador av brännmanet?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "12:6 / photo_53 + photo_11"
+    },
+    {
+      "id": "saf-sjuk-007",
+      "topicId": "top-safety-sjukvard",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Sänk ner den stuckna kroppsdelen i 40–45-gradigt vatten, ta bort eventuella rester av gifttaggen, håll såret rent och kontakta sjukvården",
+          "isCorrect": true
+        },
+        {
+          "text": "Kyl den stuckna kroppsdelen i isvatten, lämna taggresterna orörda och lägg ett tryckförband över sticket",
+          "isCorrect": false
+        },
+        {
+          "text": "Snöra av kroppsdelen ovanför sticket och sug ut giftet innan såret får läka öppet",
+          "isCorrect": false
+        },
+        {
+          "text": "Smörj sticket med fet salva och håll kroppsdelen i högläge tills svullnaden gått ner",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Fjärsingens gift är värmekänsligt – därför sänks den stuckna kroppsdelen ner i 40–45-gradigt vatten, vilket bryter ner giftet och lindrar smärtan. Ta bort eventuella rester av gifttaggen, håll såret rent och kontakta sjukvården.",
+      "explanationEn": "The venom of the greater weever is heat-sensitive – immersing the affected limb in water at 40–45 °C breaks the venom down and relieves the pain. Remove any remains of the venomous spine, keep the wound clean and contact medical care.",
+      "payload": {
+        "questionSv": "Åtgärd vid fjärsingstick?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "12:7 / photo_53 + photo_11"
+    },
+    {
+      "id": "saf-sjuk-008",
+      "topicId": "top-safety-sjukvard",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "I framstupa sidoläge",
+          "isCorrect": true
+        },
+        {
+          "text": "Plant på rygg med huvudet lågt",
+          "isCorrect": false
+        },
+        {
+          "text": "På rygg med benen i högläge",
+          "isCorrect": false
+        },
+        {
+          "text": "Halvsittande med stöd bakom ryggen",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En medvetslös person som andas läggs i framstupa sidoläge (stabilt sidoläge). Då kan tungan inte falla bakåt och stänga luftvägen, och eventuella kräkningar rinner ut i stället för att hamna i luftvägarna. Ryggläge är farligt just för att tungan då kan blockera luftvägen.",
+      "explanationEn": "An unconscious person who is breathing is placed in the recovery position (on the side, slightly face-down). This keeps the tongue from falling back and blocking the airway, and lets vomit drain out instead of being inhaled. Lying on the back is dangerous precisely because the tongue can obstruct the airway.",
+      "payload": {
+        "questionSv": "Hur lägger du en medvetslös person för att inte tungan ska falla bakåt och stänga luftvägen?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "12:8 / photo_53 + photo_11"
+    },
+    {
+      "id": "saf-sjuk-009",
+      "topicId": "top-safety-sjukvard",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Nej – börja med inblåsningarna direkt utan att försöka tömma lungorna",
+          "isCorrect": true
+        },
+        {
+          "text": "Ja – vänd personen upp och ner och låt vattnet rinna ut innan du börjar",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja – tryck kraftigt på bröstkorgen tills vattnet pressats ut, annars gör inblåsningarna ingen nytta",
+          "isCorrect": false
+        },
+        {
+          "text": "Bara om personen legat i vattnet mer än fem minuter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Nej. Försök att tömma ut vatten ur lungorna är verkningslösa och stjäl dyrbar tid. Det viktiga är att luft kommer ner i lungorna så fort som möjligt – börja därför konstgjord andning direkt.",
+      "explanationEn": "No. Trying to drain water from the lungs is ineffective and wastes precious time. What matters is getting air into the lungs as quickly as possible – start rescue breathing immediately.",
+      "payload": {
+        "questionSv": "Du ska ge någon konstgjord andning. Är det nödvändigt att tömma ut eventuellt vatten ur lungorna först?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "12:9 / photo_53 + photo_11"
+    },
+    {
+      "id": "saf-sjuk-010",
+      "topicId": "top-safety-sjukvard",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Kompress närmast såret, utanpå den en hoprullad gasbinda eller annat hårt föremål, fäst med en måttligt åtdragen binda tills blödningen stoppar",
+          "isCorrect": true
+        },
+        {
+          "text": "En hoprullad gasbinda närmast såret, därefter en kompress, och alltsammans snöras åt så hårt som möjligt",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett hårt åtsnört band ovanför såret som stänger av blodflödet helt, därefter en lös kompress över själva såret",
+          "isCorrect": false
+        },
+        {
+          "text": "Enbart en tjock, lös kompress som byts så fort den blivit genomblödd",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett tryckförband byggs upp med en kompress närmast såret, utanpå den en hoprullad gasbinda eller annat hårt föremål som ger ett riktat tryck, och alltsammans fästs med en måttligt åtdragen binda tills blödningen stoppar. Snörs det åt för hårt stryps cirkulationen i hela kroppsdelen – avsnörande förband ska undvikas.",
+      "explanationEn": "A pressure bandage is built up with a compress directly on the wound, a rolled-up gauze bandage or other firm object on top to give focused pressure, and everything fixed with a moderately tightened bandage until the bleeding stops. Tying it too tight cuts off circulation to the whole limb – tourniquets should be avoided.",
+      "payload": {
+        "questionSv": "Hur läggs tryckförband?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "12:10 / photo_53 + photo_11"
+    },
+    {
+      "id": "saf-sjuk-011",
+      "topicId": "top-safety-sjukvard",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Snabb och svag puls, kallsvettning och blekhet – den skadade kan vara omtöcknad, orolig eller slö",
+          "isCorrect": true
+        },
+        {
+          "text": "Långsam och kraftig puls, torr och rödflammig hud – den skadade blir ofta upprymd och pratsam",
+          "isCorrect": false
+        },
+        {
+          "text": "Hög feber, torr hud och intensiv törst i kombination med långsam andning",
+          "isCorrect": false
+        },
+        {
+          "text": "Kraftig svullnad i ansiktet, klåda och pipande andning strax efter skadan",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Cirkulationssvikt (chock) känns igen på snabb och svag puls, kallsvettning och blekhet. Den skadade kan vara omtöcknad, orolig eller slö. Kroppen centraliserar blodet till de vitala organen – därför blir huden blek, kall och fuktig medan pulsen ökar.",
+      "explanationEn": "Circulatory shock is recognised by a rapid, weak pulse, cold sweat and pallor; the casualty may be dazed, restless or drowsy. The body centralises blood to the vital organs, which is why the skin turns pale, cold and clammy while the pulse rate rises.",
+      "payload": {
+        "questionSv": "Svåra kroppsskador kan leda till cirkulationssvikt. Hur ser man om någon håller på att hamna i en cirkulationssvikt?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "12:11a / photo_53 + photo_11"
+    },
+    {
+      "id": "saf-sjuk-012",
+      "topicId": "top-safety-sjukvard",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Kontrollera andningen, lägg i framstupa sidoläge, stoppa blödningar, ge inte mat eller dryck, hindra avkylning och stanna hos den skadade",
+          "isCorrect": true
+        },
+        {
+          "text": "Sätt den skadade upprätt, ge varm och söt dryck för att höja blodtrycket och lämna personen i lugn och ro",
+          "isCorrect": false
+        },
+        {
+          "text": "Lägg den skadade plant på rygg, ge något att äta för att återställa energin och kyl kroppen med våta handdukar",
+          "isCorrect": false
+        },
+        {
+          "text": "Låt den skadade röra på sig så att cirkulationen hålls igång och ge smärtstillande tabletter med vatten",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vid hotande cirkulationssvikt: kontrollera att andningen fungerar, lägg den skadade i framstupa sidoläge, stoppa blödningar, ge inte mat eller dryck, hindra avkylning och stanna hos den skadade och försök lugna. Mat och dryck är olämpligt bland annat inför en eventuell operation, och avkylning förvärrar chocktillståndet.",
+      "explanationEn": "For threatening circulatory shock: check that breathing works, place the casualty in the recovery position, stop any bleeding, give nothing to eat or drink, prevent heat loss, and stay with the casualty to keep them calm. Food and drink are unsuitable (for example before possible surgery), and getting cold makes shock worse.",
+      "payload": {
+        "questionSv": "Åtgärder vid cirkulationssvikt?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "12:11b / photo_53 + photo_11"
+    },
+    {
+      "id": "saf-sjuk-013",
+      "topicId": "top-safety-sjukvard",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Kyl med kallt vatten – kyl länge, minst en kvart",
+          "isCorrect": true
+        },
+        {
+          "text": "Smörj in handen med fet salva och linda den hårt",
+          "isCorrect": false
+        },
+        {
+          "text": "Kyl kortvarigt med is direkt mot huden, högst en minut",
+          "isCorrect": false
+        },
+        {
+          "text": "Stick hål på eventuella blåsor och lufttorka skadan",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vid brännskada av hett vatten gäller: kyl med kallt vatten, och kyl länge – minst en kvart. Kylningen begränsar skadedjupet och lindrar smärtan. Is direkt mot huden kan däremot ge köldskador.",
+      "explanationEn": "For a scald, cool with cold water and keep cooling for a long time – at least fifteen minutes. Cooling limits the depth of the burn and eases pain. Ice directly on the skin can cause frost damage instead.",
+      "payload": {
+        "questionSv": "Du har fått hett vatten över ena handen. Åtgärd?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:57 / photo_46 + photo_6"
+    },
+    {
+      "id": "saf-sjuk-014",
+      "topicId": "top-safety-sjukvard",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "När brännblåsorna är större än den skadades handflata, vid mindre skador i ansiktet, på händerna eller könsorganen, samt vid djupare brännskador än blåsor",
+          "isCorrect": true
+        },
+        {
+          "text": "Endast när brännskadan täcker mer än halva kroppen",
+          "isCorrect": false
+        },
+        {
+          "text": "Så snart huden rodnar, oavsett skadans storlek och plats",
+          "isCorrect": false
+        },
+        {
+          "text": "Bara om den skadade får feber inom ett dygn",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Sök sjukhusjälp när brännblåsorna är större än den skadades handflata – eller vid mindre skador om de sitter i ansiktet, på händerna eller könsorganen. Djupare brännskador än brännblåsor kräver också sjukhusvård.",
+      "explanationEn": "Seek medical care when burn blisters are larger than the casualty's palm – or for smaller burns located on the face, hands or genitals. Burns deeper than blistering also require hospital care.",
+      "payload": {
+        "questionSv": "När är en brännskada så svår att det är dags att söka sjukhusjälp?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:58 / photo_46 + photo_6"
+    },
+    {
+      "id": "saf-sjuk-015",
+      "topicId": "top-safety-sjukvard",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Håll den bitne lugn och i vila med den skadade kroppsdelen i högläge, och kontakta läkare eller Giftinformationscentralen – det kan bli nödvändigt att följa upp bettet på sjukhus eller vårdcentral",
+          "isCorrect": true
+        },
+        {
+          "text": "Sug ut giftet ur bettet, lägg ett hårt tryckförband och låt personen röra sig normalt",
+          "isCorrect": false
+        },
+        {
+          "text": "Kyl bettet med is, skär upp bettmärkena och skölj med sjövatten",
+          "isCorrect": false
+        },
+        {
+          "text": "Ge den bitne kaffe och låt personen springa för att svettas ut giftet",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vid huggormsbett: håll den bitne lugn och i vila med den skadade kroppsdelen i högläge, och kontakta läkare eller Giftinformationscentralen för råd. Räkna med att bettet kan behöva följas upp på sjukhus eller vårdcentral. Ansträngning sprider giftet snabbare i kroppen.",
+      "explanationEn": "For an adder bite: keep the casualty calm and at rest with the bitten limb elevated, and contact a doctor or the Poison Information Centre for advice. Follow-up at a hospital or clinic may be needed. Exertion spreads the venom faster.",
+      "payload": {
+        "questionSv": "Någon har varit iland och blivit biten av en huggorm. Åtgärder?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:59 / photo_46 + photo_6"
+    }
+  ]
+}

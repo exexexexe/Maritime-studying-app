@@ -1,0 +1,560 @@
+{
+  "topicId": "top-reg-miljo",
+  "items": [
+    {
+      "id": "reg-miljo-001",
+      "topicId": "top-reg-miljo",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Rör dig försiktigt på öar och skär under häckningstid, skingra inte fågelkullar på sjön, håll hundar kopplade och respektera fågelskyddsområdena",
+          "isCorrect": true
+        },
+        {
+          "text": "Gå i land främst på småöar där fåglarna häckar tätt, eftersom fåglarna där är vana vid människor",
+          "isCorrect": false
+        },
+        {
+          "text": "Kör nära fågelflockar på vattnet så att de hinner flyga undan i god tid innan båten är framme",
+          "isCorrect": false
+        },
+        {
+          "text": "Släpp hunden lös på öarna under våren så att den kan skrämma bort trutar som tar andra fåglars ägg",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Under häckningstid ska vi röra oss försiktigt på öar och skär och inte springa omkring i onödan medan fåglarna ruvar. Fågelkullar på sjön ska inte skingras. Hundar och andra husdjur får inte störa viltet – hundar ska hållas kopplade eller under mycket sträng kontroll 1 mars–20 augusti. Reglerna för fågelskyddsområden måste respekteras.",
+      "explanationEn": "During the nesting season, move carefully on islands and skerries and avoid running around while birds are incubating. Do not scatter broods of birds on the water. Dogs and other pets must not disturb wildlife – dogs must be leashed or under very strict control from 1 March to 20 August. The rules for bird sanctuaries must be respected.",
+      "payload": {
+        "questionSv": "Nämn några saker som är viktiga att tänka på för att vi som är båtfolk inte ska störa fågellivet."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "13:1 / photo_53 + photo_11"
+    },
+    {
+      "id": "reg-miljo-002",
+      "topicId": "top-reg-miljo",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "I båtsportkorten och på skyltar iland – länsstyrelsen kan ge fullständiga uppgifter",
+          "isCorrect": true
+        },
+        {
+          "text": "Endast i sjölagen, som räknar upp alla skyddsområden län för län",
+          "isCorrect": false
+        },
+        {
+          "text": "Hos Sjöfartsverkets trafikcentraler, som ropas upp på VHF innan man går iland",
+          "isCorrect": false
+        },
+        {
+          "text": "I hamnkaptenens liggare, som varje gästhamn är skyldig att hålla uppdaterad",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Fågel- och sälskyddsområden samt naturreservat med strängare regler än allemansrätten är markerade i båtsportkorten och skyltade iland. Länsstyrelsen kan ge fullständiga uppgifter om vilka regler som gäller i varje område.",
+      "explanationEn": "Bird and seal protection areas, and nature reserves with rules stricter than the general right of public access, are marked in the leisure-craft chart folios (båtsportkort) and on signs ashore. The county administrative board can provide full details of the rules for each area.",
+      "payload": {
+        "questionSv": "Det finns fågel- och sälskyddsområden och naturreservat där strängare regler än den vanliga allemansrätten gäller. Var kan du som båtfarare enklast finna uppgifter om dessa områden?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "13:2 / photo_53 + photo_11"
+    },
+    {
+      "id": "reg-miljo-003",
+      "topicId": "top-reg-miljo",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ja, men den som eldar ansvarar för att elden inte ställer till skada – lokala eldningsförbud kan förekomma",
+          "isCorrect": true
+        },
+        {
+          "text": "Nej, öppen eld är alltid förbjuden i skärgården oavsett väder och plats",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja, och den som eldar är fri från ansvar så länge elden tänds nedanför högvattenlinjen",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja, men bara om markägaren först har gett sitt skriftliga tillstånd",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Det är tillåtet att göra upp en mindre eld för att till exempel grilla korv, men den som eldar ansvarar fullt ut för att elden inte ställer till någon som helst skada. Vid torka utfärdas ofta lokala eldningsförbud som då måste följas.",
+      "explanationEn": "You may light a small fire, for example to grill sausages, but whoever lights it is fully responsible for ensuring it causes no damage whatsoever. During dry spells local fire bans are often issued and must then be obeyed.",
+      "payload": {
+        "questionSv": "Är det tillåtet att tända en eld för att grilla korv?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "13:3 / photo_53 + photo_11"
+    },
+    {
+      "id": "reg-miljo-004",
+      "topicId": "top-reg-miljo",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Därför att berget spricker av värmen och man åstadkommer en permanent skada för lång tid framöver – det är förbjudet",
+          "isCorrect": true
+        },
+        {
+          "text": "Därför att klipphällar leder bort värmen så att elden slocknar och maten aldrig blir färdig",
+          "isCorrect": false
+        },
+        {
+          "text": "Därför att sotet gör hällen hal och farlig att gå på, men skadan försvinner med första regnet",
+          "isCorrect": false
+        },
+        {
+          "text": "Därför att elden lättare sprider sig till vattnet från en öppen häll än från skogsmark",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Eldar man direkt på en klipphäll spricker berget av värmen och skadan blir permanent – den syns i generationer. Därför är det förbjudet att elda direkt på hällar. Elda i stället på grus eller sand, väl avskilt från brännbart material.",
+      "explanationEn": "A fire lit directly on a rock slab makes the rock crack from the heat, causing permanent damage that remains visible for generations. That is why it is forbidden. Make the fire on gravel or sand instead, well clear of anything flammable.",
+      "payload": {
+        "questionSv": "Varför ska man inte elda direkt på klipphällar?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "13:4 / photo_53 + photo_11"
+    },
+    {
+      "id": "reg-miljo-005",
+      "topicId": "top-reg-miljo",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "En förteckning finns i ett indexblad till båtsportkorten",
+          "isCorrect": true
+        },
+        {
+          "text": "Sopmajorna är utmärkta med en särskild fyrkaraktär i fyrlistan",
+          "isCorrect": false
+        },
+        {
+          "text": "Kustbevakningen lämnar ut listan på begäran via VHF-anrop",
+          "isCorrect": false
+        },
+        {
+          "text": "Alla sopmajor sänder en AIS-signal som syns i plottern",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En förteckning över sopmajorna finns i ett indexblad till båtsportkorten. Där kan du enkelt ta reda på var närmaste sopmaja ligger så att soporna kan lämnas på rätt plats i stället för i naturen.",
+      "explanationEn": "A list of the refuse stations (sopmajor) is found on an index sheet in the leisure-craft chart folios. That makes it easy to locate the nearest one so rubbish is left in the right place rather than in nature.",
+      "payload": {
+        "questionSv": "Du har sopor att slänga och vill uppsöka närmaste sopmaja. Hur kan du enkelt ta reda på var de finns?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "13:5 / photo_53 + photo_11"
+    },
+    {
+      "id": "reg-miljo-006",
+      "topicId": "top-reg-miljo",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Nej – toalettavfall får inte pumpas ut där, utan ska lämnas till mottagningsstation",
+          "isCorrect": true
+        },
+        {
+          "text": "Ja, bara fjärden är tillräckligt stor och djup blir utspädningen tillräcklig",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja, om det sker under gång i minst fem knops fart",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja, nattetid när inga badande finns i närheten",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Nej. Toalettavfall från fritidsbåtar får inte tömmas i svenska vatten – inte ens mitt ute på en stor fjärd – utan ska lämnas i en tömningsstation. Bokens facit noterar att utsläpp tills vidare varit tillåtet först på internationellt vatten.",
+      "explanationEn": "No. Toilet waste from leisure boats may not be discharged in Swedish waters – not even far out on a large bay – but must be emptied at a pump-out station. The book's answer key notes that discharge has, for the time being, only been permitted on international waters.",
+      "payload": {
+        "questionSv": "Är det tillåtet att pumpa ur båttoaletten mitt ute på en stor fjärd?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "13:6 / photo_53 + photo_11"
+    },
+    {
+      "id": "reg-miljo-007",
+      "topicId": "top-reg-miljo",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ja, om det inte är inom privat tomt",
+          "isCorrect": true
+        },
+        {
+          "text": "Nej, förtöjning är förbjuden överallt där en sommarstuga kan ses",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja, men bara efter att stugägaren gett muntligt tillstånd",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej, det krävs alltid minst 300 meters avstånd till närmaste bebyggelse",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Allemansrätten ger rätt att tillfälligt förtöja även inom synhåll för en sommarstuga, så länge man inte är inne på privat tomt eller stör hemfriden. Det avgörande är alltså tomtgränsen och hänsynen – inte om stugan syns.",
+      "explanationEn": "The right of public access allows temporary mooring even within sight of a summer cottage, as long as you are not inside the private plot or disturbing the occupants' privacy. What matters is the boundary of the plot and due consideration – not whether the cottage is visible.",
+      "payload": {
+        "questionSv": "Får du förtöja inom synhåll för en sommarstuga?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "13:7 / photo_53 + photo_11"
+    },
+    {
+      "id": "reg-miljo-008",
+      "topicId": "top-reg-miljo",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Nej – utan byggnader eller anläggningar i närheten har skylten ingen verkan",
+          "isCorrect": true
+        },
+        {
+          "text": "Ja – en målad skylt gäller alltid som juridiskt bindande förbud",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja – all tilläggning vid klipphällar kräver ändå markägarens tillstånd",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej – men bara om du stannar kortare tid än en timme",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Nej. Allemansrätten gäller på hällen när inga byggnader eller andra anläggningar finns inom synhåll – det rör sig alltså inte om någon tomt eller hemfridszon. En egenhändigt målad förbudstext ändrar inte det.",
+      "explanationEn": "No. The right of public access applies to the rock slab when no buildings or other installations are within sight – it is clearly not a private plot or home privacy zone. A privately painted prohibition does not change that.",
+      "payload": {
+        "questionSv": "På en klipphäll har någon målat 'Privat badstrand. Tilläggning förbjuden'. Inga byggnader eller andra anläggningar finns inom synhåll. Behöver du ta någon notis om förbudet?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "13:8 / photo_53 + photo_11"
+    },
+    {
+      "id": "reg-miljo-009",
+      "topicId": "top-reg-miljo",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Nej – privata tomter ska vi inte gå över",
+          "isCorrect": true
+        },
+        {
+          "text": "Ja – allemansrätten ger rätt att passera överallt så länge man inte stannar",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja – men bara om man håller sig inom tio meter från strandlinjen",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej – utom under juli månad då tomtmark är öppen för passage",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Nej. Allemansrätten omfattar inte privata tomter – hemfridszonen kring bostadshus ska respekteras och man får inte snedda över någons tomt, inte ens som en genväg.",
+      "explanationEn": "No. The right of public access does not extend to private plots – the privacy zone around a dwelling must be respected, and you may not cut across someone's plot, not even as a shortcut.",
+      "payload": {
+        "questionSv": "Får du snedda över en privat tomt?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "13:9 / photo_53 + photo_11"
+    },
+    {
+      "id": "reg-miljo-010",
+      "topicId": "top-reg-miljo",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Du kan ta med den dit, men det blir värre att ta hem den – enligt boken krävs då fyra månaders karantän eller vaccinationer och veterinärkontroller",
+          "isCorrect": true
+        },
+        {
+          "text": "Nej, det är helt förbjudet att föra levande djur över gränsen i fritidsbåt",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja, katten får följa med fritt i båda riktningarna eftersom Danmark ligger i Norden",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja, men bara om katten hålls ombord och aldrig sätts iland i Danmark",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Enligt bokens facit kan katten tas med till Danmark, men det blir värre att ta hem den: eftersom rabies förekommer i Danmark krävdes fyra månaders karantän, som kunde ersättas med vaccinationer och veterinärkontroller. Observera att reglerna har moderniserats – idag används EU:s sällskapsdjurspass med rabiesvaccination.",
+      "explanationEn": "According to the book's answer key, the ship's cat can be taken to Denmark, but bringing it home is the problem: because rabies occurred in Denmark, four months of quarantine was required, which could be replaced by vaccinations and veterinary checks. Note that the rules have since been modernised – today the EU pet passport with rabies vaccination applies.",
+      "payload": {
+        "questionSv": "Får du ta med skeppskatten till Danmark?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Bokens facit (4 månaders karantän) är föråldrat – numera gäller EU:s sällskapsdjurspass. Kontrollera hur frågan ska hanteras.",
+      "sourceRef": "13:10 / photo_53 + photo_11"
+    },
+    {
+      "id": "reg-miljo-011",
+      "topicId": "top-reg-miljo",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ja – fiske med handredskap som kastspö ingår i det fria fisket längs kusterna och i de stora sjöarna",
+          "isCorrect": true
+        },
+        {
+          "text": "Nej – allt fiske på privat fiskevatten kräver fiskerättsägarens tillstånd",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja – men bara med köpt fiskekort som gäller för det aktuella vattnet",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej – kastspö räknas som rörligt redskap och är alltid tillståndspliktigt",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ja. Det fria fisket med handredskap (till exempel kastspö och metspö) gäller längs kusterna och i de fem stora sjöarna, även på privat fiskevatten. Det fria fisket omfattar däremot inte nät och andra mängdfångande redskap.",
+      "explanationEn": "Yes. Free fishing with hand tackle (such as a spinning rod) applies along the coasts and in the five great lakes, even on private fishing waters. The free fishing right does not, however, cover nets and other mass-catching gear.",
+      "payload": {
+        "questionSv": "Är det tillåtet att fiska med kastspö på privat fiskevatten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "13:11 / photo_53 + photo_11"
+    },
+    {
+      "id": "reg-miljo-012",
+      "topicId": "top-reg-miljo",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Nej – det fria fisket gäller bara handredskap, och nätfiskebestämmelserna är komplicerade så lokala regler måste kontrolleras",
+          "isCorrect": true
+        },
+        {
+          "text": "Ja – nät får läggas fritt överallt så länge de är utmärkta med bojar i båda ändar",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja – nätfiske ingår i det fria fisket på samma sätt som spöfiske",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej – nätfiske är helt förbjudet för fritidsfiskare i hela landet",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Nej. Det fria fisket gäller bara handredskap och alltså inte nät. Nätfiskebestämmelserna är komplicerade och varierar – därför måste man ta reda på vilka lokala regler som gäller innan man lägger nät.",
+      "explanationEn": "No. The free fishing right only covers hand tackle, not nets. Net-fishing regulations are complicated and vary from place to place – you must find out which local rules apply before setting a net.",
+      "payload": {
+        "questionSv": "Är det tillåtet att lägga nät var som helst?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "13:12 / photo_53 + photo_10"
+    },
+    {
+      "id": "reg-miljo-013",
+      "topicId": "top-reg-miljo",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Därför att den flyter upp till ytan så att andra båtar kan trassla in sig i den – och man kan själv snärja in sig i linan när vinden ändrar riktning",
+          "isCorrect": true
+        },
+        {
+          "text": "Därför att flytande lina är svagare än sjunkande och lätt brister i sjögång",
+          "isCorrect": false
+        },
+        {
+          "text": "Därför att en flytande lina drar upp ankaret ur botten så fort det börjar blåsa",
+          "isCorrect": false
+        },
+        {
+          "text": "Därför att flytande linor tar upp vatten och blir för tunga att hala hem",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En flytande ankarlina lägger sig i ytan där passerande båtar kan trassla in sig i den med propellern. Ligger man själv på svaj är risken dessutom stor att den egna båten snärjer in sig i linan när vinden ändrar riktning. Ankarlinan bör därför sjunka.",
+      "explanationEn": "A floating anchor line lies on the surface where passing boats can foul it with their propellers. If you are lying at anchor, there is also a real risk that your own boat gets tangled in the line when the wind shifts. An anchor line should therefore sink.",
+      "payload": {
+        "questionSv": "Varför bör man inte ha flytande lina som ankarlina?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "13:13 / photo_53 + photo_10"
+    },
+    {
+      "id": "reg-miljo-014",
+      "topicId": "top-reg-miljo",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Berget spricker av värmen",
+          "isCorrect": true
+        },
+        {
+          "text": "Röken skrämmer fågellivet i skärgården",
+          "isCorrect": false
+        },
+        {
+          "text": "Elden syns långt och kan misstas för en nödsignal",
+          "isCorrect": false
+        },
+        {
+          "text": "Askan gör klipporna hala och farliga att gå på",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Man ska inte elda direkt på klipporna eftersom berget spricker av värmen. Sprickorna blir bestående skador i naturen – elda i stället på anvisad plats eller använd grill med ben.",
+      "explanationEn": "Never light a fire directly on bare rock – the heat cracks the rock, leaving permanent damage. Use a designated fireplace or a raised grill instead.",
+      "payload": {
+        "questionSv": "Varför ska man inte elda på klipporna?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:60 / photo_46 + photo_6"
+    },
+    {
+      "id": "reg-miljo-015",
+      "topicId": "top-reg-miljo",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Håll motor och bränslesystem så täta att ingen olja läcker, ha ett tråg under motorn som samlar upp läckage, och lägg absorberande kuddar eller dukar i det oljehaltiga slagvattnet",
+          "isCorrect": true
+        },
+        {
+          "text": "Tillsätt diskmedel i slagvattnet så att oljan löses upp innan den pumpas ut",
+          "isCorrect": false
+        },
+        {
+          "text": "Pumpa bara ut slagvattnet nattetid när oljefilmen inte syns",
+          "isCorrect": false
+        },
+        {
+          "text": "Späd ut slagvattnet med rikligt sjövatten så att oljehalten blir försumbar",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Se till att motor och bränslesystem är så täta att ingen olja läcker ut, och ha ett tråg under motorn som samlar upp eventuellt läckage. Det finns speciella absorberande kuddar och dukar som kan läggas i oljehaltigt slagvatten – de suger upp oljan men inte vattnet, så att oljan inte pumpas ut i sjön.",
+      "explanationEn": "Keep the engine and fuel system tight so no oil leaks, and fit a drip tray under the engine to catch any leakage. Special absorbent pads and cloths can be laid in oily bilge water – they soak up the oil but not the water, so no oil is pumped overboard.",
+      "payload": {
+        "questionSv": "När du länspumpar båten finns risk att lite olja följer med slagvattnet ut i sjön. Vad kan du göra för att undvika att det kommer olja i slagvattnet och för att förhindra att eventuell olja pumpas ut i sjön?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:61 / photo_46 + photo_6"
+    }
+  ]
+}

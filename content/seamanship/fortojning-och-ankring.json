@@ -1,0 +1,745 @@
+{
+  "topicId": "top-sjo-fortojning",
+  "items": [
+    {
+      "id": "sjo-fort-001",
+      "topicId": "top-sjo-fortojning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Fjädring med ryckdämpare, skavskydd (t.ex. påträdd slang) där linorna kan nötas, och att solljuset begränsar konstfiberlinornas livslängd",
+          "isCorrect": true
+        },
+        {
+          "text": "Att linorna är så korta och hårt sträckta som möjligt så att båten inte kan röra sig i förtöjningen",
+          "isCorrect": false
+        },
+        {
+          "text": "Att stumma flytlinor används och att knutar slås på linorna där de passerar kanter",
+          "isCorrect": false
+        },
+        {
+          "text": "Att linorna är av naturfiber, eftersom sådana tål ryck och solljus bäst och aldrig behöver bytas",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Viktigt vid den permanenta förtöjningen: fjädring – tågvirket ska vara elastiskt och linorna mot bryggan förses med särskilda fjädrar/ryckdämpare; skavskydd – linor som inte går raka vägen till fästpunkten förses med skavskydd, t.ex. en påträdd slang där de kan nötas; solljus – allt konstfibertågvirke är känsligt för UV-ljus, så förtöjningslinorna ska inte ligga ute i onödan och har begränsad livslängd.",
+      "explanationEn": "Key points for a permanent mooring: springing – the rope should be elastic and the lines to the jetty fitted with special shock absorbers; chafe protection – lines that do not run straight to their attachment point get chafe guards, e.g. a piece of hose threaded on where they may wear; sunlight – all synthetic rope is UV-sensitive, so mooring lines should not lie out unnecessarily and have a limited lifespan.",
+      "payload": {
+        "questionSv": "En båt ligger förtöjd vid hemmabryggan med aktern i en boj och två förlinor till ringar i bryggan. Nämn några detaljer i förtöjningsutrustningen som är viktiga att tänka på."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "14:3 / photo_52 + photo_10"
+    },
+    {
+      "id": "sjo-fort-002",
+      "topicId": "top-sjo-fortojning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Förlina och akterlina samt förspring och akterspring – springen hindrar båten att röra sig langskepps",
+          "isCorrect": true
+        },
+        {
+          "text": "Endast en förlina och en akterlina, båda dragna vinkelrätt mot kajen",
+          "isCorrect": false
+        },
+        {
+          "text": "Fyra linor från fören till olika pollare så att fören ligger helt stilla",
+          "isCorrect": false
+        },
+        {
+          "text": "En enda lång lina från fören, runt en pollare och tillbaka till aktern",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vid förtöjning långsides används fyra linor: förlina och akterlina som håller båten mot kajen, samt förspring (från fören snett akteröver) och akterspring (från aktern snett föröver) som hindrar båten från att glida framåt eller bakåt längs kajen.",
+      "explanationEn": "When mooring alongside you use four lines: a bow line and a stern line holding the boat to the quay, plus a fore spring (from the bow leading aft) and an after spring (from the stern leading forward) that stop the boat from surging forward or aft along the quay.",
+      "payload": {
+        "questionSv": "Du ska förtöja långsides vid en kaj (knapar ombord och pollare på kajen). Vilka förtöjningar lägger du ut och vad kallas de?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "14:4 / photo_52 + photo_10"
+    },
+    {
+      "id": "sjo-fort-003",
+      "topicId": "top-sjo-fortojning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Varje båt förtöjs med spring mot grannbåten, och även de yttre båtarna ska ha egna för- och akterlinor dragna iland till bryggan",
+          "isCorrect": true
+        },
+        {
+          "text": "Bara den innersta båten förtöjs i bryggan – de yttre hänger enbart i korta linor till grannbåten",
+          "isCorrect": false
+        },
+        {
+          "text": "Endast den yttersta båten förtöjs iland, eftersom den tar upp hela paketets vindtryck",
+          "isCorrect": false
+        },
+        {
+          "text": "Båtarna binds ihop för-till-för och akter-till-akter med en enda genomgående lina",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "När flera båtar ligger utanpå varandra förtöjs de sinsemellan med linor och spring, men de yttre båtarna ska dessutom ha egna långa för- och akterlinor dragna iland till bryggan. Annars får den innersta båtens förtöjning och knapar bära hela paketets belastning.",
+      "explanationEn": "When several boats lie rafted alongside each other they are moored to one another with lines and springs, but the outer boats must also run their own long bow and stern lines ashore to the jetty. Otherwise the inner boat's moorings and cleats have to carry the load of the whole raft.",
+      "payload": {
+        "questionSv": "Tre båtar ligger utanpå varandra vid en brygga. Hur ska förtöjningarna ordnas?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Facit är endast en bild (photo_10) – verifiera att tolkningen av förtöjningsarrangemanget stämmer med bokens figur.",
+      "sourceRef": "14:5 / photo_52 + photo_10"
+    },
+    {
+      "id": "sjo-fort-004",
+      "topicId": "top-sjo-fortojning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Som ett spring från aktern och in mot land, riktat så mycket som möjligt mot vinden – ju längre springet är desto bättre",
+          "isCorrect": true
+        },
+        {
+          "text": "Som en kort lina från aktern rakt vinkelrätt mot stranden, så att den blir så styv som möjligt",
+          "isCorrect": false
+        },
+        {
+          "text": "Som en extra lina från fören till en punkt rakt i lä, så att båten kan svänga fritt med vinden",
+          "isCorrect": false
+        },
+        {
+          "text": "Som en flytande lina från masttoppen till närmaste träd på stranden",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett spring läggs från aktern och in mot land, riktat så mycket som möjligt mot vinden – och ju längre springet är, desto bättre. Har springet en tvär vinkel mot land ökar påkänningarna på ankaret, eftersom springet då tvingar in fören mot stranden och båten ligger vinkelrätt mot land.",
+      "explanationEn": "A spring is led from the stern in toward the shore, angled as much as possible toward the wind – and the longer the spring, the better. If the spring meets the shore at a sharp angle, the loads on the anchor increase, because the spring then forces the bow toward the beach and the boat lies at right angles to the shore.",
+      "payload": {
+        "questionSv": "Du ligger förtöjd med fören mot en strand (ankare i aktern). Sidvinden friskar och båten vill driva ner mot en bränning. Du vill lägga ut en extra förtöjning för att få båten att ligga rakare – hur läggs den?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "14:6 / photo_52 + photo_9"
+    },
+    {
+      "id": "sjo-fort-005",
+      "topicId": "top-sjo-fortojning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "CQR-ankaret – vid en vindkantring kan ankarlinan lägga sig över stockankarets uppstickande del, fastna, och få ankaret att sluta fungera",
+          "isCorrect": true
+        },
+        {
+          "text": "Stockankaret – det är tyngre och håller därför alltid bättre än ett CQR-ankare på svaj",
+          "isCorrect": false
+        },
+        {
+          "text": "Stockankaret – dess stock gör att linan aldrig kan trassla in sig oavsett hur vinden vrider",
+          "isCorrect": false
+        },
+        {
+          "text": "CQR-ankaret – men bara därför att det är lättare att hala hem för hand",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "CQR är att föredra vid ankring på svaj. När båten svajar runt vid en vindkantring finns risken att ankarlinan lägger sig över den del av stockankaret som sticker upp ur sjöbotten och fastnar där. Dragningen kommer då från fel håll och ankaret upphör att fungera.",
+      "explanationEn": "The CQR is preferable when anchoring at swing. As the boat swings with a wind shift, the anchor line can drape over the part of a fisherman (stock) anchor that sticks up from the seabed and snag there. The pull then comes from the wrong direction and the anchor stops holding.",
+      "payload": {
+        "questionSv": "Du ska ankra på svaj, alltså enbart med ankare och ingen förtöjning mot land. Ombord finns två ankare – ett CQR och ett stockankare. Bottenbeskaffenheten passar båda. Vilket föredrar du?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "14:7 / photo_52 + photo_9"
+    },
+    {
+      "id": "sjo-fort-006",
+      "topicId": "top-sjo-fortojning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Akterlina till bojen och två förlinor från fören som spridda leds till skilda fästpunkter på bryggan",
+          "isCorrect": true
+        },
+        {
+          "text": "En enda förlina rakt in till bryggans mitt och en slak akterlina till bojen",
+          "isCorrect": false
+        },
+        {
+          "text": "Två akterlinor till bojen och ingen lina alls till bryggan – bojen håller båten på plats",
+          "isCorrect": false
+        },
+        {
+          "text": "Förlinorna korsas under båten och akterlinan görs fast i grannbåtens boj",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vid förtöjning med boj i aktern och fören mot bryggan läggs akterlinan till bojen och två förlinor från fören, spridda till skilda fästpunkter på bryggan. Spridningen hindrar båten från att röra sig i sidled, och akterlinan hålls sträckt så att båten hålls från bryggan.",
+      "explanationEn": "When mooring with a buoy astern and the bow toward the jetty, the stern line goes to the buoy and two bow lines are led, spread apart, to separate attachment points on the jetty. The spread keeps the boat from moving sideways, and the taut stern line keeps the boat off the jetty.",
+      "payload": {
+        "questionSv": "Du ska förtöja med boj i aktern och linor mot bryggan iland. Hur läggs förtöjningarna?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Facit är endast en bild (photo_9) – verifiera linornas dragning mot bokens figur.",
+      "sourceRef": "14:8 / photo_52 + photo_9"
+    },
+    {
+      "id": "sjo-fort-007",
+      "topicId": "top-sjo-fortojning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Cirka 30 meter – sex gånger djupet",
+          "isCorrect": true
+        },
+        {
+          "text": "Cirka 15 meter – tre gånger djupet",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 10 meter – dubbla djupet",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 50 meter – tio gånger djupet",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Med ankarlina av tågvirke gäller tumregeln sex gånger djupet: 6 × 5 = 30 meter. Den långa linan behövs för att dragriktningen i ankaret ska bli så parallell med botten som möjligt – ett brant drag lyfter ankaret ur botten.",
+      "explanationEn": "With a rope anchor line the rule of thumb is six times the depth: 6 × 5 = 30 metres. The long scope is needed so the pull on the anchor stays as parallel to the bottom as possible – a steep pull lifts the anchor out of the seabed.",
+      "payload": {
+        "questionSv": "Du ska ankra på 5 meters djup. Ankarutrustningen består av ett stockankare med lina. Hur många meter lina låter du gå i vattnet?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "14:9 / photo_52 + photo_9"
+    },
+    {
+      "id": "sjo-fort-008",
+      "topicId": "top-sjo-fortojning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Cirka 15 meter – tre gånger djupet",
+          "isCorrect": true
+        },
+        {
+          "text": "Cirka 30 meter – sex gånger djupet",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 5 meter – samma längd som djupet",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 45 meter – nio gånger djupet",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Med kätting räcker tre gånger djupet: 3 × 5 = 15 meter. Kättingens tyngd ger fjädring och håller dragriktningen parallell med sjöbotten. Observera att regeln inte fungerar på mycket små djup – vid t.ex. 1,5 meters djup räcker inte 4,5 meter kätting; en bättre regel är då tre gånger djupet plus 10 meter.",
+      "explanationEn": "With chain, three times the depth is enough: 3 × 5 = 15 metres. The chain's weight provides springing and keeps the pull parallel to the seabed. Note the rule fails in very shallow water – at 1.5 metres depth, 4.5 metres of chain is never enough; a better rule there is three times the depth plus 10 metres.",
+      "payload": {
+        "questionSv": "Du ska ankra på 5 meters djup. Den här gången har du kätting. Vad kan anses som minimilängd på kättingen?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "14:10 / photo_52 + photo_9"
+    },
+    {
+      "id": "sjo-fort-009",
+      "topicId": "top-sjo-fortojning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Gå med några knops fart framåt, slå back och lägg märke till åt vilket håll båten vill gira",
+          "isCorrect": true
+        },
+        {
+          "text": "Ligg helt stilla, ge full fart framåt och se åt vilket håll fören lyfter",
+          "isCorrect": false
+        },
+        {
+          "text": "Läs av propellerns stigning på typskylten – skovelhjulseffekten framgår alltid där",
+          "isCorrect": false
+        },
+        {
+          "text": "Kör i en snäv cirkel åt styrbord och mät hur diametern ändras med varvtalet",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett enkelt sätt att kontrollera skovelhjulseffekten på fritt vatten: gå med några knops fart framåt, slå back och lägg märke till åt vilket håll båten vill gira. Vid backmanöver knuffar propellern aktern åt sidan – vet du åt vilket håll kan du utnyttja effekten vid tilläggning.",
+      "explanationEn": "A simple way to check propeller walk in open water: motor ahead at a few knots, engage reverse and note which way the boat wants to swing. In reverse the propeller pushes the stern sideways – knowing which way lets you use the effect when berthing.",
+      "payload": {
+        "questionSv": "Du vill kontrollera propellerns skovelhjulseffekt på en obekant båt med inombordsmotor. Nämn ett enkelt sätt att göra det ute på fritt vatten."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "14:11 / photo_52 + photo_9"
+    },
+    {
+      "id": "sjo-fort-010",
+      "topicId": "top-sjo-fortojning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Aktern kommer att vilja gå in mot bryggan",
+          "isCorrect": true
+        },
+        {
+          "text": "Aktern kommer att vilja gå ut från bryggan",
+          "isCorrect": false
+        },
+        {
+          "text": "Fören trycks in mot bryggan medan aktern ligger stilla",
+          "isCorrect": false
+        },
+        {
+          "text": "Ingen sidokraft uppstår så länge rodret hålls midskepps",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En högergängad propeller knuffar aktern åt babord när man backar (skovelhjulseffekten). Vid tilläggning med babords sida mot bryggan innebär det att aktern går in mot bryggan när du slår back – en perfekt kombination som snyggt bromsar och lägger båten på plats.",
+      "explanationEn": "A right-handed propeller kicks the stern to port when going astern (propeller walk). When berthing port side to, this means the stern swings in toward the jetty as you engage reverse – an ideal combination that both brakes the boat and tucks it alongside.",
+      "payload": {
+        "questionSv": "Du ska lägga till med babords sida mot bryggan med en båt som har en högergängad propeller. När du slår back – kommer aktern att vilja gå in mot bryggan eller ut från den?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "14:12 / photo_52 + photo_9"
+    },
+    {
+      "id": "sjo-fort-011",
+      "topicId": "top-sjo-fortojning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Backa och ge ibland korta puffar framåt med rodret lagt så att båten rättar in sig åt det håll du vill",
+          "isCorrect": true
+        },
+        {
+          "text": "Öka backfarten kraftigt – vid hög fart lyder båten alltid rodret även på back",
+          "isCorrect": false
+        },
+        {
+          "text": "Lägg rodret hårt åt motsatt håll och håll det där under hela backmanövern",
+          "isCorrect": false
+        },
+        {
+          "text": "Stäng av motorn och låt båten driva rakt bakåt av farten",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Backa och ge ibland korta puffar framåt med rodret lagt så att båten rättar in sig åt det håll du vill. Under den korta framåtpuffen träffar propellerströmmen rodret och båten kan styras upp, utan att backfarten hinner försvinna. En båt med inombordsmotor styr alltid mycket sämre på back än vid gång framåt.",
+      "explanationEn": "Reverse, and now and then give short bursts ahead with the rudder set so the boat lines up the way you want. During the brief burst ahead, the propeller stream hits the rudder and the boat can be steered, without losing sternway. An inboard-engined boat always steers much worse going astern than ahead.",
+      "payload": {
+        "questionSv": "Du vill backa rakt med en båt, men den visar sig vilja gira åt sidan (se figur: båten viker av under backning). Hur kan du manövrera för att ändå komma dit du vill?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "14:13 / photo_52 + photo_9"
+    },
+    {
+      "id": "sjo-fort-012",
+      "topicId": "top-sjo-fortojning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Lägg rodret för effektivaste gir och kör korta puffar – omväxlande fram och back",
+          "isCorrect": true
+        },
+        {
+          "text": "Håll konstant fart framåt med fullt roder tills båten har vänt helt",
+          "isCorrect": false
+        },
+        {
+          "text": "Backa i en lång cirkel med rodret midskepps",
+          "isCorrect": false
+        },
+        {
+          "text": "Kör full fart framåt och släpp rodret så att skovelhjulseffekten vänder båten",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "För att vända med minsta möjliga radie lägger du rodret för effektivaste gir och kör korta puffar – omväxlande fram och back. Under framåtpuffarna kastar propellerströmmen mot rodret och vrider båten nästan på stället; backpuffarna bromsar så att båten inte får någon fart framåt.",
+      "explanationEn": "To turn in the smallest possible radius, put the rudder over for the most effective turn and use short bursts of power – alternating ahead and astern. During the ahead bursts the prop wash hits the rudder and pivots the boat almost on the spot; the astern bursts stop the boat gathering headway.",
+      "payload": {
+        "questionSv": "Vilken teknik använder du för att vända en motorbåt med minsta möjliga radie?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "14:14 / photo_52 + photo_9"
+    },
+    {
+      "id": "sjo-fort-013",
+      "topicId": "top-sjo-fortojning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Att köra på spring",
+          "isCorrect": true
+        },
+        {
+          "text": "Att ankra på svaj",
+          "isCorrect": false
+        },
+        {
+          "text": "Att lägga till på boj",
+          "isCorrect": false
+        },
+        {
+          "text": "Att varpa båten",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tekniken kallas att köra på spring. Trossen från pollaren till knapen på fördäck fungerar som ett spring: när skepparen kör sakta fram mot det sträckta springet glider båten in med bogen mot bryggan under full kontroll.",
+      "explanationEn": "The technique is called motoring on a spring. The line from the bollard to the foredeck cleat acts as a spring: when the skipper motors slowly ahead against the taut spring, the boat slides in bow-to against the jetty under full control.",
+      "payload": {
+        "questionSv": "Ett litet passagerarfartyg ska ta emot passagerare vid en ångbåtsbrygga. Man går in med sakta fart, en gast kastar en tross med ögla runt en pollare på bryggan och lägger fast den på en knap på fördäck, varefter skepparen kör sakta fram varvid båten glider in med bogen mot bryggan. Vad kallas denna teknik?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "14:15 / photo_51 + photo_9"
+    },
+    {
+      "id": "sjo-fort-014",
+      "topicId": "top-sjo-fortojning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "I aktern – för att hindra att akterskeppet glider ut när vinden kommer in som en kil mellan båt och kaj",
+          "isCorrect": true
+        },
+        {
+          "text": "I fören – för att fören alltid är den del som vinden trycker ut först",
+          "isCorrect": false
+        },
+        {
+          "text": "Mitt i båten – därifrån kan gasten nå både för- och akterlinor lika snabbt",
+          "isCorrect": false
+        },
+        {
+          "text": "Var som helst – med vind akterifrån spelar placeringen ingen roll",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Gasten bör stå i aktern. Med frisk vind akterifrån kommer vinden in som en kil mellan båt och kaj och trycker ut akterskeppet. Genom att först få fast en lina i aktern hindras akterskeppet från att glida ut.",
+      "explanationEn": "The crew member should stand aft. With a fresh wind from astern, the wind works in like a wedge between boat and quay and pushes the stern out. Securing a line aft first stops the stern from drifting away from the quay.",
+      "payload": {
+        "questionSv": "Ni är två ombord och ska lägga till långsides en hög kaj i en sluss. Båten har utombordsmotor och det blåser en ganska frisk vind akterifrån. Gasten måste stå på däck och fånga upp en ögla i kajen med hjälp av båtshake. Var bör gasten ställa sig – i fören eller i aktern?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "14:16 / photo_51 + photo_9"
+    },
+    {
+      "id": "sjo-fort-015",
+      "topicId": "top-sjo-fortojning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Med sidan mot vinden",
+          "isCorrect": true
+        },
+        {
+          "text": "Med fören rakt mot vinden",
+          "isCorrect": false
+        },
+        {
+          "text": "Med aktern rakt mot vinden",
+          "isCorrect": false
+        },
+        {
+          "text": "I ständig långsam rotation utan bestämt läge",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "De flesta båtar lägger sig med sidan mot vinden när de driver fritt. Vindtrycket på skrov och överbyggnad vrider båten tills den ligger tvärs mot vinden – bra att veta vid t.ex. man-över-bord-situationer och drift utan motor.",
+      "explanationEn": "Most boats settle beam-on to the wind when drifting freely. Wind pressure on hull and superstructure turns the boat until it lies across the wind – useful to know in man-overboard situations or when adrift without power.",
+      "payload": {
+        "questionSv": "Hur brukar de flesta båtar vilja lägga sig när de driver för bara vinden?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "14:17 / photo_51 + photo_9"
+    },
+    {
+      "id": "sjo-fort-016",
+      "topicId": "top-sjo-fortojning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Det går kanske, men styrförmågan är väldigt dålig eftersom ett riktigt roder saknas",
+          "isCorrect": true
+        },
+        {
+          "text": "Ja, den styr precis lika bra som med växel ilagd eftersom motorriggen vrids",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej, motorn kan över huvud taget inte vridas när växeln ligger i friläge",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja, den styr till och med bättre i friläge eftersom propellerströmmen inte stör",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En utombordare styr genom att propellerströmmen riktas – utan ilagd växel finns ingen propellerström, och eftersom ett riktigt roder saknas blir styrförmågan väldigt dålig. Det går kanske att påverka kursen något, men manöverförmågan är i praktiken mycket begränsad.",
+      "explanationEn": "An outboard steers by directing its propeller stream – with no gear engaged there is no prop stream, and since there is no proper rudder the steering becomes very poor. You may influence the heading slightly, but in practice manoeuvrability is very limited.",
+      "payload": {
+        "questionSv": "Går det att styra en motorbåt med utombordsmotor om inte någon växel är ilagd?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "14:18 / photo_51 + photo_9"
+    },
+    {
+      "id": "sjo-fort-017",
+      "topicId": "top-sjo-fortojning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Mot strömmen – genom att gå sakta fram genom vattnet kan båten stå stilla i förhållande till bryggan och är samtidigt lättstyrd med framväxeln i",
+          "isCorrect": true
+        },
+        {
+          "text": "Med strömmen – då behövs mindre motorkraft och tilläggningen går snabbare",
+          "isCorrect": false
+        },
+        {
+          "text": "Det spelar ingen roll – kontrollen är densamma i båda riktningarna",
+          "isCorrect": false
+        },
+        {
+          "text": "Tvärs strömmen – då träffar strömmen bara båtens smala för och stör minst",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Det är vanligtvis lättast att lägga till när strömmen kommer förifrån. Genom att gå sakta framåt genom vattnet kan båten fås att stå stilla i förhållande till bryggan, samtidigt som den är lättstyrd eftersom framväxeln ligger i och rodret/drevet får styrfart. Med strömmen akterifrån tappar man den kontrollen.",
+      "explanationEn": "It is usually easiest to berth stemming the current (current from ahead). By motoring slowly ahead through the water, the boat can be held stationary relative to the jetty while remaining easy to steer, since forward gear is engaged and the rudder has steerage. With the current from astern that control is lost.",
+      "payload": {
+        "questionSv": "Du ska lägga till vid en brygga där det strömmar. I vilket fall har du bäst kontroll: när du nalkas bryggan med strömmen eller mot strömmen?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "14:19 / photo_51 + photo_9"
+    },
+    {
+      "id": "sjo-fort-018",
+      "topicId": "top-sjo-fortojning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Helst ungefär 6 gånger djupet – ungefär 50 meter lina",
+          "isCorrect": true
+        },
+        {
+          "text": "Ungefär 2 gånger djupet – cirka 16 meter lina",
+          "isCorrect": false
+        },
+        {
+          "text": "Ungefär 3 gånger djupet – cirka 25 meter lina",
+          "isCorrect": false
+        },
+        {
+          "text": "Ungefär 10 gånger djupet – cirka 80 meter lina",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "För en trygg natthamn läggs helst cirka 6 gånger vattendjupet ut i ankarlina – vid 8 meters djup alltså ungefär 50 meter. En lång lina gör att draget i ankaret blir mer horisontellt, vilket ger bättre hållkraft.",
+      "explanationEn": "For a secure overnight anchorage, pay out roughly 6 times the water depth in anchor line – at 8 metres depth about 50 metres. A long scope makes the pull on the anchor more horizontal, which greatly improves holding.",
+      "payload": {
+        "questionSv": "Du ska ankra på 8 meters vattendjup. Hur mycket ankarlina lägger du ut när du ankrar för natten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:63 / photo_46 + photo_6"
+    },
+    {
+      "id": "sjo-fort-019",
+      "topicId": "top-sjo-fortojning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Startar motorn och backar med rejält gaspådrag",
+          "isCorrect": true
+        },
+        {
+          "text": "Drar i ankarlinan för hand och känner om den sitter fast",
+          "isCorrect": false
+        },
+        {
+          "text": "Väntar en timme och kontrollerar om positionen ändrats",
+          "isCorrect": false
+        },
+        {
+          "text": "Lägger ut en extra lång lina så att ankaret säkert ligger kvar",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "I svag vind är draget i linan för litet för att sätta ankaret. Starta motorn och backa med rejält gaspådrag – håller ankaret då, kan du lita på att det fått bra fäste även om vinden ökar under natten.",
+      "explanationEn": "In light wind the pull on the rode is too weak to set the anchor. Start the engine and go astern with plenty of throttle – if the anchor holds then, you can trust it to hold if the wind picks up during the night.",
+      "payload": {
+        "questionSv": "Du seglar in i en hamn och ankrar på svaj. Det blåser bara ett par meter per sekund. Vad kan du göra för att övertyga dig om att ankaret fått bra fäste?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:64 / photo_46 + photo_6"
+    },
+    {
+      "id": "sjo-fort-020",
+      "topicId": "top-sjo-fortojning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Åt babord",
+          "isCorrect": true
+        },
+        {
+          "text": "Åt styrbord",
+          "isCorrect": false
+        },
+        {
+          "text": "Rakt akteröver utan sidokraft",
+          "isCorrect": false
+        },
+        {
+          "text": "Det beror på vindriktningen, inte på propellern",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En högergängad propeller ger vid backning ett sidotryck som slår aktern åt babord (\"propellereffekten\"). Det utnyttjar du vid tilläggning: med babordssidan mot bryggan sugs aktern in mot bryggan när du backar.",
+      "explanationEn": "A right-handed propeller in reverse produces a side thrust that kicks the stern to port (\"prop walk\"). Use this when berthing: coming alongside port-side-to, the stern is pulled toward the jetty as you go astern.",
+      "payload": {
+        "questionSv": "Du ska lägga till långsides en brygga med en båt som har en högergängad propeller. Åt vilket håll slår aktern när du backar?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "17:65 / photo_46 + photo_6"
+    }
+  ]
+}
