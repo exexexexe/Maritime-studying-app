@@ -27,7 +27,11 @@ SplashScreen.preventAutoHideAsync();
 function TrackGate() {
   const { track, setTrack } = useTrackOrNull();
   if (!track) return <TrackSelect onSelect={setTrack} />;
-  return <Stack screenOptions={{ headerShown: false }} />;
+  // One consistent push/pop direction for every screen in the app (module
+  // → topic → drill, dashboard → settings, etc.) — the platform default on
+  // Android is otherwise an abrupt cut, exactly the "instant-and-silent"
+  // feel the rework is meant to fix.
+  return <Stack screenOptions={{ headerShown: false, animation: 'slide_from_right' }} />;
 }
 
 export default function RootLayout() {

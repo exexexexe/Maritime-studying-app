@@ -11,6 +11,9 @@ export default function TabLayout() {
     <Tabs
       screenOptions={{
         headerShown: false,
+        // Cross-fade + slight shift instead of an instant swap — restrained
+        // on purpose (no slide/bounce), matching the instrument-panel bar.
+        animation: 'shift',
         tabBarActiveTintColor: p.brass,
         tabBarInactiveTintColor: p.fog,
         tabBarStyle: {
