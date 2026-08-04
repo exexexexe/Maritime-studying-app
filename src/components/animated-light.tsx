@@ -14,22 +14,33 @@ import { parseCharacteristic } from '@/lantern/characteristics';
 
 const AnimatedCircle = Animated.createAnimatedComponent(Circle);
 
+// Glow rendered as stacked flat-opacity circles rather than an SVG
+// RadialGradient — gradients (Defs/RadialGradient/Stop) failed to paint at
+// all on-device under this React Native/Fabric + react-native-svg
+// combination (confirmed on a real Android build; flat fills render fine).
+// This keeps the same soft-glow look with zero gradient dependency.
+const GLOW_LAYERS = [
+  { r: 7, opacity: 0.12 },
+  { r: 4.4, opacity: 0.22 },
+  { r: 2.6, opacity: 0.4 },
+] as const;
+
 interface AnimatedLightProps {
   characteristic: string;
   cx: number;
   cy: number;
   color: string;
-  /** Gradient id (defined by the caller's <Defs>) for the glow halo, if any. */
-  glowId?: string;
+  glow?: boolean;
 }
 
 /**
  * A single light that blinks its real maritime rhythm (see DESIGN-RHYTHM.md
- * and src/lantern/characteristics.ts): the core dot and its glow halo share
- * one opacity value so they blink together, not independently.
+ * and src/lantern/characteristics.ts): the core dot and its glow layers all
+ * share one opacity value (each glow layer scaled by its own base opacity)
+ * so they blink together, not independently.
  *
  * Segments snap instantly to on/off — real lights don't fade — using
- * Easing.step0 to hold each value for its segment's duration, looped
+ * Easing.steps(1) to hold each value for its segment's duration, looped
  * indefinitely.
  *
  * Respects the system's reduce-motion setting: renders statically "on"
@@ -38,7 +49,7 @@ interface AnimatedLightProps {
  * notation as a caption — that's how the meaning survives independent of
  * whether the pulse itself is playing.
  */
-export function AnimatedLight({ characteristic, cx, cy, color, glowId }: AnimatedLightProps) {
+export function AnimatedLight({ characteristic, cx, cy, color, glow = true }: AnimatedLightProps) {
   const reducedMotion = useReducedMotion();
   const spec = useMemo(() => parseCharacteristic(characteristic), [characteristic]);
 
@@ -59,12 +70,20 @@ export function AnimatedLight({ characteristic, cx, cy, color, glowId }: Animate
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [spec, reducedMotion]);
 
-  const animatedProps = useAnimatedProps(() => ({ opacity: opacity.value }));
+  const coreProps = useAnimatedProps(() => ({ opacity: opacity.value }));
+  const glow0Props = useAnimatedProps(() => ({ opacity: opacity.value * GLOW_LAYERS[0].opacity }));
+  const glow1Props = useAnimatedProps(() => ({ opacity: opacity.value * GLOW_LAYERS[1].opacity }));
+  const glow2Props = useAnimatedProps(() => ({ opacity: opacity.value * GLOW_LAYERS[2].opacity }));
+  const glowProps = [glow0Props, glow1Props, glow2Props];
 
   return (
     <Fragment>
-      {glowId ? <AnimatedCircle cx={cx} cy={cy} r={7} fill={`url(#${glowId})`} animatedProps={animatedProps} /> : null}
-      <AnimatedCircle cx={cx} cy={cy} r={1.6} fill={color} animatedProps={animatedProps} />
+      {glow
+        ? GLOW_LAYERS.map((layer, i) => (
+            <AnimatedCircle key={i} cx={cx} cy={cy} r={layer.r} fill={color} animatedProps={glowProps[i]} />
+          ))
+        : null}
+      <AnimatedCircle cx={cx} cy={cy} r={1.6} fill={color} animatedProps={coreProps} />
     </Fragment>
   );
 }

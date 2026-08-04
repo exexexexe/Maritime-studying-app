@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 import { Text, View } from 'react-native';
 import { useReducedMotion } from 'react-native-reanimated';
-import Svg, { Circle, Defs, Line, Path, RadialGradient, Rect, Stop } from 'react-native-svg';
+import Svg, { Circle, Line, Path, Rect } from 'react-native-svg';
 
 import type { LanternScene } from '@/content/types';
 
@@ -14,6 +14,12 @@ import { AnimatedLight } from './animated-light';
  * of the UI color scheme (like a photograph would be). Light colors below
  * are content colors, tuned to read as real lantern lights against the
  * night, not UI tokens.
+ *
+ * Glow is stacked flat-opacity circles, not an SVG RadialGradient —
+ * Defs/RadialGradient/Stop failed to paint at all on a real Android device
+ * under this React Native/Fabric + react-native-svg combination (plain
+ * shape fills render fine). See AnimatedLight for the animated version of
+ * the same technique.
  */
 const NIGHT = '#050B12';
 const HORIZON = '#16242F';
@@ -26,8 +32,13 @@ const LIGHT_COLORS: Record<string, string> = {
   blue: '#4C8DF5', // identification flash light (police/SAR vessels, submarines)
 };
 
+const GLOW_LAYERS = [
+  { r: 7, opacity: 0.12 },
+  { r: 4.4, opacity: 0.22 },
+  { r: 2.6, opacity: 0.4 },
+] as const;
+
 export function LanternDiagram({ scene }: { scene: LanternScene }) {
-  const usedColors = [...new Set(scene.lights.map((l) => l.color))];
   const reducedMotion = useReducedMotion();
   // Shown as text ONLY when motion is reduced — this is how the
   // characteristic's meaning survives without the pulse (per
@@ -40,17 +51,11 @@ export function LanternDiagram({ scene }: { scene: LanternScene }) {
 
   return (
     <View className="rounded-xl overflow-hidden border border-fog/15">
-      <Svg width="100%" viewBox="0 0 100 60" preserveAspectRatio="xMidYMid meet">
-        <Defs>
-          {usedColors.map((color) => (
-            <RadialGradient key={color} id={`glow-${color}`} cx="50%" cy="50%" r="50%">
-              <Stop offset="0%" stopColor={LIGHT_COLORS[color]} stopOpacity={0.55} />
-              <Stop offset="55%" stopColor={LIGHT_COLORS[color]} stopOpacity={0.14} />
-              <Stop offset="100%" stopColor={LIGHT_COLORS[color]} stopOpacity={0} />
-            </RadialGradient>
-          ))}
-        </Defs>
-
+      {/* width="100%" alone leaves height undefined on native — RN's layout
+          engine can't derive it from a percentage width, so the canvas
+          collapses to zero height (confirmed on a real Android device: the
+          whole diagram rendered nothing). style.aspectRatio fixes it. */}
+      <Svg width="100%" style={{ aspectRatio: 100 / 60 }} viewBox="0 0 100 60" preserveAspectRatio="xMidYMid meet">
         <Rect x={0} y={0} width={100} height={60} fill={NIGHT} />
         {/* horizon */}
         <Line x1={0} y1={46} x2={100} y2={46} stroke={HORIZON} strokeWidth={0.5} />
@@ -74,11 +79,19 @@ export function LanternDiagram({ scene }: { scene: LanternScene }) {
               cx={light.x}
               cy={light.y}
               color={LIGHT_COLORS[light.color]}
-              glowId={`glow-${light.color}`}
             />
           ) : (
             <Fragment key={i}>
-              <Circle cx={light.x} cy={light.y} r={7} fill={`url(#glow-${light.color})`} />
+              {GLOW_LAYERS.map((layer, j) => (
+                <Circle
+                  key={j}
+                  cx={light.x}
+                  cy={light.y}
+                  r={layer.r}
+                  fill={LIGHT_COLORS[light.color]}
+                  fillOpacity={layer.opacity}
+                />
+              ))}
               <Circle cx={light.x} cy={light.y} r={1.6} fill={LIGHT_COLORS[light.color]} />
             </Fragment>
           ),

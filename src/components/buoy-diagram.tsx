@@ -91,7 +91,14 @@ export function BuoyDiagram({ scene }: { scene: BuoyScene }) {
 
   return (
     <View className="rounded-xl overflow-hidden border border-fog/15">
-      <Svg width="100%" viewBox={`0 0 ${FIELD_W} ${FIELD_H}`} preserveAspectRatio="xMidYMid meet">
+      {/* width="100%" alone leaves height undefined on native — see the
+          identical fix/comment in lantern-diagram.tsx. */}
+      <Svg
+        width="100%"
+        style={{ aspectRatio: FIELD_W / FIELD_H }}
+        viewBox={`0 0 ${FIELD_W} ${FIELD_H}`}
+        preserveAspectRatio="xMidYMid meet"
+      >
         <Rect x={0} y={0} width={FIELD_W} height={WATER_Y} fill={SKY} />
         <Rect x={0} y={WATER_Y} width={FIELD_W} height={FIELD_H - WATER_Y} fill={SEA} />
         <Path d={`M6 ${WATER_Y + 6} q6 -1.6 12 0 t12 0`} stroke="#2E4756" strokeWidth={0.6} fill="none" />

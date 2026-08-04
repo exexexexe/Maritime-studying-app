@@ -53,7 +53,9 @@ export function StabilityDiagram({ scene }: { scene: StabilityScene }) {
 
   return (
     <View className="rounded-xl overflow-hidden border border-fog/15">
-      <Svg width="100%" viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="xMidYMid meet">
+      {/* width="100%" alone leaves height undefined on native — see the
+          identical fix/comment in lantern-diagram.tsx. */}
+      <Svg width="100%" style={{ aspectRatio: W / H }} viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="xMidYMid meet">
         <Rect x={0} y={0} width={W} height={WATER_Y} fill={SKY} />
         <Rect x={0} y={WATER_Y} width={W} height={H - WATER_Y} fill={SEA} />
 
