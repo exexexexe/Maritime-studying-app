@@ -22,7 +22,10 @@ const VALID_TYPES = [
   'stability_diagram',
   'chart_question',
   'radar_question',
+  'map_question',
 ];
+const VALID_CHARTS = ['SE61', 'SE93'];
+const VALID_MAP_ANSWER_KINDS = ['bearing', 'distance', 'position', 'depth'];
 
 const errors = [];
 const warnings = [];
@@ -150,7 +153,11 @@ for (const file of topicFiles(CONTENT_DIR)) {
     if (item.needsReview === true) {
       needsReviewItems.push(`${item.id}: ${item.needsReviewNote ?? '(no note)'}`);
     }
-    if (!item.payload?.questionSv) err(where, 'missing payload.questionSv');
+    // map_question has no payload — its task text is `instructions` (see
+    // content/AUTHORING.md).
+    if (item.type !== 'map_question' && !item.payload?.questionSv) {
+      err(where, 'missing payload.questionSv');
+    }
     if (item.type === 'lantern' && !item.payload?.scene?.lights?.length) {
       err(where, 'lantern item without payload.scene.lights');
     }
@@ -162,6 +169,44 @@ for (const file of topicFiles(CONTENT_DIR)) {
       !['upright', 'heeled'].includes(item.payload?.scene?.variant)
     ) {
       err(where, 'stability_diagram item without a valid payload.scene.variant');
+    }
+
+    // map_question: requires a physical chart (SE61/SE93) — never rendered
+    // in-app, see the copyright note in content/AUTHORING.md. answerMode
+    // 'numeric_tolerance' has no options (skips the shared options check
+    // below, like calculation); 'mcq' falls through to it as normal.
+    if (item.type === 'map_question') {
+      if (!VALID_CHARTS.includes(item.chartRef?.chart)) {
+        err(where, `map_question with invalid chartRef.chart "${item.chartRef?.chart}" (expected ${VALID_CHARTS.join(' or ')})`);
+      }
+      if (typeof item.instructions !== 'string' || item.instructions.length < 10) {
+        err(where, 'map_question missing or too-short instructions');
+      }
+      if (!['numeric_tolerance', 'mcq'].includes(item.answerMode)) {
+        err(where, `map_question with invalid answerMode "${item.answerMode}"`);
+      }
+      if (item.answerMode === 'numeric_tolerance') {
+        const a = item.answer;
+        if (!a || !VALID_MAP_ANSWER_KINDS.includes(a.kind)) {
+          err(where, `map_question numeric_tolerance with invalid answer.kind "${a?.kind}"`);
+        } else if (a.kind === 'position') {
+          if (typeof a.expected?.lat !== 'number' || typeof a.expected?.lon !== 'number') {
+            err(where, 'map_question position answer needs numeric expected.lat/expected.lon');
+          }
+          if (typeof a.tolerance !== 'number' || a.tolerance <= 0) {
+            err(where, 'map_question position answer needs a positive tolerance (meters)');
+          }
+        } else {
+          if (typeof a.expected !== 'number') {
+            err(where, 'map_question numeric answer needs a numeric expected value');
+          }
+          if (typeof a.tolerance !== 'number' || a.tolerance <= 0) {
+            err(where, 'map_question numeric answer needs a positive tolerance');
+          }
+        }
+        continue; // numeric_tolerance has no options — skip the shared check
+      }
+      // answerMode 'mcq' falls through to the shared options validation below.
     }
 
     // Generator-backed calculations produce options at runtime.
