@@ -1,15 +1,18 @@
 import { Link, Stack, useLocalSearchParams } from 'expo-router';
 import { useState } from 'react';
-import { Pressable, ScrollView, Text, View } from 'react-native';
+import { ScrollView, useColorScheme, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
+import { ThemedPressable, ThemedText, ThemedView } from '@/components/themed';
 import { moduleBySlug, topicsForModule } from '@/content';
 import { moduleProgress, topicProgress } from '@/srs/session';
 import { useTrack } from '@/state/track-context';
+import { palette } from '@/theme/tokens';
 
 export default function ModuleScreen() {
   const { slug } = useLocalSearchParams<{ slug: string }>();
   const { track } = useTrack();
+  const p = palette(useColorScheme());
   const module = moduleBySlug(slug);
   const [progress] = useState(() =>
     module ? moduleProgress(module.id, track, Date.now()) : null,
@@ -25,8 +28,13 @@ export default function ModuleScreen() {
 
   if (!module || !progress) {
     return (
-      <SafeAreaView className="flex-1 bg-bg items-center justify-center">
-        <Text className="text-body font-sans text-fog">Modulen hittades inte.</Text>
+      <SafeAreaView
+        className="flex-1 items-center justify-center"
+        style={{ backgroundColor: p.bg }}
+      >
+        <ThemedText tone="fog" className="text-body font-sans">
+          Modulen hittades inte.
+        </ThemedText>
       </SafeAreaView>
     );
   }
@@ -34,18 +42,25 @@ export default function ModuleScreen() {
   const drillable = progress.due + progress.unseen > 0;
 
   return (
-    <SafeAreaView className="flex-1 bg-bg" edges={['top']}>
+    <SafeAreaView className="flex-1" style={{ backgroundColor: p.bg }} edges={['top']}>
       <Stack.Screen options={{ headerShown: false }} />
       <ScrollView contentContainerClassName="flex-grow px-6 pt-6 pb-10">
         <Link href="/modules" asChild>
-          <Pressable hitSlop={8}>
-            <Text className="text-small font-sans text-fog">‹ Moduler</Text>
-          </Pressable>
+          <ThemedPressable hitSlop={8}>
+            <ThemedText tone="fog" className="text-small font-sans">
+              ‹ Moduler
+            </ThemedText>
+          </ThemedPressable>
         </Link>
 
-        <Text className="text-display font-display text-ink mt-6">{module.titleSv}</Text>
+        <ThemedText className="text-display font-display mt-6">{module.titleSv}</ThemedText>
 
-        <View className="flex-row mt-8 rounded-xl bg-surface border border-fog/15">
+        <ThemedView
+          bg="surface"
+          borderTone="fog"
+          borderOpacity={15}
+          className="flex-row mt-8 rounded-xl border"
+        >
           {(
             [
               ['Att repetera', progress.due],
@@ -53,22 +68,28 @@ export default function ModuleScreen() {
               ['Totalt', progress.total],
             ] as const
           ).map(([label, value], i) => (
-            <View
+            <ThemedView
               key={label}
-              className={`flex-1 items-center py-5 ${i > 0 ? 'border-l border-fog/10' : ''}`}
+              borderTone="fog"
+              borderOpacity={10}
+              style={{ borderLeftWidth: i > 0 ? 1 : 0 }}
+              className="flex-1 items-center py-5"
             >
-              <Text className="text-data-lg font-mono-medium text-ink">{value}</Text>
-              <Text className="text-caption font-mono text-fog uppercase tracking-widest mt-1">
+              <ThemedText className="text-data-lg font-mono-medium">{value}</ThemedText>
+              <ThemedText
+                tone="fog"
+                className="text-caption font-mono uppercase tracking-widest mt-1"
+              >
                 {label}
-              </Text>
-            </View>
+              </ThemedText>
+            </ThemedView>
           ))}
-        </View>
+        </ThemedView>
 
         <View className="mt-6">
-          <Text className="text-caption font-mono text-fog uppercase tracking-widest mb-3">
+          <ThemedText tone="fog" className="text-caption font-mono uppercase tracking-widest mb-3">
             Ämnen
-          </Text>
+          </ThemedText>
           {topics.map(({ topic: t, progress: tp }) => {
             const tDrillable = tp.due + tp.unseen > 0;
             return (
@@ -77,17 +98,20 @@ export default function ModuleScreen() {
                 href={{ pathname: '/drill/[slug]', params: { slug: module.slug, topic: t.id } }}
                 asChild
               >
-                <Pressable
+                <ThemedPressable
                   disabled={!tDrillable}
-                  className={`flex-row items-center justify-between rounded-xl border border-fog/15 px-4 py-3.5 mb-2 ${
-                    tDrillable ? 'bg-surface active:opacity-80' : 'opacity-50'
+                  bg={tDrillable ? 'surface' : undefined}
+                  borderTone="fog"
+                  borderOpacity={15}
+                  className={`flex-row items-center justify-between rounded-xl border px-4 py-3.5 mb-2 ${
+                    tDrillable ? 'active:opacity-80' : 'opacity-50'
                   }`}
                 >
-                  <Text className="text-body font-sans text-ink flex-1 pr-3">{t.titleSv}</Text>
-                  <Text className="text-caption font-mono text-fog">
+                  <ThemedText className="text-body font-sans flex-1 pr-3">{t.titleSv}</ThemedText>
+                  <ThemedText tone="fog" className="text-caption font-mono">
                     {tDrillable ? (tp.due > 0 ? `${tp.due} att repetera` : `${tp.unseen} nya`) : 'Klart'}
-                  </Text>
-                </Pressable>
+                  </ThemedText>
+                </ThemedPressable>
               </Link>
             );
           })}
@@ -97,18 +121,22 @@ export default function ModuleScreen() {
 
         {drillable ? (
           <Link href={{ pathname: '/drill/[slug]', params: { slug: module.slug } }} asChild>
-            <Pressable className="bg-brass rounded-xl py-4 items-center active:opacity-90">
-              <Text className="text-body font-sans-semibold text-bg">
+            <ThemedPressable bg="brass" className="rounded-xl py-4 items-center active:opacity-90">
+              <ThemedText tone="bg" className="text-body font-sans-semibold">
                 Starta drillpass (hela modulen)
-              </Text>
-            </Pressable>
+              </ThemedText>
+            </ThemedPressable>
           </Link>
         ) : (
-          <View className="rounded-xl border border-fog/15 py-4 items-center">
-            <Text className="text-body font-sans text-fog">
+          <ThemedView
+            borderTone="fog"
+            borderOpacity={15}
+            className="rounded-xl border py-4 items-center"
+          >
+            <ThemedText tone="fog" className="text-body font-sans">
               Allt repeterat — kom tillbaka när nästa repetition förfaller.
-            </Text>
-          </View>
+            </ThemedText>
+          </ThemedView>
         )}
       </ScrollView>
     </SafeAreaView>

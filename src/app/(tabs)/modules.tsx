@@ -1,12 +1,15 @@
 import { Link } from 'expo-router';
-import { Pressable, ScrollView, Text, View } from 'react-native';
+import { ScrollView, useColorScheme } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
+import { ThemedPressable, ThemedText, ThemedView } from '@/components/themed';
 import { itemsForModule, modules } from '@/content';
 import { TRACK_NAMES, useTrack } from '@/state/track-context';
+import { palette } from '@/theme/tokens';
 
 export default function ModulesScreen() {
   const { track } = useTrack();
+  const p = palette(useColorScheme());
 
   // Only modules with content for the active track — a VHF student never
   // sees stability, a Förarintyg student never sees radar.
@@ -15,40 +18,46 @@ export default function ModulesScreen() {
     .filter((e) => e.itemCount > 0);
 
   return (
-    <SafeAreaView className="flex-1 bg-bg" edges={['top']}>
+    <SafeAreaView className="flex-1" style={{ backgroundColor: p.bg }} edges={['top']}>
       <ScrollView contentContainerClassName="px-6 pt-10 pb-8">
-        <Text className="text-display font-display text-ink">Moduler</Text>
-        <Text className="text-small font-sans text-fog mt-1">
+        <ThemedText className="text-display font-display">Moduler</ThemedText>
+        <ThemedText tone="fog" className="text-small font-sans mt-1">
           {visible.length} moduler för {TRACK_NAMES[track]}.
-        </Text>
+        </ThemedText>
 
-        <View className="mt-8 rounded-xl bg-surface border border-fog/15 overflow-hidden">
+        <ThemedView
+          bg="surface"
+          borderTone="fog"
+          borderOpacity={15}
+          className="mt-8 rounded-xl border overflow-hidden"
+        >
           {visible.map(({ module: m, itemCount }, i) => (
             <Link
               key={m.id}
               href={{ pathname: '/module/[slug]', params: { slug: m.slug } }}
               asChild
             >
-              <Pressable className="active:opacity-80">
-                <View
-                  className={`flex-row items-center px-5 py-4 ${
-                    i > 0 ? 'border-t border-fog/10' : ''
-                  }`}
+              <ThemedPressable className="active:opacity-80">
+                <ThemedView
+                  borderTone="fog"
+                  borderOpacity={10}
+                  style={{ borderTopWidth: i > 0 ? 1 : 0 }}
+                  className="flex-row items-center px-5 py-4"
                 >
-                  <Text className="text-caption font-mono text-fog w-8">
+                  <ThemedText tone="fog" className="text-caption font-mono w-8">
                     {String(i + 1).padStart(2, '0')}
-                  </Text>
-                  <Text className="text-body font-sans-medium text-ink flex-1">
+                  </ThemedText>
+                  <ThemedText className="text-body font-sans-medium flex-1">
                     {m.titleSv}
-                  </Text>
-                  <Text className="text-caption font-mono text-brass">
+                  </ThemedText>
+                  <ThemedText tone="brass" className="text-caption font-mono">
                     {itemCount} frågor ›
-                  </Text>
-                </View>
-              </Pressable>
+                  </ThemedText>
+                </ThemedView>
+              </ThemedPressable>
             </Link>
           ))}
-        </View>
+        </ThemedView>
       </ScrollView>
     </SafeAreaView>
   );

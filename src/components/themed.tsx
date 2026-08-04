@@ -35,6 +35,25 @@ function withAlpha(hex: string, pct: number): string {
   return `${hex}${alpha}`;
 }
 
+interface ColorProps {
+  bg?: Tone;
+  bgOpacity?: number;
+  borderTone?: Tone;
+  borderOpacity?: number;
+}
+
+function colorStyleFor(
+  p: Palette,
+  { bg, bgOpacity, borderTone, borderOpacity }: ColorProps,
+): { backgroundColor?: string; borderColor?: string } {
+  const style: { backgroundColor?: string; borderColor?: string } = {};
+  if (bg) style.backgroundColor = bgOpacity != null ? withAlpha(p[bg], bgOpacity) : p[bg];
+  if (borderTone) {
+    style.borderColor = borderOpacity != null ? withAlpha(p[borderTone], borderOpacity) : p[borderTone];
+  }
+  return style;
+}
+
 interface ThemedTextProps extends TextProps {
   /** Semantic color token. Defaults to 'ink'. */
   tone?: Tone;
@@ -51,42 +70,27 @@ export const ThemedText = forwardRef<Text, ThemedTextProps>(function ThemedText(
   return <Text ref={ref} style={[{ color }, style]} {...props} />;
 });
 
-interface ThemedViewProps extends ViewProps {
-  bg?: Tone;
-  bgOpacity?: number;
-  borderTone?: Tone;
-  borderOpacity?: number;
-}
+interface ThemedViewProps extends ViewProps, ColorProps {}
 
 export const ThemedView = forwardRef<ViewRef, ThemedViewProps>(function ThemedView(
   { bg, bgOpacity, borderTone, borderOpacity, style, ...props },
   ref,
 ) {
   const p = palette(useColorScheme());
-  const colorStyle: { backgroundColor?: string; borderColor?: string } = {};
-  if (bg) colorStyle.backgroundColor = bgOpacity != null ? withAlpha(p[bg], bgOpacity) : p[bg];
-  if (borderTone) {
-    colorStyle.borderColor =
-      borderOpacity != null ? withAlpha(p[borderTone], borderOpacity) : p[borderTone];
-  }
+  const colorStyle = colorStyleFor(p, { bg, bgOpacity, borderTone, borderOpacity });
   return <View ref={ref} style={[colorStyle, style]} {...props} />;
 });
 
-interface ThemedPressableProps extends ComponentProps<typeof PressableScale> {
-  /** Background tone — most callers want 'brass' for the primary action. */
-  bg?: Tone;
-  bgOpacity?: number;
-}
+interface ThemedPressableProps extends ComponentProps<typeof PressableScale>, ColorProps {}
 
-/** PressableScale (Phase 2's press-feedback primitive) + a themed background,
- * for buttons — the one place motion and the color fix both apply. */
+/** PressableScale (Phase 2's press-feedback primitive) + a themed
+ * background/border, for buttons — the one place motion and the color
+ * fix both apply. */
 export const ThemedPressable = forwardRef<ViewRef, ThemedPressableProps>(function ThemedPressable(
-  { bg, bgOpacity, style, ...props },
+  { bg, bgOpacity, borderTone, borderOpacity, style, ...props },
   ref,
 ) {
   const p = palette(useColorScheme());
-  const colorStyle = bg
-    ? { backgroundColor: bgOpacity != null ? withAlpha(p[bg], bgOpacity) : p[bg] }
-    : undefined;
+  const colorStyle = colorStyleFor(p, { bg, bgOpacity, borderTone, borderOpacity });
   return <PressableScale ref={ref} style={[colorStyle, style]} {...props} />;
 });
