@@ -11,6 +11,7 @@ import { LanternDiagram } from '@/components/lantern-diagram';
 import { MapAnswerInput } from '@/components/map-answer-input';
 import { StabilityDiagram } from '@/components/stability-diagram';
 import { ThemedPressable, ThemedText, ThemedView, type Tone } from '@/components/themed';
+import { TermCard } from '@/components/term-card';
 import { moduleBySlug, questionText } from '@/content';
 import { generateCalculation } from '@/content/generators/navcalc';
 import { contentImages } from '@/content/images';
@@ -57,11 +58,14 @@ export default function DrillScreen() {
   );
   const [mapSubmitted, setMapSubmitted] = useState(false);
   const [mapCorrect, setMapCorrect] = useState(false);
+  const [flipped, setFlipped] = useState(false);
+  const [cardLang, setCardLang] = useState<'sv' | 'en'>('sv');
   const [correctCount, setCorrectCount] = useState(0);
   const [finished, setFinished] = useState(false);
 
   const item = session.items[index];
   const isMapNumeric = item?.type === 'map_question' && item.answerMode === 'numeric_tolerance';
+  const isTermCard = item?.type === 'term_card';
 
   // Calculation items generate fresh numbers per attempt from the same seed
   // that also drives option order — stable on screen, new next time.
@@ -180,7 +184,23 @@ export default function DrillScreen() {
       setMapValue(initialMapAnswerValue(nextItem));
       setMapSubmitted(false);
       setMapCorrect(false);
+      setFlipped(false);
+      setCardLang('sv');
     }
+  }
+
+  // Self-graded — the student already saw the definition on the back
+  // before judging themselves, so (unlike mcq/map_question, where
+  // answering and seeing the explanation happen together) there's no new
+  // information an explicit "Nästa" tap would reveal. Advances straight
+  // to the next card, Anki-style.
+  function answerTermCard(knew: boolean) {
+    if (!isTermCard) return;
+    const now = Date.now();
+    if (knew) setCorrectCount((c) => c + 1);
+    recordAnswer(item.id, track, knew, now);
+    markActivity(now);
+    next();
   }
 
   return (
@@ -200,114 +220,175 @@ export default function DrillScreen() {
         contentContainerClassName="px-6 pt-6 pb-4"
         showsVerticalScrollIndicator={false}
       >
-        {item.type === 'map_question' && item.chartRef ? (
-          <ChartRequiredBanner chartRef={item.chartRef} />
-        ) : null}
+        {isTermCard && item.type === 'term_card' ? (
+          <TermCard
+            termSv={item.termSv ?? ''}
+            termEn={item.termEn}
+            definitionSv={item.explanationSv}
+            definitionEn={item.explanationEn}
+            lang={cardLang}
+            onToggleLang={() => setCardLang((l) => (l === 'sv' ? 'en' : 'sv'))}
+            flipped={flipped}
+            onPress={() => setFlipped((f) => !f)}
+          />
+        ) : (
+          <>
+            {item.type === 'map_question' && item.chartRef ? (
+              <ChartRequiredBanner chartRef={item.chartRef} />
+            ) : null}
 
-        <ThemedText className="text-title font-sans-medium">
-          {generated?.questionSv ?? questionText(item)}
-        </ThemedText>
+            <ThemedText className="text-title font-sans-medium">
+              {generated?.questionSv ?? questionText(item)}
+            </ThemedText>
 
-        {lanternScene ? (
-          <View className="mt-5">
-            <LanternDiagram scene={lanternScene} />
-          </View>
-        ) : null}
-        {buoyScene ? (
-          <View className="mt-5">
-            <BuoyDiagram scene={buoyScene} />
-          </View>
-        ) : null}
-        {stabilityScene ? (
-          <View className="mt-5">
-            <StabilityDiagram scene={stabilityScene} />
-          </View>
-        ) : null}
-        {item.imageAsset ? (
-          <ThemedView
-            borderTone="fog"
-            borderOpacity={15}
-            className="mt-5 rounded-xl overflow-hidden border"
-          >
-            {contentImages[item.imageAsset] ? (
-              <Image
-                source={contentImages[item.imageAsset]}
-                style={{ width: '100%', aspectRatio: 800 / 520 }}
-                contentFit="contain"
-              />
-            ) : (
-              <ThemedView bg="surface" className="items-center py-10">
-                <ThemedText tone="fog" className="text-small font-sans">
-                  Bild saknas: {item.imageAsset}
+            {lanternScene ? (
+              <View className="mt-5">
+                <LanternDiagram scene={lanternScene} />
+              </View>
+            ) : null}
+            {buoyScene ? (
+              <View className="mt-5">
+                <BuoyDiagram scene={buoyScene} />
+              </View>
+            ) : null}
+            {stabilityScene ? (
+              <View className="mt-5">
+                <StabilityDiagram scene={stabilityScene} />
+              </View>
+            ) : null}
+            {item.imageAsset ? (
+              <ThemedView
+                borderTone="fog"
+                borderOpacity={15}
+                className="mt-5 rounded-xl overflow-hidden border"
+              >
+                {contentImages[item.imageAsset] ? (
+                  <Image
+                    source={contentImages[item.imageAsset]}
+                    style={{ width: '100%', aspectRatio: 800 / 520 }}
+                    contentFit="contain"
+                  />
+                ) : (
+                  <ThemedView bg="surface" className="items-center py-10">
+                    <ThemedText tone="fog" className="text-small font-sans">
+                      Bild saknas: {item.imageAsset}
+                    </ThemedText>
+                  </ThemedView>
+                )}
+              </ThemedView>
+            ) : null}
+
+            {isMapNumeric && item.type === 'map_question' && item.answer && mapValue ? (
+              <View className="mt-5">
+                <MapAnswerInput
+                  answer={item.answer}
+                  value={mapValue}
+                  onChange={setMapValue}
+                  disabled={mapSubmitted}
+                />
+              </View>
+            ) : null}
+
+            <View className="mt-6">
+              {options.map((opt, i) => {
+                const correctReveal = answered && opt.isCorrect;
+                const wrongSelected = answered && i === selected;
+                const tone: Tone = correctReveal ? 'starboard' : wrongSelected ? 'port' : 'fog';
+                const borderOpacity = correctReveal || wrongSelected ? undefined : 15;
+                const bg: Tone = correctReveal ? 'starboard' : wrongSelected ? 'port' : 'surface';
+                const bgOpacity = correctReveal || wrongSelected ? 10 : undefined;
+                return (
+                  <ThemedPressable
+                    key={i}
+                    disabled={answered}
+                    onPress={() => answer(i)}
+                    bg={bg}
+                    bgOpacity={bgOpacity}
+                    borderTone={tone}
+                    borderOpacity={borderOpacity}
+                    className="rounded-xl border px-5 py-4 mb-3 active:opacity-80"
+                  >
+                    <ThemedText className="text-body font-sans">{opt.text}</ThemedText>
+                  </ThemedPressable>
+                );
+              })}
+            </View>
+
+            {answered ? (
+              <ThemedView
+                bg="surface"
+                borderTone="fog"
+                borderOpacity={15}
+                className="rounded-xl border px-5 py-4 mt-2"
+              >
+                <ThemedText
+                  tone={
+                    (isMapNumeric ? mapCorrect : options[selected!].isCorrect) ? 'starboard' : 'port'
+                  }
+                  className="text-caption font-mono uppercase tracking-widest"
+                >
+                  {(isMapNumeric ? mapCorrect : options[selected!].isCorrect) ? 'Rätt' : 'Fel'}
+                </ThemedText>
+                {isMapNumeric && item.type === 'map_question' && item.answer && mapValue ? (
+                  <ThemedText tone="fog" className="text-small font-mono mt-1">
+                    Ditt svar: {formatMapAnswerGiven(mapValue)} · Rätt svar:{' '}
+                    {formatMapAnswerExpected(item.answer)}
+                  </ThemedText>
+                ) : null}
+                <ThemedText className="text-small font-sans mt-2">
+                  {generated?.explanationSv ?? item.explanationSv}
                 </ThemedText>
               </ThemedView>
-            )}
-          </ThemedView>
-        ) : null}
-
-        {isMapNumeric && item.type === 'map_question' && item.answer && mapValue ? (
-          <View className="mt-5">
-            <MapAnswerInput
-              answer={item.answer}
-              value={mapValue}
-              onChange={setMapValue}
-              disabled={mapSubmitted}
-            />
-          </View>
-        ) : null}
-
-        <View className="mt-6">
-          {options.map((opt, i) => {
-            const correctReveal = answered && opt.isCorrect;
-            const wrongSelected = answered && i === selected;
-            const tone: Tone = correctReveal ? 'starboard' : wrongSelected ? 'port' : 'fog';
-            const borderOpacity = correctReveal || wrongSelected ? undefined : 15;
-            const bg: Tone = correctReveal ? 'starboard' : wrongSelected ? 'port' : 'surface';
-            const bgOpacity = correctReveal || wrongSelected ? 10 : undefined;
-            return (
-              <ThemedPressable
-                key={i}
-                disabled={answered}
-                onPress={() => answer(i)}
-                bg={bg}
-                bgOpacity={bgOpacity}
-                borderTone={tone}
-                borderOpacity={borderOpacity}
-                className="rounded-xl border px-5 py-4 mb-3 active:opacity-80"
-              >
-                <ThemedText className="text-body font-sans">{opt.text}</ThemedText>
-              </ThemedPressable>
-            );
-          })}
-        </View>
-
-        {answered ? (
-          <ThemedView
-            bg="surface"
-            borderTone="fog"
-            borderOpacity={15}
-            className="rounded-xl border px-5 py-4 mt-2"
-          >
-            <ThemedText
-              tone={(isMapNumeric ? mapCorrect : options[selected!].isCorrect) ? 'starboard' : 'port'}
-              className="text-caption font-mono uppercase tracking-widest"
-            >
-              {(isMapNumeric ? mapCorrect : options[selected!].isCorrect) ? 'Rätt' : 'Fel'}
-            </ThemedText>
-            {isMapNumeric && item.type === 'map_question' && item.answer && mapValue ? (
-              <ThemedText tone="fog" className="text-small font-mono mt-1">
-                Ditt svar: {formatMapAnswerGiven(mapValue)} · Rätt svar:{' '}
-                {formatMapAnswerExpected(item.answer)}
-              </ThemedText>
             ) : null}
-            <ThemedText className="text-small font-sans mt-2">
-              {generated?.explanationSv ?? item.explanationSv}
-            </ThemedText>
-          </ThemedView>
-        ) : null}
+          </>
+        )}
       </ScrollView>
 
-      {answered ? (
+      {isTermCard ? (
+        <View className="px-6 pb-4">
+          {flipped ? (
+            <View className="flex-row gap-3">
+              {/* flex-1 goes on a plain View, not ThemedPressable directly —
+                  ThemedPressable's scale animation wraps its Pressable in an
+                  Animated.View that className can't reach, so a flex-1
+                  requesting equal sibling width has to land one level out;
+                  RN's default cross-axis stretch then fills it from there.
+                  Confirmed on device: without this wrapper, className="flex-1"
+                  on the Animated.View's inner Pressable doesn't propagate
+                  sizing to the actual flex-row sibling, and button text
+                  either disappeared or was squashed to ~7px tall. */}
+              <View className="flex-1">
+                <ThemedPressable
+                  borderTone="port"
+                  onPress={() => answerTermCard(false)}
+                  className="rounded-xl border py-4 items-center active:opacity-80"
+                >
+                  <ThemedText tone="port" className="text-body font-sans-semibold">
+                    Visste inte
+                  </ThemedText>
+                </ThemedPressable>
+              </View>
+              <View className="flex-1">
+                <ThemedPressable
+                  bg="starboard"
+                  onPress={() => answerTermCard(true)}
+                  className="rounded-xl py-4 items-center active:opacity-90"
+                >
+                  <ThemedText tone="bg" className="text-body font-sans-semibold">Visste</ThemedText>
+                </ThemedPressable>
+              </View>
+            </View>
+          ) : (
+            <ThemedPressable
+              bg="brass"
+              onPress={() => setFlipped(true)}
+              className="rounded-xl py-4 items-center active:opacity-90"
+            >
+              <ThemedText tone="bg" className="text-body font-sans-semibold">Vänd kortet</ThemedText>
+            </ThemedPressable>
+          )}
+        </View>
+      ) : answered ? (
         <View className="px-6 pb-4">
           <ThemedPressable
             bg="brass"

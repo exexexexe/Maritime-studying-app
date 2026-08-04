@@ -23,6 +23,7 @@ const VALID_TYPES = [
   'chart_question',
   'radar_question',
   'map_question',
+  'term_card',
 ];
 const VALID_CHARTS = ['SE61', 'SE93'];
 const VALID_MAP_ANSWER_KINDS = ['bearing', 'distance', 'position', 'depth'];
@@ -153,9 +154,9 @@ for (const file of topicFiles(CONTENT_DIR)) {
     if (item.needsReview === true) {
       needsReviewItems.push(`${item.id}: ${item.needsReviewNote ?? '(no note)'}`);
     }
-    // map_question has no payload — its task text is `instructions` (see
-    // content/AUTHORING.md).
-    if (item.type !== 'map_question' && !item.payload?.questionSv) {
+    // map_question and term_card have no payload — their task text is
+    // `instructions` / `termSv` respectively (see content/AUTHORING.md).
+    if (!['map_question', 'term_card'].includes(item.type) && !item.payload?.questionSv) {
       err(where, 'missing payload.questionSv');
     }
     if (item.type === 'lantern' && !item.payload?.scene?.lights?.length) {
@@ -169,6 +170,16 @@ for (const file of topicFiles(CONTENT_DIR)) {
       !['upright', 'heeled'].includes(item.payload?.scene?.variant)
     ) {
       err(where, 'stability_diagram item without a valid payload.scene.variant');
+    }
+
+    // term_card: a flashcard, not a graded question — the back reuses
+    // explanationSv/explanationEn as its definition, already validated
+    // above. No options.
+    if (item.type === 'term_card') {
+      if (typeof item.termSv !== 'string' || item.termSv.length < 1) {
+        err(where, 'term_card missing termSv');
+      }
+      continue; // no options for term_card
     }
 
     // map_question: requires a physical chart (SE61/SE93) — never rendered

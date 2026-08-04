@@ -1,0 +1,77 @@
+{
+  "topicId": "top-sjo-termer",
+  "items": [
+    {
+      "id": "term-sjo-001",
+      "topicId": "top-sjo-termer",
+      "tracks": ["klass8", "forarintyg", "kustskeppare"],
+      "type": "term_card",
+      "termSv": "Babord",
+      "termEn": "Port",
+      "options": [],
+      "explanationSv": "Vänster sida om fartyget, sett i färdriktningen framåt. Markeras med rött ljus och röda sjömärken vid infart i farled.",
+      "explanationEn": "The left side of the vessel when facing forward. Marked with a red light and red buoys when entering a channel.",
+      "authorReviewed": false
+    },
+    {
+      "id": "term-sjo-002",
+      "topicId": "top-sjo-termer",
+      "tracks": ["klass8", "forarintyg", "kustskeppare"],
+      "type": "term_card",
+      "termSv": "Styrbord",
+      "termEn": "Starboard",
+      "options": [],
+      "explanationSv": "Höger sida om fartyget, sett i färdriktningen framåt. Markeras med grönt ljus och gröna sjömärken vid infart i farled.",
+      "explanationEn": "The right side of the vessel when facing forward. Marked with a green light and green buoys when entering a channel.",
+      "authorReviewed": false
+    },
+    {
+      "id": "term-sjo-003",
+      "topicId": "top-sjo-termer",
+      "tracks": ["klass8", "forarintyg", "kustskeppare"],
+      "type": "term_card",
+      "termSv": "Slagsida",
+      "termEn": "List",
+      "options": [],
+      "explanationSv": "Fartygets permanenta lutning åt ena sidan, orsakad av till exempel ojämnt fördelad last eller vatten som runnit in. Skiljer sig från krängning, som är en tillfällig lutning orsakad av yttre krafter som vind eller sjöhävning.",
+      "explanationEn": "A vessel's steady, ongoing tilt to one side, caused by e.g. unevenly distributed cargo or flooding. Distinct from heel, a temporary tilt from external forces like wind or waves.",
+      "authorReviewed": false
+    },
+    {
+      "id": "term-sjo-004",
+      "topicId": "top-sjo-termer",
+      "tracks": ["klass8", "forarintyg", "kustskeppare"],
+      "type": "term_card",
+      "termSv": "Djupgående",
+      "termEn": "Draft",
+      "options": [],
+      "explanationSv": "Fartygets djup under vattenlinjen, mätt från kölen till vattenytan. Avgör minsta vattendjup fartyget kan gå i utan att grunda.",
+      "explanationEn": "The depth of a vessel below the waterline, measured from the keel to the water's surface. Determines the shallowest water the vessel can safely navigate without running aground.",
+      "authorReviewed": false
+    },
+    {
+      "id": "term-sjo-005",
+      "topicId": "top-sjo-termer",
+      "tracks": ["klass8", "forarintyg", "kustskeppare"],
+      "type": "term_card",
+      "termSv": "Fribord",
+      "termEn": "Freeboard",
+      "options": [],
+      "explanationSv": "Avståndet lodrätt från vattenlinjen upp till huvuddäckets överkant. Ett större fribord ger bättre reservflytkraft och sjövärdighet.",
+      "explanationEn": "The vertical distance from the waterline up to the top of the main deck. A larger freeboard gives more reserve buoyancy and seaworthiness.",
+      "authorReviewed": false
+    },
+    {
+      "id": "term-sjo-006",
+      "topicId": "top-sjo-termer",
+      "tracks": ["klass8", "forarintyg", "kustskeppare"],
+      "type": "term_card",
+      "termSv": "Aktern",
+      "termEn": "Stern",
+      "options": [],
+      "explanationSv": "Fartygets bakre del, motsatsen till förskeppet (fören). De flesta fartyg har ror och propeller placerade akterut.",
+      "explanationEn": "The rear part of a vessel, opposite the bow. Most vessels have their rudder and propeller located at the stern.",
+      "authorReviewed": false
+    }
+  ]
+}

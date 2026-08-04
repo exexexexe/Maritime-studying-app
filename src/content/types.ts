@@ -10,7 +10,8 @@ export type ItemType =
   | 'stability_diagram'
   | 'chart_question'
   | 'radar_question'
-  | 'map_question';
+  | 'map_question'
+  | 'term_card';
 
 export interface ModuleDef {
   id: string;
@@ -65,6 +66,14 @@ export interface Item {
   answerMode?: 'numeric_tolerance' | 'mcq';
   /** Present when answerMode is 'numeric_tolerance'; options[] unused then. */
   answer?: MapAnswer;
+
+  // --- term_card only — a flashcard, not a graded question. The back of
+  // the card reuses explanationSv/explanationEn as its definition text
+  // rather than duplicating a parallel field; options[] unused. ---
+  /** Front of the card. */
+  termSv?: string;
+  /** Front of the card in English, if the term has a clean equivalent. */
+  termEn?: string;
 }
 
 /** Identifies the physical paper chart a map_question requires. Never

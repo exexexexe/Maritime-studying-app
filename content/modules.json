@@ -36,6 +36,7 @@
     { "id": "top-lan-bilder", "moduleId": "mod-lanterns", "slug": "ljusbildsovningar", "titleSv": "Ljusbildsövningar", "titleEn": "Light picture drills" },
     { "id": "top-sjo-fortojning", "moduleId": "mod-seamanship", "slug": "fortojning-och-ankring", "titleSv": "Förtöjning och ankring", "titleEn": "Mooring and anchoring" },
     { "id": "top-sjo-tagvirke", "moduleId": "mod-seamanship", "slug": "tagvirke-och-knopar", "titleSv": "Tågvirke och knopar", "titleEn": "Ropes and knots" },
+    { "id": "top-sjo-termer", "moduleId": "mod-seamanship", "slug": "grundlaggande-termer", "titleSv": "Grundläggande sjötermer", "titleEn": "Basic nautical terms" },
     { "id": "top-reg-miljo", "moduleId": "mod-rules", "slug": "miljo-och-allemansratt", "titleSv": "Miljö, allemansrätt och fiske", "titleEn": "Environment and public access" },
     { "id": "top-reg-utland", "moduleId": "mod-rules", "slug": "utomlands-och-passagerare", "titleSv": "Utomlands och passagerartrafik", "titleEn": "Abroad and passenger rules" },
     { "id": "top-reg-sjolag", "moduleId": "mod-rules", "slug": "sjolag-och-bemanning", "titleSv": "Sjölag och bemanning", "titleEn": "Maritime law and manning" },

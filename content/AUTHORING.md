@@ -156,6 +156,42 @@ samma sätt som att nämna ett verkligt landmärke vid namn är okej.
 provläget) visas automatiskt före frågan för varje `map_question` — inget
 extra att koppla in per skärm.
 
+## Begreppskort (`term_card`)
+
+Ett lättviktigt flashcard-format för terminologi — skiljer sig från
+`mcq` genom att det inte är en flervalsfråga: eleven vänder kortet,
+läser definitionen och bedömer själv om hen kunde det. Precis som alla
+andra frågetyper går det in i samma SM-2-schema; det är bara
+självrättningen (`recordAnswer` med ett självskattat sant/falskt) som
+skiljer det åt.
+
+**Struktur** — `term_card` har ingen `payload`; termen ligger i
+`termSv`/`termEn` på toppnivå, och definitionen återanvänder
+`explanationSv`/`explanationEn` (samma fält alla andra frågetyper redan
+har) i stället för att duplicera ett eget definitionsfält. `options` är
+tom (`[]`):
+
+```json
+{
+  "type": "term_card",
+  "termSv": "Babord",
+  "termEn": "Port",
+  "options": [],
+  "explanationSv": "Vänster sida om fartyget, sett i färdriktningen framåt.",
+  "explanationEn": "The left side of the vessel when facing forward.",
+  "authorReviewed": false
+}
+```
+
+- `termSv` är obligatoriskt. `termEn` är valfritt — om det saknas visas
+  inte Sv/En-växlaren alls för det kortet (inget att växla till).
+- `explanationSv`/`explanationEn` fungerar som kortets baksida — skriv
+  dem som en kort, självständig definition (samma stil som en ordboks-
+  förklaring), inte som facit till en fråga.
+- Uteslutet från provläget automatiskt (en flashcard är inget riktiga
+  provet ger) — bara drillbart.
+- `check:content` validerar att `termSv` finns.
+
 ## Spårmärkning
 
 Märk varje fråga med de spår där den faktiskt ingår i kunskapskraven:

@@ -56,6 +56,7 @@ const TOPIC_FILES: TopicFile[] = [
   require('../../content/navcalc/praktisk-sjokortsnavigering.json'),
   require('../../content/buoyage/sjomarken-bilder.json'),
   require('../../content/navcalc/fysiskt-sjokort.json'),
+  require('../../content/seamanship/grundlaggande-termer.json'),
 ];
 
 export const modules: ModuleDef[] = [...modulesJson.modules].sort(
@@ -94,10 +95,11 @@ export function itemsForTrack(track: Track): Item[] {
 }
 
 /** Question text lives in the payload so item types can extend it freely.
- * map_question is the one exception — its task text is `instructions`,
- * since it has no payload (see MapChartRef in content/types.ts). */
+ * map_question and term_card are exceptions — map_question's task text is
+ * `instructions`, term_card's is `termSv`, since neither has a payload. */
 export function questionText(item: Item): string {
   if (item.type === 'map_question') return item.instructions ?? '';
+  if (item.type === 'term_card') return item.termSv ?? '';
   const p = item.payload as { questionSv?: string } | undefined;
   return p?.questionSv ?? '';
 }

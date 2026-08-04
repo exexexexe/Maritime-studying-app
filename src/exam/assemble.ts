@@ -34,6 +34,10 @@ const CATEGORY_OF: Record<ItemType, Category> = {
   chart_question: 'image',
   radar_question: 'image',
   map_question: 'image',
+  // Never actually reached — term_card is filtered out of the exam pool
+  // below (a self-graded flashcard, not something the real exam gives).
+  // Still needs an entry for Record<ItemType, Category> completeness.
+  term_card: 'theory',
 };
 
 const CATEGORIES: Category[] = ['theory', 'diagram', 'calculation', 'image'];
@@ -55,7 +59,9 @@ export function categoryOf(item: Item): Category {
  */
 export function assembleExam(track: Track, mode: ExamMode, seed: number): Item[] {
   const config = examConfig(track);
-  const pool = itemsForTrack(track);
+  // term_card is a self-graded flashcard, not something the real exam
+  // gives — drill-only.
+  const pool = itemsForTrack(track).filter((i) => i.type !== 'term_card');
   const target = Math.min(config[mode].questions, pool.length);
 
   const byCategory = new Map<Category, Item[]>(

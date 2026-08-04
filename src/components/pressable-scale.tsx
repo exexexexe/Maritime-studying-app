@@ -24,6 +24,14 @@ interface PressableScaleProps extends Omit<PressableProps, 'style'> {
  * device that combination silently dropped both the className-derived
  * layout (a flex-row collapsed to column) and the background color from
  * an explicit style prop. This shape avoids that interaction entirely.
+ *
+ * Caveat this shape does have: the outer Animated.View, not the inner
+ * Pressable, is the actual flex item as far as a parent flex-row/column
+ * is concerned. A sibling-relative sizing class like flex-1 applied
+ * directly to a PressableScale/ThemedPressable lands on the inner
+ * Pressable instead and has no effect there — confirmed on device as
+ * missing/squashed button text. Wrap it in a plain `<View className="flex-1">`
+ * instead; RN's default cross-axis stretch fills the Pressable from there.
  */
 export const PressableScale = forwardRef<View, PressableScaleProps>(function PressableScale(
   { onPressIn, onPressOut, style, ...props },
