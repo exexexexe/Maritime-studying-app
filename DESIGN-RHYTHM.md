@@ -40,10 +40,23 @@ This is meant to generalize a shared `AnimatedLight` / characteristic-spec
 system across the Lanterns/Buoyage animation work *and* UI chrome — one
 system, reused, not a second animation framework or a new dependency.
 
-**That underlying system does not exist yet.** The animated light
-characteristics feature is still [IDEAS.md](IDEAS.md) item 1, unstarted.
-Building this design language for real means building that foundation
-first (or alongside it) — there's nothing to "generalize" yet.
+**The foundation now exists.** `src/lantern/characteristics.ts` parses
+standard notation (F, Fl, LFl, Q, VQ, IQ, Iso, Oc, Mo — with groups,
+composite groups, and IALA cardinal-mark standard periods) into a timed
+on/off segment sequence; `src/components/animated-light.tsx` plays it back
+via Reanimated, snapping instantly between states (real lights don't fade)
+and respecting `useReducedMotion` — under reduced motion it renders
+statically lit, and `LanternDiagram` falls back to printing the notation
+as text so the meaning survives (that text is deliberately suppressed
+while the animation is actually playing on "identify this characteristic"
+items, so it doesn't hand over the answer).
+
+Piloted on all 20 light-characteristic items in Fyrar och ljuskaraktärer
+(the 6:16 "Tyd diagrammet" exercise) — they now show a real animated light
+instead of a text-only description. **Not yet done:** applying blink
+rhythms to lateral/cardinal marks in `BuoyDiagram` (currently static day
+shapes only), and the UI-chrome application described below (this rework's
+actual subject) — both separate, unstarted steps.
 
 ## Open questions for the rework prompt
 

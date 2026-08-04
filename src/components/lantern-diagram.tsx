@@ -1,8 +1,11 @@
 import { Fragment } from 'react';
 import { Text, View } from 'react-native';
+import { useReducedMotion } from 'react-native-reanimated';
 import Svg, { Circle, Defs, Line, Path, RadialGradient, Rect, Stop } from 'react-native-svg';
 
 import type { LanternScene } from '@/content/types';
+
+import { AnimatedLight } from './animated-light';
 
 /**
  * Night-view light picture — one of the app's signature elements.
@@ -25,6 +28,15 @@ const LIGHT_COLORS: Record<string, string> = {
 
 export function LanternDiagram({ scene }: { scene: LanternScene }) {
   const usedColors = [...new Set(scene.lights.map((l) => l.color))];
+  const reducedMotion = useReducedMotion();
+  // Shown as text ONLY when motion is reduced — this is how the
+  // characteristic's meaning survives without the pulse (per
+  // DESIGN-RHYTHM.md). While the animation is actually playing, printing
+  // the notation here would just hand the student the answer to "identify
+  // this characteristic" items, so it stays silent then.
+  const characteristicNotation = reducedMotion
+    ? [...new Set(scene.lights.map((l) => l.characteristic).filter(Boolean))].join(' · ')
+    : '';
 
   return (
     <View className="rounded-xl overflow-hidden border border-fog/15">
@@ -54,17 +66,28 @@ export function LanternDiagram({ scene }: { scene: LanternScene }) {
           />
         )}
 
-        {scene.lights.map((light, i) => (
-          <Fragment key={i}>
-            <Circle cx={light.x} cy={light.y} r={7} fill={`url(#glow-${light.color})`} />
-            <Circle cx={light.x} cy={light.y} r={1.6} fill={LIGHT_COLORS[light.color]} />
-          </Fragment>
-        ))}
+        {scene.lights.map((light, i) =>
+          light.characteristic ? (
+            <AnimatedLight
+              key={i}
+              characteristic={light.characteristic}
+              cx={light.x}
+              cy={light.y}
+              color={LIGHT_COLORS[light.color]}
+              glowId={`glow-${light.color}`}
+            />
+          ) : (
+            <Fragment key={i}>
+              <Circle cx={light.x} cy={light.y} r={7} fill={`url(#glow-${light.color})`} />
+              <Circle cx={light.x} cy={light.y} r={1.6} fill={LIGHT_COLORS[light.color]} />
+            </Fragment>
+          ),
+        )}
       </Svg>
-      {scene.captionSv ? (
+      {scene.captionSv || characteristicNotation ? (
         <View className="bg-surface px-4 py-2 border-t border-fog/10">
           <Text className="text-caption font-mono text-fog text-center uppercase tracking-widest">
-            {scene.captionSv}
+            {[scene.captionSv, characteristicNotation].filter(Boolean).join(' · ')}
           </Text>
         </View>
       ) : null}

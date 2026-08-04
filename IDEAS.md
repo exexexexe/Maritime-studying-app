@@ -9,6 +9,15 @@ arbete — flytta upp en punkt först när den aktivt prioriteras.
    isofas, Mo(A) m.fl. animerade i realtid; blinkrytmer för kardinal- och
    sidomärken nattetid. Bedömd som bäst värde-per-insats: Reanimated ovanpå
    befintliga SVG-diagram.
+   **Grunden byggd 2026-08-04** (se DESIGN-RHYTHM.md): `src/lantern/
+   characteristics.ts` (notationsparser: F/Fl/LFl/Q/VQ/IQ/Iso/Oc/Mo, grupper,
+   sammansatta grupper, kardinalmärkenas standardperioder, 41 tester) +
+   `AnimatedLight`-komponent (Reanimated, respekterar reduce-motion) inbyggd
+   i `LanternDiagram`. Pilot: alla 20 "Tyd diagrammet"-frågor (6:16) i Fyrar
+   och ljuskaraktärer animerar nu sin riktiga rytm. Kvar: blinkrytmer för
+   sido-/kardinalmärken i BuoyDiagram (bara ljusbilder just nu, ej byggt),
+   samt UI-chrome-tillämpningen (korrekt/fel-feedback etc.) — se
+   DESIGN-RHYTHM.md, ett separat steg som inte påbörjats.
 2. **Pseudo-3D-lanterntränare** — dra för att kretsa runt ett fartyg i mörker
    och se lanternorna tändas/släckas när man passerar sektorgränserna.
    Sektormatematik + befintlig SVG-nattvy; känns 3D utan 3D-kostnad.

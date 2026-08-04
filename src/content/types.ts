@@ -61,7 +61,18 @@ export interface Item {
 /** Night-view light picture rendered by LanternDiagram. */
 export interface LanternScene {
   /** Lights positioned in a 100 × 60 field; y grows downward. */
-  lights: { color: 'white' | 'red' | 'green' | 'yellow' | 'blue'; x: number; y: number }[];
+  lights: {
+    color: 'white' | 'red' | 'green' | 'yellow' | 'blue';
+    x: number;
+    y: number;
+    /**
+     * Standard light-characteristic notation, e.g. "Fl(2) 6s" — see
+     * src/lantern/characteristics.ts. When present, this light blinks its
+     * real rhythm instead of staying always on. Omit for the ordinary
+     * vessel light-picture items, where lights are simply lit or not.
+     */
+    characteristic?: string;
+  }[];
   /** Optional faint hull silhouette beneath the lights. */
   hull?: 'none' | 'silhouette';
   /** Short caption shown under the diagram, e.g. viewing aspect. */
