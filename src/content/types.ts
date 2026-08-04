@@ -9,7 +9,8 @@ export type ItemType =
   | 'buoy'
   | 'stability_diagram'
   | 'chart_question'
-  | 'radar_question';
+  | 'radar_question'
+  | 'map_question';
 
 export interface ModuleDef {
   id: string;
@@ -56,7 +57,41 @@ export interface Item {
   needsReview?: boolean;
   /** Short note on what is uncertain, for the focused review pass. */
   needsReviewNote?: string | null;
+
+  // --- map_question only (no in-app chart rendering — see MapChartRef) ---
+  chartRef?: MapChartRef;
+  /** Task text for a map_question, using the chart's own printed labels. */
+  instructions?: string;
+  answerMode?: 'numeric_tolerance' | 'mcq';
+  /** Present when answerMode is 'numeric_tolerance'; options[] unused then. */
+  answer?: MapAnswer;
 }
+
+/** Identifies the physical paper chart a map_question requires. Never
+ * rendered — see the copyright note in content/AUTHORING.md. */
+export interface MapChartRef {
+  chart: 'SE61' | 'SE93';
+  /** Optional printing/edition note, if the course specifies one. */
+  edition?: string | null;
+}
+
+interface MapAnswerScalar {
+  kind: 'bearing' | 'distance' | 'depth';
+  expected: number;
+  /** Display unit — informational; the UI derives its own label from `kind`. */
+  unit: string;
+  tolerance: number;
+}
+
+interface MapAnswerPosition {
+  kind: 'position';
+  expected: { lat: number; lon: number };
+  unit: string;
+  /** Acceptance radius in meters (great-circle distance). */
+  tolerance: number;
+}
+
+export type MapAnswer = MapAnswerScalar | MapAnswerPosition;
 
 /** Night-view light picture rendered by LanternDiagram. */
 export interface LanternScene {

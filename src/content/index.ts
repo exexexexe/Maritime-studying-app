@@ -92,8 +92,11 @@ export function itemsForTrack(track: Track): Item[] {
   return allItems.filter((i) => i.tracks.includes(track));
 }
 
-/** Question text lives in the payload so item types can extend it freely. */
+/** Question text lives in the payload so item types can extend it freely.
+ * map_question is the one exception — its task text is `instructions`,
+ * since it has no payload (see MapChartRef in content/types.ts). */
 export function questionText(item: Item): string {
+  if (item.type === 'map_question') return item.instructions ?? '';
   const p = item.payload as { questionSv?: string } | undefined;
   return p?.questionSv ?? '';
 }

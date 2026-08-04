@@ -33,6 +33,7 @@ const CATEGORY_OF: Record<ItemType, Category> = {
   calculation: 'calculation',
   chart_question: 'image',
   radar_question: 'image',
+  map_question: 'image',
 };
 
 const CATEGORIES: Category[] = ['theory', 'diagram', 'calculation', 'image'];

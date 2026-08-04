@@ -69,6 +69,30 @@ export function ChronometerIcon({ color, size = 24 }: IconProps) {
   );
 }
 
+/** Folded paper chart with plotting dividers — "requires a physical chart". */
+export function PaperChartIcon({ color, size = 24 }: IconProps) {
+  return (
+    <Svg width={size} height={size} viewBox="0 0 24 24" fill="none">
+      <Rect x={3.5} y={4.5} width={17} height={15} rx={1} stroke={color} strokeWidth={1.5} />
+      <Path
+        d="M3.5 12 h17 M9.5 4.5 v15 M15 4.5 v15"
+        stroke={color}
+        strokeWidth={1}
+        strokeOpacity={0.45}
+      />
+      <Path
+        d="M12.5 8 L18 8.8 M12.5 8 L15.3 16 M18 8.8 L15.3 16"
+        stroke={color}
+        strokeWidth={1.4}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <Circle cx={12.5} cy={8} r={1} fill={color} />
+      <Circle cx={18} cy={8.8} r={1} fill={color} />
+    </Svg>
+  );
+}
+
 /** Ship's helm — Inställningar. */
 export function HelmIcon({ color, size = 24 }: IconProps) {
   const spokes = [0, 45, 90, 135, 180, 225, 270, 315];
