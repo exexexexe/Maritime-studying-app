@@ -2437,6 +2437,78 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "17:19 / photo_48 + photo_8"
+    },
+    {
+      "id": "nav-fart-069",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Cirka 15,6 knop",
+          "isCorrect": true
+        },
+        {
+          "text": "Cirka 14,2 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 16,4 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 13,0 knop",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Fart = distans × 60 / tid i minuter. 14 minuter 15 sekunder = 14,25 minuter. 3,7 × 60 / 14,25 = 15,58 knop, alltså cirka 15,6 knop.",
+      "explanationEn": "Speed = distance × 60 / time in minutes. 14 minutes 15 seconds = 14.25 minutes. 3.7 × 60 / 14.25 = 15.58 knots, i.e. about 15.6 knots.",
+      "payload": {
+        "questionSv": "Vid ett fartprov visar det sig att en båt hinner 3,7 M på 14 minuter 15 sekunder. Vilken är farten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:17 / photo_45 + photo_5"
+    },
+    {
+      "id": "nav-fart-070",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Cirka 2 timmar 13 minuter",
+          "isCorrect": true
+        },
+        {
+          "text": "Cirka 1 timme 40 minuter",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 1 timme 20 minuter",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 2 timmar 30 minuter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Farten över grund är 6 − 1,5 = 4,5 knop eftersom motströmmen bromsar. Tid = distans × 60 / fart = 10 × 60 / 4,5 = 133 minuter, alltså cirka 2 timmar 13 minuter.",
+      "explanationEn": "Speed over ground is 6 − 1.5 = 4.5 knots because of the head current. Time = distance × 60 / speed = 10 × 60 / 4.5 = 133 minutes, i.e. about 2 hours 13 minutes.",
+      "payload": {
+        "questionSv": "En båt går uppför Göta Älv. Enligt en mätning i sjökortet är det 10 M kvar till Lilla Edet. Båten gör 6 knop genom vattnet. Motströmmen håller i snitt 1,5 knop. Om hur lång tid bör man vara framme i Lilla Edet?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:18 / photo_45 + photo_5"
     }
   ]
 }

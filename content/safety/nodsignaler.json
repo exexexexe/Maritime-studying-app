@@ -1227,6 +1227,118 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "17:52 / photo_46 + photo_6"
+    },
+    {
+      "id": "saf-nod-034",
+      "topicId": "top-safety-nod",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Röda fallskärmsljus, röda handbloss, orange rök, Morse-SOS, Mayday på radio samt klot och fyrkantig flagga",
+          "isCorrect": true
+        },
+        {
+          "text": "Vita fallskärmsljus, grön rök, tre korta ljudsignaler, blinkande lanternor, Pan Pan på radio och hissad gästflagga",
+          "isCorrect": false
+        },
+        {
+          "text": "Gula handbloss, blå rök, Securité på radio, tutning var femte minut, ankarklot och vimpel i masttoppen",
+          "isCorrect": false
+        },
+        {
+          "text": "Strålkastare mot land, grönt fallskärmsljus, klockringning, kryssande kurs, motorstopp och åror i vädret",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Internationellt accepterade nödsignaler är bl.a.: röda fallskärmsljus, raketer eller bomber med röda stjärnor, röda handbloss, orangefärgad rök, Morse-SOS med ljud eller ljus, eldsflammor, klot och fyrkantig flagga, långsamma höjningar och sänkningar av armarna, Mayday på radio och oavbrutet begagnande av mistsignalapparat.",
+      "explanationEn": "Internationally recognised distress signals include red parachute flares, rockets throwing red stars, red hand flares, orange smoke, SOS by sound or light, flames on the vessel, a ball over a square flag, slowly raising and lowering the arms, Mayday on the radio and continuous sounding of fog-signal apparatus.",
+      "payload": {
+        "questionSv": "Räkna upp minst sex internationellt accepterade nödsignaler."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:59 / photo_43 + photo_3"
+    },
+    {
+      "id": "saf-nod-035",
+      "topicId": "top-safety-nod",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8",
+        "vhf"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Kanal 16",
+          "isCorrect": true
+        },
+        {
+          "text": "Kanal 70",
+          "isCorrect": false
+        },
+        {
+          "text": "Kanal 6",
+          "isCorrect": false
+        },
+        {
+          "text": "Kanal 13",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Nöd-, il- och varningstrafik med tal sker på VHF-kanal 16, som också är passningskanal. Kanal 70 används endast för DSC (digitalt selektivanrop).",
+      "explanationEn": "Distress, urgency and safety voice traffic uses VHF channel 16, which is also the watch channel. Channel 70 is used only for DSC (digital selective calling).",
+      "payload": {
+        "questionSv": "Vad heter nödkanalen på VHF?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:61 / photo_43 + photo_3"
+    },
+    {
+      "id": "saf-nod-036",
+      "topicId": "top-safety-nod",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "I Göteborg",
+          "isCorrect": true
+        },
+        {
+          "text": "I Stockholm",
+          "isCorrect": false
+        },
+        {
+          "text": "I Karlskrona",
+          "isCorrect": false
+        },
+        {
+          "text": "I Norrköping",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Sveriges sjöräddningscentral MRCC (Maritime Rescue Coordination Centre) ligger i Göteborg och leder all sjöräddning i svenskt ansvarsområde.",
+      "explanationEn": "Sweden's Maritime Rescue Coordination Centre (MRCC) is located in Gothenburg and coordinates all maritime search and rescue in the Swedish area of responsibility.",
+      "payload": {
+        "questionSv": "Var finns Sveriges sjöräddningscentral (MRCC)?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:66 / photo_42 + photo_2"
     }
   ]
 }

@@ -802,6 +802,222 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "17:34 / photo_47 + photo_7"
+    },
+    {
+      "id": "nav-instr-023",
+      "topicId": "top-nav-instrument",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Gå i en enslinje, jämföra med en deviationsfri kompass eller styra mot ett tydligt föremål från en känd position",
+          "isCorrect": true
+        },
+        {
+          "text": "Snurra kompassen ett varv och kontrollera att rosen följer med jämnt",
+          "isCorrect": false
+        },
+        {
+          "text": "Jämföra kompassen med GPS-farten på olika kurser",
+          "isCorrect": false
+        },
+        {
+          "text": "Lägga en magnet intill och se att nålen reagerar åt rätt håll",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Kompassen kontrolleras genom att gå i en enslinje med känd riktning, jämföra med en deviationsfri kompass (t.ex. handpejlkompass på fritt däck) eller styra mot ett tydligt föremål från en känd position och jämföra med sjökortet.",
+      "explanationEn": "You check the compass by steering along a transit with a known bearing, comparing with a deviation-free compass, or steering toward a distinct object from a known position and comparing with the chart.",
+      "payload": {
+        "questionSv": "Nämn några metoder för att undersöka om kompassen visar rätt."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:8 / photo_45 + photo_5"
+    },
+    {
+      "id": "nav-instr-024",
+      "topicId": "top-nav-instrument",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Magnetiska föremål i kompassens närhet",
+          "isCorrect": true
+        },
+        {
+          "text": "Skillnaden mellan geografiska och magnetiska nordpolen",
+          "isCorrect": false
+        },
+        {
+          "text": "Solstormar och variationer i jordmagnetismen",
+          "isCorrect": false
+        },
+        {
+          "text": "Båtens fart och krängning i sjögång",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Deviation orsakas av magnetiska föremål ombord i kompassens närhet, t.ex. järn, högtalare och elkablar. Skillnaden mellan geografisk och magnetisk nord är missvisning – inte deviation.",
+      "explanationEn": "Deviation is caused by magnetic objects on board near the compass, such as iron, loudspeakers and electric cables. The difference between true and magnetic north is variation – not deviation.",
+      "payload": {
+        "questionSv": "Vad beror deviation på?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:9 / photo_45 + photo_5"
+    },
+    {
+      "id": "nav-instr-025",
+      "topicId": "top-nav-instrument",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Flytta de föremål som stör, flytta kompassen eller kompensera med magneter",
+          "isCorrect": true
+        },
+        {
+          "text": "Avmagnetisera kompassrosen och byta kompassvätska",
+          "isCorrect": false
+        },
+        {
+          "text": "Kalibrera kompassen mot GPS:en vid varje avfärd",
+          "isCorrect": false
+        },
+        {
+          "text": "Montera kompassen i ett hölje av järnplåt som skärmar av störningar",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Deviationen minskas genom att flytta störande magnetiska föremål bort från kompassen, flytta själva kompassen till en bättre plats eller kompensera deviationen med hjälp av magneter.",
+      "explanationEn": "Deviation is reduced by moving disturbing magnetic objects away from the compass, relocating the compass itself, or compensating the deviation using corrector magnets.",
+      "payload": {
+        "questionSv": "Räkna upp några sätt att minska kompassens deviation."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:10 / photo_45 + photo_5"
+    },
+    {
+      "id": "nav-instr-026",
+      "topicId": "top-nav-instrument",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Nej – även en fluxgatekompass störs av magnetiska föremål",
+          "isCorrect": true
+        },
+        {
+          "text": "Ja – en elektronisk kompass påverkas inte av magnetiska föremål",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja – givaren känner bara jordmagnetfältet och filtrerar bort störningar",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej – men bara metallföremål tyngre än ett kilo stör givaren",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En fluxgatekompass mäter jordens magnetfält elektroniskt, men den störs precis som en vanlig magnetkompass av magnetiska föremål nära givaren. Därför får man inte stuva vad som helst intill den.",
+      "explanationEn": "A fluxgate compass measures the earth's magnetic field electronically, but just like a conventional compass it is disturbed by magnetic objects near the sensor. So you cannot stow just anything next to it.",
+      "payload": {
+        "questionSv": "Din båt har en fluxgatekompass med givaren placerad i garderoben mellan salong och förpik. Kan du stuva vad som helst i närheten av kompassgivaren?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:11 / photo_45 + photo_5"
+    },
+    {
+      "id": "nav-instr-027",
+      "topicId": "top-nav-instrument",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Nej, det är inte säkert att det är problemfritt – men det bör gå",
+          "isCorrect": true
+        },
+        {
+          "text": "Ja, NMEA-standarden garanterar att all data överförs felfritt",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej, apparater av olika fabrikat kan aldrig kopplas ihop",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja, men bara om båda apparaterna är av samma årsmodell",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "NMEA-standarden gör att apparater av olika fabrikat normalt kan kopplas ihop, men i praktiken kan tolkningsskillnader ge problem. Man kan alltså inte räkna med att det är helt problemfritt, även om det bör gå.",
+      "explanationEn": "The NMEA standard means instruments from different manufacturers can normally be connected, but in practice implementation differences can cause problems. So you cannot count on it being trouble-free, although it should work.",
+      "payload": {
+        "questionSv": "På båtmässan visas en sjökortsplotter som du vill koppla ihop med det vindinstrument som redan finns på båten. Apparaterna är av olika fabrikat men uppges ha samma NMEA-standard. Kan du räkna med att det är problemfritt att koppla ihop dem?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:12 / photo_45 + photo_5"
+    },
+    {
+      "id": "nav-instr-028",
+      "topicId": "top-nav-instrument",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "8° västlig (−8°)",
+          "isCorrect": true
+        },
+        {
+          "text": "8° ostlig (+8°)",
+          "isCorrect": false
+        },
+        {
+          "text": "5° västlig (−5°)",
+          "isCorrect": false
+        },
+        {
+          "text": "2° ostlig (+2°)",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Rättvisande kurs K = 045°. Magnetisk kurs Km = K − missvisning = 045° − 3° = 042°. Deviationen är skillnaden mellan magnetisk kurs och kompasskurs: d = Km − Kk = 042° − 050° = −8°, dvs. 8° västlig deviation.",
+      "explanationEn": "True course K = 045°. Magnetic course Km = K − variation = 045° − 3° = 042°. Deviation is the difference between magnetic and compass course: d = Km − Kk = 042° − 050° = −8°, i.e. 8° westerly deviation.",
+      "payload": {
+        "questionSv": "För att kontrollera din kompass styr du mot en enslinje. Rättvisande kurs är 45°. Missvisningen i området är ostlig +3°. Din styrkompass visar 50°. Hur stor är deviationen på den styrda kursen?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:14 / photo_45 + photo_5"
     }
   ]
 }

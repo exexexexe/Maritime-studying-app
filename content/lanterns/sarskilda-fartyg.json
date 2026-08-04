@@ -881,6 +881,150 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "17:44 / photo_47 + photo_6"
+    },
+    {
+      "id": "lan-sar-023",
+      "topicId": "top-lan-sarskilda",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ankarklot samt tratt (kon med spetsen nedåt) vid motorsegling",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett svart klot i förstaget samt en cylinder vid motorsegling",
+          "isCorrect": false
+        },
+        {
+          "text": "Två klot lodrätt vid ankring samt timglasfigur vid motorsegling",
+          "isCorrect": false
+        },
+        {
+          "text": "Ingen signalfigur behövs – båtar under 12 meter är alltid undantagna",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "På utlandsfärd kan en segelbåt behöva ankarklot (vid ankring) och tratt/kon med spetsen nedåt (när den seglar och går för motor samtidigt). I svenska hemmavatten är signalfigurerna frivilliga för båtar under 12 meter.",
+      "explanationEn": "Abroad, a sailing boat may need the anchor ball (at anchor) and the cone point-down (when motor-sailing). In Swedish home waters day shapes are optional for boats under 12 metres.",
+      "payload": {
+        "questionSv": "Signalfigurer är inte ett måste i våra hemmavatten om båten är kortare än 12 meter. Men vilka signaler kan behövas för en segelbåt på utlandsfärd?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:25 / photo_44 + photo_4"
+    },
+    {
+      "id": "lan-sar-024",
+      "topicId": "top-lan-sarskilda",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ett svart ankarklot",
+          "isCorrect": true
+        },
+        {
+          "text": "Två svarta klot i lodrät linje",
+          "isCorrect": false
+        },
+        {
+          "text": "En svart kon med spetsen nedåt",
+          "isCorrect": false
+        },
+        {
+          "text": "En svart cylinder",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett fartyg till ankars visar dagtid ett svart klot (ankarklot). Skutan är längre än 12 meter och ligger dessutom i en farled, så signalen krävs. Två klot betyder ej manöverfärdigt fartyg och konen motorsegling.",
+      "explanationEn": "A vessel at anchor shows one black ball by day. The boat is over 12 metres and lies in a fairway, so the shape is required. Two balls mean not under command and the cone means motor-sailing.",
+      "payload": {
+        "questionSv": "Du ankrar tillfälligt en skuta som är längre än 12 meter mitt i en farled för att avhjälpa ett motorfel. Med vilken signal visar du att båten har ankrat?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:42 / photo_43 + photo_3"
+    },
+    {
+      "id": "lan-sar-025",
+      "topicId": "top-lan-sarskilda",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ej manöverfärdigt fartyg",
+          "isCorrect": true
+        },
+        {
+          "text": "Fartyg på grund",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyg till ankars",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyg hämmat av sitt djupgående",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Två svarta klot i lodrät linje är dagersignalen för ett ej manöverfärdigt fartyg. Ett klot betyder ankarliggare och tre klot fartyg på grund.",
+      "explanationEn": "Two black balls in a vertical line is the day shape for a vessel not under command. One ball means at anchor and three balls a vessel aground.",
+      "payload": {
+        "questionSv": "Vad betyder dagersignalen två svarta klot i lodrät linje?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:43a / photo_43 + photo_3"
+    },
+    {
+      "id": "lan-sar-026",
+      "topicId": "top-lan-sarskilda",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Fartyg på grund",
+          "isCorrect": true
+        },
+        {
+          "text": "Ej manöverfärdigt fartyg",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyg som fiskar",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyg som bogserar över 200 meter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tre svarta klot i lodrät linje är dagersignalen för ett fartyg på grund. Två klot betyder ej manöverfärdigt fartyg och ett klot ankarliggare.",
+      "explanationEn": "Three black balls in a vertical line is the day shape for a vessel aground. Two balls mean not under command and one ball a vessel at anchor.",
+      "payload": {
+        "questionSv": "Vad betyder dagersignalen tre svarta klot i lodrät linje?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:43b / photo_43 + photo_3"
     }
   ]
 }

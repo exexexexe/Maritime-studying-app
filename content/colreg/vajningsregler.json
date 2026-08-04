@@ -2318,6 +2318,187 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "17:28 / photo_48 + photo_7"
+    },
+    {
+      "id": "col-vaj-064",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Vid olika halsar väjer båten som har vinden in på babordssidan; vid samma halsar väjer lovartsbåten",
+          "isCorrect": true
+        },
+        {
+          "text": "Vid olika halsar väjer båten som har vinden in på styrbordssidan; vid samma halsar väjer läbåten",
+          "isCorrect": false
+        },
+        {
+          "text": "Den snabbare segelbåten väjer alltid för den långsammare oavsett halsar",
+          "isCorrect": false
+        },
+        {
+          "text": "Den båt som ser den andra om babord väjer, precis som för maskindrivna fartyg",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Mellan segelfartyg gäller: för olika halsar väjer den som har vinden in på babordssidan (babords halsar). För samma halsar väjer båten i lovart. I figuren är det alltså båten med babords halsar respektive lovartsbåten som ska väja.",
+      "explanationEn": "Between sailing vessels: on different tacks the boat with the wind on its port side (port tack) gives way. On the same tack the windward boat gives way. In the figure, the port-tack boat and the windward boat respectively must keep clear.",
+      "payload": {
+        "questionSv": "Se figur: två situationer med segelbåtar och vindpil. I den vänstra bilden möts två segelbåtar för olika halsar, i den högra seglar två båtar för samma halsar. Vilken av segelbåtarna ska väja i respektive situation?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Figur behöver beskäras från photo_45; facit 18:22 visar svaret som figur (photo_4) – kontrollera att beskrivningen stämmer med bilden.",
+      "sourceRef": "18:22 / photo_45 + photo_4"
+    },
+    {
+      "id": "col-vaj-065",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Jag håller kurs och fart – taxibåten ska väja",
+          "isCorrect": true
+        },
+        {
+          "text": "Jag väjer åt styrbord och går akter om taxibåten",
+          "isCorrect": false
+        },
+        {
+          "text": "Jag stoppar och låter taxibåten passera",
+          "isCorrect": false
+        },
+        {
+          "text": "Jag ökar farten för att passera för om taxibåten",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Taxibåten närmar sig från babord i en skärande kurs mellan två maskindrivna fartyg. Fartyget som har det andra på sin babordssida ska hålla kurs och fart – taxibåten är väjningsskyldig.",
+      "explanationEn": "The taxi boat approaches from port in a crossing situation between two power-driven vessels. The vessel that has the other on her port side stands on – the taxi boat must give way.",
+      "payload": {
+        "questionSv": "Du är skeppare på en 10 meter lång motorbåt. På en skärgårdsfjärd möter du en 10 meter lång taxibåt 45° om babord och bäringen är stadig. Vilken blir din åtgärd?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:31a / photo_44 + photo_4"
+    },
+    {
+      "id": "col-vaj-066",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Jag håller kurs och fart – den upphinnande segelbåten ska väja",
+          "isCorrect": true
+        },
+        {
+          "text": "Jag väjer åt styrbord eftersom segelbåt alltid har företräde",
+          "isCorrect": false
+        },
+        {
+          "text": "Jag saktar in så att segelbåten snabbare kommer förbi",
+          "isCorrect": false
+        },
+        {
+          "text": "Jag girar undan åt babord för att lämna fri väg i lä",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett upphinnande fartyg är alltid väjningsskyldigt – även en segelbåt som hinner ikapp en motorbåt. Du håller därför kurs och fart.",
+      "explanationEn": "An overtaking vessel always keeps clear – even a sailing boat overtaking a motorboat. You therefore maintain course and speed.",
+      "payload": {
+        "questionSv": "Du är skeppare på en 10 meter lång motorbåt. En snabb segelbåt hinner ikapp dig akterifrån och bäringen är stadig. Vilken blir din åtgärd?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:31b / photo_44 + photo_4"
+    },
+    {
+      "id": "col-vaj-067",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Segelbåten får inte hindra genomfarten för motorskutan, som bara kan framföras säkert inom den trånga farleden (regel 9)",
+          "isCorrect": true
+        },
+        {
+          "text": "Motorskutan ska väja eftersom segelfartyg alltid har företräde framför maskindrivna fartyg",
+          "isCorrect": false
+        },
+        {
+          "text": "Båda ska gira styrbord och mötas babord mot babord som vid vanliga möten",
+          "isCorrect": false
+        },
+        {
+          "text": "Segelbåten har företräde om den ligger på styrbords halsar i farleden",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Enligt regel 9 får ett segelfartyg inte hindra genomfarten för ett fartyg som kan framföras säkert endast inom en trång farled. Segelbåtens vanliga företräde gäller alltså inte här.",
+      "explanationEn": "Under Rule 9 a sailing vessel must not impede the passage of a vessel that can navigate safely only within a narrow channel. The sailing boat's usual right of way does not apply here.",
+      "payload": {
+        "questionSv": "Vad gäller för en segelbåt som möter en 25 meter lång motorskuta i ett trångt farvatten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:32 / photo_44 + photo_4"
+    },
+    {
+      "id": "col-vaj-068",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Följ angiven trafikriktning, håll fritt från separeringslinje/zon och gå helst in och ut vid stråkets ändpunkt – eller korsa i så rät vinkel som möjligt",
+          "isCorrect": true
+        },
+        {
+          "text": "Välj valfritt stråk och riktning men håll högst 10 knop inom systemet",
+          "isCorrect": false
+        },
+        {
+          "text": "Små fartyg ska alltid gå mitt i separeringszonen för att inte störa trafiken",
+          "isCorrect": false
+        },
+        {
+          "text": "Trafiken är enkelriktad endast för fartyg över 50 meter – mindre fartyg går fritt",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Den som använder ett trafiksepareringssystem ska följa angiven trafikriktning i stråket, hålla fritt från separeringslinje eller separeringszon och helst gå in och ut vid stråkets ändpunkt – alternativt in eller ut ur stråket i så liten vinkel som möjligt mot trafikriktningen. Den som korsar gör det i så rät vinkel som möjligt.",
+      "explanationEn": "A vessel using a traffic separation scheme must follow the traffic direction of the lane, keep clear of the separation line or zone, and preferably join and leave at the ends of the lane – otherwise at as small an angle as practicable. Crossing vessels cross as nearly as practicable at right angles.",
+      "payload": {
+        "questionSv": "Vilka särskilda regler gäller i ett trafiksepareringssystem?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:36 / photo_44 + photo_4"
     }
   ]
 }

@@ -550,6 +550,80 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "17:59 / photo_46 + photo_6"
+    },
+    {
+      "id": "saf-sjuk-016",
+      "topicId": "top-safety-sjukvard",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Kompress närmast såret, utanpå den en hoprullad gasbinda eller något annat hårt, fäst med en måttligt åtdragen binda tills blödningen stoppar",
+          "isCorrect": true
+        },
+        {
+          "text": "En hårt åtsnörd stas ovanför såret som stryps tills pulsen försvinner",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett löst bandage direkt på såret som byts var femte minut",
+          "isCorrect": false
+        },
+        {
+          "text": "Sårsalva och plåster, därefter högläge i minst en timme",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tryckförband läggs med en kompress närmast såret. Utanpå den hoprullade gasbindan eller något annat hårt placeras trycket över såret, och alltihop fästs med en måttligt åtdragen binda tills blödningen stoppar.",
+      "explanationEn": "A pressure bandage is applied with a compress next to the wound. A rolled-up gauze bandage or other firm object is placed on top to concentrate pressure, and everything is secured with a moderately tightened bandage until the bleeding stops.",
+      "payload": {
+        "questionSv": "Hur läggs ett tryckförband?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:83 / photo_42 + photo_2"
+    },
+    {
+      "id": "saf-sjuk-017",
+      "topicId": "top-safety-sjukvard",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Fixera benet, lägg vid öppet benbrott om möjligt tryckförband för att stoppa blödningen, kontakta sjukvården för rådgivning och ordna transport till sjukhus",
+          "isCorrect": true
+        },
+        {
+          "text": "Räta ut benet i sitt rätta läge, massera fram cirkulationen och avvakta i land",
+          "isCorrect": false
+        },
+        {
+          "text": "Ge värktabletter och låt den skadade gå på benet för att hålla det rörligt",
+          "isCorrect": false
+        },
+        {
+          "text": "Kyl benet med sjövatten och invänta att svullnaden lägger sig innan något görs",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vid benbrott ombord fixeras benet så att det inte kan röra sig. Vid öppet benbrott läggs om möjligt tryckförband för att stoppa blödningen. Kontakta sjukvården för rådgivning och ordna transport till sjukhus.",
+      "explanationEn": "For a broken leg on board, immobilise the limb so it cannot move. For an open fracture apply a pressure bandage if possible to stop the bleeding. Contact medical services for advice and arrange transport to hospital.",
+      "payload": {
+        "questionSv": "En i besättningen bryter benet. Vilka akuta åtgärder vidtar du?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:84 / photo_42 + photo_2"
     }
   ]
 }

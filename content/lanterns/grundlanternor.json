@@ -580,6 +580,187 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "17:42 / photo_47 + photo_6"
+    },
+    {
+      "id": "lan-grund-017",
+      "topicId": "top-lan-grund",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "En akterlanterna, en ankarliggare under 50 meter, en roddbåt, en segelbåt under 7 meter eller en motorbåt under 7 meter med maxfart under 7 knop",
+          "isCorrect": true
+        },
+        {
+          "text": "Endast en ankarliggare – inget annat fartyg får visa ett ensamt vitt ljus",
+          "isCorrect": false
+        },
+        {
+          "text": "En lotsbåt i tjänst, ett fiskefartyg eller ett fartyg på grund",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett svävarfartyg, ett minröjningsfartyg eller en bogserare med släp",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett ensamt vitt ljus kan vara en akterlanterna från segelbåt eller motorbåt, en ankarliggare kortare än 50 meter, en roddbåt eller segelbåt under sju meter med lampa, eller en motorbåt under sju meter med maxfart under sju knop som visar fast runtlysande vit lanterna.",
+      "explanationEn": "A single white light can be a stern light of a sailing or motor boat, a vessel under 50 metres at anchor, a rowing boat or a sailing boat under seven metres showing a lamp, or a motorboat under seven metres with a top speed below seven knots showing an all-round white light.",
+      "payload": {
+        "questionSv": "Du ser ett ensamt vitt ljus ute på en fjärd. Räkna upp några exempel på vad det kan sitta på för slags fartyg."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:30 / photo_44 + photo_4"
+    },
+    {
+      "id": "lan-grund-018",
+      "topicId": "top-lan-grund",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "225°",
+          "isCorrect": true
+        },
+        {
+          "text": "112,5°",
+          "isCorrect": false
+        },
+        {
+          "text": "135°",
+          "isCorrect": false
+        },
+        {
+          "text": "360°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Topplanternan lyser över en båge om 225°, dvs. rakt förut till 22,5° akter om tvärs på vardera sidan. Tillsammans med akterlanternans 135° täcks hela horisonten (360°).",
+      "explanationEn": "The masthead light covers an arc of 225°, from right ahead to 22.5° abaft the beam on each side. Together with the 135° stern light the whole horizon (360°) is covered.",
+      "payload": {
+        "questionSv": "Vilken lysvinkel har en topplanterna?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:41a / photo_43 + photo_3"
+    },
+    {
+      "id": "lan-grund-019",
+      "topicId": "top-lan-grund",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "135°",
+          "isCorrect": true
+        },
+        {
+          "text": "225°",
+          "isCorrect": false
+        },
+        {
+          "text": "112,5°",
+          "isCorrect": false
+        },
+        {
+          "text": "180°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Akterlanternan lyser över 135° rakt akterut – från 22,5° akter om tvärs på ena sidan till 22,5° akter om tvärs på den andra. Den kompletterar topplanternans 225° till ett helt varv.",
+      "explanationEn": "The stern light covers 135° astern – from 22.5° abaft the beam on one side to the same point on the other. It complements the 225° masthead light to a full circle.",
+      "payload": {
+        "questionSv": "Vilken lysvinkel har en akterlanterna?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:41b / photo_43 + photo_3"
+    },
+    {
+      "id": "lan-grund-020",
+      "topicId": "top-lan-grund",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "112,5°",
+          "isCorrect": true
+        },
+        {
+          "text": "135°",
+          "isCorrect": false
+        },
+        {
+          "text": "225°",
+          "isCorrect": false
+        },
+        {
+          "text": "90°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Varje sidolanterna lyser över 112,5° – från rakt förut till 22,5° akter om tvärs på sin sida. Två sidolanternor täcker tillsammans samma båge som topplanternan (225°).",
+      "explanationEn": "Each sidelight covers 112.5° – from right ahead to 22.5° abaft the beam on its side. The two sidelights together cover the same arc as the masthead light (225°).",
+      "payload": {
+        "questionSv": "Vilken lysvinkel har en sidolanterna?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:41c / photo_43 + photo_3"
+    },
+    {
+      "id": "lan-grund-021",
+      "topicId": "top-lan-grund",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "360°",
+          "isCorrect": true
+        },
+        {
+          "text": "225°",
+          "isCorrect": false
+        },
+        {
+          "text": "135°",
+          "isCorrect": false
+        },
+        {
+          "text": "112,5°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ankarlanternan är runtlysande och syns därför horisonten runt, 360°. Den ska kunna ses från alla håll av fartyg som närmar sig ankarliggaren.",
+      "explanationEn": "The anchor light is an all-round light visible through 360°. It must be visible from every direction to vessels approaching the anchored boat.",
+      "payload": {
+        "questionSv": "Vilken lysvinkel har en ankarlanterna?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:41d / photo_43 + photo_3"
     }
   ]
 }

@@ -109,6 +109,114 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "16:1 / photo_51 + photo_9"
+    },
+    {
+      "id": "reg-utl-004",
+      "topicId": "top-reg-utland",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Detaljerade hamnkartor samt lokala bestämmelser om t.ex. utmärkning, signaler, tidvatten och trafikregler",
+          "isCorrect": true
+        },
+        {
+          "text": "Endast landets turistbroschyrer och färjetidtabeller",
+          "isCorrect": false
+        },
+        {
+          "text": "Endast väderstatistik för de senaste tio åren",
+          "isCorrect": false
+        },
+        {
+          "text": "Endast förteckningar över landets marinor och bränslepriser",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vid resor till främmande länder behövs utöver sjökorten detaljerade hamnkartor och kunskap om lokala bestämmelser: utmärkning, signaler, tidvatten och trafikregler.",
+      "explanationEn": "When cruising abroad you need, in addition to charts, detailed harbour plans and knowledge of local regulations: buoyage, signals, tides and traffic rules.",
+      "payload": {
+        "questionSv": "Vilka viktiga nautiska uppgifter, utöver sjökortets, kan vara intressanta vid resor till främmande länder?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:7 / photo_45 + photo_5"
+    },
+    {
+      "id": "reg-utl-005",
+      "topicId": "top-reg-utland",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Båtklubbscertifikat/internationellt certifikat eller registreringsbevis, kopia av köpeavtal, VHF-tillstånd och försäkringshandlingar",
+          "isCorrect": true
+        },
+        {
+          "text": "Endast ett mätbrev och ett sjövärdighetsbevis utfärdat av besiktningsman",
+          "isCorrect": false
+        },
+        {
+          "text": "Endast tillsynsbok och fartcertifikat från Transportstyrelsen",
+          "isCorrect": false
+        },
+        {
+          "text": "Endast internationellt körkort och tullens exportdeklaration för båten",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Papper som rör båten: båtklubbscertifikat och/eller internationellt certifikat från båtorganisation, eller registreringsbevis (nationalitetsbevis) för skepp. Kopia av köpeavtal visar äganderätt och att momsen är betald. Dessutom VHF-tillstånd, tillstånd för andra radiosändare och båtens försäkringshandlingar.",
+      "explanationEn": "Boat documents: a boat-club certificate and/or an international certificate from a boating organisation, or registration papers for a ship. A copy of the purchase contract proves ownership and that VAT is paid. Also the VHF licence, licences for other transmitters, and the boat's insurance papers.",
+      "payload": {
+        "questionSv": "Du ska segla utomlands, kanske utanför Schengen och kanske utanför EU. Nämn några papper som du kan behöva som rör båten."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:26a / photo_44 + photo_4"
+    },
+    {
+      "id": "reg-utl-006",
+      "topicId": "top-reg-utland",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Förarintyg/kustskepparintyg och VHF-intyg, försäkringshandlingar, intyg för narkotikaklassade läkemedel, veterinärintyg för husdjur, pass eller id-kort samt visum till vissa länder",
+          "isCorrect": true
+        },
+        {
+          "text": "Endast pass – övriga handlingar krävs aldrig för fritidsbesättningar",
+          "isCorrect": false
+        },
+        {
+          "text": "Sjöfartsbok, mönstringsbevis och läkarintyg för sjöfolk för samtliga ombord",
+          "isCorrect": false
+        },
+        {
+          "text": "Endast vaccinationsintyg och en besättningslista attesterad av hamnkapten",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Papper som rör de ombordvarande: kompetensbevis som förarintyg, kustskepparintyg och VHF-intyg, försäkringshandlingar för besättningen, särskilda intyg för narkotikaklassade läkemedel, veterinärintyg för husdjur, pass eller (inom Schengen) id-kort som visar medborgarskap samt visum till vissa länder.",
+      "explanationEn": "Crew documents: certificates of competence such as the Förarintyg, Kustskepparintyg and VHF certificate, crew insurance papers, certificates for narcotic-classed medicines, veterinary certificates for pets, passports or (within Schengen) national ID cards, and visas for certain countries.",
+      "payload": {
+        "questionSv": "Du ska segla utomlands, kanske utanför Schengen och kanske utanför EU. Nämn några papper som rör de ombordvarande som kan behövas."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:26b / photo_44 + photo_4"
     }
   ]
 }

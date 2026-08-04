@@ -1592,6 +1592,258 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "17:39 / photo_47 + photo_7"
+    },
+    {
+      "id": "buoy-fyr-045",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Snabblixt – ljuset blixtrar kontinuerligt med ungefär 60 blixtar per minut",
+          "isCorrect": true
+        },
+        {
+          "text": "Blixt – en blixt ungefär var tionde sekund",
+          "isCorrect": false
+        },
+        {
+          "text": "Intermittent ljus – lika lång ljus- som mörkertid",
+          "isCorrect": false
+        },
+        {
+          "text": "Långsam blixt – cirka 30 blixtar per minut i grupper om tre",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Q står för quick light, snabblixt: fyren blixtrar kontinuerligt med ungefär 60 blixtar per minut. VQ (very quick) är ännu snabbare, cirka 120 blixtar per minut.",
+      "explanationEn": "Q stands for quick light: the light flashes continuously at about 60 flashes per minute. VQ (very quick) is faster still, about 120 flashes per minute.",
+      "payload": {
+        "questionSv": "Beskriv med ord ljuset hos en fyr vars karaktär i sjökortet betecknas med Q."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:27 / photo_44 + photo_4"
+    },
+    {
+      "id": "buoy-fyr-046",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Lika mycket ljus som mörker – lyser fyra sekunder, mörk fyra sekunder",
+          "isCorrect": true
+        },
+        {
+          "text": "Lyser åtta sekunder och är mörk åtta sekunder",
+          "isCorrect": false
+        },
+        {
+          "text": "Åtta korta blixtar följda av åtta sekunders mörker",
+          "isCorrect": false
+        },
+        {
+          "text": "Mest ljus med en kort förmörkelse var åttonde sekund",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Iso (isophase) betyder lika lång ljus- som mörkertid. Perioden är 8 sekunder: fyren lyser 4 sekunder och är mörk 4 sekunder.",
+      "explanationEn": "Iso (isophase) means equal periods of light and darkness. The period is 8 seconds: the light shows for 4 seconds and is dark for 4 seconds.",
+      "payload": {
+        "questionSv": "Beskriv med ord ljuset hos en fyr vars karaktär betecknas Iso 8s."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:28 / photo_44 + photo_4"
+    },
+    {
+      "id": "buoy-fyr-047",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Åt styrbord",
+          "isCorrect": true
+        },
+        {
+          "text": "Åt babord",
+          "isCorrect": false
+        },
+        {
+          "text": "Rakt fram – gröna sektorn leder också rätt",
+          "isCorrect": false
+        },
+        {
+          "text": "Vänd 180° och gå tillbaka mot fyren",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "På väg FRÅN fyren gäller sektorerna spegelvänt mot när man går mot fyren: kommer du in i grön sektor girar du styrbord för att komma tillbaka till den vita ledsektorn.",
+      "explanationEn": "Heading AWAY from the light the sectors work mirrored compared with approaching it: if the light turns green you alter to starboard to regain the white leading sector.",
+      "payload": {
+        "questionSv": "Du går i en sektorfyrs vita sken på väg från fyren. Plötsligt blir skenet grönt. Åt vilket håll ska du gira för att komma tillbaka till vit sektor?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:37 / photo_44 + photo_4"
+    },
+    {
+      "id": "buoy-fyr-048",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ljus under större delen av perioden, med en grupp om två förmörkelser var tjugonde sekund",
+          "isCorrect": true
+        },
+        {
+          "text": "Två blixtar var tjugonde sekund, annars mörker",
+          "isCorrect": false
+        },
+        {
+          "text": "Lika lång ljus- som mörkertid med 20 sekunders period",
+          "isCorrect": false
+        },
+        {
+          "text": "Kontinuerligt snabblixtrande ljus som bryts var tjugonde sekund",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tjärvens karaktär är en gruppintermittent fyr, Oc(2) 20s: ljuset visas under större delen av perioden men avbryts av en grupp om två förmörkelser var tjugonde sekund.",
+      "explanationEn": "Tjärven has a group-occulting characteristic, Oc(2) 20s: the light shows for most of the period but is interrupted by a group of two eclipses every twenty seconds.",
+      "payload": {
+        "questionSv": "Beskriv hur karaktären för fyren Tjärven ser ut (enligt sjökortet Oc(2) 20s)."
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Karaktärsbeteckningen Oc(2) 20s är härledd ur facits beskrivning – kontrollera mot övningssjökortet.",
+      "sourceRef": "18:38a / photo_44 + photo_3"
+    },
+    {
+      "id": "buoy-fyr-049",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ett intermittent ljus med lika ljus- och mörkertid: lyser 2 sekunder och är mörkt 2 sekunder",
+          "isCorrect": true
+        },
+        {
+          "text": "En blixt varannan sekund, annars mörker",
+          "isCorrect": false
+        },
+        {
+          "text": "Lyser 4 sekunder och är mörkt 4 sekunder",
+          "isCorrect": false
+        },
+        {
+          "text": "Två blixtar i grupp var fjärde sekund",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Landsorts Bredgrund har en Iso-karaktär (isophase) med 4 sekunders period: ljuset lyser 2 sekunder och är mörkt 2 sekunder.",
+      "explanationEn": "Landsorts Bredgrund has an isophase characteristic with a 4-second period: the light shows for 2 seconds and is dark for 2 seconds.",
+      "payload": {
+        "questionSv": "Beskriv hur karaktären för fyren Landsorts Bredgrund ser ut (en Iso-fyr med 4 sekunders period)."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:38b / photo_44 + photo_3"
+    },
+    {
+      "id": "buoy-fyr-050",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Högst 1 sekund, vanligen 0,7 sekunder",
+          "isCorrect": true
+        },
+        {
+          "text": "Minst 2 sekunder",
+          "isCorrect": false
+        },
+        {
+          "text": "Exakt 1,5 sekunder",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 4 sekunder",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En blixt (Flash, Fl) varar högst 1 sekund, vanligen cirka 0,7 sekunder. Det skiljer den från Long Flash som varar minst 2 sekunder.",
+      "explanationEn": "A flash (Fl) lasts at most 1 second, usually about 0.7 seconds. This distinguishes it from a long flash, which lasts at least 2 seconds.",
+      "payload": {
+        "questionSv": "Hur lång tid varar en Flash?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:39 / photo_44 + photo_3"
+    },
+    {
+      "id": "buoy-fyr-051",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Minst 2 sekunder",
+          "isCorrect": true
+        },
+        {
+          "text": "Högst 1 sekund",
+          "isCorrect": false
+        },
+        {
+          "text": "Exakt 1 sekund",
+          "isCorrect": false
+        },
+        {
+          "text": "Minst 5 sekunder",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En Long Flash (LFl) varar minst 2 sekunder. Den används bl.a. i sydmärkets karaktär för att gruppen om sex blixtar ska kunna identifieras säkert.",
+      "explanationEn": "A long flash (LFl) lasts at least 2 seconds. It is used, for example, in the south cardinal characteristic so that the group of six flashes can be identified reliably.",
+      "payload": {
+        "questionSv": "Hur lång tid varar en Long Flash?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:40 / photo_44 + photo_3"
     }
   ]
 }

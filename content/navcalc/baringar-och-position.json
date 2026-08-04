@@ -882,6 +882,78 @@
       "needsReview": true,
       "needsReviewNote": "Kräver övningssjökort 616 för krysspejlingen – facits position använd.",
       "sourceRef": "17:22 / photo_48 + photo_8"
+    },
+    {
+      "id": "nav-bar-025",
+      "topicId": "top-nav-baring",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Latitud 59°06,5′N, longitud 19°12,0′E",
+          "isCorrect": true
+        },
+        {
+          "text": "Latitud 59°12,0′N, longitud 19°06,5′E",
+          "isCorrect": false
+        },
+        {
+          "text": "Latitud 58°56,5′N, longitud 19°21,0′E",
+          "isCorrect": false
+        },
+        {
+          "text": "Latitud 59°16,5′N, longitud 19°02,0′E",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Positionen fås som skärningen mellan den första bäringens ortlinje, framflyttad 5 M längs kursen 215°, och den andra bäringen 318°. Kom ihåg att rätta de pejlade kompassbäringarna för missvisning innan de ritas i sjökortet. Svaret enligt facit: 59°06,5′N, 19°12,0′E.",
+      "explanationEn": "The position is the intersection of the first bearing's line of position, advanced 5 M along the 215° course, with the second bearing 318° (a running fix). Remember to correct the compass bearings for variation before plotting. Answer per the key: 59°06.5′N, 19°12.0′E.",
+      "payload": {
+        "questionSv": "Du pejlar fyren Almagrundet med handpejlkompass i Bm = 250°. Sedan går du på Kurs över grund = 215° i 5 M. Därefter pejlas fyren igen, nu i Bm = 318°. Vilken är din position, i latitud och longitud, vid andra pejltillfället?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort för konstruktionen; distraktorerna är konstruerade. Kontrollera positionen mot sjökort 616.",
+      "sourceRef": "18:19 / photo_45 + photo_5"
+    },
+    {
+      "id": "nav-bar-026",
+      "topicId": "top-nav-baring",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Dålig styrning, felvisning hos logg och kompass samt okänd ström och avdrift",
+          "isCorrect": true
+        },
+        {
+          "text": "Dålig satellittäckning, solstormar och skuggade antenner",
+          "isCorrect": false
+        },
+        {
+          "text": "Felaktiga djupkurvor, gamla sjökort och feltryckta fyrkaraktärer",
+          "isCorrect": false
+        },
+        {
+          "text": "Missvisningens årliga ändring och fel i deviationstabellen enbart",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vid död räkning beräknas positionen ur kurs, fart och tid. Felkällorna är därför dålig styrning, felvisande logg och kompass samt okänd ström och avdrift som för båten ur den beräknade kursen.",
+      "explanationEn": "In dead reckoning the position is computed from course, speed and time. The error sources are therefore poor steering, errors in log and compass, and unknown current and leeway pushing the boat off the computed track.",
+      "payload": {
+        "questionSv": "Nämn några felkällor för en position enligt död räkning."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:20 / photo_45 + photo_4"
     }
   ]
 }

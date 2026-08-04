@@ -444,6 +444,42 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "4:55 / photo_73, photo_31"
+    },
+    {
+      "id": "rad-nav-002",
+      "topicId": "top-radar-navigation",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Gör en undanmanöver i god tid – att det andra fartyget är på min babordssida spelar ingen roll eftersom vi inte ser varandra visuellt (regel 19)",
+          "isCorrect": true
+        },
+        {
+          "text": "Håller kurs och fart – fartyg som närmar sig från babord är väjningsskyldigt",
+          "isCorrect": false
+        },
+        {
+          "text": "Stoppar maskinen och avger mistsignal tills faran är över",
+          "isCorrect": false
+        },
+        {
+          "text": "Girar åt babord mot fartyget för att snabbast öka passageavståndet",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "I nedsatt sikt gäller regel 19, inte de vanliga väjningsreglerna. Eftersom fartygen inte siktat varandra visuellt finns ingen \"håll kurs och fart\"-skyldighet – gör en tydlig undanmanöver i god tid.",
+      "explanationEn": "In restricted visibility Rule 19 applies, not the ordinary steering rules. Since the vessels have not sighted each other visually there is no stand-on obligation – make a clear avoiding manoeuvre in good time.",
+      "payload": {
+        "questionSv": "Du radarnavigerar i tät tjocka. På radarn ser du att ett annat fartyg närmar sig från din babordssida. Risk för kollision föreligger. Vad gör du?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:34 / photo_44 + photo_4"
     }
   ]
 }

@@ -740,6 +740,191 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "17:65 / photo_46 + photo_6"
+    },
+    {
+      "id": "sjo-fort-021",
+      "topicId": "top-sjo-fortojning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Med babords sida – då går aktern in mot bryggan när jag backar",
+          "isCorrect": true
+        },
+        {
+          "text": "Med styrbords sida – då går aktern in mot bryggan när jag backar",
+          "isCorrect": false
+        },
+        {
+          "text": "Med fören först – propellereffekten saknar betydelse vid tilläggning",
+          "isCorrect": false
+        },
+        {
+          "text": "Med styrbords sida – skovelhjulseffekten lyfter då fören mot bryggan",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En högergängad propeller kastar aktern åt babord vid back (skovelhjulseffekten). Lägger du till med babords sida mot bryggan sugs aktern in mot bryggan när du backar för att stanna.",
+      "explanationEn": "A right-handed propeller kicks the stern to port when reversing (prop walk). If you berth port side to, the stern swings in toward the jetty as you go astern to stop.",
+      "payload": {
+        "questionSv": "Du styr en båt med högergängad propeller. När du ska lägga till långsides en brygga – vilken sida föredrar du att lägga till med, med tanke på propellerns skovelhjulseffekt?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:54 / photo_43 + photo_3"
+    },
+    {
+      "id": "sjo-fort-022",
+      "topicId": "top-sjo-fortojning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Med omväxlande korta, kraftiga fram- och backmanövrer, helst styrbordsgir – skovelhjulseffekten hjälper till och rodret läggs fullt för gir vid framväxel",
+          "isCorrect": true
+        },
+        {
+          "text": "Med långsam, jämn framfart i en vid cirkel utan att röra växeln",
+          "isCorrect": false
+        },
+        {
+          "text": "Med babordsgir och konstant back – skovelhjulseffekten drar då runt fören",
+          "isCorrect": false
+        },
+        {
+          "text": "Genom att låta vinden blåsa runt fören medan rodret hålls midskepps",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Man vänder på minsta yta med omväxlande korta, kraftiga fram- och backmanövrer. Med högergängad propeller väljs helst styrbordsgir, för då hjälper skovelhjulseffekten till vid backning. Rodret hålls fullt lagt för giren när framväxeln läggs i.",
+      "explanationEn": "You turn in the smallest space with alternating short bursts ahead and astern. With a right-handed propeller a starboard turn is preferred, since prop walk then helps when reversing. The rudder is kept hard over for the turn when engaging forward gear.",
+      "payload": {
+        "questionSv": "Du är inne i en trång hamn och ska vända mellan ett par bryggor. Båten är en motorbåt med rak axel och roder. Beskriv hur du girar med minsta möjliga radie! Det är stiltje och strömfritt."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:55 / photo_43 + photo_3"
+    },
+    {
+      "id": "sjo-fort-023",
+      "topicId": "top-sjo-fortojning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Kör på spring för att få ut aktern, backa sedan mot vinden och vänd på fritt vatten",
+          "isCorrect": true
+        },
+        {
+          "text": "Lossa alla tampar samtidigt och ge full fart framåt längs kajen",
+          "isCorrect": false
+        },
+        {
+          "text": "Skjut ut fören med båtshaken och driv med vinden ut från kajen",
+          "isCorrect": false
+        },
+        {
+          "text": "Kör på akterspring för att få ut fören och gå sedan rakt fram",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vid pålandsvind trycks båten mot kajen. Genom att köra fram på en förspring viks aktern ut från kajen; sedan backar man ut mot vinden och vänder först när man har fritt vatten.",
+      "explanationEn": "With an onshore wind the boat is pressed onto the quay. Motoring ahead against a fore spring levers the stern out; then you reverse out into the wind and turn only once in open water.",
+      "payload": {
+        "questionSv": "Din båt ligger förtöjd med styrbords sida vid kaj. Det blåser en svag pålandsvind. Föreslå lämplig manöver vid avgång."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:56 / photo_43 + photo_3"
+    },
+    {
+      "id": "sjo-fort-024",
+      "topicId": "top-sjo-fortojning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Fören går åt babord och aktern åt styrbord – tvärtemot en båt med traditionell framdrivning",
+          "isCorrect": true
+        },
+        {
+          "text": "Fören går åt styrbord och aktern åt babord – precis som med roder och propeller",
+          "isCorrect": false
+        },
+        {
+          "text": "Båten rör sig rakt bakåt oavsett rattutslag – jetstrålen styr bara framåt",
+          "isCorrect": false
+        },
+        {
+          "text": "Aktern går åt babord och fören ligger stilla tills farten ökar",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "På en vattenjetbåt riktas jetstrålen om vid backning. När du backar och vrider ratten åt babord går fören åt babord och aktern åt styrbord – tvärtemot en båt med traditionell framdrivning.",
+      "explanationEn": "On a water-jet boat the jet is redirected when reversing. Backing with the wheel to port, the bow goes to port and the stern to starboard – the opposite of a conventionally driven boat.",
+      "payload": {
+        "questionSv": "Om du backar med en båt som har vattenjet och vrider ratten åt babord (moturs) – åt vilket håll går fören respektive aktern?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:57 / photo_43 + photo_3"
+    },
+    {
+      "id": "sjo-fort-025",
+      "topicId": "top-sjo-fortojning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Trossen ska ha svikt – den är lagom lång/tung om en del av trossen hela tiden ligger i vattnet",
+          "isCorrect": true
+        },
+        {
+          "text": "Trossen ska vara så kort och styv som möjligt så att ryckena dämpas i knutarna",
+          "isCorrect": false
+        },
+        {
+          "text": "Trossen ska vara exakt lika lång som den bogserade båten",
+          "isCorrect": false
+        },
+        {
+          "text": "Trossen ska hållas helt spänd över vattenytan under hela bogseringen",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Bogsertrossen måste ha svikt som dämpar rycken i sjögång. Tumregeln: trossen sviktar lagom om den är så lång eller tung att en del av den hela tiden ligger i vattnet.",
+      "explanationEn": "The towline must have spring to absorb shocks in a seaway. Rule of thumb: it has enough spring if it is so long or heavy that part of it always stays in the water.",
+      "payload": {
+        "questionSv": "Ute på en större fjärd har du stött på en båt som behöver bogsering. Det är en blåsig dag med besvärande sjögång. Finns det någon tumregel för hur lång bogsertross som bör användas?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:58 / photo_43 + photo_3"
     }
   ]
 }

@@ -728,6 +728,186 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "17:9 / photo_49 + photo_8"
+    },
+    {
+      "id": "buoy-kard-020",
+      "topicId": "top-buoy-kardinal",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ett mittledsmärke",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett punktmärke",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett specialmärke",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett sydmärke",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Karttecknet med en prick som bär ett runt klotformat toppmärke är ett mittledsmärke. Det visar att det är fritt vatten runt om märket och att farleden går på ömse sidor.",
+      "explanationEn": "The chart symbol showing a spar with a single round ball topmark is a safe-water mark. It indicates navigable water all around, with the fairway passing on either side.",
+      "payload": {
+        "questionSv": "I sjökortet ser du ett karttecken som visar en prick med ett enda runt, klotformat toppmärke. Vad kallas ett sådant märke?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:2a / photo_46 + photo_5"
+    },
+    {
+      "id": "buoy-kard-021",
+      "topicId": "top-buoy-kardinal",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Vitt och rött",
+          "isCorrect": true
+        },
+        {
+          "text": "Gult och svart",
+          "isCorrect": false
+        },
+        {
+          "text": "Rött och grönt",
+          "isCorrect": false
+        },
+        {
+          "text": "Svart och rött",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Mittledsmärket har röda och vita lodräta fält och ett rött klot som toppmärke. Färgsättningen skiljer det från kardinal-, sido- och punktmärken.",
+      "explanationEn": "The safe-water mark is coloured in red and white vertical stripes with a red ball topmark. This colour scheme distinguishes it from cardinal, lateral and isolated-danger marks.",
+      "payload": {
+        "questionSv": "Vilken färgsättning har ett mittledsmärke?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:2b / photo_46 + photo_5"
+    },
+    {
+      "id": "buoy-kard-022",
+      "topicId": "top-buoy-kardinal",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "VQ(6) LFl 10s eller Q(6) LFl 15s",
+          "isCorrect": true
+        },
+        {
+          "text": "VQ(9) 10s eller Q(9) 15s",
+          "isCorrect": false
+        },
+        {
+          "text": "VQ(3) 5s eller Q(3) 10s",
+          "isCorrect": false
+        },
+        {
+          "text": "VQ eller Q, kontinuerligt blixtrande",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Sydmärket blinkar sex snabba blixtar följda av en lång blixt: VQ(6) LFl 10s eller Q(6) LFl 15s. Den långa blixten läggs till för att sexan inte ska förväxlas med andra kardinalmärken.",
+      "explanationEn": "A south cardinal flashes six quick flashes followed by one long flash: VQ(6) LFl 10s or Q(6) LFl 15s. The long flash is added so that the group of six is not confused with other cardinal marks.",
+      "payload": {
+        "questionSv": "Vilken fyrkaraktär har en lysboj som är ett sydmärke?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:3 / photo_46 + photo_5"
+    },
+    {
+      "id": "buoy-kard-023",
+      "topicId": "top-buoy-kardinal",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Gult",
+          "isCorrect": true
+        },
+        {
+          "text": "Vitt",
+          "isCorrect": false
+        },
+        {
+          "text": "Rött",
+          "isCorrect": false
+        },
+        {
+          "text": "Grönt",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Specialmärken är gula och har gult ljus. Vitt ljus används av kardinal-, mittleds- och punktmärken, rött och grönt av sidomärken.",
+      "explanationEn": "Special marks are yellow and show a yellow light. White light is used by cardinal, safe-water and isolated-danger marks; red and green by lateral marks.",
+      "payload": {
+        "questionSv": "Vilken färg är det på ljuset från ett specialmärke?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:4 / photo_45 + photo_5"
+    },
+    {
+      "id": "buoy-kard-024",
+      "topicId": "top-buoy-kardinal",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ett väderstrecksmärke (ostmärke) som står ost om hindret",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett väderstrecksmärke (sydmärke) som står syd om hindret",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett punktmärke placerat direkt på hindret",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett mittledsmärke som markerar mitten av farleden",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tre snabba blixtar – VQ(3) 5s eller Q(3) 10s – är ostmärkets karaktär. Det är ett väderstrecksmärke (kardinalmärke) som står ost om hindret; du ska alltså passera öster om märket.",
+      "explanationEn": "Three quick flashes – VQ(3) 5s or Q(3) 10s – is the east cardinal characteristic. It stands east of the danger, so you should pass on its east side.",
+      "payload": {
+        "questionSv": "Du kommer fram till en lysboj som avger tre snabba blixtar var femte sekund – VQ(3) 5s. Vad för slags märke är det?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:29 / photo_44 + photo_4"
     }
   ]
 }

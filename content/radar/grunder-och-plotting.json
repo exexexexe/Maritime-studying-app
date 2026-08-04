@@ -171,6 +171,114 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "4:54 / photo_73, photo_31"
+    },
+    {
+      "id": "rad-gru-006",
+      "topicId": "top-radar-grund",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Man är skyldig att hålla ständig och noggrann utkik med syn och hörsel och alla andra tillgängliga medel – radarn ersätter inte utkiken",
+          "isCorrect": true
+        },
+        {
+          "text": "Radarutkik ersätter helt den visuella utkiken när sikten är nedsatt",
+          "isCorrect": false
+        },
+        {
+          "text": "Utkiken kan slopas om AIS och radar används samtidigt",
+          "isCorrect": false
+        },
+        {
+          "text": "Utkik krävs bara i farleder och hamnområden, inte till havs",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Regel 5 kräver ständig och noggrann utkik med syn och hörsel samt alla andra tillgängliga och användbara medel – dit hör radarn. Radarn kompletterar alltså utkiken men ersätter den aldrig.",
+      "explanationEn": "Rule 5 requires a constant proper lookout by sight and hearing and all other available means – which includes radar. Radar supplements the lookout but never replaces it.",
+      "payload": {
+        "questionSv": "Du navigerar i dimma med en båt som har radar. Vad säger sjövägsreglerna om utkik?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:33 / photo_44 + photo_4"
+    },
+    {
+      "id": "rad-gru-007",
+      "topicId": "top-radar-grund",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Använda radarreflektor",
+          "isCorrect": true
+        },
+        {
+          "text": "Måla båten i starka signalfärger",
+          "isCorrect": false
+        },
+        {
+          "text": "Sätta upp extra lanternor i masttoppen",
+          "isCorrect": false
+        },
+        {
+          "text": "Sända kontinuerligt på VHF-kanal 16",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Små båtar, särskilt i plast och trä, ger svaga radarekon. En radarreflektor förstärker ekot väsentligt och gör att radarförsedda fartyg lättare upptäcker oss.",
+      "explanationEn": "Small boats, especially fibreglass and wooden ones, return weak radar echoes. A radar reflector strengthens the echo considerably so that radar-equipped ships detect us more easily.",
+      "payload": {
+        "questionSv": "Vad kan vi i små båtar göra för att radarförsedda fartyg lättare ska kunna upptäcka oss?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:35 / photo_44 + photo_4"
+    },
+    {
+      "id": "rad-gru-008",
+      "topicId": "top-radar-grund",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Den ska vara så stor som möjligt, plåtarna ska mötas i 90° vinkel, den ska sitta i \"regnfångarposition\" minst 4 meter upp – mast och våta segel kan ge döda vinklar",
+          "isCorrect": true
+        },
+        {
+          "text": "Den ska vara så liten och lätt som möjligt och monteras horisontellt lägst en meter över däck",
+          "isCorrect": false
+        },
+        {
+          "text": "Plåtarna ska mötas i 45° vinkel och reflektorn ska sitta i masttoppen ovanför lanternorna",
+          "isCorrect": false
+        },
+        {
+          "text": "Den ska målas i radarabsorberande färg och hängas fritt i akterstaget nära vattnet",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En radarreflektor ska vara så stor som möjligt, plåtarna ska mötas i exakt 90° vinkel, och den ska monteras i \"regnfångarposition\" minst 4 meter upp. Tänk på att mast och våta segel kan skärma av och ge döda vinklar.",
+      "explanationEn": "A radar reflector should be as large as possible, its plates must meet at exactly 90°, and it should be mounted in the \"rain-catcher\" position at least 4 metres up. Note that the mast and wet sails can shield it and create blind sectors.",
+      "payload": {
+        "questionSv": "Vad vet du om radarreflektorns konstruktion och montering?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:68 / photo_42 + photo_2"
     }
   ]
 }

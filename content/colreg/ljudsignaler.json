@@ -949,6 +949,300 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "17:38 / photo_47 + photo_7"
+    },
+    {
+      "id": "col-ljud-027",
+      "topicId": "top-col-ljud",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Jag girar babord",
+          "isCorrect": true
+        },
+        {
+          "text": "Jag girar styrbord",
+          "isCorrect": false
+        },
+        {
+          "text": "Mina maskiner går back",
+          "isCorrect": false
+        },
+        {
+          "text": "Jag avser gå om på er styrbordssida",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Två korta ljudsignaler betyder \"jag girar babord\". En kort betyder gir styrbord och tre korta betyder att maskinerna går back.",
+      "explanationEn": "Two short blasts mean \"I am altering course to port\". One short blast means turning to starboard and three short blasts mean engines going astern.",
+      "payload": {
+        "questionSv": "Vad betyder följande signal som ett fartyg avger vid sikte av ett annat: kort–kort (två korta ljud)?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:21a / photo_45 + photo_4"
+    },
+    {
+      "id": "col-ljud-028",
+      "topicId": "top-col-ljud",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Jag önskar gå om på er babordssida",
+          "isCorrect": true
+        },
+        {
+          "text": "Jag önskar gå om på er styrbordssida",
+          "isCorrect": false
+        },
+        {
+          "text": "Jag förstår inte era avsikter – varningssignal",
+          "isCorrect": false
+        },
+        {
+          "text": "Jag går med om er omkörning och håller undan",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Två långa följda av två korta ljud betyder \"jag önskar gå om på er babordssida\". Två långa och EN kort betyder omkörning på styrbordssidan.",
+      "explanationEn": "Two prolonged blasts followed by two short means \"I intend to overtake on your port side\". Two prolonged and ONE short means overtaking on the starboard side.",
+      "payload": {
+        "questionSv": "Vad betyder följande signal som ett fartyg avger vid sikte av ett annat: lång–lång–kort–kort?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:21b / photo_45 + photo_4"
+    },
+    {
+      "id": "col-ljud-029",
+      "topicId": "top-col-ljud",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Lång–kort–kort med mellantider om högst två minuter",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett långt ljud med mellantider om högst två minuter",
+          "isCorrect": false
+        },
+        {
+          "text": "Två långa ljud med mellantider om högst två minuter",
+          "isCorrect": false
+        },
+        {
+          "text": "Klockringning i fem sekunder varje minut",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett fartyg hämmat av sitt djupgående hör till de fartyg som i nedsatt sikt avger lång–kort–kort (en lång och två korta) minst varannan minut. Ett långt ljud avges av maskindrivet fartyg som gör fart.",
+      "explanationEn": "A vessel constrained by her draught belongs to the group that in restricted visibility sounds one prolonged followed by two short blasts at intervals of no more than two minutes. One prolonged blast alone is for a power-driven vessel making way.",
+      "payload": {
+        "questionSv": "Vilken ljudsignal ska en supertanker som är \"hämmad av sitt djupgående\" avge vid tjocka?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:44 / photo_43 + photo_3"
+    },
+    {
+      "id": "col-ljud-030",
+      "topicId": "top-col-ljud",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Maskindrivet fartyg som gör fart genom vattnet",
+          "isCorrect": true
+        },
+        {
+          "text": "Maskindrivet fartyg på väg men utan fart genom vattnet",
+          "isCorrect": false
+        },
+        {
+          "text": "Segelfartyg på väg i nedsatt sikt",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyg till ankars",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett långt ljud minst varannan minut avges i nedsatt sikt av ett maskindrivet fartyg som gör fart genom vattnet. Utan fart genom vattnet avges i stället två långa ljud.",
+      "explanationEn": "One prolonged blast at least every two minutes is sounded in restricted visibility by a power-driven vessel making way through the water. When not making way she sounds two prolonged blasts instead.",
+      "payload": {
+        "questionSv": "Vad betyder ljudsignalen ett långt ljud i nedsatt sikt?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:45a / photo_43 + photo_3"
+    },
+    {
+      "id": "col-ljud-031",
+      "topicId": "top-col-ljud",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Maskindrivet fartyg på väg men utan fart genom vattnet",
+          "isCorrect": true
+        },
+        {
+          "text": "Maskindrivet fartyg som gör fart genom vattnet",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyg som bogserar i nedsatt sikt",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyg på grund i nedsatt sikt",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Två långa ljud minst varannan minut betyder ett maskindrivet fartyg som är på väg (ej förtöjt eller ankrat) men som inte gör fart genom vattnet.",
+      "explanationEn": "Two prolonged blasts at least every two minutes mean a power-driven vessel underway (not moored or anchored) but stopped and making no way through the water.",
+      "payload": {
+        "questionSv": "Vad betyder ljudsignalen två långa ljud i nedsatt sikt?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:45b / photo_43 + photo_3"
+    },
+    {
+      "id": "col-ljud-032",
+      "topicId": "top-col-ljud",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ett fartyg med särskilda begränsningar: ej manöverfärdigt, begränsad manöverförmåga, hämmat av djupgående, segelfartyg, fiskefartyg eller bogserande fartyg",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett maskindrivet fartyg som gör fart genom vattnet i tjocka",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg till ankars som varnar annalkande trafik",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg som önskar gå om ett annat i trång farled",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Lång–kort–kort avges i nedsatt sikt av ej manöverfärdiga fartyg, fartyg med begränsad manöverförmåga, fartyg hämmade av sitt djupgående, segelfartyg, fiskefartyg och fartyg som bogserar.",
+      "explanationEn": "One prolonged plus two short blasts is sounded in restricted visibility by vessels not under command, restricted in ability to manoeuvre, constrained by draught, sailing vessels, fishing vessels and vessels towing.",
+      "payload": {
+        "questionSv": "Vad betyder ljudsignalen lång–kort–kort i nedsatt sikt?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:45c / photo_43 + photo_3"
+    },
+    {
+      "id": "col-ljud-033",
+      "topicId": "top-col-ljud",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Fartyg till ankars (kortare än 100 meter)",
+          "isCorrect": true
+        },
+        {
+          "text": "Fartyg på grund som varnar med gonggong",
+          "isCorrect": false
+        },
+        {
+          "text": "Segelfartyg på väg i tjocka",
+          "isCorrect": false
+        },
+        {
+          "text": "Lotsbåt som söker uppmärksamhet",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Klockringning i nedsatt sikt betyder fartyg till ankars. Fartyg kortare än 100 meter ringer snabbt i cirka fem sekunder minst varje minut.",
+      "explanationEn": "Rapid bell ringing in restricted visibility means a vessel at anchor. Vessels under 100 metres ring rapidly for about five seconds at least every minute.",
+      "payload": {
+        "questionSv": "Vad betyder ljudsignalen klockringning i nedsatt sikt?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:45d / photo_43 + photo_3"
+    },
+    {
+      "id": "col-ljud-034",
+      "topicId": "top-col-ljud",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Lång–kort–kort med mellantider om högst två minuter",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett långt ljud varannan minut",
+          "isCorrect": false
+        },
+        {
+          "text": "Två långa ljud varannan minut",
+          "isCorrect": false
+        },
+        {
+          "text": "Klockringning varje minut",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett segelfartyg på väg avger i tjocka lång–kort–kort med mellantider om minst varannan minut – samma signal som bl.a. fiskefartyg och ej manöverfärdiga fartyg.",
+      "explanationEn": "A sailing vessel underway sounds one prolonged plus two short blasts in fog, at intervals of no more than two minutes – the same signal as fishing vessels and vessels not under command, among others.",
+      "payload": {
+        "questionSv": "Du befinner dig på en 13 meter lång segelbåt. Vilka ljudsignaler ska ni avge i tjocka?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:46 / photo_43 + photo_3"
     }
   ]
 }

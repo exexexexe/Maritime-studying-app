@@ -1321,6 +1321,227 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "17:56 / photo_46 + photo_6"
+    },
+    {
+      "id": "saf-omb-037",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Att tunga och lösa föremål är surrade: spis, batterier, radio, verktyg, bränsledunkar, gasoltuber, ankare, spinnakerbommar, böcker och navigeringsutrustning",
+          "isCorrect": true
+        },
+        {
+          "text": "Att seglen är rätt vikta och att fendrar och tampar ligger prydligt i stuvfacken",
+          "isCorrect": false
+        },
+        {
+          "text": "Att färskvattentanken är full och att proviant för minst en vecka finns ombord",
+          "isCorrect": false
+        },
+        {
+          "text": "Att alla kojer är bäddade och att durkarna är rengjorda före avgång",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Före en öppen havssträcka kontrolleras särskilt att tunga och lösa föremål inte kan komma i drift i sjögång: spis, batterier, radio, verktyg, bränsledunkar, gasoltuber, ankare, spinnakerbommar, böcker och navigeringsutrustning ska vara ordentligt sjöstuvat.",
+      "explanationEn": "Before an open-sea passage you check especially that heavy and loose items cannot break free in a seaway: stove, batteries, radio, tools, fuel cans, gas bottles, anchors, spinnaker poles, books and navigation equipment must be properly secured.",
+      "payload": {
+        "questionSv": "Du har hyrt en båt och ska gå över till Gotland. Före avfärd kontrollerar du att allt är ordentligt sjöstuvat. Vad tittar du särskilt noga på?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:60 / photo_43 + photo_3"
+    },
+    {
+      "id": "saf-omb-038",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Kväver branden med ett tättslutande lock",
+          "isCorrect": true
+        },
+        {
+          "text": "Häller vatten över stekpannan",
+          "isCorrect": false
+        },
+        {
+          "text": "Bär ut den brinnande stekpannan i sittbrunnen",
+          "isCorrect": false
+        },
+        {
+          "text": "Blåser ut lågorna och sänker värmen",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Brinnande stekflott kvävs med ett tättslutande lock som stänger ute syret. Vatten får aldrig användas – det förångas explosionsartat och sprider det brinnande fettet.",
+      "explanationEn": "Burning cooking fat is smothered with a tight-fitting lid that cuts off the oxygen. Never use water – it vaporises explosively and spreads the burning fat.",
+      "payload": {
+        "questionSv": "Det tar eld i stekflottet i en stekpanna. Hur släcker du?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:62 / photo_43 + photo_3"
+    },
+    {
+      "id": "saf-omb-039",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Pulver- eller vattensläckare",
+          "isCorrect": true
+        },
+        {
+          "text": "Endast koldioxidsläckare",
+          "isCorrect": false
+        },
+        {
+          "text": "Endast skumsläckare",
+          "isCorrect": false
+        },
+        {
+          "text": "Halonsläckare",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Brand i trä och textilier (A-brand) bekämpas med pulver eller vatten. Pulver är standard ombord; vatten fungerar bra på fibrösa material som glöder.",
+      "explanationEn": "Fires in wood and textiles (class A) are fought with powder or water. Powder is the standard extinguisher on board; water works well on smouldering fibrous materials.",
+      "payload": {
+        "questionSv": "Med vilken typ av handbrandsläckare bekämpar du en brand i trä och textilier?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:63 / photo_43 + photo_3"
+    },
+    {
+      "id": "saf-omb-040",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Pulversläckare",
+          "isCorrect": true
+        },
+        {
+          "text": "Vattensläckare",
+          "isCorrect": false
+        },
+        {
+          "text": "Våt filt och hink med sjövatten",
+          "isCorrect": false
+        },
+        {
+          "text": "Endast sand och skyffel",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Brand i olja eller bensin (B-brand) bekämpas med pulversläckare. Vatten är direkt farligt – det brinnande bränslet flyter ovanpå och branden sprids.",
+      "explanationEn": "Fires in oil or petrol (class B) are fought with a powder extinguisher. Water is dangerous – the burning fuel floats on top and the fire spreads.",
+      "payload": {
+        "questionSv": "Med vilken typ av handbrandsläckare bekämpar du en brand i olja eller bensin?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:64 / photo_42 + photo_2"
+    },
+    {
+      "id": "saf-omb-041",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Länsa för bara riggen, eventuellt med linor eller annat släpande efter båten, eller ligga bi för bara riggen",
+          "isCorrect": true
+        },
+        {
+          "text": "Ankra på öppet vatten och ta ner masten för att minska vindfånget",
+          "isCorrect": false
+        },
+        {
+          "text": "Sätta fullt storsegel och pressa båten mot närmaste hamn",
+          "isCorrect": false
+        },
+        {
+          "text": "Ställa båten med sidan mot sjön och stänga alla luckor",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Två principiella metoder att rida ut en storm med liten segelbåt är att länsa för bara riggen – gärna med linor eller annat släpande efter båten som bromsar – eller att ligga bi för bara riggen.",
+      "explanationEn": "Two classic ways to ride out a storm in a small sailing boat are to run downwind under bare poles – preferably towing warps to slow the boat – or to lie a-hull/heave to under bare poles.",
+      "payload": {
+        "questionSv": "I en segelbåt mitt på Skagerrak råkar du ut för en halv storm. Nämn ett par principiella metoder att rida ut en storm med liten segelbåt."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:65 / photo_42 + photo_2"
+    },
+    {
+      "id": "saf-omb-042",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Höga fotlister, grabbräcken, mantåg och pulpit, halkskydd samt livselar med bra fästpunkter",
+          "isCorrect": true
+        },
+        {
+          "text": "Bred badstege, lejdare i fören, räddningsflotte och EPIRB",
+          "isCorrect": false
+        },
+        {
+          "text": "Radarreflektor, AIS-transponder, strålkastare och signalpistol",
+          "isCorrect": false
+        },
+        {
+          "text": "Dubbla länspumpar, brandsläckare, nödroder och drivankare",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Fallöverbord förebyggs med höga fotlister, grabbräcken, mantåg och pulpit, halkskydd på däck samt livselar med bra fästpunkter så att besättningen kan kroka fast sig.",
+      "explanationEn": "Falls overboard are prevented by high toe rails, grab rails, guard wires and pulpits, non-slip deck surfaces, and safety harnesses with strong attachment points so the crew can clip on.",
+      "payload": {
+        "questionSv": "Beskriv utrustningsdetaljer på en havskryssare som förebygger fall överbord."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:67 / photo_42 + photo_2"
     }
   ]
 }

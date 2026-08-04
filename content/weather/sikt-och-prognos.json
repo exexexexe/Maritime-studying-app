@@ -435,6 +435,43 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "9:14 / photo_63 + photo_21"
+    },
+    {
+      "id": "wx-sikt-013",
+      "topicId": "top-weather-sikt",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Läsidorna – sikten är ofta bättre där, man slipper sjögång, och stöter man på grund sker det lindrigare än på en lovartssida",
+          "isCorrect": true
+        },
+        {
+          "text": "Lovartssidorna – dimman skingras alltid först där vinden ligger på",
+          "isCorrect": false
+        },
+        {
+          "text": "Det spelar ingen roll – dimman är lika tät på båda sidor av öarna",
+          "isCorrect": false
+        },
+        {
+          "text": "Lovartssidorna – där är sjögången mindre och ankringen säkrare",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Läsidorna är att föredra: sikten är ofta bättre där, man slipper sjögång och där är det bättre att ankra. Går man trots allt på grund är det dessutom lindrigare i lä än på en lovartssida där sjön pressar båten mot grundet.",
+      "explanationEn": "The lee sides are preferable: visibility is often better there, you avoid the swell, and anchoring is easier. Even if you do run aground, it is less serious in the lee than on a windward shore where the sea presses the boat onto the rocks.",
+      "payload": {
+        "questionSv": "Dimman kommer in från havet. Du kan välja en säker väg inne i skärgården. Föredrar du att gå på öarnas lovarts- eller läsidor? Motivera!"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:51 / photo_43 + photo_3"
     }
   ]
 }

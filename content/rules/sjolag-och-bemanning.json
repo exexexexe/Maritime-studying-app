@@ -72,6 +72,474 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "11:39 / photo_54, photo_12"
+    },
+    {
+      "id": "reg-lag-003",
+      "topicId": "top-reg-sjolag",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Fartyg är allt som kan användas för transport till sjöss; skepp är fartyg med längd minst 12 meter och bredd minst 4 meter; båt är fartyg under de måtten",
+          "isCorrect": true
+        },
+        {
+          "text": "Fartyg är allt över 12 meter; skepp är fartyg i yrkestrafik; båt är alla fritidsfarkoster",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyg är maskindrivna farkoster; skepp är fartyg med längd minst 24 meter; båt är allt under 24 meter",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyg är registrerade farkoster; skepp är fartyg med brutto över 100; båt är fartyg med brutto under 100",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Fartyg är allt som kan användas för transport till sjöss. Ett skepp är ett fartyg med en längd av minst 12 meter och en bredd av minst 4 meter. En båt är ett fartyg med längd under 12 meter eller bredd under 4 meter.",
+      "explanationEn": "A \"fartyg\" (vessel) is anything usable for transport at sea. A \"skepp\" (ship) is a vessel at least 12 metres long and at least 4 metres wide. A \"båt\" (boat) is a vessel below either of those dimensions.",
+      "payload": {
+        "questionSv": "Definiera vad som menas med fartyg, skepp respektive båt."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:69 / photo_42 + photo_2"
+    },
+    {
+      "id": "reg-lag-004",
+      "topicId": "top-reg-sjolag",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Hos Transportstyrelsen i Norrköping",
+          "isCorrect": true
+        },
+        {
+          "text": "Hos Sjöfartsverket i Göteborg",
+          "isCorrect": false
+        },
+        {
+          "text": "Hos Kustbevakningen i Karlskrona",
+          "isCorrect": false
+        },
+        {
+          "text": "Hos Skatteverket i Stockholm",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Skeppsregistret (fartygsregistret) förs av Transportstyrelsen i Norrköping. Där registreras skepp och där kan skepp intecknas.",
+      "explanationEn": "The Swedish ship register is kept by the Transport Agency (Transportstyrelsen) in Norrköping. Ships are registered there and mortgages on ships are recorded there.",
+      "payload": {
+        "questionSv": "Var förs Skeppsregistret?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:70 / photo_42 + photo_2"
+    },
+    {
+      "id": "reg-lag-005",
+      "topicId": "top-reg-sjolag",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Sjölagen kräver registrering inom en månad; registreringen skyddar vid tvist med säljarens fordringsägare, ger nationalitetscertifikat och gör att skeppet kan intecknas",
+          "isCorrect": true
+        },
+        {
+          "text": "Registreringen är frivillig men ger rabatt på båtförsäkringen och fri hamnplats i hemkommunen",
+          "isCorrect": false
+        },
+        {
+          "text": "Registreringen krävs bara om skeppet ska hyras ut och ger då rätt till statligt sjöfartsstöd",
+          "isCorrect": false
+        },
+        {
+          "text": "Registreringen behövs enbart för att få föra svensk flagg vid utlandsfärd",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Skepp ska enligt sjölagen registreras inom en månad. Registreringen är en fördel vid eventuell tvist med säljarens fordringsägare, man får ett nationalitetscertifikat som bekräftar nationaliteten, och ett registrerat skepp kan intecknas.",
+      "explanationEn": "Under the Maritime Code a ship must be registered within one month. Registration protects you in disputes with the seller's creditors, provides a certificate of nationality, and allows the ship to be mortgaged.",
+      "payload": {
+        "questionSv": "Du köper ett skepp. Varför ska du registrera det?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:71 / photo_42 + photo_2"
+    },
+    {
+      "id": "reg-lag-006",
+      "topicId": "top-reg-sjolag",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Högst 12 passagerare, utöver rimlig besättning",
+          "isCorrect": true
+        },
+        {
+          "text": "Högst 6 passagerare, utöver rimlig besättning",
+          "isCorrect": false
+        },
+        {
+          "text": "Högst 20 passagerare om alla har flytväst",
+          "isCorrect": false
+        },
+        {
+          "text": "Obegränsat antal eftersom resan är gratis",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Utan att båten klassas som passagerarfartyg får högst 12 passagerare tas med, utöver rimlig besättning. Gränsen gäller även när skjutsen är gratis.",
+      "explanationEn": "Without the boat being classed as a passenger ship you may carry at most 12 passengers, in addition to a reasonable crew. The limit applies even when the trip is free of charge.",
+      "payload": {
+        "questionSv": "Båtklubben ska ha fest. Gratis ställer du upp för att skjutsa folk till klubbholmen. Hur många passagerare får du ta?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:72 / photo_42 + photo_2"
+    },
+    {
+      "id": "reg-lag-007",
+      "topicId": "top-reg-sjolag",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Redaren är skyldig att ersätta skador som båtens besättning orsakar; har redaren betalat har han rätt att kräva tillbaka av den som vållat skadan",
+          "isCorrect": true
+        },
+        {
+          "text": "Redaren ansvarar endast för skador som han själv personligen orsakar ombord",
+          "isCorrect": false
+        },
+        {
+          "text": "Redaren ansvarar bara för skador på den egna båten, aldrig mot tredje man",
+          "isCorrect": false
+        },
+        {
+          "text": "Redaren är fri från ansvar så snart båten är försäkrad",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Redaransvaret innebär att redaren är skyldig att ersätta skador som båtens besättning orsakar i tjänsten. Har redaren betalat skadestånd har han regressrätt, dvs. rätt att kräva tillbaka av den som vållat skadan.",
+      "explanationEn": "Shipowner's liability means the owner must compensate damage caused by the vessel's crew in service. If the owner has paid damages he has a right of recourse against the person who caused the damage.",
+      "payload": {
+        "questionSv": "Vad innebär redaransvaret?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:73 / photo_42 + photo_2"
+    },
+    {
+      "id": "reg-lag-008",
+      "topicId": "top-reg-sjolag",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Att fartyget är sjövärdigt, utrustat mot ohälsa och olycksfall, betryggande bemannat, tillräckligt provianterat och utrustat samt lastat eller barlastat på säkert sätt",
+          "isCorrect": true
+        },
+        {
+          "text": "Att fartyget är nymålat, tullklarerat och försett med gällande gästhamnsdekal",
+          "isCorrect": false
+        },
+        {
+          "text": "Att besättningen har giltiga läkarintyg och att fartyget har uppdaterade sjökortsrättelser",
+          "isCorrect": false
+        },
+        {
+          "text": "Att försäkringen är betald och att fartyget är registrerat i fartygsregistret",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Befälhavaren ska enligt sjölagen före avfärd kontrollera att fartyget är sjövärdigt, utrustat med erforderliga anordningar för förebyggande av ohälsa och olycksfall, betryggande bemannat, tillräckligt provianterat och utrustat samt lastat eller barlastat på säkert sätt.",
+      "explanationEn": "Under the Maritime Code the master must check before departure that the vessel is seaworthy, equipped to prevent ill health and accidents, adequately manned, sufficiently provisioned and equipped, and safely loaded or ballasted.",
+      "payload": {
+        "questionSv": "Vad ska befälhavaren enligt Sjölagen kontrollera före avfärd?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:74 / photo_42 + photo_2"
+    },
+    {
+      "id": "reg-lag-009",
+      "topicId": "top-reg-sjolag",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Att lämna det andra fartyget och dess ombordvarande all behövlig och möjlig hjälp, såvitt det kan ske utan allvarlig fara för det egna fartyget, samt uppge namn, hemort, senaste hamn och destination",
+          "isCorrect": true
+        },
+        {
+          "text": "Att omedelbart lämna platsen och rapportera händelsen till försäkringsbolaget inom en vecka",
+          "isCorrect": false
+        },
+        {
+          "text": "Att endast kalla på sjöräddningen – befälhavarna får inte ingripa själva av försäkringsskäl",
+          "isCorrect": false
+        },
+        {
+          "text": "Att bärga det andra fartygets last innan någon annan åtgärd vidtas",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Efter en kollision ska båda befälhavarna lämna det andra fartyget och dess ombordvarande all behövlig och möjlig hjälp för räddning ur faran, såvitt det kan ske utan allvarlig fara för det egna fartyget och de ombordvarande. Dessutom ska uppgifter lämnas om det egna fartygets namn och hemort samt senaste hamn och destination.",
+      "explanationEn": "After a collision both masters must render the other vessel and those on board all necessary and possible assistance, as far as it can be done without serious danger to their own vessel and crew. They must also state their own vessel's name and home port, last port and destination.",
+      "payload": {
+        "questionSv": "Ett par fartyg kolliderar. Vilka skyldigheter åligger de båda befälhavarna?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:75 / photo_42 + photo_2"
+    },
+    {
+      "id": "reg-lag-010",
+      "topicId": "top-reg-sjolag",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Nej – fartygssäkerhetslagen kräver att en resa som fordrar mer än tolv timmars oavbruten gång har så stor besättning att den kan delas in i behövliga vakter",
+          "isCorrect": true
+        },
+        {
+          "text": "Ja – för fritidsfartyg finns inga bemanningsregler oavsett resans längd",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja – så länge båten har autopilot och AIS får man segla ensam hur långt som helst",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej – ensamsegling är förbjuden på allt vatten utanför svensk territorialgräns",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Nej. Fartygssäkerhetslagen säger att varje fartyg ska vara bemannat på betryggande sätt. En resa som kräver mer än tolv timmars oavbruten gång fordrar så stor besättning att den kan delas in i det antal vakter som behövs – ensamsegling non-stop Kiel–Göteborg uppfyller inte det.",
+      "explanationEn": "No. The Ship Safety Act requires every vessel to be adequately manned. A voyage requiring more than twelve hours of continuous passage must have a crew large enough to be divided into the necessary watches – single-handed non-stop Kiel–Gothenburg does not meet that.",
+      "payload": {
+        "questionSv": "Får du segla ensam, non-stop, från Kiel till Göteborg?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:76 / photo_42 + photo_2"
+    },
+    {
+      "id": "reg-lag-011",
+      "topicId": "top-reg-sjolag",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Fritidsfartyg med större brutto än 100",
+          "isCorrect": true
+        },
+        {
+          "text": "Alla fritidsfartyg längre än 12 meter",
+          "isCorrect": false
+        },
+        {
+          "text": "Alla fritidsskepp oavsett storlek",
+          "isCorrect": false
+        },
+        {
+          "text": "Fritidsfartyg som hyrs ut i näringsverksamhet",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tillsynsbok krävs för fritidsfartyg med ett brutto över 100. Sådana fartyg står under tillsyn och besiktigas, och resultaten förs in i tillsynsboken.",
+      "explanationEn": "A survey book (tillsynsbok) is required for pleasure vessels with a gross tonnage above 100. Such vessels are subject to inspection, and the results are entered in the book.",
+      "payload": {
+        "questionSv": "Vilka fritidsfartyg ska ha tillsynsbok?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:77 / photo_42 + photo_2"
+    },
+    {
+      "id": "reg-lag-012",
+      "topicId": "top-reg-sjolag",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ett volymmått som beskriver båtens storlek",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett viktmått som anger båtens deplacement i ton",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett mått på hur mycket last fartyget får ta",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett mått på skrovets längd gånger bredden i meter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Brutto (bruttodräktighet) är ett dimensionslöst volymmått som beskriver fartygets totala inneslutna storlek – inte vikt eller lastförmåga.",
+      "explanationEn": "Gross tonnage is a dimensionless volume measure describing the total enclosed size of the vessel – not its weight or cargo capacity.",
+      "payload": {
+        "questionSv": "Vad menas med ett fartygs brutto?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:78 / photo_42 + photo_2"
+    },
+    {
+      "id": "reg-lag-013",
+      "topicId": "top-reg-sjolag",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Fritidsfartyg med ett brutto över 100",
+          "isCorrect": true
+        },
+        {
+          "text": "Fritidsfartyg med ett brutto över 20",
+          "isCorrect": false
+        },
+        {
+          "text": "Alla fritidsskepp, dvs. minst 12 × 4 meter",
+          "isCorrect": false
+        },
+        {
+          "text": "Alla fritidsfartyg som går i internationell trafik",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Fartcertifikat krävs för fritidsfartyg med ett brutto över 100 – samma gräns som för kravet på tillsynsbok.",
+      "explanationEn": "A trading/operating certificate (fartcertifikat) is required for pleasure vessels with a gross tonnage above 100 – the same threshold as for the survey book.",
+      "payload": {
+        "questionSv": "För vilka fritidsfartyg krävs fartcertifikat?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:79 / photo_42 + photo_2"
+    },
+    {
+      "id": "reg-lag-014",
+      "topicId": "top-reg-sjolag",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Fritidsbåtar och fritidsskepp",
+          "isCorrect": true
+        },
+        {
+          "text": "Endast fritidsbåtar under 12 meter",
+          "isCorrect": false
+        },
+        {
+          "text": "Alla fartyg upp till 24 meter, även i yrkestrafik",
+          "isCorrect": false
+        },
+        {
+          "text": "Fritidsbåtar samt passagerarfartyg med högst 12 passagerare",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Med kustskepparintyg har du rätt att föra fritidsbåtar och fritidsskepp. Intyget krävs för fritidsskepp (minst 12 × 4 meter); för yrkestrafik krävs andra behörigheter.",
+      "explanationEn": "The Kustskepparintyg entitles you to command pleasure boats and pleasure ships. It is required for pleasure ships (at least 12 × 4 metres); commercial traffic requires other qualifications.",
+      "payload": {
+        "questionSv": "Vilka fartyg har du rätt att framföra med kustskepparintyg?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:80 / photo_42 + photo_2"
+    },
+    {
+      "id": "reg-lag-015",
+      "topicId": "top-reg-sjolag",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ja – sjölagen gäller även fritidsbåtar",
+          "isCorrect": true
+        },
+        {
+          "text": "Nej – sjölagen gäller bara handelsfartyg",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej – fritidsbåtar regleras enbart av sjötrafikförordningen",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja – men bara för fritidsbåtar längre än 12 meter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ja, sjölagen gäller även för fritidsbåtar. Bland annat reglerna om befälhavarens ansvar och skyldigheter omfattar alla fartyg, stora som små.",
+      "explanationEn": "Yes, the Maritime Code also applies to pleasure boats. For instance the rules on the master's responsibilities cover all vessels, large and small.",
+      "payload": {
+        "questionSv": "Gäller sjölagen för fritidsbåtar?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:82 / photo_42 + photo_2"
     }
   ]
 }

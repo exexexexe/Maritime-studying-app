@@ -731,6 +731,228 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "17:36 / photo_47 + photo_7"
+    },
+    {
+      "id": "wx-sys-021",
+      "topicId": "top-weather-system",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Från cirka 14 meter per sekund",
+          "isCorrect": true
+        },
+        {
+          "text": "Från cirka 8 meter per sekund",
+          "isCorrect": false
+        },
+        {
+          "text": "Från cirka 21 meter per sekund",
+          "isCorrect": false
+        },
+        {
+          "text": "Från cirka 25 meter per sekund",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Kuling räknas från cirka 14 m/s. Under det talar man om frisk till hård vind; från cirka 24,5 m/s talar man om storm.",
+      "explanationEn": "In Swedish terminology a gale (kuling) starts at about 14 m/s. Below that it is fresh to near-gale winds; from about 24.5 m/s it is called storm.",
+      "payload": {
+        "questionSv": "Ungefär från vilken vindhastighet talar man om kuling?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:47 / photo_43 + photo_3"
+    },
+    {
+      "id": "wx-sys-022",
+      "topicId": "top-weather-system",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Kring väst eller sydväst",
+          "isCorrect": true
+        },
+        {
+          "text": "Kring ost eller nordost",
+          "isCorrect": false
+        },
+        {
+          "text": "Kring nord eller nordväst",
+          "isCorrect": false
+        },
+        {
+          "text": "Kring syd eller sydost",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vinden blåser moturs runt ett lågtryck på norra halvklotet. Söder om lågtryckscentrumet blir vindriktningen därför västlig till sydvästlig.",
+      "explanationEn": "Wind circulates anticlockwise around a low on the northern hemisphere. South of the centre the wind is therefore westerly to south-westerly.",
+      "payload": {
+        "questionSv": "Vilken vindriktning kan man räkna med söder om ett lågtryckscentrum?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:48 / photo_43 + photo_3"
+    },
+    {
+      "id": "wx-sys-023",
+      "topicId": "top-weather-system",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Kuling, cirka 17–21 m/s",
+          "isCorrect": true
+        },
+        {
+          "text": "Frisk vind, cirka 8–11 m/s",
+          "isCorrect": false
+        },
+        {
+          "text": "Storm, cirka 25–28 m/s",
+          "isCorrect": false
+        },
+        {
+          "text": "Hård vind, cirka 11–14 m/s",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Beaufort force 8 motsvarar i svenska benämningar kuling med vindhastigheter kring 17–21 m/s.",
+      "explanationEn": "Beaufort force 8 corresponds in Swedish terms to a gale (kuling), with wind speeds of about 17–21 m/s.",
+      "payload": {
+        "questionSv": "Du hör en utländsk väderprognos på VHF. Den anger vindstyrkan \"force 8\". Vilken vindhastighet motsvarar det enligt de svenska benämningarna?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:49 / photo_43 + photo_3"
+    },
+    {
+      "id": "wx-sys-024",
+      "topicId": "top-weather-system",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Blåsigt väder med risk för kuling",
+          "isCorrect": true
+        },
+        {
+          "text": "Snabbt avtagande vind och lugnt väder",
+          "isCorrect": false
+        },
+        {
+          "text": "Långvarigt högtrycksväder med svaga vindar",
+          "isCorrect": false
+        },
+        {
+          "text": "Dimma och stiltje under det närmaste dygnet",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Snabbt stigande lufttryck efter ett lågtryck tyder på stora tryckskillnader och därmed blåsigt väder – risk för kuling. Ett stabilt lugnt väder kräver långsam tryckändring.",
+      "explanationEn": "Rapidly rising pressure after a low indicates steep pressure gradients and thus windy weather – gale risk. Calm settled weather requires slow pressure change.",
+      "payload": {
+        "questionSv": "Ett lågtryck har passerat. Barometern stiger hastigt med 3 hektopascal i timmen. Vad kan du förvänta dig för vindhastighet?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:50 / photo_43 + photo_3"
+    },
+    {
+      "id": "wx-sys-025",
+      "topicId": "top-weather-system",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Den börjar kring ost och vrider under dagen mot syd",
+          "isCorrect": true
+        },
+        {
+          "text": "Den börjar kring väst och vrider under dagen mot nord",
+          "isCorrect": false
+        },
+        {
+          "text": "Den blåser hela dagen stadigt från nordost",
+          "isCorrect": false
+        },
+        {
+          "text": "Den börjar kring syd och vrider under dagen mot ost",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Sjöbrisen utmed svenska ostkusten börjar kring ost (vinden drar in från havet mot det uppvärmda landet) och vrider under dagen mot syd.",
+      "explanationEn": "The sea breeze along the Swedish east coast starts around east (air flowing in from the sea toward the heated land) and veers toward south during the day.",
+      "payload": {
+        "questionSv": "Beskriv sjöbrisens uppträdande utmed svenska ostkusten."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:52 / photo_43 + photo_3"
+    },
+    {
+      "id": "wx-sys-026",
+      "topicId": "top-weather-system",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Regnskurar med åska och hagel, byig vind, dramatisk uppklarning och vindkantring efter fronten",
+          "isCorrect": true
+        },
+        {
+          "text": "Långsamt tilltagande mulet väder med ihållande regn i många timmar",
+          "isCorrect": false
+        },
+        {
+          "text": "Stiltje, dis och långsamt stigande temperatur",
+          "isCorrect": false
+        },
+        {
+          "text": "Klart väder med svag vind som sakta vrider mot ost",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En utpräglad kallfront ger regnskurar, ofta med åska och hagel, byig vind, en dramatisk uppklarning när fronten passerat och en tydlig vindkantring efter fronten.",
+      "explanationEn": "A pronounced cold front brings showers, often with thunder and hail, gusty winds, a dramatic clearing once the front has passed, and a marked wind shift behind it.",
+      "payload": {
+        "questionSv": "Vilket väder kan man vänta sig vid en utpräglad kallfront?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:53 / photo_43 + photo_3"
     }
   ]
 }

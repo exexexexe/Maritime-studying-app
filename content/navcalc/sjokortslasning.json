@@ -3251,6 +3251,330 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "17:23 / photo_48 + photo_8"
+    },
+    {
+      "id": "nav-sjo-089",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "En VHF-radioanmälningspunkt – här anmäler man sig på angiven kanal (12)",
+          "isCorrect": true
+        },
+        {
+          "text": "En fartbegränsning på 12 knop i farleden",
+          "isCorrect": false
+        },
+        {
+          "text": "Farledens nummer i farledsförteckningen",
+          "isCorrect": false
+        },
+        {
+          "text": "En punkt där vattendjupet är 12 meter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vimpelsymbolen med en siffra i sjökortet markerar en radioanmälningspunkt: passerande fartyg ska anmäla sig på angiven VHF-kanal, här kanal 12.",
+      "explanationEn": "The pennant symbol with a number on the chart marks a radio reporting point: passing vessels must report on the indicated VHF channel, here channel 12.",
+      "payload": {
+        "questionSv": "I sjökortet ser du en vimpelliknande symbol med siffran 12 i. Vad betyder symbolen?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:1a / photo_46 + photo_5"
+    },
+    {
+      "id": "nav-sjo-090",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "En marina (småbåtshamn med service)",
+          "isCorrect": true
+        },
+        {
+          "text": "En fiskehamn",
+          "isCorrect": false
+        },
+        {
+          "text": "En sjöräddningsstation",
+          "isCorrect": false
+        },
+        {
+          "text": "En ankarplats för handelsfartyg",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Symbolen med en liten segelbåt i sjökortet betecknar en marina, alltså en småbåtshamn där fritidsbåtar kan förtöja och ofta få service.",
+      "explanationEn": "The small sailing-boat symbol on the chart denotes a marina, i.e. a small-craft harbour where leisure boats can moor and often find services.",
+      "payload": {
+        "questionSv": "I sjökortet ser du en symbol i form av en liten segelbåt. Vad betyder symbolen?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:1b / photo_46 + photo_5"
+    },
+    {
+      "id": "nav-sjo-091",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Att märket är försett med radarreflektor",
+          "isCorrect": true
+        },
+        {
+          "text": "Att märket är en radarfyr (racon)",
+          "isCorrect": false
+        },
+        {
+          "text": "Att märket har ett toppmärke",
+          "isCorrect": false
+        },
+        {
+          "text": "Att märket är försett med ljusreflexer",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Den lilla taggiga symbolen ovanpå ett sjömärke i sjökortet betyder att märket bär en radarreflektor, som ger tydligare eko på radarskärmen.",
+      "explanationEn": "The small jagged symbol on top of a mark on the chart means the mark carries a radar reflector, which returns a stronger echo on a radar screen.",
+      "payload": {
+        "questionSv": "I sjökortet ser du en liten taggig symbol placerad ovanpå ett sjömärke. Vad betyder symbolen?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:1c / photo_46 + photo_5"
+    },
+    {
+      "id": "nav-sjo-092",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Plats till sjöss där lots möter",
+          "isCorrect": true
+        },
+        {
+          "text": "Område där ankring är förbjuden",
+          "isCorrect": false
+        },
+        {
+          "text": "Mötesplats för fartyg i enkelriktad farled",
+          "isCorrect": false
+        },
+        {
+          "text": "Punkt där undervattenskabel korsar farleden",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Symbolen (en cirkel med en liggande linsform) i sjökortet markerar lotsmötesplatsen – den plats till sjöss där lotsen bordar fartyget.",
+      "explanationEn": "This chart symbol (a circle with a lens shape) marks the pilot boarding place – the position at sea where the pilot boards the ship.",
+      "payload": {
+        "questionSv": "I sjökortet ser du en cirkelformad symbol med en linsformad figur i. Vad betyder symbolen?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:1d / photo_46 + photo_5"
+    },
+    {
+      "id": "nav-sjo-093",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Territorialgränsen",
+          "isCorrect": true
+        },
+        {
+          "text": "Riksgränsen mot grannland",
+          "isCorrect": false
+        },
+        {
+          "text": "Gränsen för fiskezon",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett kabel- och ledningsstråk",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Linjen med mönstret ++−++−++− i sjökortet visar territorialgränsen, dvs. gränsen för Sveriges territorialhav.",
+      "explanationEn": "The line with the ++-++-++- pattern on the chart shows the territorial limit, i.e. the boundary of Sweden's territorial sea.",
+      "payload": {
+        "questionSv": "I sjökortet ser du en linje med mönstret ++−++−++−. Vad betecknar linjen?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:1e / photo_46 + photo_5"
+    },
+    {
+      "id": "nav-sjo-094",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Lera (bottenbeskaffenhet)",
+          "isCorrect": true
+        },
+        {
+          "text": "Grus (bottenbeskaffenhet)",
+          "isCorrect": false
+        },
+        {
+          "text": "Sten (bottenbeskaffenhet)",
+          "isCorrect": false
+        },
+        {
+          "text": "Korall (bottenbeskaffenhet)",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Förkortningen Cy (engelskans clay) i sjökortet anger att botten består av lera – bra att veta t.ex. vid val av ankarplats.",
+      "explanationEn": "The abbreviation Cy (clay) on the chart indicates a clay seabed – useful to know, for example when choosing an anchorage.",
+      "payload": {
+        "questionSv": "I sjökortet ser du förkortningen \"Cy\". Vad betyder den?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:1f / photo_46 + photo_5"
+    },
+    {
+      "id": "nav-sjo-095",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Framför allt på internet samt i privat utgivna beskrivningar, t.ex. hamnguider och båtsportkort",
+          "isCorrect": true
+        },
+        {
+          "text": "Endast i sjökortets kanttext och titelfält",
+          "isCorrect": false
+        },
+        {
+          "text": "Endast hos Kustbevakningens regionala kontor",
+          "isCorrect": false
+        },
+        {
+          "text": "Endast i fartygens obligatoriska tillsynsböcker",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Utöver sjökortet hittar man kompletterande nautiska uppgifter framför allt på internet och i privat utgivna beskrivningar som hamnguider och seglingsbeskrivningar.",
+      "explanationEn": "Beyond the chart itself, complementary nautical information is found mainly on the internet and in privately published guides such as harbour pilots and cruising guides.",
+      "payload": {
+        "questionSv": "Du planerar en resa utmed svenska kusten. Var kan du hitta nautiska uppgifter som kompletterar sjökorten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:5 / photo_45 + photo_5"
+    },
+    {
+      "id": "nav-sjo-096",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Underrättelser för sjöfarande (Ufs)",
+          "isCorrect": true
+        },
+        {
+          "text": "Svensk lots",
+          "isCorrect": false
+        },
+        {
+          "text": "Kort 1",
+          "isCorrect": false
+        },
+        {
+          "text": "Fyrlistan",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Underrättelser för sjöfarande (Ufs) motsvarar närmast brittiska Notices to Mariners. Ufs är mer detaljerad i svenska hemmavatten men mer översiktlig i avlägsna farvatten.",
+      "explanationEn": "Underrättelser för sjöfarande (Ufs) is the closest Swedish equivalent of the British Notices to Mariners. It is more detailed for Swedish home waters but less detailed for distant waters.",
+      "payload": {
+        "questionSv": "Vilken svensk publikation motsvarar närmast brittiska admiralitetets Notices to Mariners?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:6 / photo_45 + photo_5"
+    },
+    {
+      "id": "nav-sjo-097",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Tillverkaren kan ha omformat eller förenklat kartografin, och plotterns menyinställningar kan dölja viss information",
+          "isCorrect": true
+        },
+        {
+          "text": "E-sjökortet saknar alltid djupkurvor och fyrkaraktärer",
+          "isCorrect": false
+        },
+        {
+          "text": "Positionen i ett e-sjökort är alltid förskjuten en halv distansminut",
+          "isCorrect": false
+        },
+        {
+          "text": "E-sjökort kan inte visa uppdateringar som gjorts efter tryckdatum",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "E-kortstillverkaren kan ha omformat, förenklat eller ändrat kartografin jämfört med papperskortet, och anpassningen till plotterns programvara kan ge fel. Dessutom kan menyinställningar av misstag dölja viss information på skärmen.",
+      "explanationEn": "The electronic chart producer may have reformatted, simplified or altered the cartography compared with the paper chart, and adaptation to the plotter software can introduce errors. Menu settings may also unintentionally hide information on screen.",
+      "payload": {
+        "questionSv": "Vilka extra felkällor kan ett vektoriserat e-sjökort i en plotter tänkas innehålla i jämförelse med motsvarande papperskort?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:13 / photo_45 + photo_5"
     }
   ]
 }

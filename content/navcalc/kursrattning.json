@@ -1570,6 +1570,78 @@
       "needsReview": true,
       "needsReviewNote": "Kräver övningssjökort 616 för grundkursen 243° – facits beräkning 243° + 5° = 248° använd.",
       "sourceRef": "17:21 / photo_48 + photo_8"
+    },
+    {
+      "id": "nav-kurs-046",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "041°",
+          "isCorrect": true
+        },
+        {
+          "text": "057°",
+          "isCorrect": false
+        },
+        {
+          "text": "049°",
+          "isCorrect": false
+        },
+        {
+          "text": "037°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Kurs genom vattnet Kgv 049°. Avdriften 5° för NV vind dras ifrån (vinden trycker båten åt SO): 049° − 5° = 044° rättvisande kurs K. Dra av ostlig missvisning 5°: Km = 039°. Deviationen enligt tabellen är −2°, alltså kompasskurs Kk = 039° + 2° = 041°.",
+      "explanationEn": "Course through the water Kgv 049°. Subtract 5° leeway for the NW wind: 049° − 5° = 044° true course K. Subtract easterly variation 5°: Km = 039°. The deviation table gives −2°, so compass course Kk = 039° + 2° = 041°.",
+      "payload": {
+        "questionSv": "Du vill segla från Almagrundets fyr till fyren Svenska Björn. Kursen uppmätt i sjökortet är 049°. Missvisning 5° ost, deviation enligt deviationstabell (−2° på aktuell kurs), avdrift 5° för NV vind. Vilken kompasskurs ska styras?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:15 / photo_45 + photo_5"
+    },
+    {
+      "id": "nav-kurs-047",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "050°",
+          "isCorrect": true
+        },
+        {
+          "text": "034°",
+          "isCorrect": false
+        },
+        {
+          "text": "042°",
+          "isCorrect": false
+        },
+        {
+          "text": "046°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Kompasskurs Kk 042°. Deviation −2° ger magnetisk kurs Km 040°. Missvisning +5° ost ger rättvisande kurs K 045°. Avdriften 5° från babord läggs till: kurs genom vattnet Kgv 050°. Ingen ström (0) ger kurs över grund Kög 050°.",
+      "explanationEn": "Compass course Kk 042°. Deviation −2° gives magnetic course Km 040°. Adding easterly variation +5° gives true course K 045°. Adding 5° leeway (wind from port) gives course through the water Kgv 050°. With no current, course over ground Kög is 050°.",
+      "payload": {
+        "questionSv": "Du ligger på kryss med din segelbåt och håller kompasskurs 42°. Vinden kommer från babord och avdriften uppskattas till 5°. Missvisning 5° ost. Deviation enligt deviationstabellen är −2°. Ingen ström. Vilken kurs över grund kan ritas in i sjökortet?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:16 / photo_45 + photo_5"
     }
   ]
 }

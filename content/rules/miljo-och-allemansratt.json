@@ -555,6 +555,43 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "17:61 / photo_46 + photo_6"
+    },
+    {
+      "id": "reg-miljo-016",
+      "topicId": "top-reg-miljo",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Nej – utsläpp av olja är förbjudet; spilloljan lämnas till mottagningsstation i land",
+          "isCorrect": true
+        },
+        {
+          "text": "Ja – mängder under fem liter får släppas ut utanför territorialgränsen",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja – om oljan blandas ut med diskmedel så att den löses upp",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej – utom när båten befinner sig mer än 12 M från land",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Nej. Östersjön är ett specialområde där alla oljeutsläpp är förbjudna. Spillolja ska lämnas till mottagningsanläggning i hamn.",
+      "explanationEn": "No. The Baltic Sea is a special area where all oil discharges are prohibited. Waste oil must be delivered to a reception facility ashore.",
+      "payload": {
+        "questionSv": "Du har en liter spillolja ombord. Får du pumpa ut den i Östersjön?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:81 / photo_42 + photo_2"
     }
   ]
 }

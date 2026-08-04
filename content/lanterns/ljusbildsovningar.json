@@ -2242,6 +2242,255 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "10:17 panel 36 / photo_57"
+    },
+    {
+      "id": "lan-bild-037",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "En bogsering sedd snett akterifrån",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett fiskefartyg med redskap ute, sett förifrån",
+          "isCorrect": false
+        },
+        {
+          "text": "En muddringsplats med flera ankarliggare",
+          "isCorrect": false
+        },
+        {
+          "text": "En lotsbåt i tjänst med följebåtar",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Det gula ljuset är bogserarens bogserlanterna som sitter över dess akterlanterna. De vita ljusen är akterlanternor från bogseraren och släpen – alltså en bogsering sedd snett akterifrån.",
+      "explanationEn": "The yellow light is the tug's towing light carried above its stern light. The white lights are stern lights of the tug and the tow – a towing operation seen obliquely from astern.",
+      "payload": {
+        "questionSv": "På en fjärd ser du dessa lanternor: ett gult ljus över ett vitt, samt ytterligare tre vita ljus i rad. Vad är det fråga om?",
+        "scene": {
+          "lights": [
+            {
+              "color": "yellow",
+              "x": 18,
+              "y": 16
+            },
+            {
+              "color": "white",
+              "x": 18,
+              "y": 30
+            },
+            {
+              "color": "white",
+              "x": 40,
+              "y": 32
+            },
+            {
+              "color": "white",
+              "x": 58,
+              "y": 32
+            },
+            {
+              "color": "white",
+              "x": 76,
+              "y": 32
+            }
+          ],
+          "captionSv": "Gult ljus över vitt, därtill tre vita ljus i rad"
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:23 / photo_44 + photo_4"
+    },
+    {
+      "id": "lan-bild-038",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett fartyg med begränsad manöverförmåga som inte gör fart genom vattnet – jag kan fortsätta om avståndet är rimligt",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett fartyg på grund – jag måste omedelbart stanna och ankra",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett ej manöverfärdigt fartyg som gör fart – jag måste väja åt styrbord",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett minröjningsfartyg – jag måste hålla minst 1 000 meters avstånd",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Rött–vitt–rött i lodrät linje visar ett fartyg med begränsad manöverförmåga (arbetar med något). Eftersom inga andra lanternor än dessa tre syns gör fartyget inte fart genom vattnet, och på rimligt avstånd kan du fortsätta.",
+      "explanationEn": "Red–white–red in a vertical line marks a vessel restricted in her ability to manoeuvre (working). Since no other lights are shown, she is not making way through the water, and at a reasonable distance you can carry on.",
+      "payload": {
+        "questionSv": "Från din 8 meter långa motorbåt ser du 45° om babord dessa lanternor: rött över vitt över rött i lodrät linje. Din åtgärd?",
+        "scene": {
+          "lights": [
+            {
+              "color": "red",
+              "x": 50,
+              "y": 16
+            },
+            {
+              "color": "white",
+              "x": 50,
+              "y": 26
+            },
+            {
+              "color": "red",
+              "x": 50,
+              "y": 36
+            }
+          ],
+          "captionSv": "Rött, vitt och rött ljus i lodrät linje – inga andra ljus syns"
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:24 / photo_44 + photo_4"
+    },
+    {
+      "id": "lan-bild-039",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "En trålare – jag girar eller stoppar för att passera på säkert avstånd",
+          "isCorrect": true
+        },
+        {
+          "text": "En lotsbåt i tjänst – jag håller kurs och fart",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett ankarliggande fartyg – jag kan passera nära utan åtgärd",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg på grund – jag stoppar omedelbart och ankrar",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Grönt över vitt runtlysande ljus visar ett fartyg som trålar; den gröna sidolanternan visar att du ser dess styrbordssida. En motorbåt ska väja för fartyg som fiskar – gira eller stoppa och passera på säkert avstånd.",
+      "explanationEn": "Green over white all-round lights mark a vessel engaged in trawling; the green sidelight shows you see her starboard side. A motorboat must keep clear of vessels fishing – alter course or stop and pass at a safe distance.",
+      "payload": {
+        "questionSv": "Du är skeppare på en 10 meter lång motorbåt. Till havs på natten möter du en båt som syns 20° om babord med stadig bäring. Den visar grönt ljus över vitt, samt ett grönt sidoljus. Vad är det för fartyg och vad gör du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "green",
+              "x": 58,
+              "y": 16
+            },
+            {
+              "color": "white",
+              "x": 55,
+              "y": 24
+            },
+            {
+              "color": "green",
+              "x": 42,
+              "y": 34
+            }
+          ],
+          "captionSv": "Grönt över vitt runtlysande ljus samt grön sidolanterna"
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:31c / photo_44 + photo_4"
+    },
+    {
+      "id": "lan-bild-040",
+      "topicId": "top-lan-bilder",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ett stort fartyg hämmat av sitt djupgående – jag girar babord eller stoppar",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett ej manöverfärdigt fartyg – jag girar styrbord och möter det på dess babordssida",
+          "isCorrect": false
+        },
+        {
+          "text": "En bogsering över 200 meter – jag håller kurs och fart",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fiskefartyg med redskap ute – jag passerar tätt akter om det",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tre röda runtlysande ljus i lodrät linje visar ett fartyg hämmat av sitt djupgående; två topplanternor visar att det är över 50 meter. Sådana fartyg kan inte väja – du girar babord eller stoppar och lämnar fri väg.",
+      "explanationEn": "Three all-round red lights in a vertical line mark a vessel constrained by her draught; two masthead lights show she is over 50 metres. Such vessels cannot give way – you turn to port or stop to keep clear.",
+      "payload": {
+        "questionSv": "Du är skeppare på en 10 meter lång motorbåt. Till havs på natten möter du en båt 45° om babord. Den visar tre röda ljus i lodrät linje, två vita topplanternor och ett grönt sidoljus. Vad är det för fartyg och vad gör du?",
+        "scene": {
+          "lights": [
+            {
+              "color": "red",
+              "x": 30,
+              "y": 16
+            },
+            {
+              "color": "red",
+              "x": 30,
+              "y": 24
+            },
+            {
+              "color": "red",
+              "x": 30,
+              "y": 32
+            },
+            {
+              "color": "white",
+              "x": 48,
+              "y": 14
+            },
+            {
+              "color": "white",
+              "x": 66,
+              "y": 24
+            },
+            {
+              "color": "green",
+              "x": 55,
+              "y": 36
+            }
+          ],
+          "captionSv": "Tre röda ljus lodrätt, två vita topplanternor och grön sidolanterna"
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "18:31d / photo_44 + photo_4"
     }
   ]
 }
