@@ -102,6 +102,60 @@ bara i rätt svar, och rätt svar återanvänder frågans formulering:
   **endast lokal referens** — upphovsrättsskyddat, får inte paketeras i appen
   eller pushas till repot.
 
+## Fysiska sjökortsfrågor (`map_question`)
+
+Vissa provrelevanta frågor kräver ett riktigt sjökort på papper och riktiga
+plottinstrument (transportör, passare) för att lösas — precis som på det
+riktiga provet, där kortarbetet sker på papper. Referenskorten är **SE61**
+och **SE93** (standardiserade svenska övningssjökort).
+
+**Upphovsrätt — följ exakt:** Sjökortsbilden i sig får **aldrig** paketeras,
+scannas, beskäras eller på annat sätt återges i appen eller pushas till
+repot — SE61/SE93 är upphovsrättsskyddade Sjöfartsverket-publikationer,
+samma riskkategori som kursbokstexten (som redan hanteras genom
+omskrivning till egna formuleringar). Att referera till ett korts egna
+tryckta beteckningar — ett fyrnamn, en punkts nummer, en djupsiffra — som
+vanlig text i en fråga är däremot en saklig hänvisning och helt okej, på
+samma sätt som att nämna ett verkligt landmärke vid namn är okej.
+
+**Struktur** — `map_question` har ingen `payload`; frågetexten ligger i
+`instructions` på toppnivå, och `options` är tom (`[]`) om `answerMode` är
+`"numeric_tolerance"`:
+
+```json
+{
+  "type": "map_question",
+  "chartRef": { "chart": "SE61", "edition": null },
+  "instructions": "Bestäm bäringen från fyren vid X till bojen vid Y.",
+  "answerMode": "numeric_tolerance",
+  "answer": { "kind": "bearing", "expected": 134, "unit": "degrees", "tolerance": 2 },
+  "options": []
+}
+```
+
+- **`answerMode: "numeric_tolerance"`** — fritt siffersvar med tolerans.
+  `answer.kind` styr både inmatningsformuläret och den enhet som visas:
+  `bearing` (grader), `distance` (nautiska mil), `depth` (meter) tar ett
+  enda tal i `answer.expected` + `answer.tolerance`; `position` tar
+  `answer.expected: {lat, lon}` i decimalgrader och en `answer.tolerance`
+  i meter (avstånd mellan svaret och rätt position, storcirkel).
+  Bäringssvar hanterar 0°/360°-gränsen korrekt (359° och 2° ligger 3° ifrån
+  varandra, inte 357°) — inget särskilt att tänka på vid författandet.
+- **`answerMode: "mcq"`** — vanlig flervalsfråga, samma regler som alla
+  andra `options`-baserade frågetyper (exakt ett rätt svar, tre
+  distraktorer). Välj det här läget när flera rimliga diskreta svar gör
+  sig bättre pedagogiskt än ett exakt tal (t.ex. "vilken typ av märke är
+  detta").
+- Skriv `instructions` så att en elev med kortet i handen och ingen annan
+  kontext kan lösa uppgiften — referera kortets egna tryckta
+  beteckningar/nummer för de punkter frågan gäller.
+- `check:content` validerar `chartRef.chart` (måste vara `SE61`/`SE93`),
+  att `instructions` finns, och att `answer`-formen matchar `answer.kind`.
+
+**Bannern.** `ChartRequiredBanner` (samma komponent i drill- och
+provläget) visas automatiskt före frågan för varje `map_question` — inget
+extra att koppla in per skärm.
+
 ## Spårmärkning
 
 Märk varje fråga med de spår där den faktiskt ingår i kunskapskraven:

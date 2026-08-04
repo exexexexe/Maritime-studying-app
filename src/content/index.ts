@@ -55,6 +55,7 @@ const TOPIC_FILES: TopicFile[] = [
   require('../../content/colreg/vajningsscenarier.json'),
   require('../../content/navcalc/praktisk-sjokortsnavigering.json'),
   require('../../content/buoyage/sjomarken-bilder.json'),
+  require('../../content/navcalc/fysiskt-sjokort.json'),
 ];
 
 export const modules: ModuleDef[] = [...modulesJson.modules].sort(

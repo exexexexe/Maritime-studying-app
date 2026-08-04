@@ -1,0 +1,114 @@
+{
+  "topicId": "top-nav-fysiskt-sjokort",
+  "items": [
+    {
+      "id": "nav-chart-001",
+      "topicId": "top-nav-fysiskt-sjokort",
+      "tracks": ["klass8"],
+      "type": "map_question",
+      "chartRef": { "chart": "SE61", "edition": null },
+      "instructions": "Bestäm bäringen från fyren vid punkt A till prickmärket vid punkt B.",
+      "answerMode": "numeric_tolerance",
+      "answer": { "kind": "bearing", "expected": 134, "unit": "degrees", "tolerance": 3 },
+      "options": [],
+      "explanationSv": "Lägg transportören längs linjen mellan A och B, rikta in linjalens gradskala mot sjökortets meridianer (nordriktningen) och läs av kursen i grader. Räkna med någon graders mätfel.",
+      "explanationEn": "Lay the course plotter along the line between A and B, align its scale with the chart's meridians, and read the bearing in degrees.",
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "PLATSHÅLLARFRÅGA — punkter, bäring och toleransvärde är påhittade exempel, inte hämtade från ett verkligt SE61. Måste ersättas med riktiga utmärkta punkter och uppmätt bäring innan authorReviewed sätts till true."
+    },
+    {
+      "id": "nav-chart-002",
+      "topicId": "top-nav-fysiskt-sjokort",
+      "tracks": ["klass8"],
+      "type": "map_question",
+      "chartRef": { "chart": "SE61", "edition": null },
+      "instructions": "Mät avståndet längs farleden från prickmärket vid punkt C till fyren vid punkt D, med hjälp av breddgradsskalan.",
+      "answerMode": "numeric_tolerance",
+      "answer": { "kind": "distance", "expected": 3.4, "unit": "nm", "tolerance": 0.3 },
+      "options": [],
+      "explanationSv": "Ta avståndet mellan C och D med passaren och för över det till sjökortets breddgradsskala i kortets sidled — en bågminut breddgrad motsvarar en distansminut (M).",
+      "explanationEn": "Take the distance between C and D with dividers and transfer it to the chart's latitude scale — one minute of latitude equals one nautical mile.",
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "PLATSHÅLLARFRÅGA — punkter och avstånd är påhittade exempel, inte hämtade från ett verkligt SE61. Måste ersättas innan authorReviewed sätts till true."
+    },
+    {
+      "id": "nav-chart-003",
+      "topicId": "top-nav-fysiskt-sjokort",
+      "tracks": ["klass8"],
+      "type": "map_question",
+      "chartRef": { "chart": "SE93", "edition": null },
+      "instructions": "Två bäringslinjer är inritade på kortet, märkta E och F. Bestäm din position i deras skärningspunkt (bredd- och longitud, decimalgrader).",
+      "answerMode": "numeric_tolerance",
+      "answer": {
+        "kind": "position",
+        "expected": { "lat": 59.2, "lon": 18.1 },
+        "unit": "meters",
+        "tolerance": 300
+      },
+      "options": [],
+      "explanationSv": "En kryssbäring ger positionen där de två bäringslinjerna E och F skär varandra. Läs av bredd och longitud direkt i sjökortets kantskalor vid skärningspunkten.",
+      "explanationEn": "A cross bearing fixes your position where the two bearing lines intersect — read latitude and longitude off the chart's edge scales at that point.",
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "PLATSHÅLLARFRÅGA — bäringslinjerna och positionen är ett påhittat exempel, inte hämtat från ett verkligt SE93. Måste ersättas innan authorReviewed sätts till true."
+    },
+    {
+      "id": "nav-chart-004",
+      "topicId": "top-nav-fysiskt-sjokort",
+      "tracks": ["klass8"],
+      "type": "map_question",
+      "chartRef": { "chart": "SE93", "edition": null },
+      "instructions": "Läs av det streckade djupet (i meter) vid punkten markerad G.",
+      "answerMode": "numeric_tolerance",
+      "answer": { "kind": "depth", "expected": 12, "unit": "meters", "tolerance": 1 },
+      "options": [],
+      "explanationSv": "Djupsiffrorna i sjökortet anges i meter vid normalt medelvattenstånd (kortets djupdatum) — läs av siffran som står vid eller närmast punkten G.",
+      "explanationEn": "Depth figures on the chart are given in meters at chart datum — read the figure at or nearest point G.",
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "PLATSHÅLLARFRÅGA — djupvärdet är ett påhittat exempel, inte hämtat från ett verkligt SE93. Måste ersättas innan authorReviewed sätts till true."
+    },
+    {
+      "id": "nav-chart-005",
+      "topicId": "top-nav-fysiskt-sjokort",
+      "tracks": ["klass8"],
+      "type": "map_question",
+      "chartRef": { "chart": "SE61", "edition": null },
+      "instructions": "Vilken typ av sjömärke är utplacerat vid punkt H på kortet?",
+      "answerMode": "mcq",
+      "options": [
+        { "text": "Ett styrbords sidomärke (konformad topprad, grön eller röd stav)", "isCorrect": true },
+        { "text": "Ett kardinalmärke med två koner bas mot bas", "isCorrect": false },
+        { "text": "Ett specialmärke med gul X-formad toppbild", "isCorrect": false },
+        { "text": "Ett säkert-vatten-märke med röd sfärisk toppbild", "isCorrect": false }
+      ],
+      "explanationSv": "Symbolen vid H på kortet visar märkets form och topptecken direkt — jämför med sjökortets symbolförklaring (sjökortsblad 1 eller kortets egen legend) för att avgöra märkestypen.",
+      "explanationEn": "The symbol at H shows the mark's shape and topmark directly — compare against the chart's symbol key to determine the mark type.",
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "PLATSHÅLLARFRÅGA — punkten H och märkestypen är ett påhittat exempel, inte hämtat från ett verkligt SE61. Måste ersättas innan authorReviewed sätts till true."
+    },
+    {
+      "id": "nav-chart-006",
+      "topicId": "top-nav-fysiskt-sjokort",
+      "tracks": ["klass8"],
+      "type": "map_question",
+      "chartRef": { "chart": "SE93", "edition": null },
+      "instructions": "Vilken kurs bör du välja för att undvika grundet markerat vid punkt I och samtidigt hålla dig i den utmärkta farleden?",
+      "answerMode": "mcq",
+      "options": [
+        { "text": "Följ farledens prickar och håll grundet om babord", "isCorrect": true },
+        { "text": "Gå rakt över grundet vid lågvatten för att spara tid", "isCorrect": false },
+        { "text": "Lämna farleden och gå utanför alla utmärkta märken", "isCorrect": false },
+        { "text": "Håll grundet om styrbord, tvärtemot farledens märken", "isCorrect": false }
+      ],
+      "explanationSv": "Utmärkningen visar farledens säkra sida av grundet — följ sidomärkena i rätt ordning enligt IALA-systemet för det aktuella området, i stället för att gena över det streckade/grunda partiet.",
+      "explanationEn": "The buoyage marks the safe side of the danger — follow the lateral marks in the correct order for the region rather than cutting across the shallow area.",
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "PLATSHÅLLARFRÅGA — punkten I och farledsbeskrivningen är ett påhittat exempel, inte hämtat från ett verkligt SE93. Måste ersättas innan authorReviewed sätts till true."
+    }
+  ]
+}
