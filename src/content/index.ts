@@ -84,6 +84,10 @@ export function itemsForModule(moduleId: string, track: Track): Item[] {
   return allItems.filter((i) => topicIds.has(i.topicId) && i.tracks.includes(track));
 }
 
+export function itemsForTopic(topicId: string, track: Track): Item[] {
+  return allItems.filter((i) => i.topicId === topicId && i.tracks.includes(track));
+}
+
 export function itemsForTrack(track: Track): Item[] {
   return allItems.filter((i) => i.tracks.includes(track));
 }

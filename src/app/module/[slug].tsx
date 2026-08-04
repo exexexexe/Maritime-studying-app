@@ -4,7 +4,7 @@ import { Pressable, ScrollView, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { moduleBySlug, topicsForModule } from '@/content';
-import { moduleProgress } from '@/srs/session';
+import { moduleProgress, topicProgress } from '@/srs/session';
 import { useTrack } from '@/state/track-context';
 
 export default function ModuleScreen() {
@@ -14,6 +14,14 @@ export default function ModuleScreen() {
   const [progress] = useState(() =>
     module ? moduleProgress(module.id, track, Date.now()) : null,
   );
+  const [topics] = useState(() => {
+    if (!module) return [];
+    const now = Date.now();
+    return topicsForModule(module.id).map((t) => ({
+      topic: t,
+      progress: topicProgress(t.id, track, now),
+    }));
+  });
 
   if (!module || !progress) {
     return (
@@ -61,11 +69,28 @@ export default function ModuleScreen() {
           <Text className="text-caption font-mono text-fog uppercase tracking-widest mb-3">
             Ämnen
           </Text>
-          {topicsForModule(module.id).map((t) => (
-            <Text key={t.id} className="text-body font-sans text-ink py-1.5">
-              {t.titleSv}
-            </Text>
-          ))}
+          {topics.map(({ topic: t, progress: tp }) => {
+            const tDrillable = tp.due + tp.unseen > 0;
+            return (
+              <Link
+                key={t.id}
+                href={{ pathname: '/drill/[slug]', params: { slug: module.slug, topic: t.id } }}
+                asChild
+              >
+                <Pressable
+                  disabled={!tDrillable}
+                  className={`flex-row items-center justify-between rounded-xl border border-fog/15 px-4 py-3.5 mb-2 ${
+                    tDrillable ? 'bg-surface active:opacity-80' : 'opacity-50'
+                  }`}
+                >
+                  <Text className="text-body font-sans text-ink flex-1 pr-3">{t.titleSv}</Text>
+                  <Text className="text-caption font-mono text-fog">
+                    {tDrillable ? (tp.due > 0 ? `${tp.due} att repetera` : `${tp.unseen} nya`) : 'Klart'}
+                  </Text>
+                </Pressable>
+              </Link>
+            );
+          })}
         </View>
 
         <View className="flex-1" />
@@ -73,7 +98,9 @@ export default function ModuleScreen() {
         {drillable ? (
           <Link href={{ pathname: '/drill/[slug]', params: { slug: module.slug } }} asChild>
             <Pressable className="bg-brass rounded-xl py-4 items-center active:opacity-90">
-              <Text className="text-body font-sans-semibold text-bg">Starta drillpass</Text>
+              <Text className="text-body font-sans-semibold text-bg">
+                Starta drillpass (hela modulen)
+              </Text>
             </Pressable>
           </Link>
         ) : (

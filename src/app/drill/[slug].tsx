@@ -14,20 +14,25 @@ import { contentImages } from '@/content/images';
 import type { BuoyScene, LanternScene, Option, StabilityScene } from '@/content/types';
 import { recordAnswer } from '@/db/reviews';
 import { attemptSeed, seededShuffle } from '@/lib/shuffle';
-import { buildSession } from '@/srs/session';
+import { buildSession, buildTopicSession } from '@/srs/session';
 import { markActivity } from '@/state/activity';
 import { useTrack } from '@/state/track-context';
 
 export default function DrillScreen() {
-  const { slug } = useLocalSearchParams<{ slug: string }>();
+  const { slug, topic } = useLocalSearchParams<{ slug: string; topic?: string }>();
   const { track } = useTrack();
 
   // Session is fixed at mount; attemptKey seeds this attempt's option order.
   const [session] = useState(() => {
     const module = moduleBySlug(slug);
+    const items = module
+      ? topic
+        ? buildTopicSession(topic, track, Date.now())
+        : buildSession(module.id, track, Date.now())
+      : [];
     return {
       module,
-      items: module ? buildSession(module.id, track, Date.now()) : [],
+      items,
       attemptKey: Date.now(),
     };
   });
