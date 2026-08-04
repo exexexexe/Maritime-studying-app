@@ -4,87 +4,766 @@
     {
       "id": "col-ljud-001",
       "topicId": "top-col-ljud",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "Jag ändrar min kurs åt styrbord", "isCorrect": true },
-        { "text": "Jag ändrar min kurs åt babord", "isCorrect": false },
-        { "text": "Jag arbetar med backslag", "isCorrect": false },
-        { "text": "Jag avser att passera på din styrbordssida", "isCorrect": false }
+        {
+          "text": "Jag ändrar min kurs åt styrbord",
+          "isCorrect": true
+        },
+        {
+          "text": "Jag ändrar min kurs åt babord",
+          "isCorrect": false
+        },
+        {
+          "text": "Jag arbetar med backslag",
+          "isCorrect": false
+        },
+        {
+          "text": "Jag avser att passera på din styrbordssida",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "En kort stöt betyder ”jag ändrar min kurs åt styrbord”. Två korta betyder babord, tre korta betyder att maskinerna arbetar back.",
       "explanationEn": "One short blast: altering course to starboard. Two short: to port. Three short: engines astern.",
       "theoryAnchor": "colreg/ljudsignaler",
       "authorReviewed": false,
-      "payload": { "questionSv": "Vad betyder en kort ljudstöt från ett maskindrivet fartyg?" }
+      "payload": {
+        "questionSv": "Vad betyder en kort ljudstöt från ett maskindrivet fartyg?"
+      }
     },
     {
       "id": "col-ljud-002",
       "topicId": "top-col-ljud",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "Jag arbetar med backslag", "isCorrect": true },
-        { "text": "Jag ändrar min kurs åt babord", "isCorrect": false },
-        { "text": "Fara — jag förstår inte dina avsikter", "isCorrect": false },
-        { "text": "Jag begär att få passera i trång farled", "isCorrect": false }
+        {
+          "text": "Jag arbetar med backslag",
+          "isCorrect": true
+        },
+        {
+          "text": "Jag ändrar min kurs åt babord",
+          "isCorrect": false
+        },
+        {
+          "text": "Fara — jag förstår inte dina avsikter",
+          "isCorrect": false
+        },
+        {
+          "text": "Jag begär att få passera i trång farled",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Tre korta stötar betyder att fartygets framdrivningsmaskineri arbetar back. Tveksamhetssignalen (”jag förstår inte dina avsikter”) är minst fem korta, snabba stötar.",
       "explanationEn": "Three short blasts: operating astern propulsion. Doubt/danger is at least five short rapid blasts.",
       "theoryAnchor": "colreg/ljudsignaler",
       "authorReviewed": false,
-      "payload": { "questionSv": "Vad betyder tre korta ljudstötar?" }
+      "payload": {
+        "questionSv": "Vad betyder tre korta ljudstötar?"
+      }
     },
     {
       "id": "col-ljud-003",
       "topicId": "top-col-ljud",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "Minst fem korta och snabba stötar", "isCorrect": true },
-        { "text": "En lång stöt följd av en kort", "isCorrect": false },
-        { "text": "Två långa stötar med kort mellanrum", "isCorrect": false },
-        { "text": "Fyra korta stötar i jämn takt", "isCorrect": false }
+        {
+          "text": "Minst fem korta och snabba stötar",
+          "isCorrect": true
+        },
+        {
+          "text": "En lång stöt följd av en kort",
+          "isCorrect": false
+        },
+        {
+          "text": "Två långa stötar med kort mellanrum",
+          "isCorrect": false
+        },
+        {
+          "text": "Fyra korta stötar i jämn takt",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Är du osäker på det andra fartygets avsikter, eller tveksam till om det gör tillräckligt för att undvika kollision, ger du minst fem korta och snabba stötar — tveksamhets- eller varningssignalen.",
       "explanationEn": "Doubt signal: at least five short and rapid blasts.",
       "theoryAnchor": "colreg/ljudsignaler",
       "authorReviewed": false,
-      "payload": { "questionSv": "Vilken ljudsignal använder du när du är osäker på ett annat fartygs avsikter?" }
+      "payload": {
+        "questionSv": "Vilken ljudsignal använder du när du är osäker på ett annat fartygs avsikter?"
+      }
     },
     {
       "id": "col-ljud-004",
       "topicId": "top-col-ljud",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "En lång stöt minst varannan minut", "isCorrect": true },
-        { "text": "Två långa stötar minst varannan minut", "isCorrect": false },
-        { "text": "En lång och två korta stötar minst varannan minut", "isCorrect": false },
-        { "text": "Tre korta stötar var femte minut", "isCorrect": false }
+        {
+          "text": "En lång stöt minst varannan minut",
+          "isCorrect": true
+        },
+        {
+          "text": "Två långa stötar minst varannan minut",
+          "isCorrect": false
+        },
+        {
+          "text": "En lång och två korta stötar minst varannan minut",
+          "isCorrect": false
+        },
+        {
+          "text": "Tre korta stötar var femte minut",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Ett maskindrivet fartyg som gör fart genom vattnet i nedsatt sikt avger en lång stöt minst varannan minut. Gör det inte fart genom vattnet: två långa. En lång och två korta används bland annat av fartyg med begränsad manöverförmåga, segelfartyg och fiskefartyg.",
       "explanationEn": "Power-driven making way in restricted visibility: one prolonged blast at intervals of not more than two minutes.",
       "theoryAnchor": "colreg/nedsatt-sikt",
       "authorReviewed": false,
-      "payload": { "questionSv": "Vilken mistsignal ger ett maskindrivet fartyg som gör fart genom vattnet i nedsatt sikt?" }
+      "payload": {
+        "questionSv": "Vilken mistsignal ger ett maskindrivet fartyg som gör fart genom vattnet i nedsatt sikt?"
+      }
     },
     {
       "id": "col-ljud-005",
       "topicId": "top-col-ljud",
-      "tracks": ["kustskeppare", "klass8"],
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "Gå så nära farledens styrbordssida som är säkert och möjligt", "isCorrect": true },
-        { "text": "Gå så nära farledens babordssida som är säkert och möjligt", "isCorrect": false },
-        { "text": "Hålla mitten av farleden för bästa vattendjup", "isCorrect": false },
-        { "text": "Ankra och invänta fri farled innan passage", "isCorrect": false }
+        {
+          "text": "Gå så nära farledens styrbordssida som är säkert och möjligt",
+          "isCorrect": true
+        },
+        {
+          "text": "Gå så nära farledens babordssida som är säkert och möjligt",
+          "isCorrect": false
+        },
+        {
+          "text": "Hålla mitten av farleden för bästa vattendjup",
+          "isCorrect": false
+        },
+        {
+          "text": "Ankra och invänta fri farled innan passage",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "I trång farled ska du hålla dig så nära farledens yttre gräns om styrbord som är säkert och genomförbart. Små fartyg och segelfartyg får inte hindra fartyg som är beroende av farleden.",
       "explanationEn": "In a narrow channel, keep as near to the starboard outer limit as is safe and practicable.",
       "theoryAnchor": "colreg/trang-farled",
       "authorReviewed": false,
-      "payload": { "questionSv": "Hur ska du uppträda i en trång farled?" }
+      "payload": {
+        "questionSv": "Hur ska du uppträda i en trång farled?"
+      }
+    },
+    {
+      "id": "col-ljud-006",
+      "topicId": "top-col-ljud",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Jag girar styrbord",
+          "isCorrect": true
+        },
+        {
+          "text": "Jag girar babord",
+          "isCorrect": false
+        },
+        {
+          "text": "Min propeller arbetar för back",
+          "isCorrect": false
+        },
+        {
+          "text": "Jag är tveksam om dina avsikter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En kort signal betyder 'jag girar styrbord'. Manöver- och varningssignalerna enligt regel 34 avges när fartygen är i sikte av varandra och ska inte förväxlas med de signaler fartyg avger vid nedsatt sikt. Minnesregel: en kort = styrbord, två korta = babord, tre korta = back.",
+      "explanationEn": "One short blast means 'I am altering my course to starboard'. The manoeuvring and warning signals of Rule 34 are given when vessels are in sight of one another and must not be confused with the signals sounded in restricted visibility. Mnemonic: one short = starboard, two short = port, three short = astern.",
+      "payload": {
+        "questionSv": "Vad betyder EN KORT signal (manöver- och varningssignal, fartygen i sikte av varandra)?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:9 (signal 1/8) / photo_67, facit photo_25"
+    },
+    {
+      "id": "col-ljud-007",
+      "topicId": "top-col-ljud",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Jag girar babord",
+          "isCorrect": true
+        },
+        {
+          "text": "Jag girar styrbord",
+          "isCorrect": false
+        },
+        {
+          "text": "Min propeller arbetar för back",
+          "isCorrect": false
+        },
+        {
+          "text": "Jag avser gå om på er babords sida",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Två korta signaler betyder 'jag girar babord' enligt regel 34. Signalerna avges när fartygen är i sikte av varandra. Jämför: en kort = styrbord, tre korta = propellern arbetar för back; omkörning på babords sida signaleras med två långa följda av två korta.",
+      "explanationEn": "Two short blasts mean 'I am altering my course to port' under Rule 34. The signals are given when vessels are in sight of one another. Compare: one short = starboard, three short = engines going astern; intention to overtake on the port side is two prolonged blasts followed by two short.",
+      "payload": {
+        "questionSv": "Vad betyder TVÅ KORTA signaler (manöver- och varningssignal, fartygen i sikte av varandra)?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:9 (signal 2/8) / photo_67, facit photo_25"
+    },
+    {
+      "id": "col-ljud-008",
+      "topicId": "top-col-ljud",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Min propeller arbetar för back",
+          "isCorrect": true
+        },
+        {
+          "text": "Jag girar styrbord",
+          "isCorrect": false
+        },
+        {
+          "text": "Jag är tveksam om dina avsikter",
+          "isCorrect": false
+        },
+        {
+          "text": "Jag stoppar och ligger stilla",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tre korta signaler betyder 'min propeller arbetar för back' (regel 34). Observera att signalen anger att maskinen arbetar back – inte nödvändigtvis att fartyget rör sig akteröver; ett stort fartyg kan fortfarande göra fart framåt genom vattnet medan propellern backar.",
+      "explanationEn": "Three short blasts mean 'I am operating astern propulsion' (Rule 34). Note that the signal states the engine is going astern – not necessarily that the vessel is moving astern; a large ship may still be making headway through the water while her propeller works astern.",
+      "payload": {
+        "questionSv": "Vad betyder TRE KORTA signaler (manöver- och varningssignal, fartygen i sikte av varandra)?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:9 (signal 3/8) / photo_67, facit photo_25"
+    },
+    {
+      "id": "col-ljud-009",
+      "topicId": "top-col-ljud",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Tveksamhet – jag förstår inte dina avsikter eller ditt handlande",
+          "isCorrect": true
+        },
+        {
+          "text": "Samförstånd – jag går med på din begäran om omkörning",
+          "isCorrect": false
+        },
+        {
+          "text": "Nödsignal – jag behöver omedelbar hjälp",
+          "isCorrect": false
+        },
+        {
+          "text": "Uppmärksamhet – jag närmar mig en skymd kurva",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Minst fem korta signaler är tveksamhetssignalen (regel 34): den avges när ett fartyg inte förstår det andra fartygets avsikter eller handlande, eller tvivlar på att det vidtar tillräckliga åtgärder för att undvika kollision. Den kallas ibland 'väckningssignalen'.",
+      "explanationEn": "At least five short blasts is the doubt signal (Rule 34): it is sounded when a vessel fails to understand the intentions or actions of the other vessel, or doubts whether sufficient action is being taken to avoid collision. It is sometimes called the 'wake-up' signal.",
+      "payload": {
+        "questionSv": "Vad betyder MINST FEM KORTA signaler (manöver- och varningssignal, fartygen i sikte av varandra)?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:9 (signal 4/8) / photo_67, facit photo_25"
+    },
+    {
+      "id": "col-ljud-010",
+      "topicId": "top-col-ljud",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Jag avser gå om på er styrbords sida",
+          "isCorrect": true
+        },
+        {
+          "text": "Jag avser gå om på er babords sida",
+          "isCorrect": false
+        },
+        {
+          "text": "Samförstånd – ni kan gå om mig",
+          "isCorrect": false
+        },
+        {
+          "text": "Jag girar styrbord",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Två långa signaler följda av en kort betyder 'jag avser gå om på er styrbords sida' (regel 34, omkörning i trång farled). Två långa följda av två korta betyder omkörning på babords sida. Det upphunna fartyget svarar med samförståndssignalen lång–kort–lång–kort om det går med på omkörningen.",
+      "explanationEn": "Two prolonged blasts followed by one short mean 'I intend to overtake you on your starboard side' (Rule 34, overtaking in a narrow channel). Two prolonged followed by two short means overtaking on the port side. The vessel being overtaken answers with the agreement signal prolonged–short–prolonged–short if she agrees.",
+      "payload": {
+        "questionSv": "Vad betyder TVÅ LÅNGA signaler följda av EN KORT (manöver- och varningssignal, fartygen i sikte av varandra)?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:9 (signal 5/8) / photo_67, facit photo_25"
+    },
+    {
+      "id": "col-ljud-011",
+      "topicId": "top-col-ljud",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Jag avser gå om på er babords sida",
+          "isCorrect": true
+        },
+        {
+          "text": "Jag avser gå om på er styrbords sida",
+          "isCorrect": false
+        },
+        {
+          "text": "Jag girar babord",
+          "isCorrect": false
+        },
+        {
+          "text": "Tveksamhet – jag förstår inte dina avsikter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Två långa signaler följda av två korta betyder 'jag avser gå om på er babords sida' (regel 34). Minnesregel som för girsignalerna: en kort del = styrbord, två korta delar = babord. Det upphunna fartyget visar samförstånd med signalen lång–kort–lång–kort.",
+      "explanationEn": "Two prolonged blasts followed by two short mean 'I intend to overtake you on your port side' (Rule 34). Same mnemonic as the turning signals: one short element = starboard, two short elements = port. The overtaken vessel signals agreement with prolonged–short–prolonged–short.",
+      "payload": {
+        "questionSv": "Vad betyder TVÅ LÅNGA signaler följda av TVÅ KORTA (manöver- och varningssignal, fartygen i sikte av varandra)?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:9 (signal 6/8) / photo_67, facit photo_25"
+    },
+    {
+      "id": "col-ljud-012",
+      "topicId": "top-col-ljud",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Samförstånd – jag går med på omkörningen",
+          "isCorrect": true
+        },
+        {
+          "text": "Tveksamhet – jag förstår inte dina avsikter",
+          "isCorrect": false
+        },
+        {
+          "text": "Jag avser gå om på er styrbords sida",
+          "isCorrect": false
+        },
+        {
+          "text": "Uppmärksamhet – jag närmar mig en skymd kurva",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Signalen lång–kort–lång–kort är samförståndssignalen (regel 34). Den avges av det upphunna fartyget som svar på en omkörningssignal och betyder att det går med på omkörningen och kommer att underlätta den. Är fartyget i stället tveksamt avges minst fem korta signaler.",
+      "explanationEn": "The signal prolonged–short–prolonged–short is the agreement signal (Rule 34). It is sounded by the vessel about to be overtaken in reply to an overtaking signal, meaning she agrees and will facilitate the manoeuvre. If in doubt instead, she sounds at least five short blasts.",
+      "payload": {
+        "questionSv": "Vad betyder signalen LÅNG–KORT–LÅNG–KORT (manöver- och varningssignal, fartygen i sikte av varandra)?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:9 (signal 7/8) / photo_67, facit photo_25"
+    },
+    {
+      "id": "col-ljud-013",
+      "topicId": "top-col-ljud",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Uppmärksamhetssignal – avges t.ex. när man närmar sig en skymd kurva i en farled",
+          "isCorrect": true
+        },
+        {
+          "text": "Jag girar styrbord",
+          "isCorrect": false
+        },
+        {
+          "text": "Nödsignal – jag behöver omedelbar hjälp",
+          "isCorrect": false
+        },
+        {
+          "text": "Samförstånd – jag går med på omkörningen",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En lång signal används som uppmärksamhetssignal, bl.a. när ett fartyg närmar sig en skymd kurva eller ett område i en farled där mötande trafik kan vara dold (regel 34). Ett fartyg som hör signalen från andra sidan kröken svarar med en egen lång signal. Observera att en lång signal varannan minut i nedsatt sikt i stället är mistsignalen för maskindrivet fartyg som gör fart.",
+      "explanationEn": "One prolonged blast is used as an attention signal, for example when a vessel approaches a blind bend or an obscured stretch of a channel where oncoming traffic may be hidden (Rule 34). A vessel hearing it from the other side of the bend answers with her own prolonged blast. Note that one prolonged blast every two minutes in restricted visibility is instead the fog signal of a power-driven vessel making way.",
+      "payload": {
+        "questionSv": "Vad betyder EN LÅNG signal (manöver- och varningssignal, fartygen i sikte av varandra)?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Verifiera mot boken (photo_25) att sista raden i signalsammanställningen 'Uppmärksamhet' avser en lång signal.",
+      "sourceRef": "8:9 (signal 8/8) / photo_67, facit photo_25"
+    },
+    {
+      "id": "col-ljud-014",
+      "topicId": "top-col-ljud",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Gå med säker fart, tänd lanternorna, avge ljudsignaler, hissa radarreflektorn och håll utkik med syn och hörsel",
+          "isCorrect": true
+        },
+        {
+          "text": "Öka farten för att så snabbt som möjligt komma i hamn och ur dimman",
+          "isCorrect": false
+        },
+        {
+          "text": "Sök dig ut i huvudfarleden där utmärkningen är bäst och följ den in",
+          "isCorrect": false
+        },
+        {
+          "text": "Släck lanternorna i dagsljus och lita på att andra båtars motorer hörs i god tid",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Åtgärder som minskar kollisionsrisken i dimma inomskärs: undvik farleder med tung trafik, gå med säker fart, håll utkik med alla medel (syn, hörsel, radar om det finns ombord), tänd lanternorna, avge ljudsignaler, hissa radarreflektorn så att båten lättare upptäcks, se till att båten är lättmanövrerad (segelbåtar undviker t.ex. spinnaker, motorn hålls i beredskap) och stoppa vid tveksamhet, t.ex. om ljudsignaler från annat fartyg tycks höras för om tvärs.",
+      "explanationEn": "Measures that reduce collision risk in fog among the skerries: avoid fairways with heavy traffic, proceed at a safe speed, keep lookout by all means (sight, hearing, radar if fitted), switch on navigation lights, sound fog signals, hoist the radar reflector so the boat is easier to detect, keep the boat easy to manoeuvre (sailboats avoid e.g. the spinnaker, engine kept ready), and stop when in doubt, for instance if another vessel's fog signals seem to come from forward of the beam.",
+      "payload": {
+        "questionSv": "Du råkar ut för dimma inomskärs. Vilken kombination av åtgärder minskar kollisionsrisken?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:12 / photo_64, facit photo_22"
+    },
+    {
+      "id": "col-ljud-015",
+      "topicId": "top-col-ljud",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ett kraftigt ljud av något slag minst varannan minut",
+          "isCorrect": true
+        },
+        {
+          "text": "En lång signal varannan minut, precis som större maskindrivna fartyg",
+          "isCorrect": false
+        },
+        {
+          "text": "Två långa signaler varannan minut",
+          "isCorrect": false
+        },
+        {
+          "text": "Inga alls – båtar under 12 meter är helt befriade från ljudsignalering i dimma",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Fartyg under 12 meter är inte skyldiga att avge de föreskrivna mistsignalerna, men de måste i stället avge något annat kraftigt/effektivt ljud minst varannan minut. Med en 8 meter lång motorbåt räcker alltså t.ex. en rejäl tryckluftstuta, men den måste ljuda minst varannan minut i dimman.",
+      "explanationEn": "Vessels under 12 metres are not required to give the prescribed fog signals, but must instead make some other efficient, powerful sound at least every two minutes. In an 8-metre motorboat a strong air horn will do – but it must be sounded at least every two minutes in the fog.",
+      "payload": {
+        "questionSv": "Du är ute i en 8 meter lång motorbåt. Vilka ljudsignaler är du skyldig att avge i dimma?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:13 / photo_64, facit photo_22"
+    },
+    {
+      "id": "col-ljud-016",
+      "topicId": "top-col-ljud",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Fartyg som är längre än 12 meter – bredden saknar betydelse",
+          "isCorrect": true
+        },
+        {
+          "text": "Alla fartyg oavsett storlek",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyg som är längre än 8 meter eller bredare än 3 meter",
+          "isCorrect": false
+        },
+        {
+          "text": "Endast fartyg som är längre än 20 meter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Fartyg som är längre än 12 meter måste ha ljudsignaleringsutrustning (vissla/mistlur) som uppfyller de internationella sjövägsreglernas krav – ingenting sägs om bredden. Mindre fartyg ska ändå kunna avge något effektivt ljud, men behöver inte godkänd utrustning.",
+      "explanationEn": "Vessels longer than 12 metres must carry sound-signalling equipment (whistle/fog horn) meeting the requirements of the international collision regulations – nothing is said about beam. Smaller craft must still be able to make some efficient sound, but do not need approved equipment.",
+      "payload": {
+        "questionSv": "Vilka fartyg måste ha ljudsignaleringsutrustning som uppfyller de internationella sjövägsreglernas krav?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:14 / photo_64, facit photo_22"
+    },
+    {
+      "id": "col-ljud-017",
+      "topicId": "top-col-ljud",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ett maskindrivet fartyg som gör fart genom vattnet",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett maskindrivet fartyg på väg som ligger stilla i vattnet",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett segelfartyg",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg till ankars",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En lång signal med mellantider om högst 2 minuter avges i dimma av ett maskindrivet fartyg som gör fart genom vattnet. Ligger det maskindrivna fartyget stilla (på väg men utan fart genom vattnet) avges i stället två långa signaler, och segelfartyg m.fl. avger en lång följd av två korta.",
+      "explanationEn": "One prolonged blast at intervals of no more than 2 minutes is sounded in fog by a power-driven vessel making way through the water. If the power-driven vessel is underway but stopped (not making way), she instead sounds two prolonged blasts, and sailing vessels etc. sound one prolonged followed by two short.",
+      "payload": {
+        "questionSv": "Vilket fartyg avger EN LÅNG signal i dimma (mellantider högst 2 minuter)?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:15 (signal 1/3) / photo_64, facit photo_22"
+    },
+    {
+      "id": "col-ljud-018",
+      "topicId": "top-col-ljud",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ett maskindrivet fartyg på väg som inte gör fart genom vattnet",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett maskindrivet fartyg som gör fart genom vattnet",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett segelfartyg som gör fart genom vattnet",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fartyg till ankars i en trång farled",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Två långa signaler med mellantider om högst 2 minuter avges av ett maskindrivet fartyg som är på väg men ligger stilla – det gör ingen fart genom vattnet. 'På väg' betyder att fartyget inte är till ankars, förtöjt eller på grund. Gör fartyget fart genom vattnet avges i stället en lång signal.",
+      "explanationEn": "Two prolonged blasts at intervals of no more than 2 minutes are sounded by a power-driven vessel underway but stopped, making no way through the water. 'Underway' means not at anchor, moored or aground. When making way she sounds one prolonged blast instead.",
+      "payload": {
+        "questionSv": "Vilket fartyg avger TVÅ LÅNGA signaler i dimma (mellantider högst 2 minuter)?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:15 (signal 2/3) / photo_64, facit photo_22"
+    },
+    {
+      "id": "col-ljud-019",
+      "topicId": "top-col-ljud",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Segelfartyg, bogserare och andra fartyg med manövreringssvårigheter",
+          "isCorrect": true
+        },
+        {
+          "text": "Maskindrivna fartyg som gör fart genom vattnet",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyg till ankars utanför farled",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyg på grund",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En lång signal följd av två korta (mellantider högst 2 minuter) avges av segelfartyg, bogserare och andra fartyg med manövreringssvårigheter – t.ex. fiskefartyg som fiskar samt fartyg som inte är manöverfärdiga eller har begränsad manöverförmåga. Signalen skiljer dem från vanliga maskindrivna fartyg (en eller två långa).",
+      "explanationEn": "One prolonged blast followed by two short (at intervals of no more than 2 minutes) is sounded by sailing vessels, vessels towing and other vessels with manoeuvring difficulties – e.g. vessels engaged in fishing, vessels not under command or restricted in their ability to manoeuvre. The signal distinguishes them from ordinary power-driven vessels (one or two prolonged blasts).",
+      "payload": {
+        "questionSv": "Vilka fartyg avger EN LÅNG signal följd av TVÅ KORTA i dimma (mellantider högst 2 minuter)?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:15 (signal 3/3) / photo_64, facit photo_22"
+    },
+    {
+      "id": "col-ljud-020",
+      "topicId": "top-col-ljud",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Tända ankarlanternan, hissa ankarklotet och ringa i skeppsklockan cirka 5 sekunder varje minut",
+          "isCorrect": true
+        },
+        {
+          "text": "Tända gånglanternorna och avge en lång signal varannan minut",
+          "isCorrect": false
+        },
+        {
+          "text": "Hissa ankarklotet – ljudsignaler krävs inte för ankarliggare under 20 meter",
+          "isCorrect": false
+        },
+        {
+          "text": "Avge tre korta signaler varje minut och visa ett rött klot",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett fartyg till ankars ska visa ankarlanterna (och dagtid ankarklot) samt i nedsatt sikt ringa snabbt i skeppsklockan i cirka 5 sekunder varje minut. Båten är 13 meter – alltså över 12-metersgränsen – och ligger dessutom i ett trafikerat sund, så signalerna är obligatoriska. Fartyg under 12 meter kan i stället avge annat effektivt ljud minst varannan minut.",
+      "explanationEn": "A vessel at anchor must show an anchor light (and by day an anchor ball) and, in restricted visibility, ring the bell rapidly for about 5 seconds every minute. The boat is 13 metres – above the 12-metre limit – and moreover anchored in a trafficked sound, so the signals are mandatory. Vessels under 12 metres may instead make some other efficient sound at least every two minutes.",
+      "payload": {
+        "questionSv": "Du ligger till ankars med en 13 meter lång båt i ett trafikerat sund i tät tjocka. Vilka signaler är du skyldig att visa och avge?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:16 / photo_64, facit photo_22"
+    },
+    {
+      "id": "col-ljud-021",
+      "topicId": "top-col-ljud",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Undvik gir åt babord för ett fartyg för om tvärs, såvida det inte är ett fartyg som hinns upp",
+          "isCorrect": true
+        },
+        {
+          "text": "De vanliga väjningsreglerna gäller fullt ut så snart ekot syns på radarskärmen",
+          "isCorrect": false
+        },
+        {
+          "text": "Gira alltid mot ett eko som är tvärs eller akter om tvärs för att öka passageavståndet",
+          "isCorrect": false
+        },
+        {
+          "text": "Plottning behövs inte om radarn är försedd med automatiskt larm",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vid radarnavigering i nedsatt sikt (regel 19) gäller bl.a.: plotta mötande fartyg och väj i god tid; undvik gir åt babord för fartyg för om tvärs (såvida det inte är ett fartyg som hinns upp); undvik att gira mot fartyg som är tvärs eller akter om tvärs. De vanliga väjningsreglerna gäller enbart när fartygen är i sikte av varandra – visuellt, inte enbart på radar. Innan man siktat varandra ska man göra vad som går för att undvika närsituationer.",
+      "explanationEn": "When navigating by radar in restricted visibility (Rule 19): plot approaching vessels and take avoiding action in good time; avoid an alteration to port for a vessel forward of the beam (other than for a vessel being overtaken); avoid turning towards a vessel abeam or abaft the beam. The ordinary steering rules apply only when vessels are in sight of one another – visually, not merely on radar. Before sighting each other, do everything possible to avoid a close-quarters situation.",
+      "payload": {
+        "questionSv": "Du radarnavigerar i tät tjocka. Vilken av följande punkter ur de internationella sjövägsreglerna gäller för radarnavigatören?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:17 / photo_64, facit photo_22"
     }
   ]
 }

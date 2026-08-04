@@ -63,6 +63,11 @@ const ID_PREFIX = {
   'top-vhf-dsc': 'vhf-dsc',
   'top-radar-grund': 'rad-gru',
   'top-radar-bild': 'rad-eko',
+  'top-radar-installning': 'rad-inst',
+  'top-radar-display': 'rad-disp',
+  'top-radar-antenn': 'rad-ant',
+  'top-radar-navigation': 'rad-nav',
+  'top-radar-storningar': 'rad-stor',
 };
 
 const topicsById = new Map(model.topics.map((t) => [t.id, t]));

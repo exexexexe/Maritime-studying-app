@@ -1375,6 +1375,186 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "6:16 rad 20 / photo_70, photo_27"
+    },
+    {
+      "id": "buoy-fyr-039",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Cirka 17,3 M",
+          "isCorrect": true
+        },
+        {
+          "text": "Cirka 14,4 M",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 11,5 M",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 19,3 M",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Avståndet när fyren dyker upp över horisonten är fyrljusets horisontavstånd plus betraktarens eget horisontavstånd: 14,4 + 2,9 = 17,3 M. Ögonhöjden 2 m ger 2,9 M till horisonten. I sjökortet kan cirkelbågar ritas med detta avstånd som radie.",
+      "explanationEn": "The distance at which the light lifts above the horizon is the light's own horizon distance plus the observer's: 14.4 + 2.9 = 17.3 M. An eye height of 2 m gives 2.9 M to the horizon. Circle arcs with this radius can be drawn on the chart as position lines.",
+      "payload": {
+        "questionSv": "På sydgående utmed svenska kusten har navigatören ögonhöjden 2 m, vilket motsvarar 2,9 M till horisonten. Understens fyrljus når horisonten på 14,4 M. På vilket avstånd kan Understen siktas en klar natt?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:53 Understen / photo_73, photo_31"
+    },
+    {
+      "id": "buoy-fyr-040",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Cirka 14,5 M",
+          "isCorrect": true
+        },
+        {
+          "text": "Cirka 11,6 M",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 8,7 M",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 16,5 M",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Fyrljusets horisontavstånd plus ögats horisontavstånd: 11,6 + 2,9 = 14,5 M.",
+      "explanationEn": "The light's horizon distance plus the observer's: 11.6 + 2.9 = 14.5 M.",
+      "payload": {
+        "questionSv": "Din ögonhöjd 2 m motsvarar 2,9 M till horisonten. Svenska Högarnas fyrljus når horisonten på 11,6 M. På vilket avstånd kan fyren siktas en klar natt?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:53 Svenska Högarna / photo_73, photo_31"
+    },
+    {
+      "id": "buoy-fyr-041",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Cirka 14 M",
+          "isCorrect": true
+        },
+        {
+          "text": "Cirka 11,1 M",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 8,2 M",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 16 M",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Fyrljusets horisontavstånd plus ögats horisontavstånd: 11,1 + 2,9 = 14 M.",
+      "explanationEn": "The light's horizon distance plus the observer's: 11.1 + 2.9 = 14 M.",
+      "payload": {
+        "questionSv": "Din ögonhöjd 2 m motsvarar 2,9 M till horisonten. Almagrundets fyrljus når horisonten på 11,1 M. På vilket avstånd kan fyren siktas en klar natt?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:53 Almagrundet / photo_73, photo_31"
+    },
+    {
+      "id": "buoy-fyr-042",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Cirka 16,8 M",
+          "isCorrect": true
+        },
+        {
+          "text": "Cirka 13,9 M",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 11 M",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 18,8 M",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Fyrljusets horisontavstånd plus ögats horisontavstånd: 13,9 + 2,9 = 16,8 M.",
+      "explanationEn": "The light's horizon distance plus the observer's: 13.9 + 2.9 = 16.8 M.",
+      "payload": {
+        "questionSv": "Din ögonhöjd 2 m motsvarar 2,9 M till horisonten. Landsorts fyrljus når horisonten på 13,9 M. På vilket avstånd kan fyren siktas en klar natt?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:53 Landsort / photo_73, photo_31"
+    },
+    {
+      "id": "buoy-fyr-043",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Cirka 13,1 M",
+          "isCorrect": true
+        },
+        {
+          "text": "Cirka 10,2 M",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 7,3 M",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 15,1 M",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Fyrljusets horisontavstånd plus ögats horisontavstånd: 10,2 + 2,9 = 13,1 M. Genom att rita cirkelbågar i sjökortet med dessa avstånd som radie får man ortlinjer när fyrarna dyker upp.",
+      "explanationEn": "The light's horizon distance plus the observer's: 10.2 + 2.9 = 13.1 M. Drawing circle arcs on the chart with these distances as radii gives position lines for when each light first appears.",
+      "payload": {
+        "questionSv": "Din ögonhöjd 2 m motsvarar 2,9 M till horisonten. Gustaf Daléns fyrljus når horisonten på 10,2 M. På vilket avstånd kan fyren siktas en klar natt?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:53 Gustaf Dalén / photo_73, photo_31"
     }
   ]
 }

@@ -135,6 +135,42 @@
       "needsReview": false,
       "needsReviewNote": "Markerad med kustskepparkunskap-triangel i boken – därför taggad utan forarintyg.",
       "sourceRef": "3:7 / photo_81, photo_37"
+    },
+    {
+      "id": "rad-gru-005",
+      "topicId": "top-radar-grund",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Små vikar fylls ut, uddar förlängs åt sidorna, närliggande små föremål flyter ihop och högre land skuggar det som ligger bakom",
+          "isCorrect": true
+        },
+        {
+          "text": "Små vikar fördjupas, uddar förkortas, närliggande föremål delas upp och lägre land skymmer det som ligger bakom",
+          "isCorrect": false
+        },
+        {
+          "text": "Radarbilden visar öarna exakt som sjökortet men spegelvänt, med norr alltid nedåt på skärmen",
+          "isCorrect": false
+        },
+        {
+          "text": "Radarbilden visar bara fasta sjömärken och fyrar, medan naturliga öar och skär inte ger några ekon alls",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Radarn ser bara det som vetter mot antennen: små vikar fylls ut, uddar förlängs åt sidorna, närliggande små föremål flyter ihop till ett eko och högre land skuggar bakomvarande — därför liknar radarbilden inte sjökortsbilden.",
+      "explanationEn": "Radar only sees what faces the antenna: small bays fill in, points widen sideways, nearby small objects merge into one echo and higher land shadows what lies behind — which is why the radar picture does not match the chart picture.",
+      "payload": {
+        "questionSv": "Hur förvrängs radarbilden jämfört med sjökortsbilden?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:54 / photo_73, photo_31"
     }
   ]
 }

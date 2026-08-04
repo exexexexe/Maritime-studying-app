@@ -2036,6 +2036,259 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "4:26m / photo_79 + photo_78 (facit photo_35)"
+    },
+    {
+      "id": "nav-fart-058",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Cirka 4 knop",
+          "isCorrect": true
+        },
+        {
+          "text": "Cirka 2 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 8 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 6 knop",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Spottloggen: båten färdas sin egen längd (8 m) på 4 sekunder, dvs. 2 m/s. En knop är ungefär 0,5 m/s, så farten blir 8 × 2/4 = 4 knop.",
+      "explanationEn": "This is the classic 'spit log': the boat travels its own length (8 m) in 4 seconds, i.e. 2 m/s. One knot is roughly 0.5 m/s, so the speed is 8 × 2/4 = 4 knots.",
+      "payload": {
+        "questionSv": "Hur fort går en 8 meter lång båt om det tar 4 sekunder att passera en träbit som kastats ut från förstäven?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:27 / photo_78, photo_35"
+    },
+    {
+      "id": "nav-fart-059",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Cirka 6 timmar 30 minuter",
+          "isCorrect": true
+        },
+        {
+          "text": "Cirka 5 timmar 45 minuter",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 7 timmar 15 minuter",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 8 timmar",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Distansen Almagrundet–Armbågen Östra är 35,7 M enligt sjökortet. Tid = distans/fart = 35,7/5,5 ≈ 6,5 timmar, dvs. cirka 6 timmar 30 minuter. Ett praktiskt sätt vid reseplanering är att stega en timmes resa (här 5,5 M) i passaren längs rutten.",
+      "explanationEn": "The distance Almagrundet–Armbågen Östra is 35.7 M on the chart. Time = distance/speed = 35.7/5.5 ≈ 6.5 hours, i.e. about 6 hours 30 minutes. A practical passage-planning trick is to set one hour of travel (here 5.5 M) on the dividers and step it along the route.",
+      "payload": {
+        "questionSv": "Vid reseplanering vill du veta ungefär hur lång tid resan tar. Ungefär hur lång tid tar resan Almagrundet – fyren Armbågen Östra (35,7 M enligt sjökortet) med 5,5 knop?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Distansen 35,7 M kommer från mätning i övningssjökortet; värdet är inlagt i frågan från facit.",
+      "sourceRef": "4:30a / photo_78, photo_35"
+    },
+    {
+      "id": "nav-fart-060",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Cirka 14 timmar",
+          "isCorrect": true
+        },
+        {
+          "text": "Cirka 12 timmar",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 16 timmar",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 11 timmar 30 minuter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Distansen Armbågen Östra–Grundkallens fyr är 63,3 M enligt sjökortet. Tid = distans/fart = 63,3/4,5 ≈ 14 timmar.",
+      "explanationEn": "The distance Armbågen Östra–Grundkallen lighthouse is 63.3 M on the chart. Time = distance/speed = 63.3/4.5 ≈ 14 hours.",
+      "payload": {
+        "questionSv": "Ungefär hur lång tid tar resan Armbågen Östra – Grundkallens fyr (63,3 M enligt sjökortet) med 4,5 knop?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Distansen 63,3 M kommer från mätning i övningssjökortet; värdet är inlagt i frågan från facit.",
+      "sourceRef": "4:30b / photo_78, photo_35"
+    },
+    {
+      "id": "nav-fart-061",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "3 knop",
+          "isCorrect": true
+        },
+        {
+          "text": "2 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "4 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "5 knop",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Fart = distans × 60 / tid i minuter = 0,5 × 60/10 = 3 knop på tomgångsvarvtal.",
+      "explanationEn": "Speed = distance × 60 / time in minutes = 0.5 × 60/10 = 3 knots at idle revs.",
+      "payload": {
+        "questionSv": "Du gör ett fartprov med din motorbåt: 0,5 M avverkas på 10 minuter med tomgångsvarvtal. Vilken är farten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:31a / photo_78, photo_35"
+    },
+    {
+      "id": "nav-fart-062",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Cirka 6,7 knop",
+          "isCorrect": true
+        },
+        {
+          "text": "Cirka 5,5 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 7,5 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 8,9 knop",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Fart = distans × 60 / tid i minuter = 0,5 × 60/4,5 ≈ 6,66 knop på behaglig marschfart.",
+      "explanationEn": "Speed = distance × 60 / time in minutes = 0.5 × 60/4.5 ≈ 6.66 knots at comfortable cruising revs.",
+      "payload": {
+        "questionSv": "Fartprov: 0,5 M avverkas på 4,5 minuter på behaglig marschfart. Vilken är farten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:31b / photo_78, photo_35"
+    },
+    {
+      "id": "nav-fart-063",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "20 knop",
+          "isCorrect": true
+        },
+        {
+          "text": "15 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "18 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "30 knop",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Fart = distans × 60 / tid i minuter = 1 × 60/3 = 20 knop med full fart.",
+      "explanationEn": "Speed = distance × 60 / time in minutes = 1 × 60/3 = 20 knots at full throttle.",
+      "payload": {
+        "questionSv": "Fartprov: 1 M avverkas på 3 minuter med full fart. Vilken är farten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:31c / photo_78, photo_35"
+    },
+    {
+      "id": "nav-fart-064",
+      "topicId": "top-nav-fart",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Cirka 2,9 knop",
+          "isCorrect": true
+        },
+        {
+          "text": "Cirka 3,5 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 4,2 knop",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 2,4 knop",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "7 dygn = 7 × 24 = 168 timmar. Medelfart = distans/tid = 490/168 ≈ 2,91 knop.",
+      "explanationEn": "7 days = 7 × 24 = 168 hours. Average speed = distance/time = 490/168 ≈ 2.91 knots.",
+      "payload": {
+        "questionSv": "Du har seglat från Göteborgs skärgård till Stockholms skärgård (490 M) på 7 dygn. Vilken blir medelfarten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:32 / photo_78, photo_35"
     }
   ]
 }

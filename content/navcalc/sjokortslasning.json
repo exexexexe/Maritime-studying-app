@@ -2441,6 +2441,261 @@
       "needsReview": true,
       "needsReviewNote": "Kräver övningssjökort 616 – svaret bygger på uttag av position i kortet; facit använt som rätt alternativ.",
       "sourceRef": "1:21e / photo_84, photo_40"
+    },
+    {
+      "id": "nav-sjo-067",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "10 M i nederdelen motsvarar bara cirka 9,5 M i övre delen — skalan växer mot norr",
+          "isCorrect": true
+        },
+        {
+          "text": "10 M i nederdelen motsvarar exakt 10 M i övre delen — skalan är konstant",
+          "isCorrect": false
+        },
+        {
+          "text": "10 M i nederdelen motsvarar cirka 10,5 M i övre delen — skalan minskar mot norr",
+          "isCorrect": false
+        },
+        {
+          "text": "10 M i nederdelen motsvarar cirka 12 M i övre delen — skalan fördubblas mot polerna",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "I Mercators projektion sträcks sjökortet ut allt mer ju längre från ekvatorn man kommer. Därför växer latitudskalan mot norr: 10 M tagna i passaren från skalans nederdel motsvarar bara ungefär 9,5 M i kortets övre del. Mät därför alltid distanser på latitudskalan i samma höjd som sträckan du mäter.",
+      "explanationEn": "In a Mercator projection the chart is stretched more and more away from the equator, so the latitude scale grows toward the north: 10 M taken with dividers from the bottom of the scale corresponds to only about 9.5 M at the top of the chart. Always measure distance on the latitude scale at the same latitude as the stretch you are measuring.",
+      "payload": {
+        "questionSv": "Sjökort 61 är i Mercators projektion med skala som växer från ekvatorn mot polerna. Du tar 10 M i passaren från latitudskalans nederdel och jämför med skalans övre del. Vad upptäcker du?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:28 / photo_78, photo_35"
+    },
+    {
+      "id": "nav-sjo-068",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "21,0 M",
+          "isCorrect": true
+        },
+        {
+          "text": "19,0 M",
+          "isCorrect": false
+        },
+        {
+          "text": "23,5 M",
+          "isCorrect": false
+        },
+        {
+          "text": "17,2 M",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Distansen mäts med passare i sjökortet och jämförs med latitudskalan i samma höjd. Enligt facit är distansen från fyren Tjärven till fyren Marhällan 21,0 M.",
+      "explanationEn": "The distance is measured with dividers on the chart and compared against the latitude scale at the same latitude. According to the answer key, the distance from the Tjärven lighthouse to the Marhällan lighthouse is 21.0 M.",
+      "payload": {
+        "questionSv": "Mät distansen i övningssjökortet från fyren Tjärven till fyren Marhällan utanför Mariehamn. Hur lång är den?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort — det numeriska svaret bygger på mätning i kortet.",
+      "sourceRef": "4:29a / photo_78, photo_35"
+    },
+    {
+      "id": "nav-sjo-069",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "47,2 M",
+          "isCorrect": true
+        },
+        {
+          "text": "44,6 M",
+          "isCorrect": false
+        },
+        {
+          "text": "51,0 M",
+          "isCorrect": false
+        },
+        {
+          "text": "39,8 M",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Längre distanser mäts i flera passarsteg längs kurslinjen och summeras mot latitudskalan. Enligt facit är distansen från fyren Tröskeln Östra till fyren Märketskallen 47,2 M.",
+      "explanationEn": "Longer distances are measured in several divider steps along the course line and added up against the latitude scale. According to the answer key, the distance from Tröskeln Östra to Märketskallen is 47.2 M.",
+      "payload": {
+        "questionSv": "Mät distansen i övningssjökortet från fyren Tröskeln Östra till fyren Märketskallen. Hur lång är den?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort — det numeriska svaret bygger på mätning i kortet.",
+      "sourceRef": "4:29b / photo_78, photo_35"
+    },
+    {
+      "id": "nav-sjo-070",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Att utgå från osäkerhetsområdets minst fördelaktiga kant och fortsätta förbi tills Gattet öppnar sig ordentligt",
+          "isCorrect": true
+        },
+        {
+          "text": "Att utgå från osäkerhetsområdets mitt och sikta rakt mot mitten av Gattet",
+          "isCorrect": false
+        },
+        {
+          "text": "Att välja kortaste vägen rakt mot Gattet — kortast tid i osäkert vatten ger störst säkerhet",
+          "isCorrect": false
+        },
+        {
+          "text": "Att styra mot land närmast Gattet och följa strandlinjen på nära håll fram till inloppet",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Se figur: en båt i ett markerat osäkerhetsområde ska in i Gattet i dålig sikt. Att sikta från områdets mitt rakt mot Gattet är minst säkert — befinner du dig i områdets kant missar du inloppet. Säkrast är att utgå från den minst fördelaktiga positionen i området och gå fram tills Gattet öppnar sig ordentligt innan du girar in.",
+      "explanationEn": "See figure: a boat inside a marked position-uncertainty area must enter the Gattet inlet in poor visibility. Aiming from the middle of the area straight at the inlet is least safe — if you are actually at the edge of the area you will miss it. The safest plan assumes the least favourable position in the area and stands on until the inlet opens up clearly before turning in.",
+      "payload": {
+        "questionSv": "En båt på väg mot inloppet Gattet har det markerade osäkerhetsområdet kring sin position och sikten är dålig. Vilken vägval-princip är säkrast?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:44 / photo_75, photo_33"
+    },
+    {
+      "id": "nav-sjo-071",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Vid läkusten är sjögången som värst och det är särskilt farligt att närma sig land när sikten är dålig",
+          "isCorrect": true
+        },
+        {
+          "text": "Missvisningen ökar kraftigt nära land så att kompassen blir opålitlig",
+          "isCorrect": false
+        },
+        {
+          "text": "Strömmen är alltid starkast vid en läkust och sätter båten ur kurs",
+          "isCorrect": false
+        },
+        {
+          "text": "Ljudsignaler hörs sämre i lä så att mistsignaler riskerar att missas",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Att i dimma söka sig mot en kust i lä (dit vinden blåser) är ett kardinalfel: sjögången är som värst mot läkusten och man riskerar att drivas mot land utan att se det i tid. Att dessutom leta efter ett enstaka bojmärke vid en farled är chansartat, och färd tvärs över farleden vill man helst undvika.",
+      "explanationEn": "Heading for a lee shore in fog (the shore the wind blows onto) is a cardinal error: the seas are at their worst against a lee shore and you risk being set onto land you cannot see in time. Hunting for a single buoy near a fairway is also a gamble, and crossing the fairway is best avoided.",
+      "payload": {
+        "questionSv": "Tät dimma kommer vältrande och det blåser 4 m/s. Varför är det olämpligt (ett 'kardinalfel') att i dimman söka sig mot en kust i lä?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "7:1 (båt A) / photo_69, facit photo_27"
+    },
+    {
+      "id": "nav-sjo-072",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Sikta mot en stor och säker uppfångare, gå in på dess läsida och fortsätt sedan i korta hopp bland öarna med landkontakt",
+          "isCorrect": true
+        },
+        {
+          "text": "Gå rakaste vägen över öppet vatten mot hamnens pirar för att minimera tiden i dimman",
+          "isCorrect": false
+        },
+        {
+          "text": "Sök dig till huvudfarleden och följ den, eftersom den är väl utmärkt med prickar",
+          "isCorrect": false
+        },
+        {
+          "text": "Sikta direkt mot en liten prick ute på fjärden och navigera sedan prick för prick",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Säkrast i dimma med endast kompass och logg är att sikta på en stor, säker uppfångare som knappast går att missa, och komma in mot den på läsidan där sikten ofta är bättre. Därefter fortsätter man i korta hopp inne bland öarna där man kan hålla nästan ständig landkontakt och kan ankra tillfälligt nästan var som helst om sikten blir för dålig. Vägen är längre men enklast och säkrast när sikten är dålig.",
+      "explanationEn": "The safest strategy in fog with only compass and log is to aim for a large, safe 'catching' target you can hardly miss, approaching on its lee side where visibility is often better. Then continue in short hops among the islands, keeping almost constant contact with land, with the option to anchor temporarily almost anywhere if visibility deteriorates. The route is longer but simplest and safest in poor visibility.",
+      "payload": {
+        "questionSv": "Du ska ta dig till en skyddad hamn när tät dimma kommer. Båten har kompass och logg men inga andra navigeringshjälpmedel. Vilken strategi är säkrast?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "7:1 (båt C) / photo_69, facit photo_27+photo_26"
+    },
+    {
+      "id": "nav-sjo-073",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Vägvalet undviker inte farleden, där stora fartyg kan uppträda",
+          "isCorrect": true
+        },
+        {
+          "text": "GPS-mottagningen försämras kraftigt i dimma eftersom satellitsignalerna dämpas",
+          "isCorrect": false
+        },
+        {
+          "text": "Fyrar kan inte läggas in som waypoints eftersom de saknar exakt position i sjökortet",
+          "isCorrect": false
+        },
+        {
+          "text": "GPS:ens felvisning är alltid större än avståndet till närmaste grund",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Med GPS och en waypoint på fyren bör båten hitta fyren i dimman utan att gå på grundet intill – grundet ligger längre från fyren än vad GPS-navigatorn kan visa fel. Men en allvarlig nackdel kvarstår: vägvalet undviker inte farleden, där stora fartyg kan komma – och kollisionsrisken med stor trafik påverkas inte av den egna GPS:en.",
+      "explanationEn": "With GPS and a waypoint on the lighthouse, the boat should find it in the fog without hitting the nearby shoal – the shoal lies farther from the lighthouse than the GPS error margin. But a serious drawback remains: the route does not avoid the fairway, where large ships may appear – and your own GPS does nothing about the collision risk with heavy traffic.",
+      "payload": {
+        "questionSv": "En båt navigerar i dimma mot en fyr och är utrustad med GPS med en waypoint lagd på fyren. Vilken allvarlig nackdel har vägvalet trots GPS:en?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "7:1 (båt B med GPS) / photo_69, facit photo_27"
     }
   ]
 }

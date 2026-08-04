@@ -408,6 +408,42 @@
       },
       "needsReview": false,
       "needsReviewNote": null
+    },
+    {
+      "id": "rad-nav-001",
+      "topicId": "top-radar-navigation",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "I sjögång och kraftigt regn, när många båtar rör sig åt olika håll och i skärgård där små mål och öars ändrade form ger risk för misstag",
+          "isCorrect": true
+        },
+        {
+          "text": "Endast i helt stiltje och klart väder, eftersom radarstrålen då böjs av mot vattenytan",
+          "isCorrect": false
+        },
+        {
+          "text": "Bara på öppet hav utan land i sikte, eftersom radarn kräver fasta ekon för att fungera",
+          "isCorrect": false
+        },
+        {
+          "text": "Enbart nattetid, eftersom radarns räckvidd halveras i mörker",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vågor ger sjöekon och kraftigt regn ger regnekon som stör bilden. Många båtar i rörelse är svåra att hålla reda på, och vid skärgårdsnavigering försvåras tolkningen av små mål som prickar och skär; öarnas form på skärmen ändras när man passerar dem och många girar medför risk för misstag.",
+      "explanationEn": "Waves cause sea clutter and heavy rain causes rain clutter that degrade the picture. Many moving boats are hard to keep track of, and in the archipelago interpretation is complicated by small targets like spar buoys and skerries; island shapes change on screen as you pass them, and frequent course changes invite mistakes.",
+      "payload": {
+        "questionSv": "Under vilka förhållanden kan du föreställa dig att radarbilden blir mer svårtolkad?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:55 / photo_73, photo_31"
     }
   ]
 }

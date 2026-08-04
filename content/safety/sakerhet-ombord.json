@@ -4,70 +4,179 @@
     {
       "id": "saf-omb-001",
       "topicId": "top-safety-ombord",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "Stäng bränsletillförseln och kväv branden utan att öppna luckan helt", "isCorrect": true },
-        { "text": "Öppna motorrumsluckan helt för att komma åt att släcka", "isCorrect": false },
-        { "text": "Ös vatten över motorn genom luftintagen", "isCorrect": false },
-        { "text": "Öka varvtalet för att blåsa rent motorrummet", "isCorrect": false }
+        {
+          "text": "Stäng bränsletillförseln och kväv branden utan att öppna luckan helt",
+          "isCorrect": true
+        },
+        {
+          "text": "Öppna motorrumsluckan helt för att komma åt att släcka",
+          "isCorrect": false
+        },
+        {
+          "text": "Ös vatten över motorn genom luftintagen",
+          "isCorrect": false
+        },
+        {
+          "text": "Öka varvtalet för att blåsa rent motorrummet",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Vid motorrumsbrand: stäng av bränsle och motor, och släck genom brandport eller springa utan att öppna luckan helt — full öppning ger branden syre. Använd släckare avsedd för vätskebränder och rikta mot brandens bas.",
       "explanationEn": "Engine-room fire: cut fuel, smother through a fire port — opening the hatch feeds the fire oxygen.",
       "theoryAnchor": "sakerhet/brand",
       "authorReviewed": false,
-      "payload": { "questionSv": "Det brinner i motorrummet. Hur agerar du?" }
+      "payload": {
+        "questionSv": "Det brinner i motorrummet. Hur agerar du?"
+      }
     },
     {
       "id": "saf-omb-002",
       "topicId": "top-safety-ombord",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "Flytväst på, stanna vid båten och klättra upp ur vattnet om det går", "isCorrect": true },
-        { "text": "Simma mot land så länge krafterna finns kvar", "isCorrect": false },
-        { "text": "Ta av tunga kläder för att lättare hålla dig flytande", "isCorrect": false },
-        { "text": "Trampa vatten aktivt för att hålla värmen uppe", "isCorrect": false }
+        {
+          "text": "Flytväst på, stanna vid båten och klättra upp ur vattnet om det går",
+          "isCorrect": true
+        },
+        {
+          "text": "Simma mot land så länge krafterna finns kvar",
+          "isCorrect": false
+        },
+        {
+          "text": "Ta av tunga kläder för att lättare hålla dig flytande",
+          "isCorrect": false
+        },
+        {
+          "text": "Trampa vatten aktivt för att hålla värmen uppe",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "I kallt vatten är nedkylningen den stora faran. Flytvästen håller dig uppe medan köldchocken går över; stanna vid båten — den syns och flyter — och försök ta dig upp ur vattnet. Kläder isolerar även våta, och aktivitet ökar värmeförlusten.",
       "explanationEn": "Cold water: lifejacket, stay with the boat, get out of the water; clothes insulate and activity speeds heat loss.",
       "theoryAnchor": "sakerhet/kallt-vatten",
       "authorReviewed": false,
-      "payload": { "questionSv": "Du hamnar i kallt vatten en bit från land efter en kantring. Vad är rätt?" }
+      "payload": {
+        "questionSv": "Du hamnar i kallt vatten en bit från land efter en kantring. Vad är rätt?"
+      }
     },
     {
       "id": "saf-omb-003",
       "topicId": "top-safety-ombord",
-      "tracks": ["kustskeppare", "klass8"],
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "Innan avgång — gå igenom var utrustningen finns och vem som gör vad", "isCorrect": true },
-        { "text": "Först när något inträffat, för att inte oroa i onödan", "isCorrect": false },
-        { "text": "Enbart vid längre resor än tolv timmar", "isCorrect": false },
-        { "text": "Endast när nya besättningsmedlemmar mönstrar på", "isCorrect": false }
+        {
+          "text": "Innan avgång — gå igenom var utrustningen finns och vem som gör vad",
+          "isCorrect": true
+        },
+        {
+          "text": "Först när något inträffat, för att inte oroa i onödan",
+          "isCorrect": false
+        },
+        {
+          "text": "Enbart vid längre resor än tolv timmar",
+          "isCorrect": false
+        },
+        {
+          "text": "Endast när nya besättningsmedlemmar mönstrar på",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Säkerhetsgenomgången hålls före avgång: var flytvästar, släckare, nödsignaler och första förband finns, hur radion används och vem som gör vad vid brand, läcka eller man överbord. Ombord i yrkesmässig trafik är detta en del av säkerhetsorganisationen.",
       "explanationEn": "Hold the safety briefing before departure: equipment locations and roles in emergencies.",
       "theoryAnchor": "sakerhet/genomgang",
       "authorReviewed": false,
-      "payload": { "questionSv": "När ska säkerhetsgenomgången med besättning och passagerare hållas?" }
+      "payload": {
+        "questionSv": "När ska säkerhetsgenomgången med besättning och passagerare hållas?"
+      }
     },
     {
       "id": "saf-omb-004",
       "topicId": "top-safety-ombord",
-      "tracks": ["forarintyg", "kustskeppare", "klass8", "vhf"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8",
+        "vhf"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "Kanal 16", "isCorrect": true },
-        { "text": "Kanal 70", "isCorrect": false },
-        { "text": "Kanal 6", "isCorrect": false },
-        { "text": "Kanal 72", "isCorrect": false }
+        {
+          "text": "Kanal 16",
+          "isCorrect": true
+        },
+        {
+          "text": "Kanal 70",
+          "isCorrect": false
+        },
+        {
+          "text": "Kanal 6",
+          "isCorrect": false
+        },
+        {
+          "text": "Kanal 72",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Kanal 16 (156,8 MHz) är den internationella nöd-, il- och anropskanalen för tal på VHF. Kanal 70 används enbart för DSC-anrop (digitalt), inte för tal.",
       "explanationEn": "Channel 16 is the international voice distress, urgency and calling channel; 70 is DSC only.",
       "theoryAnchor": "sakerhet/vhf-16",
       "authorReviewed": false,
-      "payload": { "questionSv": "Vilken VHF-kanal används för nödtrafik med tal?" }
+      "payload": {
+        "questionSv": "Vilken VHF-kanal används för nödtrafik med tal?"
+      }
+    },
+    {
+      "id": "saf-omb-005",
+      "topicId": "top-safety-ombord",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Den som är hissad högt upp och hänger i 'regnfångarläge'",
+          "isCorrect": true
+        },
+        {
+          "text": "Den som är monterad lågt nära däck och hänger i 'regnfångarläge'",
+          "isCorrect": false
+        },
+        {
+          "text": "Den som är hissad högt upp och hänger i ett av sina hörn",
+          "isCorrect": false
+        },
+        {
+          "text": "Den som är monterad lågt nära däck och hänger i ett av sina hörn",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En radarreflektor ska monteras högt – då syns den över vågorna och på längre avstånd – och i 'regnfångarläge', dvs. med en av de trekantiga fickorna rakt uppåt. I det läget bildar reflektorns ytor rätvinkliga hörn som kastar tillbaka radarvågorna mot sändaren och ger starkast eko. Hänger reflektorn i ett hörn blir ekot betydligt svagare.",
+      "explanationEn": "A radar reflector should be mounted high – so it is visible above the waves and at longer range – and in the 'rain-catcher' position, i.e. with one of its triangular pockets facing straight up. In that orientation the reflector's surfaces form right-angled corners that bounce the radar waves straight back to the transmitter, giving the strongest echo. Hung from a corner, the echo is much weaker.",
+      "payload": {
+        "questionSv": "Se figur: två segelbåtar med var sin radarreflektor. Den ena har reflektorn hissad högt upp i masten i 'regnfångarläge' (en trekantig ficka uppåt), den andra har reflektorn lågt monterad och hängande i ett hörn. Vilken radarreflektor är bäst monterad?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "7:2 / photo_69, facit photo_26"
     }
   ]
 }

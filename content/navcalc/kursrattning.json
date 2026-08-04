@@ -741,6 +741,798 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "5:3 / photo_73, photo_29"
+    },
+    {
+      "id": "nav-kurs-023",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "45°",
+          "isCorrect": true
+        },
+        {
+          "text": "25°",
+          "isCorrect": false
+        },
+        {
+          "text": "35°",
+          "isCorrect": false
+        },
+        {
+          "text": "55°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ostlig missvisning läggs till kompasskursen för att få gradtalet enligt sjökortet (rättvisande kurs): 35° + 10° = 45°.",
+      "explanationEn": "Easterly variation is added to the compass course to get the chart (true) course: 35° + 10° = 45°.",
+      "payload": {
+        "questionSv": "Båtens kompass visar 35° och missvisningen är 10° ostlig (deviation 0°). Vilket gradtal enligt sjökortet (rättvisande kurs) styr du efter?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:33 kolumn 1 / photo_77, photo_34"
+    },
+    {
+      "id": "nav-kurs-024",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "310°",
+          "isCorrect": true
+        },
+        {
+          "text": "290°",
+          "isCorrect": false
+        },
+        {
+          "text": "300°",
+          "isCorrect": false
+        },
+        {
+          "text": "320°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ostlig missvisning läggs till kompasskursen: 300° + 10° = 310° enligt sjökortet.",
+      "explanationEn": "Easterly variation is added to the compass course: 300° + 10° = 310° on the chart.",
+      "payload": {
+        "questionSv": "Båtens kompass visar 300° och missvisningen är 10° ostlig (deviation 0°). Vilket gradtal enligt sjökortet (rättvisande kurs) styr du efter?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:33 kolumn 2 / photo_77, photo_34"
+    },
+    {
+      "id": "nav-kurs-025",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "240°",
+          "isCorrect": true
+        },
+        {
+          "text": "220°",
+          "isCorrect": false
+        },
+        {
+          "text": "230°",
+          "isCorrect": false
+        },
+        {
+          "text": "250°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ostlig missvisning läggs till kompasskursen: 230° + 10° = 240° enligt sjökortet.",
+      "explanationEn": "Easterly variation is added to the compass course: 230° + 10° = 240° on the chart.",
+      "payload": {
+        "questionSv": "Båtens kompass visar 230° och missvisningen är 10° ostlig (deviation 0°). Vilket gradtal enligt sjökortet (rättvisande kurs) styr du efter?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:33 kolumn 3 / photo_77, photo_34"
+    },
+    {
+      "id": "nav-kurs-026",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "130°",
+          "isCorrect": true
+        },
+        {
+          "text": "110°",
+          "isCorrect": false
+        },
+        {
+          "text": "120°",
+          "isCorrect": false
+        },
+        {
+          "text": "140°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ostlig missvisning läggs till kompasskursen: 120° + 10° = 130° enligt sjökortet.",
+      "explanationEn": "Easterly variation is added to the compass course: 120° + 10° = 130° on the chart.",
+      "payload": {
+        "questionSv": "Båtens kompass visar 120° och missvisningen är 10° ostlig (deviation 0°). Vilket gradtal enligt sjökortet (rättvisande kurs) styr du efter?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:33 kolumn 4 / photo_77, photo_34"
+    },
+    {
+      "id": "nav-kurs-027",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "35°",
+          "isCorrect": true
+        },
+        {
+          "text": "55°",
+          "isCorrect": false
+        },
+        {
+          "text": "45°",
+          "isCorrect": false
+        },
+        {
+          "text": "40°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "När du går från sjökortets gradtal till båtens kompass dras den ostliga missvisningen ifrån: 45° − 10° = 35°.",
+      "explanationEn": "Going from the chart course to the boat's compass, easterly variation is subtracted: 45° − 10° = 35°.",
+      "payload": {
+        "questionSv": "Du vill komma till ett sjömärke som enligt sjökortets kompassros ligger på gradtalet 45°. Missvisningen är 10° ostlig (deviation 0°). Vad ska båtens kompass visa?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:34 kolumn 1 / photo_77, photo_34"
+    },
+    {
+      "id": "nav-kurs-028",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "120°",
+          "isCorrect": true
+        },
+        {
+          "text": "140°",
+          "isCorrect": false
+        },
+        {
+          "text": "130°",
+          "isCorrect": false
+        },
+        {
+          "text": "125°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Sjökortets gradtal minus ostlig missvisning ger kompasskursen: 130° − 10° = 120°.",
+      "explanationEn": "Chart course minus easterly variation gives the compass course: 130° − 10° = 120°.",
+      "payload": {
+        "questionSv": "Du vill komma till ett sjömärke som enligt sjökortet ligger på gradtalet 130°. Missvisningen är 10° ostlig (deviation 0°). Vad ska båtens kompass visa?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:34 kolumn 2 / photo_77, photo_34"
+    },
+    {
+      "id": "nav-kurs-029",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "230°",
+          "isCorrect": true
+        },
+        {
+          "text": "250°",
+          "isCorrect": false
+        },
+        {
+          "text": "240°",
+          "isCorrect": false
+        },
+        {
+          "text": "235°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Sjökortets gradtal minus ostlig missvisning ger kompasskursen: 240° − 10° = 230°.",
+      "explanationEn": "Chart course minus easterly variation gives the compass course: 240° − 10° = 230°.",
+      "payload": {
+        "questionSv": "Du vill komma till ett sjömärke som enligt sjökortet ligger på gradtalet 240°. Missvisningen är 10° ostlig (deviation 0°). Vad ska båtens kompass visa?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:34 kolumn 3 / photo_77, photo_34"
+    },
+    {
+      "id": "nav-kurs-030",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "300°",
+          "isCorrect": true
+        },
+        {
+          "text": "320°",
+          "isCorrect": false
+        },
+        {
+          "text": "310°",
+          "isCorrect": false
+        },
+        {
+          "text": "305°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Sjökortets gradtal minus ostlig missvisning ger kompasskursen: 310° − 10° = 300°.",
+      "explanationEn": "Chart course minus easterly variation gives the compass course: 310° − 10° = 300°.",
+      "payload": {
+        "questionSv": "Du vill komma till ett sjömärke som enligt sjökortet ligger på gradtalet 310°. Missvisningen är 10° ostlig (deviation 0°). Vad ska båtens kompass visa?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:34 kolumn 4 / photo_77, photo_34"
+    },
+    {
+      "id": "nav-kurs-031",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ostlig i båda: i sjökort 61 ökande med 0,1° per år, i sjökort 93 0–0,5° E (år 2005)",
+          "isCorrect": true
+        },
+        {
+          "text": "Västlig i båda: i sjökort 61 minskande med 0,1° per år, i sjökort 93 0–0,5° W (år 2005)",
+          "isCorrect": false
+        },
+        {
+          "text": "Ostlig i sjökort 61 men västlig i sjökort 93, oförändrad från år till år",
+          "isCorrect": false
+        },
+        {
+          "text": "Ingen missvisning alls i något av korten — de är rättade till rättvisande nord",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Missvisningen anges i sjökortets kompassros med årtal och årlig ändring. I sjökort 61 var missvisningen år 2005 ostlig och ökande med 0,1° per år; i sjökort 93 var den 0–0,5° E. Kontrollera alltid årtalet och räkna upp ändringen till aktuellt år.",
+      "explanationEn": "Variation is shown in the chart's compass rose with a reference year and annual change. On chart 61 the variation in 2005 was easterly, increasing 0.1° per year; on chart 93 it was 0–0.5° E. Always check the year and apply the annual change up to the current year.",
+      "payload": {
+        "questionSv": "Vad är det för missvisning i sjökort 61 och i sjökort 93, och hur ändras den?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:35 / photo_77, photo_34"
+    },
+    {
+      "id": "nav-kurs-032",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "085°",
+          "isCorrect": true
+        },
+        {
+          "text": "075°",
+          "isCorrect": false
+        },
+        {
+          "text": "080°",
+          "isCorrect": false
+        },
+        {
+          "text": "090°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Kk 080° + deviation 0° = Km 080°. Km + ostlig missvisning 5° = K 085°. Från kompass till karta läggs ostlig missvisning till.",
+      "explanationEn": "Compass course 080° + deviation 0° = magnetic course 080°. Magnetic course + easterly variation 5° = true course 085°. Going from compass to chart, easterly variation is added.",
+      "payload": {
+        "questionSv": "Under en resa från Väddö mot Åland har rorsman hållit kompasskurs 80°. Missvisningen är 5° ostlig och deviationen 0°. Vilken rättvisande kurs ska ritas in i sjökortet?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:36 / photo_77, photo_34"
+    },
+    {
+      "id": "nav-kurs-033",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "295°",
+          "isCorrect": true
+        },
+        {
+          "text": "285°",
+          "isCorrect": false
+        },
+        {
+          "text": "290°",
+          "isCorrect": false
+        },
+        {
+          "text": "300°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Kk 290° + deviation 0° = Km 290°. Km + ostlig missvisning 5° = K 295° som ritas in i sjökortet.",
+      "explanationEn": "Compass course 290° + deviation 0° = magnetic course 290°. Adding the easterly variation of 5° gives the true course 295° to plot on the chart.",
+      "payload": {
+        "questionSv": "Under en resa från Åland mot Sverige har rorsman hållit kompasskurs 290°. Missvisningen är 5° ostlig och deviationen 0°. Vilken rättvisande kurs ska ritas in i sjökortet?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:37 / photo_77, photo_34"
+    },
+    {
+      "id": "nav-kurs-034",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "092°",
+          "isCorrect": true
+        },
+        {
+          "text": "102°",
+          "isCorrect": false
+        },
+        {
+          "text": "097°",
+          "isCorrect": false
+        },
+        {
+          "text": "087°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Kursen i sjökortet blir K 097°. Från karta till kompass dras ostlig missvisning ifrån: 097° − 5° = Km 092°, och med deviation 0° blir Kk 092°.",
+      "explanationEn": "The chart course is 097° true. Going from chart to compass, easterly variation is subtracted: 097° − 5° = 092° magnetic, and with zero deviation the compass course is 092°.",
+      "payload": {
+        "questionSv": "Du tar ut kursen från bojen Storbrottet utanför Grisslehamn till fyren Marhällan utanför Mariehamn; enligt sjökortet blir den 097°. Vilken blir kompasskursen när du tagit hänsyn till missvisningen på 5° ostlig? (Ingen ström, avdrift eller deviation.)"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort — den rättvisande kursen 097° är uttagen ur kortet och inlagd i frågan från facit.",
+      "sourceRef": "4:38 / photo_77, photo_34"
+    },
+    {
+      "id": "nav-kurs-035",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "221°",
+          "isCorrect": true
+        },
+        {
+          "text": "231°",
+          "isCorrect": false
+        },
+        {
+          "text": "226°",
+          "isCorrect": false
+        },
+        {
+          "text": "216°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Kursen i sjökortet blir K 226°. Ostlig missvisning dras ifrån på väg mot kompassen: 226° − 5° = Km 221°; deviation 0° ger Kk 221°.",
+      "explanationEn": "The chart course is 226° true. Easterly variation is subtracted when converting toward the compass: 226° − 5° = 221° magnetic; zero deviation gives a compass course of 221°.",
+      "payload": {
+        "questionSv": "Du tar ut kursen från farleden norr om fyren Marhällan till fyren Tjärven; enligt sjökortet blir den 226°. Missvisningen är 5° ostlig. Vilken blir kompasskursen? (Ingen ström, avdrift eller deviation.)"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort — den rättvisande kursen 226° är uttagen ur kortet och inlagd i frågan från facit.",
+      "sourceRef": "4:39 / photo_76, photo_34"
+    },
+    {
+      "id": "nav-kurs-036",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "317°",
+          "isCorrect": true
+        },
+        {
+          "text": "327°",
+          "isCorrect": false
+        },
+        {
+          "text": "322°",
+          "isCorrect": false
+        },
+        {
+          "text": "312°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Kursen i sjökortet blir K 322°. Ostlig missvisning dras ifrån: 322° − 5° = Km 317°; deviation 0° ger Kk 317°.",
+      "explanationEn": "The chart course is 322° true. Subtracting the 5° easterly variation gives 317° magnetic; zero deviation gives a compass course of 317°.",
+      "payload": {
+        "questionSv": "Du tar ut kursen från nordmärket Hummelgrund (SO om Tjärven) till fyren Svartklubben; enligt sjökortet blir den 322°. Missvisningen är 5° ostlig. Vilken blir kompasskursen? (Ingen ström, avdrift eller deviation.)"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort — den rättvisande kursen 322° är uttagen ur kortet och inlagd i frågan från facit.",
+      "sourceRef": "4:40 / photo_76, photo_34"
+    },
+    {
+      "id": "nav-kurs-037",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "347°",
+          "isCorrect": true
+        },
+        {
+          "text": "357°",
+          "isCorrect": false
+        },
+        {
+          "text": "352°",
+          "isCorrect": false
+        },
+        {
+          "text": "342°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Kursen i sjökortet blir K 352°. Ostlig missvisning dras ifrån: 352° − 5° = Km 347°; deviation 0° ger Kk 347°.",
+      "explanationEn": "The chart course is 352° true. Subtracting the 5° easterly variation gives 347° magnetic; zero deviation gives a compass course of 347°.",
+      "payload": {
+        "questionSv": "Du tar ut kursen från fyren Flötjan (mitt i Ålands hav) till fyren Utbådan (nordväst om fyren Marhällan); enligt sjökortet blir den 352°. Missvisningen är 5° ostlig. Vilken blir kompasskursen? (Ingen ström, avdrift eller deviation.)"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort — den rättvisande kursen 352° är uttagen ur kortet och inlagd i frågan från facit.",
+      "sourceRef": "4:41 / photo_76, photo_34"
+    },
+    {
+      "id": "nav-kurs-038",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "050°",
+          "isCorrect": true
+        },
+        {
+          "text": "056°",
+          "isCorrect": false
+        },
+        {
+          "text": "053°",
+          "isCorrect": false
+        },
+        {
+          "text": "047°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Från kompass till magnetisk kurs läggs deviationen till med sitt tecken: Kk 053° + (−3°) = Km 050°. Deviationen är inte densamma på alla kurser — därför används en deviationstabell.",
+      "explanationEn": "Going from compass to magnetic course, deviation is applied with its sign: 053° + (−3°) = 050° magnetic. Deviation differs from course to course, which is why a deviation table is used.",
+      "payload": {
+        "questionSv": "Du har styrt kompasskurs 053°. Enligt deviationstabellen är deviationen på denna kurs −3°. Vilken är den motsvarande magnetiska kursen?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:42a / photo_76, photo_33"
+    },
+    {
+      "id": "nav-kurs-039",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "072°",
+          "isCorrect": true
+        },
+        {
+          "text": "082°",
+          "isCorrect": false
+        },
+        {
+          "text": "077°",
+          "isCorrect": false
+        },
+        {
+          "text": "067°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Kk 077° + deviation (−5°) = Km 072°. Negativ (västlig) deviation dras ifrån kompasskursen.",
+      "explanationEn": "Compass course 077° + deviation (−5°) = magnetic course 072°. Negative (westerly) deviation is subtracted from the compass course.",
+      "payload": {
+        "questionSv": "Du har styrt kompasskurs 077°. Enligt deviationstabellen är deviationen på denna kurs −5°. Vilken är den motsvarande magnetiska kursen?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:42b / photo_76, photo_33"
+    },
+    {
+      "id": "nav-kurs-040",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "215°",
+          "isCorrect": true
+        },
+        {
+          "text": "209°",
+          "isCorrect": false
+        },
+        {
+          "text": "212°",
+          "isCorrect": false
+        },
+        {
+          "text": "218°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Kk 212° + deviation (+3°) = Km 215°. Positiv (ostlig) deviation läggs till kompasskursen.",
+      "explanationEn": "Compass course 212° + deviation (+3°) = magnetic course 215°. Positive (easterly) deviation is added to the compass course.",
+      "payload": {
+        "questionSv": "Du har styrt kompasskurs 212°. Enligt deviationstabellen är deviationen på denna kurs +3°. Vilken är den motsvarande magnetiska kursen?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:42c / photo_76, photo_33"
+    },
+    {
+      "id": "nav-kurs-041",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "094°",
+          "isCorrect": true
+        },
+        {
+          "text": "082°",
+          "isCorrect": false
+        },
+        {
+          "text": "088°",
+          "isCorrect": false
+        },
+        {
+          "text": "091°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "K 091° − ostlig missvisning 3° = Km 088°. Från magnetisk kurs till kompasskurs dras deviationen ifrån med sitt tecken: Kk = 088° − (−6°) = 094°.",
+      "explanationEn": "True course 091° − easterly variation 3° = magnetic course 088°. From magnetic to compass course, deviation is removed with its sign: 088° − (−6°) = 094° to steer.",
+      "payload": {
+        "questionSv": "Du ska räkna ut vilken kompasskurs som ska styras. Rättvisande kurs enligt sjökortet är 091° och missvisningen 3° ostlig, vilket ger magnetisk kurs 088°. Deviationen på denna kurs är −6° enligt deviationstabellen. Vilken kompasskurs ska styras?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:43 del 1 / photo_76, photo_33"
+    },
+    {
+      "id": "nav-kurs-042",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "171°",
+          "isCorrect": true
+        },
+        {
+          "text": "169°",
+          "isCorrect": false
+        },
+        {
+          "text": "170°",
+          "isCorrect": false
+        },
+        {
+          "text": "173°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "K 173° − ostlig missvisning 3° = Km 170°. Kk = Km − deviation = 170° − (−1°) = 171°.",
+      "explanationEn": "True course 173° − easterly variation 3° = magnetic course 170°. Compass course = 170° − (−1°) = 171°.",
+      "payload": {
+        "questionSv": "Rättvisande kurs enligt sjökortet är 173° och missvisningen 3° ostlig, vilket ger magnetisk kurs 170°. Deviationen på denna kurs är −1° enligt deviationstabellen. Vilken kompasskurs ska styras?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:43 del 2 / photo_76, photo_33"
+    },
+    {
+      "id": "nav-kurs-043",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "209°",
+          "isCorrect": true
+        },
+        {
+          "text": "215°",
+          "isCorrect": false
+        },
+        {
+          "text": "212°",
+          "isCorrect": false
+        },
+        {
+          "text": "206°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "K 215° − ostlig missvisning 3° = Km 212°. Kk = Km − deviation = 212° − (+3°) = 209°.",
+      "explanationEn": "True course 215° − easterly variation 3° = magnetic course 212°. Compass course = 212° − (+3°) = 209°.",
+      "payload": {
+        "questionSv": "Rättvisande kurs enligt sjökortet är 215° och missvisningen 3° ostlig, vilket ger magnetisk kurs 212°. Deviationen på denna kurs är +3° enligt deviationstabellen. Vilken kompasskurs ska styras?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:43 del 3 / photo_76, photo_33"
+    },
+    {
+      "id": "nav-kurs-044",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "311°",
+          "isCorrect": true
+        },
+        {
+          "text": "321°",
+          "isCorrect": false
+        },
+        {
+          "text": "316°",
+          "isCorrect": false
+        },
+        {
+          "text": "314°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "K 319° − ostlig missvisning 3° = Km 316°. Kk = Km − deviation = 316° − (+5°) = 311°.",
+      "explanationEn": "True course 319° − easterly variation 3° = magnetic course 316°. Compass course = 316° − (+5°) = 311°.",
+      "payload": {
+        "questionSv": "Rättvisande kurs enligt sjökortet är 319° och missvisningen 3° ostlig, vilket ger magnetisk kurs 316°. Deviationen på denna kurs är +5° enligt deviationstabellen. Vilken kompasskurs ska styras?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:43 del 4 / photo_76, photo_33"
     }
   ]
 }

@@ -1,0 +1,850 @@
+{
+  "topicId": "top-nav-baring",
+  "items": [
+    {
+      "id": "nav-bar-001",
+      "topicId": "top-nav-baring",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Rakt söder om Lågskärs östra udde och rakt öster om Krokskärs norra udde",
+          "isCorrect": true
+        },
+        {
+          "text": "Rakt norr om Lågskärs östra udde och rakt väster om Krokskärs norra udde",
+          "isCorrect": false
+        },
+        {
+          "text": "Rakt väster om Lågskärs östra udde och rakt söder om Krokskärs norra udde",
+          "isCorrect": false
+        },
+        {
+          "text": "Rakt öster om Lågskärs östra udde och rakt norr om Krokskärs norra udde",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Bäring TILL ett föremål i nord betyder att du själv är söder om föremålet; bäring till ett föremål i väst betyder att du är öster om det. Positionen är skärningen mellan de två ortlinjerna: söder om Lågskärs östra udde och öster om Krokskärs norra udde.",
+      "explanationEn": "A bearing TO an object of north means you are south of it; a bearing to an object of west means you are east of it. The fix is the intersection of the two position lines: south of Lågskär's east point and east of Krokskär's north point.",
+      "payload": {
+        "questionSv": "Du har syftpejlat över kompassen: Lågskärs östra udde i nord och samtidigt Krokskärs norra udde i väst. Var befinner sig båten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:45a / photo_75, photo_33"
+    },
+    {
+      "id": "nav-bar-002",
+      "topicId": "top-nav-baring",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Rakt söder om Lågskärs västra udde och rakt öster om Krokskärs södra udde",
+          "isCorrect": true
+        },
+        {
+          "text": "Rakt norr om Lågskärs västra udde och rakt väster om Krokskärs södra udde",
+          "isCorrect": false
+        },
+        {
+          "text": "Rakt öster om Lågskärs västra udde och rakt söder om Krokskärs södra udde",
+          "isCorrect": false
+        },
+        {
+          "text": "Rakt väster om Lågskärs västra udde och rakt norr om Krokskärs södra udde",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Bäring till Lågskärs västra udde i nord ger en ortlinje rakt söderut från udden; bäring till Krokskärs södra udde i väst ger en ortlinje rakt österut från udden. Båten ligger i skärningspunkten.",
+      "explanationEn": "Bearing to Lågskär's west point of north puts you on a line due south of that point; bearing to Krokskär's south point of west puts you due east of it. The boat is at the intersection.",
+      "payload": {
+        "questionSv": "Du har syftpejlat: Lågskärs västra udde i nord och samtidigt Krokskärs södra udde i väst. Var befinner sig båten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:45b / photo_75, photo_33"
+    },
+    {
+      "id": "nav-bar-003",
+      "topicId": "top-nav-baring",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Rakt norr om Tallskärs västra udde och rakt öster om Lågskärs norra strand",
+          "isCorrect": true
+        },
+        {
+          "text": "Rakt söder om Tallskärs västra udde och rakt väster om Lågskärs norra strand",
+          "isCorrect": false
+        },
+        {
+          "text": "Rakt väster om Tallskärs västra udde och rakt norr om Lågskärs norra strand",
+          "isCorrect": false
+        },
+        {
+          "text": "Rakt öster om Tallskärs västra udde och rakt söder om Lågskärs norra strand",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Bäring till ett föremål i syd betyder att du är norr om föremålet, och bäring till ett föremål i väst att du är öster om det. Positionen blir norr om Tallskärs västra udde och öster om Lågskärs norra strand.",
+      "explanationEn": "A bearing to an object of south means you are north of it, and a bearing of west means you are east of it. The fix is north of Tallskär's west point and east of Lågskär's northern shore.",
+      "payload": {
+        "questionSv": "Du har syftpejlat: Tallskärs västra udde i syd och samtidigt Lågskärs norra strand i väst. Var befinner sig båten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:45c / photo_75, photo_33"
+    },
+    {
+      "id": "nav-bar-004",
+      "topicId": "top-nav-baring",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Cirka 120°",
+          "isCorrect": true
+        },
+        {
+          "text": "Cirka 300°",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 235°",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 65°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Bäringen FRÅN båten TILL kumlet är riktningen du ser kumlet i, oavsett vilken kurs båten styr. Ligger båten nordväst om kumlet ser den kumlet i sydostlig riktning, cirka 120°. 300° vore bäringen från kumlet till båten.",
+      "explanationEn": "The bearing FROM the boat TO the cairn is the direction in which you see the cairn, regardless of the boat's heading. A boat north-west of the cairn sees it to the south-east, about 120°. 300° would be the bearing from the cairn to the boat.",
+      "payload": {
+        "questionSv": "Se figur: fyra segelbåtar ligger runt ett kummel. Uppskatta bäringen från båten som ligger nordväst om kumlet till kumlet."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:46 båt NV / photo_75, photo_33"
+    },
+    {
+      "id": "nav-bar-005",
+      "topicId": "top-nav-baring",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Cirka 235°",
+          "isCorrect": true
+        },
+        {
+          "text": "Cirka 55°",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 120°",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 280°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Båten nordost om kumlet ser kumlet i sydvästlig riktning, cirka 235°. Motsatt riktning (55°) är bäringen från kumlet till båten — skilj på bäring till och bäring från. Kursen båten styr saknar betydelse för bäringen.",
+      "explanationEn": "The boat north-east of the cairn sees it to the south-west, about 235°. The reciprocal (55°) is the bearing from the cairn to the boat — keep 'bearing to' and 'bearing from' apart. The boat's heading has nothing to do with the bearing.",
+      "payload": {
+        "questionSv": "Se figur: fyra segelbåtar ligger runt ett kummel. Uppskatta bäringen från båten som ligger nordost om kumlet till kumlet."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:46 båt NO / photo_75, photo_33"
+    },
+    {
+      "id": "nav-bar-006",
+      "topicId": "top-nav-baring",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Cirka 65°",
+          "isCorrect": true
+        },
+        {
+          "text": "Cirka 245°",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 120°",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 335°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Båten sydväst om kumlet ser kumlet i nordostlig riktning, cirka 65°. 245° är den motsatta riktningen, dvs. bäringen från kumlet till båten.",
+      "explanationEn": "The boat south-west of the cairn sees it to the north-east, about 65°. 245° is the reciprocal, i.e. the bearing from the cairn to the boat.",
+      "payload": {
+        "questionSv": "Se figur: fyra segelbåtar ligger runt ett kummel. Uppskatta bäringen från båten som ligger sydväst om kumlet till kumlet."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:46 båt SV / photo_75, photo_33"
+    },
+    {
+      "id": "nav-bar-007",
+      "topicId": "top-nav-baring",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Cirka 280°",
+          "isCorrect": true
+        },
+        {
+          "text": "Cirka 100°",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 235°",
+          "isCorrect": false
+        },
+        {
+          "text": "Cirka 65°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Båten sydost om kumlet ser kumlet i västnordvästlig riktning, cirka 280°. 100° är motsatt riktning — bäringen från kumlet till båten.",
+      "explanationEn": "The boat south-east of the cairn sees it to the west-north-west, about 280°. 100° is the reciprocal — the bearing from the cairn to the boat.",
+      "payload": {
+        "questionSv": "Se figur: fyra segelbåtar ligger runt ett kummel. Uppskatta bäringen från båten som ligger sydost om kumlet till kumlet."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:46 båt SO / photo_75, photo_33"
+    },
+    {
+      "id": "nav-bar-008",
+      "topicId": "top-nav-baring",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "I riktning 145° från Örngrund — bäringens motriktning",
+          "isCorrect": true
+        },
+        {
+          "text": "I riktning 325° från Örngrund — samma riktning som bäringen",
+          "isCorrect": false
+        },
+        {
+          "text": "I riktning 035° från Örngrund — vinkelrätt mot bäringen",
+          "isCorrect": false
+        },
+        {
+          "text": "I riktning 215° från Örngrund — bäringen minus 110°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Bäringen 325° är riktningen från båten till Örngrund. Ortlinjen ritas från fyren i motriktningen: 325° − 180° = 145°. Där denna linje skär ortlinjen från Östra Röko (045° ger motriktning 225°) ligger positionen.",
+      "explanationEn": "The bearing 325° is the direction from the boat to Örngrund. The position line is drawn from the light in the reciprocal direction: 325° − 180° = 145°. The fix is where this line crosses the line from Östra Röko (bearing 045°, reciprocal 225°).",
+      "payload": {
+        "questionSv": "Du passerar Mysingen på nordgående och pejlar 325° till Örngrund och 045° till Östra Röko. I vilken riktning från Örngrund ritar du ortlinjen för att pricka positionen i sjökortet?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort för den exakta positionen; frågan omformulerad till ortlinjens motriktning. Se facitfigur i photo_33.",
+      "sourceRef": "4:47a / photo_75, photo_33"
+    },
+    {
+      "id": "nav-bar-009",
+      "topicId": "top-nav-baring",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "I riktning 153° från Älvsnabben — bäringens motriktning",
+          "isCorrect": true
+        },
+        {
+          "text": "I riktning 333° från Älvsnabben — samma riktning som bäringen",
+          "isCorrect": false
+        },
+        {
+          "text": "I riktning 063° från Älvsnabben — vinkelrätt mot bäringen",
+          "isCorrect": false
+        },
+        {
+          "text": "I riktning 213° från Älvsnabben — bäringen minus 120°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Bäringen 333° är från båten till Älvsnabben; ortlinjen ritas från fyren i motriktningen 333° − 180° = 153°. Positionen fås där linjen skär ortlinjen från Mysingeholm (044°, motriktning 224°).",
+      "explanationEn": "The 333° bearing is from the boat to Älvsnabben; the position line is drawn from the light in the reciprocal direction 333° − 180° = 153°. The fix is where it crosses the line from Mysingeholm (044°, reciprocal 224°).",
+      "payload": {
+        "questionSv": "Du pejlar 333° till Älvsnabben och 044° till Mysingeholm. I vilken riktning från Älvsnabben ritar du ortlinjen för att pricka positionen i sjökortet?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort för den exakta positionen; frågan omformulerad till ortlinjens motriktning. Se facitfigur i photo_33.",
+      "sourceRef": "4:47b / photo_75, photo_33"
+    },
+    {
+      "id": "nav-bar-010",
+      "topicId": "top-nav-baring",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "I riktning 200° från Söderhäll — bäringens motriktning",
+          "isCorrect": true
+        },
+        {
+          "text": "I riktning 020° från Söderhäll — samma riktning som bäringen",
+          "isCorrect": false
+        },
+        {
+          "text": "I riktning 340° från Söderhäll — bäringen speglad i nord",
+          "isCorrect": false
+        },
+        {
+          "text": "I riktning 110° från Söderhäll — vinkelrätt mot bäringen",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Bäringen 020° är från båten till Söderhäll; ortlinjen ritas från märket i motriktningen 020° + 180° = 200°. Skärningen med ortlinjen från Mysingeholm (070°, motriktning 250°) ger positionen.",
+      "explanationEn": "The 020° bearing is from the boat to Söderhäll; the position line is drawn from the mark in the reciprocal direction 020° + 180° = 200°. Crossing it with the line from Mysingeholm (070°, reciprocal 250°) gives the fix.",
+      "payload": {
+        "questionSv": "Du pejlar 020° till Söderhäll och 070° till Mysingeholm. I vilken riktning från Söderhäll ritar du ortlinjen för att pricka positionen i sjökortet?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort för den exakta positionen; frågan omformulerad till ortlinjens motriktning. Se facitfigur i photo_33.",
+      "sourceRef": "4:47c / photo_75, photo_33"
+    },
+    {
+      "id": "nav-bar-011",
+      "topicId": "top-nav-baring",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "I riktning 065° från Söderhäll — bäringens motriktning",
+          "isCorrect": true
+        },
+        {
+          "text": "I riktning 245° från Söderhäll — samma riktning som bäringen",
+          "isCorrect": false
+        },
+        {
+          "text": "I riktning 115° från Söderhäll — bäringen minus 130°",
+          "isCorrect": false
+        },
+        {
+          "text": "I riktning 335° från Söderhäll — vinkelrätt mot bäringen",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Bäringen 245° är från båten till Söderhäll; ortlinjen ritas från märket i motriktningen 245° − 180° = 065°. Skärningen med ortlinjen från Långgarn (000°, motriktning 180°) ger positionen.",
+      "explanationEn": "The 245° bearing is from the boat to Söderhäll; the position line is drawn from the mark in the reciprocal direction 245° − 180° = 065°. Crossing it with the line from Långgarn (000°, reciprocal 180°) gives the fix.",
+      "payload": {
+        "questionSv": "Du pejlar 245° till Söderhäll och 000° till Långgarn. I vilken riktning från Söderhäll ritar du ortlinjen för att pricka positionen i sjökortet?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort för den exakta positionen; frågan omformulerad till ortlinjens motriktning. Se facitfigur i photo_33.",
+      "sourceRef": "4:47d / photo_75, photo_33"
+    },
+    {
+      "id": "nav-bar-012",
+      "topicId": "top-nav-baring",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "040°",
+          "isCorrect": true
+        },
+        {
+          "text": "004°",
+          "isCorrect": false
+        },
+        {
+          "text": "140°",
+          "isCorrect": false
+        },
+        {
+          "text": "220°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En pejling rätt förut sammanfaller med båtens kurs, dvs. det kompassen visar: 40°. Många båtkompasser har bara ett streck för var femte grad och siffror bara var tjugonde grad — rorsman lägger till en nolla efter de utskrivna siffrorna (kompassens '4' betyder 40°).",
+      "explanationEn": "A bearing dead ahead coincides with the boat's heading, i.e. what the compass shows: 40°. Many boat compasses mark only every fifth degree and print numbers only every twentieth — the helmsman adds a zero to the printed figures (the compass '4' means 40°).",
+      "payload": {
+        "questionSv": "Se figur: från styrplatsen syns båtens kompass, som visar 40°. I vilket gradtal pejlar båten en udde som ligger rätt förut?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:48 / photo_75, photo_32"
+    },
+    {
+      "id": "nav-bar-013",
+      "topicId": "top-nav-baring",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Från masten i 160° och från fyren i 213° — positionen är skärningspunkten",
+          "isCorrect": true
+        },
+        {
+          "text": "Från masten i 340° och från fyren i 033° — samma riktningar som pejlingarna",
+          "isCorrect": false
+        },
+        {
+          "text": "Från masten i 160° och från fyren i 033° — bara mastbäringen vänds",
+          "isCorrect": false
+        },
+        {
+          "text": "Från masten i 200° och från fyren i 253° — pejlingarna minus 140°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Bäringarna är från båten till föremålen. Ortlinjerna ritas därför från föremålen i motriktningarna: 340° − 180° = 160° från masten och 033° + 180° = 213° från Huvudskärs fyr. Positionen är där linjerna skär varandra.",
+      "explanationEn": "The bearings are from the boat to the objects, so the position lines are drawn from the objects in the reciprocal directions: 340° − 180° = 160° from the mast and 033° + 180° = 213° from the Huvudskär light. The fix is where the lines cross.",
+      "payload": {
+        "questionSv": "På väg in mot Mysingen via Järnholmssund pejlar du masten på S Ornö i 340° och Huvudskärs fyr i 033°. Hur ritar du ortlinjerna i sjökortet för att få positionen?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 för den exakta positionen; se facitfigur 4:49a i photo_32.",
+      "sourceRef": "4:49a / photo_74, photo_32"
+    },
+    {
+      "id": "nav-bar-014",
+      "topicId": "top-nav-baring",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Från masten i 160° och från fyren i 245° — positionen är skärningspunkten",
+          "isCorrect": true
+        },
+        {
+          "text": "Från masten i 340° och från fyren i 065° — samma riktningar som pejlingarna",
+          "isCorrect": false
+        },
+        {
+          "text": "Från masten i 160° och från fyren i 065° — bara mastbäringen vänds",
+          "isCorrect": false
+        },
+        {
+          "text": "Från masten i 250° och från fyren i 155° — pejlingarna vridna 90°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ortlinjerna ritas från föremålen i pejlingarnas motriktningar: 340° − 180° = 160° från masten och 065° + 180° = 245° från Huvudskärs fyr. Skärningen ger den nya positionen.",
+      "explanationEn": "The position lines are drawn from the objects in the reciprocal directions of the bearings: 340° − 180° = 160° from the mast and 065° + 180° = 245° from the Huvudskär light. Their intersection is the new fix.",
+      "payload": {
+        "questionSv": "Du fortsätter mot Mysingen och pejlar masten på S Ornö i 340° och Huvudskärs fyr i 065°. Hur ritar du ortlinjerna i sjökortet för att få positionen?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 för den exakta positionen; se facitfigur 4:49b i photo_32.",
+      "sourceRef": "4:49b / photo_74, photo_32"
+    },
+    {
+      "id": "nav-bar-015",
+      "topicId": "top-nav-baring",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Från masten i 160° och från kvarnen i 110° — positionen är skärningspunkten",
+          "isCorrect": true
+        },
+        {
+          "text": "Från masten i 340° och från kvarnen i 290° — samma riktningar som pejlingarna",
+          "isCorrect": false
+        },
+        {
+          "text": "Från masten i 160° och från kvarnen i 290° — bara mastbäringen vänds",
+          "isCorrect": false
+        },
+        {
+          "text": "Från masten i 070° och från kvarnen i 020° — pejlingarna minus 270°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Motriktningarna blir 340° − 180° = 160° från masten och 290° − 180° = 110° från Utö kvarn. Ortlinjerna dras från föremålen i dessa riktningar och positionen ligger i skärningen.",
+      "explanationEn": "The reciprocals are 340° − 180° = 160° from the mast and 290° − 180° = 110° from the Utö windmill. The position lines are drawn from the objects in those directions and the fix is at the intersection.",
+      "payload": {
+        "questionSv": "Du pejlar masten på S Ornö i 340° och kvarnen på Utö i 290°. Hur ritar du ortlinjerna i sjökortet för att få positionen?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 för den exakta positionen; se facitfigur 4:49c i photo_32.",
+      "sourceRef": "4:49c / photo_74, photo_32"
+    },
+    {
+      "id": "nav-bar-016",
+      "topicId": "top-nav-baring",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Från masten i 180° och från kvarnen i 110° — positionen är skärningspunkten",
+          "isCorrect": true
+        },
+        {
+          "text": "Från masten i 000° och från kvarnen i 290° — samma riktningar som pejlingarna",
+          "isCorrect": false
+        },
+        {
+          "text": "Från masten i 180° och från kvarnen i 290° — bara mastbäringen vänds",
+          "isCorrect": false
+        },
+        {
+          "text": "Från masten i 090° och från kvarnen i 200° — pejlingarna vridna 90°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Pejling 000° till masten betyder att båten ligger rakt söder om den — ortlinjen ritas från masten i 180°. Pejling 290° till kvarnen ger motriktningen 110°. Positionen är skärningen.",
+      "explanationEn": "A bearing of 000° to the mast means the boat is due south of it — the position line is drawn from the mast in 180°. The 290° bearing to the windmill gives a reciprocal of 110°. The fix is the intersection.",
+      "payload": {
+        "questionSv": "Du pejlar masten på S Ornö i 000° och kvarnen på Utö i 290°. Hur ritar du ortlinjerna i sjökortet för att få positionen?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 för den exakta positionen; se facitfigur 4:49d i photo_32.",
+      "sourceRef": "4:49d / photo_74, photo_32"
+    },
+    {
+      "id": "nav-bar-017",
+      "topicId": "top-nav-baring",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ja — styr rakt mot föremålet och läs styrkompassen, eller syfta över styrkompassen med skuggstift eller en penna",
+          "isCorrect": true
+        },
+        {
+          "text": "Nej — utan handpejlkompass går det inte att ta några bäringar alls",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja — men bara genom att uppskatta bäringen på ögonmått mot solens riktning",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja — läs av loggen och räkna om den utseglade distansen till en bäring",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Styrkompassen kan användas som pejlkompass: styr mot föremålet som ska pejlas och läs av kursen, eller syfta över styrkompassen med hjälp av så kallat skuggstift eller genom att lägga exempelvis en blyertspenna över kompassen.",
+      "explanationEn": "The steering compass can serve as a bearing compass: steer straight at the object and read the heading, or sight across the steering compass using a shadow pin or by laying a pencil across it.",
+      "payload": {
+        "questionSv": "Handpejlkompassen trillar i sjön. Finns det några andra möjligheter att pejla?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:50 / photo_74, photo_32"
+    },
+    {
+      "id": "nav-bar-018",
+      "topicId": "top-nav-baring",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Sydost om Gunnarstenarna och nästan rakt öster om Landsort",
+          "isCorrect": true
+        },
+        {
+          "text": "Nordväst om Gunnarstenarna och väster om Landsort",
+          "isCorrect": false
+        },
+        {
+          "text": "Norr om Gunnarstenarna och söder om Landsort",
+          "isCorrect": false
+        },
+        {
+          "text": "Sydväst om Gunnarstenarna och norr om Landsort",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Bäring 318° till Gunnarstenarna betyder att båten ligger i motriktningen 138° från fyren (sydost om den); bäring 274° till Landsort ger 094° från fyren (nästan rakt öster). Positionen är skärningen av ortlinjerna. Handpejlkompassen visar magnetisk bäring (Bm) som bara rättas för missvisning — men du måste stå på en deviationsfri plats, minst cirka en meter från magnetiska föremål.",
+      "explanationEn": "A 318° bearing to Gunnarstenarna puts the boat on the reciprocal 138° from the light (south-east of it); 274° to Landsort gives 094° (almost due east). The fix is the intersection of the position lines. A hand-bearing compass reads magnetic bearings, corrected only for variation — but you must stand at a deviation-free spot, at least about a metre from magnetic objects.",
+      "payload": {
+        "questionSv": "På väg sydvästvart från Huvudskär pejlar du med handpejlkompass Gunnarstenarnas fyr i magnetisk bäring 318° och Landsorts fyr i 274°. Var i förhållande till fyrarna ligger positionen?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 61 för den exakta positionen; se facitfigur 4:51 i photo_32.",
+      "sourceRef": "4:51a / photo_74, photo_32"
+    },
+    {
+      "id": "nav-bar-019",
+      "topicId": "top-nav-baring",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Nästan rakt söder om Gunnarstenarna och ostsydost om Landsort",
+          "isCorrect": true
+        },
+        {
+          "text": "Nästan rakt norr om Gunnarstenarna och västnordväst om Landsort",
+          "isCorrect": false
+        },
+        {
+          "text": "Öster om Gunnarstenarna och norr om Landsort",
+          "isCorrect": false
+        },
+        {
+          "text": "Väster om Gunnarstenarna och söder om Landsort",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Bäring 349° till Gunnarstenarna ger motriktningen 169° — båten är nästan rakt söder om fyren. Bäring 286° till Landsort ger 106° — ostsydost om fyren. Positionen ligger där ortlinjerna korsas.",
+      "explanationEn": "A 349° bearing to Gunnarstenarna gives the reciprocal 169° — the boat is almost due south of the light. 286° to Landsort gives 106° — east-south-east of it. The fix is where the position lines cross.",
+      "payload": {
+        "questionSv": "Du pejlar senare Gunnarstenarna i magnetisk bäring 349° och Landsort i 286°. Var i förhållande till fyrarna ligger positionen?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 61 för den exakta positionen; se facitfigur 4:51 i photo_32.",
+      "sourceRef": "4:51b / photo_74, photo_32"
+    },
+    {
+      "id": "nav-bar-020",
+      "topicId": "top-nav-baring",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Sydsydväst om Gunnarstenarna och sydost om Landsort",
+          "isCorrect": true
+        },
+        {
+          "text": "Nordnordost om Gunnarstenarna och nordväst om Landsort",
+          "isCorrect": false
+        },
+        {
+          "text": "Öster om Gunnarstenarna och norr om Landsort",
+          "isCorrect": false
+        },
+        {
+          "text": "Rakt väster om Gunnarstenarna och rakt söder om Landsort",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Bäring 013° till Gunnarstenarna ger motriktningen 193° — båten är sydsydväst om fyren. Bäring 309° till Landsort ger 129° — sydost om fyren. Skärningen av ortlinjerna ger positionen.",
+      "explanationEn": "A 013° bearing to Gunnarstenarna gives the reciprocal 193° — the boat is south-south-west of the light. 309° to Landsort gives 129° — south-east of it. The intersection of the position lines is the fix.",
+      "payload": {
+        "questionSv": "Vid tredje pejlingen tar du Gunnarstenarna i magnetisk bäring 013° och Landsort i 309°. Var i förhållande till fyrarna ligger positionen?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 61 för den exakta positionen; se facitfigur 4:51 i photo_32.",
+      "sourceRef": "4:51c / photo_74, photo_32"
+    },
+    {
+      "id": "nav-bar-021",
+      "topicId": "top-nav-baring",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "8 M — den utseglade distansen mellan pejlingarna",
+          "isCorrect": true
+        },
+        {
+          "text": "7 M — loggens värde vid första pejlingen",
+          "isCorrect": false
+        },
+        {
+          "text": "15 M — loggens värde vid andra pejlingen",
+          "isCorrect": false
+        },
+        {
+          "text": "22 M — loggvärdena adderade",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Transporterad bäring: den första ortlinjen (253° Bm mot Svenska Högarna vid logg 7 M) parallellförflyttas längs kursen 193° den utseglade distansen 15 − 7 = 8 M. Där den flyttade linjen skär den andra ortlinjen (305° Bm) ligger positionen. Observera att handpejlkompassen bara är användbar där det inte finns någon deviation — inga magnetiska föremål närmare än cirka en meter.",
+      "explanationEn": "Running fix: the first position line (253° magnetic to Svenska Högarna at log 7 M) is transferred along the 193° course by the distance run, 15 − 7 = 8 M. The fix is where the transferred line crosses the second position line (305°). Note that a hand-bearing compass is only usable where there is no deviation — no magnetic objects within about a metre.",
+      "payload": {
+        "questionSv": "På resa söderut passerar du Armbågens östra lysboj och nollställer loggen; planerad kurs i sjökortet är 193°. När loggen visar 7 M pejlas Svenska Högarnas fyr i magnetisk bäring 253°, och när loggen visar 15 M pejlas fyren igen i 305°. Hur långt ska den första ortlinjen parallellförflyttas längs kursen för att bestämma positionen vid andra pejlingen?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:52a / photo_74, photo_31"
+    },
+    {
+      "id": "nav-bar-022",
+      "topicId": "top-nav-baring",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "11 M — den utseglade distansen mellan pejlingarna",
+          "isCorrect": true
+        },
+        {
+          "text": "27 M — loggens värde vid första pejlingen",
+          "isCorrect": false
+        },
+        {
+          "text": "38 M — loggens värde vid andra pejlingen",
+          "isCorrect": false
+        },
+        {
+          "text": "9 M — skillnaden avrundad nedåt",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Den första ortlinjen (254° Bm mot Almagrundet vid logg 27 M) parallellförflyttas längs den nya kursen 220° den utseglade distansen 38 − 27 = 11 M och skärs med den andra ortlinjen (33° Bm). Skärningen ger positionen vid andra pejlingen.",
+      "explanationEn": "The first position line (254° magnetic to Almagrundet at log 27 M) is transferred along the new 220° course by the distance run, 38 − 27 = 11 M, and crossed with the second position line (33°). The intersection is the fix at the second bearing.",
+      "payload": {
+        "questionSv": "Från positionen ritas en ny planerad kurs 220° i sjökortet. När loggen visar 27 M pejlas Almagrundets fyr första gången i magnetisk bäring 254°, och andra gången vid logg 38 M i 33°. Hur långt ska den första ortlinjen parallellförflyttas längs kursen för att bestämma positionen vid andra pejlingen?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "4:52b / photo_74, photo_31"
+    },
+    {
+      "id": "nav-bar-023",
+      "topicId": "top-nav-baring",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Skriv djupsiffrorna med en sjömils mellanrum längs kanten av ett papper, lägg pappret utmed den planerade kursen och parallellförflytta det tills siffrorna stämmer med sjökortets djup",
+          "isCorrect": true
+        },
+        {
+          "text": "Räkna ut medeldjupet av de tio lodskotten och sök upp den djupkurva i sjökortet som har samma värde",
+          "isCorrect": false
+        },
+        {
+          "text": "Ankra på det grundaste lodskottet och pejla närmaste fyr för att få en ortlinje längs djupkurvan",
+          "isCorrect": false
+        },
+        {
+          "text": "Följ den djupkurva som motsvarar det första lodskottet tills den skär den planerade kurslinjen",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Lodserie: skriv de tio djupuppgifterna vid märken med en sjömils mellanrum (motsvarande farten) längs en papperskant, lägg pappret längs den planerade kursen och flytta det parallellt med kurslinjen åt väster och öster tills siffrorna stämmer med sjökortets djupkurvor och djupsiffror. I facit stämmer lodserien ungefär 2,5 M öster om kurslinjen — där är positionen.",
+      "explanationEn": "Depth-sounding line of soundings: write the ten depths at one-nautical-mile intervals along the edge of a piece of paper, lay it along the planned course and slide it parallel to the course line east and west until the figures match the chart's depth contours and soundings. In the answer key the series matches about 2.5 M east of the course line — that is the position.",
+      "payload": {
+        "questionSv": "Vid angöring av Huvudskär med nordlig kurs i disigt väder utgår du från ett räknat läge 10 M rakt syd om Huvudskärs fyr. Med en sjömils mellanrum ger ekolodet djupen 110, 105, 90, 88, 102, 55, 40, 35, 52, 50. Hur använder du lodserien för att bestämma positionen?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 för den exakta positionen (facit: cirka 2,5 M öster om kurslinjen).",
+      "sourceRef": "4:56 / photo_73, photo_30"
+    }
+  ]
+}

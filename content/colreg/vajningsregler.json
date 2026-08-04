@@ -4,104 +4,1950 @@
     {
       "id": "col-vaj-001",
       "topicId": "top-col-vajning",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "Båda girar styrbord och går om varandra babord mot babord", "isCorrect": true },
-        { "text": "Båda girar babord och går om varandra styrbord mot styrbord", "isCorrect": false },
-        { "text": "Den snabbare båten väljer sida och den långsammare håller kurs", "isCorrect": false },
-        { "text": "Den mindre båten väjer alltid för den större", "isCorrect": false }
+        {
+          "text": "Båda girar styrbord och går om varandra babord mot babord",
+          "isCorrect": true
+        },
+        {
+          "text": "Båda girar babord och går om varandra styrbord mot styrbord",
+          "isCorrect": false
+        },
+        {
+          "text": "Den snabbare båten väljer sida och den långsammare håller kurs",
+          "isCorrect": false
+        },
+        {
+          "text": "Den mindre båten väjer alltid för den större",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Vid möte stäv mot stäv ska båda maskindrivna fartygen gira styrbord så att de passerar babord mot babord. Storlek och fart avgör inte väjningsplikten vid möte.",
       "explanationEn": "Head-on: both power-driven vessels alter course to starboard and pass port to port.",
       "theoryAnchor": "colreg/mote",
       "authorReviewed": false,
-      "payload": { "questionSv": "Två maskindrivna fartyg möts stäv mot stäv. Hur ska de agera?" }
+      "payload": {
+        "questionSv": "Två maskindrivna fartyg möts stäv mot stäv. Hur ska de agera?"
+      }
     },
     {
       "id": "col-vaj-002",
       "topicId": "top-col-vajning",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "Det fartyg som har det andra på sin styrbordssida väjer", "isCorrect": true },
-        { "text": "Det fartyg som har det andra på sin babordssida väjer", "isCorrect": false },
-        { "text": "Det fartyg som gör högst fart väjer", "isCorrect": false },
-        { "text": "Det fartyg som senast upptäckte det andra väjer", "isCorrect": false }
+        {
+          "text": "Det fartyg som har det andra på sin styrbordssida väjer",
+          "isCorrect": true
+        },
+        {
+          "text": "Det fartyg som har det andra på sin babordssida väjer",
+          "isCorrect": false
+        },
+        {
+          "text": "Det fartyg som gör högst fart väjer",
+          "isCorrect": false
+        },
+        {
+          "text": "Det fartyg som senast upptäckte det andra väjer",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Vid korsande kurser väjer det maskindrivna fartyg som har det andra om styrbord — och bör om möjligt undvika att gå för om det. Minnesregel: ser du fartygets röda (babords) lanterna har du väjningsplikt.",
       "explanationEn": "Crossing: the vessel which has the other on her starboard side gives way.",
       "theoryAnchor": "colreg/korsande",
       "authorReviewed": false,
-      "payload": { "questionSv": "Två maskindrivna fartyg går på korsande kurser. Vilket ska väja?" }
+      "payload": {
+        "questionSv": "Två maskindrivna fartyg går på korsande kurser. Vilket ska väja?"
+      }
     },
     {
       "id": "col-vaj-003",
       "topicId": "top-col-vajning",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "Det upphinnande fartyget, oavsett fartygstyp", "isCorrect": true },
-        { "text": "Det upphunna fartyget, som ska öka farten", "isCorrect": false },
-        { "text": "Segelfartyget, om det upphinnande går för segel", "isCorrect": false },
-        { "text": "Det största av fartygen, oavsett kurs", "isCorrect": false }
+        {
+          "text": "Det upphinnande fartyget, oavsett fartygstyp",
+          "isCorrect": true
+        },
+        {
+          "text": "Det upphunna fartyget, som ska öka farten",
+          "isCorrect": false
+        },
+        {
+          "text": "Segelfartyget, om det upphinnande går för segel",
+          "isCorrect": false
+        },
+        {
+          "text": "Det största av fartygen, oavsett kurs",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Ett fartyg som hinner upp ett annat ska hålla undan — regeln gäller alla fartyg, även ett segelfartyg som hinner upp ett maskindrivet. Upphinnande är man när man närmar sig mer än 22,5° akter om tvärs, där akterljuset syns.",
       "explanationEn": "Any overtaking vessel keeps clear, regardless of type — sail included.",
       "theoryAnchor": "colreg/upphinnande",
       "authorReviewed": false,
-      "payload": { "questionSv": "Vem väjer vid upphinnande?" }
+      "payload": {
+        "questionSv": "Vem väjer vid upphinnande?"
+      }
     },
     {
       "id": "col-vaj-004",
       "topicId": "top-col-vajning",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "Det maskindrivna fartyget väjer för segelfartyget", "isCorrect": true },
-        { "text": "Segelfartyget väjer för det maskindrivna fartyget", "isCorrect": false },
-        { "text": "Det fartyg som har det andra om styrbord väjer", "isCorrect": false },
-        { "text": "Det fartyg som ligger i lä väjer för det i lovart", "isCorrect": false }
+        {
+          "text": "Det maskindrivna fartyget väjer för segelfartyget",
+          "isCorrect": true
+        },
+        {
+          "text": "Segelfartyget väjer för det maskindrivna fartyget",
+          "isCorrect": false
+        },
+        {
+          "text": "Det fartyg som har det andra om styrbord väjer",
+          "isCorrect": false
+        },
+        {
+          "text": "Det fartyg som ligger i lä väjer för det i lovart",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Ett maskindrivet fartyg håller undan för ett segelfartyg under segel — utom när segelfartyget är upphinnande, eller när det andra fartyget är ej manöverfärdigt, har begränsad manöverförmåga eller fiskar.",
       "explanationEn": "Power gives way to sail, except when sail is overtaking or the power vessel is NUC/RAM/fishing.",
       "theoryAnchor": "colreg/segel",
       "authorReviewed": false,
-      "payload": { "questionSv": "Ett maskindrivet fartyg och ett segelfartyg under segel närmar sig varandra på korsande kurser. Vem väjer?" }
+      "payload": {
+        "questionSv": "Ett maskindrivet fartyg och ett segelfartyg under segel närmar sig varandra på korsande kurser. Vem väjer?"
+      }
     },
     {
       "id": "col-vaj-005",
       "topicId": "top-col-vajning",
-      "tracks": ["kustskeppare", "klass8"],
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "Fartyget med vinden in om babord väjer", "isCorrect": true },
-        { "text": "Fartyget med vinden in om styrbord väjer", "isCorrect": false },
-        { "text": "Fartyget i lovart väjer, oavsett halsar", "isCorrect": false },
-        { "text": "Fartyget med störst segelyta väjer", "isCorrect": false }
+        {
+          "text": "Fartyget med vinden in om babord väjer",
+          "isCorrect": true
+        },
+        {
+          "text": "Fartyget med vinden in om styrbord väjer",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyget i lovart väjer, oavsett halsar",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyget med störst segelyta väjer",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "När två segelfartyg har vinden in på olika sidor väjer det som har vinden in om babord (ligger för babords halsar). Har båda vinden in på samma sida väjer lovartsfartyget.",
       "explanationEn": "Different tacks: the vessel with the wind on her port side gives way. Same tack: windward gives way.",
       "theoryAnchor": "colreg/segel-mot-segel",
       "authorReviewed": false,
-      "payload": { "questionSv": "Två segelfartyg närmar sig varandra med vinden in på olika sidor. Vem väjer?" }
+      "payload": {
+        "questionSv": "Två segelfartyg närmar sig varandra med vinden in på olika sidor. Vem väjer?"
+      }
     },
     {
       "id": "col-vaj-006",
       "topicId": "top-col-vajning",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "Hålla kurs och fart, men vara beredd att agera om det väjande fartyget inte gör det", "isCorrect": true },
-        { "text": "Gira styrbord för att öka avståndet i god tid", "isCorrect": false },
-        { "text": "Minska farten till styrfart för säkerhets skull", "isCorrect": false },
-        { "text": "Signalera med ett långt ljudstöt och invänta svar", "isCorrect": false }
+        {
+          "text": "Hålla kurs och fart, men vara beredd att agera om det väjande fartyget inte gör det",
+          "isCorrect": true
+        },
+        {
+          "text": "Gira styrbord för att öka avståndet i god tid",
+          "isCorrect": false
+        },
+        {
+          "text": "Minska farten till styrfart för säkerhets skull",
+          "isCorrect": false
+        },
+        {
+          "text": "Signalera med ett långt ljudstöt och invänta svar",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Det fartyg som har företräde ska hålla kurs och fart, så att det väjande fartygets manöver blir förutsägbar. Blir det uppenbart att det andra inte väjer ska du själv agera för att undvika kollision.",
       "explanationEn": "The stand-on vessel keeps her course and speed but must act if the give-way vessel fails to.",
       "theoryAnchor": "colreg/stand-on",
       "authorReviewed": false,
-      "payload": { "questionSv": "Du har företräde i en väjningssituation. Vad ska du göra?" }
+      "payload": {
+        "questionSv": "Du har företräde i en väjningssituation. Vad ska du göra?"
+      }
+    },
+    {
+      "id": "col-vaj-007",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ja – man är skyldig att ständigt hålla noggrann utkik horisonten runt, alltså även akterut",
+          "isCorrect": true
+        },
+        {
+          "text": "Nej – utkik behöver bara hållas föröver i färdriktningen",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej – ett upphinnande fartyg är ensamt ansvarigt, så utkik bakåt krävs inte",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja – men bara i mörker; i dagsljus krävs ingen utkik akterut",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Det är fel att inte hålla utkik horisonten runt. Man är skyldig att ständigt hålla noggrann utkik – även bakåt. Ett upphinnande fartyg är visserligen väjningsskyldigt, men det befriar inte det upphunna fartyget från utkiksplikten; utan utkik kan man varken upptäcka faran eller agera om den andre inte väjer.",
+      "explanationEn": "It is wrong not to keep a lookout all around the horizon. You must maintain a proper lookout at all times – including astern. An overtaking vessel must indeed keep clear, but that does not release the vessel being overtaken from its duty of lookout; without it you can neither detect the danger nor react if the other vessel fails to give way.",
+      "payload": {
+        "questionSv": "I regn och höstskymning sitter alla ombord i en liten motorbåt bakom vindrutan under kapellet. Plötsligt dyker stäven på ett stort tankfartyg upp – ingen har hållit utkik akterut. Har besättningen gjort sig skyldig till något fel när de inte hållit utkik bakåt?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:1a / photo_68, facit photo_26"
+    },
+    {
+      "id": "col-vaj-008",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "I regel 5 i de internationella sjövägsreglerna",
+          "isCorrect": true
+        },
+        {
+          "text": "I regel 17 i de internationella sjövägsreglerna",
+          "isCorrect": false
+        },
+        {
+          "text": "I regel 34 i de internationella sjövägsreglerna",
+          "isCorrect": false
+        },
+        {
+          "text": "I sjölagens kapitel om fartygs behöriga skick",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Utkiksplikten står i regel 5 i de internationella sjövägsreglerna: varje fartyg ska ständigt hålla noggrann utkik med syn och hörsel och med alla andra tillgängliga medel, så att en fullständig bedömning av läget och risken för kollision kan göras. Regel 17 handlar om att hålla kurs och fart, regel 34 om manöver- och varningssignaler.",
+      "explanationEn": "The duty of lookout is found in Rule 5 of the international collision regulations (COLREG): every vessel shall at all times maintain a proper lookout by sight and hearing and by all available means, so as to make a full appraisal of the situation and the risk of collision. Rule 17 concerns standing on, Rule 34 manoeuvring and warning signals.",
+      "payload": {
+        "questionSv": "Var i regelverket står skyldigheten att hålla utkik skriven?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:1b / photo_68, facit photo_26"
+    },
+    {
+      "id": "col-vaj-009",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ja – enligt regel 5 ska utkik hållas med både syn och hörsel",
+          "isCorrect": true
+        },
+        {
+          "text": "Nej – utkiksplikten avser enbart det man kan se",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja – men skyldigheten att lyssna gäller bara vid nedsatt sikt",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej – att lyssna efter ljudsignaler är bara en rekommendation",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ja, man är skyldig att lyssna. Enligt regel 5 i de internationella sjövägsreglerna ska utkik hållas med syn OCH hörsel. Att sitta under ett kapell där det egna motorljudet dränker omgivningens ljudsignaler gör att man inte uppfyller utkiksplikten – tankern i exemplet hade signalerat, men signalerna hördes inte under kapellet.",
+      "explanationEn": "Yes, you are required to listen. Under Rule 5 of the COLREGs the lookout must be kept by sight AND hearing. Sitting under a canopy where your own engine noise drowns out surrounding sound signals means you are failing that duty – the tanker in the example had signalled, but the signals were not heard under the canopy.",
+      "payload": {
+        "questionSv": "Ett tankfartyg avgav ljudsignaler, men de hördes inte nere under motorbåtens kapell där det egna motorljudet tog överhanden. Är man skyldig att lyssna, och står det i så fall skrivet någonstans?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:1c / photo_68, facit photo_26"
+    },
+    {
+      "id": "col-vaj-010",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Nej – att genuan skymde sikten är ingen godtagbar ursäkt",
+          "isCorrect": true
+        },
+        {
+          "text": "Ja – segelbåtar kan inte lastas för att seglen skymmer sikten",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja – förutsatt att båten seglade med vinden in om styrbord",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej – men bara om kollisionen inträffade i en allmän farled",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Att genuan skymde är ingen godtagbar ursäkt. Utkiksplikten enligt regel 5 gäller alltid – skymmer seglet sikten måste man ordna utkiken på annat sätt, t.ex. genom att en besättningsmedlem håller utkik i lä, att man regelbundet lovar upp eller faller av för att titta, eller sitter så att man ser förbi seglet.",
+      "explanationEn": "That the genoa blocked the view is not an acceptable excuse. The lookout duty of Rule 5 always applies – if a sail blocks the view you must arrange the lookout some other way, e.g. by having a crew member watch to leeward, periodically luffing or bearing away to look, or positioning yourself to see past the sail.",
+      "payload": {
+        "questionSv": "Dagens segelbåtar har ofta enorma försegel, s.k. genuafockar, som är lågt skurna och gör sikten obefintlig åt lä från rorsmans plats. Två segelbåtar kolliderar och den ena föraren förklarar sig med att 'genuan skymde'. Är det ett juridiskt hållbart försvar?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:2 / photo_68, facit photo_26"
+    },
+    {
+      "id": "col-vaj-011",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Nej – man ska väja tydligt, så att manövern lätt uppfattas av det andra fartyget",
+          "isCorrect": true
+        },
+        {
+          "text": "Ja – små ändringar stör den övriga trafiken minst",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja – bara passageavståndet till slut blir tillräckligt",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej – man ska alltid stoppa helt i stället för att ändra kurs",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Nej! Enligt regel 8 ska en undanmanöver göras i god tid, vara bestämd och utföras med gott sjömanskap. Kurs- och fartändringen ska vara så stor att den lätt kan upptäckas av det andra fartyget – en serie små ändringar bör undvikas eftersom de inte tydligt visar dina avsikter.",
+      "explanationEn": "No! Under Rule 8, avoiding action must be taken in good time, be positive and be made with good seamanship. Any alteration of course or speed should be large enough to be readily apparent to the other vessel – a succession of small alterations should be avoided because they do not clearly show your intentions.",
+      "payload": {
+        "questionSv": "Är det lämpligt att väja genom små kurs- och/eller fartändringar?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:3 / photo_68, facit photo_26"
+    },
+    {
+      "id": "col-vaj-012",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ja – mot regel 2 om vanligt sjömansbruk och regel 8 om att undanmanövrer ska göras i god tid och bestämt",
+          "isCorrect": true
+        },
+        {
+          "text": "Nej – han väjde ju och passerade dessutom akter om segelbåten",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja – mot regel 12 om hur segelfartyg ska väja för varandra",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej – det finns inga regler om passageavstånd på fritt vatten",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Regel 2 talar om försiktighetsmått som betingas av vanligt sjömansbruk, och regel 8 föreskriver att undanmanövrer ska utföras i god tid, bestämt och med iakttagande av gott sjömanskap. Att i 40 knop passera 2 meter akter om en segelbåt bryter mot båda – man får inte räkna med att styrning och reglage alltid fungerar, eller att andra sjöfarare inte plötsligt gör något oväntat.",
+      "explanationEn": "Rule 2 requires the precautions demanded by ordinary seamanship, and Rule 8 requires avoiding action to be taken in good time, positively and with good seamanship. Passing 2 metres astern of a sailboat at 40 knots violates both – you cannot count on steering and controls always working, nor on other mariners never doing something unexpected.",
+      "payload": {
+        "questionSv": "En racerbåt kommer med 40 knops fart och passerar 2 meter akter om dig i din segelbåt. Har motorbåtsföraren brutit mot någon regel och i så fall vilken?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:4 / photo_68, facit photo_26"
+    },
+    {
+      "id": "col-vaj-013",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Att hålla kurs och fart (regel 17)",
+          "isCorrect": true
+        },
+        {
+          "text": "Att också väja, men åt motsatt håll",
+          "isCorrect": false
+        },
+        {
+          "text": "Att öka farten så att passagen går snabbare",
+          "isCorrect": false
+        },
+        {
+          "text": "Att stoppa och invänta att det väjningsskyldiga fartyget passerat",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Den som inte är skyldig att väja är enligt regel 17 skyldig att hålla kurs och fart. Det gör situationen förutsägbar så att det väjningsskyldiga fartyget kan planera sin manöver. Om båda fartygen börjar manövrera samtidigt blir situationen oberäknelig och kollisionsrisken kan öka.",
+      "explanationEn": "The vessel that is not required to give way must, under Rule 17, keep her course and speed. This makes the situation predictable so the give-way vessel can plan her manoeuvre. If both vessels start manoeuvring at the same time, the situation becomes unpredictable and the risk of collision can increase.",
+      "payload": {
+        "questionSv": "Väjningsreglerna talar om skyldigheter för inblandade fartyg. Det ena är skyldigt att väja. Vilka skyldigheter har det andra fartyget?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:5 / photo_68, facit photo_26"
+    },
+    {
+      "id": "col-vaj-014",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Så snart det står klart att det väjningsskyldiga fartyget inte vidtar tillräckliga åtgärder",
+          "isCorrect": true
+        },
+        {
+          "text": "Aldrig – den som ska hålla kurs och fart får inte manövrera",
+          "isCorrect": false
+        },
+        {
+          "text": "Först när kollisionen inte längre kan undvikas",
+          "isCorrect": false
+        },
+        {
+          "text": "Så snart det andra fartyget kommer i sikte, oavsett dess agerande",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Enligt regel 17 får det fartyg som ska hålla kurs och fart självt vidta åtgärd för att undvika kollision så snart det står klart att det väjningsskyldiga fartyget inte vidtar tillräckliga åtgärder. Man behöver alltså inte vänta tills läget blivit kritiskt – men så länge det andra fartyget agerar korrekt ska man hålla kurs och fart.",
+      "explanationEn": "Under Rule 17, the stand-on vessel may take action to avoid collision as soon as it becomes apparent that the give-way vessel is not taking appropriate action. You do not have to wait until the situation becomes critical – but as long as the other vessel is acting correctly, you must keep your course and speed.",
+      "payload": {
+        "questionSv": "Du befinner dig i båt B som ska hålla kurs och fart. Mötande båt A är väjningsskyldig. När FÅR du väja själv?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:6 (när får) / photo_68, facit photo_26"
+    },
+    {
+      "id": "col-vaj-015",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "När kollision inte längre kan undvikas enbart genom det väjningsskyldiga fartygets manöver",
+          "isCorrect": true
+        },
+        {
+          "text": "Så snart det väjningsskyldiga fartyget kommer i sikte",
+          "isCorrect": false
+        },
+        {
+          "text": "Aldrig – ansvaret ligger alltid helt på det väjningsskyldiga fartyget",
+          "isCorrect": false
+        },
+        {
+          "text": "När avståndet mellan fartygen understiger en sjömil",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Enligt regel 17 MÅSTE det fartyg som skulle hålla kurs och fart självt hålla undan när läget blivit sådant att kollisionen inte kan undvikas genom det väjningsskyldiga fartygets manöver enbart. Skyldigheten att förhindra kollision går då före skyldigheten att hålla kurs och fart.",
+      "explanationEn": "Under Rule 17, the stand-on vessel MUST take avoiding action herself when the situation is such that collision can no longer be avoided by the give-way vessel's manoeuvre alone. At that point the duty to prevent collision overrides the duty to keep course and speed.",
+      "payload": {
+        "questionSv": "Du befinner dig i båt B som ska hålla kurs och fart. Mötande båt A är väjningsskyldig men väjer inte. När MÅSTE du väja själv?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:6 (när måste) / photo_68, facit photo_26"
+    },
+    {
+      "id": "col-vaj-016",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Åt styrbord – bort från det mötande väjningsskyldiga fartyget",
+          "isCorrect": true
+        },
+        {
+          "text": "Åt babord – eftersom det andra fartyget förväntas gira styrbord",
+          "isCorrect": false
+        },
+        {
+          "text": "Rakt fram med ökad fart för att hinna passera före",
+          "isCorrect": false
+        },
+        {
+          "text": "Ingen gir alls – endast full back är tillåten i det läget",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Om B ska göra en egen gir (en 'panikväjning') bör den göras åt styrbord – bort från det andra fartyget. En gir åt babord kan bli katastrofal om det väjningsskyldiga fartyget samtidigt gör sin väjning åt styrbord. En fartminskning kan också vara ett alternativ. Regel 17.",
+      "explanationEn": "If B makes her own emergency turn, it should be to starboard – away from the other vessel. A turn to port can be disastrous if the give-way vessel simultaneously makes its own turn to starboard. Reducing speed can also be an option. Rule 17.",
+      "payload": {
+        "questionSv": "Se figur: båt B håller kurs och fart, mötande båt A är väjningsskyldig men väjer inte. Om du i båt B tänker göra en egen gir ('panikväjning'), åt vilket håll gör du den?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:6 (panikväjning, figur) / photo_68, facit photo_26"
+    },
+    {
+      "id": "col-vaj-017",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "'Utö' är väjningsskyldigt – på fritt vatten med tillräckligt manöverutrymme väjer maskindrivet fartyg för segelfartyg",
+          "isCorrect": true
+        },
+        {
+          "text": "Segelbåten är väjningsskyldig – passagerarfartyg i reguljär trafik har alltid företräde",
+          "isCorrect": false
+        },
+        {
+          "text": "Segelbåten är väjningsskyldig – det fartyg som gör lägst fart ska hålla undan",
+          "isCorrect": false
+        },
+        {
+          "text": "Båda bär lika ansvar – ingen väjningsregel pekas ut på fritt vatten",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "På fritt vatten, med god sikt och ingen övrig sjöfart, får 'Utö' anses ha tillräckligt manöverutrymme för att vara väjningsskyldigt. Huvudregeln (regel 18) är att maskindrivna fartyg väjer för segelfartyg – att fartyget är ett passagerarfartyg eller går i reguljär trafik ändrar inte det, så länge det inte t.ex. är hämmat av sitt djupgående eller går i en trång farled.",
+      "explanationEn": "In open water, with good visibility and no other traffic, 'Utö' must be considered to have sufficient room to manoeuvre and is therefore the give-way vessel. The main rule (Rule 18) is that power-driven vessels give way to sailing vessels – being a passenger vessel on a regular route changes nothing, as long as it is not, for example, constrained by draught or navigating a narrow channel.",
+      "payload": {
+        "questionSv": "Passagerarfartyget 'Utö', 25 meter långt med marschfarten 18 knop, passerar fjärden Mysingen. På fritt vatten kolliderar 'Utö' med en segelbåt som sakta seglar utmed leden i ett par knops fart. Ingen övrig sjöfart finns i närheten och sikten är god. Hur skulle du döma enligt de internationella sjövägsreglerna?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:7 / photo_68, facit photo_26"
+    },
+    {
+      "id": "col-vaj-018",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Segelbåten är väjningsskyldig – stora fartyg kan inte göra undanmanövrer i trånga farleder (regel 9)",
+          "isCorrect": true
+        },
+        {
+          "text": "Tankfartyget är väjningsskyldigt – maskindrivna fartyg väjer alltid för segelfartyg",
+          "isCorrect": false
+        },
+        {
+          "text": "Ingen är väjningsskyldig – i farleder gäller endast ömsesidig försiktighet",
+          "isCorrect": false
+        },
+        {
+          "text": "Segelbåten friskrivs – fritidsbåtar omfattas inte av regel 9",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Stora tankfartyg kan inte göra undanmanövrer i skärgårdsfarleder. Enligt regel 9 (trånga farleder) får ett segelfartyg inte hindra ett fartyg som kan framföras säkert endast inne i en trång farled. Här är därför segelbåten väjningsskyldig – huvudregeln 'maskin väjer för segel' gäller inte i det läget.",
+      "explanationEn": "Large tankers cannot take avoiding action in archipelago channels. Under Rule 9 (narrow channels), a sailing vessel must not impede a vessel that can navigate safely only within a narrow channel or fairway. Here the sailboat is therefore the give-way vessel – the general rule 'power gives way to sail' does not apply in this situation.",
+      "payload": {
+        "questionSv": "Ett stort tankfartyg kolliderar med en fritidsseglare i infarten till Nynäshamn (trång farled). Sikten är god och förhållandena i övrigt normala. Hur skulle du döma i det fallet?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:8 / photo_68, facit photo_26"
+    },
+    {
+      "id": "col-vaj-019",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ja – när bäringen till det andra fartyget är stadig föreligger risk för kollision",
+          "isCorrect": true
+        },
+        {
+          "text": "Nej – fartyget kommer att passera klart för om oss",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej – risk föreligger bara om bäringen ändras",
+          "isCorrect": false
+        },
+        {
+          "text": "Det går inte att bedöma utan radar eller GPS",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ja, det är risk för kollision. Om man själv håller konstant kurs och fart och det andra fartyget hela tiden syns i samma bäring (t.ex. över samma punkt på vindrutan) närmar ni er varandra på kollisionskurs. Stadig bäring med minskande avstånd = risk för kollision (regel 7). Ett fast riktmärke ombord – vindrutans mitt, ett vant – är ett enkelt sätt att kontrollera bäringen.",
+      "explanationEn": "Yes, there is risk of collision. If you keep constant course and speed and the other vessel stays on the same bearing (e.g. seen over the same point of the windscreen), you are closing on a collision course. A steady bearing with decreasing range means risk of collision (Rule 7). A fixed reference on board – the middle of the windscreen, a shroud – is a simple way to check the bearing.",
+      "payload": {
+        "questionSv": "Se bildserie: från en motorbåt som håller konstant kurs syftas ett mötande fartyg hela tiden över vindrutans mitt – det syns i samma vinkel (bäring) hela tiden medan det kommer närmare. Är det risk för kollision?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:10 (bildserie 1) / photo_67, facit photo_25"
+    },
+    {
+      "id": "col-vaj-020",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ingen kollisionsrisk – bäringen ändras och den andra båten hinner för om oss",
+          "isCorrect": true
+        },
+        {
+          "text": "Risk för kollision – att bäringen ändras visar att båtarna närmar sig varandra",
+          "isCorrect": false
+        },
+        {
+          "text": "Risk för kollision – segelbåtar ska alltid räkna med kollisionsrisk vid möte",
+          "isCorrect": false
+        },
+        {
+          "text": "Det går inte att avgöra utan att först ändra den egna kursen",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "När den egna kursen hålls konstant och bäringen till den andra båten tydligt ändras (den vandrar föröver i synfältet) föreligger normalt ingen kollisionsrisk – här hinner den andra båten för om oss. Det är den stadiga bäringen som signalerar fara (regel 7). Fortsätt ändå att kontrollera bäringen tills passagen är klar.",
+      "explanationEn": "When you hold a constant course and the bearing to the other boat clearly changes (it moves forward in your field of view), there is normally no collision risk – here the other boat will pass ahead of us. It is a steady bearing that signals danger (Rule 7). Still, keep checking the bearing until the passing is complete.",
+      "payload": {
+        "questionSv": "Se bildserie: från en segelbåt som håller konstant kurs ses en annan segelbåt vars bäring hela tiden ändras – den flyttar sig allt längre föröver i synfältet. Är det risk för kollision?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:10 (bildserie 2) / photo_67, facit photo_25"
+    },
+    {
+      "id": "col-vaj-021",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ja – bäringen är stadig, alltså föreligger risk för kollision",
+          "isCorrect": true
+        },
+        {
+          "text": "Nej – en båt som syns över vantet passerar alltid akter om oss",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej – kollisionsrisk kan bara bedömas mot fasta föremål i land",
+          "isCorrect": false
+        },
+        {
+          "text": "Bara om den andra båten är större än den egna",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ja, risk för kollision. Att den andra båten hela tiden syftas över samma punkt på vantet ('sidostaget') medan den egna kursen hålls betyder att bäringen är oförändrad – och stadig bäring med minskande avstånd innebär kollisionsrisk (regel 7). Vantet fungerar här som ett praktiskt pejlmärke ombord.",
+      "explanationEn": "Yes, risk of collision. That the other boat stays lined up with the same point on the shroud while you hold your course means the bearing is constant – and a steady bearing with decreasing range means risk of collision (Rule 7). The shroud serves as a practical on-board bearing reference.",
+      "payload": {
+        "questionSv": "Se bildserie: från en segelbåt som håller konstant kurs syftas en annan båt hela tiden över samma punkt på vantet ('sidostaget') – bäringen är oförändrad medan avståndet minskar. Är det risk för kollision?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:10 (bildserie 3) / photo_67, facit photo_25"
+    },
+    {
+      "id": "col-vaj-022",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "scenario",
+      "options": [
+        {
+          "text": "Din båt väjer och går lämpligen akter om den andra",
+          "isCorrect": true
+        },
+        {
+          "text": "Den andra båten väjer, eftersom den korsar din kurs",
+          "isCorrect": false
+        },
+        {
+          "text": "Båda båtarna girar babord och möts på styrbordssidan",
+          "isCorrect": false
+        },
+        {
+          "text": "Den båt som har högst fart är väjningsskyldig",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "När två maskindrivna båtar närmar sig på skärande kurs väjer den som har den andra på sin styrbordssida. Väj tydligt och i god tid, helst genom att gå akter om den andra båten.",
+      "explanationEn": "When two power-driven vessels are crossing, the one that has the other on its starboard side must give way. Act early and clearly, preferably by passing astern of the other vessel.",
+      "payload": {
+        "questionSv": "Du för en motorbåt. En annan motorbåt närmar sig på skärande kurs från din styrbordssida och bäringen ändras inte – risk för kollision föreligger. Vem ska väja?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:11 panel 1 / photo_66 + photo_24"
+    },
+    {
+      "id": "col-vaj-023",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "scenario",
+      "options": [
+        {
+          "text": "Segelbåten väjer, eftersom den har dig om styrbord",
+          "isCorrect": false
+        },
+        {
+          "text": "Din motorbåt väjer för den seglande båten",
+          "isCorrect": true
+        },
+        {
+          "text": "Båda girar styrbord och passerar babord mot babord",
+          "isCorrect": false
+        },
+        {
+          "text": "Den mindre av båtarna väjer för den större",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En maskindriven båt väjer för en båt som framförs med segel. Undantagen är bland annat när segelbåten är den upphinnande eller när ett stort fartyg är hänvisat till en trång farled.",
+      "explanationEn": "A power-driven vessel gives way to a vessel under sail. The main exceptions are when the sailing vessel is the overtaking one, or when a large vessel is confined to a narrow channel.",
+      "payload": {
+        "questionSv": "Du för en motorbåt. En segelbåt som seglar (utan motor) närmar sig på skärande kurs och risk för kollision föreligger. Vem väjer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:11 panel 2 / photo_66 + photo_24"
+    },
+    {
+      "id": "col-vaj-024",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "scenario",
+      "options": [
+        {
+          "text": "Lastfartyget väjer – större fartyg väjer för mindre",
+          "isCorrect": false
+        },
+        {
+          "text": "Lastfartyget väjer, eftersom du kommer från styrbord",
+          "isCorrect": false
+        },
+        {
+          "text": "Din båt väjer – liten båt får inte hindra ett stort fartyg i trångt farvatten",
+          "isCorrect": true
+        },
+        {
+          "text": "Ingen behöver väja om båda håller kurs och fart",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "I trångt farvatten får små båtar inte hindra fartyg som bara kan framföras säkert i farleden. Den lilla motorbåten håller undan i god tid – liten väjer för stor i trångt farvatten.",
+      "explanationEn": "In narrow waters, small craft must not impede vessels that can only navigate safely within the fairway. The small motorboat keeps well clear in good time – small gives way to large in confined waters.",
+      "payload": {
+        "questionSv": "Du för en liten motorbåt i ett trångt farvatten. Ett stort lastfartyg kommer i farleden och risk för kollision föreligger. Vem väjer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:11 panel 3 / photo_66 + photo_24"
+    },
+    {
+      "id": "col-vaj-025",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "scenario",
+      "options": [
+        {
+          "text": "Din båt väjer genom att gira babord framför den andra",
+          "isCorrect": false
+        },
+        {
+          "text": "Den andra båten väjer – du håller kurs och fart",
+          "isCorrect": true
+        },
+        {
+          "text": "Båda girar styrbord som vid möte stäv mot stäv",
+          "isCorrect": false
+        },
+        {
+          "text": "Den båt som ligger närmast land väjer",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Den andra båten har dig på sin styrbordssida och är därmed väjningsskyldig. Som friskeppare (den som ska hålla undan är den andra) ska du hålla kurs och fart så att den väjande kan planera sin manöver.",
+      "explanationEn": "The other boat has you on its starboard side and must therefore give way. As the stand-on vessel you keep your course and speed so the give-way vessel can plan its manoeuvre.",
+      "payload": {
+        "questionSv": "Du för en motorbåt. En annan motorbåt närmar sig på skärande kurs från din babordssida. Vem väjer, och vad ska du själv göra?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:11 panel 4 / photo_66 + photo_24"
+    },
+    {
+      "id": "col-vaj-026",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "scenario",
+      "options": [
+        {
+          "text": "Båda girar babord och passerar styrbord mot styrbord",
+          "isCorrect": false
+        },
+        {
+          "text": "Endast den snabbare båten är skyldig att väja",
+          "isCorrect": false
+        },
+        {
+          "text": "Den mindre båten väjer, den större håller kurs",
+          "isCorrect": false
+        },
+        {
+          "text": "Båda girar styrbord och passerar babord mot babord",
+          "isCorrect": true
+        }
+      ],
+      "explanationSv": "Vid möte stäv mot stäv mellan två maskindrivna båtar ska båda gira styrbord så att de passerar babord mot babord. Girarna ska vara tydliga och göras i god tid.",
+      "explanationEn": "When two power-driven vessels meet head-on, both must alter course to starboard and pass port to port. The turns should be made early and be clearly visible to the other vessel.",
+      "payload": {
+        "questionSv": "Du för en motorbåt och möter en annan motorbåt stäv mot stäv. Risk för kollision föreligger. Hur ska ni agera?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:11 panel 5 / photo_66 + photo_24"
+    },
+    {
+      "id": "col-vaj-027",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "scenario",
+      "options": [
+        {
+          "text": "Du väjer – upphinnande båt håller undan tills den är klart förbi",
+          "isCorrect": true
+        },
+        {
+          "text": "Den långsammare båten väjer genom att gira ur din väg",
+          "isCorrect": false
+        },
+        {
+          "text": "Den som har den andra om styrbord väjer, som vid skärande kurs",
+          "isCorrect": false
+        },
+        {
+          "text": "Ingen är väjningsskyldig vid omkörning i öppet vatten",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett upphinnande fartyg ska alltid hålla undan för det som hinns upp, oavsett fartygstyp, och skyldigheten gäller tills du är klart förbi. Den omkörda båten håller kurs och fart.",
+      "explanationEn": "An overtaking vessel must always keep clear of the vessel being overtaken, regardless of vessel type, and the duty lasts until she is finally past and clear. The overtaken boat keeps her course and speed.",
+      "payload": {
+        "questionSv": "Du för en motorbåt och hinner upp ett långsammare fartyg akterifrån för att köra om. Vem väjer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:11 panel 6 / photo_66 + photo_24"
+    },
+    {
+      "id": "col-vaj-028",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "scenario",
+      "options": [
+        {
+          "text": "Den andra båten väjer, eftersom du närmar dig från dess styrbordssida",
+          "isCorrect": false
+        },
+        {
+          "text": "Du väjer – den som kommer mer än 22,5° akter om tvärs är upphinnande",
+          "isCorrect": true
+        },
+        {
+          "text": "Det räknas som skärande kurs – den som har den andra om styrbord väjer",
+          "isCorrect": false
+        },
+        {
+          "text": "Båda girar styrbord som vid möte",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Den som närmar sig en annan båt mer än 22,5° akter om dess tvärs (inom akterlanternans sektor) räknas som upphinnande och ska hålla undan – reglerna för skärande kurs gäller inte då.",
+      "explanationEn": "A vessel approaching another from more than 22.5° abaft her beam (within the sternlight sector) counts as overtaking and must keep clear – the crossing rules do not apply in that case.",
+      "payload": {
+        "questionSv": "Situationen sedd uppifrån: du närmar dig en annan båt snett akterifrån, mer än 22,5° akter om dess tvärs. Vilken regel gäller och vem väjer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:11 panel 7 / photo_66 + photo_24"
+    },
+    {
+      "id": "col-vaj-029",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "scenario",
+      "options": [
+        {
+          "text": "B väjer genom att öka farten och gå före A",
+          "isCorrect": false
+        },
+        {
+          "text": "A håller kurs och fart – det är B som ska väja",
+          "isCorrect": false
+        },
+        {
+          "text": "A väjer, till exempel genom att tydligt sakta in och släppa B före",
+          "isCorrect": true
+        },
+        {
+          "text": "Båda girar styrbord tills bäringen ändras",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "A har B på sin styrbordssida och är väjningsskyldig. Att väja behöver inte betyda kursändring – en tydlig fartminskning i god tid är en fullgod väjningsmanöver.",
+      "explanationEn": "A has B on her starboard side and must give way. Giving way does not have to mean altering course – a clear, early reduction of speed is a perfectly good give-way manoeuvre.",
+      "payload": {
+        "questionSv": "Två motorbåtar, A och B, närmar sig på skärande kurs (sedd uppifrån). A har B på sin styrbordssida och bäringen är oförändrad. Vem väjer, och hur kan det ske utan kursändring?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:11 panel 8 / photo_66 + photo_24"
+    },
+    {
+      "id": "col-vaj-030",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "scenario",
+      "options": [
+        {
+          "text": "Gena nära udden om babord så att du snabbt kommer runt",
+          "isCorrect": false
+        },
+        {
+          "text": "Håll dig mitt i farleden så syns du bäst för mötande",
+          "isCorrect": false
+        },
+        {
+          "text": "Mötande båtar väjer för dig som kommer runt udden först",
+          "isCorrect": false
+        },
+        {
+          "text": "Håll farledens styrbordssida och gå inte nära udden om babord",
+          "isCorrect": true
+        }
+      ],
+      "explanationSv": "I trång farled ska du hålla dig så nära farledens yttre begränsning på din styrbordssida som är säkert. Gena aldrig över en udde om babord – mötande trafik som är skymd bakom udden måste få plats.",
+      "explanationEn": "In a narrow channel you must keep as near the outer limit on your starboard side as is safe. Never cut close to a point on your port hand – oncoming traffic hidden behind it must have room to pass.",
+      "payload": {
+        "questionSv": "Du för en motorbåt i en trång farled som svänger runt en udde på din babordssida. Bakom udden kan mötande trafik dölja sig. Hur ska du lägga din kurs?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:11 panel 9 / photo_66 + photo_24"
+    },
+    {
+      "id": "col-vaj-031",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "scenario",
+      "options": [
+        {
+          "text": "A väjer – styrbords halsar håller undan för babords",
+          "isCorrect": false
+        },
+        {
+          "text": "B väjer – båt för babords halsar håller undan för båt för styrbords halsar",
+          "isCorrect": true
+        },
+        {
+          "text": "Båten i lovart väjer, oavsett halsar",
+          "isCorrect": false
+        },
+        {
+          "text": "Båda girar styrbord som maskindrivna båtar",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "När två segelbåtar har vinden in från olika sidor (olika halsar) väjer den som ligger för babords halsar, det vill säga har vinden in om babord. Lovart/lä-regeln gäller bara vid samma halsar.",
+      "explanationEn": "When two sailing boats have the wind on different sides (opposite tacks), the boat on port tack – wind coming in over the port side – gives way. The windward/leeward rule only applies when both are on the same tack.",
+      "payload": {
+        "questionSv": "Två segelbåtar närmar sig på skärande kurs. A ligger för styrbords halsar (vinden in om styrbord), B för babords halsar (vinden in om babord). Vem väjer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:11 panel 10 / photo_66 + photo_24"
+    },
+    {
+      "id": "col-vaj-032",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "scenario",
+      "options": [
+        {
+          "text": "A väjer – olika halsar: båten för babords halsar håller undan",
+          "isCorrect": true
+        },
+        {
+          "text": "B väjer – den som har den andra om styrbord håller undan",
+          "isCorrect": false
+        },
+        {
+          "text": "Båda girar styrbord och passerar babord mot babord",
+          "isCorrect": false
+        },
+        {
+          "text": "Båten i lä väjer för båten i lovart",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Segelbåtar följer inte de maskindrivna båtarnas mötesregel. Vid olika halsar väjer alltid båten för babords halsar (vinden in om babord) – här A. B håller kurs.",
+      "explanationEn": "Sailing boats do not follow the power-driven head-on rule. On opposite tacks the port-tack boat (wind over the port side) always gives way – here A. B stands on.",
+      "payload": {
+        "questionSv": "Två segelbåtar seglar nästan rakt mot varandra. A har vinden in om babord (babords halsar), B har vinden in om styrbord (styrbords halsar). Vem väjer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:11 panel 11 / photo_66 + photo_24"
+    },
+    {
+      "id": "col-vaj-033",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "scenario",
+      "options": [
+        {
+          "text": "A väjer – babords halsar håller undan för styrbords halsar",
+          "isCorrect": false
+        },
+        {
+          "text": "Den snabbare av båtarna väjer",
+          "isCorrect": false
+        },
+        {
+          "text": "B väjer – babords halsar håller undan för styrbords halsar",
+          "isCorrect": true
+        },
+        {
+          "text": "Båten i lovart väjer, eftersom den har vindfördelen",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vinden norrifrån ger A (som seglar västerut) vinden in om styrbord och B (som seglar österut) vinden in om babord. Olika halsar: babords halsar väjer, alltså B.",
+      "explanationEn": "With a northerly wind, A heading west has the wind on her starboard side while B heading east has it on her port side. Opposite tacks: the port-tack boat gives way, so B must keep clear.",
+      "payload": {
+        "questionSv": "Sedd uppifrån, vinden blåser rakt norrifrån: segelbåt A seglar västerut och segelbåt B seglar österut, på kurser som skär varandra. Vem väjer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:11 panel 12 / photo_66 + photo_24"
+    },
+    {
+      "id": "col-vaj-034",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "scenario",
+      "options": [
+        {
+          "text": "A väjer – bommen om babord betyder väjningsplikt",
+          "isCorrect": false
+        },
+        {
+          "text": "B väjer – den ligger för babords halsar",
+          "isCorrect": true
+        },
+        {
+          "text": "Ingen väjer förrän båtarna är nära varandra",
+          "isCorrect": false
+        },
+        {
+          "text": "Båda ska falla av och gå akter om varandra",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Bommen ligger ut i lä, alltså på motsatt sida mot vinden. A med bommen om babord har vinden in om styrbord (styrbords halsar); B med bommen om styrbord ligger för babords halsar och ska väja.",
+      "explanationEn": "The boom is carried on the leeward side, opposite the wind. A with her boom to port has the wind over starboard (starboard tack); B with the boom to starboard is on port tack and must give way.",
+      "payload": {
+        "questionSv": "Två segelbåtar närmar sig varandra med risk för kollision. A seglar med bommen ut om babord, B med bommen ut om styrbord. Vem väjer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:11 panel 13 / photo_66 + photo_24"
+    },
+    {
+      "id": "col-vaj-035",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "scenario",
+      "options": [
+        {
+          "text": "B väjer – båten i lä håller undan för båten i lovart",
+          "isCorrect": false
+        },
+        {
+          "text": "A väjer – vid samma halsar håller båten i lovart undan för båten i lä",
+          "isCorrect": true
+        },
+        {
+          "text": "Den som ligger för babords halsar väjer",
+          "isCorrect": false
+        },
+        {
+          "text": "Båda faller av samtidigt tills kurserna inte längre skär varandra",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "När två segelbåtar har vinden in från samma sida (samma halsar) väjer den som ligger i lovart, alltså närmast vinden. Lovartsbåten har bäst möjlighet att manövrera och stör inte den andres vind.",
+      "explanationEn": "When two sailing boats have the wind on the same side (same tack), the windward boat – the one closer to the wind – gives way. She has the freest choice of manoeuvre and avoids blanketing the leeward boat.",
+      "payload": {
+        "questionSv": "Två segelbåtar seglar för samma halsar på kolliderande kurser. A ligger i lovart (närmast vinden), B ligger i lä. Vem väjer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:11 panel 14 / photo_66 + photo_24"
+    },
+    {
+      "id": "col-vaj-036",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "scenario",
+      "options": [
+        {
+          "text": "A väjer – båten i lä ska hålla undan",
+          "isCorrect": false
+        },
+        {
+          "text": "Den av båtarna som seglar högst i vind har företräde och håller kurs",
+          "isCorrect": false
+        },
+        {
+          "text": "B väjer – samma halsar: lovartsbåten håller undan för läbåten",
+          "isCorrect": true
+        },
+        {
+          "text": "B håller kurs eftersom den ligger för styrbords halsar",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Båda båtarna ligger för styrbords halsar, alltså samma halsar. Då gäller inte halsregeln mellan dem – i stället väjer båten i lovart, här B. Att båda har styrbords halsar ger ingen av dem företräde.",
+      "explanationEn": "Both boats are on starboard tack, i.e. the same tack. The tack rule then does not decide – instead the windward boat, here B, must keep clear. Being on starboard tack gives neither boat priority over the other.",
+      "payload": {
+        "questionSv": "Två segelbåtar ligger båda för styrbords halsar och närmar sig varandra. A seglar i lä, B seglar i lovart om A. Vem väjer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:11 panel 15 / photo_66 + photo_24"
+    },
+    {
+      "id": "col-vaj-037",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "scenario",
+      "options": [
+        {
+          "text": "Båten i lovart väjer – den som är närmast vinden håller undan",
+          "isCorrect": true
+        },
+        {
+          "text": "Båten i lä väjer, eftersom den lättare kan falla av",
+          "isCorrect": false
+        },
+        {
+          "text": "Den bakre båten väjer som vid upphinnande",
+          "isCorrect": false
+        },
+        {
+          "text": "Ingen väjer – på undanvind gäller inga väjningsregler",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Även på öppnare bogar gäller regeln: vid samma halsar väjer båten i lovart. Vilken sida vinden kommer in på avgör halsarna, och den båt som ligger närmast vindögat är lovartsbåt och håller undan.",
+      "explanationEn": "The rule applies on broader courses too: on the same tack the windward boat gives way. The side the wind comes over determines the tack, and the boat closer to the wind is the windward boat and must keep clear.",
+      "payload": {
+        "questionSv": "Två segelbåtar seglar på öppen bog med vinden in från samma sida (samma halsar) och deras kurser skär varandra. Vem väjer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:11 panel 16 / photo_66 + photo_24"
+    },
+    {
+      "id": "col-vaj-038",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "scenario",
+      "options": [
+        {
+          "text": "B väjer – styrbords halsar håller undan",
+          "isCorrect": false
+        },
+        {
+          "text": "A väjer – båt för babords halsar håller undan för båt för styrbords halsar",
+          "isCorrect": true
+        },
+        {
+          "text": "Båda lovar upp mot vinden och stannar",
+          "isCorrect": false
+        },
+        {
+          "text": "Den båt som ligger längst i lä väjer",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "A seglar österut med vinden norrifrån och har alltså vinden in om babord (babords halsar). B som seglar västerut har vinden in om styrbord. Olika halsar: A väjer.",
+      "explanationEn": "A is heading east with a northerly wind, so the wind comes over her port side (port tack). B heading west has the wind over starboard. Opposite tacks: A must give way.",
+      "payload": {
+        "questionSv": "Sedd uppifrån, vinden blåser rakt norrifrån: segelbåt A seglar österut, segelbåt B seglar västerut, och kurserna skär varandra. Vem väjer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:11 panel 17 / photo_65 + photo_23"
+    },
+    {
+      "id": "col-vaj-039",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "scenario",
+      "options": [
+        {
+          "text": "A väjer – halvvindsbåten håller undan för kryssande båt",
+          "isCorrect": false
+        },
+        {
+          "text": "B väjer – babords halsar håller undan för styrbords halsar",
+          "isCorrect": true
+        },
+        {
+          "text": "A väjer, eftersom den har B om styrbord",
+          "isCorrect": false
+        },
+        {
+          "text": "Den kryssande båten har alltid väjningsplikt",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Det spelar ingen roll vilken bog båtarna seglar på (kryss eller halvvind) – vid olika halsar är det alltid båten för babords halsar som väjer, här B. Vilken punkt av segling man ligger på ger inget företräde.",
+      "explanationEn": "It does not matter whether the boats are beating or reaching – on opposite tacks the port-tack boat always gives way, here B. The point of sail gives no priority.",
+      "payload": {
+        "questionSv": "Segelbåt A går på halvvind med vinden in om styrbord. Segelbåt B kryssar med vinden in om babord. Kurserna skär varandra med risk för kollision. Vem väjer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:11 panel 18 / photo_65 + photo_23"
+    },
+    {
+      "id": "col-vaj-040",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "scenario",
+      "options": [
+        {
+          "text": "B väjer – läbåten ska hålla undan",
+          "isCorrect": false
+        },
+        {
+          "text": "Ingen väjer – babords halsar gäller bara mot styrbords halsar",
+          "isCorrect": false
+        },
+        {
+          "text": "A väjer – vid samma halsar håller lovartsbåten undan",
+          "isCorrect": true
+        },
+        {
+          "text": "Båda slår samtidigt till styrbords halsar",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Båda ligger för babords halsar – samma halsar. Då väjer båten i lovart, här A som ligger närmast vinden. Läbåten B håller kurs och fart.",
+      "explanationEn": "Both boats are on port tack – the same tack. The windward boat, here A which is closer to the wind, must give way. The leeward boat B keeps her course and speed.",
+      "payload": {
+        "questionSv": "Två segelbåtar ligger båda för babords halsar. A seglar i lovart om B och kurserna närmar sig varandra. Vem väjer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:11 panel 19 / photo_65 + photo_23"
+    },
+    {
+      "id": "col-vaj-041",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "scenario",
+      "options": [
+        {
+          "text": "B väjer, till exempel genom att falla av och gå akter om A",
+          "isCorrect": true
+        },
+        {
+          "text": "A väjer genom att lova upp och släppa B före",
+          "isCorrect": false
+        },
+        {
+          "text": "Båda girar styrbord och möts babord mot babord",
+          "isCorrect": false
+        },
+        {
+          "text": "Den båt som först ser den andra väjer",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Olika halsar: B som ligger för babords halsar väjer för A som ligger för styrbords halsar. Ett tydligt sätt är att falla av och passera akter om den andra båten.",
+      "explanationEn": "Opposite tacks: B on port tack gives way to A on starboard tack. A clear way to do it is to bear away and pass astern of the other boat.",
+      "payload": {
+        "questionSv": "Två segelbåtar möts på en fjärd. A ligger för styrbords halsar, B för babords halsar, och risk för kollision föreligger. Vem väjer, och hur görs det lämpligen?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:11 panel 20 / photo_65 + photo_23"
+    },
+    {
+      "id": "col-vaj-042",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "scenario",
+      "options": [
+        {
+          "text": "B väjer – styrbords halsar håller undan vid kryss",
+          "isCorrect": false
+        },
+        {
+          "text": "Båda faller av åt var sitt håll",
+          "isCorrect": false
+        },
+        {
+          "text": "Båten i lä väjer",
+          "isCorrect": false
+        },
+        {
+          "text": "A väjer – babords halsar håller undan för styrbords halsar",
+          "isCorrect": true
+        }
+      ],
+      "explanationSv": "Två kryssande båtar som möts på motsatta bogar har olika halsar. Båten för babords halsar (A) väjer, till exempel genom att slå eller falla av akter om B.",
+      "explanationEn": "Two beating boats meeting on opposite tacks: the port-tack boat (A) gives way, for example by tacking or bearing away astern of B.",
+      "payload": {
+        "questionSv": "Två segelbåtar kryssar mot vinden och närmar sig varandra på motsatta bogar: A för babords halsar, B för styrbords halsar. Vem väjer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:11 panel 21 / photo_65 + photo_23"
+    },
+    {
+      "id": "col-vaj-043",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "scenario",
+      "options": [
+        {
+          "text": "Segelbåten väjer, eftersom den har motorbåten om styrbord",
+          "isCorrect": false
+        },
+        {
+          "text": "Motorbåten väjer för den seglande båten",
+          "isCorrect": true
+        },
+        {
+          "text": "Den mindre båten väjer för den större",
+          "isCorrect": false
+        },
+        {
+          "text": "Segelbåten väjer – motordrivna har företräde nära hamn",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En maskindriven båt väjer för en båt under segel, oavsett från vilket håll segelbåten kommer. Regeln gäller inte om segelbåten är upphinnande eller om motorfartyget är hänvisat till en trång farled.",
+      "explanationEn": "A power-driven boat gives way to a boat under sail, regardless of which side the sailing boat approaches from. The rule does not apply if the sailing boat is overtaking or the power vessel is confined to a narrow fairway.",
+      "payload": {
+        "questionSv": "En segelbåt under segel och en motorbåt närmar sig varandra på skärande kurs i öppet vatten. Vem väjer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:11 panel 22 / photo_65 + photo_23"
+    },
+    {
+      "id": "col-vaj-044",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "scenario",
+      "options": [
+        {
+          "text": "Motorbåten väjer – maskindrivet väjer alltid för segel",
+          "isCorrect": false
+        },
+        {
+          "text": "Motorbåten ska öka farten och släppa förbi segelbåten",
+          "isCorrect": false
+        },
+        {
+          "text": "Segelbåten väjer – upphinnande båt håller undan, även segel för motor",
+          "isCorrect": true
+        },
+        {
+          "text": "Ingen är väjningsskyldig vid omkörning",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Upphinnanderegeln går före segel/motor-regeln. En segelbåt som hinner upp en motorbåt är väjningsskyldig och ska hålla undan tills den är klart förbi. Motorbåten håller kurs och fart.",
+      "explanationEn": "The overtaking rule overrides the sail-versus-power rule. A sailing boat overtaking a motorboat must keep clear until she is finally past and clear, while the motorboat keeps her course and speed.",
+      "payload": {
+        "questionSv": "En segelbåt seglar snabbare än en liten motorbåt och hinner upp den akterifrån. Vem väjer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:11 panel 23 / photo_65 + photo_23"
+    },
+    {
+      "id": "col-vaj-045",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "scenario",
+      "options": [
+        {
+          "text": "A väjer – den har B på sin styrbordssida",
+          "isCorrect": false
+        },
+        {
+          "text": "B väjer – olika halsar: babords halsar håller undan",
+          "isCorrect": true
+        },
+        {
+          "text": "Båten med störst segelyta väjer",
+          "isCorrect": false
+        },
+        {
+          "text": "Båda lovar upp och väntar på varandra",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Mellan segelbåtar avgör halsarna, inte vilken sida den andra båten syns på. B har vinden in om babord och ligger för babords halsar – B väjer för A som ligger för styrbords halsar.",
+      "explanationEn": "Between sailing boats the tacks decide, not which side the other boat appears on. B has the wind over her port side (port tack) and must give way to A on starboard tack.",
+      "payload": {
+        "questionSv": "Två segelbåtar närmar sig varandra på skärande kurs. A har vinden in om styrbord, B har vinden in om babord. Vem väjer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:11 panel 24 / photo_65 + photo_23"
+    },
+    {
+      "id": "col-vaj-046",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "scenario",
+      "options": [
+        {
+          "text": "Fartyget väjer – maskindrivet väjer för segel",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyget väjer om det har segelbåten om styrbord",
+          "isCorrect": false
+        },
+        {
+          "text": "Segelbåten väjer – den får inte hindra ett stort fartyg som bara kan gå i farleden",
+          "isCorrect": true
+        },
+        {
+          "text": "Ingen väjer så länge båda håller sin sida av farleden",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Regeln att motor väjer för segel gäller inte i trångt farvatten mot fartyg som är hänvisade till farleden. Segelbåten ska hålla undan i god tid och inte hindra det stora fartygets framfart.",
+      "explanationEn": "The power-gives-way-to-sail rule does not apply in narrow waters against vessels confined to the fairway. The sailing boat must keep well clear in good time and not impede the large ship.",
+      "payload": {
+        "questionSv": "Du seglar i en trång farled när ett stort handelsfartyg kommer i leden. Risk för kollision föreligger. Vem väjer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:11 panel 25 / photo_65 + photo_23"
+    },
+    {
+      "id": "col-vaj-047",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "scenario",
+      "options": [
+        {
+          "text": "Lovartsbåten väjer – samma halsar: den som är närmast vinden håller undan",
+          "isCorrect": true
+        },
+        {
+          "text": "Läbåten väjer, eftersom den lättare kan falla av",
+          "isCorrect": false
+        },
+        {
+          "text": "Den som ligger för babords halsar väjer",
+          "isCorrect": false
+        },
+        {
+          "text": "Den främre båten väjer för den bakre",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Båtarna har vinden in från samma sida och seglar alltså för samma halsar. Då väjer båten i lovart. Halsregeln (babord väjer för styrbord) används bara när båtarna har olika halsar.",
+      "explanationEn": "The boats have the wind on the same side, so they are on the same tack. The windward boat then gives way. The tack rule (port yields to starboard) only applies when the boats are on opposite tacks.",
+      "payload": {
+        "questionSv": "Två segelbåtar seglar med vinden in från samma sida (samma halsar) på kurser som närmar sig varandra. Den ena ligger i lovart, den andra i lä. Vem väjer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:11 panel 26 / photo_65 + photo_23"
+    },
+    {
+      "id": "col-vaj-048",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "scenario",
+      "options": [
+        {
+          "text": "B väjer – läbåten ska alltid hålla undan på öppen bog",
+          "isCorrect": false
+        },
+        {
+          "text": "A väjer – vid samma halsar håller båten i lovart undan",
+          "isCorrect": true
+        },
+        {
+          "text": "A håller kurs, eftersom lovartsläget ger företräde",
+          "isCorrect": false
+        },
+        {
+          "text": "Båda gippar samtidigt bort från varandra",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Även på slör och läns gäller: samma halsar – lovartsbåten väjer. A som ligger närmast vindögat ska hålla undan för B i lä, till exempel genom att ändra kurs bakom B.",
+      "explanationEn": "On broad reaches and runs the same rule applies: same tack – the windward boat gives way. A, closer to the wind, must keep clear of B to leeward, for instance by steering astern of B.",
+      "payload": {
+        "questionSv": "Två segelbåtar länsar med vinden in från samma sida. A ligger i lovart om B och kurserna närmar sig varandra. Vem väjer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:11 panel 27 / photo_65 + photo_23"
+    },
+    {
+      "id": "col-vaj-049",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "scenario",
+      "options": [
+        {
+          "text": "A väjer – babords halsar håller undan, oavsett läge i lovart eller lä",
+          "isCorrect": true
+        },
+        {
+          "text": "B väjer – lovartsbåten håller alltid undan",
+          "isCorrect": false
+        },
+        {
+          "text": "B väjer – den har A om styrbord",
+          "isCorrect": false
+        },
+        {
+          "text": "Ingen väjer förrän avståndet understiger en båtlängd",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Halsarna avgör först: A ligger för babords halsar och B för styrbords halsar, alltså väjer A. Lovart/lä prövas bara om båtarna skulle ha samma halsar.",
+      "explanationEn": "Tacks are checked first: A is on port tack and B on starboard tack, so A gives way. Windward/leeward only comes into play if the boats are on the same tack.",
+      "payload": {
+        "questionSv": "Två segelbåtar närmar sig varandra. A ligger för babords halsar, B för styrbords halsar. A befinner sig dessutom i lä om B. Vem väjer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:11 panel 28 / photo_65 + photo_23"
+    },
+    {
+      "id": "col-vaj-050",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "scenario",
+      "options": [
+        {
+          "text": "Du väjer – babords halsar håller undan för styrbords halsar",
+          "isCorrect": true
+        },
+        {
+          "text": "Den andra båten väjer, eftersom den närmar sig från din babordssida",
+          "isCorrect": false
+        },
+        {
+          "text": "Båten i lovart väjer, oavsett halsar",
+          "isCorrect": false
+        },
+        {
+          "text": "Båda faller av åt styrbord",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ni har olika halsar: du ligger för babords halsar och den andra för styrbords halsar. Då är du väjningsskyldig, till exempel genom att falla av och gå akter om den andra båten.",
+      "explanationEn": "You are on opposite tacks: you are on port tack, the other boat on starboard tack. You must therefore give way, for example by bearing away to pass astern of her.",
+      "payload": {
+        "questionSv": "Du seglar för babords halsar (vinden in om babord, bommen ut om styrbord). En annan segelbåt för styrbords halsar närmar sig på skärande kurs. Vem väjer?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "panelfigur — verifiera scenariobeskrivningen mot photo_66/65 (egen båts halsar i sittbrunnsvyn, rad 4 kolumn 1 på sid 27)",
+      "sourceRef": "8:11 panel 29 / photo_65 + photo_23"
+    },
+    {
+      "id": "col-vaj-051",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "scenario",
+      "options": [
+        {
+          "text": "Den andra båten väjer – läbåten ska hålla undan",
+          "isCorrect": false
+        },
+        {
+          "text": "Du väjer – vid samma halsar håller båten i lovart undan",
+          "isCorrect": true
+        },
+        {
+          "text": "Den andra båten väjer, eftersom du hade läget först",
+          "isCorrect": false
+        },
+        {
+          "text": "Ni håller båda kurs – vid samma halsar behöver ingen väja",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ni seglar för samma halsar och du ligger i lovart. Då är du väjningsskyldig och ska hålla undan för båten i lä, till exempel genom att lova upp eller gå akter om den.",
+      "explanationEn": "You are on the same tack and you are the windward boat, so you must give way to the leeward boat, for example by luffing up or passing astern of her.",
+      "payload": {
+        "questionSv": "Du seglar med vinden in från samma sida som en annan segelbåt (samma halsar) och du ligger i lovart om den. Kurserna närmar sig varandra. Vem väjer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:11 panel 30 / photo_65 + photo_23"
+    },
+    {
+      "id": "col-vaj-052",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "scenario",
+      "options": [
+        {
+          "text": "Du väjer – styrbords halsar håller undan i skärgård",
+          "isCorrect": false
+        },
+        {
+          "text": "Den andra båten väjer – den ligger för babords halsar",
+          "isCorrect": true
+        },
+        {
+          "text": "Du väjer – den andra båten är i lä om dig",
+          "isCorrect": false
+        },
+        {
+          "text": "Båda slår samtidigt så att kurserna skiljs åt",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Olika halsar: den andra båten har vinden in om babord och är väjningsskyldig. Du som ligger för styrbords halsar håller kurs och fart, men är skyldig att agera om den andra inte väjer.",
+      "explanationEn": "Opposite tacks: the other boat has the wind over her port side and must give way. On starboard tack you stand on with course and speed, but you must act if the other boat fails to keep clear.",
+      "payload": {
+        "questionSv": "Du seglar för styrbords halsar. En annan segelbåt med vinden in om babord (babords halsar) närmar sig på skärande kurs. Vem väjer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "8:11 panel 31 / photo_65 + photo_23"
+    },
+    {
+      "id": "col-vaj-053",
+      "topicId": "top-col-vajning",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "scenario",
+      "options": [
+        {
+          "text": "Den andra båten väjer – styrbords halsar håller undan",
+          "isCorrect": false
+        },
+        {
+          "text": "Båten i lovart väjer, eftersom ni möts på öppet vatten",
+          "isCorrect": false
+        },
+        {
+          "text": "Du väjer – du ligger för babords halsar och håller undan",
+          "isCorrect": true
+        },
+        {
+          "text": "Ingen väjer – ni passerar redan klart om varandra",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Olika halsar: båten för babords halsar väjer. Eftersom du har vinden in om babord ska du hålla undan, till exempel genom att falla av och gå akter om den andra segelbåten.",
+      "explanationEn": "Opposite tacks: the port-tack boat gives way. Since the wind comes over your port side you must keep clear, for example by bearing away to pass astern of the other boat.",
+      "payload": {
+        "questionSv": "Du seglar med vinden in om babord (babords halsar). En annan segelbåt för styrbords halsar närmar sig på skärande kurs med oförändrad bäring. Vem väjer?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "panelfigur — verifiera scenariobeskrivningen mot photo_66/65 (egen båts halsar i sittbrunnsvyn, rad 4 kolumn 4 på sid 27)",
+      "sourceRef": "8:11 panel 32 / photo_65 + photo_23"
     }
   ]
 }
