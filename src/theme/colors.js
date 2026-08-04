@@ -11,25 +11,38 @@
  * correct = starboard green). Deliberately NOT cream+terracotta, NOT
  * black+neon-green.
  *
+ * Dark ("varm sjö") stays close to the original — deep bluish navy, warm
+ * brass accent. Light ("kall sjö") is a deliberate cool arctic-chart
+ * blue-grey rather than a warm-parchment inversion of dark; `brass` stays
+ * warm in both so the one accent still pops against a cooler ground.
+ * `tide` (secondary/informational) and `urgent` (Q/VQ-rhythm warning,
+ * see DESIGN-RHYTHM.md) are the only two additions — kept to exactly two
+ * so the palette stays a "one accent plus semantics" system, not a
+ * sprawl. `starboard`/`port` are untouched.
+ *
  * Plain JS (not TS) so tailwind.config.js can require it.
  */
 
 const dark = {
-  bg: '#0B141D', // deep-sea navy, near black — app background
-  surface: '#13222F', // charted water — cards, raised surfaces
-  ink: '#E9E2D0', // aged chart paper — primary text on dark
-  fog: '#8B9DA9', // muted slate — secondary text, hairlines
-  brass: '#C9A45C', // restrained brass — the one accent
+  bg: '#0A1620', // deep bluish dark-sea navy — app background
+  surface: '#122232', // charted water — cards, raised surfaces
+  ink: '#ECE4D2', // aged chart paper — primary text on dark
+  fog: '#8CA0AD', // muted slate-blue — secondary text, hairlines
+  brass: '#CBA765', // restrained brass — the one accent
+  tide: '#5FA8D3', // cool signal-blue — secondary/informational accent
+  urgent: '#E08A4C', // warm amber-orange — Q/VQ-rhythm warning/urgency
   starboard: '#3FA372', // starboard lantern green — correct / go
   port: '#C65D4E', // port lantern red — incorrect / stop
 };
 
 const light = {
-  bg: '#F1EBDD', // aged chart paper — app background
-  surface: '#FAF6EB', // fresh paper — cards, raised surfaces
-  ink: '#182634', // chart ink navy — primary text on light
-  fog: '#5A6C79',
-  brass: '#8A6D2F', // darkened brass for contrast on paper
+  bg: '#DEE7ED', // cool arctic chart-paper blue-grey — app background
+  surface: '#EFF4F7', // fresh cool paper — cards, raised surfaces
+  ink: '#16232E', // chart ink navy — primary text on light
+  fog: '#526775',
+  brass: '#8A6D2F', // darkened brass — stays warm for contrast on cool paper
+  tide: '#2C6C93',
+  urgent: '#B15B22',
   starboard: '#1F7A4D',
   port: '#A63E30',
 };

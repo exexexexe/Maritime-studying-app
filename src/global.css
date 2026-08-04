@@ -5,24 +5,29 @@
 /* Color tokens — values mirror src/theme/colors.js (single conceptual source;
    keep in sync via `npm run check:tokens` guard in scripts/check-tokens.js). */
 @layer base {
-  /* Dark is the default appearance. */
+  /* Dark ("varm sjö") is the default appearance. */
   :root {
-    --color-bg: 11 20 29;
-    --color-surface: 19 34 47;
-    --color-ink: 233 226 208;
-    --color-fog: 139 157 169;
-    --color-brass: 201 164 92;
+    --color-bg: 10 22 32;
+    --color-surface: 18 34 50;
+    --color-ink: 236 228 210;
+    --color-fog: 140 160 173;
+    --color-brass: 203 167 101;
+    --color-tide: 95 168 211;
+    --color-urgent: 224 138 76;
     --color-starboard: 63 163 114;
     --color-port: 198 93 78;
   }
 
+  /* Light ("kall sjö") — a cool arctic-chart palette, not a dark inversion. */
   @media (prefers-color-scheme: light) {
     :root {
-      --color-bg: 241 235 221;
-      --color-surface: 250 246 235;
-      --color-ink: 24 38 52;
-      --color-fog: 90 108 121;
+      --color-bg: 222 231 237;
+      --color-surface: 239 244 247;
+      --color-ink: 22 35 46;
+      --color-fog: 82 103 117;
       --color-brass: 138 109 47;
+      --color-tide: 44 108 147;
+      --color-urgent: 177 91 34;
       --color-starboard: 31 122 77;
       --color-port: 166 62 48;
     }

@@ -19,8 +19,10 @@ export default function TabLayout() {
         },
         tabBarLabelStyle: {
           fontFamily: fonts.sansMedium,
-          fontSize: 11,
-          letterSpacing: 0.3,
+          // React Navigation's tabBarLabelStyle can't take a className, so
+          // this matches text-caption in tailwind.config.js by hand.
+          fontSize: 12,
+          letterSpacing: 0.4,
         },
       }}
     >

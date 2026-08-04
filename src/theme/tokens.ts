@@ -13,6 +13,10 @@ export interface Palette {
   ink: string;
   fog: string;
   brass: string;
+  /** Secondary/informational accent — never the primary call to action. */
+  tide: string;
+  /** Q/VQ-rhythm warning — low exam time, review backlog. */
+  urgent: string;
   starboard: string;
   port: string;
 }

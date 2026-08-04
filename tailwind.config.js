@@ -3,7 +3,7 @@
 // Semantic colors resolve through CSS variables declared in src/global.css,
 // so `bg-bg`, `text-ink`, `border-fog/20` etc. switch with the color scheme
 // without `dark:` prefixes scattered through components.
-const semantic = ['bg', 'surface', 'ink', 'fog', 'brass', 'starboard', 'port'];
+const semantic = ['bg', 'surface', 'ink', 'fog', 'brass', 'tide', 'urgent', 'starboard', 'port'];
 
 module.exports = {
   content: ['./src/**/*.{ts,tsx}'],
