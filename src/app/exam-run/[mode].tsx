@@ -1,6 +1,6 @@
 import { router, Stack, useLocalSearchParams } from 'expo-router';
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { Pressable, ScrollView, Text, View } from 'react-native';
+import { ScrollView, useColorScheme, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { Image } from 'expo-image';
@@ -10,6 +10,7 @@ import { ChartRequiredBanner } from '@/components/chart-required-banner';
 import { LanternDiagram } from '@/components/lantern-diagram';
 import { MapAnswerInput } from '@/components/map-answer-input';
 import { StabilityDiagram } from '@/components/stability-diagram';
+import { ThemedPressable, ThemedText, ThemedView, type Tone } from '@/components/themed';
 import { modules, questionText } from '@/content';
 import { generateCalculation } from '@/content/generators/navcalc';
 import { contentImages } from '@/content/images';
@@ -25,6 +26,7 @@ import {
 import { attemptSeed, seededShuffle } from '@/lib/shuffle';
 import { markActivity } from '@/state/activity';
 import { TRACK_NAMES, useTrack } from '@/state/track-context';
+import { palette } from '@/theme/tokens';
 
 interface Answer {
   item: Item;
@@ -41,6 +43,7 @@ export default function ExamRunScreen() {
   const { mode: modeParam } = useLocalSearchParams<{ mode: string }>();
   const mode: ExamMode = modeParam === 'full' ? 'full' : 'quick';
   const { track } = useTrack();
+  const p = palette(useColorScheme());
 
   const [exam] = useState(() => {
     const startedAt = Date.now();
@@ -121,63 +124,69 @@ export default function ExamRunScreen() {
     const moduleName = (id: string) => modules.find((m) => m.id === id)?.titleSv ?? id;
     const weak = tally.filter((t) => t.correct < t.total).slice(0, 3);
     return (
-      <SafeAreaView className="flex-1 bg-bg" edges={['top', 'bottom']}>
+      <SafeAreaView className="flex-1" style={{ backgroundColor: p.bg }} edges={['top', 'bottom']}>
         <Stack.Screen options={{ headerShown: false }} />
         <ScrollView contentContainerClassName="flex-grow px-6 pt-14 pb-6">
           <View className="items-center">
-            <Text className="text-caption font-mono text-fog uppercase tracking-widest">
+            <ThemedText tone="fog" className="text-caption font-mono uppercase tracking-widest">
               {mode === 'full' ? 'Full simulering' : 'Snabbprov'} · {TRACK_NAMES[track]}
-            </Text>
-            <Text
-              className={`text-display-xl font-display mt-4 ${
-                result.passed ? 'text-starboard' : 'text-port'
-              }`}
+            </ThemedText>
+            <ThemedText
+              tone={result.passed ? 'starboard' : 'port'}
+              className="text-display-xl font-display mt-4"
             >
               {result.passed ? 'Godkänt' : 'Ej godkänt'}
-            </Text>
-            <Text className="text-data-lg font-mono-medium text-ink mt-2">{pct} %</Text>
-            <Text className="text-small font-sans text-fog mt-1">
+            </ThemedText>
+            <ThemedText className="text-data-lg font-mono-medium mt-2">{pct} %</ThemedText>
+            <ThemedText tone="fog" className="text-small font-sans mt-1">
               {result.correct} rätt av {result.itemsAttempted} besvarade · gräns{' '}
               {exam.config.passPct} %
-            </Text>
+            </ThemedText>
           </View>
 
           {weak.length > 0 ? (
             <View className="mt-8">
-              <Text className="text-caption font-mono text-fog uppercase tracking-widest mb-3">
+              <ThemedText tone="fog" className="text-caption font-mono uppercase tracking-widest mb-3">
                 Att öva mer på
-              </Text>
-              <View className="rounded-xl bg-surface border border-fog/15 overflow-hidden">
+              </ThemedText>
+              <ThemedView
+                bg="surface"
+                borderTone="fog"
+                borderOpacity={15}
+                className="rounded-xl border overflow-hidden"
+              >
                 {weak.map((w, i) => (
-                  <View
+                  <ThemedView
                     key={w.moduleId}
-                    className={`flex-row items-center px-5 py-3.5 ${
-                      i > 0 ? 'border-t border-fog/10' : ''
-                    }`}
+                    borderTone="fog"
+                    borderOpacity={10}
+                    style={{ borderTopWidth: i > 0 ? 1 : 0 }}
+                    className="flex-row items-center px-5 py-3.5"
                   >
-                    <Text className="text-body font-sans text-ink flex-1">
+                    <ThemedText className="text-body font-sans flex-1">
                       {moduleName(w.moduleId)}
-                    </Text>
-                    <Text className="text-small font-mono text-port">
+                    </ThemedText>
+                    <ThemedText tone="port" className="text-small font-mono">
                       {w.correct}/{w.total} rätt
-                    </Text>
-                  </View>
+                    </ThemedText>
+                  </ThemedView>
                 ))}
-              </View>
-              <Text className="text-small font-sans text-fog mt-2">
+              </ThemedView>
+              <ThemedText tone="fog" className="text-small font-sans mt-2">
                 Kör ett drillpass i modulerna ovan — frågorna du missade finns
                 kvar i repetitionsschemat.
-              </Text>
+              </ThemedText>
             </View>
           ) : null}
 
           <View className="flex-1" />
-          <Pressable
-            className="bg-brass rounded-xl py-4 items-center active:opacity-90 mt-8"
+          <ThemedPressable
+            bg="brass"
+            className="rounded-xl py-4 items-center active:opacity-90 mt-8"
             onPress={() => router.back()}
           >
-            <Text className="text-body font-sans-semibold text-bg">Klar</Text>
-          </Pressable>
+            <ThemedText tone="bg" className="text-body font-sans-semibold">Klar</ThemedText>
+          </ThemedPressable>
         </ScrollView>
       </SafeAreaView>
     );
@@ -185,9 +194,14 @@ export default function ExamRunScreen() {
 
   if (!item) {
     return (
-      <SafeAreaView className="flex-1 bg-bg items-center justify-center">
+      <SafeAreaView
+        className="flex-1 items-center justify-center"
+        style={{ backgroundColor: p.bg }}
+      >
         <Stack.Screen options={{ headerShown: false }} />
-        <Text className="text-body font-sans text-fog">Inga frågor för spåret ännu.</Text>
+        <ThemedText tone="fog" className="text-body font-sans">
+          Inga frågor för spåret ännu.
+        </ThemedText>
       </SafeAreaView>
     );
   }
@@ -221,23 +235,24 @@ export default function ExamRunScreen() {
 
   const low = secondsLeft <= 60;
 
+  const mapReady = isMapNumeric ? Boolean(mapValue && isMapAnswerComplete(mapValue)) : selected !== null;
+
   return (
-    <SafeAreaView className="flex-1 bg-bg" edges={['top', 'bottom']}>
+    <SafeAreaView className="flex-1" style={{ backgroundColor: p.bg }} edges={['top', 'bottom']}>
       <Stack.Screen options={{ headerShown: false }} />
       <View className="flex-row items-center justify-between px-6 pt-2">
-        <Pressable hitSlop={8} onPress={() => router.back()}>
-          <Text className="text-small font-sans text-fog">Avbryt</Text>
-        </Pressable>
-        <Text
-          className={`text-small font-mono-medium tracking-widest ${
-            low ? 'text-port' : 'text-fog'
-          }`}
+        <ThemedPressable hitSlop={8} onPress={() => router.back()}>
+          <ThemedText tone="fog" className="text-small font-sans">Avbryt</ThemedText>
+        </ThemedPressable>
+        <ThemedText
+          tone={low ? 'port' : 'fog'}
+          className="text-small font-mono-medium tracking-widest"
         >
           {fmtClock(secondsLeft)}
-        </Text>
-        <Text className="text-caption font-mono text-fog tracking-widest">
+        </ThemedText>
+        <ThemedText tone="fog" className="text-caption font-mono tracking-widest">
           {String(index + 1).padStart(2, '0')} / {String(exam.items.length).padStart(2, '0')}
-        </Text>
+        </ThemedText>
       </View>
 
       <ScrollView
@@ -249,9 +264,9 @@ export default function ExamRunScreen() {
           <ChartRequiredBanner chartRef={item.chartRef} />
         ) : null}
 
-        <Text className="text-title font-sans-medium text-ink">
+        <ThemedText className="text-title font-sans-medium">
           {generated?.questionSv ?? questionText(item)}
-        </Text>
+        </ThemedText>
 
         {lanternScene ? (
           <View className="mt-5">
@@ -269,13 +284,17 @@ export default function ExamRunScreen() {
           </View>
         ) : null}
         {item.imageAsset && contentImages[item.imageAsset] ? (
-          <View className="mt-5 rounded-xl overflow-hidden border border-fog/15">
+          <ThemedView
+            borderTone="fog"
+            borderOpacity={15}
+            className="mt-5 rounded-xl overflow-hidden border"
+          >
             <Image
               source={contentImages[item.imageAsset]}
               style={{ width: '100%', aspectRatio: 800 / 520 }}
               contentFit="contain"
             />
-          </View>
+          </ThemedView>
         ) : null}
 
         {isMapNumeric && item.type === 'map_question' && item.answer && mapValue ? (
@@ -285,40 +304,39 @@ export default function ExamRunScreen() {
         ) : null}
 
         <View className="mt-6">
-          {options.map((opt, i) => (
-            <Pressable
-              key={i}
-              onPress={() => setSelected(i)}
-              className={`rounded-xl border px-5 py-4 mb-3 active:opacity-80 ${
-                i === selected ? 'border-brass bg-surface' : 'border-fog/15 bg-surface/60'
-              }`}
-            >
-              <Text className="text-body font-sans text-ink">{opt.text}</Text>
-            </Pressable>
-          ))}
+          {options.map((opt, i) => {
+            const isSelected = i === selected;
+            const tone: Tone = isSelected ? 'brass' : 'fog';
+            return (
+              <ThemedPressable
+                key={i}
+                onPress={() => setSelected(i)}
+                bg="surface"
+                bgOpacity={isSelected ? undefined : 60}
+                borderTone={tone}
+                borderOpacity={isSelected ? undefined : 15}
+                className="rounded-xl border px-5 py-4 mb-3 active:opacity-80"
+              >
+                <ThemedText className="text-body font-sans">{opt.text}</ThemedText>
+              </ThemedPressable>
+            );
+          })}
         </View>
       </ScrollView>
 
       <View className="px-6 pb-4">
-        <Pressable
-          disabled={isMapNumeric ? !mapValue || !isMapAnswerComplete(mapValue) : selected === null}
-          className={`rounded-xl py-4 items-center ${
-            (isMapNumeric ? mapValue && isMapAnswerComplete(mapValue) : selected !== null)
-              ? 'bg-brass active:opacity-90'
-              : 'bg-surface border border-fog/15'
-          }`}
+        <ThemedPressable
+          disabled={!mapReady}
+          bg={mapReady ? 'brass' : 'surface'}
+          borderTone={mapReady ? undefined : 'fog'}
+          borderOpacity={15}
+          className={`rounded-xl py-4 items-center ${mapReady ? 'active:opacity-90' : 'border'}`}
           onPress={submitAnswer}
         >
-          <Text
-            className={`text-body font-sans-semibold ${
-              (isMapNumeric ? mapValue && isMapAnswerComplete(mapValue) : selected !== null)
-                ? 'text-bg'
-                : 'text-fog'
-            }`}
-          >
+          <ThemedText tone={mapReady ? 'bg' : 'fog'} className="text-body font-sans-semibold">
             {index + 1 >= exam.items.length ? 'Lämna in' : 'Nästa'}
-          </Text>
-        </Pressable>
+          </ThemedText>
+        </ThemedPressable>
       </View>
     </SafeAreaView>
   );
