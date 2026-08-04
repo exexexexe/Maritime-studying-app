@@ -51,6 +51,9 @@ const TOPIC_FILES: TopicFile[] = [
   require('../../content/rules/miljo-och-allemansratt.json'),
   require('../../content/rules/utomlands-och-passagerare.json'),
   require('../../content/rules/sjolag-och-bemanning.json'),
+  require('../../content/buoyage/ljuskaraktarer-bilder.json'),
+  require('../../content/colreg/vajningsscenarier.json'),
+  require('../../content/navcalc/praktisk-sjokortsnavigering.json'),
 ];
 
 export const modules: ModuleDef[] = [...modulesJson.modules].sort(
