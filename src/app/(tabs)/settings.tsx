@@ -1,70 +1,87 @@
 import Constants from 'expo-constants';
-import { Pressable, ScrollView, Text, View } from 'react-native';
+import { ScrollView, useColorScheme, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { Disclaimer } from '@/components/disclaimer';
+import { ThemedPressable, ThemedText, ThemedView } from '@/components/themed';
 import { itemsForTrack } from '@/content';
 import { TRACK_NAMES, TRACK_ORDER, useTrack } from '@/state/track-context';
+import { palette } from '@/theme/tokens';
 
 export default function SettingsScreen() {
   const { track, setTrack } = useTrack();
+  const p = palette(useColorScheme());
 
   return (
-    <SafeAreaView className="flex-1 bg-bg" edges={['top']}>
+    <SafeAreaView className="flex-1" style={{ backgroundColor: p.bg }} edges={['top']}>
       <ScrollView contentContainerClassName="flex-grow px-6 pt-10">
-        <Text className="text-display font-display text-ink">Inställningar</Text>
+        <ThemedText className="text-display font-display">Inställningar</ThemedText>
 
-        <View className="mt-8 rounded-xl bg-surface border border-fog/15 px-5 py-5">
-          <Text className="text-caption font-mono text-fog uppercase tracking-widest">
+        <ThemedView
+          bg="surface"
+          borderTone="fog"
+          borderOpacity={15}
+          className="mt-8 rounded-xl border px-5 py-5"
+        >
+          <ThemedText tone="fog" className="text-caption font-mono uppercase tracking-widest">
             Aktivt spår
-          </Text>
-          <Text className="text-small font-sans text-fog mt-2 mb-3">
+          </ThemedText>
+          <ThemedText tone="fog" className="text-small font-sans mt-2 mb-3">
             Varje spår har sitt eget innehåll och sitt eget repetitionsschema —
             framsteg i ett spår påverkar inte de andra.
-          </Text>
+          </ThemedText>
           {TRACK_ORDER.map((t) => {
             const active = t === track;
             return (
-              <Pressable
+              <ThemedPressable
                 key={t}
                 onPress={() => setTrack(t)}
-                className={`flex-row items-center justify-between rounded-lg border px-4 py-3 mb-2 active:opacity-80 ${
-                  active ? 'border-brass' : 'border-fog/15'
-                }`}
+                borderTone={active ? 'brass' : 'fog'}
+                borderOpacity={active ? undefined : 15}
+                className="flex-row items-center justify-between rounded-lg border px-4 py-3 mb-2 active:opacity-80"
               >
-                <Text
-                  className={`text-body ${
-                    active ? 'font-sans-semibold text-brass' : 'font-sans text-ink'
-                  }`}
+                <ThemedText
+                  tone={active ? 'brass' : 'ink'}
+                  className={`text-body ${active ? 'font-sans-semibold' : 'font-sans'}`}
                 >
                   {TRACK_NAMES[t]}
-                </Text>
-                <Text className="text-caption font-mono text-fog">
+                </ThemedText>
+                <ThemedText tone="fog" className="text-caption font-mono">
                   {itemsForTrack(t).length} frågor
-                </Text>
-              </Pressable>
+                </ThemedText>
+              </ThemedPressable>
             );
           })}
-        </View>
+        </ThemedView>
 
-        <View className="mt-4 rounded-xl bg-surface border border-fog/15 px-5 py-5">
-          <Text className="text-caption font-mono text-fog uppercase tracking-widest">
+        <ThemedView
+          bg="surface"
+          borderTone="fog"
+          borderOpacity={15}
+          className="mt-4 rounded-xl border px-5 py-5"
+        >
+          <ThemedText tone="fog" className="text-caption font-mono uppercase tracking-widest">
             Utseende
-          </Text>
-          <Text className="text-small font-sans text-fog mt-2">
+          </ThemedText>
+          <ThemedText tone="fog" className="text-small font-sans mt-2">
             Följer systemets mörka/ljusa läge. Mörkt läge är appens standard.
-          </Text>
-        </View>
+          </ThemedText>
+        </ThemedView>
 
-        <View className="mt-4 rounded-xl bg-surface border border-fog/15 px-5 py-5">
-          <Text className="text-caption font-mono text-fog uppercase tracking-widest">
+        <ThemedView
+          bg="surface"
+          borderTone="fog"
+          borderOpacity={15}
+          className="mt-4 rounded-xl border px-5 py-5"
+        >
+          <ThemedText tone="fog" className="text-caption font-mono uppercase tracking-widest">
             Om appen
-          </Text>
-          <Text className="text-small font-sans text-fog mt-2">
+          </ThemedText>
+          <ThemedText tone="fog" className="text-small font-sans mt-2">
             Version {Constants.expoConfig?.version ?? '—'} · All data sparas
             lokalt på enheten. Appen kräver ingen nätverksanslutning.
-          </Text>
-        </View>
+          </ThemedText>
+        </ThemedView>
 
         <View className="flex-1" />
         <Disclaimer />
