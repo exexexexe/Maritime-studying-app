@@ -4,6 +4,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { ThemedPressable, ThemedText, ThemedView } from '@/components/themed';
 import { itemsForModule, modules } from '@/content';
+import { coverageLabel, isThinCoverage } from '@/srs/stats';
 import { TRACK_NAMES, useTrack } from '@/state/track-context';
 import { palette } from '@/theme/tokens';
 
@@ -50,8 +51,11 @@ export default function ModulesScreen() {
                   <ThemedText className="text-body font-sans-medium flex-1">
                     {m.titleSv}
                   </ThemedText>
-                  <ThemedText tone="brass" className="text-caption font-mono">
-                    {itemCount} frågor ›
+                  <ThemedText
+                    tone={isThinCoverage(itemCount) ? 'fog' : 'brass'}
+                    className="text-caption font-mono"
+                  >
+                    {coverageLabel(itemCount)} ›
                   </ThemedText>
                 </ThemedView>
               </ThemedPressable>

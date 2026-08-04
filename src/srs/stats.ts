@@ -33,6 +33,23 @@ export interface DashboardStats {
 
 const THIN_THRESHOLD = 8;
 
+/**
+ * Coverage framing for students — never surface a raw item count as a
+ * headline number (reads as marketing/padding, e.g. "108 frågor!"); a
+ * qualitative tier answers what a student actually wants to know ("is
+ * this ready to study from"), same threshold the dev-facing `thin` flag
+ * already uses.
+ */
+export function coverageLabel(itemCount: number): string {
+  return itemCount < THIN_THRESHOLD ? 'Under uppbyggnad' : 'Väl täckt';
+}
+
+/** Same threshold as `coverageLabel` — for screens that need to pick a
+ * color/tone rather than (or alongside) the label text. */
+export function isThinCoverage(itemCount: number): boolean {
+  return itemCount < THIN_THRESHOLD;
+}
+
 export function dashboardStats(track: Track, now: number): DashboardStats {
   const reviews = getReviewsForTrack(track);
   const due = new Set(dueItemIds(track, now));

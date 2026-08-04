@@ -6,7 +6,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Disclaimer } from '@/components/disclaimer';
 import { ThemedPressable, ThemedText, ThemedView } from '@/components/themed';
 import { bumpLaunchCount } from '@/db';
-import { dashboardStats, type DashboardStats } from '@/srs/stats';
+import { coverageLabel, dashboardStats, type DashboardStats } from '@/srs/stats';
 import { getStreak } from '@/state/activity';
 import { TRACK_NAMES, useTrack } from '@/state/track-context';
 import { palette } from '@/theme/tokens';
@@ -119,7 +119,9 @@ export default function DashboardScreen() {
           </ThemedView>
         ) : null}
 
-        {/* Content coverage */}
+        {/* Content coverage — a relative bar plus a qualitative tier, never
+            a raw item count (reads as marketing/padding, not something a
+            student needs to plan a study session around). */}
         <ThemedView
           bg="surface"
           borderTone="fog"
@@ -127,7 +129,7 @@ export default function DashboardScreen() {
           className="mt-5 rounded-xl border px-5 py-5"
         >
           <ThemedText tone="fog" className="text-caption font-mono uppercase tracking-widest mb-3">
-            Frågebank
+            Täckning
           </ThemedText>
           {stats.coverage.map((c) => (
             <View key={c.moduleId} className="flex-row items-center py-1.5">
@@ -146,15 +148,15 @@ export default function DashboardScreen() {
                   style={{ width: `${(c.itemCount / maxCount) * 100}%` }}
                 />
               </ThemedView>
-              <ThemedText tone="fog" className="text-caption font-mono w-16 text-right" numberOfLines={1}>
-                {c.itemCount}
-                {c.thin ? ' · tunt' : ''}
+              <ThemedText
+                tone={c.thin ? 'fog' : 'brass'}
+                className="text-caption font-mono w-28 text-right"
+                numberOfLines={1}
+              >
+                {coverageLabel(c.itemCount)}
               </ThemedText>
             </View>
           ))}
-          <ThemedText tone="fog" className="text-caption font-sans mt-3">
-            ”Tunt” markerar moduler där frågebanken behöver växa.
-          </ThemedText>
         </ThemedView>
 
         <View className="flex-1" />

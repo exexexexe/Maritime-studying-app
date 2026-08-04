@@ -4,7 +4,6 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { Disclaimer } from '@/components/disclaimer';
 import { ThemedPressable, ThemedText } from '@/components/themed';
-import { itemsForTrack } from '@/content';
 import type { Track } from '@/content/types';
 import { TRACK_NAMES, TRACK_ORDER } from '@/state/track-context';
 import { palette } from '@/theme/tokens';
@@ -39,7 +38,6 @@ export function TrackSelect({ onSelect }: { onSelect: (track: Track) => void }) 
         <View className="mt-8">
           {TRACK_ORDER.map((t) => {
             const active = chosen === t;
-            const count = itemsForTrack(t).length;
             return (
               <ThemedPressable
                 key={t}
@@ -50,15 +48,12 @@ export function TrackSelect({ onSelect }: { onSelect: (track: Track) => void }) 
                 borderOpacity={active ? undefined : 15}
                 className="rounded-xl border px-5 py-4 mb-3 active:opacity-80"
               >
-                <View className="flex-row items-center justify-between">
-                  <ThemedText
-                    toneOpacity={active ? undefined : 80}
-                    className={`text-body ${active ? 'font-sans-semibold' : 'font-sans-medium'}`}
-                  >
-                    {TRACK_NAMES[t]}
-                  </ThemedText>
-                  <ThemedText tone="fog" className="text-caption font-mono">{count} frågor</ThemedText>
-                </View>
+                <ThemedText
+                  toneOpacity={active ? undefined : 80}
+                  className={`text-body ${active ? 'font-sans-semibold' : 'font-sans-medium'}`}
+                >
+                  {TRACK_NAMES[t]}
+                </ThemedText>
                 <ThemedText tone="fog" className="text-small font-sans mt-1">
                   {TRACK_DESCRIPTIONS[t]}
                 </ThemedText>
