@@ -4,13 +4,29 @@
     {
       "id": "buoy-kard-001",
       "topicId": "top-buoy-kardinal",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "buoy",
       "options": [
-        { "text": "Nordkardinal — passera norr om märket", "isCorrect": true },
-        { "text": "Sydkardinal — passera söder om märket", "isCorrect": false },
-        { "text": "Ostkardinal — passera öster om märket", "isCorrect": false },
-        { "text": "Punktmärke — håll god marginal åt alla håll", "isCorrect": false }
+        {
+          "text": "Nordkardinal — passera norr om märket",
+          "isCorrect": true
+        },
+        {
+          "text": "Sydkardinal — passera söder om märket",
+          "isCorrect": false
+        },
+        {
+          "text": "Ostkardinal — passera öster om märket",
+          "isCorrect": false
+        },
+        {
+          "text": "Punktmärke — håll god marginal åt alla håll",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Svart över gult med två koner spets uppåt är nordkardinalmärket: fritt vatten norr om märket, faran ligger söder om det. Konernas spetsar pekar mot det svarta fältet — här uppåt/norrut.",
       "explanationEn": "Black over yellow, two cones point up: north cardinal — pass north of it.",
@@ -18,19 +34,42 @@
       "authorReviewed": false,
       "payload": {
         "questionSv": "Vilket märke är detta, och var passerar du?",
-        "scene": { "colors": ["black", "yellow"], "topmark": "cones-up", "captionSv": "Två koner, spets uppåt" }
+        "scene": {
+          "colors": [
+            "black",
+            "yellow"
+          ],
+          "topmark": "cones-up",
+          "captionSv": "Två koner, spets uppåt"
+        }
       }
     },
     {
       "id": "buoy-kard-002",
       "topicId": "top-buoy-kardinal",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "buoy",
       "options": [
-        { "text": "Sydkardinal — passera söder om märket", "isCorrect": true },
-        { "text": "Nordkardinal — passera norr om märket", "isCorrect": false },
-        { "text": "Västkardinal — passera väster om märket", "isCorrect": false },
-        { "text": "Mittledsmärke — passera på valfri sida", "isCorrect": false }
+        {
+          "text": "Sydkardinal — passera söder om märket",
+          "isCorrect": true
+        },
+        {
+          "text": "Nordkardinal — passera norr om märket",
+          "isCorrect": false
+        },
+        {
+          "text": "Västkardinal — passera väster om märket",
+          "isCorrect": false
+        },
+        {
+          "text": "Mittledsmärke — passera på valfri sida",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Gult över svart med två koner spets nedåt är sydkardinalmärket: passera söder om märket, faran ligger norr om det. Spetsarna pekar nedåt mot det svarta fältet.",
       "explanationEn": "Yellow over black, cones point down: south cardinal — pass south of it.",
@@ -38,19 +77,41 @@
       "authorReviewed": false,
       "payload": {
         "questionSv": "Vilket märke är detta, och var passerar du?",
-        "scene": { "colors": ["yellow", "black"], "topmark": "cones-down", "captionSv": "Två koner, spets nedåt" }
+        "scene": {
+          "colors": [
+            "yellow",
+            "black"
+          ],
+          "topmark": "cones-down",
+          "captionSv": "Två koner, spets nedåt"
+        }
       }
     },
     {
       "id": "buoy-kard-003",
       "topicId": "top-buoy-kardinal",
-      "tracks": ["kustskeppare", "klass8"],
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "buoy",
       "options": [
-        { "text": "Ostkardinal — passera öster om märket", "isCorrect": true },
-        { "text": "Västkardinal — passera väster om märket", "isCorrect": false },
-        { "text": "Nordkardinal — passera norr om märket", "isCorrect": false },
-        { "text": "Specialmärke — betydelsen framgår av sjökortet", "isCorrect": false }
+        {
+          "text": "Ostkardinal — passera öster om märket",
+          "isCorrect": true
+        },
+        {
+          "text": "Västkardinal — passera väster om märket",
+          "isCorrect": false
+        },
+        {
+          "text": "Nordkardinal — passera norr om märket",
+          "isCorrect": false
+        },
+        {
+          "text": "Specialmärke — betydelsen framgår av sjökortet",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Svart med gult bälte och koner bas mot bas är ostkardinalmärket — passera öster om. Minnesregel: konerna bildar en ägg-form, Ost som i ägg. Väst har spets mot spets (som ett W på högkant).",
       "explanationEn": "Black with yellow band, cones base to base: east cardinal — pass east of it.",
@@ -58,19 +119,42 @@
       "authorReviewed": false,
       "payload": {
         "questionSv": "Vilket märke är detta, och var passerar du?",
-        "scene": { "colors": ["black", "yellow", "black"], "topmark": "cones-base-to-base", "captionSv": "Två koner, bas mot bas" }
+        "scene": {
+          "colors": [
+            "black",
+            "yellow",
+            "black"
+          ],
+          "topmark": "cones-base-to-base",
+          "captionSv": "Två koner, bas mot bas"
+        }
       }
     },
     {
       "id": "buoy-kard-004",
       "topicId": "top-buoy-kardinal",
-      "tracks": ["kustskeppare", "klass8"],
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "buoy",
       "options": [
-        { "text": "Punktmärke — en begränsad fara med farbart vatten runt om", "isCorrect": true },
-        { "text": "Babords sidomärke i ytterskärgård", "isCorrect": false },
-        { "text": "Mittledsmärke — angöringspunkt", "isCorrect": false },
-        { "text": "Ostkardinal — passera öster om märket", "isCorrect": false }
+        {
+          "text": "Punktmärke — en begränsad fara med farbart vatten runt om",
+          "isCorrect": true
+        },
+        {
+          "text": "Babords sidomärke i ytterskärgård",
+          "isCorrect": false
+        },
+        {
+          "text": "Mittledsmärke — angöringspunkt",
+          "isCorrect": false
+        },
+        {
+          "text": "Ostkardinal — passera öster om märket",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Svart med rött bälte och två svarta kulor i topp är punktmärket (isolated danger). Det står på eller förtöjt över en begränsad fara — grund eller vrak — med farbart vatten runt om. Passera med god marginal.",
       "explanationEn": "Black with red band, two black spheres: isolated danger mark — navigable water around it.",
@@ -78,19 +162,43 @@
       "authorReviewed": false,
       "payload": {
         "questionSv": "Vilket märke är detta?",
-        "scene": { "colors": ["black", "red", "black"], "topmark": "spheres-2", "captionSv": "Två svarta kulor i topp" }
+        "scene": {
+          "colors": [
+            "black",
+            "red",
+            "black"
+          ],
+          "topmark": "spheres-2",
+          "captionSv": "Två svarta kulor i topp"
+        }
       }
     },
     {
       "id": "buoy-kard-005",
       "topicId": "top-buoy-kardinal",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "buoy",
       "options": [
-        { "text": "Specialmärke — betydelsen framgår av sjökortet", "isCorrect": true },
-        { "text": "Styrbords sidomärke — håll det om styrbord", "isCorrect": false },
-        { "text": "Sydkardinal — passera söder om märket", "isCorrect": false },
-        { "text": "Punktmärke — fara rakt under märket", "isCorrect": false }
+        {
+          "text": "Specialmärke — betydelsen framgår av sjökortet",
+          "isCorrect": true
+        },
+        {
+          "text": "Styrbords sidomärke — håll det om styrbord",
+          "isCorrect": false
+        },
+        {
+          "text": "Sydkardinal — passera söder om märket",
+          "isCorrect": false
+        },
+        {
+          "text": "Punktmärke — fara rakt under märket",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Ett helt gult märke, ofta med gult liggande kryss i toppen, är ett specialmärke. Det markerar till exempel badområde, kabel, mätboj eller militärt övningsområde — vad som gäller framgår av sjökortet.",
       "explanationEn": "All yellow with a yellow X topmark: special mark — meaning shown on the chart.",
@@ -98,8 +206,417 @@
       "authorReviewed": false,
       "payload": {
         "questionSv": "Vilket märke är detta?",
-        "scene": { "colors": ["yellow"], "topmark": "x-yellow", "captionSv": "Gult kryss i topp" }
+        "scene": {
+          "colors": [
+            "yellow"
+          ],
+          "topmark": "x-yellow",
+          "captionSv": "Gult kryss i topp"
+        }
       }
+    },
+    {
+      "id": "buoy-kard-006",
+      "topicId": "top-buoy-kardinal",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Väster om bojen",
+          "isCorrect": false
+        },
+        {
+          "text": "Öster om bojen",
+          "isCorrect": true
+        },
+        {
+          "text": "Söder om bojen",
+          "isCorrect": false
+        },
+        {
+          "text": "Norr om bojen",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tre snabba blixtar, Q(3) eller VQ(3), är karaktären för ett ostkardinalmärke. Ett ostmärke står öster om faran – bojen ligger alltså ost om grundet och du ska passera öster om bojen. Minnesregel: 3 blixtar = klockan 3 = ost.",
+      "explanationEn": "Three quick flashes, Q(3) or VQ(3), is the characteristic of an east cardinal mark. An east mark is placed east of the danger — the buoy lies east of the shoal, so you should pass east of the buoy. Memory aid: 3 flashes = 3 o'clock = east.",
+      "payload": {
+        "questionSv": "Nattsegling. Du kommer fram till en lysboj som ligger nära intill leden men som inte står i sjökortet. Förmodligen är den ditlagd för att markera ett nytt hinder. Den avger tre snabba blixtar. På vilken sida om bojen bör du gå?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:11 / photo_71, photo_28"
+    },
+    {
+      "id": "buoy-kard-007",
+      "topicId": "top-buoy-kardinal",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Gul med svart bälte (gul/svart/gul)",
+          "isCorrect": true
+        },
+        {
+          "text": "Svart med gult bälte (svart/gul/svart)",
+          "isCorrect": false
+        },
+        {
+          "text": "Svart överdel och gul underdel",
+          "isCorrect": false
+        },
+        {
+          "text": "Gul överdel och svart underdel",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Västmärket är gult med ett svart bälte på mitten (gul/svart/gul). Toppmärket är två koner med spetsarna mot varandra. Fritt vatten finns väster om märket.",
+      "explanationEn": "The west cardinal mark is yellow with a black horizontal band (yellow/black/yellow). Its topmark is two cones point to point. Safe water lies west of the mark.",
+      "payload": {
+        "questionSv": "I sjökortet visas symbolen för ett västmärke (kardinalmärke, topptecken: två koner med spetsarna mot varandra). Vilka färger har märket i verkligheten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:17 symbol 8 / photo_85, photo_40"
+    },
+    {
+      "id": "buoy-kard-008",
+      "topicId": "top-buoy-kardinal",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Svart med gult bälte (svart/gul/svart)",
+          "isCorrect": true
+        },
+        {
+          "text": "Gul med svart bälte (gul/svart/gul)",
+          "isCorrect": false
+        },
+        {
+          "text": "Svart överdel och gul underdel",
+          "isCorrect": false
+        },
+        {
+          "text": "Gul överdel och svart underdel",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ostmärket är svart med ett gult bälte (svart/gul/svart). Toppmärket är två koner med baserna mot varandra. Fritt vatten finns öster om märket.",
+      "explanationEn": "The east cardinal mark is black with a yellow band (black/yellow/black). Its topmark is two cones base to base. Safe water lies east of the mark.",
+      "payload": {
+        "questionSv": "I sjökortet visas symbolen för ett ostmärke (kardinalmärke, topptecken: två koner med baserna mot varandra). Vilka färger har märket i verkligheten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:17 symbol 9 / photo_85, photo_40"
+    },
+    {
+      "id": "buoy-kard-009",
+      "topicId": "top-buoy-kardinal",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Svart överdel och gul underdel",
+          "isCorrect": true
+        },
+        {
+          "text": "Gul överdel och svart underdel",
+          "isCorrect": false
+        },
+        {
+          "text": "Svart med gult bälte",
+          "isCorrect": false
+        },
+        {
+          "text": "Gul med svart bälte",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Nordmärket är svart upptill och gult nedtill. Toppmärket är två koner med spetsarna uppåt – konernas spetsar pekar mot den svarta färgen. Fritt vatten finns norr om märket.",
+      "explanationEn": "The north cardinal mark is black on top and yellow below. Its topmark is two cones pointing up – the cone points indicate where the black colour sits. Safe water lies north of the mark.",
+      "payload": {
+        "questionSv": "I sjökortet visas symbolen för ett nordmärke (kardinalmärke, topptecken: två koner med spetsarna uppåt). Vilka färger har märket i verkligheten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:17 symbol 10 / photo_85, photo_40"
+    },
+    {
+      "id": "buoy-kard-010",
+      "topicId": "top-buoy-kardinal",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Gul överdel och svart underdel",
+          "isCorrect": true
+        },
+        {
+          "text": "Svart överdel och gul underdel",
+          "isCorrect": false
+        },
+        {
+          "text": "Gul med svart bälte",
+          "isCorrect": false
+        },
+        {
+          "text": "Svart med gult bälte",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Sydmärket är gult upptill och svart nedtill. Toppmärket är två koner med spetsarna nedåt – spetsarna pekar mot den svarta färgen. Fritt vatten finns söder om märket.",
+      "explanationEn": "The south cardinal mark is yellow on top and black below. Its topmark is two cones pointing down – towards the black colour. Safe water lies south of the mark.",
+      "payload": {
+        "questionSv": "I sjökortet visas symbolen för ett sydmärke (kardinalmärke, topptecken: två koner med spetsarna nedåt). Vilka färger har märket i verkligheten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:17 symbol 11 / photo_85, photo_40"
+    },
+    {
+      "id": "buoy-kard-011",
+      "topicId": "top-buoy-kardinal",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Svart med rött bälte",
+          "isCorrect": true
+        },
+        {
+          "text": "Röd med vitt bälte",
+          "isCorrect": false
+        },
+        {
+          "text": "Svart med gult bälte",
+          "isCorrect": false
+        },
+        {
+          "text": "Röd med grönt bälte",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Punktmärket (märke för enstaka mindre fara/isolerad fara) är svart med ett eller flera röda bälten. Toppmärket är två svarta klot. Märket står på själva faran och kan passeras på alla sidor med gott avstånd.",
+      "explanationEn": "The isolated danger mark is black with one or more red bands and carries two black spheres as topmark. It stands on the danger itself and may be passed on any side at a safe distance.",
+      "payload": {
+        "questionSv": "I sjökortet visas symbolen för ett punktmärke (isolerad fara, topptecken: två svarta klot). Vilka färger har märket i verkligheten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:17 symbol 12 / photo_85, photo_40"
+    },
+    {
+      "id": "buoy-kard-012",
+      "topicId": "top-buoy-kardinal",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Gul",
+          "isCorrect": true
+        },
+        {
+          "text": "Röd",
+          "isCorrect": false
+        },
+        {
+          "text": "Vit",
+          "isCorrect": false
+        },
+        {
+          "text": "Orange",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Specialmärket är gult och har ett gult liggande kryss som topptecken. Det markerar till exempel militära övningsområden, kablar, mätinstrument eller badområden – inte själva farleden.",
+      "explanationEn": "The special mark is yellow with a yellow X-shaped topmark. It indicates e.g. exercise areas, cables, instruments or bathing areas – not the fairway itself.",
+      "payload": {
+        "questionSv": "I sjökortet visas symbolen för ett specialmärke (topptecken: liggande kryss). Vilken färg har märket i verkligheten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:17 symbol 13 / photo_85, photo_40"
+    },
+    {
+      "id": "buoy-kard-013",
+      "topicId": "top-buoy-kardinal",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Nordmärke, lysboj",
+          "isCorrect": true
+        },
+        {
+          "text": "Sydmärke, lysboj",
+          "isCorrect": false
+        },
+        {
+          "text": "Ostmärke, lysboj",
+          "isCorrect": false
+        },
+        {
+          "text": "Västmärke, lysboj",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En lysboj med topptecknet två koner med spetsarna uppåt är ett nordmärke. Märket är svart över gult, ljuset är vitt och snabblixtrande, och fritt vatten finns norr om märket.",
+      "explanationEn": "A light buoy whose topmark is two cones pointing up is a north cardinal mark. It is black over yellow, shows a white quick-flashing light, and safe water lies to the north.",
+      "payload": {
+        "questionSv": "I sjökortet visas en lysbojssymbol med topptecknet två koner med spetsarna uppåt. Vad kallas sjömärket enligt system A?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:18 symbol 4 / photo_85, photo_40"
+    },
+    {
+      "id": "buoy-kard-014",
+      "topicId": "top-buoy-kardinal",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Inomskärs har de toppklot med ljusreflex, utomskärs radarreflektor med ljusreflex",
+          "isCorrect": true
+        },
+        {
+          "text": "Inomskärs har de radarreflektor, utomskärs toppklot – båda utan reflexer",
+          "isCorrect": false
+        },
+        {
+          "text": "De har alltid två flaggor och ett gult blixtljus oavsett var de står",
+          "isCorrect": false
+        },
+        {
+          "text": "De är alltid gula med svart kryss som topptecken, som ett specialmärke",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Fiskevakare som märker ut ytstående redskap kännetecknas inomskärs av toppklot med ljusreflex och utomskärs av radarreflektor med ljusreflex. Saknas dessa kännetecken är redskapet överseglingsbart.",
+      "explanationEn": "Fishing-gear buoys marking surface-set gear carry a spherical topmark with light reflector in inshore waters, and a radar reflector with light reflector offshore. Without these features the gear is safe to pass over.",
+      "payload": {
+        "questionSv": "Vad kännetecknar fiskevakare som märker ut ytstående redskap?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:22 / photo_84, photo_39"
+    },
+    {
+      "id": "buoy-kard-015",
+      "topicId": "top-buoy-kardinal",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "En vakare vid ett överseglingsbart redskap – ingen annan åtgärd behövs än att undvika att segla på själva vakaren",
+          "isCorrect": true
+        },
+        {
+          "text": "En vakare vid ett ytstående redskap – jag måste gira styrbord för att gå klar av redskapet",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett specialmärke som varnar för kabel – jag får inte ankra men kan passera fritt",
+          "isCorrect": false
+        },
+        {
+          "text": "En vakare vid ett ytstående redskap – jag måste gira babord för att gå klar av redskapet",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vakaren saknar toppklot, vilket inomskärs betyder att redskapet är överseglingsbart (sjunket under ytan). Därför behövs ingen gir för redskapets skull – det räcker att undvika att segla på själva vakaren.",
+      "explanationEn": "The buoy lacks the spherical topmark, which inshore means the gear is set below the surface and can be passed over. No avoiding turn is needed for the gear – just avoid hitting the buoy itself.",
+      "payload": {
+        "questionSv": "Du går inomskärs på nordlig kurs och ser framför dig en fiskevakare med två flaggor men utan toppklot (se figur). Vad är det, och vilken åtgärd krävs?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:23 / photo_84, photo_39"
+    },
+    {
+      "id": "buoy-kard-016",
+      "topicId": "top-buoy-kardinal",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "En vakare vid ett ytstående redskap – vakaren står i redskapets västsektor, så jag girar babord",
+          "isCorrect": true
+        },
+        {
+          "text": "En vakare vid ett ytstående redskap – vakaren står i redskapets ostsektor, så jag girar styrbord",
+          "isCorrect": false
+        },
+        {
+          "text": "En vakare vid ett överseglingsbart redskap – ingen gir behövs, bara att undvika själva vakaren",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett västmärke – jag ska passera väster om märket och girar därför styrbord",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Utomskärs betyder radarreflektorn att vakaren märker ut ett ytstående redskap som inte får överseglas. Flaggorna visar att vakaren står i redskapets västsektor – redskapet sträcker sig alltså österut från vakaren. På nordlig kurs går du därför klar genom en babordsgir (åt väster).",
+      "explanationEn": "Offshore, the radar reflector means the buoy marks surface-set gear that must not be crossed. The flags show the buoy stands in the western sector of the gear, so the gear extends eastward. On a northerly course you clear it by turning to port (west).",
+      "payload": {
+        "questionSv": "Du går utomskärs på nordlig kurs och ser framför dig en fiskevakare med radarreflektor och två flaggor (se figur). Vad är det, och vilken åtgärd krävs?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:24 / photo_84, photo_39"
     }
   ]
 }

@@ -23,6 +23,7 @@ const TOPIC_FILES: TopicFile[] = [
   require('../../content/lanterns/sarskilda-fartyg.json'),
   require('../../content/buoyage/sidomarkering.json'),
   require('../../content/buoyage/kardinalmarkering.json'),
+  require('../../content/buoyage/fyrar-och-ljuskaraktarer.json'),
   require('../../content/navcalc/kursrattning.json'),
   require('../../content/navcalc/fart-tid-distans.json'),
   require('../../content/weather/vadersystem.json'),

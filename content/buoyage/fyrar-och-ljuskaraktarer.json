@@ -1,0 +1,1380 @@
+{
+  "topicId": "top-buoy-fyrar",
+  "items": [
+    {
+      "id": "buoy-fyr-001",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "2–3 minuter",
+          "isCorrect": false
+        },
+        {
+          "text": "5–10 minuter",
+          "isCorrect": false
+        },
+        {
+          "text": "15–20 minuter",
+          "isCorrect": true
+        },
+        {
+          "text": "40–60 minuter",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Efter att ha utsatts för starkt ljus tar det 15–20 minuter innan mörkerseendet är återställt. Därför bör man skydda mörkerseendet ombord, t.ex. med röd eller svag belysning och genom att blunda med ena ögat om ljus måste tändas.",
+      "explanationEn": "After exposure to bright light it takes 15–20 minutes for night vision to recover. That is why night vision should be protected on board, e.g. with red or dim lighting, or by closing one eye if a light must be switched on.",
+      "payload": {
+        "questionSv": "Mitt i natten tänder du belysningen nere i ruffen för att hjälpa ett barn som skurit sig i tummen. När du kommer upp på däck är mörkerseendet allvarligt försämrat. Hur lång tid kan du räkna med att det tar innan mörkerseendet är återställt?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:1 / photo_71, photo_29"
+    },
+    {
+      "id": "buoy-fyr-002",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Montera starka däcksstrålkastare så att däcket alltid är väl upplyst under gång",
+          "isCorrect": false
+        },
+        {
+          "text": "Ordna sjökorts- och kompassbelysning med rött eller svagt vitt sken, skärma av ljus från inredningen och skärma under topplanternan om den lyser ner på fördäck",
+          "isCorrect": false
+        },
+        {
+          "text": "Ordna sjökorts- och kompassbelysning med rött sken eller svagt vitt, skärma så att inget ljus kommer ut från inredningen och eventuellt skärma under topplanternan om den lyser ner på fördäck",
+          "isCorrect": true
+        },
+        {
+          "text": "Byt lanternorna mot svagare glödlampor och släck all inredningsbelysning helt under hela natten",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "För att spara mörkerseendet förbereds båten genom att sjökorts- och kompassbelysning görs röd eller mycket svagt vit, genom att inredningens ljus skärmas av så att inget läcker ut på däck, och eventuellt genom att skärma under topplanternan om den lyser ner på fördäck. Rött, svagt ljus påverkar mörkerseendet minst.",
+      "explanationEn": "To preserve night vision, prepare the boat by giving the chart and compass lights a red or very dim white glow, shielding the interior so no light leaks on deck, and possibly screening the underside of the masthead light if it shines down on the foredeck. Dim red light disturbs night vision the least.",
+      "payload": {
+        "questionSv": "Nämn några sätt att förbereda den egna båten så att mörkerseendet sparas vid mörkernavigering."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": "Två alternativ är avsiktligt snarlika; kontrollera att distraktorn utan 'inget ljus från inredningen' inte upplevs som korrekt.",
+      "sourceRef": "6:2 / photo_71, photo_29"
+    },
+    {
+      "id": "buoy-fyr-003",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Använd strålkastare ofta för att lysa upp märken och håll god fart så att gattet passeras snabbt",
+          "isCorrect": false
+        },
+        {
+          "text": "Undvik strålkastare (kikare är ofta bättre), skärma av bländande ljus, blunda med ena ögat om ljus måste tändas och titta ut genom taklucka eller öppningsbar vindruta",
+          "isCorrect": true
+        },
+        {
+          "text": "Titta alltid genom vindrutans glas, använd solglasögon mot bländning och tänd däcksbelysningen för orientering",
+          "isCorrect": false
+        },
+        {
+          "text": "Fixera blicken rakt förut hela tiden, undvik kikare i mörker och håll ruffbelysningen tänd som referensljus",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "För att se så bra som möjligt i mörker: undvik strålkastare – det är ofta bättre med kikare, skärma av allt ljus som kan blända i båten, blunda med ena ögat om det blir nödvändigt att tända ett bländande ljus (då bevaras mörkerseendet på det slutna ögat) och titta ut genom taklucka eller öppningsbar vindruta i stället för genom glas som reflekterar och smutsas.",
+      "explanationEn": "To see as well as possible in the dark: avoid searchlights — binoculars are often better; shield any light that can dazzle inside the boat; close one eye if a blinding light must be switched on (preserving that eye's night vision); and look out through a hatch or opening windscreen instead of through glass, which reflects and gets dirty.",
+      "payload": {
+        "questionSv": "Nämn några detaljer som har betydelse för att du ska kunna se så bra som möjligt i mörker."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:3 / photo_71, photo_29"
+    },
+    {
+      "id": "buoy-fyr-004",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Gira åt babord",
+          "isCorrect": false
+        },
+        {
+          "text": "Gira åt styrbord",
+          "isCorrect": true
+        },
+        {
+          "text": "Fortsätt rakt fram – röd sektor visar den säkra farleden",
+          "isCorrect": false
+        },
+        {
+          "text": "Vänd och gå tillbaka samma väg",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Sektorfyrar är normalt ordnade som sidomärkningen sedd från sjön mot fyren: röd sektor åt babordssidan och grön åt styrbordssidan om den vita, säkra sektorn. Hamnar du i rött sken på väg mot fyren ska du alltså gira åt styrbord för att komma tillbaka in i den vita sektorn.",
+      "explanationEn": "Sector lights are normally arranged like lateral marks seen from seaward toward the light: red sector on the port side and green on the starboard side of the safe white sector. If you end up in the red light while heading toward the light, alter course to starboard to get back into the white sector.",
+      "payload": {
+        "questionSv": "På väg mot en sektorfyr hamnar du i röd sektor. Åt vilket håll ska du gira för att få fyren vit igen?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:4 / photo_71, photo_29"
+    },
+    {
+      "id": "buoy-fyr-005",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Söderhäll grön, Långgarn röd, Mysingeholm vit och Älvsnabben grön",
+          "isCorrect": false
+        },
+        {
+          "text": "Söderhäll röd, Långgarn vit, Mysingeholm grön och Älvsnabben vit",
+          "isCorrect": true
+        },
+        {
+          "text": "Söderhäll vit, Långgarn grön, Mysingeholm röd och Älvsnabben röd",
+          "isCorrect": false
+        },
+        {
+          "text": "Söderhäll röd, Långgarn grön, Mysingeholm vit och Älvsnabben grön",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Från positionen i bokstaven Y i MYSINGEN (sjökort 616) kan följande väntas synas, medurs: Söderhäll röd, Långgarn vit, Mysingeholm grön, masten på södra Ornö röd, Näsudden (occas) vit, Östra Röko röd (dock utanför nominell lysvidd), Örngrund vit/grön och Älvsnabben vit. Vilken färg du ser beror på i vilken sektor din position ligger.",
+      "explanationEn": "From the position at the letter Y in MYSINGEN (chart 616) you can expect to see, clockwise: Söderhäll red, Långgarn white, Mysingeholm green, the mast on southern Ornö red, Näsudden (occas) white, Östra Röko red (though beyond its nominal range), Örngrund white/green and Älvsnabben white. The colour you see depends on which sector your position lies in.",
+      "payload": {
+        "questionSv": "Du befinner dig på en position i bokstaven Y i ordet MYSINGEN (sjökort 616). Vilka färger visar fyrarna runt omkring mot din position?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 för full uppgift; frågan är förenklad till fyra av fyrarna ur facit.",
+      "sourceRef": "6:5 / photo_71, photo_29"
+    },
+    {
+      "id": "buoy-fyr-006",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Nej, det finns inga ensfyrar i sjökort 616",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja, två fasta gröna som markerar inseglingen till Nynäshamn",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja, två fasta röda som markerar inseglingen till hamnen på Utö",
+          "isCorrect": true
+        },
+        {
+          "text": "Ja, en blixtfyr och en fast vit fyr i linje mot Landsort",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "I sjökort 616 finns två fasta röda ensfyrar som markerar inseglingen till hamnen på Utö. Ensfyrar står i linje – när de båda ljusen syns i ens (över varandra) är man mitt i den säkra insegingslinjen.",
+      "explanationEn": "In chart 616 there are two fixed red leading lights marking the entrance to the harbour at Utö. Leading lights stand on a range line — when the two lights are seen in line (one above the other) you are on the safe leading line.",
+      "payload": {
+        "questionSv": "Finns några ensfyrar i sjökort 616?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:6 / photo_71, photo_29"
+    },
+    {
+      "id": "buoy-fyr-007",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Från fyrlistan; siffrorna anger fyrljusets nominella lysvidd i sjömil",
+          "isCorrect": false
+        },
+        {
+          "text": "Från sjökortet; siffrorna anger fyrljusets höjd över vattenytan",
+          "isCorrect": true
+        },
+        {
+          "text": "Från Svensk Lots; siffrorna anger fyrtornets byggnadshöjd i meter",
+          "isCorrect": false
+        },
+        {
+          "text": "Från Ufs (Underrättelser för sjöfarande); siffrorna anger antalet blixtar per minut",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Fyrfigurerna (Örngrund 10, Huvudskär 26,3, Mysingeholm 8,0, Hummelkläpp 5,6) är hämtade från sjökortet. Siffrorna anger fyrljusets höjd över vattenytan. Vid kustsegling är höjden bra att känna till om man vill räkna ut på vilket avstånd en fyr blir synlig över horisonten.",
+      "explanationEn": "The lighthouse figures (Örngrund 10, Huvudskär 26.3, Mysingeholm 8.0, Hummelkläpp 5.6) are taken from the nautical chart. The numbers give the height of the light above the water surface. In coastal sailing this height is useful for calculating at what distance a light rises above the horizon.",
+      "payload": {
+        "questionSv": "Figurer som föreställer fyrarna Örngrund 10, Huvudskär 26,3, Mysingeholm 8,0 och Hummelkläpp 5,6 är plockade från en nautisk publikation. Vilken publikation, och vad anger siffrorna som står tillsammans med fyrens namn?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:7 / photo_71, photo_29"
+    },
+    {
+      "id": "buoy-fyr-008",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Occasional – fyren är tänd endast vid behov (tillfällig fyr)",
+          "isCorrect": true
+        },
+        {
+          "text": "Occulting – fyren har längre ljus- än mörkertid",
+          "isCorrect": false
+        },
+        {
+          "text": "Occupied – fyren är bemannad och kan anropas på VHF",
+          "isCorrect": false
+        },
+        {
+          "text": "Occasional – fyren är tillfälligt släckt på grund av underhåll",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "(occas) står för occasional och betyder att fyren bara är tänd vid behov – en tillfällig fyr. Man kan alltså inte räkna med att den lyser. Förväxla inte med Oc (occulting) som är en ljuskaraktär med mer ljus än mörker.",
+      "explanationEn": "(occas) stands for occasional and means the light is only lit when needed — a temporary light. You cannot count on it being lit. Do not confuse it with Oc (occulting), which is a light characteristic with more light than dark.",
+      "payload": {
+        "questionSv": "Ungefär 9M norr om Almagrundets fyr ligger fyren Horsten. Efter beskrivningen av karaktären står det (occas). Vad betyder det?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:8 / photo_71, photo_29"
+    },
+    {
+      "id": "buoy-fyr-009",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "En kort blixt var femte sekund – mörkertiden dominerar klart",
+          "isCorrect": true
+        },
+        {
+          "text": "Lika lång ljus- som mörkertid med 5 sekunders period",
+          "isCorrect": false
+        },
+        {
+          "text": "En lång blixt på minst 2 sekunder var femte sekund",
+          "isCorrect": false
+        },
+        {
+          "text": "Fem snabba blixtar i grupp följda av mörker",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Fl 5s (Tvistein) betyder en blixt (flash) med perioden 5 sekunder: en kort ljusblixt följd av mörker, där mörkertiden är klart längre än ljustiden. LFl skulle betyda lång blixt (minst 2 s) och Iso lika lång ljus- som mörkertid.",
+      "explanationEn": "Fl 5s (Tvistein) means one flash with a 5-second period: a short flash of light followed by darkness, with the dark time clearly longer than the light time. LFl would mean a long flash (at least 2 s) and Iso equal light and dark.",
+      "payload": {
+        "questionSv": "Fyren Tvistein på norska kusten har karaktären Fl 5s. Hur ser ljuskaraktären ut?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:9 / photo_71, photo_28"
+    },
+    {
+      "id": "buoy-fyr-010",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "En blixt var trettionde sekund, upprepad tre gånger i timmen",
+          "isCorrect": false
+        },
+        {
+          "text": "Tre långa blixtar på vardera minst 2 sekunder med perioden 30 sekunder",
+          "isCorrect": false
+        },
+        {
+          "text": "En grupp om tre korta blixtar följd av lång mörkerperiod, hela perioden 30 sekunder",
+          "isCorrect": true
+        },
+        {
+          "text": "Trettio snabba blixtar i följd, därefter tre sekunders mörker",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Fl(3) 30s (Ferder) betyder gruppblixt: tre korta blixtar i tät följd, sedan en lång mörkerperiod. Hela förloppet upprepas med perioden 30 sekunder. Siffran i parentesen anger antalet blixtar i gruppen och tidsangivelsen periodens längd.",
+      "explanationEn": "Fl(3) 30s (Ferder) means group-flashing: three short flashes in quick succession, then a long period of darkness. The whole sequence repeats every 30 seconds. The number in brackets gives the flashes per group and the time gives the period.",
+      "payload": {
+        "questionSv": "Fyren Ferder på norska kusten har karaktären Fl(3) 30s. Hur ser ljuskaraktären ut?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:9 / photo_71, photo_28"
+    },
+    {
+      "id": "buoy-fyr-011",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Fyra korta blixtar i grupp med perioden 4 sekunder",
+          "isCorrect": false
+        },
+        {
+          "text": "Lika lång ljus- som mörkertid: 2 sekunder ljus och 2 sekunder mörker",
+          "isCorrect": true
+        },
+        {
+          "text": "Mer ljus än mörker: 3 sekunder ljus och 1 sekund mörker",
+          "isCorrect": false
+        },
+        {
+          "text": "En lång blixt på minst 2 sekunder var fjärde sekund",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Iso 4s (Klövningarna) betyder isofas: ljus- och mörkertiden är exakt lika långa. Med perioden 4 sekunder blir det 2 sekunder ljus följt av 2 sekunder mörker.",
+      "explanationEn": "Iso 4s (Klövningarna) means isophase: light and dark times are exactly equal. With a 4-second period that is 2 seconds of light followed by 2 seconds of darkness.",
+      "payload": {
+        "questionSv": "Fyren Klövningarna har karaktären Iso 4s. Hur ser ljuskaraktären ut?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:9 / photo_71, photo_28"
+    },
+    {
+      "id": "buoy-fyr-012",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Två korta blixtar i grupp med perioden 15 sekunder",
+          "isCorrect": false
+        },
+        {
+          "text": "Femton snabba blixtar följda av två sekunders mörker",
+          "isCorrect": false
+        },
+        {
+          "text": "Lika lång ljus- som mörkertid, två perioder på 15 sekunder",
+          "isCorrect": false
+        },
+        {
+          "text": "Två långa blixtar (vardera minst 2 sekunder) i grupp med perioden 15 sekunder",
+          "isCorrect": true
+        }
+      ],
+      "explanationSv": "LFl(2) 15s (Ursholmen) betyder grupp om två långa blixtar. En lång blixt (long flash) är minst 2 sekunder lång. De två långa blixtarna följs av mörker, och hela förloppet upprepas var 15:e sekund.",
+      "explanationEn": "LFl(2) 15s (Ursholmen) means a group of two long flashes. A long flash lasts at least 2 seconds. The two long flashes are followed by darkness and the whole sequence repeats every 15 seconds.",
+      "payload": {
+        "questionSv": "Fyren Ursholmen har karaktären LFl(2) 15s. Hur ser ljuskaraktären ut?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:9 / photo_71, photo_28"
+    },
+    {
+      "id": "buoy-fyr-013",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "En lång blixt (minst 2 sekunder) var sjätte sekund",
+          "isCorrect": true
+        },
+        {
+          "text": "En kort blixt var sjätte sekund",
+          "isCorrect": false
+        },
+        {
+          "text": "Sex snabba blixtar i grupp följda av en lång blixt",
+          "isCorrect": false
+        },
+        {
+          "text": "Lika lång ljus- som mörkertid: 3 sekunder ljus och 3 sekunder mörker",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "LFl 6s (Väderöbod) betyder en lång blixt – minst 2 sekunder lång – som upprepas med perioden 6 sekunder. Skillnaden mot Fl är blixtens längd: en vanlig blixt är kort, en lång blixt varar minst 2 sekunder.",
+      "explanationEn": "LFl 6s (Väderöbod) means one long flash — at least 2 seconds long — repeated with a 6-second period. The difference from Fl is the length of the flash: an ordinary flash is short, a long flash lasts at least 2 seconds.",
+      "payload": {
+        "questionSv": "Fyren Väderöbod har karaktären LFl 6s. Hur ser ljuskaraktären ut?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:9 / photo_71, photo_28"
+    },
+    {
+      "id": "buoy-fyr-014",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Styr i vit sektor mot Aspöskär; när Segelholm växlar från grönt till vitt, gira styrbord mot Segelholm, och passera senare Genböte med Riksdalerskäret vit akteröver",
+          "isCorrect": true
+        },
+        {
+          "text": "Styr i grön sektor mot Aspöskär; när Segelholm växlar från vitt till rött, gira babord mot Segelholm, och passera Genböte med Riksdalerskäret röd akteröver",
+          "isCorrect": false
+        },
+        {
+          "text": "Styr i röd sektor mot Segelholm; när Aspöskär växlar från grönt till vitt, gira styrbord mot Genböte, och håll Riksdalerskäret grön förut",
+          "isCorrect": false
+        },
+        {
+          "text": "Styr i vit sektor mot Genböte hela vägen; sektorfyrarna Aspöskär och Segelholm används inte på nordgående",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Enligt facit: håll vit sektor mot Aspöskär (ofarligt att nosa lite på grön sektor). Strax efter passage av grön lysboj växlar Segelholm från grönt till vitt – gira då omedelbart styrbord mot Segelholms vita sken. När Aspöskär är ungefär tvärs slutar den synas – gira något babord. Varning: om Segelholm blir röd akteröver är risken stor att kollidera med Riksdalerskäret. Efter passage av Riksdalerskäret, gira mot vit sektor från Genböte, och passera Genböte med Riksdalerskäret vit akteröver.",
+      "explanationEn": "Per the answer key: keep the white sector toward Aspöskär (touching the green sector slightly is harmless). Just after passing the green light buoy, Segelholm changes from green to white — immediately turn starboard toward Segelholm's white light. When Aspöskär is roughly abeam it stops being visible — turn slightly to port. Warning: if Segelholm shows red astern there is a serious risk of hitting Riksdalerskäret. After passing Riksdalerskäret, steer into Genböte's white sector and pass Genböte with Riksdalerskäret white astern.",
+      "payload": {
+        "questionSv": "Det är mörkt. Du befinner dig i farleden väst Johannisgrunds kummel (kort 6163) och är på nordgående. Hur planerar du fyrnavigeringen fram till Genbötes fyr?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort/kort 6163; facits fullständiga plan är förkortad till ett svarsalternativ.",
+      "sourceRef": "6:10 / photo_71, photo_28"
+    },
+    {
+      "id": "buoy-fyr-015",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Mellan 50 och 70 (vanligtvis 60) regelbundet återkommande ljusblixtar per minut",
+          "isCorrect": true
+        },
+        {
+          "text": "Mellan 100 och 120 regelbundet återkommande ljusblixtar per minut",
+          "isCorrect": false
+        },
+        {
+          "text": "Mellan 25 och 30 regelbundet återkommande ljusblixtar per minut",
+          "isCorrect": false
+        },
+        {
+          "text": "Minst 180 regelbundet återkommande ljusblixtar per minut",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En Quick light (Q, snabbblixtfyr) visar mellan 50 och 70 – vanligtvis 60 – regelbundet återkommande ljusblixtar per minut. Very Quick (VQ) är snabbare: 100–120 blixtar per minut.",
+      "explanationEn": "A quick light (Q) shows between 50 and 70 — usually 60 — regularly repeated flashes per minute. Very quick (VQ) is faster: 100–120 flashes per minute.",
+      "payload": {
+        "questionSv": "Vad karaktäriserar en Quick light (snabbblixt)?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:12 / photo_71, photo_28"
+    },
+    {
+      "id": "buoy-fyr-016",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Den har längre ljustid än mörkertid",
+          "isCorrect": false
+        },
+        {
+          "text": "Den har lika lång ljustid som mörkertid",
+          "isCorrect": true
+        },
+        {
+          "text": "Den har längre mörkertid än ljustid",
+          "isCorrect": false
+        },
+        {
+          "text": "Den lyser med fast sken som bryts av en blixt",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En Isophase light (Iso, isofasfyr) har lika lång ljustid som mörkertid – 'iso' betyder lika. Perioden delas exakt mitt itu mellan ljus och mörker.",
+      "explanationEn": "An isophase light (Iso) has equal light and dark durations — 'iso' means equal. The period is split exactly in half between light and darkness.",
+      "payload": {
+        "questionSv": "Vad karaktäriserar en Isophase light (isofasfyr)?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:13 / photo_71, photo_28"
+    },
+    {
+      "id": "buoy-fyr-017",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Mer mörker än ljus under perioden",
+          "isCorrect": false
+        },
+        {
+          "text": "Lika lång ljus- som mörkertid under perioden",
+          "isCorrect": false
+        },
+        {
+          "text": "Mer ljus än mörker under perioden",
+          "isCorrect": true
+        },
+        {
+          "text": "Endast korta blixtar åtskilda av långt mörker",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En Occulting light (Oc, klippfyr/fyr med förmörkelser) visar mer ljus än mörker: ett i huvudsak fast sken som regelbundet bryts av korta förmörkelser. Motsatsen är blixtfyren (Fl) där mörkret dominerar.",
+      "explanationEn": "An occulting light (Oc) shows more light than dark: an essentially steady light regularly interrupted by short eclipses. The opposite is the flashing light (Fl), where darkness dominates.",
+      "payload": {
+        "questionSv": "Vad karaktäriserar en Occulting light (fyr med förmörkelser)?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:14 / photo_71, photo_28"
+    },
+    {
+      "id": "buoy-fyr-018",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Minst 1 sekund långa",
+          "isCorrect": false
+        },
+        {
+          "text": "Minst 2 sekunder långa",
+          "isCorrect": true
+        },
+        {
+          "text": "Minst 4 sekunder långa",
+          "isCorrect": false
+        },
+        {
+          "text": "Högst 2 sekunder långa",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Blixtarna hos en Longflashing light (LFl, fyr med långa blixtar) är minst 2 sekunder långa. Det skiljer dem från vanliga blixtar (Fl) som är kortare.",
+      "explanationEn": "The flashes of a long-flashing light (LFl) are at least 2 seconds long. That distinguishes them from ordinary flashes (Fl), which are shorter.",
+      "payload": {
+        "questionSv": "Hur långa är de blänkar (blixtar) en Longflashing light visar?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:15 / photo_71, photo_28"
+    },
+    {
+      "id": "buoy-fyr-019",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "FR – fast rött sken",
+          "isCorrect": true
+        },
+        {
+          "text": "Oc R – rött sken med förmörkelser",
+          "isCorrect": false
+        },
+        {
+          "text": "Iso R – rött isofassken",
+          "isCorrect": false
+        },
+        {
+          "text": "Fl R – röd blixt",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett rött sken som lyser konstant utan avbrott är ett fast sken, F. Med färgen rött skrivs karaktären FR (fixed red). Fast sken används t.ex. i ensfyrar.",
+      "explanationEn": "A red light shining constantly without interruption is a fixed light, F. With the colour red the characteristic is written FR (fixed red). Fixed lights are used e.g. for leading lights.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: fyren lyser med rött sken konstant, helt utan avbrott, under hela 30-sekundersaxeln. Vilken fyrkaraktär med förkortning stämmer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:16 rad 1 / photo_70, photo_27"
+    },
+    {
+      "id": "buoy-fyr-020",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Fl 5s",
+          "isCorrect": false
+        },
+        {
+          "text": "Oc 5s",
+          "isCorrect": true
+        },
+        {
+          "text": "Iso 5s",
+          "isCorrect": false
+        },
+        {
+          "text": "LFl 5s",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Mer ljus än mörker med en kort förmörkelse varje period är en klippfyr, Oc (occulting). En förmörkelse per 5-sekundersperiod ger Oc 5s. Hade mörkret dominerat hade det varit Fl.",
+      "explanationEn": "More light than darkness with one short eclipse each period is an occulting light, Oc. One eclipse per 5-second period gives Oc 5s. If darkness dominated it would be Fl.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: fyren lyser mest hela tiden, men skenet bryts av en kort förmörkelse en gång var femte sekund. Vilken fyrkaraktär med förkortning stämmer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:16 rad 2 / photo_70, photo_27"
+    },
+    {
+      "id": "buoy-fyr-021",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Fl(2) 10s",
+          "isCorrect": false
+        },
+        {
+          "text": "Oc 10s",
+          "isCorrect": false
+        },
+        {
+          "text": "Oc(2) 10s",
+          "isCorrect": true
+        },
+        {
+          "text": "Iso 10s",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Mer ljus än mörker där skenet bryts av två korta förmörkelser i grupp är gruppklipp: Oc(2). Med perioden 10 sekunder skrivs karaktären Oc(2) 10s.",
+      "explanationEn": "More light than darkness where the light is interrupted by two grouped short eclipses is group-occulting: Oc(2). With a 10-second period the characteristic is written Oc(2) 10s.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: fyren lyser mest hela tiden, men skenet bryts av två korta förmörkelser i tät grupp; förloppet upprepas var tionde sekund. Vilken fyrkaraktär med förkortning stämmer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:16 rad 3 / photo_70, photo_27"
+    },
+    {
+      "id": "buoy-fyr-022",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Oc 5s",
+          "isCorrect": false
+        },
+        {
+          "text": "Fl 5s",
+          "isCorrect": false
+        },
+        {
+          "text": "FR",
+          "isCorrect": false
+        },
+        {
+          "text": "Iso 5s",
+          "isCorrect": true
+        }
+      ],
+      "explanationSv": "Lika lång ljustid som mörkertid är isofas, Iso. Med perioden 5 sekunder (2,5 s ljus + 2,5 s mörker) skrivs karaktären Iso 5s.",
+      "explanationEn": "Equal light and dark time is isophase, Iso. With a 5-second period (2.5 s light + 2.5 s dark) the characteristic is written Iso 5s.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: ljus och mörker växlar regelbundet med exakt lika lång ljustid som mörkertid; perioden är 5 sekunder. Vilken fyrkaraktär med förkortning stämmer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:16 rad 4 / photo_70, photo_27"
+    },
+    {
+      "id": "buoy-fyr-023",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "LFl 10s",
+          "isCorrect": true
+        },
+        {
+          "text": "Fl 10s",
+          "isCorrect": false
+        },
+        {
+          "text": "Oc 10s",
+          "isCorrect": false
+        },
+        {
+          "text": "Iso 10s",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En lång blixt – minst 2 sekunder – som återkommer var tionde sekund är en fyr med lång blixt: LFl 10s. En vanlig blixt (Fl) är kortare än 2 sekunder.",
+      "explanationEn": "A long flash — at least 2 seconds — recurring every ten seconds is a long-flashing light: LFl 10s. An ordinary flash (Fl) is shorter than 2 seconds.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: en lång ljusblixt på minst 2 sekunder visas en gång var tionde sekund; resten av perioden är mörker. Vilken fyrkaraktär med förkortning stämmer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:16 rad 5 / photo_70, photo_27"
+    },
+    {
+      "id": "buoy-fyr-024",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Fl(2) 20s",
+          "isCorrect": false
+        },
+        {
+          "text": "LFl(2) 20s",
+          "isCorrect": true
+        },
+        {
+          "text": "Oc(2) 20s",
+          "isCorrect": false
+        },
+        {
+          "text": "LFl 20s",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Två långa blixtar (vardera minst 2 sekunder) i grupp som upprepas var tjugonde sekund skrivs LFl(2) 20s. Fl(2) skulle vara två korta blixtar i grupp.",
+      "explanationEn": "Two long flashes (each at least 2 seconds) in a group repeating every twenty seconds is written LFl(2) 20s. Fl(2) would be two short flashes in a group.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: två långa ljusblixtar (vardera minst 2 sekunder) i grupp, därefter mörker; förloppet upprepas var tjugonde sekund. Vilken fyrkaraktär med förkortning stämmer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:16 rad 6 / photo_70, photo_27"
+    },
+    {
+      "id": "buoy-fyr-025",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Q",
+          "isCorrect": false
+        },
+        {
+          "text": "Iso 3s",
+          "isCorrect": false
+        },
+        {
+          "text": "Fl 3s",
+          "isCorrect": true
+        },
+        {
+          "text": "LFl 3s",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En kort blixt var tredje sekund, med mörker som dominerar perioden, är en blixtfyr: Fl 3s. Snabbare än ca 50 blixtar per minut hade gjort den till snabbblixt (Q).",
+      "explanationEn": "A short flash every three seconds, with darkness dominating the period, is a flashing light: Fl 3s. Faster than about 50 flashes per minute would make it a quick light (Q).",
+      "payload": {
+        "questionSv": "Tyd diagrammet: en kort ljusblixt visas en gång var tredje sekund; mörkertiden dominerar klart. Vilken fyrkaraktär med förkortning stämmer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:16 rad 7 / photo_70, photo_27"
+    },
+    {
+      "id": "buoy-fyr-026",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Fl(2) 6s",
+          "isCorrect": true
+        },
+        {
+          "text": "Fl 6s",
+          "isCorrect": false
+        },
+        {
+          "text": "Oc(2) 6s",
+          "isCorrect": false
+        },
+        {
+          "text": "Q(2) 6s",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Två korta blixtar i tät grupp följda av mörker, med perioden 6 sekunder, är en gruppblixtfyr: Fl(2) 6s. Siffran i parentes anger antalet blixtar i gruppen.",
+      "explanationEn": "Two short flashes in a close group followed by darkness, with a 6-second period, is a group-flashing light: Fl(2) 6s. The number in brackets gives the flashes per group.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: två korta ljusblixtar i tät grupp, därefter mörker; förloppet upprepas var sjätte sekund. Vilken fyrkaraktär med förkortning stämmer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:16 rad 8 / photo_70, photo_27"
+    },
+    {
+      "id": "buoy-fyr-027",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Fl(5) 15s",
+          "isCorrect": false
+        },
+        {
+          "text": "Fl(1+4) 15s",
+          "isCorrect": true
+        },
+        {
+          "text": "Q(1+4) 15s",
+          "isCorrect": false
+        },
+        {
+          "text": "Oc(1+4) 15s",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En ensam blixt följd av en grupp om fyra blixtar är en sammansatt gruppblixt och skrivs Fl(1+4). Med perioden 15 sekunder: Fl(1+4) 15s. Sammansatta grupper anges med plustecken mellan delgrupperna.",
+      "explanationEn": "A single flash followed by a group of four flashes is a composite group-flashing characteristic, written Fl(1+4). With a 15-second period: Fl(1+4) 15s. Composite groups are indicated with a plus sign between the sub-groups.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: först en ensam kort blixt, sedan en paus, därefter en grupp om fyra korta blixtar; förloppet upprepas var femtonde sekund. Vilken fyrkaraktär med förkortning stämmer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:16 rad 9 / photo_70, photo_27"
+    },
+    {
+      "id": "buoy-fyr-028",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "VQ",
+          "isCorrect": false
+        },
+        {
+          "text": "Fl 1s",
+          "isCorrect": false
+        },
+        {
+          "text": "IQ",
+          "isCorrect": false
+        },
+        {
+          "text": "Q",
+          "isCorrect": true
+        }
+      ],
+      "explanationSv": "Oavbrutna snabba blixtar, 50–70 (vanligen 60) per minut, är en kontinuerlig snabbblixtfyr: Q (quick). VQ (very quick) är snabbare, 100–120 per minut, och IQ är snabbblixtar som avbryts av mörkerperioder.",
+      "explanationEn": "Uninterrupted quick flashes, 50–70 (usually 60) per minute, is a continuous quick light: Q. VQ (very quick) is faster, 100–120 per minute, and IQ is quick flashing interrupted by dark periods.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: snabba ljusblixtar i obruten följd under hela perioden, ungefär 60 blixtar per minut. Vilken fyrkaraktär med förkortning stämmer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:16 rad 10 / photo_70, photo_27"
+    },
+    {
+      "id": "buoy-fyr-029",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Q(3)",
+          "isCorrect": true
+        },
+        {
+          "text": "VQ(3)",
+          "isCorrect": false
+        },
+        {
+          "text": "Fl(3)",
+          "isCorrect": false
+        },
+        {
+          "text": "Q(9)",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Grupper om tre snabba blixtar (i Q-takt, ca 60/min) följda av mörker är Q(3) – ostkardinalmärkets karaktär. VQ(3) har samma gruppering men i den snabbare VQ-takten.",
+      "explanationEn": "Groups of three quick flashes (at Q rate, about 60/min) followed by darkness is Q(3) — the east cardinal characteristic. VQ(3) has the same grouping but at the faster VQ rate.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: grupper om tre snabba blixtar i snabbblixttakt, åtskilda av mörkerperioder. Vilken fyrkaraktär med förkortning stämmer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:16 rad 11 / photo_70, photo_27"
+    },
+    {
+      "id": "buoy-fyr-030",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Q(6) LFl",
+          "isCorrect": false
+        },
+        {
+          "text": "Q(9)",
+          "isCorrect": true
+        },
+        {
+          "text": "VQ(9)",
+          "isCorrect": false
+        },
+        {
+          "text": "Q(3)",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Grupper om nio snabba blixtar i Q-takt är Q(9) – västkardinalmärkets karaktär. Minnesregel: 9 blixtar = klockan 9 = väst.",
+      "explanationEn": "Groups of nine quick flashes at Q rate is Q(9) — the west cardinal characteristic. Memory aid: 9 flashes = 9 o'clock = west.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: grupper om nio snabba blixtar i snabbblixttakt, åtskilda av mörkerperioder. Vilken fyrkaraktär med förkortning stämmer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:16 rad 12 / photo_70, photo_27"
+    },
+    {
+      "id": "buoy-fyr-031",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Q(6) LFl",
+          "isCorrect": true
+        },
+        {
+          "text": "VQ(6) LFl",
+          "isCorrect": false
+        },
+        {
+          "text": "Q(9)",
+          "isCorrect": false
+        },
+        {
+          "text": "Fl(6) LFl",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Sex snabba blixtar i Q-takt följda av en lång blixt (minst 2 s) är Q(6) LFl – sydkardinalmärkets karaktär. Den långa blixten gör det lättare att skilja sex blixtar från t.ex. nio. Minnesregel: 6 blixtar = klockan 6 = syd.",
+      "explanationEn": "Six quick flashes at Q rate followed by one long flash (at least 2 s) is Q(6) LFl — the south cardinal characteristic. The long flash makes six flashes easier to distinguish from e.g. nine. Memory aid: 6 flashes = 6 o'clock = south.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: sex snabba blixtar i snabbblixttakt omedelbart följda av en lång blixt, därefter mörker. Vilken fyrkaraktär med förkortning stämmer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:16 rad 13 / photo_70, photo_27"
+    },
+    {
+      "id": "buoy-fyr-032",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Q",
+          "isCorrect": false
+        },
+        {
+          "text": "VQ 15s",
+          "isCorrect": false
+        },
+        {
+          "text": "IQ 15s",
+          "isCorrect": true
+        },
+        {
+          "text": "Fl(10) 15s",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Snabbblixtar som regelbundet avbryts av en längre mörkerperiod är avbruten snabbblixt: IQ (interrupted quick). Med perioden 15 sekunder skrivs karaktären IQ 15s.",
+      "explanationEn": "Quick flashing regularly interrupted by a longer dark period is interrupted quick: IQ. With a 15-second period the characteristic is written IQ 15s.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: en lång serie snabba blixtar i snabbblixttakt som regelbundet avbryts av en tydlig mörkerperiod; perioden är 15 sekunder. Vilken fyrkaraktär med förkortning stämmer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:16 rad 14 / photo_70, photo_27"
+    },
+    {
+      "id": "buoy-fyr-033",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Q",
+          "isCorrect": false
+        },
+        {
+          "text": "VQ",
+          "isCorrect": true
+        },
+        {
+          "text": "IQ",
+          "isCorrect": false
+        },
+        {
+          "text": "F FL",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Oavbrutna mycket snabba blixtar, 100–120 per minut, är kontinuerlig VQ (very quick). Skillnaden mot Q (50–70/min) är blixttakten – VQ upplevs som ett nästan flimrande sken.",
+      "explanationEn": "Uninterrupted very quick flashes, 100–120 per minute, is continuous VQ (very quick). The difference from Q (50–70/min) is the flash rate — VQ appears almost flickering.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: mycket snabba ljusblixtar i obruten följd under hela perioden, ungefär dubbelt så tät takt som vanlig snabbblixt. Vilken fyrkaraktär med förkortning stämmer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:16 rad 15 / photo_70, photo_27"
+    },
+    {
+      "id": "buoy-fyr-034",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Q(3)",
+          "isCorrect": false
+        },
+        {
+          "text": "VQ(9)",
+          "isCorrect": false
+        },
+        {
+          "text": "VQ(3)",
+          "isCorrect": true
+        },
+        {
+          "text": "Fl(3)",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Grupper om tre mycket snabba blixtar (VQ-takt, 100–120/min) är VQ(3) – ostkardinalmärkets karaktär i den snabbare varianten. Samma gruppering i långsammare takt vore Q(3).",
+      "explanationEn": "Groups of three very quick flashes (VQ rate, 100–120/min) is VQ(3) — the east cardinal characteristic in its faster variant. The same grouping at the slower rate would be Q(3).",
+      "payload": {
+        "questionSv": "Tyd diagrammet: grupper om tre mycket snabba blixtar i mycket tät takt, åtskilda av mörkerperioder. Vilken fyrkaraktär med förkortning stämmer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:16 rad 16 / photo_70, photo_27"
+    },
+    {
+      "id": "buoy-fyr-035",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "VQ(9)",
+          "isCorrect": true
+        },
+        {
+          "text": "Q(9)",
+          "isCorrect": false
+        },
+        {
+          "text": "VQ(6) LFl",
+          "isCorrect": false
+        },
+        {
+          "text": "VQ(3)",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Grupper om nio mycket snabba blixtar i VQ-takt är VQ(9) – västkardinalmärkets karaktär i den snabbare varianten. Minnesregel: 9 blixtar = klockan 9 = väst.",
+      "explanationEn": "Groups of nine very quick flashes at VQ rate is VQ(9) — the west cardinal characteristic in its faster variant. Memory aid: 9 flashes = 9 o'clock = west.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: grupper om nio mycket snabba blixtar i mycket tät takt, åtskilda av mörkerperioder. Vilken fyrkaraktär med förkortning stämmer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:16 rad 17 / photo_70, photo_27"
+    },
+    {
+      "id": "buoy-fyr-036",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Q(6) LFl",
+          "isCorrect": false
+        },
+        {
+          "text": "VQ(6) LFl",
+          "isCorrect": true
+        },
+        {
+          "text": "VQ(9)",
+          "isCorrect": false
+        },
+        {
+          "text": "IQ 10s",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Sex mycket snabba blixtar i VQ-takt följda av en lång blixt (minst 2 s) är VQ(6) LFl – sydkardinalmärkets karaktär i den snabbare varianten. Minnesregel: 6 blixtar = klockan 6 = syd.",
+      "explanationEn": "Six very quick flashes at VQ rate followed by one long flash (at least 2 s) is VQ(6) LFl — the south cardinal characteristic in its faster variant. Memory aid: 6 flashes = 6 o'clock = south.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: sex mycket snabba blixtar i mycket tät takt omedelbart följda av en lång blixt, därefter mörker. Vilken fyrkaraktär med förkortning stämmer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:16 rad 18 / photo_70, photo_27"
+    },
+    {
+      "id": "buoy-fyr-037",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Fl(1+1+1) 10s",
+          "isCorrect": false
+        },
+        {
+          "text": "Q(3) 10s",
+          "isCorrect": false
+        },
+        {
+          "text": "Mo(K) 10s, dvs. morsetecknet — · — (lång–kort–lång)",
+          "isCorrect": true
+        },
+        {
+          "text": "Oc(3) 10s",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett sken som blinkar ett morsetecken är en morsefyr, Mo. Lång–kort–lång (— · —) är morsetecknet för bokstaven K, och med perioden 10 sekunder skrivs karaktären Mo(K) 10s.",
+      "explanationEn": "A light flashing a Morse character is a Morse light, Mo. Long–short–long (— · —) is Morse for the letter K, and with a 10-second period the characteristic is written Mo(K) 10s.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: fyren visar en lång blixt, en kort blixt och en lång blixt (— · —), därefter mörker; förloppet upprepas var tionde sekund. Vilken fyrkaraktär med förkortning stämmer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:16 rad 19 / photo_70, photo_27"
+    },
+    {
+      "id": "buoy-fyr-038",
+      "topicId": "top-buoy-fyrar",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Oc 5s",
+          "isCorrect": false
+        },
+        {
+          "text": "F Fl 5s",
+          "isCorrect": true
+        },
+        {
+          "text": "Iso 5s",
+          "isCorrect": false
+        },
+        {
+          "text": "LFl 5s",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett fast sken som regelbundet förstärks av en ljusare blixt är karaktären F Fl (fixed and flashing) – fast sken med blixt. Med perioden 5 sekunder skrivs den F Fl 5s. Skillnaden mot Oc är att ljuset aldrig slocknar – det förstärks i stället periodiskt.",
+      "explanationEn": "A fixed light regularly reinforced by a brighter flash is the characteristic F Fl (fixed and flashing). With a 5-second period it is written F Fl 5s. Unlike Oc, the light never goes out — it is periodically intensified instead.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: fyren lyser hela tiden med fast sken, men var femte sekund förstärks skenet av en kraftigare blixt. Vilken fyrkaraktär med förkortning stämmer?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "6:16 rad 20 / photo_70, photo_27"
+    }
+  ]
+}

@@ -4,13 +4,29 @@
     {
       "id": "buoy-lat-001",
       "topicId": "top-buoy-lateral",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "buoy",
       "options": [
-        { "text": "Babords sidomärke — håll det om babord vid ingående", "isCorrect": true },
-        { "text": "Styrbords sidomärke — håll det om styrbord vid ingående", "isCorrect": false },
-        { "text": "Specialmärke — betydelsen framgår av sjökortet", "isCorrect": false },
-        { "text": "Punktmärke — passera på valfri sida med god marginal", "isCorrect": false }
+        {
+          "text": "Babords sidomärke — håll det om babord vid ingående",
+          "isCorrect": true
+        },
+        {
+          "text": "Styrbords sidomärke — håll det om styrbord vid ingående",
+          "isCorrect": false
+        },
+        {
+          "text": "Specialmärke — betydelsen framgår av sjökortet",
+          "isCorrect": false
+        },
+        {
+          "text": "Punktmärke — passera på valfri sida med god marginal",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Ett rött märke med cylinderform (och eventuell röd cylindertoppmärke) är babords sidomärke i system A. Vid ingående — mot land eller hamn — håller du det om babord (röd sida röd lanterna).",
       "explanationEn": "Red can: port lateral mark (IALA A). Keep it to port when entering from seaward.",
@@ -18,19 +34,41 @@
       "authorReviewed": false,
       "payload": {
         "questionSv": "Vilket märke är detta, och hur passerar du det?",
-        "scene": { "colors": ["red"], "topmark": "can-red", "captionSv": "Cylinderformat märke" }
+        "scene": {
+          "colors": [
+            "red"
+          ],
+          "topmark": "can-red",
+          "captionSv": "Cylinderformat märke"
+        }
       }
     },
     {
       "id": "buoy-lat-002",
       "topicId": "top-buoy-lateral",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "buoy",
       "options": [
-        { "text": "Styrbords sidomärke — håll det om styrbord vid ingående", "isCorrect": true },
-        { "text": "Babords sidomärke — håll det om babord vid ingående", "isCorrect": false },
-        { "text": "Ostkardinal — passera öster om märket", "isCorrect": false },
-        { "text": "Mittledsmärke — passera på valfri sida", "isCorrect": false }
+        {
+          "text": "Styrbords sidomärke — håll det om styrbord vid ingående",
+          "isCorrect": true
+        },
+        {
+          "text": "Babords sidomärke — håll det om babord vid ingående",
+          "isCorrect": false
+        },
+        {
+          "text": "Ostkardinal — passera öster om märket",
+          "isCorrect": false
+        },
+        {
+          "text": "Mittledsmärke — passera på valfri sida",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Ett grönt märke med konform (spetsen uppåt) är styrbords sidomärke i system A. Vid ingående håller du det om styrbord.",
       "explanationEn": "Green cone: starboard lateral mark (IALA A). Keep it to starboard when entering.",
@@ -38,36 +76,76 @@
       "authorReviewed": false,
       "payload": {
         "questionSv": "Vilket märke är detta, och hur passerar du det?",
-        "scene": { "colors": ["green"], "topmark": "cone-up-green", "captionSv": "Konformat märke, spets uppåt" }
+        "scene": {
+          "colors": [
+            "green"
+          ],
+          "topmark": "cone-up-green",
+          "captionSv": "Konformat märke, spets uppåt"
+        }
       }
     },
     {
       "id": "buoy-lat-003",
       "topicId": "top-buoy-lateral",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "mcq",
       "options": [
-        { "text": "Riktningen från havet in mot hamn eller uppåt i farleden", "isCorrect": true },
-        { "text": "Riktningen från hamnen ut mot öppet hav", "isCorrect": false },
-        { "text": "Alltid från syd mot nord längs kusten", "isCorrect": false },
-        { "text": "Den riktning de flesta fartyg trafikerar farleden", "isCorrect": false }
+        {
+          "text": "Riktningen från havet in mot hamn eller uppåt i farleden",
+          "isCorrect": true
+        },
+        {
+          "text": "Riktningen från hamnen ut mot öppet hav",
+          "isCorrect": false
+        },
+        {
+          "text": "Alltid från syd mot nord längs kusten",
+          "isCorrect": false
+        },
+        {
+          "text": "Den riktning de flesta fartyg trafikerar farleden",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Sidomärkenas betydelse utgår från ingående riktning: från sjön in mot hamn eller uppåt i farleden. I sjökortet visas den med en särskild symbol där riktningen inte är självklar.",
       "explanationEn": "Buoyage direction (IALA A) runs from seaward towards harbour or up the fairway.",
       "theoryAnchor": "utmarkning/ingaende",
       "authorReviewed": false,
-      "payload": { "questionSv": "Vad menas med ingående riktning i sjömärkessystemet?" }
+      "payload": {
+        "questionSv": "Vad menas med ingående riktning i sjömärkessystemet?"
+      }
     },
     {
       "id": "buoy-lat-004",
       "topicId": "top-buoy-lateral",
-      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
       "type": "buoy",
       "options": [
-        { "text": "Mittledsmärke — passera på valfri sida", "isCorrect": true },
-        { "text": "Punktmärke — fara rakt under märket", "isCorrect": false },
-        { "text": "Babords sidomärke i angöringsled", "isCorrect": false },
-        { "text": "Specialmärke för mätstation", "isCorrect": false }
+        {
+          "text": "Mittledsmärke — passera på valfri sida",
+          "isCorrect": true
+        },
+        {
+          "text": "Punktmärke — fara rakt under märket",
+          "isCorrect": false
+        },
+        {
+          "text": "Babords sidomärke i angöringsled",
+          "isCorrect": false
+        },
+        {
+          "text": "Specialmärke för mätstation",
+          "isCorrect": false
+        }
       ],
       "explanationSv": "Röda och vita lodräta fält med en röd kula i toppen är mittledsmärket (safe water). Det markerar farbart vatten runt om, till exempel mitt i en angöringsled — passera på valfri sida.",
       "explanationEn": "Red/white vertical stripes with a red sphere: safe-water mark, navigable all round.",
@@ -75,8 +153,610 @@
       "authorReviewed": false,
       "payload": {
         "questionSv": "Vilket märke är detta?",
-        "scene": { "colors": ["red", "white", "red", "white"], "pattern": "vertical-stripes", "topmark": "sphere-red", "captionSv": "Lodräta fält" }
+        "scene": {
+          "colors": [
+            "red",
+            "white",
+            "red",
+            "white"
+          ],
+          "pattern": "vertical-stripes",
+          "topmark": "sphere-red",
+          "captionSv": "Lodräta fält"
+        }
       }
+    },
+    {
+      "id": "buoy-lat-005",
+      "topicId": "top-buoy-lateral",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Grön",
+          "isCorrect": true
+        },
+        {
+          "text": "Röd",
+          "isCorrect": false
+        },
+        {
+          "text": "Svart och gul",
+          "isCorrect": false
+        },
+        {
+          "text": "Röd och vit",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En lysprick märkt G (grönt ljus) är ett styrbordsmärke. I system A är styrbordsmärken gröna med grönt ljus – de hålls om styrbord när man följer ledens huvudriktning.",
+      "explanationEn": "A lit spar marked G (green light) is a starboard-hand mark. In IALA system A starboard marks are green with a green light, kept to starboard when following the main direction of buoyage.",
+      "payload": {
+        "questionSv": "I sjökortet visas en lysprick med ljusbeteckningen G (grönt ljus), dvs. en styrbordslysprick. Vilken färg har märket i verkligheten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:17 symbol 1 / photo_85, photo_40"
+    },
+    {
+      "id": "buoy-lat-006",
+      "topicId": "top-buoy-lateral",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Röd",
+          "isCorrect": true
+        },
+        {
+          "text": "Grön",
+          "isCorrect": false
+        },
+        {
+          "text": "Gul och svart",
+          "isCorrect": false
+        },
+        {
+          "text": "Vit och röd",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En lysprick märkt R (rött ljus) är ett babordsmärke. Babordsmärken i system A är röda med rött ljus och hålls om babord när man följer ledens huvudriktning.",
+      "explanationEn": "A lit spar marked R (red light) is a port-hand mark. Port marks in IALA system A are red with a red light, kept to port when following the main direction of buoyage.",
+      "payload": {
+        "questionSv": "I sjökortet visas en lysprick med ljusbeteckningen R (rött ljus), dvs. en babordslysprick. Vilken färg har märket i verkligheten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:17 symbol 2 / photo_85, photo_40"
+    },
+    {
+      "id": "buoy-lat-007",
+      "topicId": "top-buoy-lateral",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Röd",
+          "isCorrect": true
+        },
+        {
+          "text": "Grön",
+          "isCorrect": false
+        },
+        {
+          "text": "Gul",
+          "isCorrect": false
+        },
+        {
+          "text": "Svart och röd",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En boj med cylindrisk (plan) form är ett babordsmärke och är röd. Formen är en extra igenkänning: cylinder = babord, kon = styrbord.",
+      "explanationEn": "A can-shaped (flat-topped) buoy is a port-hand mark and is red. The shape itself is a clue: can = port, cone = starboard.",
+      "payload": {
+        "questionSv": "I sjökortet visas en bojsymbol med cylindrisk (plan) form – ett babordsmärke av bojtyp. Vilken färg har märket i verkligheten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:17 symbol 3 / photo_85, photo_40"
+    },
+    {
+      "id": "buoy-lat-008",
+      "topicId": "top-buoy-lateral",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Grön",
+          "isCorrect": true
+        },
+        {
+          "text": "Röd",
+          "isCorrect": false
+        },
+        {
+          "text": "Gul",
+          "isCorrect": false
+        },
+        {
+          "text": "Svart och gul",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En boj med konisk (spetsig) form är ett styrbordsmärke och är grön. Formen är en extra igenkänning: kon = styrbord, cylinder = babord.",
+      "explanationEn": "A conical (pointed) buoy is a starboard-hand mark and is green. The shape itself is a clue: cone = starboard, can = port.",
+      "payload": {
+        "questionSv": "I sjökortet visas en bojsymbol med konisk (spetsig) form – ett styrbordsmärke av bojtyp. Vilken färg har märket i verkligheten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:17 symbol 4 / photo_85, photo_40"
+    },
+    {
+      "id": "buoy-lat-009",
+      "topicId": "top-buoy-lateral",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Vit och röd (röda och vita lodräta fält)",
+          "isCorrect": true
+        },
+        {
+          "text": "Svart och gul (vågräta fält)",
+          "isCorrect": false
+        },
+        {
+          "text": "Röd och grön (vågräta band)",
+          "isCorrect": false
+        },
+        {
+          "text": "Helt röd",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Mittledsmärket (angöringsmärket) har röda och vita lodräta fält och markerar att det finns fritt vatten runt om märket. Toppmärket är ett rött klot och ljuset är vitt.",
+      "explanationEn": "The safe-water (mid-channel) mark has red and white vertical stripes and indicates navigable water all around. Its topmark is a red sphere and its light is white.",
+      "payload": {
+        "questionSv": "I sjökortet visas symbolen för ett mittledsmärke (angöringsmärke). Vilken färg/vilka färger har märket i verkligheten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:17 symbol 5 / photo_85, photo_40"
+    },
+    {
+      "id": "buoy-lat-010",
+      "topicId": "top-buoy-lateral",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Röd",
+          "isCorrect": true
+        },
+        {
+          "text": "Grön",
+          "isCorrect": false
+        },
+        {
+          "text": "Svart",
+          "isCorrect": false
+        },
+        {
+          "text": "Gul och svart",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En babordsprick är röd. När du följer ledens huvudriktning ska röda babordsmärken hållas om babord (vänster sida).",
+      "explanationEn": "A port-hand spar buoy is red. Following the main direction of buoyage, red port marks are kept on the port (left) side.",
+      "payload": {
+        "questionSv": "I sjökortet visas symbolen för en babordsprick. Vilken färg har märket i verkligheten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:17 symbol 6 / photo_85, photo_40"
+    },
+    {
+      "id": "buoy-lat-011",
+      "topicId": "top-buoy-lateral",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Grön",
+          "isCorrect": true
+        },
+        {
+          "text": "Röd",
+          "isCorrect": false
+        },
+        {
+          "text": "Svart",
+          "isCorrect": false
+        },
+        {
+          "text": "Gul",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En styrbordsprick är grön. När du följer ledens huvudriktning ska gröna styrbordsmärken hållas om styrbord (höger sida).",
+      "explanationEn": "A starboard-hand spar buoy is green. Following the main direction of buoyage, green starboard marks are kept on the starboard (right) side.",
+      "payload": {
+        "questionSv": "I sjökortet visas symbolen för en styrbordsprick. Vilken färg har märket i verkligheten?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:17 symbol 7 / photo_85, photo_40"
+    },
+    {
+      "id": "buoy-lat-012",
+      "topicId": "top-buoy-lateral",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Babordsmärke, prick",
+          "isCorrect": true
+        },
+        {
+          "text": "Styrbordsmärke, prick",
+          "isCorrect": false
+        },
+        {
+          "text": "Mittledsmärke, prick",
+          "isCorrect": false
+        },
+        {
+          "text": "Sydmärke, prick",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En prick med cylinderformat topptecken är ett babordsmärke. Märket är rött och hålls om babord när ledens huvudriktning följs.",
+      "explanationEn": "A spar with a can-shaped topmark is a port-hand mark. It is red and is kept to port when following the main direction of buoyage.",
+      "payload": {
+        "questionSv": "I sjökortet visas en pricksymbol med cylinderformat topptecken. Vad kallas sjömärket enligt system A? (Svarsexempel: slätprick, babordsmärke.)"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Symbolens exakta utseende bör verifieras mot beskuren figur från photo_85 (fråga 1:18, övre raden).",
+      "sourceRef": "1:18 symbol 1 / photo_85, photo_40"
+    },
+    {
+      "id": "buoy-lat-013",
+      "topicId": "top-buoy-lateral",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Styrbordsmärke, prick",
+          "isCorrect": true
+        },
+        {
+          "text": "Babordsmärke, prick",
+          "isCorrect": false
+        },
+        {
+          "text": "Nordmärke, prick",
+          "isCorrect": false
+        },
+        {
+          "text": "Specialmärke, prick",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En prick med konformat topptecken (spetsen uppåt) är ett styrbordsmärke. Märket är grönt och hålls om styrbord när ledens huvudriktning följs.",
+      "explanationEn": "A spar with a single cone topmark (point up) is a starboard-hand mark. It is green and is kept to starboard when following the main direction of buoyage.",
+      "payload": {
+        "questionSv": "I sjökortet visas en pricksymbol med konformat topptecken med spetsen uppåt. Vad kallas sjömärket enligt system A?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Symbolens exakta utseende bör verifieras mot beskuren figur från photo_85 (fråga 1:18, övre raden).",
+      "sourceRef": "1:18 symbol 2 / photo_85, photo_40"
+    },
+    {
+      "id": "buoy-lat-014",
+      "topicId": "top-buoy-lateral",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Mittledsmärke, prick",
+          "isCorrect": true
+        },
+        {
+          "text": "Punktmärke, prick",
+          "isCorrect": false
+        },
+        {
+          "text": "Babordsmärke, prick",
+          "isCorrect": false
+        },
+        {
+          "text": "Specialmärke, prick",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En prick med klotformat topptecken är ett mittledsmärke (angöringsmärke). Märket har röda och vita lodräta fält och kan passeras på båda sidor – fritt vatten finns runt om.",
+      "explanationEn": "A spar with a spherical topmark is a safe-water (mid-channel) mark. It has red and white vertical stripes and can be passed on either side – there is navigable water all around.",
+      "payload": {
+        "questionSv": "I sjökortet visas en pricksymbol med klotformat topptecken. Vad kallas sjömärket enligt system A?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Symbolens exakta utseende bör verifieras mot beskuren figur från photo_85 (fråga 1:18, mittensymbolen).",
+      "sourceRef": "1:18 symbol 3 / photo_85, photo_40"
+    },
+    {
+      "id": "buoy-lat-015",
+      "topicId": "top-buoy-lateral",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Babordsmärke, lysboj",
+          "isCorrect": true
+        },
+        {
+          "text": "Styrbordsmärke, lysboj",
+          "isCorrect": false
+        },
+        {
+          "text": "Punktmärke, lysboj",
+          "isCorrect": false
+        },
+        {
+          "text": "Mittledsmärke, lysboj",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ljuskaraktären Fl R (blixt, rött sken) hör till ett rött babordsmärke. Det är alltså en babordslysboj som hålls om babord i ledens huvudriktning.",
+      "explanationEn": "The light characteristic Fl R (flashing red) belongs to a red port-hand mark, so this is a port-hand light buoy, kept to port along the main direction of buoyage.",
+      "payload": {
+        "questionSv": "I sjökortet visas en lysbojssymbol med ljuskaraktären Fl R (blixt, rött sken). Vad kallas sjömärket enligt system A?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:18 symbol 5 / photo_85, photo_40"
+    },
+    {
+      "id": "buoy-lat-016",
+      "topicId": "top-buoy-lateral",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Styrbordsmärke, lysboj",
+          "isCorrect": true
+        },
+        {
+          "text": "Babordsmärke, lysboj",
+          "isCorrect": false
+        },
+        {
+          "text": "Specialmärke, lysboj",
+          "isCorrect": false
+        },
+        {
+          "text": "Ostmärke, lysboj",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ljuskaraktären Fl G (blixt, grönt sken) hör till ett grönt styrbordsmärke. Det är alltså en styrbordslysboj som hålls om styrbord i ledens huvudriktning.",
+      "explanationEn": "The light characteristic Fl G (flashing green) belongs to a green starboard-hand mark, so this is a starboard-hand light buoy, kept to starboard along the main direction of buoyage.",
+      "payload": {
+        "questionSv": "I sjökortet visas en lysbojssymbol med ljuskaraktären Fl G (blixt, grönt sken). Vad kallas sjömärket enligt system A?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:18 symbol 6 / photo_85, photo_40"
+    },
+    {
+      "id": "buoy-lat-017",
+      "topicId": "top-buoy-lateral",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Babordsmärke, slätprick",
+          "isCorrect": true
+        },
+        {
+          "text": "Styrbordsmärke, slätprick",
+          "isCorrect": false
+        },
+        {
+          "text": "Babordsmärke, lysprick",
+          "isCorrect": false
+        },
+        {
+          "text": "Mittledsmärke, slätprick",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En röd prick utan topptecken och utan ljus är en slätprick på babordssidan – ett babordsmärke av enklaste typ. Färgen (röd) avgör sidan: babord.",
+      "explanationEn": "A red spar without topmark or light is a plain spar buoy on the port side – the simplest form of port-hand mark. The red colour tells you the side: port.",
+      "payload": {
+        "questionSv": "I sjökortet visas en röd prick utan topptecken och utan ljus. Vad kallas sjömärket enligt system A?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:18 symbol 7 / photo_85, photo_40"
+    },
+    {
+      "id": "buoy-lat-018",
+      "topicId": "top-buoy-lateral",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Babordsmärke, lysprick",
+          "isCorrect": true
+        },
+        {
+          "text": "Babordsmärke, slätprick",
+          "isCorrect": false
+        },
+        {
+          "text": "Styrbordsmärke, lysprick",
+          "isCorrect": false
+        },
+        {
+          "text": "Punktmärke, lysprick",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En prick försedd med rött ljus (beteckningen R vid symbolen) är en babordslysprick. Rött ljus = babordssidan; grönt ljus skulle betyda styrbordsmärke.",
+      "explanationEn": "A spar buoy fitted with a red light (R at the symbol) is a lit port-hand spar. Red light = port side; a green light would indicate a starboard mark.",
+      "payload": {
+        "questionSv": "I sjökortet visas en pricksymbol försedd med ljus och beteckningen R (rött sken). Vad kallas sjömärket enligt system A?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:18 symbol 8 / photo_85, photo_40"
+    },
+    {
+      "id": "buoy-lat-019",
+      "topicId": "top-buoy-lateral",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Jag uppfattar dem som dubblerad utmärkning av ett nytt hinder och girar så att märkena passeras på den sida deras färg/typ anger, med extra god marginal",
+          "isCorrect": true
+        },
+        {
+          "text": "Jag går mitt emellan de två märkena eftersom de markerar en smal men fri passage",
+          "isCorrect": false
+        },
+        {
+          "text": "Jag stoppar och ankrar tills hindret är infört i sjökortet och utmärkningen är normal",
+          "isCorrect": false
+        },
+        {
+          "text": "Jag ignorerar märkena eftersom dubbla märken bara betyder att det gamla märket ska bytas ut",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Två likadana märken tätt intill varandra är ett sätt att markera ett nytt hinder som ännu inte hunnit in i sjökortet. Du följer ledens huvudriktning, så märkena läses som vanligt: passera på den sida märkena anger och håll extra god marginal till det nya hindret.",
+      "explanationEn": "Two identical marks close together indicate a newly discovered danger not yet charted. Since you are following the main direction of buoyage, the marks are read normally: pass on the side they indicate, with an extra-wide margin from the new danger.",
+      "payload": {
+        "questionSv": "Du följer ledens huvudriktning (se figur: utsikt föröver från båten) och ser föröver två märken tätt intill varandra. Nytt hinder! Hur ska du gira?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Facit är en figur (photo_40). Figuren med märkena behöver beskäras från photo_84 och girriktningen verifieras mot facitbilden.",
+      "sourceRef": "1:19a / photo_84, photo_40"
+    },
+    {
+      "id": "buoy-lat-020",
+      "topicId": "top-buoy-lateral",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Jag uppfattar dem som dubblerad utmärkning av ett nytt hinder, tänker på att jag går mot ledens huvudriktning och girar så att märkena passeras på rätt sida med god marginal",
+          "isCorrect": true
+        },
+        {
+          "text": "Jag girar alltid åt styrbord vid dubbla märken, oavsett ledens huvudriktning",
+          "isCorrect": false
+        },
+        {
+          "text": "Jag går mitt emellan märkena – dubbla märken visar alltid en fri mittpassage",
+          "isCorrect": false
+        },
+        {
+          "text": "Jag vänder om – dubbla märken betyder att leden är helt avstängd",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Dubbla märken tätt intill varandra markerar ett nytt hinder som ännu inte finns i sjökortet. På sydlig kurs går du här mot ledens huvudriktning, och då gäller utmärkningen omvänt mot färdriktningen – ett babordsmärke hålls då om styrbord. Passera på rätt sida med god marginal.",
+      "explanationEn": "Doubled marks close together indicate a new, not-yet-charted danger. On a southerly course you are travelling against the main direction of buoyage, so the lateral sides are reversed relative to your heading – a port mark is then kept to starboard. Pass on the correct side with a good margin.",
+      "payload": {
+        "questionSv": "Du styr en sydlig kurs, mot ledens huvudriktning (se figur: utsikt föröver från båten), och ser föröver två märken tätt intill varandra. Nytt hinder! Hur ska du gira?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Facit är en figur (photo_40). Figuren med märkena (romb-topptecken) behöver beskäras från photo_84 och girriktningen verifieras mot facitbilden.",
+      "sourceRef": "1:19b / photo_84, photo_40"
     }
   ]
 }

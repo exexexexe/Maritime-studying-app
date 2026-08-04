@@ -1479,6 +1479,968 @@
       "needsReview": true,
       "needsReviewNote": "Kräver övningssjökort 616 för att mäta avståndet.",
       "sourceRef": "4:20 / photo_79 (facit photo_36)"
+    },
+    {
+      "id": "nav-sjo-041",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "En skorsten",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett skär",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett stenkummel",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett fast sjömärke",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Förkortningen Sk intill en liten ring i sjökortet betyder skorsten. Skorstenar, master, kyrkor och vattentorn är tydliga landmärken som är mycket användbara för att orientera sig i skärgården.",
+      "explanationEn": "The abbreviation Sk next to a small circle on a Swedish chart means chimney (skorsten). Chimneys, masts, churches and water towers are conspicuous landmarks that are very useful for orientation.",
+      "payload": {
+        "questionSv": "I sjökortet ser du en liten ring med förkortningen \"Sk\" intill. Vilket föremål avses?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:1 / photo_86, photo_41"
+    },
+    {
+      "id": "nav-sjo-042",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Sjökorten är av varierande ålder och typografin har ändrats med åren, så olika symboler förekommer för samma sak",
+          "isCorrect": true
+        },
+        {
+          "text": "Olika symboler används beroende på om föremålet ska ses vid dagsljus- eller mörkernavigering",
+          "isCorrect": false
+        },
+        {
+          "text": "Symbolerna varierar med sjökortets skala, så samma föremål ritas olika i kust- och skärgårdskort",
+          "isCorrect": false
+        },
+        {
+          "text": "Svenska sjökort blandar det äldre nationella systemet med andra länders symbolsystem",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Sjökorten i bruk är av olika ålder. Typografin och symbolerna har ändrats genom åren, och därför redovisar Kort 1 flera olika karttecken för ett och samma föremål – både äldre och nyare varianter kan mötas i korten.",
+      "explanationEn": "Charts in use are of varying age. Typography and symbols have changed over the years, so Chart No. 1 (the symbol key) lists several symbols for the same object – you may encounter both older and newer variants.",
+      "payload": {
+        "questionSv": "I många av rutorna i Kort 1 finns mer än ett karttecken för ett och samma föremål. Hur kommer det sig?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:2 / photo_86, photo_41"
+    },
+    {
+      "id": "nav-sjo-043",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Lågt vattenstånd, sjöhävning, landhöjning eller att båten går djupare på grund av last och fart",
+          "isCorrect": true
+        },
+        {
+          "text": "Ändrad missvisning, magnetiska störningar eller att kompassen visar fel kurs genom sundet",
+          "isCorrect": false
+        },
+        {
+          "text": "Strömsättning, avdrift eller att GPS-mottagaren använder ett annat referenssystem än sjökortet",
+          "isCorrect": false
+        },
+        {
+          "text": "Tidvattenströmmar, salthaltsskillnader eller att ekolodet är felkalibrerat för bräckt vatten",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Djupsiffrorna gäller vid medelvattenstånd. Aktuellt vattenstånd kan vara lägre, sjöhävning kan sänka båten i vågdalar, landhöjningen gör gamla djupsiffror för optimistiska, och båtens nedlastning samt det ökade djupgåendet i fart (squat) kan göra att kölen tar i trots att kortet är rätt.",
+      "explanationEn": "Charted depths refer to mean water level. The actual water level may be lower, waves can drop the boat into troughs, post-glacial land uplift makes old soundings optimistic, and loading plus increased draught at speed (squat) can make the keel touch even though the chart is correct.",
+      "payload": {
+        "questionSv": "Du går med en motorbåt med en meters djupgående. Vid passage genom ett sund som enligt sjökortet ska hålla djupet 1,2 meter skrapar kölen i botten. \"Fel i sjökortet!\" är allas första tanke. Vilka andra orsaker än fel i kortet kan förklara grundkänningen?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:3 / photo_86, photo_41"
+    },
+    {
+      "id": "nav-sjo-044",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Nej, alla kända grund grundare än 6 meter ska finnas med i kortet; bara vid hög sjö i havsbandet finns risk för brottsjöar över så djupa grund",
+          "isCorrect": true
+        },
+        {
+          "text": "Ja, i områden med ofullständiga djup kan okända grund på mindre än 2 meter förekomma var som helst",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja, sådana områden är osvepta och får bara passeras av fartyg med lokalkännedom eller lots",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej, men bara om båten har ekolod och farten hålls under 5 knop genom hela området",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Även där djupen anges ofullständigt gäller att alla kända grund som är grundare än 6 meter ska vara redovisade i sjökortet. För en normaldjup fritidsbåt är passagen därför inte riskabel – bara vid hög sjö i havsbandet kan brottsjöar bildas över så pass djupa grund.",
+      "explanationEn": "Even where depths are incompletely charted, all known shoals shallower than 6 metres must be shown. So the passage is not risky for a normal-draught pleasure boat – only in heavy seas in the outer archipelago can breakers form over shoals that deep.",
+      "payload": {
+        "questionSv": "För att ta sig till Biskopsön, ca 59°06' N 18°43' E, måste man gå in i ett stort område med ofullständigt angivna djup. Är det riskabelt för en fritidsbåt med normalt djupgående?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:4 / photo_86, photo_41"
+    },
+    {
+      "id": "nav-sjo-045",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Lågt vattenstånd – det höga lufttrycket pressar ner vattenytan",
+          "isCorrect": true
+        },
+        {
+          "text": "Högt vattenstånd – värmen får vattnet att utvidga sig",
+          "isCorrect": false
+        },
+        {
+          "text": "Högt vattenstånd – sjöbrisen pressar in vatten mot kusten",
+          "isCorrect": false
+        },
+        {
+          "text": "Normalt vattenstånd – lufttrycket påverkar inte havsytans nivå",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vid högtryck pressar den tunga luftpelaren ner havsytan – vattenståndet blir lågt. Vid lågtryck är det tvärtom: vattenståndet stiger. Detta är viktigt att väga in när man jämför verkligt djup med sjökortets djupsiffror.",
+      "explanationEn": "Under high atmospheric pressure the heavier air column presses the sea surface down, giving a low water level; a low-pressure system does the opposite. This matters when comparing real depths with charted soundings.",
+      "payload": {
+        "questionSv": "Det är sommar och sol och ni badar i det salta havsvattnet. Det är högtrycksväder mitt i juli. Vilket vattenstånd kan förväntas – högt eller lågt?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:5 / photo_85, photo_41"
+    },
+    {
+      "id": "nav-sjo-046",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "S = sand, Cy = lera, G = grus, St = stenar, M = gyttja",
+          "isCorrect": true
+        },
+        {
+          "text": "S = sten, Cy = lera, G = gyttja, St = strand, M = mudder",
+          "isCorrect": false
+        },
+        {
+          "text": "S = sand, Cy = korall, G = gräs, St = stenar, M = mjuk botten",
+          "isCorrect": false
+        },
+        {
+          "text": "S = sjögräs, Cy = lera, G = grus, St = sand, M = morän",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Beteckningarna kommer från engelskan: S = Sand, Cy = Clay (lera), G = Gravel (grus), St = Stones (stenar), M = Mud (gyttja). Bra ankarbottnar är lera, sand, gyttja och mudder; olämpliga är sten, klippgrund, block och sjögräs.",
+      "explanationEn": "The abbreviations are English: S = sand, Cy = clay, G = gravel, St = stones, M = mud. Good holding ground is clay, sand and mud; stones, bare rock, boulders and seaweed are poor for anchoring.",
+      "payload": {
+        "questionSv": "Vid val av ankarplats finns bottenbeskaffenheten angiven i sjökortet. Vad betyder beteckningarna S, Cy, G, St och M som förekommer i sjökorten från och med 2008?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:6 / photo_85, photo_41"
+    },
+    {
+      "id": "nav-sjo-047",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ja, det bör gå bra – segelfri höjd räknas från normalt högvatten och innehåller dessutom ett skyddsavstånd på 1,5–2,75 meter",
+          "isCorrect": true
+        },
+        {
+          "text": "Nej, segelfri höjd räknas från medelvattenstånd utan marginal, så masten kan ta i ledningen",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja, men bara vid lågvatten – vid normalt vattenstånd är marginalen noll",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej, kraftledningar kräver alltid minst 2 meter större segelfri höjd än masthöjden",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Segelfri höjd anges från normalt högvatten, och för kraftledningar ingår dessutom ett säkerhetsavstånd på 1,5–2,75 meter (beroende på ledningens spänning). En båt med 10 meters mast kan därför passera under en ledning med segelfri höjd 10 meter vid normalt vattenstånd.",
+      "explanationEn": "Charted safe overhead clearance is measured from normal high water, and for power lines it also includes a built-in safety margin of 1.5–2.75 m depending on voltage. A boat with a 10 m mast can therefore pass under a line with 10 m charted clearance at normal water level.",
+      "payload": {
+        "questionSv": "En båt med 10 meter hög mast kommer fram till en kraftledning. Segelfri höjd anges vara 10 meter. Kan båten ta sig under ledningen om det råder normalt vattenstånd?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:7 / photo_85, photo_41"
+    },
+    {
+      "id": "nav-sjo-048",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Att området finns återgivet i en tydligare och mer detaljerad avbildning, en så kallad special, i kortets NV-hörn",
+          "isCorrect": true
+        },
+        {
+          "text": "Att området är ett skjutområde där passage är förbjuden när skjutning pågår",
+          "isCorrect": false
+        },
+        {
+          "text": "Att området är ett naturreservat med fartbegränsning och tilläggningsförbud",
+          "isCorrect": false
+        },
+        {
+          "text": "Att djupuppgifterna i området är osäkra och att sjömätningen är ofullständig",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En röd ram runt ett område i sjökortet visar att området finns avbildat i större skala som en special. I kort 616 finns specialen över Huvudskär i kortets nordvästra hörn.",
+      "explanationEn": "A red frame around an area on the chart means the area is reproduced at a larger scale as an inset (\"special\"). On chart 616 the Huvudskär inset is found in the north-west corner.",
+      "payload": {
+        "questionSv": "Vad betyder den röda linjen som bildar en ram kring Huvudskär i sjökortet?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:8 / photo_85, photo_41"
+    },
+    {
+      "id": "nav-sjo-049",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ja – ju större skala (mindre tal i nämnaren), desto mer detaljer kan redovisas",
+          "isCorrect": true
+        },
+        {
+          "text": "Nej – 1:50 000 täcker större yta och kan därför visa fler detaljer",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej – detaljrikedomen beror på kortets ålder, inte på skalan",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja – men bara om kortet är ett specialkort, annars är detaljnivån densamma",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett sjökort i skala 1:25 000 är detaljrikare än ett i 1:50 000. Skalan 1:25 000 är en större skala – varje centimeter på kortet motsvarar en kortare sträcka i verkligheten – och då får fler detaljer plats.",
+      "explanationEn": "A 1:25,000 chart is more detailed than a 1:50,000 one. 1:25,000 is a larger scale – each centimetre on the chart covers a shorter real-world distance – so more detail can be shown.",
+      "payload": {
+        "questionSv": "Är ett sjökort i skala 1:25 000 detaljrikare än ett i skala 1:50 000?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:9 / photo_85, photo_41"
+    },
+    {
+      "id": "nav-sjo-050",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ett skärgårdskort",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett specialkort",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett kustkort",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett översiktskort",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Sjökort 616 är ett skärgårdskort (skala 1:50 000). Specialer är förstorade delavbildningar inne i ett kort, kustkort har skala omkring 1:250 000 och översiktskort ännu mindre skala.",
+      "explanationEn": "Chart 616 is an archipelago chart (scale 1:50,000). \"Specials\" are enlarged insets within a chart, coastal charts are around 1:250,000 and general charts have an even smaller scale.",
+      "payload": {
+        "questionSv": "Är sjökort 616 ett skärgårdskort eller ett specialkort?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:10 / photo_85, photo_41"
+    },
+    {
+      "id": "nav-sjo-051",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "1:25 000",
+          "isCorrect": true
+        },
+        {
+          "text": "1:50 000",
+          "isCorrect": false
+        },
+        {
+          "text": "1:10 000",
+          "isCorrect": false
+        },
+        {
+          "text": "1:250 000",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Kort 6163 är ett båtsportkort/delkort i skala 1:25 000 – en större och detaljrikare skala än skärgårdskortet 616 (1:50 000).",
+      "explanationEn": "Chart 6163 has a scale of 1:25,000 – larger and more detailed than the 1:50,000 archipelago chart 616.",
+      "payload": {
+        "questionSv": "Vilken skala har sjökort 6163?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:11 / photo_85, photo_41"
+    },
+    {
+      "id": "nav-sjo-052",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Nej – 61 är ett kustkort i skala 1:250 000 och ger en mycket förenklad bild av skärgården",
+          "isCorrect": true
+        },
+        {
+          "text": "Ja – kustkort visar alla farleder och grund som behövs för skärgårdsnavigering",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja – men bara i de yttre delarna där farlederna är breda och djupa",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej – kort 61 är ett översegelkort som bara får användas för planering i hamn",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Kort 61 är ett kustkort i skala 1:250 000. I den lilla skalan blir skärgården mycket förenklad – grund, prickar och trånga passager saknas eller generaliseras. För navigering i skärgården krävs skärgårdskort eller båtsportkort i större skala.",
+      "explanationEn": "Chart 61 is a coastal chart at 1:250,000. At that small scale the archipelago is heavily generalised – shoals, spar buoys and narrow passages are missing or simplified. Archipelago navigation requires larger-scale charts.",
+      "payload": {
+        "questionSv": "Kan man navigera i skärgården med kustkort 61?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:12 / photo_85, photo_41"
+    },
+    {
+      "id": "nav-sjo-053",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Det är rättat till och med vecka 5 år 2001",
+          "isCorrect": true
+        },
+        {
+          "text": "Det är rättat till och med maj månad 2001",
+          "isCorrect": false
+        },
+        {
+          "text": "Det är den femte upplagan, tryckt 2001",
+          "isCorrect": false
+        },
+        {
+          "text": "Det är rättat till och med den 5 januari 2001",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ufs (Underrättelser för sjöfarande) ges ut veckovis. \"Rättad till och med Ufs nr 2001:5\" betyder alltså att kortet innehåller alla rättelser till och med vecka 5 år 2001. Senare ändringar måste föras in för hand med hjälp av Ufs.",
+      "explanationEn": "Ufs (Notices to Mariners) is issued weekly. \"Corrected up to and including Ufs no. 2001:5\" means the chart includes all corrections up to week 5 of 2001; later changes must be applied manually from the notices.",
+      "payload": {
+        "questionSv": "I ett sjökort finner du texten: \"Rättad till och med / Corrected up to and including Ufs nr 2001:5, Upplaga (Reprint) 01-02, Sjöfartsverket, Sjökarteavdelningen, Norrköping 2001\". Hur aktuellt är sjökortet egentligen?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:13 / photo_85, photo_41"
+    },
+    {
+      "id": "nav-sjo-054",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ja, privat utgivna hamn- och ledbeskrivningar samt Hydrographicas specialsjökort",
+          "isCorrect": true
+        },
+        {
+          "text": "Nej, sjökorten innehåller all information som behövs för skärgårdsfärder",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja, men endast Sjöfartsverkets officiella fyrlista och Ufs är godkända hjälpmedel",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja, tidvattentabeller och strömatlas är de viktigaste komplementen i skärgården",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vid skärgårdsfärder är framför allt de privat utgivna hamn- och ledbeskrivningarna samt Hydrographicas specialsjökort till stor nytta. Mycket information, till exempel om gästhamnar, finns också i plottrar och på internet.",
+      "explanationEn": "For archipelago cruising, privately published harbour and fairway guides plus Hydrographica's large-scale special charts are particularly useful. Much information, e.g. on guest harbours, is also available in plotters and online.",
+      "payload": {
+        "questionSv": "Finns det nautiska publikationer, förutom sjökorten, som är särskilt användbara vid färder i skärgården?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:14 / photo_85, photo_41"
+    },
+    {
+      "id": "nav-sjo-055",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Rasterkort är skannade papperskort, medan vektorkort är helt datoranpassade med informationen i lager som kan väljas bort",
+          "isCorrect": true
+        },
+        {
+          "text": "Rasterkort är alltid aktuellare än vektorkort eftersom de skannas direkt från nytryckta kort",
+          "isCorrect": false
+        },
+        {
+          "text": "Vektorkort är fotografier av sjökortet medan rasterkort byggs upp av datorobjekt i olika skikt",
+          "isCorrect": false
+        },
+        {
+          "text": "Rasterkort kräver internetuppkoppling medan vektorkort lagras lokalt i plottern",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Rastersjökort är skannade bilder av papperskorten och ser därför ut som de kort vi är vana vid. Vektoriserade sjökort är helt datoranpassade: informationen ligger i flera lager och man kan till exempel välja bort fyrarnas karaktärer och sektorer vid dagsljusnavigering.",
+      "explanationEn": "Raster charts are scanned images of the paper charts and look familiar. Vector charts are fully computer-adapted: the information is stored in layers, so you can for instance switch off light characteristics and sectors when navigating in daylight.",
+      "payload": {
+        "questionSv": "Redogör kortfattat för några skillnader mellan sjökort i rasterformat (skannade) och vektoriserade sjökort."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:15 / photo_85, photo_40"
+    },
+    {
+      "id": "nav-sjo-056",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Nej, inte säkert – på vägen till det färdiga e-sjökortet kan förenklingar, misstag och databuggar uppstå",
+          "isCorrect": true
+        },
+        {
+          "text": "Ja, vektorkorten godkänns av Sjöfartsverket och innehåller alltid exakt samma information som papperskorten",
+          "isCorrect": false
+        },
+        {
+          "text": "Ja, vektorkorten innehåller till och med alltid mer information än papperskorten",
+          "isCorrect": false
+        },
+        {
+          "text": "Nej, vektorkort saknar av upphovsrättsskäl alltid djupkurvor och fyrkaraktärer",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Alla elektroniska sjökort baserar sig på samma information som papperskorten, men på vägen mellan kartografen och det färdiga vektoriserade e-sjökortet finns ett antal felkällor som kan innebära förenklingar, misstag och databuggar. Man kan alltså inte vara säker på att informationen är identisk.",
+      "explanationEn": "Electronic charts are based on the same source data as paper charts, but between the cartographer and the finished vector chart there are several error sources – simplifications, mistakes and data bugs – so identical content cannot be assumed.",
+      "payload": {
+        "questionSv": "En plotter har nya, vektoriserade sjökort. Kan de förväntas innehålla samma information som motsvarande papperskort?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "1:16 / photo_85, photo_40"
+    },
+    {
+      "id": "nav-sjo-057",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "59°04,41' N, 18°17,91' E",
+          "isCorrect": true
+        },
+        {
+          "text": "59°05,62' N, 18°20,95' E",
+          "isCorrect": false
+        },
+        {
+          "text": "59°04,91' N, 18°15,41' E",
+          "isCorrect": false
+        },
+        {
+          "text": "59°03,41' N, 18°19,91' E",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Latitud läses av på sjökortets sidoram och longitud på över-/underramen. Fyren Långgarn i sjökort 616 ligger på 59°04,41' N, 18°17,91' E enligt facit.",
+      "explanationEn": "Latitude is read from the side border of the chart and longitude from the top/bottom border. The Långgarn light on chart 616 is at 59°04.41' N, 18°17.91' E.",
+      "payload": {
+        "questionSv": "Ta ut latitud och longitud i sjökort 616 för fyren Långgarn, utmed farleden som följs från SV mot NO. Vilken position har fyren?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 – svaret bygger på avläsning i kortet; facitvärdet använt som rätt alternativ.",
+      "sourceRef": "1:20a / photo_84, photo_40"
+    },
+    {
+      "id": "nav-sjo-058",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "59°05,62' N, 18°20,95' E",
+          "isCorrect": true
+        },
+        {
+          "text": "59°04,41' N, 18°17,91' E",
+          "isCorrect": false
+        },
+        {
+          "text": "59°06,62' N, 18°22,95' E",
+          "isCorrect": false
+        },
+        {
+          "text": "59°05,12' N, 18°18,95' E",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Fyren Gålö i sjökort 616 ligger på 59°05,62' N, 18°20,95' E enligt facit. Kom ihåg att latitudskalan (sidoramen) också är kortets distansskala: 1 minut = 1 nautisk mil.",
+      "explanationEn": "The Gålö light on chart 616 is at 59°05.62' N, 18°20.95' E. Remember that the latitude scale on the side border also serves as the distance scale: 1 minute = 1 nautical mile.",
+      "payload": {
+        "questionSv": "Ta ut latitud och longitud i sjökort 616 för fyren Gålö, utmed farleden som följs från SV mot NO. Vilken position har fyren?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 – svaret bygger på avläsning i kortet; facitvärdet använt som rätt alternativ.",
+      "sourceRef": "1:20b / photo_84, photo_40"
+    },
+    {
+      "id": "nav-sjo-059",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "59°06,39' N, 18°22,37' E",
+          "isCorrect": true
+        },
+        {
+          "text": "59°07,90' N, 18°25,80' E",
+          "isCorrect": false
+        },
+        {
+          "text": "59°06,93' N, 18°23,72' E",
+          "isCorrect": false
+        },
+        {
+          "text": "59°05,39' N, 18°21,37' E",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Fyren Kycklingen i sjökort 616 ligger på 59°06,39' N, 18°22,37' E enligt facit.",
+      "explanationEn": "The Kycklingen light on chart 616 is at 59°06.39' N, 18°22.37' E according to the answer key.",
+      "payload": {
+        "questionSv": "Ta ut latitud och longitud i sjökort 616 för fyren Kycklingen, utmed farleden som följs från SV mot NO. Vilken position har fyren?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 – svaret bygger på avläsning i kortet; facitvärdet använt som rätt alternativ.",
+      "sourceRef": "1:20c / photo_84, photo_40"
+    },
+    {
+      "id": "nav-sjo-060",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "59°07,90' N, 18°25,80' E",
+          "isCorrect": true
+        },
+        {
+          "text": "59°09,33' N, 18°33,28' E",
+          "isCorrect": false
+        },
+        {
+          "text": "59°07,09' N, 18°28,50' E",
+          "isCorrect": false
+        },
+        {
+          "text": "59°08,90' N, 18°24,80' E",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Fyren Genböte i sjökort 616 ligger på 59°07,90' N, 18°25,80' E enligt facit.",
+      "explanationEn": "The Genböte light on chart 616 is at 59°07.90' N, 18°25.80' E according to the answer key.",
+      "payload": {
+        "questionSv": "Ta ut latitud och longitud i sjökort 616 för fyren Genböte, utmed farleden som följs från SV mot NO. Vilken position har fyren?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 – svaret bygger på avläsning i kortet; facitvärdet använt som rätt alternativ.",
+      "sourceRef": "1:20d / photo_84, photo_40"
+    },
+    {
+      "id": "nav-sjo-061",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "59°09,33' N, 18°33,28' E",
+          "isCorrect": true
+        },
+        {
+          "text": "59°07,90' N, 18°25,80' E",
+          "isCorrect": false
+        },
+        {
+          "text": "59°03,93' N, 18°38,32' E",
+          "isCorrect": false
+        },
+        {
+          "text": "59°09,83' N, 18°31,28' E",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Fyren Fjärdhällan i sjökort 616 ligger på 59°09,33' N, 18°33,28' E enligt facit.",
+      "explanationEn": "The Fjärdhällan light on chart 616 is at 59°09.33' N, 18°33.28' E according to the answer key.",
+      "payload": {
+        "questionSv": "Ta ut latitud och longitud i sjökort 616 för fyren Fjärdhällan, utmed farleden som följs från SV mot NO. Vilken position har fyren?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 – svaret bygger på avläsning i kortet; facitvärdet använt som rätt alternativ.",
+      "sourceRef": "1:20e / photo_84, photo_40"
+    },
+    {
+      "id": "nav-sjo-062",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Yttre pirnocken i Askfatshamnen",
+          "isCorrect": true
+        },
+        {
+          "text": "Fasta sjömärket Ornö Huvud",
+          "isCorrect": false
+        },
+        {
+          "text": "Älvsnabbens monument",
+          "isCorrect": false
+        },
+        {
+          "text": "Utö Kvarn",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Positionen 59°08,11' N, 18°24,05' E i sjökort 6163 pekar ut den yttre pirnocken i Askfatshamnen. Positioner tas ut genom att latitud och longitud förs in från kortets ramar med passare eller linjal.",
+      "explanationEn": "Position 59°08.11' N, 18°24.05' E on chart 6163 marks the outer pier head of Askfatshamnen. Positions are plotted by transferring latitude and longitude from the chart borders.",
+      "payload": {
+        "questionSv": "Vilket föremål befinner sig på position 59°08,11' N, 18°24,05' E i sjökort 6163?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 6163/616 – svaret bygger på uttag av position i kortet; facit använt som rätt alternativ.",
+      "sourceRef": "1:21a / photo_84, photo_40"
+    },
+    {
+      "id": "nav-sjo-063",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Det fasta sjömärket Ornö Huvud",
+          "isCorrect": true
+        },
+        {
+          "text": "Yttre pirnocken i Askfatshamnen",
+          "isCorrect": false
+        },
+        {
+          "text": "Fasadbelysta sjömärket Johannisgrund",
+          "isCorrect": false
+        },
+        {
+          "text": "Utö Kvarn",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Positionen 59°07,25' N, 18°28,85' E i sjökortet pekar ut det fasta sjömärket Ornö Huvud.",
+      "explanationEn": "Position 59°07.25' N, 18°28.85' E on the chart marks the fixed beacon Ornö Huvud.",
+      "payload": {
+        "questionSv": "Vilket föremål befinner sig på position 59°07,25' N, 18°28,85' E i sjökort 6163?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 6163/616 – svaret bygger på uttag av position i kortet; facit använt som rätt alternativ.",
+      "sourceRef": "1:21b / photo_84, photo_40"
+    },
+    {
+      "id": "nav-sjo-064",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Johannisgrund, ett fasadbelyst fast sjömärke",
+          "isCorrect": true
+        },
+        {
+          "text": "Älvsnabbens monument",
+          "isCorrect": false
+        },
+        {
+          "text": "Det fasta sjömärket Ornö Huvud",
+          "isCorrect": false
+        },
+        {
+          "text": "Fyren Genböte",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Positionen 59°05,50' N, 18°21,20' E pekar ut Johannisgrund, ett fasadbelyst fast sjömärke. Fasadbelysning innebär att själva märket lyses upp i mörker i stället för att visa ett eget fyrljus.",
+      "explanationEn": "Position 59°05.50' N, 18°21.20' E marks Johannisgrund, a floodlit fixed beacon. Floodlighting means the structure itself is illuminated at night rather than showing its own light characteristic.",
+      "payload": {
+        "questionSv": "Vilket föremål befinner sig på position 59°05,50' N, 18°21,20' E i sjökort 6163?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 6163/616 – svaret bygger på uttag av position i kortet; facit använt som rätt alternativ.",
+      "sourceRef": "1:21c / photo_84, photo_40"
+    },
+    {
+      "id": "nav-sjo-065",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Älvsnabbens monument (sjökort 616)",
+          "isCorrect": true
+        },
+        {
+          "text": "Utö Kvarn",
+          "isCorrect": false
+        },
+        {
+          "text": "Yttre pirnocken i Askfatshamnen",
+          "isCorrect": false
+        },
+        {
+          "text": "Johannisgrund, fasadbelyst fast sjömärke",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Positionen 58°58,73' N, 18°11,08' E pekar ut Älvsnabbens monument, som återfinns i sjökort 616.",
+      "explanationEn": "Position 58°58.73' N, 18°11.08' E marks the Älvsnabben monument, found on chart 616.",
+      "payload": {
+        "questionSv": "Vilket föremål befinner sig på position 58°58,73' N, 18°11,08' E i sjökort 616?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 – svaret bygger på uttag av position i kortet; facit använt som rätt alternativ.",
+      "sourceRef": "1:21d / photo_84, photo_40"
+    },
+    {
+      "id": "nav-sjo-066",
+      "topicId": "top-nav-sjokort",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Utö Kvarn",
+          "isCorrect": true
+        },
+        {
+          "text": "Älvsnabbens monument",
+          "isCorrect": false
+        },
+        {
+          "text": "Det fasta sjömärket Ornö Huvud",
+          "isCorrect": false
+        },
+        {
+          "text": "Fyren Fjärdhällan",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Positionen 58°58,04' N, 18°19,41' E pekar ut Utö Kvarn – väderkvarnen på Utö är ett välkänt landmärke som redovisas i sjökortet.",
+      "explanationEn": "Position 58°58.04' N, 18°19.41' E marks Utö Kvarn – the windmill on Utö is a well-known charted landmark.",
+      "payload": {
+        "questionSv": "Vilket föremål befinner sig på position 58°58,04' N, 18°19,41' E i sjökort 616?"
+      },
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Kräver övningssjökort 616 – svaret bygger på uttag av position i kortet; facit använt som rätt alternativ.",
+      "sourceRef": "1:21e / photo_84, photo_40"
     }
   ]
 }

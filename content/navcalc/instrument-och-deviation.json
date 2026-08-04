@@ -332,6 +332,402 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "4:14 / photo_80 (facit photo_36)"
+    },
+    {
+      "id": "nav-instr-010",
+      "topicId": "top-nav-instrument",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Förmågan att styra i enslinjens riktning, hur noga föremålen är placerade i sjökortet, hur noga kursen avläses och missvisningsuppgiftens noggrannhet",
+          "isCorrect": true
+        },
+        {
+          "text": "Tiden mellan GPS-navigatorns positionsuppdateringar, strömsättningen i området och loggens kalibrering",
+          "isCorrect": false
+        },
+        {
+          "text": "Enslinjens känslighet för ström och avdrift, båtens fart genom vattnet och krängningen i sjögång",
+          "isCorrect": false
+        },
+        {
+          "text": "Hur noga waypointen är inlagd, avståndet till närmaste landkontur och ekolodets noggrannhet",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vid kontroll mot enslinje påverkas resultatet av styrförmågan, hur exakt ensföremålen är placerade i sjökortet (fasta sjömärken är bäst, därefter byggnader och sedan strandlinjer), kursavläsningen och missvisningsuppgiften. Enslinjen blir skarpare ju större avståndet är mellan föremålen och ju mindre avståndet är mellan båten och det närmaste märket. En fördel är att metoden inte påverkas av ström och avdrift – enslinjens riktning ligger fast.",
+      "explanationEn": "When checking the compass against a transit (range) line, accuracy depends on your ability to steer along the line, how precisely the transit objects are charted (fixed seamarks are best, then buildings, then shorelines), how carefully the course is read, and the accuracy of the variation value. The transit is sharper the greater the distance between the objects and the smaller the distance from the boat to the nearest mark. A key merit: the method is unaffected by current and leeway, since the transit's direction is fixed.",
+      "payload": {
+        "questionSv": "Du kontrollerar kompassens deviation genom att styra mot en enslinje. Vilka faktorer påverkar felkällorna och resultatets noggrannhet?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "5:1a / photo_73, photo_30"
+    },
+    {
+      "id": "nav-instr-011",
+      "topicId": "top-nav-instrument",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Strömsättningen mellan båten och styrmärket samt loggens fart­uppgift",
+          "isCorrect": false
+        },
+        {
+          "text": "Hur noga den egna positionen är känd, avståndet till styrmärket (ju längre bort desto bättre), kursavläsningen, styrningen och missvisningsuppgiften",
+          "isCorrect": true
+        },
+        {
+          "text": "GPS-navigatorns uppdateringsfrekvens, satellittäckningen och antennens placering ombord",
+          "isCorrect": false
+        },
+        {
+          "text": "Hur noga styrmärket är belyst, båtens djupgående och avdriften i sidvind",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "När du vet din position och styr mot ett avlägset föremål beror noggrannheten på hur exakt positionen är känd, hur långt bort styrmärket ligger (ju längre bort, desto mindre blir vinkelfelet av en positionsosäkerhet), hur noga kursen avläses, hur bra båten styrs mot märket samt missvisningsuppgiftens noggrannhet.",
+      "explanationEn": "When you know your position and steer toward a distant object, accuracy depends on how precisely your position is known, how far away the mark is (the farther away, the smaller the angular error caused by position uncertainty), how carefully the course is read, how well the boat is steered toward the mark, and the accuracy of the variation value.",
+      "payload": {
+        "questionSv": "Du kontrollerar kompassen genom att veta din position och styra mot ett avlägset föremål. Vilka faktorer påverkar resultatets noggrannhet?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "5:1b / photo_73, photo_30"
+    },
+    {
+      "id": "nav-instr-012",
+      "topicId": "top-nav-instrument",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Hur noga waypointen är inlagd, hur bra båten styrs mot märket och missvisningsuppgiften (om inte GPS-navigatorn är ställd på magnetisk kurs)",
+          "isCorrect": true
+        },
+        {
+          "text": "Hur skarp enslinjen är, avståndet mellan ensföremålen och kursavläsningen i sjökortet",
+          "isCorrect": false
+        },
+        {
+          "text": "Strömmens och avdriftens storlek, eftersom GPS-bäringen mot en waypoint ändras med avdriften",
+          "isCorrect": false
+        },
+        {
+          "text": "Hur väl handpejlkompassen kan placeras deviationsfritt och hur noga pejlingen avläses",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vid styrning mot en synlig waypoint jämförs kompasskursen med GPS-bäringen mot waypointen. Felkällor: hur noga waypointen är inlagd, hur bra båten styrs mot märket och missvisningsuppgiftens noggrannhet – om inte navigatorn är inställd på magnetiska kurser, då missvisningen redan är inräknad.",
+      "explanationEn": "When steering toward a visible waypoint you compare the compass course with the GPS bearing to the waypoint. Error sources: how accurately the waypoint is entered, how well the boat is steered toward the mark, and the accuracy of the variation value — unless the GPS is set to magnetic courses, in which case variation is already accounted for.",
+      "payload": {
+        "questionSv": "Du kontrollerar kompassen genom att vid styrning mot en synlig waypoint jämföra kompasskursen med GPS-bäringen mot waypointen. Vilka faktorer påverkar resultatets noggrannhet?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "5:1c / photo_73, photo_30"
+    },
+    {
+      "id": "nav-instr-013",
+      "topicId": "top-nav-instrument",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Metoden påverkas inte av ström och avdrift eftersom GPS och kompass mäter samma sak",
+          "isCorrect": false
+        },
+        {
+          "text": "Enslinjens skärpa och avståndet mellan de båda ensföremålen",
+          "isCorrect": false
+        },
+        {
+          "text": "Förmågan att styra rakt, tiden mellan GPS-positionsuppdateringarna, samt att ström och avdrift försämrar resultatet eftersom GPS visar kurs över grund",
+          "isCorrect": true
+        },
+        {
+          "text": "Missvisningsuppgiftens ålder, eftersom kurs över grund alltid anges rättvisande i äldre GPS-mottagare",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vid jämförelse mellan kompasskurs och kurs över grund (COG) enligt GPS påverkas resultatet av förmågan att styra rakt, tiden mellan navigatorns positionsuppdateringar och metoden att räkna medelkurs. Ström och avdrift försämrar resultatet, eftersom GPS visar kursen över grund och inte båtens rättvisande kurs (vinkeln mellan långskeppslinjen och meridianen).",
+      "explanationEn": "When comparing the compass course with course over ground (COG) from GPS, accuracy depends on your ability to steer straight, the time between the navigator's position updates and how the mean course is computed. Current and leeway degrade the result, because GPS shows the track over the ground, not the boat's true heading (the angle between the fore-and-aft line and the meridian).",
+      "payload": {
+        "questionSv": "Du kontrollerar kompassen genom att jämföra kompasskursen med kurs över grund enligt GPS. Vilka faktorer påverkar resultatets noggrannhet?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "5:1d / photo_73, photo_30"
+    },
+    {
+      "id": "nav-instr-014",
+      "topicId": "top-nav-instrument",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Förmågan att styra rakt och möjligheten att placera handpejlkompassen på en deviationsfri plats",
+          "isCorrect": true
+        },
+        {
+          "text": "GPS-navigatorns uppdateringstakt och hur noga waypointen mot styrmärket är inlagd",
+          "isCorrect": false
+        },
+        {
+          "text": "Strömmens riktning och styrka, eftersom pejlingen mot styrmärket förändras av avdriften",
+          "isCorrect": false
+        },
+        {
+          "text": "Enslinjens skärpa och hur noga styrmärket är placerat i förhållande till strandlinjen",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vid jämförelse mellan styrkompassens kurs mot ett styrmärke och samtidig pejling med handpejlkompass påverkas resultatet av förmågan att styra rakt samt av möjligheten att placera handkompassen på en deviationsfri plats – handpejlkompassen antas visa magnetisk riktning utan deviation, vilket bara stämmer om den hålls fri från magnetiska störningar.",
+      "explanationEn": "When comparing the steering compass course toward a mark with a simultaneous hand-bearing compass reading, accuracy depends on the ability to steer straight and on being able to hold the hand-bearing compass in a deviation-free spot — it is assumed to show magnetic direction without deviation, which is only true away from magnetic disturbances.",
+      "payload": {
+        "questionSv": "Du kontrollerar kompassen genom att jämföra kompasskursen mot ett styrmärke med samtidig pejling med handpejlkompass. Vilka faktorer påverkar resultatets noggrannhet?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "5:1e / photo_73, photo_30"
+    },
+    {
+      "id": "nav-instr-015",
+      "topicId": "top-nav-instrument",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Att kompensera för ström och avdrift, eftersom referenskompassen bara kan användas på en kurs i taget",
+          "isCorrect": false
+        },
+        {
+          "text": "Att hitta en deviationsfri placering för referenskompassen samt fel i dess inriktning – felriktning ger fel i deviationen",
+          "isCorrect": true
+        },
+        {
+          "text": "Att referenskompassen måste riktas in mot en enslinje för varje kurs som ska kontrolleras",
+          "isCorrect": false
+        },
+        {
+          "text": "Att missvisningen måste vara känd med stor noggrannhet, annars kan metoden inte användas alls",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Med en tillfälligt uppsatt referenskompass gäller det att hitta en deviationsfri placering. Fördelen är att man sedan kan avläsa och jämföra kurser åt alla håll. Felkällan är inriktningen: fel i referenskompassens uppriktning ger direkt fel i den uppmätta deviationen. Missvisningen behöver däremot inte vara känd – båda kompasserna påverkas lika av den.",
+      "explanationEn": "With a temporarily mounted reference compass the key is to find a deviation-free location. The merit is that you can then read and compare courses in all directions. The error source is alignment: any misalignment of the reference compass translates directly into an error in the measured deviation. Variation does not need to be known — it affects both compasses equally.",
+      "payload": {
+        "questionSv": "Du kontrollerar styrkompassen genom att jämföra dess kurser med en tillfälligt uppsatt referenskompass. Vilka felkällor och förtjänster har metoden?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "5:1f / photo_73, photo_30"
+    },
+    {
+      "id": "nav-instr-016",
+      "topicId": "top-nav-instrument",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Genom att jämföra loggens fart med en annan båts logg vid gång i sällskap",
+          "isCorrect": false
+        },
+        {
+          "text": "Genom att köra i full fart och kontrollera att loggen når båtens toppfart",
+          "isCorrect": false
+        },
+        {
+          "text": "Genom att gå en noga uppmätt sträcka och se om loggen visar fel",
+          "isCorrect": true
+        },
+        {
+          "text": "Genom att lyfta givaren och kontrollera att paddelhjulet snurrar fritt",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Loggen kontrolleras genom att gå en noga uppmätt sträcka (t.ex. en uppmätt distans i sjökortet) och jämföra loggens visade distans/fart med den verkliga. Då ser man hur mycket loggen visar fel och kan kalibrera den. Kör gärna sträckan i båda riktningarna för att eliminera ströminverkan.",
+      "explanationEn": "The log is checked by running a carefully measured distance and comparing what the log shows with the true distance/speed. That reveals the log's error so it can be calibrated. Running the distance in both directions cancels the effect of current.",
+      "payload": {
+        "questionSv": "Du har just hyrt en båt med en elektronisk logg som har en paddelhjulsgivare under skrovet. Hur kontrollerar du loggen?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "5:2a / photo_73, photo_30, photo_29"
+    },
+    {
+      "id": "nav-instr-017",
+      "topicId": "top-nav-instrument",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Beväxning på givaren samt att vattenströmningen runt skrovet varierar mellan båtar, med givarens placering och med farten",
+          "isCorrect": true
+        },
+        {
+          "text": "Missvisning och deviation som inte är kompenserade i loggens elektronik",
+          "isCorrect": false
+        },
+        {
+          "text": "Satellitgeometrin och att loggen tappar kontakten med GPS-mottagaren",
+          "isCorrect": false
+        },
+        {
+          "text": "Att paddelhjulet är kalibrerat för sötvatten och därför alltid visar fel i saltvatten",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tänkbara förklaringar till loggfel: beväxning gör att givaren (paddelhjulet) inte fungerar som den ska, och vattenströmningarna runt skrovet är olika på olika båtar, olika beroende på var givaren sitter på undervattenskroppen och kan dessutom variera med farten. En paddelhjulslogg mäter fart genom vattnet – den har inget med missvisning, deviation eller GPS att göra.",
+      "explanationEn": "Likely explanations for log error: fouling stops the paddle-wheel sensor from working properly, and the water flow around the hull differs between boats, depends on where the sensor sits on the underwater body, and can vary with speed. A paddle-wheel log measures speed through the water — variation, deviation and GPS have nothing to do with it.",
+      "payload": {
+        "questionSv": "En elektronisk logg med paddelhjulsgivare under skrovet visar fel. Ge några tänkbara förklaringar till felet."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "5:2b / photo_73, photo_30, photo_29"
+    },
+    {
+      "id": "nav-instr-018",
+      "topicId": "top-nav-instrument",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "+9°, dvs. ostlig deviation",
+          "isCorrect": false
+        },
+        {
+          "text": "−4°, dvs. västlig deviation",
+          "isCorrect": false
+        },
+        {
+          "text": "+4°, dvs. ostlig deviation",
+          "isCorrect": true
+        },
+        {
+          "text": "−9°, dvs. västlig deviation",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Enslinjen Revengegrundet–Almagrundet har rättvisande riktning 149°. Dra bort den ostliga missvisningen 5°: Km = 149° − 5° = 144°. Deviationen är d = Km − Kk = 144° − 140° = +4°, alltså ostlig (positiv) deviation. Glömmer man missvisningen får man felaktigt +9°.",
+      "explanationEn": "The transit Revengegrundet–Almagrundet has a true direction of 149°. Subtract the easterly variation of 5°: magnetic course Km = 149° − 5° = 144°. Deviation d = Km − Kk = 144° − 140° = +4°, i.e. easterly (positive) deviation. Forgetting the variation would wrongly give +9°.",
+      "payload": {
+        "questionSv": "En klar, lugn dag passerar du tätt intill Revengegrundets fyr och kontrollerar deviationen genom att styra mot Almagrundets fyr. Med Revengegrundet rakt akteröver och Almagrundet rakt förut läser du av kompasskursen 140°. Enslinjens rättvisande riktning i sjökortet är 149° och missvisningen är 5° ostlig. Hur stor är deviationen och vilket tecken har den?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "5:4 / photo_73, photo_29"
+    },
+    {
+      "id": "nav-instr-019",
+      "topicId": "top-nav-instrument",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "+5°, dvs. ostlig deviation",
+          "isCorrect": false
+        },
+        {
+          "text": "−5°, dvs. västlig deviation",
+          "isCorrect": true
+        },
+        {
+          "text": "0°, dvs. ingen deviation",
+          "isCorrect": false
+        },
+        {
+          "text": "−12°, dvs. västlig deviation",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Navigatorn är inställd på magnetiska kurser och bäringar, så GPS-bäringen 70° är den magnetiska kursen mot fyren (Km). Deviationen är d = Km − Kk = 70° − 75° = −5°, alltså 5° västlig deviation. Missvisningen behöver inte hanteras eftersom navigatorn redan räknat in den.",
+      "explanationEn": "The navigator is set to magnetic courses and bearings, so the GPS bearing of 70° is the magnetic course toward the lighthouse (Km). Deviation d = Km − Kk = 70° − 75° = −5°, i.e. 5° westerly deviation. Variation needs no handling here since the navigator already accounts for it.",
+      "payload": {
+        "questionSv": "Du har lagt en waypoint på en hög fyr 7 sjömil bort. Fyren syns tydligt. Enligt GPS-navigatorn är bäringen till fyren 70°. När du styr noggrann kurs mot fyren visar styrkompassen 75°. Navigatorn är inställd att automatiskt ta hänsyn till missvisningen och visa magnetiska kurser och bäringar. Räkna ut deviationen."
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "5:5 / photo_73, photo_29"
+    },
+    {
+      "id": "nav-instr-020",
+      "topicId": "top-nav-instrument",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "+5°",
+          "isCorrect": true
+        },
+        {
+          "text": "−5°",
+          "isCorrect": false
+        },
+        {
+          "text": "+7°",
+          "isCorrect": false
+        },
+        {
+          "text": "+3°",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Räkna K − m = Km och sedan Km − Kk = d. För kursen 090°: 090° − 2° = 088°; d = 088° − 083° = +5°. Hela protokollet ger: 005°→−2, 050°→+3, 090°→+5, 161°→+3, 269°→−2, 302°→−4, 340°→−3. Värdena läggs in i diagrammet och förbinds till en deviationskurva, som sedan kan användas som deviationstabell för alla kurser.",
+      "explanationEn": "Compute K − variation = Km, then Km − Kk = d. For course 090°: 090° − 2° = 088°; d = 088° − 083° = +5°. The full protocol gives: 005°→−2, 050°→+3, 090°→+5, 161°→+3, 269°→−2, 302°→−4, 340°→−3. Plotting these values and drawing a curve produces a deviation curve that works as a deviation table for all headings.",
+      "payload": {
+        "questionSv": "Du har under en vecka fört protokoll över rättvisande kurs (K) jämfört med kompasskurs (Kk) för att göra en deviationskurva. Missvisningen är 2° ostlig. På rättvisande kursen 090° var kompasskursen 083°. Vilken deviation ger det för denna kurs?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "5:6 / photo_72, photo_29, photo_1"
     }
   ]
 }

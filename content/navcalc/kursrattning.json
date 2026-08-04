@@ -705,6 +705,42 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "4:15 / photo_80 (facit photo_36)"
+    },
+    {
+      "id": "nav-kurs-022",
+      "topicId": "top-nav-kurs",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Åt babord",
+          "isCorrect": false
+        },
+        {
+          "text": "Åt styrbord",
+          "isCorrect": true
+        },
+        {
+          "text": "Inget fel uppstår – missvisningen påverkar bara bäringar, inte kurser",
+          "isCorrect": false
+        },
+        {
+          "text": "Det beror på om kursen är nordlig eller sydlig",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Vid ostlig missvisning pekar kompassnålen öster (medurs) om den rättvisande nordriktningen. Styr du kompasskursen utan att räkna om, blir din verkliga kurs lika med kompasskursen plus den ostliga missvisningen – du hamnar alltså medurs, dvs. åt styrbord om den avsedda kursen.",
+      "explanationEn": "With easterly variation the compass needle points east (clockwise) of true north. If you steer the compass course without correcting, your actual true course equals the compass course plus the easterly variation — you end up clockwise of, i.e. to starboard of, the intended course.",
+      "payload": {
+        "questionSv": "Du styr en liten träbåt (ingen deviation) efter kompassen utan att ta hänsyn till missvisningen. Åt vilket håll (styrbord eller babord) blir felet vid ostlig missvisning?"
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "5:3 / photo_73, photo_29"
     }
   ]
 }
