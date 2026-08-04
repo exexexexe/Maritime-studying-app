@@ -920,6 +920,834 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "6:16 rad 20 / photo_70, photo_27"
+    },
+    {
+      "id": "buoy-fyr-057",
+      "topicId": "top-buoy-fyrar-bild",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "FR",
+          "isCorrect": false
+        },
+        {
+          "text": "FG",
+          "isCorrect": true
+        },
+        {
+          "text": "Fl G 5s",
+          "isCorrect": false
+        },
+        {
+          "text": "Oc G 5s",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett grönt sken som lyser konstant utan avbrott är ett fast sken, F. Med färgen grönt skrivs karaktären FG (fixed green). Fast grönt sken förekommer t.ex. vid vissa kanalmärken och kajlanternor.",
+      "explanationEn": "A green light shining constantly without interruption is a fixed light, F. With the colour green the characteristic is written FG (fixed green). Fixed green lights are used e.g. for some channel marks and quay lanterns.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: fyren lyser med grönt sken konstant, helt utan avbrott. Vilken fyrkaraktär med förkortning stämmer?",
+        "scene": {
+          "lights": [
+            {
+              "color": "green",
+              "x": 50,
+              "y": 28,
+              "characteristic": "FG"
+            }
+          ]
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "Standard IALA/Admiralty fyrkaraktär-notation — ej hämtad ur en specifik lärobokssida, tillagd för bredare karaktärstäckning i snabbtestet (2026-08-05)"
+    },
+    {
+      "id": "buoy-fyr-058",
+      "topicId": "top-buoy-fyrar-bild",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Fl 5s",
+          "isCorrect": true
+        },
+        {
+          "text": "Oc 5s",
+          "isCorrect": false
+        },
+        {
+          "text": "Iso 5s",
+          "isCorrect": false
+        },
+        {
+          "text": "LFl 5s",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En kort blixt (kortare än 2 sekunder) var femte sekund, med mörker som dominerar perioden, är en blixtfyr: Fl 5s.",
+      "explanationEn": "A short flash (shorter than 2 seconds) every five seconds, with darkness dominating the period, is a flashing light: Fl 5s.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: en kort ljusblixt visas en gång var femte sekund; mörkertiden dominerar klart. Vilken fyrkaraktär med förkortning stämmer?",
+        "scene": {
+          "lights": [
+            {
+              "color": "white",
+              "x": 50,
+              "y": 28,
+              "characteristic": "Fl 5s"
+            }
+          ]
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "Standard IALA/Admiralty fyrkaraktär-notation — ej hämtad ur en specifik lärobokssida, tillagd för bredare karaktärstäckning i snabbtestet (2026-08-05)"
+    },
+    {
+      "id": "buoy-fyr-059",
+      "topicId": "top-buoy-fyrar-bild",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Fl 10s",
+          "isCorrect": true
+        },
+        {
+          "text": "LFl 10s",
+          "isCorrect": false
+        },
+        {
+          "text": "Q",
+          "isCorrect": false
+        },
+        {
+          "text": "Oc 10s",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En kort blixt var tionde sekund är Fl 10s. Skillnaden mot LFl 10s är blixtens längd — minst 2 sekunder gör den i stället till en lång blixt.",
+      "explanationEn": "A short flash every ten seconds is Fl 10s. The difference from LFl 10s is the flash length — at least 2 seconds makes it a long flash instead.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: en kort ljusblixt visas en gång var tionde sekund; mörkertiden dominerar klart. Vilken fyrkaraktär med förkortning stämmer?",
+        "scene": {
+          "lights": [
+            {
+              "color": "red",
+              "x": 50,
+              "y": 28,
+              "characteristic": "Fl 10s"
+            }
+          ]
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "Standard IALA/Admiralty fyrkaraktär-notation — ej hämtad ur en specifik lärobokssida, tillagd för bredare karaktärstäckning i snabbtestet (2026-08-05)"
+    },
+    {
+      "id": "buoy-fyr-060",
+      "topicId": "top-buoy-fyrar-bild",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Fl(3) 10s",
+          "isCorrect": true
+        },
+        {
+          "text": "Q(3)",
+          "isCorrect": false
+        },
+        {
+          "text": "Fl(3) 15s",
+          "isCorrect": false
+        },
+        {
+          "text": "Oc(3) 10s",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tre korta blixtar i tät grupp, följda av mörker, är en gruppblixtfyr med tre blixtar: Fl(3). Med perioden 10 sekunder skrivs den Fl(3) 10s.",
+      "explanationEn": "Three short flashes in a close group, followed by darkness, is a group-flashing light with three flashes: Fl(3). With a 10-second period it is written Fl(3) 10s.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: tre korta ljusblixtar i tät grupp, därefter mörker; förloppet upprepas var tionde sekund. Vilken fyrkaraktär med förkortning stämmer?",
+        "scene": {
+          "lights": [
+            {
+              "color": "white",
+              "x": 50,
+              "y": 28,
+              "characteristic": "Fl(3) 10s"
+            }
+          ]
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "Standard IALA/Admiralty fyrkaraktär-notation — ej hämtad ur en specifik lärobokssida, tillagd för bredare karaktärstäckning i snabbtestet (2026-08-05)"
+    },
+    {
+      "id": "buoy-fyr-061",
+      "topicId": "top-buoy-fyrar-bild",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Fl(4) 15s",
+          "isCorrect": true
+        },
+        {
+          "text": "Fl(4) 20s",
+          "isCorrect": false
+        },
+        {
+          "text": "VQ(3)",
+          "isCorrect": false
+        },
+        {
+          "text": "LFl(4) 15s",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Fyra korta blixtar i tät grupp, med perioden 15 sekunder, skrivs Fl(4) 15s.",
+      "explanationEn": "Four short flashes in a close group, with a 15-second period, is written Fl(4) 15s.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: fyra korta ljusblixtar i tät grupp, därefter mörker; förloppet upprepas var femtonde sekund. Vilken fyrkaraktär med förkortning stämmer?",
+        "scene": {
+          "lights": [
+            {
+              "color": "green",
+              "x": 50,
+              "y": 28,
+              "characteristic": "Fl(4) 15s"
+            }
+          ]
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "Standard IALA/Admiralty fyrkaraktär-notation — ej hämtad ur en specifik lärobokssida, tillagd för bredare karaktärstäckning i snabbtestet (2026-08-05)"
+    },
+    {
+      "id": "buoy-fyr-062",
+      "topicId": "top-buoy-fyrar-bild",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Fl(2+1) 15s",
+          "isCorrect": true
+        },
+        {
+          "text": "Fl(1+2) 15s",
+          "isCorrect": false
+        },
+        {
+          "text": "Fl(3) 15s",
+          "isCorrect": false
+        },
+        {
+          "text": "Fl(2+1) 20s",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Två blixtar, en längre paus, och därefter ytterligare en blixt är en sammansatt gruppblixt: Fl(2+1). Delgrupperna skiljs av en längre paus än mellan blixtarna inom samma grupp. Med perioden 15 sekunder: Fl(2+1) 15s.",
+      "explanationEn": "Two flashes, a longer pause, then one more flash is a composite group-flashing characteristic: Fl(2+1). The sub-groups are separated by a longer gap than the flashes within a group. With a 15-second period: Fl(2+1) 15s.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: två korta blixtar i grupp, en längre paus, sedan ytterligare en ensam blixt; förloppet upprepas var femtonde sekund. Vilken fyrkaraktär med förkortning stämmer?",
+        "scene": {
+          "lights": [
+            {
+              "color": "red",
+              "x": 50,
+              "y": 28,
+              "characteristic": "Fl(2+1) 15s"
+            }
+          ]
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "Standard IALA/Admiralty fyrkaraktär-notation — ej hämtad ur en specifik lärobokssida, tillagd för bredare karaktärstäckning i snabbtestet (2026-08-05)"
+    },
+    {
+      "id": "buoy-fyr-063",
+      "topicId": "top-buoy-fyrar-bild",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "LFl 5s",
+          "isCorrect": true
+        },
+        {
+          "text": "Fl 5s",
+          "isCorrect": false
+        },
+        {
+          "text": "Oc 5s",
+          "isCorrect": false
+        },
+        {
+          "text": "Iso 5s",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En lång blixt (minst 2 sekunder) var femte sekund är en fyr med lång blixt: LFl 5s.",
+      "explanationEn": "A long flash (at least 2 seconds) every five seconds is a long-flashing light: LFl 5s.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: en lång ljusblixt på minst 2 sekunder visas en gång var femte sekund; resten av perioden är mörker. Vilken fyrkaraktär med förkortning stämmer?",
+        "scene": {
+          "lights": [
+            {
+              "color": "green",
+              "x": 50,
+              "y": 28,
+              "characteristic": "LFl 5s"
+            }
+          ]
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "Standard IALA/Admiralty fyrkaraktär-notation — ej hämtad ur en specifik lärobokssida, tillagd för bredare karaktärstäckning i snabbtestet (2026-08-05)"
+    },
+    {
+      "id": "buoy-fyr-064",
+      "topicId": "top-buoy-fyrar-bild",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "LFl(3) 15s",
+          "isCorrect": true
+        },
+        {
+          "text": "Fl(3) 15s",
+          "isCorrect": false
+        },
+        {
+          "text": "LFl(3) 20s",
+          "isCorrect": false
+        },
+        {
+          "text": "Q(3)",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tre långa blixtar (vardera minst 2 sekunder) i grupp, med perioden 15 sekunder, skrivs LFl(3) 15s.",
+      "explanationEn": "Three long flashes (each at least 2 seconds) in a group, with a 15-second period, is written LFl(3) 15s.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: tre långa ljusblixtar i tät grupp, därefter mörker; förloppet upprepas var femtonde sekund. Vilken fyrkaraktär med förkortning stämmer?",
+        "scene": {
+          "lights": [
+            {
+              "color": "white",
+              "x": 50,
+              "y": 28,
+              "characteristic": "LFl(3) 15s"
+            }
+          ]
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "Standard IALA/Admiralty fyrkaraktär-notation — ej hämtad ur en specifik lärobokssida, tillagd för bredare karaktärstäckning i snabbtestet (2026-08-05)"
+    },
+    {
+      "id": "buoy-fyr-065",
+      "topicId": "top-buoy-fyrar-bild",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Oc 3s",
+          "isCorrect": true
+        },
+        {
+          "text": "Fl 3s",
+          "isCorrect": false
+        },
+        {
+          "text": "Iso 3s",
+          "isCorrect": false
+        },
+        {
+          "text": "Oc(2) 3s",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Mer ljus än mörker med en kort förmörkelse var tredje sekund är en klippfyr: Oc 3s.",
+      "explanationEn": "More light than darkness with one short eclipse every three seconds is an occulting light: Oc 3s.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: fyren lyser mest hela tiden, men skenet bryts av en kort förmörkelse en gång var tredje sekund. Vilken fyrkaraktär med förkortning stämmer?",
+        "scene": {
+          "lights": [
+            {
+              "color": "red",
+              "x": 50,
+              "y": 28,
+              "characteristic": "Oc 3s"
+            }
+          ]
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "Standard IALA/Admiralty fyrkaraktär-notation — ej hämtad ur en specifik lärobokssida, tillagd för bredare karaktärstäckning i snabbtestet (2026-08-05)"
+    },
+    {
+      "id": "buoy-fyr-066",
+      "topicId": "top-buoy-fyrar-bild",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Oc(2) 6s",
+          "isCorrect": true
+        },
+        {
+          "text": "Oc(2) 10s",
+          "isCorrect": false
+        },
+        {
+          "text": "Fl(2) 6s",
+          "isCorrect": false
+        },
+        {
+          "text": "Q(2)",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Två korta förmörkelser i tät grupp, med perioden 6 sekunder, ger karaktären Oc(2) 6s.",
+      "explanationEn": "Two short eclipses in a close group, with a 6-second period, gives the characteristic Oc(2) 6s.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: fyren lyser mest hela tiden, men skenet bryts av två korta förmörkelser i tät grupp; förloppet upprepas var sjätte sekund. Vilken fyrkaraktär med förkortning stämmer?",
+        "scene": {
+          "lights": [
+            {
+              "color": "white",
+              "x": 50,
+              "y": 28,
+              "characteristic": "Oc(2) 6s"
+            }
+          ]
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "Standard IALA/Admiralty fyrkaraktär-notation — ej hämtad ur en specifik lärobokssida, tillagd för bredare karaktärstäckning i snabbtestet (2026-08-05)"
+    },
+    {
+      "id": "buoy-fyr-067",
+      "topicId": "top-buoy-fyrar-bild",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Oc(3) 15s",
+          "isCorrect": true
+        },
+        {
+          "text": "Oc(3) 10s",
+          "isCorrect": false
+        },
+        {
+          "text": "Fl(3) 15s",
+          "isCorrect": false
+        },
+        {
+          "text": "VQ(3)",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Tre korta förmörkelser i tät grupp, med perioden 15 sekunder, ger karaktären Oc(3) 15s.",
+      "explanationEn": "Three short eclipses in a close group, with a 15-second period, gives the characteristic Oc(3) 15s.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: fyren lyser mest hela tiden, men skenet bryts av tre korta förmörkelser i tät grupp; förloppet upprepas var femtonde sekund. Vilken fyrkaraktär med förkortning stämmer?",
+        "scene": {
+          "lights": [
+            {
+              "color": "green",
+              "x": 50,
+              "y": 28,
+              "characteristic": "Oc(3) 15s"
+            }
+          ]
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "Standard IALA/Admiralty fyrkaraktär-notation — ej hämtad ur en specifik lärobokssida, tillagd för bredare karaktärstäckning i snabbtestet (2026-08-05)"
+    },
+    {
+      "id": "buoy-fyr-068",
+      "topicId": "top-buoy-fyrar-bild",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Iso 2s",
+          "isCorrect": true
+        },
+        {
+          "text": "Fl 2s",
+          "isCorrect": false
+        },
+        {
+          "text": "Oc 2s",
+          "isCorrect": false
+        },
+        {
+          "text": "Q",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Lika lång ljustid som mörkertid, med perioden 2 sekunder (1 s ljus + 1 s mörker), är Iso 2s.",
+      "explanationEn": "Equal light and dark time, with a 2-second period (1 s light + 1 s dark), is Iso 2s.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: ljus och mörker växlar regelbundet med exakt lika lång ljustid som mörkertid; perioden är 2 sekunder. Vilken fyrkaraktär med förkortning stämmer?",
+        "scene": {
+          "lights": [
+            {
+              "color": "white",
+              "x": 50,
+              "y": 28,
+              "characteristic": "Iso 2s"
+            }
+          ]
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "Standard IALA/Admiralty fyrkaraktär-notation — ej hämtad ur en specifik lärobokssida, tillagd för bredare karaktärstäckning i snabbtestet (2026-08-05)"
+    },
+    {
+      "id": "buoy-fyr-069",
+      "topicId": "top-buoy-fyrar-bild",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Iso 10s",
+          "isCorrect": true
+        },
+        {
+          "text": "Oc 10s",
+          "isCorrect": false
+        },
+        {
+          "text": "LFl 10s",
+          "isCorrect": false
+        },
+        {
+          "text": "Fl 10s",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Lika lång ljustid som mörkertid, med perioden 10 sekunder (5 s ljus + 5 s mörker), är Iso 10s.",
+      "explanationEn": "Equal light and dark time, with a 10-second period (5 s light + 5 s dark), is Iso 10s.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: ljus och mörker växlar regelbundet med exakt lika lång ljustid som mörkertid; perioden är 10 sekunder. Vilken fyrkaraktär med förkortning stämmer?",
+        "scene": {
+          "lights": [
+            {
+              "color": "red",
+              "x": 50,
+              "y": 28,
+              "characteristic": "Iso 10s"
+            }
+          ]
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "Standard IALA/Admiralty fyrkaraktär-notation — ej hämtad ur en specifik lärobokssida, tillagd för bredare karaktärstäckning i snabbtestet (2026-08-05)"
+    },
+    {
+      "id": "buoy-fyr-070",
+      "topicId": "top-buoy-fyrar-bild",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "IQ 10s",
+          "isCorrect": true
+        },
+        {
+          "text": "Q",
+          "isCorrect": false
+        },
+        {
+          "text": "VQ",
+          "isCorrect": false
+        },
+        {
+          "text": "IQ 15s",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Snabbblixtar som regelbundet avbryts av en längre mörkerperiod var tionde sekund är avbruten snabbblixt: IQ 10s.",
+      "explanationEn": "Quick flashing regularly interrupted by a longer dark period every ten seconds is interrupted quick: IQ 10s.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: en serie snabba blixtar i snabbblixttakt som regelbundet avbryts av en tydlig mörkerperiod; perioden är 10 sekunder. Vilken fyrkaraktär med förkortning stämmer?",
+        "scene": {
+          "lights": [
+            {
+              "color": "green",
+              "x": 50,
+              "y": 28,
+              "characteristic": "IQ 10s"
+            }
+          ]
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "Standard IALA/Admiralty fyrkaraktär-notation — ej hämtad ur en specifik lärobokssida, tillagd för bredare karaktärstäckning i snabbtestet (2026-08-05)"
+    },
+    {
+      "id": "buoy-fyr-071",
+      "topicId": "top-buoy-fyrar-bild",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Mo(A) 10s",
+          "isCorrect": true
+        },
+        {
+          "text": "Mo(K) 10s",
+          "isCorrect": false
+        },
+        {
+          "text": "Mo(U) 10s",
+          "isCorrect": false
+        },
+        {
+          "text": "Q",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Morsetecknet för bokstaven A är kort–lång (· —). En fyr som blinkar detta mönster med perioden 10 sekunder skrivs Mo(A) 10s.",
+      "explanationEn": "The Morse letter A is short–long (· —). A light flashing this pattern with a 10-second period is written Mo(A) 10s.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: fyren visar en kort blixt följd av en lång blixt (· —), därefter mörker; förloppet upprepas var tionde sekund. Vilken fyrkaraktär med förkortning stämmer?",
+        "scene": {
+          "lights": [
+            {
+              "color": "white",
+              "x": 50,
+              "y": 28,
+              "characteristic": "Mo(A) 10s"
+            }
+          ]
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "Standard IALA/Admiralty fyrkaraktär-notation — ej hämtad ur en specifik lärobokssida, tillagd för bredare karaktärstäckning i snabbtestet (2026-08-05)"
+    },
+    {
+      "id": "buoy-fyr-072",
+      "topicId": "top-buoy-fyrar-bild",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Mo(U) 15s",
+          "isCorrect": true
+        },
+        {
+          "text": "Mo(A) 15s",
+          "isCorrect": false
+        },
+        {
+          "text": "Mo(D) 15s",
+          "isCorrect": false
+        },
+        {
+          "text": "VQ",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Morsetecknet för bokstaven U är kort–kort–lång (· · —). En fyr som blinkar detta mönster med perioden 15 sekunder skrivs Mo(U) 15s.",
+      "explanationEn": "The Morse letter U is short–short–long (· · —). A light flashing this pattern with a 15-second period is written Mo(U) 15s.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: fyren visar två korta blixtar följda av en lång blixt (· · —), därefter mörker; förloppet upprepas var femtonde sekund. Vilken fyrkaraktär med förkortning stämmer?",
+        "scene": {
+          "lights": [
+            {
+              "color": "yellow",
+              "x": 50,
+              "y": 28,
+              "characteristic": "Mo(U) 15s"
+            }
+          ]
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "Standard IALA/Admiralty fyrkaraktär-notation — ej hämtad ur en specifik lärobokssida, tillagd för bredare karaktärstäckning i snabbtestet (2026-08-05)"
+    },
+    {
+      "id": "buoy-fyr-073",
+      "topicId": "top-buoy-fyrar-bild",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Mo(D) 10s",
+          "isCorrect": true
+        },
+        {
+          "text": "Mo(K) 10s",
+          "isCorrect": false
+        },
+        {
+          "text": "Mo(U) 10s",
+          "isCorrect": false
+        },
+        {
+          "text": "Oc(3) 10s",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Morsetecknet för bokstaven D är lång–kort–kort (— · ·). En fyr som blinkar detta mönster med perioden 10 sekunder skrivs Mo(D) 10s.",
+      "explanationEn": "The Morse letter D is long–short–short (— · ·). A light flashing this pattern with a 10-second period is written Mo(D) 10s.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: fyren visar en lång blixt följd av två korta blixtar (— · ·), därefter mörker; förloppet upprepas var tionde sekund. Vilken fyrkaraktär med förkortning stämmer?",
+        "scene": {
+          "lights": [
+            {
+              "color": "yellow",
+              "x": 50,
+              "y": 28,
+              "characteristic": "Mo(D) 10s"
+            }
+          ]
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "Standard IALA/Admiralty fyrkaraktär-notation — ej hämtad ur en specifik lärobokssida, tillagd för bredare karaktärstäckning i snabbtestet (2026-08-05)"
+    },
+    {
+      "id": "buoy-fyr-074",
+      "topicId": "top-buoy-fyrar-bild",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "F Fl 10s",
+          "isCorrect": true
+        },
+        {
+          "text": "F Fl 5s",
+          "isCorrect": false
+        },
+        {
+          "text": "Oc 10s",
+          "isCorrect": false
+        },
+        {
+          "text": "Iso 10s",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett fast sken som regelbundet förstärks av en ljusare blixt, med perioden 10 sekunder, är F Fl 10s.",
+      "explanationEn": "A fixed light regularly reinforced by a brighter flash, with a 10-second period, is F Fl 10s.",
+      "payload": {
+        "questionSv": "Tyd diagrammet: fyren lyser hela tiden med fast sken, men var tionde sekund förstärks skenet av en kraftigare blixt. Vilken fyrkaraktär med förkortning stämmer?",
+        "scene": {
+          "lights": [
+            {
+              "color": "white",
+              "x": 50,
+              "y": 28,
+              "characteristic": "F Fl 10s"
+            }
+          ]
+        }
+      },
+      "authorReviewed": false,
+      "needsReview": false,
+      "needsReviewNote": null,
+      "sourceRef": "Standard IALA/Admiralty fyrkaraktär-notation — ej hämtad ur en specifik lärobokssida, tillagd för bredare karaktärstäckning i snabbtestet (2026-08-05)"
     }
   ]
 }

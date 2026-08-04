@@ -57,6 +57,14 @@ interface AnimatedLightProps {
  * diagram frame itself rendering correctly. useEffect runs once per commit
  * regardless of how often the parent re-renders; useMemo does not carry
  * that guarantee for side effects.
+ *
+ * useReducedMotion() itself only reflects the OS setting as of the app's
+ * last cold start, not live — toggling the setting (or an adb/dev-tool
+ * override) while the app is already running has no effect until the app
+ * is fully closed and reopened. If a light looks stuck static+captioned
+ * (or the reverse) with no code change to explain it, that's almost always
+ * a stale process, not a real bug — force-stop and relaunch before digging
+ * further.
  */
 export function AnimatedLight({ characteristic, cx, cy, color, glow = true }: AnimatedLightProps) {
   const reducedMotion = useReducedMotion();
