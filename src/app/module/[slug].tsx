@@ -4,7 +4,8 @@ import { ScrollView, useColorScheme, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { ThemedPressable, ThemedText, ThemedView } from '@/components/themed';
-import { moduleBySlug, topicsForModule } from '@/content';
+import { itemsForTrack, moduleBySlug, topicsForModule } from '@/content';
+import { lanternSprintItems } from '@/lib/sprint';
 import { moduleProgress, topicProgress } from '@/srs/session';
 import { useTrack } from '@/state/track-context';
 import { palette } from '@/theme/tokens';
@@ -25,6 +26,12 @@ export default function ModuleScreen() {
       progress: topicProgress(t.id, track, now),
     }));
   });
+  // Sprint mode currently only has eligible content for lanterns — see
+  // src/lib/sprint.ts. Hides itself on tracks with no eligible items
+  // (buoy-fyr items are klass8/kustskeppare only) rather than linking to
+  // an empty drill.
+  const sprintAvailable =
+    module?.id === 'mod-lanterns' && lanternSprintItems(itemsForTrack(track)).length > 0;
 
   if (!module || !progress) {
     return (
@@ -116,6 +123,19 @@ export default function ModuleScreen() {
             );
           })}
         </View>
+
+        {sprintAvailable ? (
+          <Link href="/sprint/lantern" asChild>
+            <ThemedPressable
+              borderTone="tide"
+              className="rounded-xl border px-4 py-3.5 items-center active:opacity-80"
+            >
+              <ThemedText tone="tide" className="text-body font-sans-medium">
+                Snabbtest: ljuskaraktärer
+              </ThemedText>
+            </ThemedPressable>
+          </Link>
+        ) : null}
 
         <View className="flex-1" />
 

@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { View } from 'react-native';
 import Animated, {
   Easing,
@@ -49,12 +50,17 @@ export function TermCard({
   const reducedMotion = useReducedMotion();
   const rotation = useSharedValue(flipped ? 180 : 0);
 
-  const target = flipped ? 180 : 0;
-  if (reducedMotion) {
-    rotation.value = target;
-  } else if (rotation.value !== target) {
-    rotation.value = withTiming(target, { duration: FLIP_MS, easing: Easing.inOut(Easing.quad) });
-  }
+  // Writing to a shared value directly in the render body (as this was
+  // originally) is undefined behavior under frequent re-renders — see the
+  // same fix and its explanation in animated-light.tsx, found via this
+  // component while investigating why AnimatedLight silently never
+  // rendered inside the Phase 6 sprint screen's per-second countdown.
+  useEffect(() => {
+    const target = flipped ? 180 : 0;
+    rotation.value = reducedMotion
+      ? target
+      : withTiming(target, { duration: FLIP_MS, easing: Easing.inOut(Easing.quad) });
+  }, [flipped, reducedMotion, rotation]);
 
   const frontStyle = useAnimatedStyle(() => ({
     transform: [{ perspective: 1200 }, { rotateY: `${rotation.value}deg` }],

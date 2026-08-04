@@ -1,4 +1,4 @@
-import { Fragment, useMemo } from 'react';
+import { Fragment, useEffect, useMemo } from 'react';
 import Animated, {
   Easing,
   useAnimatedProps,
@@ -48,6 +48,15 @@ interface AnimatedLightProps {
  * motion. The caller is responsible for also showing the characteristic's
  * notation as a caption — that's how the meaning survives independent of
  * whether the pulse itself is playing.
+ *
+ * The animation-start effect below must be useEffect, not useMemo — this
+ * was a real bug (found while building the Phase 6 sprint screen, which
+ * re-renders every second from its countdown): writing to a shared value
+ * during render is undefined behavior under frequent re-renders, and
+ * manifested as the light silently never appearing at all despite the
+ * diagram frame itself rendering correctly. useEffect runs once per commit
+ * regardless of how often the parent re-renders; useMemo does not carry
+ * that guarantee for side effects.
  */
 export function AnimatedLight({ characteristic, cx, cy, color, glow = true }: AnimatedLightProps) {
   const reducedMotion = useReducedMotion();
@@ -55,7 +64,7 @@ export function AnimatedLight({ characteristic, cx, cy, color, glow = true }: An
 
   const opacity = useSharedValue(spec.segments[0]?.on ? (spec.segments[0]?.intensity ?? 1) : 0);
 
-  useMemo(() => {
+  useEffect(() => {
     if (reducedMotion) {
       opacity.value = 1;
       return;
