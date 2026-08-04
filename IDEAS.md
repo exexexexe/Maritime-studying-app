@@ -19,6 +19,23 @@ arbete — flytta upp en punkt först när den aktivt prioriteras.
    ser mindre premium ut än skarp 2D. Uppgradera lanterntränaren (punkt 2)
    när den bevisat konceptet.
 
+## Interaktiva frågetyper (från 2026-08-04)
+
+5. **VHF-anropsövning — bygg meddelandet själv.** I stället för flervalsfråga
+   får eleven ett scenario ("Du är ombord på Maria, maskinhaveri på position
+   X, Y — sänd rätt meddelande") och konstruerar anropet. Två möjliga
+   nivåer:
+   - *Ordna byggblock* (rekommenderad start): fraser dras i rätt ordning —
+     Mayday ×3, fartygsnamn ×3, MMSI, position, nödens art, hjälpbehov,
+     antal ombord. Ingen fritextbedömning behövs, och ordningen är exakt
+     det som prövas.
+   - *Fritext med checklista*: eleven skriver anropet och appen bockar av
+     obligatoriska element med nyckelordsmatchning. Mer öppet men kräver
+     tolerant matchning för att inte kännas orättvist.
+   Kräver ny item-typ (t.ex. `radio_procedure`) och en egen drillvy. Passar
+   även Pan-Pan, Sécurité, rutinanrop och MOB-larm — dvs. hela VHF-modulen,
+   som i dag bara har 6 frågor.
+
 ## Att lägga till
 
 - (fler idéer från användaren väntas — "there is more to come")
