@@ -1,4 +1,6 @@
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
+
+import { ThemedText } from '@/components/themed';
 
 /**
  * Product-wide legal framing. Shown on the dashboard and in settings.
@@ -7,11 +9,11 @@ import { Text, View } from 'react-native';
 export function Disclaimer() {
   return (
     <View className="px-6 py-4">
-      <Text className="text-caption font-sans text-fog/80 text-center">
+      <ThemedText tone="fog" toneOpacity={80} className="text-caption font-sans text-center">
         Fristående studiehjälpmedel som hjälper dig att förbereda dig inför prov.{'\n'}
         Inte anslutet till eller godkänt av Transportstyrelsen, NFB eller något annat
         certifierande organ.
-      </Text>
+      </ThemedText>
     </View>
   );
 }
