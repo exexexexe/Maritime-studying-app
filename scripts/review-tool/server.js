@@ -80,44 +80,44 @@ const STYLE = `
 <style>
   :root { color-scheme: dark; }
   * { box-sizing: border-box; }
-  body { background:#0B141D; color:#E9E2D0; font-family: -apple-system, system-ui, sans-serif; margin:0; }
-  a { color:#C9A45C; }
-  header { position:sticky; top:0; background:#13222F; border-bottom:1px solid #ffffff1a; padding:14px 20px; z-index:5; }
+  body { background:#0A1620; color:#ECE4D2; font-family: -apple-system, system-ui, sans-serif; margin:0; }
+  a { color:#CBA765; }
+  header { position:sticky; top:0; background:#122232; border-bottom:1px solid #ffffff1a; padding:14px 20px; z-index:5; }
   header h1 { font-size:16px; margin:0 0 8px; letter-spacing:0.03em; }
   .progress-bar { height:6px; background:#ffffff14; border-radius:99px; overflow:hidden; max-width:640px; }
-  .progress-fill { height:100%; background:#C9A45C; }
-  .progress-text { font-size:12px; color:#8B9DA9; margin-top:6px; font-family: ui-monospace, monospace; }
-  .modtable { display:flex; flex-wrap:wrap; gap:6px 16px; margin-top:10px; font-size:11px; font-family: ui-monospace, monospace; color:#8B9DA9;}
-  .modtable a { color:#8B9DA9; text-decoration:none; }
-  .modtable a:hover { color:#C9A45C; }
+  .progress-fill { height:100%; background:#CBA765; }
+  .progress-text { font-size:12px; color:#8CA0AD; margin-top:6px; font-family: ui-monospace, monospace; }
+  .modtable { display:flex; flex-wrap:wrap; gap:6px 16px; margin-top:10px; font-size:11px; font-family: ui-monospace, monospace; color:#8CA0AD;}
+  .modtable a { color:#8CA0AD; text-decoration:none; }
+  .modtable a:hover { color:#CBA765; }
   main { max-width:900px; margin:0 auto; padding:20px; }
   .filters { display:flex; gap:10px; margin-bottom:16px; flex-wrap:wrap; align-items:center; font-size:13px;}
-  .filters select, .filters input { background:#13222F; color:#E9E2D0; border:1px solid #ffffff26; border-radius:6px; padding:6px 10px; font-size:13px; }
-  .card { background:#13222F; border:1px solid #ffffff1a; border-radius:10px; padding:14px 16px; margin-bottom:10px; }
-  .card a.iid { font-family: ui-monospace, monospace; font-size:12px; color:#8B9DA9; text-decoration:none; }
+  .filters select, .filters input { background:#122232; color:#ECE4D2; border:1px solid #ffffff26; border-radius:6px; padding:6px 10px; font-size:13px; }
+  .card { background:#122232; border:1px solid #ffffff1a; border-radius:10px; padding:14px 16px; margin-bottom:10px; }
+  .card a.iid { font-family: ui-monospace, monospace; font-size:12px; color:#8CA0AD; text-decoration:none; }
   .card .q { font-size:14px; margin:6px 0 4px; }
   .badge { display:inline-block; font-size:10px; padding:2px 7px; border-radius:99px; font-family: ui-monospace, monospace; margin-left:6px; }
   .badge.ok { background:#3FA37233; color:#3FA372; }
   .badge.flag { background:#C65D4E33; color:#C65D4E; }
-  .badge.pending { background:#ffffff14; color:#8B9DA9; }
+  .badge.pending { background:#ffffff14; color:#8CA0AD; }
   .toolbar { display:flex; gap:8px; margin-top:10px; }
-  button, .btn { background:#1c2c3a; color:#E9E2D0; border:1px solid #ffffff26; border-radius:6px; padding:6px 12px; font-size:12px; cursor:pointer; text-decoration:none; }
+  button, .btn { background:#1c2c3a; color:#ECE4D2; border:1px solid #ffffff26; border-radius:6px; padding:6px 12px; font-size:12px; cursor:pointer; text-decoration:none; }
   button.approve { background:#3FA37222; border-color:#3FA37266; color:#3FA372; }
   button.flag { background:#C65D4E22; border-color:#C65D4E66; color:#C65D4E; }
-  .detail label { display:block; font-size:11px; text-transform:uppercase; letter-spacing:0.05em; color:#8B9DA9; margin:14px 0 4px; }
-  .detail textarea, .detail input[type=text] { width:100%; background:#0B141D; color:#E9E2D0; border:1px solid #ffffff26; border-radius:6px; padding:8px; font-size:14px; font-family:inherit; }
+  .detail label { display:block; font-size:11px; text-transform:uppercase; letter-spacing:0.05em; color:#8CA0AD; margin:14px 0 4px; }
+  .detail textarea, .detail input[type=text] { width:100%; background:#0A1620; color:#ECE4D2; border:1px solid #ffffff26; border-radius:6px; padding:8px; font-size:14px; font-family:inherit; }
   .detail textarea { min-height:64px; }
   .opt-row { display:flex; align-items:center; gap:8px; margin-bottom:6px; }
   .opt-row input[type=text] { flex:1; }
   .opt-row.correct input[type=text] { border-color:#3FA37288; }
-  .caption { font-size:11px; color:#8B9DA9; text-transform:uppercase; letter-spacing:0.05em; margin-top:4px;}
-  .muted { color:#8B9DA9; font-size:13px; }
-  .sourceRef { font-family: ui-monospace, monospace; font-size:12px; color:#8B9DA9; background:#0B141D; padding:8px 10px; border-radius:6px; margin-top:10px;}
+  .caption { font-size:11px; color:#8CA0AD; text-transform:uppercase; letter-spacing:0.05em; margin-top:4px;}
+  .muted { color:#8CA0AD; font-size:13px; }
+  .sourceRef { font-family: ui-monospace, monospace; font-size:12px; color:#8CA0AD; background:#0A1620; padding:8px 10px; border-radius:6px; margin-top:10px;}
   .photos { display:flex; gap:10px; flex-wrap:wrap; margin-top:8px; }
   .photos img { max-width:260px; border-radius:6px; border:1px solid #ffffff26; }
-  .explain { background:#0B141D; padding:10px 12px; border-radius:8px; margin-top:6px; font-size:13px; }
+  .explain { background:#0A1620; padding:10px 12px; border-radius:8px; margin-top:6px; font-size:13px; }
   .explain + .explain { margin-top:8px; }
-  .save-bar { position:sticky; bottom:0; background:#13222F; border-top:1px solid #ffffff1a; padding:12px 16px; margin:24px -16px -16px; display:flex; gap:10px; }
+  .save-bar { position:sticky; bottom:0; background:#122232; border-top:1px solid #ffffff1a; padding:12px 16px; margin:24px -16px -16px; display:flex; gap:10px; }
   .save-bar button { padding:9px 16px; font-size:13px; }
   form { margin:0; }
 </style>`;
@@ -143,7 +143,7 @@ function headerHtml(items, activeModuleId) {
     .sort((a, b) => a[1].total - b[1].total) // smallest modules first — easiest wins
     .map(
       ([id, m]) =>
-        `<a href="/?module=${id}"${id === activeModuleId ? ' style="color:#C9A45C"' : ''}>${esc(m.title)} ${m.reviewed}/${m.total}${m.flagged ? ` ⚑${m.flagged}` : ''}</a>`,
+        `<a href="/?module=${id}"${id === activeModuleId ? ' style="color:#CBA765"' : ''}>${esc(m.title)} ${m.reviewed}/${m.total}${m.flagged ? ` ⚑${m.flagged}` : ''}</a>`,
     )
     .join('');
   return `<header>
