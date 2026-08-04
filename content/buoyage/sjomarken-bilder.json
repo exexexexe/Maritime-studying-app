@@ -1,0 +1,349 @@
+{
+  "topicId": "top-buoy-bild",
+  "items": [
+    {
+      "id": "buoy-lat-001",
+      "topicId": "top-buoy-bild",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "buoy",
+      "options": [
+        {
+          "text": "Babords sidomärke — håll det om babord vid ingående",
+          "isCorrect": true
+        },
+        {
+          "text": "Styrbords sidomärke — håll det om styrbord vid ingående",
+          "isCorrect": false
+        },
+        {
+          "text": "Specialmärke — betydelsen framgår av sjökortet",
+          "isCorrect": false
+        },
+        {
+          "text": "Punktmärke — passera på valfri sida med god marginal",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett rött märke med cylinderform (och eventuell röd cylindertoppmärke) är babords sidomärke i system A. Vid ingående — mot land eller hamn — håller du det om babord (röd sida röd lanterna).",
+      "explanationEn": "Red can: port lateral mark (IALA A). Keep it to port when entering from seaward.",
+      "theoryAnchor": "utmarkning/sidomarken",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Vilket märke är detta, och hur passerar du det?",
+        "scene": {
+          "colors": [
+            "red"
+          ],
+          "topmark": "can-red",
+          "captionSv": "Cylinderformat märke"
+        }
+      }
+    },
+    {
+      "id": "buoy-lat-002",
+      "topicId": "top-buoy-bild",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "buoy",
+      "options": [
+        {
+          "text": "Styrbords sidomärke — håll det om styrbord vid ingående",
+          "isCorrect": true
+        },
+        {
+          "text": "Babords sidomärke — håll det om babord vid ingående",
+          "isCorrect": false
+        },
+        {
+          "text": "Ostkardinal — passera öster om märket",
+          "isCorrect": false
+        },
+        {
+          "text": "Mittledsmärke — passera på valfri sida",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett grönt märke med konform (spetsen uppåt) är styrbords sidomärke i system A. Vid ingående håller du det om styrbord.",
+      "explanationEn": "Green cone: starboard lateral mark (IALA A). Keep it to starboard when entering.",
+      "theoryAnchor": "utmarkning/sidomarken",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Vilket märke är detta, och hur passerar du det?",
+        "scene": {
+          "colors": [
+            "green"
+          ],
+          "topmark": "cone-up-green",
+          "captionSv": "Konformat märke, spets uppåt"
+        }
+      }
+    },
+    {
+      "id": "buoy-lat-004",
+      "topicId": "top-buoy-bild",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "buoy",
+      "options": [
+        {
+          "text": "Mittledsmärke — passera på valfri sida",
+          "isCorrect": true
+        },
+        {
+          "text": "Punktmärke — fara rakt under märket",
+          "isCorrect": false
+        },
+        {
+          "text": "Babords sidomärke i angöringsled",
+          "isCorrect": false
+        },
+        {
+          "text": "Specialmärke för mätstation",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Röda och vita lodräta fält med en röd kula i toppen är mittledsmärket (safe water). Det markerar farbart vatten runt om, till exempel mitt i en angöringsled — passera på valfri sida.",
+      "explanationEn": "Red/white vertical stripes with a red sphere: safe-water mark, navigable all round.",
+      "theoryAnchor": "utmarkning/mittled",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Vilket märke är detta?",
+        "scene": {
+          "colors": [
+            "red",
+            "white",
+            "red",
+            "white"
+          ],
+          "pattern": "vertical-stripes",
+          "topmark": "sphere-red",
+          "captionSv": "Lodräta fält"
+        }
+      }
+    },
+    {
+      "id": "buoy-kard-001",
+      "topicId": "top-buoy-bild",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "buoy",
+      "options": [
+        {
+          "text": "Nordkardinal — passera norr om märket",
+          "isCorrect": true
+        },
+        {
+          "text": "Sydkardinal — passera söder om märket",
+          "isCorrect": false
+        },
+        {
+          "text": "Ostkardinal — passera öster om märket",
+          "isCorrect": false
+        },
+        {
+          "text": "Punktmärke — håll god marginal åt alla håll",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Svart över gult med två koner spets uppåt är nordkardinalmärket: fritt vatten norr om märket, faran ligger söder om det. Konernas spetsar pekar mot det svarta fältet — här uppåt/norrut.",
+      "explanationEn": "Black over yellow, two cones point up: north cardinal — pass north of it.",
+      "theoryAnchor": "utmarkning/kardinal",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Vilket märke är detta, och var passerar du?",
+        "scene": {
+          "colors": [
+            "black",
+            "yellow"
+          ],
+          "topmark": "cones-up",
+          "captionSv": "Två koner, spets uppåt"
+        }
+      }
+    },
+    {
+      "id": "buoy-kard-002",
+      "topicId": "top-buoy-bild",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "buoy",
+      "options": [
+        {
+          "text": "Sydkardinal — passera söder om märket",
+          "isCorrect": true
+        },
+        {
+          "text": "Nordkardinal — passera norr om märket",
+          "isCorrect": false
+        },
+        {
+          "text": "Västkardinal — passera väster om märket",
+          "isCorrect": false
+        },
+        {
+          "text": "Mittledsmärke — passera på valfri sida",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Gult över svart med två koner spets nedåt är sydkardinalmärket: passera söder om märket, faran ligger norr om det. Spetsarna pekar nedåt mot det svarta fältet.",
+      "explanationEn": "Yellow over black, cones point down: south cardinal — pass south of it.",
+      "theoryAnchor": "utmarkning/kardinal",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Vilket märke är detta, och var passerar du?",
+        "scene": {
+          "colors": [
+            "yellow",
+            "black"
+          ],
+          "topmark": "cones-down",
+          "captionSv": "Två koner, spets nedåt"
+        }
+      }
+    },
+    {
+      "id": "buoy-kard-003",
+      "topicId": "top-buoy-bild",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "buoy",
+      "options": [
+        {
+          "text": "Ostkardinal — passera öster om märket",
+          "isCorrect": true
+        },
+        {
+          "text": "Västkardinal — passera väster om märket",
+          "isCorrect": false
+        },
+        {
+          "text": "Nordkardinal — passera norr om märket",
+          "isCorrect": false
+        },
+        {
+          "text": "Specialmärke — betydelsen framgår av sjökortet",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Svart med gult bälte och koner bas mot bas är ostkardinalmärket — passera öster om. Minnesregel: konerna bildar en ägg-form, Ost som i ägg. Väst har spets mot spets (som ett W på högkant).",
+      "explanationEn": "Black with yellow band, cones base to base: east cardinal — pass east of it.",
+      "theoryAnchor": "utmarkning/kardinal",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Vilket märke är detta, och var passerar du?",
+        "scene": {
+          "colors": [
+            "black",
+            "yellow",
+            "black"
+          ],
+          "topmark": "cones-base-to-base",
+          "captionSv": "Två koner, bas mot bas"
+        }
+      }
+    },
+    {
+      "id": "buoy-kard-004",
+      "topicId": "top-buoy-bild",
+      "tracks": [
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "buoy",
+      "options": [
+        {
+          "text": "Punktmärke — en begränsad fara med farbart vatten runt om",
+          "isCorrect": true
+        },
+        {
+          "text": "Babords sidomärke i ytterskärgård",
+          "isCorrect": false
+        },
+        {
+          "text": "Mittledsmärke — angöringspunkt",
+          "isCorrect": false
+        },
+        {
+          "text": "Ostkardinal — passera öster om märket",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Svart med rött bälte och två svarta kulor i topp är punktmärket (isolated danger). Det står på eller förtöjt över en begränsad fara — grund eller vrak — med farbart vatten runt om. Passera med god marginal.",
+      "explanationEn": "Black with red band, two black spheres: isolated danger mark — navigable water around it.",
+      "theoryAnchor": "utmarkning/punktmarke",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Vilket märke är detta?",
+        "scene": {
+          "colors": [
+            "black",
+            "red",
+            "black"
+          ],
+          "topmark": "spheres-2",
+          "captionSv": "Två svarta kulor i topp"
+        }
+      }
+    },
+    {
+      "id": "buoy-kard-005",
+      "topicId": "top-buoy-bild",
+      "tracks": [
+        "forarintyg",
+        "kustskeppare",
+        "klass8"
+      ],
+      "type": "buoy",
+      "options": [
+        {
+          "text": "Specialmärke — betydelsen framgår av sjökortet",
+          "isCorrect": true
+        },
+        {
+          "text": "Styrbords sidomärke — håll det om styrbord",
+          "isCorrect": false
+        },
+        {
+          "text": "Sydkardinal — passera söder om märket",
+          "isCorrect": false
+        },
+        {
+          "text": "Punktmärke — fara rakt under märket",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett helt gult märke, ofta med gult liggande kryss i toppen, är ett specialmärke. Det markerar till exempel badområde, kabel, mätboj eller militärt övningsområde — vad som gäller framgår av sjökortet.",
+      "explanationEn": "All yellow with a yellow X topmark: special mark — meaning shown on the chart.",
+      "theoryAnchor": "utmarkning/specialmarke",
+      "authorReviewed": false,
+      "payload": {
+        "questionSv": "Vilket märke är detta?",
+        "scene": {
+          "colors": [
+            "yellow"
+          ],
+          "topmark": "x-yellow",
+          "captionSv": "Gult kryss i topp"
+        }
+      }
+    }
+  ]
+}

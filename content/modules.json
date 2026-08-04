@@ -18,6 +18,7 @@
     { "id": "top-col-ljud", "moduleId": "mod-colreg", "slug": "ljudsignaler", "titleSv": "Ljudsignaler och uppträdande", "titleEn": "Sound signals and conduct" },
     { "id": "top-buoy-lateral", "moduleId": "mod-buoyage", "slug": "sidomarkering", "titleSv": "Sidomärken och farleder", "titleEn": "Lateral marks" },
     { "id": "top-buoy-kardinal", "moduleId": "mod-buoyage", "slug": "kardinalmarkering", "titleSv": "Kardinalmärken och specialmärken", "titleEn": "Cardinal and special marks" },
+    { "id": "top-buoy-bild", "moduleId": "mod-buoyage", "slug": "sjomarken-bilder", "titleSv": "Sjömärken — identifiera", "titleEn": "Sea marks — identify" },
     { "id": "top-nav-kurs", "moduleId": "mod-navcalc", "slug": "kursrattning", "titleSv": "Kursrättning", "titleEn": "Course corrections" },
     { "id": "top-nav-fart", "moduleId": "mod-navcalc", "slug": "fart-tid-distans", "titleSv": "Fart, tid och distans", "titleEn": "Speed, time and distance" },
     { "id": "top-nav-sjokort", "moduleId": "mod-navcalc", "slug": "sjokortslasning", "titleSv": "Sjökortssymboler och läsning", "titleEn": "Chart symbols and reading" },
