@@ -61,7 +61,7 @@ export interface Item {
 /** Night-view light picture rendered by LanternDiagram. */
 export interface LanternScene {
   /** Lights positioned in a 100 × 60 field; y grows downward. */
-  lights: { color: 'white' | 'red' | 'green' | 'yellow'; x: number; y: number }[];
+  lights: { color: 'white' | 'red' | 'green' | 'yellow' | 'blue'; x: number; y: number }[];
   /** Optional faint hull silhouette beneath the lights. */
   hull?: 'none' | 'silhouette';
   /** Short caption shown under the diagram, e.g. viewing aspect. */

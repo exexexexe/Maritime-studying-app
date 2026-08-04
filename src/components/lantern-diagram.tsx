@@ -20,6 +20,7 @@ const LIGHT_COLORS: Record<string, string> = {
   red: '#F2503C',
   green: '#38D07E',
   yellow: '#F2C230',
+  blue: '#4C8DF5', // identification flash light (police/SAR vessels, submarines)
 };
 
 export function LanternDiagram({ scene }: { scene: LanternScene }) {
