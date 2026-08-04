@@ -7,22 +7,54 @@ Bremont watch faces.
 ## Color tokens
 
 Single source of truth: `src/theme/colors.js` (mirrored as CSS variables in
-`src/global.css`; `npm run check:tokens` guards against drift). Semantic names,
-used via Tailwind utilities (`bg-bg`, `text-ink`, `border-fog/15`) — never raw
-hexes in components.
+`src/global.css`; `npm run check:tokens` guards against drift). Dark ("varm
+sjö") is the original warm deep-navy/brass palette; light ("kall sjö") is a
+deliberate cool arctic chart blue-grey, not a warm-parchment inversion of
+dark — `brass` stays warm in both so the one accent still reads against a
+cooler ground.
 
-| Token | Dark (default) | Light | Role |
+| Token | Dark ("varm sjö", default) | Light ("kall sjö") | Role |
 |---|---|---|---|
-| `bg` | `#0B141D` deep-sea navy | `#F1EBDD` chart paper | app background |
-| `surface` | `#13222F` charted water | `#FAF6EB` fresh paper | cards, raised surfaces |
-| `ink` | `#E9E2D0` chart paper | `#182634` chart ink | primary text |
-| `fog` | `#8B9DA9` | `#5A6C79` | secondary text, hairlines |
-| `brass` | `#C9A45C` | `#8A6D2F` | the one accent |
+| `bg` | `#0A1620` deep bluish navy | `#DEE7ED` cool arctic paper | app background |
+| `surface` | `#122232` charted water | `#EFF4F7` fresh paper | cards, raised surfaces |
+| `ink` | `#ECE4D2` aged chart paper | `#16232E` chart ink | primary text |
+| `fog` | `#8CA0AD` | `#526775` | secondary text, hairlines |
+| `brass` | `#CBA765` | `#8A6D2F` | the one accent |
+| `tide` | `#5FA8D3` | `#2C6C93` | secondary/informational accent |
+| `urgent` | `#E08A4C` | `#B15B22` | Q/VQ-rhythm warning (see DESIGN-RHYTHM.md) |
 | `starboard` | `#3FA372` | `#1F7A4D` | correct / go |
 | `port` | `#C65D4E` | `#A63E30` | incorrect / stop |
 
+`tide` and `urgent` were added during the UI rework — kept to exactly two so
+the palette stays a "one accent plus semantics" system, not a sprawl.
+`starboard`/`port` are untouched throughout.
+
 Deliberately avoided: warm-cream + terracotta, black + neon green, and any
 component-library default palette.
+
+### How color is actually applied — read this before touching a screen
+
+NativeWind's CSS-variable-driven dark-mode detection
+(`@media (prefers-color-scheme)`) is confirmed broken on native Android — it
+never resolves to dark regardless of the real OS setting. React Native's own
+`useColorScheme()` hook tracks it correctly. So color resolution goes through
+`src/components/themed.tsx`'s `ThemedText` / `ThemedView` / `ThemedPressable`
+(props: `tone`/`toneOpacity`, `bg`/`bgOpacity`, `borderTone`/`borderOpacity`,
+values are `Palette` keys resolved via `palette(useColorScheme())`), applied
+as inline `style` — **never** `bg-ink`/`text-fog`/`border-brass` className
+utilities for anything that must differ between themes. `className` still
+owns everything color-independent: spacing, radius, type scale, flex layout.
+Screen-root `SafeAreaView` backgrounds are set directly via
+`style={{ backgroundColor: palette(useColorScheme()).bg }}` since they sit
+above the Themed* primitives.
+
+`ThemedPressable` wraps `PressableScale` (Phase 2's press-feedback
+primitive), which is an outer `Animated.View` (scale transform only) around
+an inner `Pressable` (layout/color). A `className` meant to affect the
+pressable's own size in a flex row (e.g. `flex-1` for equal-width buttons)
+lands on the inner `Pressable`, not the outer `Animated.View` that the
+parent flexbox actually sees — wrap the call site in a plain
+`<View className="flex-1">` instead of putting `flex-1` on the pressable.
 
 ## Typography
 
@@ -48,6 +80,11 @@ Boldness is spent here; everything else stays quiet.
 2. **Native SVG diagrams** — lanterns, buoys, hull cross-sections drawn with
    `react-native-svg` in token colors, never bitmap clip-art. Icons are
    hand-drawn stroke SVGs (compass rose, chart sheets, helm), not an icon font.
+3. **Rhythm as motion language** — UI chrome that moves (press feedback,
+   urgency countdowns, streaks) borrows its timing from real maritime light
+   characteristics rather than inventing a generic animation per screen. See
+   [DESIGN-RHYTHM.md](DESIGN-RHYTHM.md) for the full system (`useRhythm`,
+   `RHYTHM` map) and where it's actually wired up.
 
 ## Rules
 
