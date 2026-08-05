@@ -241,7 +241,7 @@ function scenePreview(item) {
   return '';
 }
 
-function detailView(entry) {
+function detailView(entry, items) {
   const it = entry.item;
   const photos = findPhotoRefs(it.sourceRef);
   const preview = scenePreview(it);
@@ -272,7 +272,7 @@ function detailView(entry) {
 
   return layout(
     it.id,
-    `${headerHtml([], null)}
+    `${headerHtml(items, entry.moduleId)}
     <main>
       <p><a href="javascript:history.back()">‹ Tillbaka till listan</a></p>
       <h2 style="font-family:ui-monospace,monospace;font-size:15px;margin-bottom:2px">${esc(it.id)}</h2>
@@ -347,14 +347,15 @@ const server = http.createServer(async (req, res) => {
 
   if (parsed.pathname.startsWith('/item/') && req.method === 'GET') {
     const id = decodeURIComponent(parsed.pathname.slice('/item/'.length));
-    const entry = buildIndex().find((e) => e.item.id === id);
+    const items = buildIndex();
+    const entry = items.find((e) => e.item.id === id);
     if (!entry) {
       res.writeHead(404);
       res.end('item not found');
       return;
     }
     res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
-    res.end(detailView(entry));
+    res.end(detailView(entry, items));
     return;
   }
 
