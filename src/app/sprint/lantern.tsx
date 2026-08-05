@@ -5,6 +5,7 @@ import Animated, { useAnimatedStyle } from 'react-native-reanimated';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { LanternDiagram } from '@/components/lantern-diagram';
+import { NumericReadout } from '@/components/numeric-readout';
 import { ThemedPressable, ThemedText, type Tone } from '@/components/themed';
 import { itemsForTrack } from '@/content';
 import type { Item, LanternScene } from '@/content/types';
@@ -174,21 +175,29 @@ export default function LanternSprintScreen() {
   return (
     <SafeAreaView className="flex-1" style={{ backgroundColor: p.bg }} edges={['top', 'bottom']}>
       <Stack.Screen options={{ headerShown: false }} />
-      <View className="flex-row items-center justify-between px-6 pt-2">
-        <ThemedPressable hitSlop={8} onPress={() => router.back()}>
-          <ThemedText tone="fog" className="text-small font-sans">Avbryt</ThemedText>
-        </ThemedPressable>
-        <Animated.View style={urgent ? urgentStyle : undefined}>
-          <ThemedText
-            tone={urgent ? 'urgent' : 'fog'}
-            className="text-data-lg font-mono-medium tracking-widest"
-          >
-            {String(secondsLeft).padStart(2, '0')}
+      {/* The countdown is this screen's one instrument — everything else
+          (cancel, running score) stays a thin utility row above it, so the
+          clock the whole drill is paced against gets the confident
+          treatment instead of competing for space with it. */}
+      <View className="px-6 pt-2">
+        <View className="flex-row items-center justify-between">
+          <ThemedPressable hitSlop={8} onPress={() => router.back()}>
+            <ThemedText tone="fog" className="text-small font-sans">Avbryt</ThemedText>
+          </ThemedPressable>
+          <ThemedText tone="fog" className="text-caption font-mono tracking-widest">
+            {correctCount}/{attempted}
           </ThemedText>
-        </Animated.View>
-        <ThemedText tone="fog" className="text-caption font-mono tracking-widest">
-          {correctCount}/{attempted}
-        </ThemedText>
+        </View>
+        <View className="items-center">
+          <Animated.View style={urgent ? urgentStyle : undefined}>
+            <NumericReadout
+              value={String(secondsLeft).padStart(2, '0')}
+              variant="mono"
+              tone={urgent ? 'urgent' : 'ink'}
+              className="tracking-widest"
+            />
+          </Animated.View>
+        </View>
       </View>
 
       <ScrollView

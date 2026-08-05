@@ -1,5 +1,6 @@
 import Constants from 'expo-constants';
 import { ScrollView, useColorScheme, View } from 'react-native';
+import Animated, { FadeInDown, useReducedMotion } from 'react-native-reanimated';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { Disclaimer } from '@/components/disclaimer';
@@ -11,11 +12,14 @@ import { palette } from '@/theme/tokens';
 export default function SettingsScreen() {
   const { track, setTrack } = useTrack();
   const p = palette(useColorScheme());
+  const reducedMotion = useReducedMotion();
 
   return (
     <SafeAreaView className="flex-1" style={{ backgroundColor: p.bg }} edges={['top']}>
       <ScrollView contentContainerClassName="flex-grow px-6 pt-10">
-        <ThemedText className="text-display font-display">Inställningar</ThemedText>
+        <Animated.View entering={reducedMotion ? undefined : FadeInDown.duration(280).delay(60)}>
+          <ThemedText className="text-display font-display">Inställningar</ThemedText>
+        </Animated.View>
 
         <ThemedView
           bg="surface"
@@ -54,32 +58,18 @@ export default function SettingsScreen() {
           })}
         </ThemedView>
 
-        <ThemedView
-          bg="surface"
-          borderTone="fog"
-          borderOpacity={15}
-          className="mt-4 rounded-xl border px-5 py-5"
-        >
-          <ThemedText tone="fog" className="text-caption font-mono uppercase tracking-widest">
-            Utseende
-          </ThemedText>
-          <ThemedText tone="fog" className="text-small font-sans mt-2">
-            Följer systemets mörka/ljusa läge. Mörkt läge är appens standard.
-          </ThemedText>
-        </ThemedView>
-
-        <ThemedView
-          bg="surface"
-          borderTone="fog"
-          borderOpacity={15}
-          className="mt-4 rounded-xl border px-5 py-5"
-        >
+        {/* Utseende had zero interactivity — pure disclosure text, no
+            control — so it competed for weight with Aktivt spår (the only
+            genuinely interactive thing on this screen) without earning it.
+            Merged into Om appen; both are the same kind of static fact. */}
+        <ThemedView bg="surface" bgOpacity={45} className="mt-4 rounded-xl px-5 py-4">
           <ThemedText tone="fog" className="text-caption font-mono uppercase tracking-widest">
             Om appen
           </ThemedText>
           <ThemedText tone="fog" className="text-small font-sans mt-2">
-            Version {Constants.expoConfig?.version ?? '—'} · All data sparas
-            lokalt på enheten. Appen kräver ingen nätverksanslutning.
+            Version {Constants.expoConfig?.version ?? '—'} · Följer systemets
+            mörka/ljusa läge (mörkt är standard) · All data sparas lokalt på
+            enheten. Appen kräver ingen nätverksanslutning.
           </ThemedText>
         </ThemedView>
 

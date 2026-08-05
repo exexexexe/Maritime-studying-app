@@ -23,6 +23,13 @@ module.exports = {
     },
     fontSize: {
       // The app's entire type scale. Do not use ad hoc sizes.
+      // display-hero/data-hero are the "scale contrast" dominant-number
+      // sizes (see src/components/numeric-readout.tsx) — reserved for the
+      // single most important number on a screen, never for headings or
+      // body copy. Tight leading is deliberate: these hold a short number,
+      // not wrapping prose.
+      'display-hero': ['88px', { lineHeight: '88px' }],
+      'data-hero': ['76px', { lineHeight: '76px' }],
       'display-xl': ['34px', { lineHeight: '40px' }],
       display: ['26px', { lineHeight: '32px' }],
       title: ['19px', { lineHeight: '26px' }],

@@ -9,7 +9,9 @@ import { BuoyDiagram } from '@/components/buoy-diagram';
 import { ChartRequiredBanner } from '@/components/chart-required-banner';
 import { LanternDiagram } from '@/components/lantern-diagram';
 import { MapAnswerInput } from '@/components/map-answer-input';
+import { NumericReadout } from '@/components/numeric-readout';
 import { StabilityDiagram } from '@/components/stability-diagram';
+import { StaggerIn } from '@/components/stagger-in';
 import { ThemedPressable, ThemedText, ThemedView, type Tone } from '@/components/themed';
 import { modules, questionText } from '@/content';
 import { generateCalculation } from '@/content/generators/navcalc';
@@ -127,18 +129,29 @@ export default function ExamRunScreen() {
       <SafeAreaView className="flex-1" style={{ backgroundColor: p.bg }} edges={['top', 'bottom']}>
         <Stack.Screen options={{ headerShown: false }} />
         <ScrollView contentContainerClassName="flex-grow px-6 pt-14 pb-6">
+          {/* The score is the dominant number on this screen — the pass/
+              fail verdict is real information but secondary to it: still
+              color-coded and legible, demoted to a label under the hero
+              readout rather than competing with it at display-xl. */}
           <View className="items-center">
             <ThemedText tone="fog" className="text-caption font-mono uppercase tracking-widest">
               {mode === 'full' ? 'Full simulering' : 'Snabbprov'} · {TRACK_NAMES[track]}
             </ThemedText>
+            <NumericReadout
+              value={pct}
+              unit="%"
+              variant="mono"
+              tone={result.passed ? 'starboard' : 'port'}
+              className="mt-4"
+              countUp
+            />
             <ThemedText
               tone={result.passed ? 'starboard' : 'port'}
-              className="text-display-xl font-display mt-4"
+              className="text-title font-sans-semibold mt-2 uppercase tracking-widest"
             >
               {result.passed ? 'Godkänt' : 'Ej godkänt'}
             </ThemedText>
-            <ThemedText className="text-data-lg font-mono-medium mt-2">{pct} %</ThemedText>
-            <ThemedText tone="fog" className="text-small font-sans mt-1">
+            <ThemedText tone="fog" className="text-small font-sans mt-2">
               {result.correct} rätt av {result.itemsAttempted} besvarade · gräns{' '}
               {exam.config.passPct} %
             </ThemedText>
@@ -149,27 +162,23 @@ export default function ExamRunScreen() {
               <ThemedText tone="fog" className="text-caption font-mono uppercase tracking-widest mb-3">
                 Att öva mer på
               </ThemedText>
-              <ThemedView
-                bg="surface"
-                borderTone="fog"
-                borderOpacity={15}
-                className="rounded-xl border overflow-hidden"
-              >
+              <ThemedView bg="surface" bgOpacity={45} className="rounded-xl overflow-hidden">
                 {weak.map((w, i) => (
-                  <ThemedView
-                    key={w.moduleId}
-                    borderTone="fog"
-                    borderOpacity={10}
-                    style={{ borderTopWidth: i > 0 ? 1 : 0 }}
-                    className="flex-row items-center px-5 py-3.5"
-                  >
-                    <ThemedText className="text-body font-sans flex-1">
-                      {moduleName(w.moduleId)}
-                    </ThemedText>
-                    <ThemedText tone="port" className="text-small font-mono">
-                      {w.correct}/{w.total} rätt
-                    </ThemedText>
-                  </ThemedView>
+                  <StaggerIn key={w.moduleId} index={i}>
+                    <ThemedView
+                      borderTone="fog"
+                      borderOpacity={10}
+                      style={{ borderTopWidth: i > 0 ? 1 : 0 }}
+                      className="flex-row items-center px-5 py-3.5"
+                    >
+                      <ThemedText className="text-body font-sans flex-1">
+                        {moduleName(w.moduleId)}
+                      </ThemedText>
+                      <ThemedText tone="port" className="text-small font-mono">
+                        {w.correct}/{w.total} rätt
+                      </ThemedText>
+                    </ThemedView>
+                  </StaggerIn>
                 ))}
               </ThemedView>
               <ThemedText tone="fog" className="text-small font-sans mt-2">
