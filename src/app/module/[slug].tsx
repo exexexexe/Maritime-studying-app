@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { ScrollView, useColorScheme, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
+import { NumericReadout } from '@/components/numeric-readout';
 import { ThemedPressable, ThemedText, ThemedView } from '@/components/themed';
 import { itemsForTrack, moduleBySlug, topicsForModule } from '@/content';
 import { lanternSprintItems } from '@/lib/sprint';
@@ -62,35 +63,34 @@ export default function ModuleScreen() {
 
         <ThemedText className="text-display font-display mt-6">{module.titleSv}</ThemedText>
 
+        {/* Same one-dominant-stat pattern as Dashboard's Idag card: due-count
+            is what actually matters when opening a module, new/total recede
+            to small secondary figures instead of three equal-weight columns. */}
         <ThemedView
           bg="surface"
           borderTone="fog"
           borderOpacity={15}
-          className="flex-row mt-8 rounded-xl border"
+          elevated
+          className="mt-8 rounded-2xl border px-6 py-7"
         >
-          {(
-            [
-              ['Att repetera', progress.due],
-              ['Nya', progress.unseen],
-              ['Totalt', progress.total],
-            ] as const
-          ).map(([label, value], i) => (
-            <ThemedView
-              key={label}
-              borderTone="fog"
-              borderOpacity={10}
-              style={{ borderLeftWidth: i > 0 ? 1 : 0 }}
-              className="flex-1 items-center py-5"
-            >
-              <ThemedText className="text-data-lg font-mono-medium">{value}</ThemedText>
-              <ThemedText
-                tone="fog"
-                className="text-caption font-mono uppercase tracking-widest mt-1"
-              >
-                {label}
+          <ThemedText tone="fog" className="text-caption font-mono uppercase tracking-widest">
+            Att repetera
+          </ThemedText>
+          <NumericReadout value={progress.due} tone="brass" variant="mono" className="mt-2" />
+          <View className="flex-row mt-4">
+            <View className="mr-6">
+              <ThemedText className="text-body font-mono-medium">{progress.unseen}</ThemedText>
+              <ThemedText tone="fog" className="text-caption font-mono uppercase tracking-widest">
+                Nya
               </ThemedText>
-            </ThemedView>
-          ))}
+            </View>
+            <View>
+              <ThemedText className="text-body font-mono-medium">{progress.total}</ThemedText>
+              <ThemedText tone="fog" className="text-caption font-mono uppercase tracking-widest">
+                Totalt
+              </ThemedText>
+            </View>
+          </View>
         </ThemedView>
 
         <View className="mt-6">
