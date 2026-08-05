@@ -76,7 +76,13 @@ export default function ModuleScreen() {
           <ThemedText tone="fog" className="text-caption font-mono uppercase tracking-widest">
             Att repetera
           </ThemedText>
-          <NumericReadout value={progress.due} tone="brass" variant="mono" className="mt-2" />
+          <NumericReadout
+            value={progress.due}
+            tone="brass"
+            variant="mono"
+            className="mt-2"
+            countUp
+          />
           <View className="flex-row mt-4">
             <View className="mr-6">
               <ThemedText className="text-body font-mono-medium">{progress.unseen}</ThemedText>

@@ -1,4 +1,6 @@
+import { useEffect, useRef, useState } from 'react';
 import { View, type TextProps } from 'react-native';
+import { useReducedMotion } from 'react-native-reanimated';
 
 import { ThemedText, type Tone } from '@/components/themed';
 
@@ -26,10 +28,58 @@ import { ThemedText, type Tone } from '@/components/themed';
  * onto its own line despite numberOfLines={1}, splitting "33 %" into "33"
  * over a stray "%". Keeping them as siblings with baseline alignment
  * avoids relying on that shrink-to-fit/no-wrap combination at all.
+ *
+ * `countUp` animates the displayed integer from its previous value to a
+ * new numeric `value` (rAF-driven, ease-out, ~550ms) instead of just
+ * swapping the text. Opt-in and numeric-only on purpose — the sprint
+ * drill's countdown also uses `size="hero"` but is already a live,
+ * continuously-changing readout; animating *every* per-second tick would
+ * be noise, not a reveal. Only pass `countUp` at a value's genuine
+ * reveal/change moments (Dashboard's due-count, a module's due-count, an
+ * exam score once computed).
  */
 
 export type NumericReadoutSize = 'hero' | 'large' | 'standard';
 export type NumericReadoutVariant = 'display' | 'mono';
+
+const COUNT_UP_MS = 550;
+
+function useCountUp(target: number, enabled: boolean): number {
+  const reducedMotion = useReducedMotion();
+  const [display, setDisplay] = useState(target);
+  const prevTarget = useRef<number>(target);
+  const mounted = useRef(false);
+
+  useEffect(() => {
+    if (!enabled || reducedMotion) {
+      setDisplay(target);
+      prevTarget.current = target;
+      return;
+    }
+    // First mount counts up from 0 — a real "reveal", not just a jump-cut.
+    const from = mounted.current ? prevTarget.current : 0;
+    mounted.current = true;
+    if (from === target) {
+      setDisplay(target);
+      prevTarget.current = target;
+      return;
+    }
+    prevTarget.current = target;
+    const startTime = Date.now();
+    let raf: ReturnType<typeof requestAnimationFrame>;
+    const tick = () => {
+      const t = Math.min(1, (Date.now() - startTime) / COUNT_UP_MS);
+      const eased = 1 - Math.pow(1 - t, 3);
+      setDisplay(Math.round(from + (target - from) * eased));
+      if (t < 1) raf = requestAnimationFrame(tick);
+    };
+    raf = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(raf);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [target, enabled, reducedMotion]);
+
+  return display;
+}
 
 interface NumericReadoutProps extends Omit<TextProps, 'style'> {
   value: string | number;
@@ -38,6 +88,9 @@ interface NumericReadoutProps extends Omit<TextProps, 'style'> {
   size?: NumericReadoutSize;
   variant?: NumericReadoutVariant;
   className?: string;
+  /** Animate from the previous value to this one instead of swapping
+   * instantly. Numeric values only — see the note above. */
+  countUp?: boolean;
 }
 
 const SIZE_CLASS: Record<NumericReadoutSize, Record<NumericReadoutVariant, string>> = {
@@ -59,8 +112,13 @@ export function NumericReadout({
   size = 'hero',
   variant = 'display',
   className,
+  countUp = false,
   ...props
 }: NumericReadoutProps) {
+  const canCountUp = countUp && typeof value === 'number';
+  const animated = useCountUp(canCountUp ? (value as number) : 0, canCountUp);
+  const displayValue = canCountUp ? animated : value;
+
   const valueText = (
     <ThemedText
       tone={tone}
@@ -70,7 +128,7 @@ export function NumericReadout({
       className={[SIZE_CLASS[size][variant], className].filter(Boolean).join(' ')}
       {...props}
     >
-      {value}
+      {displayValue}
     </ThemedText>
   );
 

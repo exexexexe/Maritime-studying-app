@@ -97,6 +97,36 @@ Boldness is spent here; everything else stays quiet.
    general-purpose "make it big" utility. Pairs with demoting secondary
    content to flat, borderless `bg` `bgOpacity={45}` panels (no border, no
    shadow) so the one elevated/hero card actually reads as elevated.
+5. **Three restrained micro-interactions**, layered on top of the structure
+   above rather than replacing any of it:
+   - **Count-up.** `NumericReadout`'s `countUp` prop animates the displayed
+     integer from its previous value to a new one (~550ms, ease-out) instead
+     of swapping the text. Opt-in, numeric-only, and only wired up at
+     genuine reveal/change moments — Dashboard's due-count, module detail's
+     due-count, the exam-results score. Deliberately **not** on the sprint
+     drill's countdown, which also uses `size="hero"` but is already a live,
+     continuously-changing readout — animating every per-second tick would
+     be noise, not a reveal.
+   - **Staggered list entrance.** `src/components/stagger-in.tsx`'s
+     `StaggerIn` wraps one list row with Reanimated's `FadeInDown` and a
+     small per-index delay (capped at 8 steps so a long list doesn't drag
+     its last row in half a second late). Applied to Moduler's due/other
+     groups, Dashboard's weak-areas list, and both exam screens' history/
+     weak-areas lists — the app's genuine list surfaces, not every list.
+   - **Header settle-in.** Each of the four tab screens' title fades + slides
+     in slightly (`FadeInDown`, ~280ms) on top of the existing
+     `slide_from_right`/`shift` screen transition, not instead of it.
+     Because Expo Router tabs stay mounted after first visit, this plays
+     once per screen per app session, not on every tab switch — a deliberate
+     side effect of using React Native's own layout-animation `entering`
+     prop rather than a custom re-triggering effect.
+
+   All three drop to a hard cut under reduced motion — no "instant version"
+   of the animation, the same `entering={reducedMotion ? undefined : ...}`
+   pattern used everywhere else motion is optional in this app. Explicitly
+   out of scope, on the user's own instruction: particle backgrounds, glow/
+   neon effects, gradient-mesh backgrounds, magnetic/shiny buttons — none of
+   that fits an instrument panel.
 
 ## Navigation structure
 

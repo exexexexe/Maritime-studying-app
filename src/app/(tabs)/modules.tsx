@@ -1,8 +1,10 @@
 import { Link, useFocusEffect } from 'expo-router';
 import { useCallback, useState } from 'react';
 import { ScrollView, useColorScheme } from 'react-native';
+import Animated, { FadeInDown, useReducedMotion } from 'react-native-reanimated';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
+import { StaggerIn } from '@/components/stagger-in';
 import { ThemedPressable, ThemedText, ThemedView } from '@/components/themed';
 import { TrackBadge } from '@/components/track-badge';
 import { coverageLabel, dashboardStats, isThinCoverage, type ModuleCoverage } from '@/srs/stats';
@@ -46,6 +48,7 @@ function ModuleRow({ m, i, dominant }: { m: ModuleCoverage; i: number; dominant:
 export default function ModulesScreen() {
   const { track } = useTrack();
   const p = palette(useColorScheme());
+  const reducedMotion = useReducedMotion();
   const [coverage, setCoverage] = useState<ModuleCoverage[]>([]);
 
   useFocusEffect(
@@ -65,10 +68,12 @@ export default function ModulesScreen() {
     <SafeAreaView className="flex-1" style={{ backgroundColor: p.bg }} edges={['top']}>
       <ScrollView contentContainerClassName="px-6 pt-10 pb-8">
         <TrackBadge />
-        <ThemedText className="text-display font-display mt-2">Moduler</ThemedText>
-        <ThemedText tone="fog" className="text-small font-sans mt-1">
-          {coverage.length} moduler för {TRACK_NAMES[track]}.
-        </ThemedText>
+        <Animated.View entering={reducedMotion ? undefined : FadeInDown.duration(280).delay(60)}>
+          <ThemedText className="text-display font-display mt-2">Moduler</ThemedText>
+          <ThemedText tone="fog" className="text-small font-sans mt-1">
+            {coverage.length} moduler för {TRACK_NAMES[track]}.
+          </ThemedText>
+        </Animated.View>
 
         {due.length > 0 ? (
           <>
@@ -85,7 +90,9 @@ export default function ModulesScreen() {
               className="rounded-xl border overflow-hidden"
             >
               {due.map((m, i) => (
-                <ModuleRow key={m.moduleId} m={m} i={i} dominant />
+                <StaggerIn key={m.moduleId} index={i}>
+                  <ModuleRow m={m} i={i} dominant />
+                </StaggerIn>
               ))}
             </ThemedView>
           </>
@@ -101,7 +108,9 @@ export default function ModulesScreen() {
             </ThemedText>
             <ThemedView bg="surface" bgOpacity={45} className="rounded-xl overflow-hidden">
               {rest.map((m, i) => (
-                <ModuleRow key={m.moduleId} m={m} i={i} dominant={false} />
+                <StaggerIn key={m.moduleId} index={i}>
+                  <ModuleRow m={m} i={i} dominant={false} />
+                </StaggerIn>
               ))}
             </ThemedView>
           </>

@@ -1,10 +1,12 @@
 import { Link, useFocusEffect } from 'expo-router';
 import { useCallback, useState } from 'react';
 import { ScrollView, useColorScheme, View } from 'react-native';
+import Animated, { FadeInDown, useReducedMotion } from 'react-native-reanimated';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { Disclaimer } from '@/components/disclaimer';
 import { NumericReadout } from '@/components/numeric-readout';
+import { StaggerIn } from '@/components/stagger-in';
 import { ThemedPressable, ThemedText, ThemedView } from '@/components/themed';
 import { TrackBadge } from '@/components/track-badge';
 import { UnfurlMenu } from '@/components/unfurl-menu';
@@ -17,6 +19,7 @@ import { palette } from '@/theme/tokens';
 export default function DashboardScreen() {
   const { track } = useTrack();
   const p = palette(useColorScheme());
+  const reducedMotion = useReducedMotion();
   // Offline-persistence check from Phase 1 — still bumped, no longer displayed.
   useState(() => bumpLaunchCount());
 
@@ -40,7 +43,9 @@ export default function DashboardScreen() {
     <SafeAreaView className="flex-1" style={{ backgroundColor: p.bg }} edges={['top']}>
       <ScrollView contentContainerClassName="flex-grow px-6 pt-10 pb-6">
         <TrackBadge />
-        <ThemedText className="text-display-xl font-display mt-2">Plugga Sjöexamen</ThemedText>
+        <Animated.View entering={reducedMotion ? undefined : FadeInDown.duration(280).delay(60)}>
+          <ThemedText className="text-display-xl font-display mt-2">Plugga Sjöexamen</ThemedText>
+        </Animated.View>
 
         {/* Today — the screen's one dominant element. Due-reviews count is
             the single number that answers the student's actual daily
@@ -66,7 +71,7 @@ export default function DashboardScreen() {
               </ThemedText>
             ) : null}
           </View>
-          <NumericReadout value={stats.dueTotal} tone="brass" className="mt-3" />
+          <NumericReadout value={stats.dueTotal} tone="brass" className="mt-3" countUp />
           <ThemedText tone="fog" className="text-small font-sans mt-1">
             {stats.dueTotal === 1 ? 'fråga att repetera' : 'frågor att repetera'}
           </ThemedText>
@@ -104,19 +109,17 @@ export default function DashboardScreen() {
             >
               Svaga områden
             </ThemedText>
-            {stats.weakModules.map((w) => (
-              <Link
-                key={w.moduleId}
-                href={{ pathname: '/module/[slug]', params: { slug: w.slug } }}
-                asChild
-              >
-                <ThemedPressable className="flex-row items-center py-1.5 active:opacity-80">
-                  <ThemedText className="text-small font-sans flex-1">{w.titleSv}</ThemedText>
-                  <ThemedText tone="port" className="text-caption font-mono">
-                    {w.wrong} av {w.reviewed} fel
-                  </ThemedText>
-                </ThemedPressable>
-              </Link>
+            {stats.weakModules.map((w, i) => (
+              <StaggerIn key={w.moduleId} index={i}>
+                <Link href={{ pathname: '/module/[slug]', params: { slug: w.slug } }} asChild>
+                  <ThemedPressable className="flex-row items-center py-1.5 active:opacity-80">
+                    <ThemedText className="text-small font-sans flex-1">{w.titleSv}</ThemedText>
+                    <ThemedText tone="port" className="text-caption font-mono">
+                      {w.wrong} av {w.reviewed} fel
+                    </ThemedText>
+                  </ThemedPressable>
+                </Link>
+              </StaggerIn>
             ))}
           </ThemedView>
         ) : null}

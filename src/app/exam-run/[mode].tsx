@@ -11,6 +11,7 @@ import { LanternDiagram } from '@/components/lantern-diagram';
 import { MapAnswerInput } from '@/components/map-answer-input';
 import { NumericReadout } from '@/components/numeric-readout';
 import { StabilityDiagram } from '@/components/stability-diagram';
+import { StaggerIn } from '@/components/stagger-in';
 import { ThemedPressable, ThemedText, ThemedView, type Tone } from '@/components/themed';
 import { modules, questionText } from '@/content';
 import { generateCalculation } from '@/content/generators/navcalc';
@@ -142,6 +143,7 @@ export default function ExamRunScreen() {
               variant="mono"
               tone={result.passed ? 'starboard' : 'port'}
               className="mt-4"
+              countUp
             />
             <ThemedText
               tone={result.passed ? 'starboard' : 'port'}
@@ -162,20 +164,21 @@ export default function ExamRunScreen() {
               </ThemedText>
               <ThemedView bg="surface" bgOpacity={45} className="rounded-xl overflow-hidden">
                 {weak.map((w, i) => (
-                  <ThemedView
-                    key={w.moduleId}
-                    borderTone="fog"
-                    borderOpacity={10}
-                    style={{ borderTopWidth: i > 0 ? 1 : 0 }}
-                    className="flex-row items-center px-5 py-3.5"
-                  >
-                    <ThemedText className="text-body font-sans flex-1">
-                      {moduleName(w.moduleId)}
-                    </ThemedText>
-                    <ThemedText tone="port" className="text-small font-mono">
-                      {w.correct}/{w.total} rätt
-                    </ThemedText>
-                  </ThemedView>
+                  <StaggerIn key={w.moduleId} index={i}>
+                    <ThemedView
+                      borderTone="fog"
+                      borderOpacity={10}
+                      style={{ borderTopWidth: i > 0 ? 1 : 0 }}
+                      className="flex-row items-center px-5 py-3.5"
+                    >
+                      <ThemedText className="text-body font-sans flex-1">
+                        {moduleName(w.moduleId)}
+                      </ThemedText>
+                      <ThemedText tone="port" className="text-small font-mono">
+                        {w.correct}/{w.total} rätt
+                      </ThemedText>
+                    </ThemedView>
+                  </StaggerIn>
                 ))}
               </ThemedView>
               <ThemedText tone="fog" className="text-small font-sans mt-2">

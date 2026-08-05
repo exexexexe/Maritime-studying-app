@@ -1,5 +1,6 @@
 import Constants from 'expo-constants';
 import { ScrollView, useColorScheme, View } from 'react-native';
+import Animated, { FadeInDown, useReducedMotion } from 'react-native-reanimated';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { Disclaimer } from '@/components/disclaimer';
@@ -11,11 +12,14 @@ import { palette } from '@/theme/tokens';
 export default function SettingsScreen() {
   const { track, setTrack } = useTrack();
   const p = palette(useColorScheme());
+  const reducedMotion = useReducedMotion();
 
   return (
     <SafeAreaView className="flex-1" style={{ backgroundColor: p.bg }} edges={['top']}>
       <ScrollView contentContainerClassName="flex-grow px-6 pt-10">
-        <ThemedText className="text-display font-display">Inställningar</ThemedText>
+        <Animated.View entering={reducedMotion ? undefined : FadeInDown.duration(280).delay(60)}>
+          <ThemedText className="text-display font-display">Inställningar</ThemedText>
+        </Animated.View>
 
         <ThemedView
           bg="surface"

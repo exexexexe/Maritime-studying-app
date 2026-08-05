@@ -1,8 +1,10 @@
 import { Link, useFocusEffect } from 'expo-router';
 import { useCallback, useState } from 'react';
 import { ScrollView, useColorScheme, View } from 'react-native';
+import Animated, { FadeInDown, useReducedMotion } from 'react-native-reanimated';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
+import { StaggerIn } from '@/components/stagger-in';
 import { ThemedPressable, ThemedText, ThemedView } from '@/components/themed';
 import { TrackBadge } from '@/components/track-badge';
 import { itemsForTrack } from '@/content';
@@ -32,6 +34,7 @@ function fmtDate(ts: number) {
 export default function ExamScreen() {
   const { track } = useTrack();
   const p = palette(useColorScheme());
+  const reducedMotion = useReducedMotion();
   const config = examConfig(track);
   const poolSize = itemsForTrack(track).length;
   const [history, setHistory] = useState<ExamSessionRecord[]>([]);
@@ -64,11 +67,13 @@ export default function ExamScreen() {
     <SafeAreaView className="flex-1" style={{ backgroundColor: p.bg }} edges={['top']}>
       <ScrollView contentContainerClassName="px-6 pt-10 pb-8">
         <TrackBadge />
-        <ThemedText className="text-display font-display mt-2">Provläge</ThemedText>
-        <ThemedText tone="fog" className="text-small font-sans mt-1">
-          Simulerar provet för {TRACK_NAMES[track]} — utan facit under tiden,
-          rättning först när du lämnar in.
-        </ThemedText>
+        <Animated.View entering={reducedMotion ? undefined : FadeInDown.duration(280).delay(60)}>
+          <ThemedText className="text-display font-display mt-2">Provläge</ThemedText>
+          <ThemedText tone="fog" className="text-small font-sans mt-1">
+            Simulerar provet för {TRACK_NAMES[track]} — utan facit under tiden,
+            rättning först när du lämnar in.
+          </ThemedText>
+        </Animated.View>
 
         {modes.map(({ mode, titleSv, descSv, dominant }) => {
           const m = config[mode];
@@ -144,26 +149,27 @@ export default function ExamScreen() {
             </ThemedText>
             <ThemedView bg="surface" bgOpacity={45} className="rounded-xl overflow-hidden">
               {history.slice(0, 8).map((s, i) => (
-                <ThemedView
-                  key={s.id}
-                  borderTone="fog"
-                  borderOpacity={10}
-                  style={{ borderTopWidth: i > 0 ? 1 : 0 }}
-                  className="flex-row items-center px-5 py-3.5"
-                >
-                  <ThemedText tone="fog" className="text-small font-mono w-28">
-                    {fmtDate(s.startedAt)}
-                  </ThemedText>
-                  <ThemedText className="text-small font-sans flex-1">
-                    {s.mode === 'full' ? 'Full simulering' : 'Snabbprov'}
-                  </ThemedText>
-                  <ThemedText
-                    tone={s.passed ? 'starboard' : 'port'}
-                    className="text-small font-mono-medium"
+                <StaggerIn key={s.id} index={i}>
+                  <ThemedView
+                    borderTone="fog"
+                    borderOpacity={10}
+                    style={{ borderTopWidth: i > 0 ? 1 : 0 }}
+                    className="flex-row items-center px-5 py-3.5"
                   >
-                    {Math.round(s.scorePct ?? 0)} %
-                  </ThemedText>
-                </ThemedView>
+                    <ThemedText tone="fog" className="text-small font-mono w-28">
+                      {fmtDate(s.startedAt)}
+                    </ThemedText>
+                    <ThemedText className="text-small font-sans flex-1">
+                      {s.mode === 'full' ? 'Full simulering' : 'Snabbprov'}
+                    </ThemedText>
+                    <ThemedText
+                      tone={s.passed ? 'starboard' : 'port'}
+                      className="text-small font-mono-medium"
+                    >
+                      {Math.round(s.scorePct ?? 0)} %
+                    </ThemedText>
+                  </ThemedView>
+                </StaggerIn>
               ))}
             </ThemedView>
           </View>
