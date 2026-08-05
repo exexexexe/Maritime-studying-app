@@ -1,0 +1,266 @@
+{
+  "topicId": "top-vhf-fonetiska",
+  "items": [
+    {
+      "id": "vhf-fon-001",
+      "topicId": "top-vhf-fonetiska",
+      "tracks": [
+        "vhf",
+        "klass8",
+        "kustskeppare",
+        "forarintyg"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "För att bokstäver ska gå att uppfatta korrekt trots dåligt ljud, brus eller likartat uttal",
+          "isCorrect": true
+        },
+        {
+          "text": "Det är ett internationellt krav enbart för fartygets anropssignal, aldrig för annat",
+          "isCorrect": false
+        },
+        {
+          "text": "För att göra meddelanden kortare och snabbare att sända",
+          "isCorrect": false
+        },
+        {
+          "text": "För att dölja innehållet för lyssnare som inte kan koden",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Bokstäver som B, D, P, T låter lika över en brusig radioförbindelse. Det fonetiska alfabetet (Alfa, Bravo, Charlie …) gör varje bokstav unikt igenkännbar oavsett ljudkvalitet.",
+      "explanationEn": "The phonetic alphabet prevents similar-sounding letters (B/D/P/T) from being confused over noisy radio.",
+      "theoryAnchor": "vhf/fonetiskt",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Varför används det fonetiska (NATO-)alfabetet vid radiotrafik till sjöss?"
+      }
+    },
+    {
+      "id": "vhf-fon-002",
+      "topicId": "top-vhf-fonetiska",
+      "tracks": [
+        "vhf",
+        "klass8",
+        "kustskeppare",
+        "forarintyg"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Mike",
+          "isCorrect": true
+        },
+        {
+          "text": "Mama",
+          "isCorrect": false
+        },
+        {
+          "text": "Mexico",
+          "isCorrect": false
+        },
+        {
+          "text": "Michael",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "M = Mike i det internationella fonetiska alfabetet (NATO-alfabetet).",
+      "explanationEn": "M is \"Mike\" in the NATO phonetic alphabet.",
+      "theoryAnchor": "vhf/fonetiskt",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vilket ord representerar bokstaven \"M\" i det fonetiska alfabetet?"
+      }
+    },
+    {
+      "id": "vhf-fon-003",
+      "topicId": "top-vhf-fonetiska",
+      "tracks": [
+        "vhf",
+        "klass8",
+        "kustskeppare",
+        "forarintyg"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Victor",
+          "isCorrect": true
+        },
+        {
+          "text": "Vera",
+          "isCorrect": false
+        },
+        {
+          "text": "Venus",
+          "isCorrect": false
+        },
+        {
+          "text": "Volvo",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "V = Victor i det internationella fonetiska alfabetet.",
+      "explanationEn": "V is \"Victor\" in the NATO phonetic alphabet.",
+      "theoryAnchor": "vhf/fonetiskt",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vilket ord representerar bokstaven \"V\" i det fonetiska alfabetet?"
+      }
+    },
+    {
+      "id": "vhf-fon-004",
+      "topicId": "top-vhf-fonetiska",
+      "tracks": [
+        "vhf",
+        "klass8",
+        "kustskeppare",
+        "forarintyg"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Quebec",
+          "isCorrect": true
+        },
+        {
+          "text": "Queen",
+          "isCorrect": false
+        },
+        {
+          "text": "Quest",
+          "isCorrect": false
+        },
+        {
+          "text": "Quality",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Q = Quebec i det internationella fonetiska alfabetet.",
+      "explanationEn": "Q is \"Quebec\" in the NATO phonetic alphabet.",
+      "theoryAnchor": "vhf/fonetiskt",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vilket ord representerar bokstaven \"Q\" i det fonetiska alfabetet?"
+      }
+    },
+    {
+      "id": "vhf-fon-005",
+      "topicId": "top-vhf-fonetiska",
+      "tracks": [
+        "vhf",
+        "klass8",
+        "kustskeppare",
+        "forarintyg"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "S W E",
+          "isCorrect": true
+        },
+        {
+          "text": "S W F",
+          "isCorrect": false
+        },
+        {
+          "text": "C W E",
+          "isCorrect": false
+        },
+        {
+          "text": "S V E",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Sierra=S, Whiskey=W, Echo=E. Vanliga förväxlingar: Whiskey (W) med bokstaven V, och Echo (E) med F (Foxtrot).",
+      "explanationEn": "Sierra=S, Whiskey=W, Echo=E.",
+      "theoryAnchor": "vhf/fonetiskt",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Ett fartyg stavar sin anropssignal som \"Sierra Whiskey Echo\". Vilka tre bokstäver är det?"
+      }
+    },
+    {
+      "id": "vhf-fon-006",
+      "topicId": "top-vhf-fonetiska",
+      "tracks": [
+        "vhf",
+        "klass8",
+        "kustskeppare",
+        "forarintyg"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Niner",
+          "isCorrect": true
+        },
+        {
+          "text": "Nine-nine",
+          "isCorrect": false
+        },
+        {
+          "text": "Novem",
+          "isCorrect": false
+        },
+        {
+          "text": "Nina",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Siffran 9 uttalas \"Niner\" i internationell radiotelefoni, just för att skilja den tydligt från \"five\" (5) över en radioförbindelse.",
+      "explanationEn": "The digit 9 is spoken as \"Niner\" to avoid confusion with \"five\" over radio.",
+      "theoryAnchor": "vhf/fonetiskt",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Hur uttalas siffran \"9\" enligt det internationella radiotelefonalfabetet, för att undvika förväxling med \"5\"?"
+      },
+      "needsReview": true,
+      "needsReviewNote": "Confident \"Niner\" is standard ICAO/ITU radiotelephony practice for aviation and general use; less certain whether the Swedish SRC course tests this specific convention for maritime VHF — verify against course material."
+    },
+    {
+      "id": "vhf-fon-007",
+      "topicId": "top-vhf-fonetiska",
+      "tracks": [
+        "vhf",
+        "klass8",
+        "kustskeppare",
+        "forarintyg"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "X-ray",
+          "isCorrect": true
+        },
+        {
+          "text": "Xylofon",
+          "isCorrect": false
+        },
+        {
+          "text": "Xerox",
+          "isCorrect": false
+        },
+        {
+          "text": "Xtra",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "X = X-ray i det internationella fonetiska alfabetet.",
+      "explanationEn": "X is \"X-ray\" in the NATO phonetic alphabet.",
+      "theoryAnchor": "vhf/fonetiskt",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vilket ord representerar bokstaven \"X\" i det fonetiska alfabetet?"
+      }
+    }
+  ]
+}

@@ -51,6 +51,132 @@
       "theoryAnchor": "vhf/effekt",
       "authorReviewed": false,
       "payload": { "questionSv": "Vilken sändareffekt väljer du vid vanlig trafik på korta avstånd?" }
+    },
+    {
+      "id": "vhf-rut-004",
+      "topicId": "top-vhf-rutiner",
+      "tracks": ["vhf", "klass8", "kustskeppare"],
+      "type": "mcq",
+      "options": [
+        { "text": "Kanal 16, anropskanalen", "isCorrect": true },
+        { "text": "Kanal 70, den digitala anropskanalen", "isCorrect": false },
+        { "text": "Den arbetskanal ni ska prata på sedan", "isCorrect": false },
+        { "text": "Valfri kanal, det spelar ingen roll var anropet sker", "isCorrect": false }
+      ],
+      "explanationSv": "Kanal 16 är den internationella anrops- och nödkanalen — anrop inleds där (eller via DSC på kanal 70), varefter parterna kommer överens om en ledig arbetskanal för det fortsatta samtalet.",
+      "explanationEn": "Channel 16 is the international calling/distress channel — calls are initiated there before shifting to a working channel.",
+      "theoryAnchor": "vhf/kanaletikett",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": { "questionSv": "Vilken kanal används normalt för att inleda ett rutinanrop till en kuststation eller ett annat fartyg?" }
+    },
+    {
+      "id": "vhf-rut-005",
+      "topicId": "top-vhf-rutiner",
+      "tracks": ["vhf", "klass8", "kustskeppare"],
+      "type": "mcq",
+      "options": [
+        { "text": "Så att kanal 16 hålls fri för nya anrop och eventuell nödtrafik", "isCorrect": true },
+        { "text": "Så att samtalet inte kan avlyssnas av andra fartyg", "isCorrect": false },
+        { "text": "Så att sändareffekten automatiskt ökar till 25 W", "isCorrect": false },
+        { "text": "Det är endast en rekommendation utan egentlig betydelse", "isCorrect": false }
+      ],
+      "explanationSv": "Kanal 16 måste hela tiden hållas tillgänglig för anrop och, viktigast, för nödtrafik. Långa samtal där kvarstår stör den funktionen — därför byter man snabbt till en arbetskanal.",
+      "explanationEn": "Channel 16 must stay clear for new calls and distress traffic, so conversations move to a working channel quickly.",
+      "theoryAnchor": "vhf/kanaletikett",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": { "questionSv": "Varför ska ett samtal flyttas till en arbetskanal så snart kontakt är etablerad på kanal 16?" }
+    },
+    {
+      "id": "vhf-rut-006",
+      "topicId": "top-vhf-rutiner",
+      "tracks": ["vhf", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Med fartygets namn och/eller anropssignal, inte bara ett smeknamn eller \"båten\"", "isCorrect": true },
+        { "text": "Med befälhavarens personnamn, aldrig fartygets namn", "isCorrect": false },
+        { "text": "Med MMSI-numret uppläst siffra för siffra i stället för namnet", "isCorrect": false },
+        { "text": "Anrop kräver ingen identifiering om motstationen redan känner igen rösten", "isCorrect": false }
+      ],
+      "explanationSv": "Fartygets namn (och anropssignal om sådan finns) är den korrekta identifieringen i röstanrop — det gör trafiken spårbar och tydlig för alla som lyssnar, inklusive kuststationer.",
+      "explanationEn": "Identify by vessel name (and call sign) in voice calls, not an informal nickname.",
+      "theoryAnchor": "vhf/kanaletikett",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": { "questionSv": "Hur identifierar du dig korrekt vid ett rutinanrop på VHF?" }
+    },
+    {
+      "id": "vhf-rut-007",
+      "topicId": "top-vhf-rutiner",
+      "tracks": ["vhf", "klass8", "kustskeppare"],
+      "type": "mcq",
+      "options": [
+        { "text": "Väntar en stund innan du försöker igen, i stället för att upprepa anropet oavbrutet", "isCorrect": true },
+        { "text": "Fortsätter att sända anropet oavbrutet tills svar kommer", "isCorrect": false },
+        { "text": "Byter omedelbart till nödanrop för att säkerställa svar", "isCorrect": false },
+        { "text": "Höjer sändareffekten över tillåten gräns för att höras bättre", "isCorrect": false }
+      ],
+      "explanationSv": "Ihärdiga, oavbrutna anrop stör andra användare av kanalen i onödan. Vänta en stund mellan försöken i stället — om stationen inte svarar finns den kanske utom räckhåll eller lyssnar inte just då.",
+      "explanationEn": "Space out repeated calls rather than transmitting continuously, which needlessly occupies the channel.",
+      "theoryAnchor": "vhf/kanaletikett",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": { "questionSv": "Vad gör du om du anropar en station på kanal 16 men inte får svar efter ett rimligt antal försök?" }
+    },
+    {
+      "id": "vhf-rut-008",
+      "topicId": "top-vhf-rutiner",
+      "tracks": ["vhf", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Onödig eller ovidkommande trafik, till exempel privata samtal på anrops- eller nödkanaler", "isCorrect": true },
+        { "text": "All trafik som sker på engelska mellan fartyg av olika nationalitet", "isCorrect": false },
+        { "text": "Anrop som görs innan klockan åtta på morgonen", "isCorrect": false },
+        { "text": "Trafik mellan fartyg som tillhör samma redare", "isCorrect": false }
+      ],
+      "explanationSv": "Onödig, ovidkommande eller störande trafik — inte minst på kanal 16 och andra nöd-/anropskanaler — är förbjuden. Radion är en delad, säkerhetskritisk resurs.",
+      "explanationEn": "Unnecessary or irrelevant transmissions, especially on calling/distress channels, are prohibited.",
+      "theoryAnchor": "vhf/disciplin",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": { "questionSv": "Vilken typ av trafik är enligt internationella regler förbjuden på VHF sjöradio?" }
+    },
+    {
+      "id": "vhf-rut-009",
+      "topicId": "top-vhf-rutiner",
+      "tracks": ["vhf", "klass8", "kustskeppare", "forarintyg"],
+      "type": "mcq",
+      "options": [
+        { "text": "Att du är klar med din del och väntar på svar", "isCorrect": true },
+        { "text": "Att samtalet är helt avslutat och inget mer kommer sändas", "isCorrect": false },
+        { "text": "Att mottagaren ska byta kanal omedelbart", "isCorrect": false },
+        { "text": "Att meddelandet var brådskande", "isCorrect": false }
+      ],
+      "explanationSv": "\"Over\" signalerar att du är klar att lyssna och väntar på svar från motstationen. Jämför med \"Out\", som avslutar hela kontakten utan att invänta svar.",
+      "explanationEn": "\"Over\" hands the conversation to the other party and invites a reply.",
+      "theoryAnchor": "vhf/disciplin",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": { "questionSv": "Vad betyder radiospråket \"Over\" i slutet av en sändning?" }
+    },
+    {
+      "id": "vhf-rut-010",
+      "topicId": "top-vhf-rutiner",
+      "tracks": ["vhf", "klass8", "kustskeppare", "forarintyg"],
+      "type": "mcq",
+      "options": [
+        { "text": "Att kontakten är avslutad och inget svar väntas", "isCorrect": true },
+        { "text": "Att du är klar med din del och väntar på svar", "isCorrect": false },
+        { "text": "Att stationen kommer att sända ett nödanrop härnäst", "isCorrect": false },
+        { "text": "Att motstationen ska bekräfta mottagningen ord för ord", "isCorrect": false }
+      ],
+      "explanationSv": "\"Out\" markerar att hela kontakten är avslutad — ingen ytterligare sändning väntas. Att säga \"Over and out\" tillsammans är därför motsägelsefullt och undviks i korrekt radiospråk.",
+      "explanationEn": "\"Out\" ends the exchange entirely; no reply is expected.",
+      "theoryAnchor": "vhf/disciplin",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": { "questionSv": "Vad betyder radiospråket \"Out\" i slutet av en sändning?" }
     }
   ]
 }

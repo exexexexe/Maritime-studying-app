@@ -480,6 +480,278 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "18:34 / photo_44 + photo_4"
+    },
+    {
+      "id": "radar-nav-013",
+      "topicId": "top-radar-navigation",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Dra en referenslinje parallellt med planerad kurs, förskjuten från ett fast, identifierat objekt",
+          "isCorrect": true
+        },
+        {
+          "text": "Att jämföra två olika radarapparaters bilder parallellt för att öka noggrannheten",
+          "isCorrect": false
+        },
+        {
+          "text": "Att plotta flera mål samtidigt i en och samma serie",
+          "isCorrect": false
+        },
+        {
+          "text": "Att ställa in radarn i dubbel bildväxling för snabbare uppdatering",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Parallellindexering lägger en linje parallell med den avsedda kursen, förskjuten ett valt avstånd från ett fast, identifierat objekt (udde, boj) — så länge objektets eko ligger på linjen håller fartyget rutten.",
+      "explanationEn": "Parallel indexing overlays a line parallel to the intended track, offset from a fixed radar-conspicuous object, to monitor whether the vessel stays on route.",
+      "theoryAnchor": "radar/navigering",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vad är grundprincipen bakom parallellindexering (parallel indexing) med radar?"
+      }
+    },
+    {
+      "id": "radar-nav-014",
+      "topicId": "top-radar-navigation",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ett fast, radarkonspikt objekt med känd position, som en udde",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett annat fartyg i rörelse i närheten",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett flytande föremål utan känd position",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett objekt utanför radarns räckvidd",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Referensobjektet måste vara fast, radarkonspikt och ha känd position — ett rörligt eller oidentifierat eko kan inte tillförlitligt förankra indexlinjen.",
+      "explanationEn": "The reference object must be fixed, radar-conspicuous, and have a known position.",
+      "theoryAnchor": "radar/navigering",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vilken typ av objekt lämpar sig bäst som referenspunkt vid parallellindexering?"
+      }
+    },
+    {
+      "id": "radar-nav-015",
+      "topicId": "top-radar-navigation",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "En positionsbestämning där en tidigare ståndlinje förs fram och kombineras med en ny observation",
+          "isCorrect": true
+        },
+        {
+          "text": "En position som enbart baseras på GPS utan andra observationer",
+          "isCorrect": false
+        },
+        {
+          "text": "En kontinuerlig, automatisk positionsuppdatering utan mänsklig inblandning",
+          "isCorrect": false
+        },
+        {
+          "text": "En nödposition som anges vid ett Mayday-anrop",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En running fix för fram en tidigare ståndlinje längs den kurs/fart som gjorts under tiden till en ny observation, och korsar den med en ny ståndlinje (bäring/avstånd) för att ge en fix — användbart när bara ett landmärke syns åt gången.",
+      "explanationEn": "A running fix advances an earlier position line along course/speed made good and crosses it with a new observation.",
+      "theoryAnchor": "radar/navigering",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vad är en \"löpande observation\" (running fix) inom navigering?"
+      }
+    },
+    {
+      "id": "radar-nav-016",
+      "topicId": "top-radar-navigation",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Eftersom den bygger på antagen kurs och fart under tiden mellan observationerna",
+          "isCorrect": true
+        },
+        {
+          "text": "Eftersom den bara kan användas på natten",
+          "isCorrect": false
+        },
+        {
+          "text": "Eftersom radar inte kan användas för running fix",
+          "isCorrect": false
+        },
+        {
+          "text": "Eftersom running fix kräver satellitnavigering",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Till skillnad från en samtidig fix från två bäringar bygger en running fix på att korrekt känna kurs och fart gjord mellan observationerna — ström, avdrift eller styrfel för alla in osäkerhet i resultatet.",
+      "explanationEn": "A running fix depends on accurately knowing course/speed made good between observations, unlike a simultaneous fix.",
+      "theoryAnchor": "radar/navigering",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Varför kan en running fix vara mindre tillförlitlig än en vanlig samtidig korspejling?"
+      }
+    },
+    {
+      "id": "radar-nav-017",
+      "topicId": "top-radar-navigation",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Bäring och avstånd till ett identifierat landmärke",
+          "isCorrect": true
+        },
+        {
+          "text": "Enbart avstånd, aldrig bäring",
+          "isCorrect": false
+        },
+        {
+          "text": "Enbart bäring, aldrig avstånd",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartygets egen fart genom vattnet",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Radarns särskilda styrka vid positionsbestämning är att den ger både bäring OCH avstånd till ett landmärke i en och samma observation — till skillnad från en visuell bäring ensam, som kräver en andra ståndlinje.",
+      "explanationEn": "Radar uniquely gives both bearing and range to a landmark in one observation.",
+      "theoryAnchor": "radar/navigering",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vilka två mätvärden ger radarn som är särskilt användbara för positionsbestämning mot ett landmärke?"
+      }
+    },
+    {
+      "id": "radar-nav-018",
+      "topicId": "top-radar-navigation",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "En enda avståndsmätning ger direkt en cirkulär ståndlinje utan en andra observation",
+          "isCorrect": true
+        },
+        {
+          "text": "Avstånd är alltid mer exakt än bäring under alla förhållanden",
+          "isCorrect": false
+        },
+        {
+          "text": "Avstånd kräver ingen identifiering av landmärket",
+          "isCorrect": false
+        },
+        {
+          "text": "Avstånd fungerar bara i dagsljus",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett enda avstånd till en känd punkt definierar redan i sig en cirkulär ståndlinje — kombinerat med till exempel en bäring (eller ett andra avstånd) ger det snabbt en fix.",
+      "explanationEn": "A single range to a known point already defines a circular position line by itself.",
+      "theoryAnchor": "radar/navigering",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vad är fördelen med att använda en radarns avståndsmätning till ett enda identifierat landmärke vid positionsbestämning?"
+      }
+    },
+    {
+      "id": "radar-nav-019",
+      "topicId": "top-radar-navigation",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "En positionsfix genom skärningen av de två cirkulära ståndlinjerna",
+          "isCorrect": true
+        },
+        {
+          "text": "En kurslinje, inte en position",
+          "isCorrect": false
+        },
+        {
+          "text": "Enbart ett medelvärde av de två avstånden",
+          "isCorrect": false
+        },
+        {
+          "text": "Ingenting användbart utan en tredje mätning",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Två samtidiga avstånd till två identifierade punkter definierar var sin cirkulär ståndlinje — skärningen mellan dem (den geometriskt rimliga) ger en fix, helt utan att någon bäring behövs.",
+      "explanationEn": "Two simultaneous ranges to two identified points each define a circle of position, and their intersection gives a fix.",
+      "theoryAnchor": "radar/navigering",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Två samtidiga radaravstånd till två kända, identifierade landmärken kan kombineras för att ge vad?"
+      }
+    },
+    {
+      "id": "radar-nav-020",
+      "topicId": "top-radar-navigation",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Indexlinjen kan följas exakt men rutten avviker ändå",
+          "isCorrect": true
+        },
+        {
+          "text": "Radarbilden slutar fungera helt",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartygets fart mäts fel",
+          "isCorrect": false
+        },
+        {
+          "text": "Inget problem uppstår så länge ekot är starkt",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Parallellindexering är bara så bra som identifieringen av referensobjektet — väljs fel eko (ett likartat utseende landmärke, en annan boj) kan fartyget hålla en perfekt rak indexlinje men ändå i verkligheten vara fel.",
+      "explanationEn": "Parallel indexing is only as reliable as correctly identifying the reference object — a misidentified echo can look perfect while the vessel is actually off route.",
+      "theoryAnchor": "radar/navigering",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vad kan hända vid parallellindexering om referensobjektet i själva verket är feltdentifierat på kartan?"
+      }
     }
   ]
 }

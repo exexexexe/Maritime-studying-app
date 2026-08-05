@@ -1,0 +1,313 @@
+{
+  "topicId": "top-radar-colreg",
+  "items": [
+    {
+      "id": "radar-col-001",
+      "topicId": "top-radar-colreg",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Alla tillgängliga medel, inklusive radar, ska användas för att tidigt upptäcka kollisionsrisk",
+          "isCorrect": true
+        },
+        {
+          "text": "Radar får bara användas som komplement efter att en visuell bedömning redan gjorts",
+          "isCorrect": false
+        },
+        {
+          "text": "Radar ska undvikas i god sikt eftersom den då är opålitlig",
+          "isCorrect": false
+        },
+        {
+          "text": "Sjövägsreglerna nämner inte radar alls",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Sjövägsreglernas regel om risk för kollision kräver att alla tillgängliga medel — inklusive korrekt använd radarutrustning — utnyttjas för en tidig och fullständig bedömning, inte enbart visuell observation.",
+      "explanationEn": "The collision-risk rule requires using all available means, including radar, for early and full risk assessment — not visual observation alone.",
+      "theoryAnchor": "radar/kollision",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vad säger sjövägsreglerna om användning av radar för att bedöma risk för kollision?"
+      }
+    },
+    {
+      "id": "radar-col-002",
+      "topicId": "top-radar-colreg",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Att undvika förhastade slutsatser om ett fartygs avsikter baserat på ofullständiga radarobservationer",
+          "isCorrect": true
+        },
+        {
+          "text": "Att radarinformation aldrig får användas som beslutsunderlag",
+          "isCorrect": false
+        },
+        {
+          "text": "Att man ska öka fartygets fart för att få tydligare radarekon",
+          "isCorrect": false
+        },
+        {
+          "text": "Att bara erfarna radaroperatörer får fatta beslut baserat på radar",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett svagt, intermittent eller otydligt eko ska inte ensamt ligga till grund för säkra manöverbeslut — sjövägsreglerna varnar uttryckligen mot slutsatser dragna på knapphändig, särskilt knapphändig radar-, information.",
+      "explanationEn": "COLREG explicitly warns against assumptions made on scanty, especially scanty radar, information.",
+      "theoryAnchor": "radar/kollision",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vad innebär det enligt sjövägsreglerna att undvika slutsatser baserade på \"knapphändig radarinformation\"?"
+      }
+    },
+    {
+      "id": "radar-col-003",
+      "topicId": "top-radar-colreg",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Samma grundläggande skyldighet gäller, anpassad efter reglerna för nedsatt sikt",
+          "isCorrect": true
+        },
+        {
+          "text": "Väjningsreglerna gäller inte förrän fartyget är synligt för ögat",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyget med radar har alltid ensam väjningsplikt, oavsett situation",
+          "isCorrect": false
+        },
+        {
+          "text": "Inga väjningsregler gäller i nedsatt sikt, bara allmän aktsamhet",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "I nedsatt sikt gäller den särskilda regeln för det läget (lämplig fart, beredskap till omedelbar manöver, åtgärd baserad på radarupptäckt kollisionsrisk) — ett radarupptäckt fartyg utlöser samma grundskyldighet att undvika kollision.",
+      "explanationEn": "The restricted-visibility rule applies, and radar detection of a risk triggers the same fundamental duty to avoid collision.",
+      "theoryAnchor": "radar/kollision",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Ett fartyg upptäcks på radar utan att ännu vara synligt för ögat i dimma. Vad gäller för väjningsreglerna?"
+      }
+    },
+    {
+      "id": "radar-col-004",
+      "topicId": "top-radar-colreg",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Sänka farten i god tid, vara beredd att stoppa, och fortsätta övervaka noga",
+          "isCorrect": true
+        },
+        {
+          "text": "Öka farten för att passera målet snabbare",
+          "isCorrect": false
+        },
+        {
+          "text": "Ignorera det om målet inte är synligt för ögat",
+          "isCorrect": false
+        },
+        {
+          "text": "Vänta tills TCPA når noll innan någon åtgärd vidtas",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "I nedsatt sikt krävs lämplig fart och beredskap till omedelbar manöver. En sjunkande CPA/TCPA på ARPA är exakt den typ av tidig varning som bör leda till farthållning/-sänkning och skärpt uppmärksamhet långt innan kort avstånd.",
+      "explanationEn": "A shrinking CPA/TCPA on ARPA should prompt early speed reduction and heightened attention, well before close range.",
+      "theoryAnchor": "radar/kollision",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vad är en lämplig första åtgärd om ARPA visar minskande CPA och TCPA för ett mål i nedsatt sikt?"
+      }
+    },
+    {
+      "id": "radar-col-005",
+      "topicId": "top-radar-colreg",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Så att ändringen är lätt att upptäcka, även via radar, och inte kan misstolkas",
+          "isCorrect": true
+        },
+        {
+          "text": "Så att fartyget hinner bromsa upp innan kursändringen",
+          "isCorrect": false
+        },
+        {
+          "text": "Det krävs bara vid dagtid, inte nattetid",
+          "isCorrect": false
+        },
+        {
+          "text": "En liten justering är alltid att föredra av bränsleskäl",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En liten, successiv kursändring kan vara svår att upptäcka — visuellt eller på radar/ARPA — och riskerar att misstolkas som normal navigering. En stor, tidig och otvetydig ändring tar bort osäkerheten om avsikten.",
+      "explanationEn": "A small, gradual change can be hard to detect on radar/ARPA and risks being misread; a large, early change removes ambiguity.",
+      "theoryAnchor": "radar/kollision",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Varför krävs enligt sjövägsreglerna en \"tidig och tydlig\" kursändring, snarare än en liten justering, när väjning krävs?"
+      }
+    },
+    {
+      "id": "radar-col-006",
+      "topicId": "top-radar-colreg",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Skyldigheten kvarstår oförändrad — AIS är ett komplement, inte en förutsättning",
+          "isCorrect": true
+        },
+        {
+          "text": "Fartyget kan bortses från eftersom det saknar AIS",
+          "isCorrect": false
+        },
+        {
+          "text": "Skyldigheten gäller bara fartyg med fungerande AIS",
+          "isCorrect": false
+        },
+        {
+          "text": "Radarupptäckta fartyg utan AIS ska rapporteras till myndighet innan åtgärd vidtas",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "AIS är ett värdefullt komplement men ingen förutsättning — varje fartyg som upptäcks (radar eller syn) och utgör kollisionsrisk måste beaktas enligt de vanliga väjningsreglerna, AIS eller ej.",
+      "explanationEn": "AIS is a supplement, not a precondition — any radar- or visually-detected vessel posing collision risk must be accounted for.",
+      "theoryAnchor": "radar/kollision",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Ett fartyg syns tydligt på radar men saknar AIS-signal. Vad innebär det för din skyldighet att undvika kollision?"
+      }
+    },
+    {
+      "id": "radar-col-007",
+      "topicId": "top-radar-colreg",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Att den beräknade vektorn kan vara missvisande tills spårningen hunnit stabiliseras",
+          "isCorrect": true
+        },
+        {
+          "text": "ARPA uppdaterar alltid vektorn momentant utan fördröjning",
+          "isCorrect": false
+        },
+        {
+          "text": "En kursändring syns aldrig på ARPA förrän efter flera timmar",
+          "isCorrect": false
+        },
+        {
+          "text": "ARPA slutar spåra målet helt tills det anropas via VHF",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "ARPA-spårning bygger på en serie radarreturer — efter en manöver tar det en kort stund innan den beräknade vektorn hunnit spegla den nya, verkliga rörelsen. Ytterligare ett skäl till att inte dra förhastade slutsatser av knapphändig information.",
+      "explanationEn": "After a target manoeuvres, ARPA's computed vector needs a short settling period before it reflects the new true motion.",
+      "theoryAnchor": "radar/kollision",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vad bör du vara särskilt uppmärksam på när du tolkar ARPA-vektorer för ett fartyg som nyligen ändrat kurs eller fart?"
+      },
+      "needsReview": true,
+      "needsReviewNote": "The general settling-time behavior after a target manoeuvre is standard ARPA operating knowledge, but I've deliberately avoided citing a specific time figure — verify this is taught the same way in the course material."
+    },
+    {
+      "id": "radar-col-008",
+      "topicId": "top-radar-colreg",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "De vanliga väjningsreglerna för god sikt gäller — radartillgång i sig ändrar inte vilket fartyg som ska väja",
+          "isCorrect": true
+        },
+        {
+          "text": "Fartyget med bättre radarutrustning har alltid företräde",
+          "isCorrect": false
+        },
+        {
+          "text": "Radarinformation upphäver de vanliga väjningsreglerna i god sikt",
+          "isCorrect": false
+        },
+        {
+          "text": "Det fartyg som upptäckte det andra fartyget först på radar har väjningsplikt",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Att ha och använda radar ändrar inte vem som har väjningsplikt respektive kurshållningsplikt i god sikt — det avgörs av de vanliga reglerna (mötande, korsande, upphinnande), där radar bara stödjer lägesbilden.",
+      "explanationEn": "Having radar doesn't change who has the give-way/stand-on role in good visibility — the normal steering and sailing rules still decide that.",
+      "theoryAnchor": "radar/kollision",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Om två fartyg båda har fungerande radar och kan se varandra på skärmen i god sikt, vilket gäller?"
+      }
+    },
+    {
+      "id": "radar-col-009",
+      "topicId": "top-radar-colreg",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Eftersom bådas kurs/fart kan ändras, vilket förändrar CPA/TCPA och risken",
+          "isCorrect": true
+        },
+        {
+          "text": "Det är inte nödvändigt — en bedömning gäller för resten av mötet",
+          "isCorrect": false
+        },
+        {
+          "text": "Enbart för att uppfylla dokumentationskrav i skeppsdagboken",
+          "isCorrect": false
+        },
+        {
+          "text": "Bara om det andra fartyget är större än eget fartyg",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Kollisionsriskbedömning är ingen engångskontroll — varje ändring av endera fartygets kurs eller fart kan göra en tidigare säker CPA/TCPA till en ny, utvecklande risk. Övervakningen måste fortsätta genom hela mötet.",
+      "explanationEn": "Any change in either vessel's course or speed can turn a previously safe CPA/TCPA into a new risk, so monitoring must continue.",
+      "theoryAnchor": "radar/kollision",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Varför är kontinuerlig radar-/ARPA-övervakning viktig även efter att ett fartyg redan bedömts inte utgöra en risk?"
+      }
+    }
+  ]
+}

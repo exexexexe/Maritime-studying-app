@@ -1,0 +1,226 @@
+{
+  "topicId": "top-vhf-disciplin",
+  "items": [
+    {
+      "id": "vhf-dis-001",
+      "topicId": "top-vhf-disciplin",
+      "tracks": [
+        "vhf",
+        "klass8",
+        "kustskeppare",
+        "forarintyg"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Att radion ska vara påslagen och lyssna på nöd-/anropskanalen medan fartyget är till sjöss",
+          "isCorrect": true
+        },
+        {
+          "text": "Att en besättningsmedlem fysiskt måste sitta vid radion dygnet runt utan avbrott",
+          "isCorrect": false
+        },
+        {
+          "text": "Att radion bara behöver vara på under dagtid",
+          "isCorrect": false
+        },
+        {
+          "text": "Att lyssningsvakt enbart krävs i hamn, inte till sjöss",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Lyssningsvakt innebär att radion ska hållas påslagen och lyssna på relevant nöd-/anropskanal (numera ofta automatiskt via DSC på kanal 70) medan fartyget är i drift till sjöss — inte att någon manuellt måste övervaka den konstant.",
+      "explanationEn": "A listening watch means the radio stays on and monitors the distress/calling channel while under way.",
+      "theoryAnchor": "vhf/disciplin",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vad innebär kravet på \"lyssningsvakt\" för ett fartyg som för VHF-radio ombord?"
+      }
+    },
+    {
+      "id": "vhf-dis-002",
+      "topicId": "top-vhf-disciplin",
+      "tracks": [
+        "vhf",
+        "klass8",
+        "kustskeppare",
+        "forarintyg"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Att sända falska eller vilseledande nöd-, il- eller säkerhetssignaler",
+          "isCorrect": true
+        },
+        {
+          "text": "Att kort bekräfta mottagning av ett rutinanrop på arbetskanal",
+          "isCorrect": false
+        },
+        {
+          "text": "Att kontakta en kuststation för väderinformation",
+          "isCorrect": false
+        },
+        {
+          "text": "Att svara på ett anrop från ett fartyg av annan nationalitet",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Falska nöd-, il- eller säkerhetsanrop är strängt förbjudna och allvarligt bestraffade — de kan avleda verklig räddningsinsats och kostar liv.",
+      "explanationEn": "Transmitting false distress, urgency, or safety signals is strictly prohibited.",
+      "theoryAnchor": "vhf/disciplin",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vilket av följande är ett exempel på förbjuden radiotrafik enligt internationella regler?"
+      }
+    },
+    {
+      "id": "vhf-dis-003",
+      "topicId": "top-vhf-disciplin",
+      "tracks": [
+        "vhf",
+        "klass8",
+        "kustskeppare",
+        "forarintyg"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Hålla sändningarna korta och tydliga så att kanalen inte upptas i onödan och andra kan komma fram",
+          "isCorrect": true
+        },
+        {
+          "text": "Sända så länge som möjligt för att vara säker på att allt uppfattas",
+          "isCorrect": false
+        },
+        {
+          "text": "Sändningstiden är obegränsad så länge det gäller säkerhetsrelaterad information",
+          "isCorrect": false
+        },
+        {
+          "text": "Längden på sändningen spelar ingen roll för andra användare av kanalen",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Korta, tydliga meddelanden är god radiodisciplin — kanalen är en delad resurs, och långa sändningar hindrar andra (inklusive eventuell nödtrafik) från att komma fram.",
+      "explanationEn": "Keep transmissions short and clear so the shared channel stays available for others.",
+      "theoryAnchor": "vhf/disciplin",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vad bör du tänka på gällande sändningstid (hur länge du pratar i taget) på VHF?"
+      }
+    },
+    {
+      "id": "vhf-dis-004",
+      "topicId": "top-vhf-disciplin",
+      "tracks": [
+        "vhf",
+        "klass8",
+        "kustskeppare",
+        "forarintyg"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "För att undvika att sända samtidigt som någon annan och förstöra båda sändningarna",
+          "isCorrect": true
+        },
+        {
+          "text": "Det är bara en artighetsregel utan teknisk betydelse",
+          "isCorrect": false
+        },
+        {
+          "text": "För att kontrollera att radion är rätt inställd på kanal 16",
+          "isCorrect": false
+        },
+        {
+          "text": "För att mäta signalstyrkan innan sändning",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "VHF-radio kan i regel bara sända eller ta emot åt gången på samma kanal (simplex/halvduplex) — sänder två samtidigt \"krockar\" sändningarna och ingen hörs tydligt. Att lyssna först undviker detta.",
+      "explanationEn": "Listening first avoids two stations transmitting simultaneously and garbling each other on a shared channel.",
+      "theoryAnchor": "vhf/disciplin",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Varför är det viktigt att lyssna av en kanal innan du börjar sända på den?"
+      }
+    },
+    {
+      "id": "vhf-dis-005",
+      "topicId": "top-vhf-disciplin",
+      "tracks": [
+        "vhf",
+        "klass8",
+        "kustskeppare"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Att bara inleda anrop eller nöd-/il-/säkerhetstrafik där, sedan lämna kanalen",
+          "isCorrect": true
+        },
+        {
+          "text": "Att kanal 16 aldrig får användas för något överhuvudtaget",
+          "isCorrect": false
+        },
+        {
+          "text": "Att bara kuststationer får sända på kanal 16",
+          "isCorrect": false
+        },
+        {
+          "text": "Att kanal 16 enbart är aktiv under kontorstid",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Kanal 16 ska användas för att inleda kontakt eller för nöd-/il-/säkerhetstrafik — därefter flyttar rutinsamtal till en arbetskanal, så att kanal 16 alltid är tillgänglig för nästa anrop eller en nödsituation.",
+      "explanationEn": "Channel 16 is for initiating contact or distress/urgency/safety traffic, then routine calls move elsewhere.",
+      "theoryAnchor": "vhf/disciplin",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vad innebär det praktiskt att kanal 16 ska \"hållas fri\"?"
+      }
+    },
+    {
+      "id": "vhf-dis-006",
+      "topicId": "top-vhf-disciplin",
+      "tracks": [
+        "vhf",
+        "klass8",
+        "kustskeppare",
+        "forarintyg"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Lägsta effekt som ger säker förbindelse, oftast 1 W",
+          "isCorrect": true
+        },
+        {
+          "text": "Alltid full effekt, 25 W",
+          "isCorrect": false
+        },
+        {
+          "text": "Effekten spelar ingen roll för andra stationer",
+          "isCorrect": false
+        },
+        {
+          "text": "Halv effekt, oavsett avstånd",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Lägsta effekt som räcker (ofta 1 W på korta avstånd) minskar störningarna för andra stationer som delar samma kanaler på andra håll. Full effekt (25 W) sparas för längre avstånd och nödtrafik.",
+      "explanationEn": "Use the lowest power that gives reliable contact — usually 1 W at short range — to limit interference for others.",
+      "theoryAnchor": "vhf/disciplin",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vilken sändareffekt bör normalt användas vid vanlig trafik på korta avstånd, till exempel inomskärs?"
+      }
+    }
+  ]
+}

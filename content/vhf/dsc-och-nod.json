@@ -51,6 +51,80 @@
       "theoryAnchor": "vhf/dsc-nod",
       "authorReviewed": false,
       "payload": { "questionSv": "Du har tryckt in DSC-nödlarmet. Vad gör du därefter?" }
+    },
+    {
+      "id": "vhf-dsc-004",
+      "topicId": "top-vhf-dsc",
+      "tracks": ["vhf", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Nio siffror", "isCorrect": true },
+        { "text": "Sex siffror", "isCorrect": false },
+        { "text": "Tolv siffror", "isCorrect": false },
+        { "text": "Åtta siffror", "isCorrect": false }
+      ],
+      "explanationSv": "MMSI (Maritime Mobile Service Identity) är alltid niosiffrigt. De första siffrorna anger vilket land radiostationen är registrerad i.",
+      "explanationEn": "An MMSI is always nine digits; the leading digits identify the country of registration.",
+      "theoryAnchor": "vhf/mmsi",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": { "questionSv": "Hur många siffror består ett MMSI-nummer av?" }
+    },
+    {
+      "id": "vhf-dsc-005",
+      "topicId": "top-vhf-dsc",
+      "tracks": ["vhf", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Att kunna sända digitala anrop, inklusive nödlarm, till en station eller till alla", "isCorrect": true },
+        { "text": "Att automatiskt boosta sändareffekten vid dåligt väder", "isCorrect": false },
+        { "text": "Att kryptera all röstkommunikation mellan fartyg", "isCorrect": false },
+        { "text": "Att ersätta behovet av en fungerande VHF-antenn", "isCorrect": false }
+      ],
+      "explanationSv": "DSC låter radion sända och ta emot strukturerade digitala anrop — bland annat nödlarm med automatiskt inkodad position och MMSI — utan att någon behöver tala. Det talade meddelandet följer sedan på kanal 16.",
+      "explanationEn": "DSC lets the radio send/receive structured digital calls, including distress alerts with position and MMSI, without voice.",
+      "theoryAnchor": "vhf/dsc",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": { "questionSv": "Vad är huvudsyftet med DSC (Digital Selective Calling)?" }
+    },
+    {
+      "id": "vhf-dsc-006",
+      "topicId": "top-vhf-dsc",
+      "tracks": ["vhf", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Att ange mottagarens MMSI, så att bara den stationen larmar", "isCorrect": true },
+        { "text": "Att sända anropet med extra hög effekt mot en riktning", "isCorrect": false },
+        { "text": "Att endast kuststationer kan ta emot anropet", "isCorrect": false },
+        { "text": "Att anropet automatiskt blir ett nödanrop", "isCorrect": false }
+      ],
+      "explanationSv": "Ett riktat DSC-anrop adresseras till en specifik MMSI — bara den stationen reagerar med larmsignal, till skillnad från ett gruppanrop eller allanrop.",
+      "explanationEn": "A directed DSC call addresses a specific MMSI, so only that station alerts.",
+      "theoryAnchor": "vhf/dsc",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": { "questionSv": "Vad innebär det att göra ett riktat DSC-rutinanrop till ett specifikt fartyg?" }
+    },
+    {
+      "id": "vhf-dsc-007",
+      "topicId": "top-vhf-dsc",
+      "tracks": ["vhf", "klass8"],
+      "type": "mcq",
+      "options": [
+        { "text": "Så att sjöräddningen vid ett nödlarm direkt kan se vilket fartyg, storlek och kontaktuppgifter det gäller", "isCorrect": false },
+        { "text": "Så att sjöräddningen vid ett nödlarm direkt kan koppla MMSI-numret till fartygsuppgifter och relevanta kontaktpersoner", "isCorrect": true },
+        { "text": "Det är enbart ett administrativt krav utan betydelse vid en verklig nödsituation", "isCorrect": false },
+        { "text": "Så att fartyget kan undvika avgifter för radiolicensen", "isCorrect": false }
+      ],
+      "explanationSv": "Vid ett DSC-nödlarm skickas bara MMSI-numret (plus ev. position). Utan en korrekt ifylld MMSI-databaspost vet inte sjöräddningen vilket fartyg det gäller eller vem de kan kontakta för mer information.",
+      "explanationEn": "Registering MMSI details correctly means rescue services can identify the vessel behind an alert.",
+      "theoryAnchor": "vhf/mmsi",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": { "questionSv": "Varför bör MMSI-numret och fartygsuppgifterna registreras korrekt i en databas när en DSC-radio installeras?" },
+      "needsReview": true,
+      "needsReviewNote": "Exact registry/authority for MMSI records varies by country (in Sweden this ties to PTS registration) — verify the precise Swedish administrative detail before treating the first option as unambiguously wrong; the conceptual point (rescue services need the linked data) is solid."
     }
   ]
 }

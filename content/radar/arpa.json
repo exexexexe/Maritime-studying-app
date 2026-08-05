@@ -1,0 +1,345 @@
+{
+  "topicId": "top-radar-arpa",
+  "items": [
+    {
+      "id": "radar-arpa-001",
+      "topicId": "top-radar-arpa",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Att automatiskt spåra andra fartygs rörelser via radarekon och beräkna risk för kollision",
+          "isCorrect": true
+        },
+        {
+          "text": "Att automatiskt styra fartyget för att undvika kollision utan mänsklig inblandning",
+          "isCorrect": false
+        },
+        {
+          "text": "Att förstärka radarsignalen så att räckvidden ökar",
+          "isCorrect": false
+        },
+        {
+          "text": "Att ersätta behovet av utkik enligt sjövägsreglerna",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "ARPA spårar radarmål automatiskt över tid och beräknar deras relativa rörelse — kurs, fart, CPA, TCPA — som stöd för kollisionsriskbedömning. Det är ett beslutsstöd, inte en autopilot, och ersätter aldrig kravet på utkik.",
+      "explanationEn": "ARPA automatically tracks radar targets and computes CPA/TCPA to support collision-risk assessment — a decision aid, not an autopilot.",
+      "theoryAnchor": "radar/arpa",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vad är ARPA (Automatic Radar Plotting Aid) till för?"
+      }
+    },
+    {
+      "id": "radar-arpa-002",
+      "topicId": "top-radar-arpa",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Closest Point of Approach — kortaste avstånd ett annat fartyg beräknas passera på",
+          "isCorrect": true
+        },
+        {
+          "text": "Course Plotting Angle — vinkeln mellan två fartygs kurser",
+          "isCorrect": false
+        },
+        {
+          "text": "Central Position Alarm — larm när eget fartyg avviker från kursen",
+          "isCorrect": false
+        },
+        {
+          "text": "Collision Prevention Area — ett skyddsområde runt eget fartyg",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "CPA = Closest Point of Approach: det beräknade minsta avståndet ett spårat mål kommer att passera på, givet att nuvarande relativa rörelse fortsätter oförändrad.",
+      "explanationEn": "CPA is the predicted minimum distance a tracked target will pass at, based on current relative motion.",
+      "theoryAnchor": "radar/arpa",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vad står förkortningen CPA för inom radarnavigering?"
+      }
+    },
+    {
+      "id": "radar-arpa-003",
+      "topicId": "top-radar-arpa",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Tiden tills det beräknade minsta avståndet uppnås",
+          "isCorrect": true
+        },
+        {
+          "text": "Target Course Prediction Angle",
+          "isCorrect": false
+        },
+        {
+          "text": "Total Collision Probability Assessment",
+          "isCorrect": false
+        },
+        {
+          "text": "True Course and Position Analysis",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "TCPA är tiden som återstår tills CPA uppnås, givet att den nuvarande relativa rörelsen fortsätter oförändrad.",
+      "explanationEn": "TCPA is the time remaining until CPA is reached, assuming current relative motion continues.",
+      "theoryAnchor": "radar/arpa",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vad står förkortningen TCPA för?"
+      }
+    },
+    {
+      "id": "radar-arpa-004",
+      "topicId": "top-radar-arpa",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Riktningen och farten som målet rör sig med i förhållande till eget fartyg, inte dess sanna kurs och fart",
+          "isCorrect": true
+        },
+        {
+          "text": "Målets sanna kurs och fart genom vattnet, oberoende av eget fartygs rörelse",
+          "isCorrect": false
+        },
+        {
+          "text": "Målets exakta position om fem minuter, garanterat",
+          "isCorrect": false
+        },
+        {
+          "text": "Enbart målets avstånd från eget fartyg, ingen riktning",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Den relativa vektorn visar hur målet rör sig i förhållande till eget fartyg — den kan peka rakt mot eget fartyg även om målet självt inte styr dit. Sann rörelsevektor (true vector) visar i stället vardera fartygs faktiska kurs och fart.",
+      "explanationEn": "The relative-motion vector shows the target's motion relative to own ship, not its true course/speed — that's what the true vector shows instead.",
+      "theoryAnchor": "radar/arpa",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vad visar ett fartygs relativa rörelsevektor (relative vector) på en ARPA-bild?"
+      }
+    },
+    {
+      "id": "radar-arpa-005",
+      "topicId": "top-radar-arpa",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Att målet är på kollisionskurs med eget fartyg om ingendera ändrar kurs eller fart",
+          "isCorrect": true
+        },
+        {
+          "text": "Att målet definitivt kommer att väja automatiskt",
+          "isCorrect": false
+        },
+        {
+          "text": "Att målet befinner sig utanför radarns räckvidd",
+          "isCorrect": false
+        },
+        {
+          "text": "Att det måste vara ett fast landmärke, inte ett fartyg",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En relativ vektor riktad mot eget fartyg tillsammans med sjunkande CPA är ARPA:s klassiska varningstecken för utvecklande kollisionsrisk — åtgärd bör övervägas enligt sjövägsreglerna.",
+      "explanationEn": "A relative vector pointing at own ship with a shrinking CPA is ARPA's classic collision-risk signature.",
+      "theoryAnchor": "radar/arpa",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "En ARPA-vektor pekar rakt mot eget fartyg och CPA sjunker mot noll. Vad indikerar det?"
+      }
+    },
+    {
+      "id": "radar-arpa-006",
+      "topicId": "top-radar-arpa",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Det spårar flera mål samtidigt och uppdaterar CPA/TCPA automatiskt",
+          "isCorrect": true
+        },
+        {
+          "text": "Det kräver ingen korrekt inmatning av egen fart och kurs",
+          "isCorrect": false
+        },
+        {
+          "text": "Det fungerar även när radarn är avstängd",
+          "isCorrect": false
+        },
+        {
+          "text": "Det tar bort behovet av att tillämpa sjövägsreglerna",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Manuell plottning av varje måls relativa rörelse är långsamt och felbenäget i tät trafik. ARPA automatiserar spårningen och uppdaterar CPA/TCPA för flera mål samtidigt.",
+      "explanationEn": "ARPA automates continuous tracking and CPA/TCPA updates for multiple targets, which is hard to keep up with manually in busy traffic.",
+      "theoryAnchor": "radar/arpa",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Varför är ARPA ett viktigt hjälpmedel jämfört med manuell radarplottning i tät trafik?"
+      }
+    },
+    {
+      "id": "radar-arpa-007",
+      "topicId": "top-radar-arpa",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Korrekt inmatning av eget fartygs kurs och fart, till exempel från gyro och fartlogg",
+          "isCorrect": true
+        },
+        {
+          "text": "Att målfartygen har en fungerande AIS-transponder aktiverad",
+          "isCorrect": false
+        },
+        {
+          "text": "Att radarn alltid är inställd i nordstabiliserat läge — annars fungerar inte ARPA alls",
+          "isCorrect": false
+        },
+        {
+          "text": "Inget särskilt — ARPA räknar alltid rätt oavsett indata",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "ARPA beräknar relativ rörelse genom att kombinera spårade mål med eget fartygs kurs/fart-indata. Fel i den indatan (gyro, fartlogg) gör alla CPA/TCPA-värden opålitliga, även om displayen ser säker ut.",
+      "explanationEn": "ARPA needs accurate own-ship course/speed input (gyro, log) — wrong input makes CPA/TCPA unreliable even though the display looks confident.",
+      "theoryAnchor": "radar/arpa",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vad krävs för att ARPA ska kunna beräkna korrekta CPA/TCPA-värden?"
+      }
+    },
+    {
+      "id": "radar-arpa-008",
+      "topicId": "top-radar-arpa",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Att simulera en tänkt kurs-/fartändring på skärmen utan att manövrera",
+          "isCorrect": true
+        },
+        {
+          "text": "Att automatiskt utföra undanmanövern åt befälhavaren",
+          "isCorrect": false
+        },
+        {
+          "text": "Att testa radarns sändareffekt innan avfärd",
+          "isCorrect": false
+        },
+        {
+          "text": "Att öva nödstopp av fartygets maskin",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Trial manoeuvre låter navigatören förhandsgranska hur en planerad kurs-/fartändring skulle påverka CPA/TCPA mot spårade mål, innan ändringen faktiskt genomförs — ett stöd för att välja en effektiv och regelenlig åtgärd.",
+      "explanationEn": "Trial manoeuvre previews how a planned course/speed change would affect CPA/TCPA before it's actually carried out.",
+      "theoryAnchor": "radar/arpa",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vad innebär ARPA:s \"trial manoeuvre\"-funktion (provmanöver)?"
+      }
+    },
+    {
+      "id": "radar-arpa-009",
+      "topicId": "top-radar-arpa",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Sann rörelsevektor (true vector)",
+          "isCorrect": true
+        },
+        {
+          "text": "Relativ rörelsevektor (relative vector)",
+          "isCorrect": false
+        },
+        {
+          "text": "Ingen av vektortyperna visar det — det kräver AIS",
+          "isCorrect": false
+        },
+        {
+          "text": "Huvudvektorn, som alltid är en blandning av båda",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Sanna vektorer visar varje måls faktiska kurs och fart över grund/vatten. Relativa vektorer visar i stället rörelse i förhållande till eget fartyg, mer direkt användbart för kollisionsriskbedömning men utan att avslöja målets verkliga kurs.",
+      "explanationEn": "True vectors show each target's actual course/speed; relative vectors show motion relative to own ship.",
+      "theoryAnchor": "radar/arpa",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vilken typ av vektor väljer du för att se ett annat fartygs faktiska kurs och fart genom vattnet?"
+      }
+    },
+    {
+      "id": "radar-arpa-010",
+      "topicId": "top-radar-arpa",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Nej — full utkik med alla tillgängliga medel krävs fortfarande",
+          "isCorrect": true
+        },
+        {
+          "text": "Ja, ARPA är ett fullgott substitut för mänsklig utkik",
+          "isCorrect": false
+        },
+        {
+          "text": "Endast nattetid behövs utkik utöver ARPA",
+          "isCorrect": false
+        },
+        {
+          "text": "Endast i dåligt väder behövs utkik utöver ARPA",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Precis som radar i övrigt är ARPA ett beslutsstöd, aldrig en ersättning för kravet på fullgod utkik med alla tillgängliga medel.",
+      "explanationEn": "ARPA is a decision aid, never a substitute for a proper lookout by all available means.",
+      "theoryAnchor": "radar/arpa",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Ersätter ARPA behovet av att hålla utkik enligt sjövägsreglerna?"
+      }
+    }
+  ]
+}

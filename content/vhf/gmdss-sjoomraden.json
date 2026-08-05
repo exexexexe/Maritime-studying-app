@@ -1,0 +1,219 @@
+{
+  "topicId": "top-vhf-gmdss",
+  "items": [
+    {
+      "id": "vhf-gmd-001",
+      "topicId": "top-vhf-gmdss",
+      "tracks": [
+        "vhf",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Vilken radioutrustning som krävs beror på kommunikationstäckningen i det havsområde fartyget befinner sig i",
+          "isCorrect": true
+        },
+        {
+          "text": "Indelningen styr enbart vilken flagg fartyget får föra i olika farvatten",
+          "isCorrect": false
+        },
+        {
+          "text": "Indelningen anger fartygets maximalt tillåtna storlek i respektive område",
+          "isCorrect": false
+        },
+        {
+          "text": "Indelningen bestäms av vattendjupet i området, inte av radiotäckning",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "GMDSS delar in världshaven i sjöområden A1–A4 utifrån vilken typ av radiotäckning (kust-VHF, kust-MF, satellit) som finns tillgänglig där. Kravet på ombordutrustning trappas upp ju längre bort från kusttäckning fartyget går.",
+      "explanationEn": "GMDSS sea areas A1–A4 reflect available radio coverage, and required equipment scales up accordingly.",
+      "theoryAnchor": "vhf/gmdss",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vad är den grundläggande principen bakom GMDSS sjöområdesindelning (A1–A4)?"
+      }
+    },
+    {
+      "id": "vhf-gmd-002",
+      "topicId": "top-vhf-gmdss",
+      "tracks": [
+        "vhf",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Området har täckning av en kustbaserad VHF-station med kontinuerlig DSC-larmmöjlighet",
+          "isCorrect": true
+        },
+        {
+          "text": "Området har enbart satellittäckning, ingen kust-VHF",
+          "isCorrect": false
+        },
+        {
+          "text": "Området saknar all radiotäckning",
+          "isCorrect": false
+        },
+        {
+          "text": "Området är begränsat till hamnbassänger och skyddade farvatten",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "A1 är det område närmast kusten som täcks av VHF-kuststationer med DSC — här räcker en VHF-radio med DSC för att uppfylla GMDSS grundkrav.",
+      "explanationEn": "A1 is the area closest to shore covered by VHF coast stations with DSC.",
+      "theoryAnchor": "vhf/gmdss",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vad kännetecknar sjöområde A1 i GMDSS-indelningen?"
+      }
+    },
+    {
+      "id": "vhf-gmd-003",
+      "topicId": "top-vhf-gmdss",
+      "tracks": [
+        "vhf",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "A2 sträcker sig längre ut och täcks av MF-kuststationer i stället för VHF",
+          "isCorrect": true
+        },
+        {
+          "text": "A2 kräver ingen radioutrustning alls ombord",
+          "isCorrect": false
+        },
+        {
+          "text": "A2 är ett landbaserat område, inte till sjöss",
+          "isCorrect": false
+        },
+        {
+          "text": "A1 och A2 är samma område med olika namn",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "A2 ligger utanför VHF-kuststationernas räckvidd men täcks av MF-kuststationer (medelvåg), vilket kräver annan/mer utrustning än enbart VHF.",
+      "explanationEn": "A2 extends beyond VHF coast-station range and is covered by MF stations instead.",
+      "theoryAnchor": "vhf/gmdss",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vad är den huvudsakliga skillnaden mellan sjöområde A1 och A2?"
+      },
+      "needsReview": true,
+      "needsReviewNote": "Conceptual A1/A2 distinction (VHF vs MF coverage) is standard GMDSS material and I'm confident in it, but I've deliberately avoided citing exact nautical-mile range figures for each area since sources vary — verify if the course expects specific mileage numbers."
+    },
+    {
+      "id": "vhf-gmd-004",
+      "topicId": "top-vhf-gmdss",
+      "tracks": [
+        "vhf",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Området täcks av geostationära satelliter men saknar kusttäckning",
+          "isCorrect": true
+        },
+        {
+          "text": "Området är begränsat till Östersjön och Nordsjön",
+          "isCorrect": false
+        },
+        {
+          "text": "Området kräver ingen satellitutrustning alls",
+          "isCorrect": false
+        },
+        {
+          "text": "Området sammanfaller helt med A1",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "A3 täcker större delen av världshaven mellan ungefär 70° nord och 70° syd, där geostationära satelliter (t.ex. Inmarsat) ger täckning men kusttäckning saknas.",
+      "explanationEn": "A3 is covered by geostationary satellites but lacks coastal MF/HF coverage.",
+      "theoryAnchor": "vhf/gmdss",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vad kännetecknar sjöområde A3 i GMDSS-indelningen?"
+      },
+      "needsReview": true,
+      "needsReviewNote": "The ~70°N/70°S latitude bound for geostationary satellite coverage is a figure I recall from general GMDSS material but am not fully certain is precisely correct — verify before treating as authoritative."
+    },
+    {
+      "id": "vhf-gmd-005",
+      "topicId": "top-vhf-gmdss",
+      "tracks": [
+        "vhf",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Området ligger utanför satellit- och kusttäckning och kräver HF-radio",
+          "isCorrect": true
+        },
+        {
+          "text": "Området har bäst radiotäckning av alla fyra sjöområden",
+          "isCorrect": false
+        },
+        {
+          "text": "Området är ett annat namn för hamnområden",
+          "isCorrect": false
+        },
+        {
+          "text": "Området kräver enbart en vanlig VHF-radio",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "A4 är allt som ligger utanför A1–A3, det vill säga i praktiken de polära områdena utan satellittäckning — där krävs HF-radio för säkerhetskommunikation.",
+      "explanationEn": "A4 is everything outside A1–A3 — in practice the polar regions — requiring HF radio.",
+      "theoryAnchor": "vhf/gmdss",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vad kännetecknar sjöområde A4 i GMDSS-indelningen?"
+      }
+    },
+    {
+      "id": "vhf-gmd-006",
+      "topicId": "top-vhf-gmdss",
+      "tracks": [
+        "vhf",
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ju längre från kusten, desto mindre räckvidd har enkel utrustning som VHF, så mer kapabel utrustning krävs",
+          "isCorrect": true
+        },
+        {
+          "text": "Högre sjöområdesnummer innebär lugnare farvatten och därför lägre krav i praktiken",
+          "isCorrect": false
+        },
+        {
+          "text": "Kraven trappas upp enbart av administrativa/avgiftsrelaterade skäl",
+          "isCorrect": false
+        },
+        {
+          "text": "Sjöområdesnumret avgör bara vilket språk som ska användas i radiotrafiken",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "VHF räcker bara nära kusten (A1). Längre ut krävs MF (A2), sedan satellit (A3), och till sist HF i de mest avlägsna områdena (A4) — utrustningskravet följer vilken kommunikationsväg som faktiskt fungerar där.",
+      "explanationEn": "Equipment requirements scale up because simpler gear like VHF has limited range — further out requires MF, satellite, or HF instead.",
+      "theoryAnchor": "vhf/gmdss",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Varför trappas kraven på radioutrustning upp ju högre sjöområdesnummer (A1 → A4) ett fartyg kan komma att befinna sig i?"
+      }
+    }
+  ]
+}

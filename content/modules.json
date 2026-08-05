@@ -54,6 +54,13 @@
     { "id": "top-lan-grund", "moduleId": "mod-lanterns", "slug": "grundlanternor", "titleSv": "Grundlanternor och sektorer", "titleEn": "Basic lights and arcs" },
     { "id": "top-lan-maskin", "moduleId": "mod-lanterns", "slug": "maskindrivna", "titleSv": "Maskindrivna fartyg", "titleEn": "Power-driven vessels" },
     { "id": "top-lan-segel", "moduleId": "mod-lanterns", "slug": "segelfartyg", "titleSv": "Segelfartyg och rodda båtar", "titleEn": "Sailing vessels and rowing boats" },
-    { "id": "top-lan-sarskilda", "moduleId": "mod-lanterns", "slug": "sarskilda-fartyg", "titleSv": "Särskilda fartyg och signaler", "titleEn": "Special vessels and signals" }
+    { "id": "top-lan-sarskilda", "moduleId": "mod-lanterns", "slug": "sarskilda-fartyg", "titleSv": "Särskilda fartyg och signaler", "titleEn": "Special vessels and signals" },
+    { "id": "top-vhf-mayday", "moduleId": "mod-vhf", "slug": "nodanrop-mayday", "titleSv": "Nödanrop — Mayday", "titleEn": "Distress calls — Mayday" },
+    { "id": "top-vhf-il-sakerhet", "moduleId": "mod-vhf", "slug": "il-och-sakerhetsanrop", "titleSv": "Il- och säkerhetsanrop", "titleEn": "Urgency and safety calls" },
+    { "id": "top-vhf-fonetiska", "moduleId": "mod-vhf", "slug": "fonetiska-alfabetet", "titleSv": "Fonetiska alfabetet", "titleEn": "Phonetic alphabet" },
+    { "id": "top-vhf-gmdss", "moduleId": "mod-vhf", "slug": "gmdss-sjoomraden", "titleSv": "GMDSS sjöområden", "titleEn": "GMDSS sea areas" },
+    { "id": "top-vhf-disciplin", "moduleId": "mod-vhf", "slug": "radiodisciplin", "titleSv": "Radiodisciplin", "titleEn": "Radio discipline" },
+    { "id": "top-radar-arpa", "moduleId": "mod-radar", "slug": "arpa-cpa-tcpa", "titleSv": "ARPA och CPA/TCPA", "titleEn": "ARPA and CPA/TCPA" },
+    { "id": "top-radar-colreg", "moduleId": "mod-radar", "slug": "radar-och-kollisionsundvikande", "titleSv": "Radar och kollisionsundvikande", "titleEn": "Radar and collision avoidance" }
   ]
 }

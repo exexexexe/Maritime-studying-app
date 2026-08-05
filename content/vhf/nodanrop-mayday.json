@@ -1,0 +1,265 @@
+{
+  "topicId": "top-vhf-mayday",
+  "items": [
+    {
+      "id": "vhf-may-001",
+      "topicId": "top-vhf-mayday",
+      "tracks": [
+        "vhf",
+        "klass8",
+        "kustskeppare",
+        "forarintyg"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "MAYDAY ×3, fartygets namn ×3, sedan position, nödens art, önskad assistans och antal personer ombord",
+          "isCorrect": true
+        },
+        {
+          "text": "Fartygets namn ×3, MAYDAY ×3, sedan nödens art, position och antal personer ombord",
+          "isCorrect": false
+        },
+        {
+          "text": "MAYDAY sagt en gång, position, fartygets namn, nödens art",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartygets namn ×3, position, MAYDAY ×3, antal personer ombord",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Nödanropet inleds alltid med ordet MAYDAY sagt tre gånger — det gör anropet omedelbart identifierbart som nöd — följt av fartygets namn/anropssignal tre gånger, därefter position, nödens art, vilken hjälp som behövs och antal personer ombord, i den ordningen.",
+      "explanationEn": "The distress call always opens with MAYDAY said three times, then vessel identification, then position, nature of distress, assistance needed, and persons aboard.",
+      "theoryAnchor": "vhf/mayday",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vilken är den korrekta uppbyggnaden av ett muntligt nödanrop (Mayday) på VHF?"
+      }
+    },
+    {
+      "id": "vhf-may-002",
+      "topicId": "top-vhf-mayday",
+      "tracks": [
+        "vhf",
+        "klass8",
+        "kustskeppare",
+        "forarintyg"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "För att omedelbart göra klart att det rör sig om ett nödanrop och skilja det från all annan trafik",
+          "isCorrect": true
+        },
+        {
+          "text": "Det är ett tekniskt krav för att DSC-larmet ska aktiveras automatiskt",
+          "isCorrect": false
+        },
+        {
+          "text": "Så att andra fartyg hinner slå på sina radioapparater",
+          "isCorrect": false
+        },
+        {
+          "text": "För att motsvara de tre blixtarna i en visuell nödsignal",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Den tredubbla upprepningen gör att anropet direkt sticker ut mot brus och annan trafik och omöjligt kan missuppfattas som något annat än ett nödanrop.",
+      "explanationEn": "Saying MAYDAY three times makes the call unmistakable as distress traffic, even over noise or interference.",
+      "theoryAnchor": "vhf/mayday",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Varför sägs ordet MAYDAY tre gånger i början av ett nödanrop?"
+      }
+    },
+    {
+      "id": "vhf-may-003",
+      "topicId": "top-vhf-mayday",
+      "tracks": [
+        "vhf",
+        "klass8",
+        "kustskeppare",
+        "forarintyg"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Kanal 16, den internationella nödkanalen",
+          "isCorrect": true
+        },
+        {
+          "text": "Kanal 70, den digitala DSC-kanalen",
+          "isCorrect": false
+        },
+        {
+          "text": "Kanal 6, en vanlig arbetskanal",
+          "isCorrect": false
+        },
+        {
+          "text": "Den kanal som senast användes för trafik",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Kanal 16 är den internationella nöd-, il- och anropskanalen för röst. Kanal 70 används enbart för digitala DSC-anrop, aldrig för tal.",
+      "explanationEn": "Channel 16 is the international voice distress/urgency/calling channel; channel 70 is DSC-only.",
+      "theoryAnchor": "vhf/mayday",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vilken kanal används normalt för det talade Mayday-anropet?"
+      }
+    },
+    {
+      "id": "vhf-may-004",
+      "topicId": "top-vhf-mayday",
+      "tracks": [
+        "vhf",
+        "klass8",
+        "kustskeppare",
+        "forarintyg"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ange bästa möjliga uppskattning, till exempel bäring/avstånd från ett landmärke",
+          "isCorrect": true
+        },
+        {
+          "text": "Avvakta med anropet tills positionen är helt säkerställd",
+          "isCorrect": false
+        },
+        {
+          "text": "Sända anropet utan att ange någon positionsuppgift alls",
+          "isCorrect": false
+        },
+        {
+          "text": "Vänta på att GPS-mottagaren återfår signal innan anropet sänds",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett nödanrop ska aldrig fördröjas i väntan på en perfekt position — en så god uppskattning som möjligt (död räkning, bäring/avstånd från landmärke) är alltid bättre än ingen alls.",
+      "explanationEn": "Never delay a distress call for a perfect position — give the best available estimate.",
+      "theoryAnchor": "vhf/mayday",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vad bör du göra om du inte känner till fartygets exakta position när ett nödanrop måste sändas?"
+      }
+    },
+    {
+      "id": "vhf-may-005",
+      "topicId": "top-vhf-mayday",
+      "tracks": [
+        "vhf",
+        "klass8",
+        "kustskeppare"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Att avstå från all sändning på den kanal där nödtrafiken pågår, så att den inte störs",
+          "isCorrect": true
+        },
+        {
+          "text": "Att omedelbart byta till en arbetskanal och fortsätta som vanligt där",
+          "isCorrect": false
+        },
+        {
+          "text": "Att sända ett eget kort Mayday för att bekräfta att man har hört meddelandet",
+          "isCorrect": false
+        },
+        {
+          "text": "Att stänga av radion helt tills nödtrafiken är avslutad",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Radiotystnad innebär att inte sända något på den berörda kanalen — inte att stänga av radion, som fortfarande behöver vara påslagen för att lyssna och kunna bistå om det behövs.",
+      "explanationEn": "Radio silence means not transmitting on that channel, not switching the radio off — you keep listening.",
+      "theoryAnchor": "vhf/mayday",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vad innebär det att fartyg som inte kan bistå ska hålla \"radiotystnad\" under pågående nödtrafik?"
+      }
+    },
+    {
+      "id": "vhf-may-006",
+      "topicId": "top-vhf-mayday",
+      "tracks": [
+        "vhf",
+        "klass8",
+        "kustskeppare"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Fartyget i nöd, eller den station som leder/koordinerar nödtrafiken",
+          "isCorrect": true
+        },
+        {
+          "text": "Vilken station som helst som råkar höra anropet",
+          "isCorrect": false
+        },
+        {
+          "text": "Endast en kustradiostation, aldrig ett fartyg",
+          "isCorrect": false
+        },
+        {
+          "text": "Endast sjöräddningscentralen efter en formell begäran",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Fartyget i nöd, eller den station (fartyg eller kust) som tagit ledningen av nödtrafiken, kan beordra radiotystnad för att hålla kanalen fri för det som är relevant.",
+      "explanationEn": "The distress vessel, or the station controlling distress traffic, may impose silence.",
+      "theoryAnchor": "vhf/mayday",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vem kan beordra radiotystnad (\"Seelonce Mayday\") i pågående nödtrafik?"
+      },
+      "needsReview": true,
+      "needsReviewNote": "Confident on the general ITU convention that the distress vessel or controlling station can impose silence, but the precise formal authority (and exact procedural wording taught in the Swedish SRC course) should be checked against the course material before marking reviewed."
+    },
+    {
+      "id": "vhf-may-007",
+      "topicId": "top-vhf-mayday",
+      "tracks": [
+        "vhf",
+        "klass8",
+        "kustskeppare"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Att nödtrafiken är helt avslutad och normal radiotrafik kan återupptas",
+          "isCorrect": true
+        },
+        {
+          "text": "Att ett nytt nödanrop är på väg att sändas",
+          "isCorrect": false
+        },
+        {
+          "text": "Att endast kuststationer får sända vidare på kanalen",
+          "isCorrect": false
+        },
+        {
+          "text": "Att fartyget i nöd har bytt till en arbetskanal",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "\"Seelonce Feenee\" (av franskans \"silence fini\") upphäver radiotystnaden helt — nödtrafiken är avslutad och normal trafik på kanalen kan återupptas.",
+      "explanationEn": "\"Seelonce Feenee\" cancels the radio silence — distress traffic has ended and normal use may resume.",
+      "theoryAnchor": "vhf/mayday",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vad innebär signalen \"Seelonce Feenee\" i nödtrafik?"
+      },
+      "needsReview": true,
+      "needsReviewNote": "The term itself and its meaning are standard ITU distress-traffic terminology, but I'm less certain about exact spelling/pronunciation conventions taught in the Swedish SRC syllabus — verify wording before marking reviewed."
+    }
+  ]
+}

@@ -204,6 +204,282 @@
       },
       "needsReview": true,
       "needsReviewNote": "Var chart_question med platshållarbild som saknas — konverterad till mcq; lägg till riktig radar-/sjökortsbild och byt tillbaka typen."
+    },
+    {
+      "id": "radar-targets-007",
+      "topicId": "top-radar-storningar",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Att radarstrålen blockeras av föremålet, så att mål bakom det ger svagare eller inget eko",
+          "isCorrect": true
+        },
+        {
+          "text": "Att radarantennen roterar för långsamt i det området",
+          "isCorrect": false
+        },
+        {
+          "text": "Att mål bakom föremålet rör sig för snabbt för att fångas",
+          "isCorrect": false
+        },
+        {
+          "text": "Att sjöstatet stör radarn särskilt mycket i just den riktningen",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En stor konstruktion nära antennen blockerar fysiskt radarstrålen i den riktningen, vilket skapar ett sektorsområde med försvagade eller uteblivna ekon — en känd begränsning att kompensera för med utkik.",
+      "explanationEn": "A large obstruction near the antenna physically blocks the beam, weakening or eliminating echoes in that sector.",
+      "theoryAnchor": "radar/storningar",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vad orsakar en \"skugga\" (shadow sector) på radarbilden bakom ett stort föremål nära eget fartygs antenn, till exempel en skorsten?"
+      }
+    },
+    {
+      "id": "radar-targets-008",
+      "topicId": "top-radar-storningar",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ett vinkelområde, oftast fartygets egen struktur, där strålen är helt blockerad",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett område där radarn medvetet stängs av för att spara ström",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett område där enbart stora fartyg syns, inte små",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett område som bara uppstår vid nedsatt sikt",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En blind sektor innebär total blockering — oftast av fartygets egen struktur — så att inga ekon alls tas emot därifrån, till skillnad från en skuggsektor där ekona bara försvagas.",
+      "explanationEn": "A blind sector is total blockage, usually from the ship's own structure — no echoes at all from that direction.",
+      "theoryAnchor": "radar/storningar",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vad är en \"blind sektor\" hos en radarantenn?"
+      },
+      "needsReview": true,
+      "needsReviewNote": "I'm distinguishing 'blind sector' (total blockage) from 'shadow sector' (partial attenuation) as two separate terms — some sources use these interchangeably or with different boundaries. Verify this distinction matches the course's terminology before treating it as settled."
+    },
+    {
+      "id": "radar-targets-009",
+      "topicId": "top-radar-storningar",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Reflektioner från vågtoppar nära fartyget, särskilt vid grov sjö",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett fel i radarns strömförsörjning",
+          "isCorrect": false
+        },
+        {
+          "text": "Att radarn är feljusterad för långdistansmål",
+          "isCorrect": false
+        },
+        {
+          "text": "Att andra fartygs radarapparater stör varandra",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Sjöhävning kommer från radarreflektioner mot vågtoppar nära eget fartyg, särskilt i grov sjö. En sjöhävningsdämpning (sea clutter control) minskar den, men för mycket dämpning kan också dölja verkliga små mål nära fartyget.",
+      "explanationEn": "Sea clutter comes from radar reflections off nearby wave crests, especially in rough seas.",
+      "theoryAnchor": "radar/storningar",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vad orsakar sjöhävning (sea clutter) som syns som ett moln av falska ekon nära eget fartyg på radarbilden?"
+      }
+    },
+    {
+      "id": "radar-targets-010",
+      "topicId": "top-radar-storningar",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Att verkliga, svaga ekon nära fartyget döljs tillsammans med clutter",
+          "isCorrect": true
+        },
+        {
+          "text": "Att radarns räckvidd minskar drastiskt över hela skärmen",
+          "isCorrect": false
+        },
+        {
+          "text": "Att radarn slutar visa långdistansmål helt",
+          "isCorrect": false
+        },
+        {
+          "text": "Att skärmens ljusstyrka minskar automatiskt",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Sjöhävningsdämpning minskar känsligheten nära fartyget. Ställs den in för aggressivt kan den dölja riktiga svaga mål tillsammans med vågclutter — en farlig blind fläck nära eget fartyg.",
+      "explanationEn": "Overly aggressive sea-clutter suppression can hide real weak targets close to the ship along with the wave clutter.",
+      "theoryAnchor": "radar/storningar",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vad är risken med att ställa in sjöhävningsdämpningen (sea clutter) för högt?"
+      }
+    },
+    {
+      "id": "radar-targets-011",
+      "topicId": "top-radar-storningar",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Reflektioner från nederbörd, dämpbara med regnhävningsinställningen",
+          "isCorrect": true
+        },
+        {
+          "text": "Reflektioner från havsbottnen, som inte går att dämpa alls",
+          "isCorrect": false
+        },
+        {
+          "text": "En elektrisk urladdning i antennen som kräver service",
+          "isCorrect": false
+        },
+        {
+          "text": "En störning som bara uppstår nattetid",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Nederbörd reflekterar radarenergi och stör bilden, likt sjöhävning men uppifrån. Regnhävningsinställningen minskar effekten, med samma avvägning: för mycket dämpning kan försvaga verkliga ekon.",
+      "explanationEn": "Precipitation reflects radar energy; the rain-clutter control reduces it with a similar tradeoff to sea clutter.",
+      "theoryAnchor": "radar/storningar",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vad orsakar regnstörning (rain clutter) på radarbilden?"
+      }
+    },
+    {
+      "id": "radar-targets-012",
+      "topicId": "top-radar-storningar",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ett eko som kommer tillbaka efter nästa puls och visas på fel, för kort, avstånd",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett eko som bara uppstår från metallfartyg, aldrig från land",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett dubbelt eko som alltid visar målet på rätt avstånd men fel bäring",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett eko som uppstår när två radarapparater av samma fabrikat används ombord",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Är ett mål tillräckligt långt bort kan dess eko hinna komma tillbaka efter att nästa puls redan sänts — radarn misstolkar då tidmätningen och plottar målet på ett felaktigt, för kort avstånd.",
+      "explanationEn": "If a target is far enough away, its echo can return after the next pulse, causing the radar to plot it at an incorrect, shorter range.",
+      "theoryAnchor": "radar/storningar",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vad är en \"andrastegseko\" (second-trace echo) och varför kan den vara missvisande?"
+      },
+      "needsReview": true,
+      "needsReviewNote": "Second-trace echo is a real, standard radar phenomenon, but it's a more obscure topic — verify the explanation matches the level/framing the course expects before marking reviewed."
+    },
+    {
+      "id": "radar-targets-013",
+      "topicId": "top-radar-storningar",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Deras radartvärsnitt är för litet för ett tillräckligt starkt eko",
+          "isCorrect": true
+        },
+        {
+          "text": "Radarn kan bara upptäcka mål av metall, aldrig annat material",
+          "isCorrect": false
+        },
+        {
+          "text": "Radarn har en lägsta hastighetsgräns för mål den kan visa",
+          "isCorrect": false
+        },
+        {
+          "text": "Sådana mål ger alltid ett starkare eko än stora fartyg på grund av formen",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Hur mycket energi ett mål reflekterar (dess radartvärsnitt) beror på storlek, form och material. Små, låga, icke-metalliska föremål reflekterar lite och kan drunkna i bakgrundsbrus — därför är radar ensam opålitlig för att hitta en person i vattnet.",
+      "explanationEn": "A target's radar cross-section depends on size, shape, and material — small, low, non-metallic objects reflect little and can be lost in background noise.",
+      "theoryAnchor": "radar/storningar",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Varför kan mycket små eller lågt liggande mål, till exempel en person i vattnet, vara svåra att upptäcka på radar även i lugnt väder?"
+      }
+    },
+    {
+      "id": "radar-targets-014",
+      "topicId": "top-radar-storningar",
+      "tracks": [
+        "klass8"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Ett falskt eko som studsat via en reflekterande yta och visas på fel bäring",
+          "isCorrect": true
+        },
+        {
+          "text": "Ett eko som visar målets verkliga position men med fel färg på skärmen",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett eko som bara syns när radarn är i norrstabiliserat läge",
+          "isCorrect": false
+        },
+        {
+          "text": "Ett eko som uppstår enbart vid mycket god sikt",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett indirekt eko studsar via en närliggande reflekterande yta — ofta fartygets egen överbyggnad — innan det når det verkliga målet, så det falska ekot hamnar på fel bäring, ibland till synes \"inuti\" ett fast hinder.",
+      "explanationEn": "An indirect echo bounces off a nearby reflective surface before reaching the real target, appearing at the wrong bearing.",
+      "theoryAnchor": "radar/storningar",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vad innebär \"indirekt eko\" (spegeleko) på en radarbild?"
+      }
     }
   ]
 }

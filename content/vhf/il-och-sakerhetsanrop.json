@@ -1,0 +1,221 @@
+{
+  "topicId": "top-vhf-il-sakerhet",
+  "items": [
+    {
+      "id": "vhf-ils-001",
+      "topicId": "top-vhf-il-sakerhet",
+      "tracks": [
+        "vhf",
+        "klass8",
+        "kustskeppare"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Vid ett allvarligt problem utan omedelbar fara, som maskinhaveri",
+          "isCorrect": true
+        },
+        {
+          "text": "Vid varje form av tekniskt fel, oavsett allvarlighetsgrad",
+          "isCorrect": false
+        },
+        {
+          "text": "När fartyget är i omedelbar fara och behöver hjälp genast",
+          "isCorrect": false
+        },
+        {
+          "text": "Vid rena väderupplysningar till andra fartyg",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Pan-Pan (il) signalerar ett allvarligt problem — till exempel motorstopp i drift, en person som skadats men inte är i livsfara — som inte utgör en omedelbar fara för fartyg eller liv. Är faran omedelbar används Mayday i stället.",
+      "explanationEn": "Pan-Pan signals a serious problem that isn't an immediate threat to the vessel or life — Mayday is used when it is.",
+      "theoryAnchor": "vhf/panpan-securite",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "När används signalordet Pan-Pan (ilmeddelande) i stället för Mayday?"
+      }
+    },
+    {
+      "id": "vhf-ils-002",
+      "topicId": "top-vhf-il-sakerhet",
+      "tracks": [
+        "vhf",
+        "klass8",
+        "kustskeppare"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Sécurité",
+          "isCorrect": true
+        },
+        {
+          "text": "Pan-Pan",
+          "isCorrect": false
+        },
+        {
+          "text": "Mayday",
+          "isCorrect": false
+        },
+        {
+          "text": "Seelonce",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Sécurité inleder säkerhetsmeddelanden — navigationsvarningar, viktiga väderomslag, drivande föremål — som inte gäller en pågående nöd- eller ilsituation utan är förebyggande information till andra sjöfarande.",
+      "explanationEn": "Sécurité prefixes safety messages such as navigational warnings, not an ongoing distress or urgency.",
+      "theoryAnchor": "vhf/panpan-securite",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vilket signalord inleder ett säkerhetsmeddelande, till exempel en navigationsvarning om ett drivande föremål?"
+      }
+    },
+    {
+      "id": "vhf-ils-003",
+      "topicId": "top-vhf-il-sakerhet",
+      "tracks": [
+        "vhf",
+        "klass8",
+        "kustskeppare"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Samma grundstruktur men inleds med \"Pan-Pan\" ×3 i stället för \"Mayday\" ×3",
+          "isCorrect": true
+        },
+        {
+          "text": "Pan-Pan kräver ingen positionsangivelse alls",
+          "isCorrect": false
+        },
+        {
+          "text": "Pan-Pan sänds alltid på arbetskanal, aldrig på kanal 16",
+          "isCorrect": false
+        },
+        {
+          "text": "Pan-Pan får bara sändas av en kustradiostation, aldrig av ett fartyg",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Strukturen är densamma som för Mayday — signalord ×3, identifiering, position, meddelande — bara allvarlighetsgraden (och därmed vilket ord som används) skiljer.",
+      "explanationEn": "Pan-Pan follows the same structure as Mayday, just with a different opening word reflecting lower urgency.",
+      "theoryAnchor": "vhf/panpan-securite",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Hur skiljer sig ett Pan-Pan-anrop strukturellt från ett Mayday-anrop?"
+      }
+    },
+    {
+      "id": "vhf-ils-004",
+      "topicId": "top-vhf-il-sakerhet",
+      "tracks": [
+        "vhf",
+        "klass8",
+        "kustskeppare"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Att varna andra fartyg om att en boj i farleden slitit sig och driver fritt",
+          "isCorrect": true
+        },
+        {
+          "text": "Att larma om att ett fartyg sjunker och besättningen måste evakueras",
+          "isCorrect": false
+        },
+        {
+          "text": "Att be om bogsering efter ett maskinhaveri utan omedelbar fara",
+          "isCorrect": false
+        },
+        {
+          "text": "Att kalla på läkarhjälp åt en svårt skadad person ombord",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "En drivande, farlig boj är exakt den typ av navigationsfara Sécurité är till för att varna om. De andra exemplen är nöd- respektive ilsituationer (Mayday/Pan-Pan).",
+      "explanationEn": "A drifting hazard buoy is a navigational-warning example — exactly what Sécurité is for.",
+      "theoryAnchor": "vhf/panpan-securite",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vilket av följande är ett korrekt exempel på när Sécurité ska användas?"
+      }
+    },
+    {
+      "id": "vhf-ils-005",
+      "topicId": "top-vhf-il-sakerhet",
+      "tracks": [
+        "vhf",
+        "klass8",
+        "kustskeppare"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Kanal 16, precis som för Mayday",
+          "isCorrect": true
+        },
+        {
+          "text": "En slumpmässig arbetskanal",
+          "isCorrect": false
+        },
+        {
+          "text": "Kanal 70, eftersom det inte är en akut nödsituation",
+          "isCorrect": false
+        },
+        {
+          "text": "Ingen radiokanal — sådana meddelanden sänds bara via DSC",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Både Pan-Pan och Sécurité inleds på kanal 16 (eller signaleras via DSC med rätt kategori), precis som Mayday — det är signalordet, inte kanalen, som anger allvarlighetsgraden.",
+      "explanationEn": "Pan-Pan and Sécurité are also initiated on channel 16, like Mayday — the urgency word signals the severity, not the channel.",
+      "theoryAnchor": "vhf/panpan-securite",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vilken kanal används normalt för att inleda ett Pan-Pan- eller Sécurité-anrop?"
+      }
+    },
+    {
+      "id": "vhf-ils-006",
+      "topicId": "top-vhf-il-sakerhet",
+      "tracks": [
+        "vhf",
+        "klass8",
+        "kustskeppare"
+      ],
+      "type": "mcq",
+      "options": [
+        {
+          "text": "Graden av fara, från omedelbart livshotande till rent förebyggande information",
+          "isCorrect": true
+        },
+        {
+          "text": "Vilken typ av fartyg som får använda respektive signalord",
+          "isCorrect": false
+        },
+        {
+          "text": "Hur långt meddelandet får vara i antal ord",
+          "isCorrect": false
+        },
+        {
+          "text": "Vilken tid på dygnet respektive signalord får användas",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Hierarkin speglar allvarlighetsgraden: Mayday = omedelbar fara för liv eller fartyg, Pan-Pan = allvarligt problem utan omedelbar fara, Sécurité = information som förebygger fara för andra.",
+      "explanationEn": "The hierarchy reflects severity: Mayday is immediate danger, Pan-Pan is serious but not immediately life-threatening, Sécurité is preventive safety information.",
+      "theoryAnchor": "vhf/panpan-securite",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "payload": {
+        "questionSv": "Vad är den viktigaste skillnaden mellan Mayday, Pan-Pan och Sécurité?"
+      }
+    }
+  ]
+}
