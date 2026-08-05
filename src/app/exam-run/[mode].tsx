@@ -160,12 +160,7 @@ export default function ExamRunScreen() {
               <ThemedText tone="fog" className="text-caption font-mono uppercase tracking-widest mb-3">
                 Att öva mer på
               </ThemedText>
-              <ThemedView
-                bg="surface"
-                borderTone="fog"
-                borderOpacity={15}
-                className="rounded-xl border overflow-hidden"
-              >
+              <ThemedView bg="surface" bgOpacity={45} className="rounded-xl overflow-hidden">
                 {weak.map((w, i) => (
                   <ThemedView
                     key={w.moduleId}
