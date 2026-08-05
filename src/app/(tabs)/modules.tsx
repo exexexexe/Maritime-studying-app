@@ -1,67 +1,111 @@
-import { Link } from 'expo-router';
+import { Link, useFocusEffect } from 'expo-router';
+import { useCallback, useState } from 'react';
 import { ScrollView, useColorScheme } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { ThemedPressable, ThemedText, ThemedView } from '@/components/themed';
-import { itemsForModule, modules } from '@/content';
-import { coverageLabel, isThinCoverage } from '@/srs/stats';
+import { TrackBadge } from '@/components/track-badge';
+import { coverageLabel, dashboardStats, isThinCoverage, type ModuleCoverage } from '@/srs/stats';
 import { TRACK_NAMES, useTrack } from '@/state/track-context';
 import { palette } from '@/theme/tokens';
+
+function ModuleRow({ m, i, dominant }: { m: ModuleCoverage; i: number; dominant: boolean }) {
+  return (
+    <Link href={{ pathname: '/module/[slug]', params: { slug: m.slug } }} asChild>
+      <ThemedPressable className="active:opacity-80">
+        <ThemedView
+          borderTone="fog"
+          borderOpacity={10}
+          style={{ borderTopWidth: i > 0 ? 1 : 0 }}
+          className="flex-row items-center px-5 py-4"
+        >
+          <ThemedText
+            tone={dominant ? 'brass' : 'ink'}
+            className={`text-body flex-1 ${dominant ? 'font-sans-semibold' : 'font-sans'}`}
+          >
+            {m.titleSv}
+          </ThemedText>
+          {dominant ? (
+            <ThemedText tone="brass" className="text-body font-mono-medium">
+              {m.due} ›
+            </ThemedText>
+          ) : (
+            <ThemedText
+              tone={isThinCoverage(m.itemCount) ? 'fog' : 'brass'}
+              className="text-caption font-mono"
+            >
+              {coverageLabel(m.itemCount)} ›
+            </ThemedText>
+          )}
+        </ThemedView>
+      </ThemedPressable>
+    </Link>
+  );
+}
 
 export default function ModulesScreen() {
   const { track } = useTrack();
   const p = palette(useColorScheme());
+  const [coverage, setCoverage] = useState<ModuleCoverage[]>([]);
 
-  // Only modules with content for the active track — a VHF student never
-  // sees stability, a Förarintyg student never sees radar.
-  const visible = modules
-    .map((m) => ({ module: m, itemCount: itemsForModule(m.id, track).length }))
-    .filter((e) => e.itemCount > 0);
+  useFocusEffect(
+    useCallback(() => {
+      setCoverage(dashboardStats(track, Date.now()).coverage);
+    }, [track]),
+  );
+
+  // Structural rework: a flat numbered 01–11 list gave every module the
+  // same visual weight regardless of whether it's what a student actually
+  // needs today. Grouping by due>0 answers "which of these matters" on
+  // the screen itself instead of leaving it to the dashboard alone.
+  const due = coverage.filter((c) => c.due > 0).sort((a, b) => b.due - a.due);
+  const rest = coverage.filter((c) => c.due === 0);
 
   return (
     <SafeAreaView className="flex-1" style={{ backgroundColor: p.bg }} edges={['top']}>
       <ScrollView contentContainerClassName="px-6 pt-10 pb-8">
-        <ThemedText className="text-display font-display">Moduler</ThemedText>
+        <TrackBadge />
+        <ThemedText className="text-display font-display mt-2">Moduler</ThemedText>
         <ThemedText tone="fog" className="text-small font-sans mt-1">
-          {visible.length} moduler för {TRACK_NAMES[track]}.
+          {coverage.length} moduler för {TRACK_NAMES[track]}.
         </ThemedText>
 
-        <ThemedView
-          bg="surface"
-          borderTone="fog"
-          borderOpacity={15}
-          className="mt-8 rounded-xl border overflow-hidden"
-        >
-          {visible.map(({ module: m, itemCount }, i) => (
-            <Link
-              key={m.id}
-              href={{ pathname: '/module/[slug]', params: { slug: m.slug } }}
-              asChild
+        {due.length > 0 ? (
+          <>
+            <ThemedText
+              tone="fog"
+              className="text-caption font-mono uppercase tracking-widest mt-8 mb-3"
             >
-              <ThemedPressable className="active:opacity-80">
-                <ThemedView
-                  borderTone="fog"
-                  borderOpacity={10}
-                  style={{ borderTopWidth: i > 0 ? 1 : 0 }}
-                  className="flex-row items-center px-5 py-4"
-                >
-                  <ThemedText tone="fog" className="text-caption font-mono w-8">
-                    {String(i + 1).padStart(2, '0')}
-                  </ThemedText>
-                  <ThemedText className="text-body font-sans-medium flex-1">
-                    {m.titleSv}
-                  </ThemedText>
-                  <ThemedText
-                    tone={isThinCoverage(itemCount) ? 'fog' : 'brass'}
-                    className="text-caption font-mono"
-                  >
-                    {coverageLabel(itemCount)} ›
-                  </ThemedText>
-                </ThemedView>
-              </ThemedPressable>
-            </Link>
-          ))}
-        </ThemedView>
+              Att repetera idag
+            </ThemedText>
+            <ThemedView
+              bg="surface"
+              borderTone="brass"
+              borderOpacity={25}
+              className="rounded-xl border overflow-hidden"
+            >
+              {due.map((m, i) => (
+                <ModuleRow key={m.moduleId} m={m} i={i} dominant />
+              ))}
+            </ThemedView>
+          </>
+        ) : null}
+
+        {rest.length > 0 ? (
+          <>
+            <ThemedText
+              tone="fog"
+              className="text-caption font-mono uppercase tracking-widest mt-6 mb-3"
+            >
+              Övriga moduler
+            </ThemedText>
+            <ThemedView bg="surface" bgOpacity={45} className="rounded-xl overflow-hidden">
+              {rest.map((m, i) => (
+                <ModuleRow key={m.moduleId} m={m} i={i} dominant={false} />
+              ))}
+            </ThemedView>
+          </>
+        ) : null}
       </ScrollView>
     </SafeAreaView>
   );

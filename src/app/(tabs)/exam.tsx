@@ -4,6 +4,7 @@ import { ScrollView, useColorScheme, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { ThemedPressable, ThemedText, ThemedView } from '@/components/themed';
+import { TrackBadge } from '@/components/track-badge';
 import { itemsForTrack } from '@/content';
 import type { Track } from '@/content/types';
 import { listExamSessions, type ExamSessionRecord } from '@/db/exams';
@@ -41,29 +42,35 @@ export default function ExamScreen() {
     }, [track]),
   );
 
-  const modes: { mode: ExamMode; titleSv: string; descSv: string }[] = [
-    {
-      mode: 'quick',
-      titleSv: 'Snabbprov',
-      descSv: 'Kortare pass med samma frågemix som det riktiga provet.',
-    },
+  // Full simulering first and visually dominant — it's the actual exam
+  // format, the thing a student is really preparing to sit; Snabbprov is
+  // a shorter practice check-in, secondary by nature, not just by size.
+  const modes: { mode: ExamMode; titleSv: string; descSv: string; dominant: boolean }[] = [
     {
       mode: 'full',
       titleSv: 'Full simulering',
       descSv: 'Hela provet mot klockan, med gräns för godkänt.',
+      dominant: true,
+    },
+    {
+      mode: 'quick',
+      titleSv: 'Snabbprov',
+      descSv: 'Kortare pass med samma frågemix som det riktiga provet.',
+      dominant: false,
     },
   ];
 
   return (
     <SafeAreaView className="flex-1" style={{ backgroundColor: p.bg }} edges={['top']}>
       <ScrollView contentContainerClassName="px-6 pt-10 pb-8">
-        <ThemedText className="text-display font-display">Provläge</ThemedText>
+        <TrackBadge />
+        <ThemedText className="text-display font-display mt-2">Provläge</ThemedText>
         <ThemedText tone="fog" className="text-small font-sans mt-1">
           Simulerar provet för {TRACK_NAMES[track]} — utan facit under tiden,
           rättning först när du lämnar in.
         </ThemedText>
 
-        {modes.map(({ mode, titleSv, descSv }) => {
+        {modes.map(({ mode, titleSv, descSv, dominant }) => {
           const m = config[mode];
           const count = Math.min(m.questions, poolSize);
           const chartCount = chartRequiredEstimate(track, mode);
@@ -71,11 +78,16 @@ export default function ExamScreen() {
             <ThemedView
               key={mode}
               bg="surface"
-              borderTone="fog"
-              borderOpacity={15}
-              className="mt-5 rounded-xl border px-5 py-5"
+              borderTone={dominant ? 'brass' : 'fog'}
+              borderOpacity={dominant ? 25 : 15}
+              elevated={dominant}
+              className={`mt-5 rounded-xl border ${dominant ? 'px-6 py-6' : 'px-5 py-4'}`}
             >
-              <ThemedText className="text-title font-sans-semibold">{titleSv}</ThemedText>
+              <ThemedText
+                className={`font-sans-semibold ${dominant ? 'text-display' : 'text-title'}`}
+              >
+                {titleSv}
+              </ThemedText>
               <ThemedText tone="fog" className="text-small font-sans mt-1">{descSv}</ThemedText>
               <View className="flex-row mt-3">
                 {(
@@ -106,10 +118,17 @@ export default function ExamScreen() {
               ) : null}
               <Link href={{ pathname: '/exam-run/[mode]', params: { mode } }} asChild>
                 <ThemedPressable
-                  bg="brass"
-                  className="rounded-xl py-3.5 items-center mt-4 active:opacity-90"
+                  bg={dominant ? 'brass' : 'surface'}
+                  borderTone={dominant ? undefined : 'fog'}
+                  borderOpacity={dominant ? undefined : 25}
+                  className={`rounded-xl items-center mt-4 active:opacity-90 ${
+                    dominant ? 'py-4' : 'py-3 border'
+                  }`}
                 >
-                  <ThemedText tone="bg" className="text-body font-sans-semibold">
+                  <ThemedText
+                    tone={dominant ? 'bg' : 'ink'}
+                    className="text-body font-sans-semibold"
+                  >
                     Starta {titleSv.toLowerCase()}
                   </ThemedText>
                 </ThemedPressable>
@@ -123,12 +142,7 @@ export default function ExamScreen() {
             <ThemedText tone="fog" className="text-caption font-mono uppercase tracking-widest mb-3">
               Tidigare prov
             </ThemedText>
-            <ThemedView
-              bg="surface"
-              borderTone="fog"
-              borderOpacity={15}
-              className="rounded-xl border overflow-hidden"
-            >
+            <ThemedView bg="surface" bgOpacity={45} className="rounded-xl overflow-hidden">
               {history.slice(0, 8).map((s, i) => (
                 <ThemedView
                   key={s.id}

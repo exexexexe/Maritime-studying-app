@@ -6,10 +6,12 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Disclaimer } from '@/components/disclaimer';
 import { NumericReadout } from '@/components/numeric-readout';
 import { ThemedPressable, ThemedText, ThemedView } from '@/components/themed';
+import { TrackBadge } from '@/components/track-badge';
+import { UnfurlMenu } from '@/components/unfurl-menu';
 import { bumpLaunchCount } from '@/db';
 import { coverageLabel, dashboardStats, type DashboardStats } from '@/srs/stats';
 import { getStreak } from '@/state/activity';
-import { TRACK_NAMES, useTrack } from '@/state/track-context';
+import { useTrack } from '@/state/track-context';
 import { palette } from '@/theme/tokens';
 
 export default function DashboardScreen() {
@@ -20,6 +22,7 @@ export default function DashboardScreen() {
 
   const [stats, setStats] = useState<DashboardStats | null>(null);
   const [streak, setStreak] = useState(0);
+  const [coverageOpen, setCoverageOpen] = useState(false);
 
   useFocusEffect(
     useCallback(() => {
@@ -36,10 +39,8 @@ export default function DashboardScreen() {
   return (
     <SafeAreaView className="flex-1" style={{ backgroundColor: p.bg }} edges={['top']}>
       <ScrollView contentContainerClassName="flex-grow px-6 pt-10 pb-6">
-        <ThemedText tone="fog" className="text-caption font-mono uppercase tracking-widest">
-          {TRACK_NAMES[track]}
-        </ThemedText>
-        <ThemedText className="text-display-xl font-display mt-1">Plugga Sjöexamen</ThemedText>
+        <TrackBadge />
+        <ThemedText className="text-display-xl font-display mt-2">Plugga Sjöexamen</ThemedText>
 
         {/* Today — the screen's one dominant element. Due-reviews count is
             the single number that answers the student's actual daily
@@ -120,42 +121,53 @@ export default function DashboardScreen() {
           </ThemedView>
         ) : null}
 
-        {/* Content coverage — a relative bar plus a qualitative tier, never
-            a raw item count (reads as marketing/padding, not something a
-            student needs to plan a study session around). Same quiet
-            treatment as Weak areas — supporting information, not a rival
-            to Idag's hero number. */}
-        <ThemedView bg="surface" bgOpacity={45} className="mt-3 rounded-xl px-5 py-4">
-          <ThemedText tone="fog" className="text-caption font-mono uppercase tracking-widest mb-2">
+        {/* Content coverage — collapsed by default (structural rework): it's
+            the same 11 modules Moduler already lists, so showing it
+            uncollapsed here too doubled up with that screen and competed
+            with Idag for attention. Still one tap away, not removed. */}
+        <ThemedPressable
+          onPress={() => setCoverageOpen((o) => !o)}
+          bg="surface"
+          bgOpacity={45}
+          className="mt-3 rounded-xl px-5 py-4 flex-row items-center justify-between active:opacity-80"
+        >
+          <ThemedText tone="fog" className="text-caption font-mono uppercase tracking-widest">
             Täckning
           </ThemedText>
-          {stats.coverage.map((c) => (
-            <View key={c.moduleId} className="flex-row items-center py-1.5">
-              <ThemedText className="text-small font-sans flex-1" numberOfLines={1}>
-                {c.titleSv}
-              </ThemedText>
-              <ThemedView
-                bg="fog"
-                bgOpacity={15}
-                className="w-16 h-1 rounded-full overflow-hidden mr-3"
-              >
+          <ThemedText tone="fog" className="text-caption font-mono">
+            {coverageOpen ? '︿' : '⌄'}
+          </ThemedText>
+        </ThemedPressable>
+        <UnfurlMenu open={coverageOpen}>
+          <ThemedView bg="surface" bgOpacity={45} className="rounded-xl px-5 py-4 mt-1">
+            {stats.coverage.map((c) => (
+              <View key={c.moduleId} className="flex-row items-center py-1.5">
+                <ThemedText className="text-small font-sans flex-1" numberOfLines={1}>
+                  {c.titleSv}
+                </ThemedText>
                 <ThemedView
-                  bg="brass"
-                  bgOpacity={70}
-                  className="h-1"
-                  style={{ width: `${(c.itemCount / maxCount) * 100}%` }}
-                />
-              </ThemedView>
-              <ThemedText
-                tone={c.thin ? 'fog' : 'brass'}
-                className="text-caption font-mono w-28 text-right"
-                numberOfLines={1}
-              >
-                {coverageLabel(c.itemCount)}
-              </ThemedText>
-            </View>
-          ))}
-        </ThemedView>
+                  bg="fog"
+                  bgOpacity={15}
+                  className="w-16 h-1 rounded-full overflow-hidden mr-3"
+                >
+                  <ThemedView
+                    bg="brass"
+                    bgOpacity={70}
+                    className="h-1"
+                    style={{ width: `${(c.itemCount / maxCount) * 100}%` }}
+                  />
+                </ThemedView>
+                <ThemedText
+                  tone={c.thin ? 'fog' : 'brass'}
+                  className="text-caption font-mono w-28 text-right"
+                  numberOfLines={1}
+                >
+                  {coverageLabel(c.itemCount)}
+                </ThemedText>
+              </View>
+            ))}
+          </ThemedView>
+        </UnfurlMenu>
 
         <View className="flex-1" />
         <Disclaimer />
