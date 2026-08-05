@@ -9,6 +9,7 @@ import { BuoyDiagram } from '@/components/buoy-diagram';
 import { ChartRequiredBanner } from '@/components/chart-required-banner';
 import { LanternDiagram } from '@/components/lantern-diagram';
 import { MapAnswerInput } from '@/components/map-answer-input';
+import { RadioProcedureBuilder } from '@/components/radio-procedure-builder';
 import { StabilityDiagram } from '@/components/stability-diagram';
 import { ThemedPressable, ThemedText, ThemedView, type Tone } from '@/components/themed';
 import { TermCard } from '@/components/term-card';
@@ -25,6 +26,7 @@ import {
   isMapAnswerComplete,
   type MapAnswerValue,
 } from '@/lib/map-answer';
+import { gradeRadioProcedure } from '@/lib/radio-procedure';
 import { attemptSeed, seededShuffle } from '@/lib/shuffle';
 import { buildSession, buildTopicSession } from '@/srs/session';
 import { markActivity } from '@/state/activity';
@@ -62,10 +64,15 @@ export default function DrillScreen() {
   const [cardLang, setCardLang] = useState<'sv' | 'en'>('sv');
   const [correctCount, setCorrectCount] = useState(0);
   const [finished, setFinished] = useState(false);
+  const [radioPlaced, setRadioPlaced] = useState<string[]>([]);
+  const [radioSubmitted, setRadioSubmitted] = useState(false);
+  const [radioCorrect, setRadioCorrect] = useState(false);
+  const [radioFeedback, setRadioFeedback] = useState('');
 
   const item = session.items[index];
   const isMapNumeric = item?.type === 'map_question' && item.answerMode === 'numeric_tolerance';
   const isTermCard = item?.type === 'term_card';
+  const isRadioProcedure = item?.type === 'radio_procedure';
 
   // Calculation items generate fresh numbers per attempt from the same seed
   // that also drives option order — stable on screen, new next time.
@@ -84,6 +91,14 @@ export default function DrillScreen() {
         : [],
     [item, generated, session.attemptKey],
   );
+
+  // Pool = requiredBlocks + distractorBlocks, shuffled per attempt exactly
+  // like options above — stable on screen, new order next attempt.
+  const radioPool = useMemo(() => {
+    if (item?.type !== 'radio_procedure') return [];
+    const all = [...(item.requiredBlocks ?? []), ...(item.distractorBlocks ?? [])];
+    return seededShuffle(all, attemptSeed(item.id, session.attemptKey));
+  }, [item, session.attemptKey]);
 
   if (!session.module || session.items.length === 0) {
     return (
@@ -139,7 +154,7 @@ export default function DrillScreen() {
     );
   }
 
-  const answered = isMapNumeric ? mapSubmitted : selected !== null;
+  const answered = isMapNumeric ? mapSubmitted : isRadioProcedure ? radioSubmitted : selected !== null;
   const lanternScene =
     item.type === 'lantern'
       ? (item.payload as { scene?: LanternScene }).scene
@@ -174,6 +189,18 @@ export default function DrillScreen() {
     markActivity(now);
   }
 
+  function submitRadioProcedure() {
+    if (radioSubmitted || item.type !== 'radio_procedure' || radioPlaced.length === 0) return;
+    const result = gradeRadioProcedure(item, radioPlaced);
+    setRadioSubmitted(true);
+    setRadioCorrect(result.correct);
+    setRadioFeedback(result.feedbackSv);
+    if (result.correct) setCorrectCount((c) => c + 1);
+    const now = Date.now();
+    recordAnswer(item.id, track, result.correct, now);
+    markActivity(now);
+  }
+
   function next() {
     if (index + 1 >= session.items.length) {
       setFinished(true);
@@ -186,6 +213,10 @@ export default function DrillScreen() {
       setMapCorrect(false);
       setFlipped(false);
       setCardLang('sv');
+      setRadioPlaced([]);
+      setRadioSubmitted(false);
+      setRadioCorrect(false);
+      setRadioFeedback('');
     }
   }
 
@@ -289,7 +320,35 @@ export default function DrillScreen() {
               </View>
             ) : null}
 
-            <View className="mt-6">
+            {isRadioProcedure && item.type === 'radio_procedure' ? (
+              <View className="mt-5">
+                <RadioProcedureBuilder
+                  poolBlocks={radioPool.filter((b) => !radioPlaced.includes(b.id))}
+                  placedBlocks={radioPlaced.map((id, i) => {
+                    const block = radioPool.find((b) => b.id === id)!;
+                    const req = item.requiredBlocks ?? [];
+                    const distractorIds = new Set((item.distractorBlocks ?? []).map((b) => b.id));
+                    // Compare by text, not id — see src/lib/radio-procedure.ts:
+                    // a repeated phrase (MAYDAY ×3) has interchangeable blocks
+                    // the student can't tell apart, so the per-block color
+                    // must use the same text-based check as the grade itself,
+                    // not an arbitrary id tie-break.
+                    const status = radioSubmitted
+                      ? !distractorIds.has(id) && req[i]?.text === block.text
+                        ? ('correct' as const)
+                        : ('wrong' as const)
+                      : undefined;
+                    return { id, text: block.text, status };
+                  })}
+                  onPlace={(id) => setRadioPlaced((p) => [...p, id])}
+                  onRemove={(id) => setRadioPlaced((p) => p.filter((x) => x !== id))}
+                  disabled={radioSubmitted}
+                  fullyCorrect={radioSubmitted && radioCorrect}
+                />
+              </View>
+            ) : null}
+
+            <View className={options.length > 0 ? 'mt-6' : undefined}>
               {options.map((opt, i) => {
                 const correctReveal = answered && opt.isCorrect;
                 const wrongSelected = answered && i === selected;
@@ -323,16 +382,33 @@ export default function DrillScreen() {
               >
                 <ThemedText
                   tone={
-                    (isMapNumeric ? mapCorrect : options[selected!].isCorrect) ? 'starboard' : 'port'
+                    (isMapNumeric
+                      ? mapCorrect
+                      : isRadioProcedure
+                        ? radioCorrect
+                        : options[selected!].isCorrect)
+                      ? 'starboard'
+                      : 'port'
                   }
                   className="text-caption font-mono uppercase tracking-widest"
                 >
-                  {(isMapNumeric ? mapCorrect : options[selected!].isCorrect) ? 'Rätt' : 'Fel'}
+                  {(isMapNumeric
+                    ? mapCorrect
+                    : isRadioProcedure
+                      ? radioCorrect
+                      : options[selected!].isCorrect)
+                    ? 'Rätt'
+                    : 'Fel'}
                 </ThemedText>
                 {isMapNumeric && item.type === 'map_question' && item.answer && mapValue ? (
                   <ThemedText tone="fog" className="text-small font-mono mt-1">
                     Ditt svar: {formatMapAnswerGiven(mapValue)} · Rätt svar:{' '}
                     {formatMapAnswerExpected(item.answer)}
+                  </ThemedText>
+                ) : null}
+                {isRadioProcedure ? (
+                  <ThemedText tone="fog" className="text-small font-mono mt-1">
+                    {radioFeedback}
                   </ThemedText>
                 ) : null}
                 <ThemedText className="text-small font-sans mt-2">
@@ -414,6 +490,26 @@ export default function DrillScreen() {
           >
             <ThemedText
               tone={mapValue && isMapAnswerComplete(mapValue) ? 'bg' : 'fog'}
+              className="text-body font-sans-semibold"
+            >
+              Svara
+            </ThemedText>
+          </ThemedPressable>
+        </View>
+      ) : isRadioProcedure ? (
+        <View className="px-6 pb-4">
+          <ThemedPressable
+            disabled={radioPlaced.length === 0}
+            bg={radioPlaced.length > 0 ? 'brass' : 'surface'}
+            borderTone={radioPlaced.length > 0 ? undefined : 'fog'}
+            borderOpacity={15}
+            className={`rounded-xl py-4 items-center ${
+              radioPlaced.length > 0 ? 'active:opacity-90' : 'border'
+            }`}
+            onPress={submitRadioProcedure}
+          >
+            <ThemedText
+              tone={radioPlaced.length > 0 ? 'bg' : 'fog'}
               className="text-body font-sans-semibold"
             >
               Svara

@@ -177,6 +177,102 @@
       "authorReviewed": false,
       "source": "ai-generated-general-knowledge",
       "payload": { "questionSv": "Vad betyder radiospråket \"Out\" i slutet av en sändning?" }
+    },
+    {
+      "id": "vhf-rut-011",
+      "topicId": "top-vhf-rutiner",
+      "tracks": ["vhf", "klass8", "kustskeppare", "forarintyg"],
+      "type": "radio_procedure",
+      "callType": "routine",
+      "scenario": "Du är ombord på M/S Gläntan och vill kontakta kuststationen Göteborg Radio för att boka en gästplats i hamn. Sänd det inledande anropet.",
+      "vesselName": "Gläntan",
+      "options": [],
+      "requiredBlocks": [
+        { "id": "b1", "text": "Göteborg Radio", "order": 1 },
+        { "id": "b2", "text": "Göteborg Radio", "order": 2 },
+        { "id": "b3", "text": "Göteborg Radio", "order": 3 },
+        { "id": "b4", "text": "Detta är Gläntan", "order": 4 },
+        { "id": "b5", "text": "Gläntan", "order": 5 },
+        { "id": "b6", "text": "Gläntan", "order": 6 },
+        { "id": "b7", "text": "Over", "order": 7 }
+      ],
+      "distractorBlocks": [
+        { "id": "d1", "text": "MAYDAY" },
+        { "id": "d2", "text": "Kanal 16" },
+        { "id": "d3", "text": "Position 57°42' N 011°56' E" },
+        { "id": "d4", "text": "Out" }
+      ],
+      "explanationSv": "Ett rutinanrop namnger den anropade stationen ×3, identifierar dig själv ×3, och avslutas med \"Over\" för att invänta svar. Position hör inte hemma innan kontakt ens är upprättad, och \"Out\" skulle stänga kanalen innan motstationen fått chansen att svara.",
+      "explanationEn": "A routine call names the called station ×3, identifies you ×3, and ends with \"Over\" to invite a reply. Position doesn't belong before contact is even established, and \"Out\" would close the channel before the other station can answer.",
+      "theoryAnchor": "vhf/disciplin",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "needsReview": true,
+      "needsReviewNote": "Exact phraseology for hailing a coast station (repetition counts, whether the initial call also states the calling channel) should be verified against the course material's worked examples."
+    },
+    {
+      "id": "vhf-rut-012",
+      "topicId": "top-vhf-rutiner",
+      "tracks": ["vhf", "klass8", "kustskeppare", "forarintyg"],
+      "type": "radio_procedure",
+      "callType": "routine",
+      "scenario": "Du är ombord på S/Y Briggen och vill kontakta S/Y Delfinen, som ligger i närheten, för att stämma av ankomsttid. Sänd det inledande anropet.",
+      "vesselName": "Briggen",
+      "options": [],
+      "requiredBlocks": [
+        { "id": "b1", "text": "Delfinen", "order": 1 },
+        { "id": "b2", "text": "Delfinen", "order": 2 },
+        { "id": "b3", "text": "Delfinen", "order": 3 },
+        { "id": "b4", "text": "Detta är Briggen", "order": 4 },
+        { "id": "b5", "text": "Briggen", "order": 5 },
+        { "id": "b6", "text": "Briggen", "order": 6 },
+        { "id": "b7", "text": "Over", "order": 7 }
+      ],
+      "distractorBlocks": [
+        { "id": "d1", "text": "PAN-PAN" },
+        { "id": "d2", "text": "Mottaget" },
+        { "id": "d3", "text": "Kanal 72" },
+        { "id": "d4", "text": "SÉCURITÉ" }
+      ],
+      "explanationSv": "Samma struktur som vid anrop till en kuststation: den anropade partens namn ×3, eget namn ×3, \"Over\". \"Mottaget\" är ett svar motstationen skulle säga, inte något som hör hemma i det första anropet.",
+      "explanationEn": "Same structure as hailing a coast station: the called party's name ×3, your own name ×3, \"Over\". \"Received\" is a reply the other station would say, not something in the opening call.",
+      "theoryAnchor": "vhf/disciplin",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "needsReview": true,
+      "needsReviewNote": "Same routine-call phraseology caveat as vhf-rut-011."
+    },
+    {
+      "id": "vhf-rut-013",
+      "topicId": "top-vhf-rutiner",
+      "tracks": ["vhf", "klass8", "kustskeppare", "forarintyg"],
+      "type": "radio_procedure",
+      "callType": "routine",
+      "scenario": "Du är ombord på M/S Skutan och närmar dig en öppningsbar bro. Du vill kontakta broöppnaren för genomfart. Sänd det inledande anropet.",
+      "vesselName": "Skutan",
+      "options": [],
+      "requiredBlocks": [
+        { "id": "b1", "text": "Broöppnare", "order": 1 },
+        { "id": "b2", "text": "Broöppnare", "order": 2 },
+        { "id": "b3", "text": "Broöppnare", "order": 3 },
+        { "id": "b4", "text": "Detta är Skutan", "order": 4 },
+        { "id": "b5", "text": "Skutan", "order": 5 },
+        { "id": "b6", "text": "Skutan", "order": 6 },
+        { "id": "b7", "text": "Over", "order": 7 }
+      ],
+      "distractorBlocks": [
+        { "id": "d1", "text": "MAYDAY" },
+        { "id": "d2", "text": "Begär broöppning" },
+        { "id": "d3", "text": "SÉCURITÉ" },
+        { "id": "d4", "text": "Out" }
+      ],
+      "explanationSv": "\"Begär broöppning\" är rätt innehåll — men hör hemma i sändningen efter att kontakt är upprättad, inte i det första anropet som bara etablerar kontakt. Skilj mellan att kalla upp en station och att sedan föra själva samtalet.",
+      "explanationEn": "\"Requesting bridge opening\" is the right content — but belongs in the transmission after contact is established, not in the opening call, which only establishes contact. Distinguish hailing a station from the conversation that follows.",
+      "theoryAnchor": "vhf/disciplin",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "needsReview": true,
+      "needsReviewNote": "Same routine-call phraseology caveat as vhf-rut-011."
     }
   ]
 }

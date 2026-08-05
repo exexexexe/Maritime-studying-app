@@ -38,6 +38,10 @@ const CATEGORY_OF: Record<ItemType, Category> = {
   // below (a self-graded flashcard, not something the real exam gives).
   // Still needs an entry for Record<ItemType, Category> completeness.
   term_card: 'theory',
+  // Never actually reached either — same filter, same reason: the real
+  // written exam is multiple-choice/calculation, not a tap-to-order
+  // construction exercise. Drill-only, deliberately, like term_card.
+  radio_procedure: 'theory',
 };
 
 const CATEGORIES: Category[] = ['theory', 'diagram', 'calculation', 'image'];
@@ -59,9 +63,12 @@ export function categoryOf(item: Item): Category {
  */
 export function assembleExam(track: Track, mode: ExamMode, seed: number): Item[] {
   const config = examConfig(track);
-  // term_card is a self-graded flashcard, not something the real exam
-  // gives — drill-only.
-  const pool = itemsForTrack(track).filter((i) => i.type !== 'term_card');
+  // term_card is a self-graded flashcard, and radio_procedure is a
+  // tap-to-order construction exercise — neither is something the real
+  // written exam gives (mcq/calculation/diagram only). Both drill-only.
+  const pool = itemsForTrack(track).filter(
+    (i) => i.type !== 'term_card' && i.type !== 'radio_procedure',
+  );
   const target = Math.min(config[mode].questions, pool.length);
 
   const byCategory = new Map<Category, Item[]>(

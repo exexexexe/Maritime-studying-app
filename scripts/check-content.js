@@ -24,9 +24,11 @@ const VALID_TYPES = [
   'radar_question',
   'map_question',
   'term_card',
+  'radio_procedure',
 ];
 const VALID_CHARTS = ['SE61', 'SE93'];
 const VALID_MAP_ANSWER_KINDS = ['bearing', 'distance', 'position', 'depth'];
+const VALID_CALL_TYPES = ['mayday', 'pan-pan', 'securite', 'routine', 'mob'];
 
 const errors = [];
 const warnings = [];
@@ -154,9 +156,13 @@ for (const file of topicFiles(CONTENT_DIR)) {
     if (item.needsReview === true) {
       needsReviewItems.push(`${item.id}: ${item.needsReviewNote ?? '(no note)'}`);
     }
-    // map_question and term_card have no payload — their task text is
-    // `instructions` / `termSv` respectively (see content/AUTHORING.md).
-    if (!['map_question', 'term_card'].includes(item.type) && !item.payload?.questionSv) {
+    // map_question, term_card, and radio_procedure have no payload — their
+    // task text is `instructions` / `termSv` / `scenario` respectively
+    // (see content/AUTHORING.md).
+    if (
+      !['map_question', 'term_card', 'radio_procedure'].includes(item.type) &&
+      !item.payload?.questionSv
+    ) {
       err(where, 'missing payload.questionSv');
     }
     if (item.type === 'lantern' && !item.payload?.scene?.lights?.length) {
@@ -180,6 +186,51 @@ for (const file of topicFiles(CONTENT_DIR)) {
         err(where, 'term_card missing termSv');
       }
       continue; // no options for term_card
+    }
+
+    // radio_procedure: tap-to-order VHF call construction — no payload/
+    // options, see content/AUTHORING.md. requiredBlocks defines the
+    // correct message in order; the pool shown to the student is
+    // requiredBlocks + distractorBlocks, shuffled.
+    if (item.type === 'radio_procedure') {
+      if (!VALID_CALL_TYPES.includes(item.callType)) {
+        err(where, `radio_procedure with invalid callType "${item.callType}" (expected one of ${VALID_CALL_TYPES.join(', ')})`);
+      }
+      if (typeof item.scenario !== 'string' || item.scenario.length < 10) {
+        err(where, 'radio_procedure missing or too-short scenario');
+      }
+      if (typeof item.vesselName !== 'string' || item.vesselName.length < 1) {
+        err(where, 'radio_procedure missing vesselName');
+      }
+      const required = item.requiredBlocks;
+      if (!Array.isArray(required) || required.length < 3) {
+        err(where, 'radio_procedure needs at least 3 requiredBlocks');
+      } else {
+        required.forEach((b, i) => {
+          if (!b.id || typeof b.text !== 'string' || b.text.length < 1) {
+            err(where, `requiredBlocks[${i}] missing id or text`);
+          }
+          if (b.order !== i + 1) {
+            err(where, `requiredBlocks[${i}] has order ${b.order}, expected ${i + 1} (order must match array position)`);
+          }
+        });
+      }
+      const distractors = Array.isArray(item.distractorBlocks) ? item.distractorBlocks : [];
+      distractors.forEach((b, i) => {
+        if (!b.id || typeof b.text !== 'string' || b.text.length < 1) {
+          err(where, `distractorBlocks[${i}] missing id or text`);
+        }
+      });
+      if (distractors.length < 2) {
+        warn(where, `only ${distractors.length} distractor blocks (aim for 3+)`);
+      }
+      const allBlockIds = [...(Array.isArray(required) ? required : []), ...distractors].map((b) => b.id);
+      const seenBlockIds = new Set();
+      for (const id of allBlockIds) {
+        if (seenBlockIds.has(id)) err(where, `duplicate block id "${id}" within item`);
+        seenBlockIds.add(id);
+      }
+      continue; // no options for radio_procedure
     }
 
     // map_question: requires a physical chart (SE61/SE93) — never rendered

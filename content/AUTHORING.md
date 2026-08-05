@@ -192,6 +192,80 @@ tom (`[]`):
   provet ger) — bara drillbart.
 - `check:content` validerar att `termSv` finns.
 
+## Radioanrop, ordna byggblock (`radio_procedure`)
+
+Testar strukturen och fullständigheten i ett VHF-anrop genom att eleven
+trycker fram fraserna i rätt ordning, i stället för att svara på en
+flervalsfråga om proceduren. Ingen fritext, inget drag-och-släpp — eleven
+trycker på en fras i poolen för att lägga den sist i "Ditt anrop", och
+trycker på en redan placerad fras för att ta bort den och försöka igen.
+Se `IDEAS.md` (punkt 5) för ursprungsidén — det här bygger bara
+"ordna byggblock"-nivån, inte fritext-med-nyckelordsmatchning-varianten.
+
+**Struktur** — ingen `payload`, inga `options` (sätt `"options": []`).
+Frågetexten ligger i `scenario`:
+
+```json
+{
+  "type": "radio_procedure",
+  "callType": "mayday",
+  "scenario": "Du är ombord på M/S Maria. Maskinhaveri, positionen är känd. Sänd rätt nödanrop.",
+  "vesselName": "Maria",
+  "options": [],
+  "requiredBlocks": [
+    { "id": "b1", "text": "MAYDAY", "order": 1 },
+    { "id": "b2", "text": "MAYDAY", "order": 2 },
+    { "id": "b3", "text": "MAYDAY", "order": 3 },
+    { "id": "b4", "text": "Detta är Maria", "order": 4 },
+    { "id": "b5", "text": "Maria", "order": 5 },
+    { "id": "b6", "text": "Maria", "order": 6 },
+    { "id": "b7", "text": "Position 58°20,4' N 011°15,7' E", "order": 7 },
+    { "id": "b8", "text": "Maskinhaveri, driver mot grund", "order": 8 },
+    { "id": "b9", "text": "Behöver bogsering", "order": 9 },
+    { "id": "b10", "text": "4 personer ombord", "order": 10 }
+  ],
+  "distractorBlocks": [
+    { "id": "d1", "text": "PAN-PAN" },
+    { "id": "d2", "text": "SÉCURITÉ" },
+    { "id": "d3", "text": "Over and out" }
+  ],
+  "explanationSv": "..."
+}
+```
+
+- `callType` — en av `mayday`, `pan-pan`, `securite`, `routine`, `mob`.
+  Styr inget i appen just nu (ingen filtrering på det), men håller
+  innehållet sökbart och gör avsikten tydlig vid granskning.
+- `requiredBlocks` — det korrekta meddelandet, i ordning. `order` måste
+  matcha blockets position i arrayen (1-indexerat) — `check:content`
+  validerar det som skydd mot att raderna hamnar fel vid redigering.
+  Minst 3 block.
+- `distractorBlocks` — troliga men felaktiga tillägg, inte bara brus.
+  Bygg på verkliga misstag: fel anropsprefix (Mayday/Pan-Pan/Sécurité
+  förväxlade), irrelevant information som inte hör hemma i just det här
+  anropet, eller en motsägelse mot scenariot. Sikta på 3+; lintern varnar
+  under 2.
+- **Poolen eleven ser är `requiredBlocks` + `distractorBlocks`, blandad per
+  försök** — precis som `options` för mcq. Blockens `id` behöver bara vara
+  unikt inom itemet (så `b1`/`d1`-mönstret ovan kan återanvändas i varje
+  item), `check:content` kontrollerar det.
+- **Rättning är exakt** — rätt endast om elevens sekvens matchar
+  `requiredBlocks` exakt, utan något distraktorblock inblandat. Binärt
+  rätt/fel, men appen visar *vad* som var fel (fel ordning, saknade delar,
+  eller ett block som inte hör hemma) — se `src/lib/radio-procedure.ts`.
+- **Namnge anropstypen i scenariot** (t.ex. "Sänd rätt nödanrop" för
+  Mayday, "Sänd ett il-anrop" för Pan-Pan, "Sänd ett säkerhetsmeddelande"
+  för Sécurité). Det här appens etablerade konvention — se `vhf-may-001`
+  som redan skriver ut "(Mayday)" i frågetexten. Övningen testar
+  *strukturen* eleven bygger, inte om eleven kan gissa vilken kategori
+  scenariot tillhör.
+- **Uteslutet från provläget** — precis som `term_card`, filtrerat i
+  `src/exam/assemble.ts`. Motivering: det riktiga skriftliga provet är
+  flerval/beräkning, inte en interaktiv byggövning. Bara drillbart.
+- Går in i samma SM-2-schema som alla andra frågetyper — bara
+  rättningslogiken (exakt sekvensmatchning i stället för `isCorrect` på
+  ett `option`) skiljer den åt.
+
 ## Spårmärkning
 
 Märk varje fråga med de spår där den faktiskt ingår i kunskapskraven:

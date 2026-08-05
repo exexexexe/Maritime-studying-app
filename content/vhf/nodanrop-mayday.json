@@ -260,6 +260,178 @@
       },
       "needsReview": true,
       "needsReviewNote": "The term itself and its meaning are standard ITU distress-traffic terminology, but I'm less certain about exact spelling/pronunciation conventions taught in the Swedish SRC syllabus — verify wording before marking reviewed."
+    },
+    {
+      "id": "vhf-may-008",
+      "topicId": "top-vhf-mayday",
+      "tracks": ["vhf", "klass8", "kustskeppare", "forarintyg"],
+      "type": "radio_procedure",
+      "callType": "mayday",
+      "scenario": "Du är ombord på M/S Maria (MMSI 265547110). Ni har fått maskinhaveri och driver mot grund. Positionen är känd. Sänd rätt nödanrop.",
+      "vesselName": "Maria",
+      "options": [],
+      "requiredBlocks": [
+        { "id": "b1", "text": "MAYDAY", "order": 1 },
+        { "id": "b2", "text": "MAYDAY", "order": 2 },
+        { "id": "b3", "text": "MAYDAY", "order": 3 },
+        { "id": "b4", "text": "Detta är Maria", "order": 4 },
+        { "id": "b5", "text": "Maria", "order": 5 },
+        { "id": "b6", "text": "Maria", "order": 6 },
+        { "id": "b7", "text": "MMSI 265547110", "order": 7 },
+        { "id": "b8", "text": "Position 58°20,4' N 011°15,7' E", "order": 8 },
+        { "id": "b9", "text": "Maskinhaveri, driver mot grund", "order": 9 },
+        { "id": "b10", "text": "Behöver bogsering", "order": 10 },
+        { "id": "b11", "text": "4 personer ombord", "order": 11 }
+      ],
+      "distractorBlocks": [
+        { "id": "d1", "text": "PAN-PAN" },
+        { "id": "d2", "text": "SÉCURITÉ" },
+        { "id": "d3", "text": "Over and out" },
+        { "id": "d4", "text": "Väder: mulet, vind nordost 5 m/s" }
+      ],
+      "explanationSv": "MAYDAY ×3, fartygets namn ×3, sedan position, nödens art, önskad assistans och antal personer ombord — i den ordningen. \"Over and out\" är en vanlig felsägning: \"over\" bjuder in svar, \"out\" avslutar kontakten, och de motsäger varandra i samma andetag. Väderuppgifter hör inte hemma i själva nödanropet.",
+      "explanationEn": "MAYDAY ×3, vessel name ×3, then position, nature of distress, assistance required, persons on board, in that order. \"Over and out\" is a classic mistake — the two invite contradictory responses. Weather details don't belong in the distress call itself.",
+      "theoryAnchor": "vhf/mayday",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "needsReview": true,
+      "needsReviewNote": "MMSI is transmitted automatically via a DSC distress alert; whether the Swedish klass8 syllabus expects it spoken aloud in the follow-up voice MAYDAY too (vs. only for vessels without DSC) should be verified against course material."
+    },
+    {
+      "id": "vhf-may-009",
+      "topicId": "top-vhf-mayday",
+      "tracks": ["vhf", "klass8", "kustskeppare", "forarintyg"],
+      "type": "radio_procedure",
+      "callType": "mayday",
+      "scenario": "Du är ombord på S/Y Vind. Det brinner i maskinrummet och elden sprider sig. Sänd rätt nödanrop.",
+      "vesselName": "Vind",
+      "options": [],
+      "requiredBlocks": [
+        { "id": "b1", "text": "MAYDAY", "order": 1 },
+        { "id": "b2", "text": "MAYDAY", "order": 2 },
+        { "id": "b3", "text": "MAYDAY", "order": 3 },
+        { "id": "b4", "text": "Detta är Vind", "order": 4 },
+        { "id": "b5", "text": "Vind", "order": 5 },
+        { "id": "b6", "text": "Vind", "order": 6 },
+        { "id": "b7", "text": "Position 57°42' N 011°56' E", "order": 7 },
+        { "id": "b8", "text": "Brand i maskinrummet, sprider sig", "order": 8 },
+        { "id": "b9", "text": "Behöver brandsläckningshjälp", "order": 9 },
+        { "id": "b10", "text": "2 personer ombord", "order": 10 }
+      ],
+      "distractorBlocks": [
+        { "id": "d1", "text": "PAN-PAN" },
+        { "id": "d2", "text": "SÉCURITÉ" },
+        { "id": "d3", "text": "Kurs 270°" },
+        { "id": "d4", "text": "Väder: klart" }
+      ],
+      "explanationSv": "Samma grundstruktur oavsett nödens art: MAYDAY ×3, namn ×3, position, nödens art (här brand), önskad assistans, antal ombord. Kurs och väder är navigationsdetaljer som inte hör hemma i det korta nödanropet.",
+      "explanationEn": "The skeleton is the same regardless of the nature of distress: MAYDAY ×3, name ×3, position, nature of distress, assistance required, persons aboard. Course and weather don't belong in the short distress call.",
+      "theoryAnchor": "vhf/mayday",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge"
+    },
+    {
+      "id": "vhf-may-010",
+      "topicId": "top-vhf-mayday",
+      "tracks": ["vhf", "klass8", "kustskeppare", "forarintyg"],
+      "type": "radio_procedure",
+      "callType": "mayday",
+      "scenario": "Du är ombord på M/S Karin. Fartyget tar in vatten snabbt efter en kollision och sjunker. Sänd rätt nödanrop.",
+      "vesselName": "Karin",
+      "options": [],
+      "requiredBlocks": [
+        { "id": "b1", "text": "MAYDAY", "order": 1 },
+        { "id": "b2", "text": "MAYDAY", "order": 2 },
+        { "id": "b3", "text": "MAYDAY", "order": 3 },
+        { "id": "b4", "text": "Detta är Karin", "order": 4 },
+        { "id": "b5", "text": "Karin", "order": 5 },
+        { "id": "b6", "text": "Karin", "order": 6 },
+        { "id": "b7", "text": "Position 56°15' N 012°40' E", "order": 7 },
+        { "id": "b8", "text": "Tar in vatten efter kollision, sjunker", "order": 8 },
+        { "id": "b9", "text": "Behöver omedelbar evakueringshjälp", "order": 9 },
+        { "id": "b10", "text": "6 personer ombord", "order": 10 }
+      ],
+      "distractorBlocks": [
+        { "id": "d1", "text": "PAN-PAN" },
+        { "id": "d2", "text": "Rutinanrop" },
+        { "id": "d3", "text": "Fartyget är stabilt" },
+        { "id": "d4", "text": "Radiodisciplin: tystnad" }
+      ],
+      "explanationSv": "Ett sjunkande fartyg efter kollision är alltid ett Mayday, aldrig ett Pan-Pan eller rutinanrop. \"Fartyget är stabilt\" motsäger scenariot rakt av — ett nödanrop ska beskriva situationen som den faktiskt är, inte tona ner den.",
+      "explanationEn": "A sinking vessel after a collision is always a Mayday, never a Pan-Pan or routine call. \"The vessel is stable\" flatly contradicts the scenario — a distress call must describe the real situation, not downplay it.",
+      "theoryAnchor": "vhf/mayday",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge"
+    },
+    {
+      "id": "vhf-may-011",
+      "topicId": "top-vhf-mayday",
+      "tracks": ["vhf", "klass8", "kustskeppare", "forarintyg"],
+      "type": "radio_procedure",
+      "callType": "mob",
+      "scenario": "En besättningsman har fallit överbord från M/S Nordvind i mörker. Sänd nödanropet för att larma om mannen överbord.",
+      "vesselName": "Nordvind",
+      "options": [],
+      "requiredBlocks": [
+        { "id": "b1", "text": "MAYDAY", "order": 1 },
+        { "id": "b2", "text": "MAYDAY", "order": 2 },
+        { "id": "b3", "text": "MAYDAY", "order": 3 },
+        { "id": "b4", "text": "Detta är Nordvind", "order": 4 },
+        { "id": "b5", "text": "Nordvind", "order": 5 },
+        { "id": "b6", "text": "Nordvind", "order": 6 },
+        { "id": "b7", "text": "Position 58°05' N 011°30' E", "order": 7 },
+        { "id": "b8", "text": "Man överbord", "order": 8 },
+        { "id": "b9", "text": "Behöver hjälp att söka och bärga person i vattnet", "order": 9 },
+        { "id": "b10", "text": "5 personer kvar ombord", "order": 10 }
+      ],
+      "distractorBlocks": [
+        { "id": "d1", "text": "PAN-PAN" },
+        { "id": "d2", "text": "SÉCURITÉ" },
+        { "id": "d3", "text": "Mannen har flytväst" },
+        { "id": "d4", "text": "Rutinanrop till kuststation" }
+      ],
+      "explanationSv": "Man överbord behandlas som ett Mayday — det är ett direkt hot mot en persons liv. \"Mannen har flytväst\" är en trolig tilläggsuppgift i verkligheten, men hör inte till den korta grundstrukturen som prövas här; för mycket ska inte tryckas in i den första sändningen.",
+      "explanationEn": "Man overboard is treated as a Mayday — an immediate threat to life. \"Wearing a lifejacket\" is plausible real-world supplementary detail, but isn't part of the short core skeleton being tested here — the first transmission shouldn't be overloaded.",
+      "theoryAnchor": "vhf/mayday",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "needsReview": true,
+      "needsReviewNote": "MOB via DSC distress-alert button vs. a spoken MAYDAY call may be taught differently depending on the vessel's equipment; this item assumes the spoken-call path. Verify against course material whether MOB gets separate treatment from a general Mayday in the klass8 syllabus."
+    },
+    {
+      "id": "vhf-may-012",
+      "topicId": "top-vhf-mayday",
+      "tracks": ["vhf", "klass8", "kustskeppare", "forarintyg"],
+      "type": "radio_procedure",
+      "callType": "mob",
+      "scenario": "Du är ombord på M/S Solvind. En passagerare har fallit överbord och syns i vattnet med flytväst. Sänd nödanropet.",
+      "vesselName": "Solvind",
+      "options": [],
+      "requiredBlocks": [
+        { "id": "b1", "text": "MAYDAY", "order": 1 },
+        { "id": "b2", "text": "MAYDAY", "order": 2 },
+        { "id": "b3", "text": "MAYDAY", "order": 3 },
+        { "id": "b4", "text": "Detta är Solvind", "order": 4 },
+        { "id": "b5", "text": "Solvind", "order": 5 },
+        { "id": "b6", "text": "Solvind", "order": 6 },
+        { "id": "b7", "text": "Position 59°10' N 018°30' E", "order": 7 },
+        { "id": "b8", "text": "Passagerare man överbord", "order": 8 },
+        { "id": "b9", "text": "Behöver hjälp att bärga person i vattnet", "order": 9 },
+        { "id": "b10", "text": "8 personer kvar ombord", "order": 10 }
+      ],
+      "distractorBlocks": [
+        { "id": "d1", "text": "PAN-PAN" },
+        { "id": "d2", "text": "Personen är säkert ombord igen" },
+        { "id": "d3", "text": "SÉCURITÉ" },
+        { "id": "d4", "text": "Väder: lugnt" }
+      ],
+      "explanationSv": "Samma Mayday-struktur som vid alla andra nödsituationer med fara för liv. \"Personen är säkert ombord igen\" motsäger scenariot — anropet ska beskriva den faktiska, pågående nödsituationen.",
+      "explanationEn": "The same Mayday structure as any other life-threatening emergency. \"The person is safely back aboard\" contradicts the scenario — the call must describe the actual, ongoing emergency.",
+      "theoryAnchor": "vhf/mayday",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "needsReview": true,
+      "needsReviewNote": "Same MOB-procedure caveat as vhf-may-011."
     }
   ]
 }

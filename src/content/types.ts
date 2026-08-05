@@ -11,7 +11,24 @@ export type ItemType =
   | 'chart_question'
   | 'radar_question'
   | 'map_question'
-  | 'term_card';
+  | 'term_card'
+  | 'radio_procedure';
+
+export type CallType = 'mayday' | 'pan-pan' | 'securite' | 'routine' | 'mob';
+
+/** A phrase block in a radio_procedure pool — pool = requiredBlocks +
+ * distractorBlocks, shuffled per attempt (see radio-procedure-builder.tsx). */
+export interface RadioBlock {
+  id: string;
+  text: string;
+}
+
+export interface RequiredRadioBlock extends RadioBlock {
+  /** 1-based position in the correct sequence. Must match the block's
+   * position in the requiredBlocks array — check-content.js validates
+   * this as a guard against accidental reordering during authoring. */
+  order: number;
+}
 
 export interface ModuleDef {
   id: string;
@@ -74,6 +91,21 @@ export interface Item {
   termSv?: string;
   /** Front of the card in English, if the term has a clean equivalent. */
   termEn?: string;
+
+  // --- radio_procedure only — tap-to-order VHF call construction. No
+  // payload/options; the task text is `scenario` (see questionText()).
+  // Grading and per-attempt block-pool shuffling live in
+  // src/lib/radio-procedure.ts and the drill screen, not here. ---
+  callType?: CallType;
+  scenario?: string;
+  vesselName?: string;
+  /** The correct message, in order. The pool shown to the student is this
+   * plus distractorBlocks, shuffled. */
+  requiredBlocks?: RequiredRadioBlock[];
+  /** Plausible-but-wrong inclusions — wrong call-type prefix, irrelevant
+   * detail, a real mistake a student might make. Never in the pool
+   * without at least one being a genuine wrong-prefix confusion. */
+  distractorBlocks?: RadioBlock[];
 }
 
 /** Identifies the physical paper chart a map_question requires. Never

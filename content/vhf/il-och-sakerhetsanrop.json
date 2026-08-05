@@ -216,6 +216,214 @@
       "payload": {
         "questionSv": "Vad är den viktigaste skillnaden mellan Mayday, Pan-Pan och Sécurité?"
       }
+    },
+    {
+      "id": "vhf-ils-007",
+      "topicId": "top-vhf-il-sakerhet",
+      "tracks": ["vhf", "klass8", "kustskeppare"],
+      "type": "radio_procedure",
+      "callType": "pan-pan",
+      "scenario": "Du är ombord på M/S Ejder. Motorn har stannat och ni driver utan framdrivning, men ingen är i omedelbar fara. Sänd rätt il-anrop.",
+      "vesselName": "Ejder",
+      "options": [],
+      "requiredBlocks": [
+        { "id": "b1", "text": "PAN-PAN", "order": 1 },
+        { "id": "b2", "text": "PAN-PAN", "order": 2 },
+        { "id": "b3", "text": "PAN-PAN", "order": 3 },
+        { "id": "b4", "text": "Detta är Ejder", "order": 4 },
+        { "id": "b5", "text": "Ejder", "order": 5 },
+        { "id": "b6", "text": "Ejder", "order": 6 },
+        { "id": "b7", "text": "Position 58°30' N 011°10' E", "order": 7 },
+        { "id": "b8", "text": "Motorstopp, ingen framdrivning", "order": 8 },
+        { "id": "b9", "text": "Behöver bogsering", "order": 9 },
+        { "id": "b10", "text": "3 personer ombord", "order": 10 }
+      ],
+      "distractorBlocks": [
+        { "id": "d1", "text": "MAYDAY" },
+        { "id": "d2", "text": "SÉCURITÉ" },
+        { "id": "d3", "text": "Fartyget sjunker" },
+        { "id": "d4", "text": "Rutinanrop" }
+      ],
+      "explanationSv": "Samma grundstruktur som Mayday, men med \"PAN-PAN\" ×3 eftersom det inte är en omedelbar fara för liv eller fartyg. \"Fartyget sjunker\" hör inte hemma här — det vore en Mayday-situation, inte Pan-Pan.",
+      "explanationEn": "Same skeleton as Mayday, but opening with PAN-PAN since there's no immediate danger to life or vessel. \"The vessel is sinking\" would make this a Mayday, not a Pan-Pan.",
+      "theoryAnchor": "vhf/panpan-securite",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge"
+    },
+    {
+      "id": "vhf-ils-008",
+      "topicId": "top-vhf-il-sakerhet",
+      "tracks": ["vhf", "klass8", "kustskeppare"],
+      "type": "radio_procedure",
+      "callType": "pan-pan",
+      "scenario": "En passagerare ombord på S/Y Brisen har brutit armen. Skadan är inte livshotande, men ni behöver medicinsk rådgivning. Sänd rätt il-anrop.",
+      "vesselName": "Brisen",
+      "options": [],
+      "requiredBlocks": [
+        { "id": "b1", "text": "PAN-PAN", "order": 1 },
+        { "id": "b2", "text": "PAN-PAN", "order": 2 },
+        { "id": "b3", "text": "PAN-PAN", "order": 3 },
+        { "id": "b4", "text": "Detta är Brisen", "order": 4 },
+        { "id": "b5", "text": "Brisen", "order": 5 },
+        { "id": "b6", "text": "Brisen", "order": 6 },
+        { "id": "b7", "text": "Position 57°55' N 011°40' E", "order": 7 },
+        { "id": "b8", "text": "Passagerare med armskada, ej livshotande", "order": 8 },
+        { "id": "b9", "text": "Behöver medicinsk rådgivning", "order": 9 },
+        { "id": "b10", "text": "4 personer ombord", "order": 10 }
+      ],
+      "distractorBlocks": [
+        { "id": "d1", "text": "MAYDAY" },
+        { "id": "d2", "text": "Man överbord" },
+        { "id": "d3", "text": "SÉCURITÉ" },
+        { "id": "d4", "text": "Behöver omedelbar evakuering" }
+      ],
+      "explanationSv": "En skada som inte är livshotande men kräver rådgivning är ett typiskt Pan-Pan-fall — allvarligt, men inte omedelbart farligt. \"Behöver omedelbar evakuering\" överdriver allvaret och hör hemma i ett Mayday, inte här.",
+      "explanationEn": "A non-life-threatening injury needing medical advice is a textbook Pan-Pan case — serious, but not immediately dangerous. \"Needs immediate evacuation\" overstates the urgency and belongs in a Mayday, not here.",
+      "theoryAnchor": "vhf/panpan-securite",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "needsReview": true,
+      "needsReviewNote": "The line between Pan-Pan and Mayday for medical cases can depend on severity assessment in the moment — verify this example's framing against the course material's exact guidance."
+    },
+    {
+      "id": "vhf-ils-009",
+      "topicId": "top-vhf-il-sakerhet",
+      "tracks": ["vhf", "klass8", "kustskeppare"],
+      "type": "radio_procedure",
+      "callType": "pan-pan",
+      "scenario": "M/S Tärnan har fått navigationsutrustningen ur funktion i tät dimma och är osäker på sin position. Sänd rätt il-anrop.",
+      "vesselName": "Tärnan",
+      "options": [],
+      "requiredBlocks": [
+        { "id": "b1", "text": "PAN-PAN", "order": 1 },
+        { "id": "b2", "text": "PAN-PAN", "order": 2 },
+        { "id": "b3", "text": "PAN-PAN", "order": 3 },
+        { "id": "b4", "text": "Detta är Tärnan", "order": 4 },
+        { "id": "b5", "text": "Tärnan", "order": 5 },
+        { "id": "b6", "text": "Tärnan", "order": 6 },
+        { "id": "b7", "text": "Navigationsutrustning ur funktion i tät dimma", "order": 7 },
+        { "id": "b8", "text": "Behöver hjälp att fastställa position", "order": 8 },
+        { "id": "b9", "text": "2 personer ombord", "order": 9 }
+      ],
+      "distractorBlocks": [
+        { "id": "d1", "text": "MAYDAY" },
+        { "id": "d2", "text": "Position 58°00' N 011°00' E" },
+        { "id": "d3", "text": "SÉCURITÉ" },
+        { "id": "d4", "text": "Fartyget är stabilt och i ingen fara alls" }
+      ],
+      "explanationSv": "Här saknas en positionsuppgift i grundstrukturen — det är precis det som är problemet i scenariot. Att ändå ange en påhittad position vore fel; be i stället om hjälp att fastställa den.",
+      "explanationEn": "There's no position block in this one's core skeleton — not knowing the position is exactly the problem in the scenario. Stating a made-up position would be wrong; ask for help fixing it instead.",
+      "theoryAnchor": "vhf/panpan-securite",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge"
+    },
+    {
+      "id": "vhf-ils-010",
+      "topicId": "top-vhf-il-sakerhet",
+      "tracks": ["vhf", "klass8", "kustskeppare"],
+      "type": "radio_procedure",
+      "callType": "securite",
+      "scenario": "Du är ombord på M/S Karin och observerar en drivande, obemannad container i farleden. Sänd ett säkerhetsmeddelande (Sécurité) för att varna andra fartyg.",
+      "vesselName": "Karin",
+      "options": [],
+      "requiredBlocks": [
+        { "id": "b1", "text": "SÉCURITÉ", "order": 1 },
+        { "id": "b2", "text": "SÉCURITÉ", "order": 2 },
+        { "id": "b3", "text": "SÉCURITÉ", "order": 3 },
+        { "id": "b4", "text": "Alla stationer", "order": 4 },
+        { "id": "b5", "text": "Alla stationer", "order": 5 },
+        { "id": "b6", "text": "Alla stationer", "order": 6 },
+        { "id": "b7", "text": "Detta är Karin", "order": 7 },
+        { "id": "b8", "text": "Karin", "order": 8 },
+        { "id": "b9", "text": "Karin", "order": 9 },
+        { "id": "b10", "text": "Observerad drivande container i farleden", "order": 10 },
+        { "id": "b11", "text": "Position 57°50' N 011°30' E", "order": 11 }
+      ],
+      "distractorBlocks": [
+        { "id": "d1", "text": "MAYDAY" },
+        { "id": "d2", "text": "PAN-PAN" },
+        { "id": "d3", "text": "Behöver bogsering" },
+        { "id": "d4", "text": "3 personer ombord" }
+      ],
+      "explanationSv": "Sécurité riktas till \"Alla stationer\" eftersom det är en varning till alla, inte en begäran om hjälp för egen räkning — därför hör \"Behöver bogsering\" och \"personer ombord\" (Mayday/Pan-Pan-mallens hjälpbehov) inte hemma i ett säkerhetsmeddelande.",
+      "explanationEn": "Sécurité is addressed to \"all stations\" because it's a warning to everyone, not a request for help for the sender — that's why \"needs towing\" and \"persons aboard\" (the Mayday/Pan-Pan template's assistance elements) don't belong in a safety broadcast.",
+      "theoryAnchor": "vhf/panpan-securite",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "needsReview": true,
+      "needsReviewNote": "Exact Sécurité phraseology (the triple repetition of 'Alla stationer', and whether/where a channel switch instruction belongs) should be verified against the course material's precise wording."
+    },
+    {
+      "id": "vhf-ils-011",
+      "topicId": "top-vhf-il-sakerhet",
+      "tracks": ["vhf", "klass8", "kustskeppare"],
+      "type": "radio_procedure",
+      "callType": "securite",
+      "scenario": "Du är ombord på M/S Najaden och observerar ett omärkt vrak strax under ytan nära en farled. Sänd ett säkerhetsmeddelande.",
+      "vesselName": "Najaden",
+      "options": [],
+      "requiredBlocks": [
+        { "id": "b1", "text": "SÉCURITÉ", "order": 1 },
+        { "id": "b2", "text": "SÉCURITÉ", "order": 2 },
+        { "id": "b3", "text": "SÉCURITÉ", "order": 3 },
+        { "id": "b4", "text": "Alla stationer", "order": 4 },
+        { "id": "b5", "text": "Alla stationer", "order": 5 },
+        { "id": "b6", "text": "Alla stationer", "order": 6 },
+        { "id": "b7", "text": "Detta är Najaden", "order": 7 },
+        { "id": "b8", "text": "Najaden", "order": 8 },
+        { "id": "b9", "text": "Najaden", "order": 9 },
+        { "id": "b10", "text": "Observerat vrak strax under ytan", "order": 10 },
+        { "id": "b11", "text": "Position 58°15' N 011°20' E", "order": 11 }
+      ],
+      "distractorBlocks": [
+        { "id": "d1", "text": "MAYDAY" },
+        { "id": "d2", "text": "Behöver medicinsk rådgivning" },
+        { "id": "d3", "text": "PAN-PAN" },
+        { "id": "d4", "text": "5 personer ombord" }
+      ],
+      "explanationSv": "Samma Sécurité-struktur som varje annan navigationsvarning: signalord ×3, \"Alla stationer\" ×3, fartygsnamn ×3, farans beskrivning, position. Inget hjälpbehov för egen räkning ska anges.",
+      "explanationEn": "Same Sécurité structure as any other navigational warning: signal word ×3, \"all stations\" ×3, vessel name ×3, hazard description, position. No assistance-for-self element belongs here.",
+      "theoryAnchor": "vhf/panpan-securite",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "needsReview": true,
+      "needsReviewNote": "Same Sécurité-phraseology caveat as vhf-ils-010."
+    },
+    {
+      "id": "vhf-ils-012",
+      "topicId": "top-vhf-il-sakerhet",
+      "tracks": ["vhf", "klass8", "kustskeppare"],
+      "type": "radio_procedure",
+      "callType": "securite",
+      "scenario": "Du är ombord på M/S Vindstöt och upptäcker att en fyr inte längre visar sin rätta blinkkaraktär, vilket kan vilseleda andra fartyg. Sänd ett säkerhetsmeddelande.",
+      "vesselName": "Vindstöt",
+      "options": [],
+      "requiredBlocks": [
+        { "id": "b1", "text": "SÉCURITÉ", "order": 1 },
+        { "id": "b2", "text": "SÉCURITÉ", "order": 2 },
+        { "id": "b3", "text": "SÉCURITÉ", "order": 3 },
+        { "id": "b4", "text": "Alla stationer", "order": 4 },
+        { "id": "b5", "text": "Alla stationer", "order": 5 },
+        { "id": "b6", "text": "Alla stationer", "order": 6 },
+        { "id": "b7", "text": "Detta är Vindstöt", "order": 7 },
+        { "id": "b8", "text": "Vindstöt", "order": 8 },
+        { "id": "b9", "text": "Vindstöt", "order": 9 },
+        { "id": "b10", "text": "Fyren vid inloppet visar fel blinkkaraktär", "order": 10 },
+        { "id": "b11", "text": "Position 58°22' N 011°27' E", "order": 11 }
+      ],
+      "distractorBlocks": [
+        { "id": "d1", "text": "PAN-PAN" },
+        { "id": "d2", "text": "MAYDAY" },
+        { "id": "d3", "text": "Behöver bogsering" },
+        { "id": "d4", "text": "Rutinanrop" }
+      ],
+      "explanationSv": "En fyr som visar fel karaktär är en navigationsfara för alla som förlitar sig på den — exakt vad Sécurité är till för. Det är inte fartygets eget problem (Mayday/Pan-Pan) och inte ett vanligt anrop för egen räkning (rutinanrop).",
+      "explanationEn": "A light showing the wrong characteristic is a navigational hazard for everyone relying on it — exactly what Sécurité is for. It isn't the sender's own problem (Mayday/Pan-Pan) and isn't an ordinary hailing call (routine).",
+      "theoryAnchor": "vhf/panpan-securite",
+      "authorReviewed": false,
+      "source": "ai-generated-general-knowledge",
+      "needsReview": true,
+      "needsReviewNote": "Same Sécurité-phraseology caveat as vhf-ils-010."
     }
   ]
 }
