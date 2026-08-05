@@ -14,9 +14,11 @@ import { useFonts } from 'expo-font';
 import { DarkTheme, DefaultTheme, Stack, ThemeProvider } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
-import { useEffect } from 'react';
-import { useColorScheme } from 'react-native';
+import { useEffect, useState } from 'react';
+import { useColorScheme, View } from 'react-native';
+import { useReducedMotion } from 'react-native-reanimated';
 
+import { LaunchAnimation } from '@/components/launch-animation';
 import { TrackSelect } from '@/components/track-select';
 import { TrackProvider, useTrackOrNull } from '@/state/track-context';
 import { fonts, palette } from '@/theme/tokens';
@@ -37,6 +39,8 @@ function TrackGate() {
 export default function RootLayout() {
   const scheme = useColorScheme();
   const p = palette(scheme);
+  const reducedMotion = useReducedMotion();
+  const [showLaunch, setShowLaunch] = useState(true);
 
   const [fontsLoaded] = useFonts({
     InstrumentSerif_400Regular,
@@ -77,7 +81,16 @@ export default function RootLayout() {
     <ThemeProvider value={navTheme}>
       <TrackProvider>
         <StatusBar style="auto" />
-        <TrackGate />
+        {/* TrackGate mounts and renders immediately underneath the launch
+            overlay — nothing extra loads once the ship finishes crossing,
+            the overlay is purely a deliberate brand beat layered on top of
+            an already-ready app, not a cover for real initialization. */}
+        <View style={{ flex: 1 }}>
+          <TrackGate />
+          {showLaunch && !reducedMotion ? (
+            <LaunchAnimation palette={p} onDone={() => setShowLaunch(false)} />
+          ) : null}
+        </View>
       </TrackProvider>
     </ThemeProvider>
   );
