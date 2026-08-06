@@ -36,6 +36,20 @@ export interface ExamSessionRecord {
   moduleResults: string | null;
 }
 
+export type FeedbackCategory = 'wrong_answer' | 'confusing' | 'typo_translation' | 'other';
+
+/** A tester-flagged problem — see src/db/feedback.ts. Item fields are null
+ * for general feedback not tied to a specific content item. */
+export interface FeedbackFlagRecord {
+  id: string;
+  createdAt: number;
+  category: FeedbackCategory;
+  note: string | null;
+  itemId: string | null;
+  topicId: string | null;
+  itemType: string | null;
+}
+
 export interface Storage {
   getMeta(key: string): string | null;
   setMeta(key: string, value: string): void;
@@ -49,4 +63,11 @@ export interface Storage {
   upsertExamSession(record: ExamSessionRecord): void;
   /** Sessions for a track, newest started first. */
   listExamSessions(track: Track): ExamSessionRecord[];
+
+  insertFeedbackFlag(record: FeedbackFlagRecord): void;
+  /** All flags, newest first. */
+  listFeedbackFlags(): FeedbackFlagRecord[];
+  countFeedbackFlags(): number;
+  /** Deletes all flags — used after a tester has exported and sent them. */
+  clearFeedbackFlags(): void;
 }

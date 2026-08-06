@@ -2,7 +2,7 @@ import * as SQLite from 'expo-sqlite';
 
 import type { Track } from '@/content/types';
 
-import type { ExamSessionRecord, ReviewRecord, Storage } from './storage';
+import type { ExamSessionRecord, FeedbackFlagRecord, ReviewRecord, Storage } from './storage';
 
 /** Schema changes are append-only migrations; never edit a shipped migration. */
 const MIGRATIONS: string[] = [
@@ -39,6 +39,18 @@ const MIGRATIONS: string[] = [
      module_results TEXT
    );
    CREATE INDEX IF NOT EXISTS idx_exam_track_started ON exam_sessions (track, started_at DESC);`,
+  // 4 — tester-flagged feedback (see src/db/feedback.ts). item_id/topic_id/
+  // item_type are NULL for general feedback not tied to a content item.
+  `CREATE TABLE IF NOT EXISTS feedback_flags (
+     id TEXT PRIMARY KEY NOT NULL,
+     created_at INTEGER NOT NULL,
+     category TEXT NOT NULL,
+     note TEXT,
+     item_id TEXT,
+     topic_id TEXT,
+     item_type TEXT
+   );
+   CREATE INDEX IF NOT EXISTS idx_feedback_created ON feedback_flags (created_at DESC);`,
 ];
 
 interface RawReviewRow {
@@ -50,6 +62,28 @@ interface RawReviewRow {
   due_at: number;
   last_result: number | null;
   updated_at: number;
+}
+
+interface RawFeedbackRow {
+  id: string;
+  created_at: number;
+  category: FeedbackFlagRecord['category'];
+  note: string | null;
+  item_id: string | null;
+  topic_id: string | null;
+  item_type: string | null;
+}
+
+function feedbackFromRaw(r: RawFeedbackRow): FeedbackFlagRecord {
+  return {
+    id: r.id,
+    createdAt: r.created_at,
+    category: r.category,
+    note: r.note,
+    itemId: r.item_id,
+    topicId: r.topic_id,
+    itemType: r.item_type,
+  };
 }
 
 function fromRaw(r: RawReviewRow): ReviewRecord {
@@ -200,6 +234,36 @@ export function createSqliteStorage(): Storage {
           passed: r.passed === null ? null : r.passed === 1,
           moduleResults: r.module_results,
         }));
+    },
+
+    insertFeedbackFlag(rec) {
+      db.runSync(
+        `INSERT INTO feedback_flags
+           (id, created_at, category, note, item_id, topic_id, item_type)
+         VALUES (?, ?, ?, ?, ?, ?, ?);`,
+        rec.id,
+        rec.createdAt,
+        rec.category,
+        rec.note,
+        rec.itemId,
+        rec.topicId,
+        rec.itemType,
+      );
+    },
+
+    listFeedbackFlags() {
+      return db
+        .getAllSync<RawFeedbackRow>('SELECT * FROM feedback_flags ORDER BY created_at DESC;')
+        .map(feedbackFromRaw);
+    },
+
+    countFeedbackFlags() {
+      const row = db.getFirstSync<{ n: number }>('SELECT COUNT(*) AS n FROM feedback_flags;');
+      return row?.n ?? 0;
+    },
+
+    clearFeedbackFlags() {
+      db.runSync('DELETE FROM feedback_flags;');
     },
   };
 }

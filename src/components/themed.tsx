@@ -28,7 +28,7 @@ import { palette, type Palette } from '@/theme/tokens';
 
 export type Tone = keyof Palette;
 
-function withAlpha(hex: string, pct: number): string {
+export function withAlpha(hex: string, pct: number): string {
   const alpha = Math.round((pct / 100) * 255)
     .toString(16)
     .padStart(2, '0');

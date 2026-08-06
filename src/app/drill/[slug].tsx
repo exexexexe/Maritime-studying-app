@@ -7,6 +7,7 @@ import { Image } from 'expo-image';
 
 import { BuoyDiagram } from '@/components/buoy-diagram';
 import { ChartRequiredBanner } from '@/components/chart-required-banner';
+import { FeedbackFlagButton } from '@/components/feedback-flag-button';
 import { LanternDiagram } from '@/components/lantern-diagram';
 import { MapAnswerInput } from '@/components/map-answer-input';
 import { RadioProcedureBuilder } from '@/components/radio-procedure-builder';
@@ -241,9 +242,12 @@ export default function DrillScreen() {
         <ThemedPressable hitSlop={8} onPress={() => router.back()}>
           <ThemedText tone="fog" className="text-small font-sans">Avbryt</ThemedText>
         </ThemedPressable>
-        <ThemedText tone="fog" className="text-caption font-mono tracking-widest">
-          {String(index + 1).padStart(2, '0')} / {String(session.items.length).padStart(2, '0')}
-        </ThemedText>
+        <View className="flex-row items-center gap-4">
+          <FeedbackFlagButton item={{ id: item.id, topicId: item.topicId, type: item.type }} />
+          <ThemedText tone="fog" className="text-caption font-mono tracking-widest">
+            {String(index + 1).padStart(2, '0')} / {String(session.items.length).padStart(2, '0')}
+          </ThemedText>
+        </View>
       </View>
 
       <ScrollView

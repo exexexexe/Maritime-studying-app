@@ -6,6 +6,7 @@ import { runOnJS, useAnimatedReaction, useSharedValue } from 'react-native-reani
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { CompassReadout } from '@/components/compass-readout';
+import { FeedbackFlagButton } from '@/components/feedback-flag-button';
 import { LanternDiagram } from '@/components/lantern-diagram';
 import { NumericReadout } from '@/components/numeric-readout';
 import { ThemedPressable, ThemedText } from '@/components/themed';
@@ -115,9 +116,12 @@ export default function LanternOrbitScreen() {
             Avbryt
           </ThemedText>
         </ThemedPressable>
-        <ThemedText tone="fog" className="text-caption font-mono uppercase tracking-widest">
-          Orbit-tränare
-        </ThemedText>
+        <View className="flex-row items-center gap-4">
+          <FeedbackFlagButton item={{ id: item.id, topicId: item.topicId, type: item.type }} />
+          <ThemedText tone="fog" className="text-caption font-mono uppercase tracking-widest">
+            Orbit-tränare
+          </ThemedText>
+        </View>
       </View>
 
       <ScrollView
