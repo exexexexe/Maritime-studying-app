@@ -8,7 +8,6 @@
     "scheme": "pluggasjoexamen",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon",
       "bundleIdentifier": "se.pluggasjoexamen.app"
     },
     "android": {
