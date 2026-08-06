@@ -518,6 +518,54 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "10:14b / photo_61, photo_19"
+    },
+    {
+      "id": "lan-maskin-014",
+      "topicId": "top-lan-maskin",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Maskindrivet fartyg under 50 meter, i gång",
+          "isCorrect": true
+        },
+        {
+          "text": "Maskindrivet fartyg, 50 meter eller längre, i gång",
+          "isCorrect": false
+        },
+        {
+          "text": "Segelfartyg som går för segel",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyg till ankars, utan sidoljus eller akterljus",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett toppljus, båda sidoljusen och ett akterljus är standarduppsättningen för ett maskindrivet fartyg under 50 meter som är i gång (regel 23). Fartyg på 50 meter eller längre för i stället två toppljus. Ett segelfartyg för aldrig toppljus, och ett fartyg till ankars visar varken sidoljus eller akterljus.",
+      "explanationEn": "One masthead light, both sidelights, and a sternlight is the standard rig for a power-driven vessel under 50 m underway (Rule 23). Vessels 50 m or longer carry two masthead lights instead. A sailing vessel never carries a masthead light, and a vessel at anchor shows neither sidelights nor a sternlight.",
+      "theoryAnchor": "lanternor/maskindrivna",
+      "authorReviewed": false,
+      "needsReview": false,
+      "payload": {
+        "questionSv": "Denna bild visar fartygets fullständiga lanternuppsättning, inte en enda betraktningsvinkel. Vilket fartyg/status hör den till?",
+        "scene": {
+          "lights": [
+            { "id": "masthead", "color": "white", "x": 50, "y": 16 },
+            { "id": "sidelight-stbd", "color": "green", "x": 60, "y": 30 },
+            { "id": "sidelight-port", "color": "red", "x": 40, "y": 30 },
+            { "id": "sternlight", "color": "white", "x": 50, "y": 38 }
+          ],
+          "hull": "silhouette",
+          "captionSv": "Maskindrivet fartyg, i gång",
+          "lightSectors": [
+            { "lightId": "masthead", "startDeg": -112.5, "endDeg": 112.5 },
+            { "lightId": "sidelight-stbd", "startDeg": 0, "endDeg": 112.5 },
+            { "lightId": "sidelight-port", "startDeg": -112.5, "endDeg": 0 },
+            { "lightId": "sternlight", "startDeg": 112.5, "endDeg": 247.5 }
+          ]
+        }
+      }
     }
   ]
 }

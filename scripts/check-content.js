@@ -168,6 +168,37 @@ for (const file of topicFiles(CONTENT_DIR)) {
     if (item.type === 'lantern' && !item.payload?.scene?.lights?.length) {
       err(where, 'lantern item without payload.scene.lights');
     }
+    // lightSectors — orbit trainer data (src/app/orbit/lantern.tsx,
+    // content/AUTHORING.md). Optional; only a representative set of
+    // lantern items carry it.
+    if (item.type === 'lantern' && item.payload?.scene?.lightSectors) {
+      const lights = item.payload.scene.lights ?? [];
+      const lightIds = new Set(lights.map((l) => l.id).filter(Boolean));
+      const sectors = item.payload.scene.lightSectors;
+      if (!Array.isArray(sectors) || sectors.length === 0) {
+        err(where, 'lightSectors present but empty or not an array');
+      } else {
+        sectors.forEach((s, i) => {
+          if (!lightIds.has(s.lightId)) {
+            err(where, `lightSectors[${i}].lightId "${s.lightId}" has no matching id in payload.scene.lights`);
+          }
+          if (typeof s.startDeg !== 'number' || !Number.isFinite(s.startDeg)) {
+            err(where, `lightSectors[${i}] missing numeric startDeg`);
+          }
+          if (typeof s.endDeg !== 'number' || !Number.isFinite(s.endDeg)) {
+            err(where, `lightSectors[${i}] missing numeric endDeg`);
+          }
+        });
+      }
+      // A light with an id but no sector is a real authoring foot-gun —
+      // it would never appear in the orbit trainer at any angle.
+      const sectorLightIds = new Set((Array.isArray(sectors) ? sectors : []).map((s) => s.lightId));
+      for (const light of lights) {
+        if (light.id && !sectorLightIds.has(light.id)) {
+          warn(where, `light id "${light.id}" has no lightSectors entry — permanently invisible in the orbit trainer`);
+        }
+      }
+    }
     if (item.type === 'buoy' && !item.payload?.scene?.colors?.length) {
       err(where, 'buoy item without payload.scene.colors');
     }

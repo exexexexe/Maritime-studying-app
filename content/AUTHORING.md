@@ -102,6 +102,67 @@ bara i rätt svar, och rätt svar återanvänder frågans formulering:
   **endast lokal referens** — upphovsrättsskyddat, får inte paketeras i appen
   eller pushas till repot.
 
+## Lanternors sektordata (`lightSectors`, orbit-tränaren)
+
+`payload.scene.lightSectors` driver orbit-tränaren (`src/app/orbit/
+lantern.tsx`) — dra-runt-fartyget-övningen som tänder/släcker lanternor
+efter deras verkliga COLREG-sektorer i stället för en förberäknad bild.
+Frivilligt fält: de allra flesta `lantern`-frågor saknar det helt och
+fungerar som vanligt (statisk bild, ingen orbit-koppling). Bara ett urval
+fartygskonfigurationer är seedade hittills (`lan-maskin-014`, `lan-segel-
+009`, `lan-sar-027` till `lan-sar-030`) — det här mönstret finns för att
+du ska kunna bygga ut täckningen till fler av de ~100 återstående
+lanternfrågorna.
+
+**Struktur** — varje ljus i `payload.scene.lights[]` som ska styras av
+orbit-tränaren behöver ett unikt `id` (bara inom det itemet, precis som
+`radio_procedure`s blockid). `lightSectors[]` pekar på de id:na:
+
+```json
+{
+  "lights": [
+    { "id": "masthead", "color": "white", "x": 50, "y": 16 },
+    { "id": "sidelight-stbd", "color": "green", "x": 60, "y": 30 },
+    { "id": "sidelight-port", "color": "red", "x": 40, "y": 30 },
+    { "id": "sternlight", "color": "white", "x": 50, "y": 38 }
+  ],
+  "hull": "silhouette",
+  "captionSv": "Maskindrivet fartyg, i gång",
+  "lightSectors": [
+    { "lightId": "masthead", "startDeg": -112.5, "endDeg": 112.5 },
+    { "lightId": "sidelight-stbd", "startDeg": 0, "endDeg": 112.5 },
+    { "lightId": "sidelight-port", "startDeg": -112.5, "endDeg": 0 },
+    { "lightId": "sternlight", "startDeg": 112.5, "endDeg": 247.5 }
+  ]
+}
+```
+
+- **Gradtal är relativ bäring, medurs från rätt förut (0°)** — samma
+  konvention som resten av appen. `startDeg`/`endDeg` får skrivas åt
+  vilket håll som helst (negativt tal, eller ett par som passerar 0°/360°
+  om man vill) — `src/lantern/sectors.ts` normaliserar oavsett. Skriv det
+  som läses naturligast för just den lanternan (toppljuset ovan som
+  -112,5–112,5, akterljuset som 112,5–247,5).
+- **Standardsektorer (Regel 21)**: toppljus 225° (-112,5 till 112,5),
+  sidoljus 112,5° vardera (styrbord 0–112,5, babord -112,5–0), akterljus
+  135° (112,5–247,5). Runtlysande ljus (ankarljus, fiskeljus,
+  nödsignalljus): `startDeg: 0, endDeg: 360`.
+- **Varje styrt ljus behöver en `lightSectors`-post** — ett ljus med `id`
+  men utan matchande sektor blir permanent osynligt i tränaren;
+  `check:content` varnar för det.
+- **Osäker på en specifik konfigurations exakta regel** (t.ex. exakt
+  gränslängd för bogseringens extra lanternor, eller fiskefartygets
+  regler vid utstående redskap) — flagga `needsReview: true` med en
+  konkret not i stället för att gissa. De seedade exemplen har redan
+  gjort det där det var relevant.
+- Bilden i `payload.scene` visar av nödvändighet **hela fartygets
+  lanternuppsättning på en gång** (toppljus + båda sidoljus + akterljus
+  samtidigt) — inte en enda realistisk betraktningsvinkel (ingen ser
+  akterljuset och sidoljusen samtidigt i verkligheten). Formulera
+  `questionSv` därefter, t.ex. "Vilket fartyg/status hör denna
+  fullständiga lanternuppsättning till?" i stället för "vad ser du" —
+  se de seedade exemplen.
+
 ## Fysiska sjökortsfrågor (`map_question`)
 
 Vissa provrelevanta frågor kräver ett riktigt sjökort på papper och riktiga

@@ -138,6 +138,9 @@ export type MapAnswer = MapAnswerScalar | MapAnswerPosition;
 export interface LanternScene {
   /** Lights positioned in a 100 × 60 field; y grows downward. */
   lights: {
+    /** Referenced by lightSectors[].lightId — only required for items used
+     * by the orbit trainer (src/app/orbit/lantern.tsx). */
+    id?: string;
     color: 'white' | 'red' | 'green' | 'yellow' | 'blue';
     x: number;
     y: number;
@@ -153,6 +156,26 @@ export interface LanternScene {
   hull?: 'none' | 'silhouette';
   /** Short caption shown under the diagram, e.g. viewing aspect. */
   captionSv?: string;
+  /**
+   * Real COLREG Rule 21 sector boundaries for each light `id` above — the
+   * orbit trainer (src/app/orbit/lantern.tsx, src/lantern/sectors.ts) uses
+   * this to compute which lights are visible at a given relative bearing.
+   * Only a representative set of lantern items carry this (see
+   * content/AUTHORING.md); most lantern items have no lightSectors at all.
+   */
+  lightSectors?: LightSector[];
+}
+
+/** One light's visible arc, in degrees clockwise from dead ahead (0°) —
+ * the same relative-bearing convention used everywhere else in the app.
+ * May be authored either as an increasing range (112.5 → 247.5, a
+ * sternlight) or as a range that legitimately crosses 0° (-112.5 → 112.5,
+ * a masthead light) — src/lantern/sectors.ts's isAngleInSector() handles
+ * both uniformly, so pick whichever reads more naturally for the light. */
+export interface LightSector {
+  lightId: string;
+  startDeg: number;
+  endDeg: number;
 }
 
 /** Daytime buoy picture rendered by BuoyDiagram. */

@@ -1025,6 +1025,198 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "18:43b / photo_43 + photo_3"
+    },
+    {
+      "id": "lan-sar-027",
+      "topicId": "top-lan-sarskilda",
+      "tracks": ["kustskeppare", "klass8"],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Fartyg till ankars, under 50 meter",
+          "isCorrect": true
+        },
+        {
+          "text": "Fartyg till ankars, 50 meter eller längre",
+          "isCorrect": false
+        },
+        {
+          "text": "Maskindrivet fartyg, i gång",
+          "isCorrect": false
+        },
+        {
+          "text": "Ej manöverfärdigt fartyg som inte gör fart genom vattnet",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett enda runtlysande vitt ljus är hela lanternuppsättningen för ett fartyg under 50 meter till ankars (regel 30) — inga sidoljus, inget akterljus. Fartyg på 50 meter eller längre för i stället två runtlysande vita ljus, ett förut högre och ett akterut lägre.",
+      "explanationEn": "A single all-round white light is the entire lighting for a vessel under 50 m at anchor (Rule 30) — no sidelights, no sternlight. Vessels 50 m or longer carry two all-round white lights instead, one forward (higher) and one aft (lower).",
+      "theoryAnchor": "lanternor/ankring",
+      "authorReviewed": false,
+      "needsReview": false,
+      "payload": {
+        "questionSv": "Denna bild visar fartygets fullständiga lanternuppsättning, inte en enda betraktningsvinkel. Vilket fartyg/status hör den till?",
+        "scene": {
+          "lights": [{ "id": "anchor-light", "color": "white", "x": 50, "y": 22 }],
+          "hull": "silhouette",
+          "captionSv": "Till ankars, under 50 meter",
+          "lightSectors": [
+            { "lightId": "anchor-light", "startDeg": 0, "endDeg": 360 }
+          ]
+        }
+      }
+    },
+    {
+      "id": "lan-sar-028",
+      "topicId": "top-lan-sarskilda",
+      "tracks": ["kustskeppare", "klass8"],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Maskindrivet fartyg som bogserar, släpets längd 200 meter eller mindre",
+          "isCorrect": true
+        },
+        {
+          "text": "Maskindrivet fartyg som bogserar, släpets längd mer än 200 meter",
+          "isCorrect": false
+        },
+        {
+          "text": "Maskindrivet fartyg, i gång",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyg som assisteras av en bogserbåt",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Ett bogserande fartyg för samma grunduppsättning som ett vanligt maskindrivet fartyg — toppljus, sidoljus, akterljus — plus ett gult bogserljus rakt ovanför akterljuset, med samma båge som akterljuset (regel 24). Är släpet längre än 200 meter krävs tre toppljus i lodrät linje i stället för ett.",
+      "explanationEn": "A towing vessel carries the same base rig as an ordinary power-driven vessel — masthead, sidelights, sternlight — plus a yellow towing light directly above the sternlight, sharing its arc (Rule 24). A tow longer than 200 m requires three masthead lights in a vertical line instead of one.",
+      "theoryAnchor": "lanternor/bogsering",
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Bekräftar grundstrukturen (bogserljus = akterljusets båge, gult) och tröskeln på 200 meter för tre toppljus, men den exakta vertikala placeringen/avståndet mellan bogserljuset och akterljuset bör verifieras mot kursmaterialet.",
+      "payload": {
+        "questionSv": "Denna bild visar fartygets fullständiga lanternuppsättning, inte en enda betraktningsvinkel. Vilket fartyg/status hör den till?",
+        "scene": {
+          "lights": [
+            { "id": "masthead", "color": "white", "x": 50, "y": 14 },
+            { "id": "sidelight-stbd", "color": "green", "x": 60, "y": 28 },
+            { "id": "sidelight-port", "color": "red", "x": 40, "y": 28 },
+            { "id": "towing-light", "color": "yellow", "x": 50, "y": 34 },
+            { "id": "sternlight", "color": "white", "x": 50, "y": 39 }
+          ],
+          "hull": "silhouette",
+          "captionSv": "Bogserar, släp 200 m eller mindre",
+          "lightSectors": [
+            { "lightId": "masthead", "startDeg": -112.5, "endDeg": 112.5 },
+            { "lightId": "sidelight-stbd", "startDeg": 0, "endDeg": 112.5 },
+            { "lightId": "sidelight-port", "startDeg": -112.5, "endDeg": 0 },
+            { "lightId": "towing-light", "startDeg": 112.5, "endDeg": 247.5 },
+            { "lightId": "sternlight", "startDeg": 112.5, "endDeg": 247.5 }
+          ]
+        }
+      }
+    },
+    {
+      "id": "lan-sar-029",
+      "topicId": "top-lan-sarskilda",
+      "tracks": ["kustskeppare", "klass8"],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Fiskefartyg som trålar, gör fart genom vattnet",
+          "isCorrect": true
+        },
+        {
+          "text": "Fiskefartyg som trålar, gör ingen fart genom vattnet",
+          "isCorrect": false
+        },
+        {
+          "text": "Fiskefartyg som fiskar med annat redskap än trål, gör fart genom vattnet",
+          "isCorrect": false
+        },
+        {
+          "text": "Maskindrivet fartyg som bogserar",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Grönt över vitt runtlysande ljus är trålfiskets kännetecken. Gör fartyget fart genom vattnet läggs sidoljus och akterljus till (regel 26) — utan dem gör fartyget ingen fart. Skiljer sig från annat fiske (rött över vitt).",
+      "explanationEn": "All-round green over white is the mark of trawling. Sidelights and a sternlight are added when the vessel is making way through the water (Rule 26) — without them, she isn't. Distinct from other fishing (red over white).",
+      "theoryAnchor": "lanternor/fiske",
+      "authorReviewed": false,
+      "needsReview": true,
+      "needsReviewNote": "Bekräftar grundstrukturen (grönt över vitt + sido-/akterljus vid fart), men regeln om ett extra vitt ljus i redskapets riktning vid utstående redskap över 150 meter är inte inkluderad i den här bilden och bör läggas till separat om kursen kräver den.",
+      "payload": {
+        "questionSv": "Denna bild visar fartygets fullständiga lanternuppsättning, inte en enda betraktningsvinkel. Vilket fartyg/status hör den till?",
+        "scene": {
+          "lights": [
+            { "id": "fishing-upper", "color": "green", "x": 50, "y": 14 },
+            { "id": "fishing-lower", "color": "white", "x": 50, "y": 20 },
+            { "id": "sidelight-stbd", "color": "green", "x": 60, "y": 32 },
+            { "id": "sidelight-port", "color": "red", "x": 40, "y": 32 },
+            { "id": "sternlight", "color": "white", "x": 50, "y": 39 }
+          ],
+          "hull": "silhouette",
+          "captionSv": "Trålar, gör fart genom vattnet",
+          "lightSectors": [
+            { "lightId": "fishing-upper", "startDeg": 0, "endDeg": 360 },
+            { "lightId": "fishing-lower", "startDeg": 0, "endDeg": 360 },
+            { "lightId": "sidelight-stbd", "startDeg": 0, "endDeg": 112.5 },
+            { "lightId": "sidelight-port", "startDeg": -112.5, "endDeg": 0 },
+            { "lightId": "sternlight", "startDeg": 112.5, "endDeg": 247.5 }
+          ]
+        }
+      }
+    },
+    {
+      "id": "lan-sar-030",
+      "topicId": "top-lan-sarskilda",
+      "tracks": ["kustskeppare", "klass8"],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Ej manöverfärdigt fartyg som gör fart genom vattnet",
+          "isCorrect": true
+        },
+        {
+          "text": "Ej manöverfärdigt fartyg, stillaliggande utan fart",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyg med begränsad manöverförmåga, gör fart genom vattnet",
+          "isCorrect": false
+        },
+        {
+          "text": "Fiskefartyg som trålar, gör fart genom vattnet",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Två runtlysande röda ljus i lodrät linje betyder ej manöverfärdigt fartyg. Gör fartyget dessutom fart genom vattnet visas sidoljus och akterljus (regel 27) — ett stillastående sådant fartyg visar enbart de två röda ljusen.",
+      "explanationEn": "Two all-round red lights in a vertical line mean not under command. If the vessel is also making way through the water, sidelights and a sternlight are shown as well (Rule 27) — a stationary one shows only the two red lights.",
+      "theoryAnchor": "lanternor/nuc-ram",
+      "authorReviewed": false,
+      "needsReview": false,
+      "payload": {
+        "questionSv": "Denna bild visar fartygets fullständiga lanternuppsättning, inte en enda betraktningsvinkel. Vilket fartyg/status hör den till?",
+        "scene": {
+          "lights": [
+            { "id": "nuc-upper", "color": "red", "x": 50, "y": 14 },
+            { "id": "nuc-lower", "color": "red", "x": 50, "y": 20 },
+            { "id": "sidelight-stbd", "color": "green", "x": 60, "y": 32 },
+            { "id": "sidelight-port", "color": "red", "x": 40, "y": 32 },
+            { "id": "sternlight", "color": "white", "x": 50, "y": 39 }
+          ],
+          "hull": "silhouette",
+          "captionSv": "Ej under kommando, gör fart",
+          "lightSectors": [
+            { "lightId": "nuc-upper", "startDeg": 0, "endDeg": 360 },
+            { "lightId": "nuc-lower", "startDeg": 0, "endDeg": 360 },
+            { "lightId": "sidelight-stbd", "startDeg": 0, "endDeg": 112.5 },
+            { "lightId": "sidelight-port", "startDeg": -112.5, "endDeg": 0 },
+            { "lightId": "sternlight", "startDeg": 112.5, "endDeg": 247.5 }
+          ]
+        }
+      }
     }
   ]
 }

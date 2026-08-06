@@ -6,6 +6,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { NumericReadout } from '@/components/numeric-readout';
 import { ThemedPressable, ThemedText, ThemedView } from '@/components/themed';
 import { itemsForTrack, moduleBySlug, topicsForModule } from '@/content';
+import { orbitTrainerItems } from '@/lib/orbit';
 import { lanternSprintItems } from '@/lib/sprint';
 import { moduleProgress, topicProgress } from '@/srs/session';
 import { useTrack } from '@/state/track-context';
@@ -33,6 +34,11 @@ export default function ModuleScreen() {
   // an empty drill.
   const sprintAvailable =
     module?.id === 'mod-lanterns' && lanternSprintItems(itemsForTrack(track)).length > 0;
+  // Same gating shape as sprintAvailable — hides itself when no lantern
+  // item in this track has been authored with lightSectors data yet
+  // (see content/AUTHORING.md), rather than linking to an empty trainer.
+  const orbitAvailable =
+    module?.id === 'mod-lanterns' && orbitTrainerItems(itemsForTrack(track)).length > 0;
 
   if (!module || !progress) {
     return (
@@ -134,10 +140,23 @@ export default function ModuleScreen() {
           <Link href="/sprint/lantern" asChild>
             <ThemedPressable
               borderTone="tide"
-              className="rounded-xl border px-4 py-3.5 items-center active:opacity-80"
+              className="rounded-xl border px-4 py-3.5 items-center active:opacity-80 mb-2"
             >
               <ThemedText tone="tide" className="text-body font-sans-medium">
                 Snabbtest: ljuskaraktärer
+              </ThemedText>
+            </ThemedPressable>
+          </Link>
+        ) : null}
+
+        {orbitAvailable ? (
+          <Link href="/orbit/lantern" asChild>
+            <ThemedPressable
+              borderTone="tide"
+              className="rounded-xl border px-4 py-3.5 items-center active:opacity-80"
+            >
+              <ThemedText tone="tide" className="text-body font-sans-medium">
+                Orbit-tränare: sektorer runt fartyget
               </ThemedText>
             </ThemedPressable>
           </Link>

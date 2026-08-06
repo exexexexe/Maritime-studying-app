@@ -312,6 +312,52 @@
       "needsReview": false,
       "needsReviewNote": null,
       "sourceRef": "10:10 / photo_61, photo_20"
+    },
+    {
+      "id": "lan-segel-009",
+      "topicId": "top-lan-segel",
+      "tracks": ["forarintyg", "kustskeppare", "klass8"],
+      "type": "lantern",
+      "options": [
+        {
+          "text": "Segelfartyg som går för segel",
+          "isCorrect": true
+        },
+        {
+          "text": "Maskindrivet fartyg under 50 meter, i gång",
+          "isCorrect": false
+        },
+        {
+          "text": "Roddbåt med enbart en vit runtlysande lanterna",
+          "isCorrect": false
+        },
+        {
+          "text": "Fartyg till ankars",
+          "isCorrect": false
+        }
+      ],
+      "explanationSv": "Sidoljus och akterljus utan toppljus är kännetecknet för ett segelfartyg som går enbart för segel (regel 25) — avsaknaden av toppljus är det som skiljer det från ett maskindrivet fartyg i gång.",
+      "explanationEn": "Sidelights and a sternlight with no masthead light is the signature of a sailing vessel under sail alone (Rule 25) — the absence of the masthead light is exactly what distinguishes it from a power-driven vessel underway.",
+      "theoryAnchor": "lanternor/segelfartyg",
+      "authorReviewed": false,
+      "needsReview": false,
+      "payload": {
+        "questionSv": "Denna bild visar fartygets fullständiga lanternuppsättning, inte en enda betraktningsvinkel. Vilket fartyg/status hör den till?",
+        "scene": {
+          "lights": [
+            { "id": "sidelight-stbd", "color": "green", "x": 60, "y": 30 },
+            { "id": "sidelight-port", "color": "red", "x": 40, "y": 30 },
+            { "id": "sternlight", "color": "white", "x": 50, "y": 38 }
+          ],
+          "hull": "silhouette",
+          "captionSv": "Segelfartyg, går för segel",
+          "lightSectors": [
+            { "lightId": "sidelight-stbd", "startDeg": 0, "endDeg": 112.5 },
+            { "lightId": "sidelight-port", "startDeg": -112.5, "endDeg": 0 },
+            { "lightId": "sternlight", "startDeg": 112.5, "endDeg": 247.5 }
+          ]
+        }
+      }
     }
   ]
 }
