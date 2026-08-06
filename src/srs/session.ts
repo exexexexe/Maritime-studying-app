@@ -1,6 +1,7 @@
 import { itemsForModule, itemsForTopic } from '@/content';
 import type { Item, Track } from '@/content/types';
 import { dueItemIds } from '@/db/reviews';
+import { seededShuffle } from '@/lib/shuffle';
 
 export const SESSION_SIZE = 12;
 
@@ -28,6 +29,27 @@ export function buildSession(moduleId: string, track: Track, now: number): Item[
 
 export function buildTopicSession(topicId: string, track: Track, now: number): Item[] {
   return sessionFromPool(itemsForTopic(topicId, track), track, now);
+}
+
+/**
+ * "Practice anyway" — the SM-2 schedule is a study aid, not an access
+ * control. A module/topic with nothing due shouldn't be unreachable, so
+ * this ignores dueAt entirely and draws straight from the full pool
+ * (shuffled per call so it's not always the same first N items). Recording
+ * an answer from a free session still goes through the normal SM-2 update
+ * (src/db/reviews.ts), so it's a real review, just not one the schedule
+ * asked for.
+ */
+function freeSessionFromPool(pool: Item[], now: number): Item[] {
+  return seededShuffle(pool, now).slice(0, SESSION_SIZE);
+}
+
+export function buildFreeSession(moduleId: string, track: Track, now: number): Item[] {
+  return freeSessionFromPool(itemsForModule(moduleId, track), now);
+}
+
+export function buildFreeTopicSession(topicId: string, track: Track, now: number): Item[] {
+  return freeSessionFromPool(itemsForTopic(topicId, track), now);
 }
 
 export interface ModuleProgress {

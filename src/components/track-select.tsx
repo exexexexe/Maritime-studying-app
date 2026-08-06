@@ -1,10 +1,11 @@
 import { useState } from 'react';
-import { ScrollView, useColorScheme, View } from 'react-native';
+import { ScrollView, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { Disclaimer } from '@/components/disclaimer';
 import { ThemedPressable, ThemedText } from '@/components/themed';
 import type { Track } from '@/content/types';
+import { useAppColorScheme } from '@/state/theme-context';
 import { TRACK_NAMES, TRACK_ORDER } from '@/state/track-context';
 import { palette } from '@/theme/tokens';
 
@@ -21,7 +22,7 @@ const TRACK_DESCRIPTIONS: Record<Track, string> = {
  */
 export function TrackSelect({ onSelect }: { onSelect: (track: Track) => void }) {
   const [chosen, setChosen] = useState<Track>('klass8');
-  const p = palette(useColorScheme());
+  const p = palette(useAppColorScheme().scheme);
 
   return (
     <SafeAreaView className="flex-1" style={{ backgroundColor: p.bg }} edges={['top', 'bottom']}>

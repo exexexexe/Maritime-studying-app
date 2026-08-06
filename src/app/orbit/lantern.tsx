@@ -1,6 +1,6 @@
 import { router, Stack } from 'expo-router';
 import { useState } from 'react';
-import { Dimensions, ScrollView, useColorScheme, View } from 'react-native';
+import { Dimensions, ScrollView, View } from 'react-native';
 import { Gesture, GestureDetector } from 'react-native-gesture-handler';
 import { runOnJS, useAnimatedReaction, useSharedValue } from 'react-native-reanimated';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -14,6 +14,7 @@ import { itemsForTrack } from '@/content';
 import type { LanternScene } from '@/content/types';
 import { normalizeDeg, visibleLights } from '@/lantern/sectors';
 import { orbitTrainerItems } from '@/lib/orbit';
+import { useAppColorScheme } from '@/state/theme-context';
 import { useTrack } from '@/state/track-context';
 import { palette } from '@/theme/tokens';
 
@@ -43,7 +44,7 @@ const DEG_PER_PX = 360 / SCREEN_WIDTH;
 
 export default function LanternOrbitScreen() {
   const { track } = useTrack();
-  const p = palette(useColorScheme());
+  const p = palette(useAppColorScheme().scheme);
   const [pool] = useState(() => orbitTrainerItems(itemsForTrack(track)));
   const [vesselIndex, setVesselIndex] = useState(0);
   const [bearing, setBearing] = useState(0);

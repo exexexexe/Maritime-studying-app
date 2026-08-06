@@ -1,6 +1,6 @@
 import { Link, useFocusEffect } from 'expo-router';
 import { useCallback, useState } from 'react';
-import { ScrollView, useColorScheme } from 'react-native';
+import { ScrollView } from 'react-native';
 import Animated, { FadeInDown, useReducedMotion } from 'react-native-reanimated';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
@@ -8,6 +8,7 @@ import { StaggerIn } from '@/components/stagger-in';
 import { ThemedPressable, ThemedText, ThemedView } from '@/components/themed';
 import { TrackBadge } from '@/components/track-badge';
 import { coverageLabel, dashboardStats, isThinCoverage, type ModuleCoverage } from '@/srs/stats';
+import { useAppColorScheme } from '@/state/theme-context';
 import { TRACK_NAMES, useTrack } from '@/state/track-context';
 import { palette } from '@/theme/tokens';
 
@@ -47,7 +48,7 @@ function ModuleRow({ m, i, dominant }: { m: ModuleCoverage; i: number; dominant:
 
 export default function ModulesScreen() {
   const { track } = useTrack();
-  const p = palette(useColorScheme());
+  const p = palette(useAppColorScheme().scheme);
   const reducedMotion = useReducedMotion();
   const [coverage, setCoverage] = useState<ModuleCoverage[]>([]);
 

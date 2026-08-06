@@ -1,8 +1,9 @@
 import { useState } from 'react';
-import { useColorScheme, View } from 'react-native';
+import { View } from 'react-native';
 
 import { ThemedPressable, ThemedText, ThemedView } from '@/components/themed';
 import { getMeta, setMeta } from '@/db';
+import { useAppColorScheme } from '@/state/theme-context';
 import { palette } from '@/theme/tokens';
 import type { MapChartRef } from '@/content/types';
 
@@ -17,7 +18,7 @@ const ONBOARDING_SEEN_KEY = 'seen_chart_question_onboarding';
  * chart to go get. Same component everywhere a map_question can appear.
  */
 export function ChartRequiredBanner({ chartRef }: { chartRef: MapChartRef }) {
-  const p = palette(useColorScheme());
+  const p = palette(useAppColorScheme().scheme);
   const [onboardingSeen, setOnboardingSeen] = useState(() => getMeta(ONBOARDING_SEEN_KEY) === '1');
 
   function dismissOnboarding() {

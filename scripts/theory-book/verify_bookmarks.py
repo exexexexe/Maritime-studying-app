@@ -15,7 +15,7 @@ import sys
 import pypdf
 
 REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-PDF_PATH = os.path.join(REPO_ROOT, "docs", "theory-book.pdf")
+PDF_PATH = os.path.join(REPO_ROOT, "assets", "theory-book.pdf")
 
 
 def flatten(outline, depth=0):

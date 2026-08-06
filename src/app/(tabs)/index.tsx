@@ -1,6 +1,6 @@
 import { Link, useFocusEffect } from 'expo-router';
 import { useCallback, useState } from 'react';
-import { ScrollView, useColorScheme, View } from 'react-native';
+import { ScrollView, View } from 'react-native';
 import Animated, { FadeInDown, useReducedMotion } from 'react-native-reanimated';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
@@ -13,12 +13,13 @@ import { UnfurlMenu } from '@/components/unfurl-menu';
 import { bumpLaunchCount } from '@/db';
 import { coverageLabel, dashboardStats, type DashboardStats } from '@/srs/stats';
 import { getStreak } from '@/state/activity';
+import { useAppColorScheme } from '@/state/theme-context';
 import { useTrack } from '@/state/track-context';
 import { palette } from '@/theme/tokens';
 
 export default function DashboardScreen() {
   const { track } = useTrack();
-  const p = palette(useColorScheme());
+  const p = palette(useAppColorScheme().scheme);
   const reducedMotion = useReducedMotion();
   // Offline-persistence check from Phase 1 — still bumped, no longer displayed.
   useState(() => bumpLaunchCount());

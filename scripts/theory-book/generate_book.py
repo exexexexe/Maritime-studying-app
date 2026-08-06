@@ -10,8 +10,12 @@ get marked authorReviewed: true in the app's content JSON, rerunning this
 script recomputes each section's draft/reviewed status from scratch and
 produces an updated PDF; nothing needs to be reconfigured by hand. See
 README.md for the full design (why Python/reportlab, why two chapters
-get hand-authored prose and the rest get mechanical synthesis, why the
-PDF itself isn't committed).
+get hand-authored prose and the rest get mechanical synthesis).
+
+Output goes to assets/theory-book.pdf, NOT docs/ — it's bundled into the
+app itself (see src/app/reference/theory-book.tsx) via Metro's asset
+pipeline, so unlike a typical generated artifact this one IS committed;
+regenerate and commit the new PDF whenever content changes.
 """
 
 from __future__ import annotations
@@ -44,7 +48,7 @@ from prose import buoyage as prose_buoyage
 from prose import lanterns as prose_lanterns
 
 REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-OUTPUT_PATH = os.path.join(REPO_ROOT, "docs", "theory-book.pdf")
+OUTPUT_PATH = os.path.join(REPO_ROOT, "assets", "theory-book.pdf")
 RENDER_CACHE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "_render_cache")
 
 # A topic reads as settled ("granskat", quiet marker) only once nearly all

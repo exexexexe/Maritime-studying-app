@@ -1,8 +1,9 @@
-import { TextInput, useColorScheme, View } from 'react-native';
+import { TextInput, View } from 'react-native';
 
 import { ThemedText, ThemedView } from '@/components/themed';
 import type { MapAnswer } from '@/content/types';
 import type { MapAnswerValue } from '@/lib/map-answer';
+import { useAppColorScheme } from '@/state/theme-context';
 import { palette } from '@/theme/tokens';
 
 interface Props {
@@ -21,7 +22,7 @@ const UNIT_LABEL: Record<Exclude<MapAnswer['kind'], 'position'>, string> = {
 /** Free numeric entry for map_question's numeric_tolerance mode — the input
  * shape (single field vs lat/long pair) and unit label follow answer.kind. */
 export function MapAnswerInput({ answer, value, onChange, disabled }: Props) {
-  const p = palette(useColorScheme());
+  const p = palette(useAppColorScheme().scheme);
 
   if (answer.kind === 'position' && value.kind === 'position') {
     return (

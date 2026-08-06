@@ -15,12 +15,13 @@ import { DarkTheme, DefaultTheme, Stack, ThemeProvider } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
 import { useEffect, useState } from 'react';
-import { useColorScheme, View } from 'react-native';
+import { View } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { useReducedMotion } from 'react-native-reanimated';
 
 import { LaunchAnimation } from '@/components/launch-animation';
 import { TrackSelect } from '@/components/track-select';
+import { AppColorSchemeProvider, useAppColorScheme } from '@/state/theme-context';
 import { TrackProvider, useTrackOrNull } from '@/state/track-context';
 import { fonts, palette } from '@/theme/tokens';
 
@@ -38,7 +39,17 @@ function TrackGate() {
 }
 
 export default function RootLayout() {
-  const scheme = useColorScheme();
+  return (
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <AppColorSchemeProvider>
+        <RootLayoutInner />
+      </AppColorSchemeProvider>
+    </GestureHandlerRootView>
+  );
+}
+
+function RootLayoutInner() {
+  const { scheme } = useAppColorScheme();
   const p = palette(scheme);
   const reducedMotion = useReducedMotion();
   const [showLaunch, setShowLaunch] = useState(true);
@@ -79,26 +90,20 @@ export default function RootLayout() {
   };
 
   return (
-    // Required by react-native-gesture-handler for GestureDetector to work
-    // reliably (Android especially) — first real use is the orbit
-    // trainer's drag-to-rotate (src/app/orbit/lantern.tsx). expo-router's
-    // Stack doesn't provide this itself.
-    <GestureHandlerRootView style={{ flex: 1 }}>
-      <ThemeProvider value={navTheme}>
-        <TrackProvider>
-          <StatusBar style="auto" />
-          {/* TrackGate mounts and renders immediately underneath the launch
-              overlay — nothing extra loads once the ship finishes crossing,
-              the overlay is purely a deliberate brand beat layered on top of
-              an already-ready app, not a cover for real initialization. */}
-          <View style={{ flex: 1 }}>
-            <TrackGate />
-            {showLaunch && !reducedMotion ? (
-              <LaunchAnimation palette={p} onDone={() => setShowLaunch(false)} />
-            ) : null}
-          </View>
-        </TrackProvider>
-      </ThemeProvider>
-    </GestureHandlerRootView>
+    <ThemeProvider value={navTheme}>
+      <TrackProvider>
+        <StatusBar style={scheme === 'light' ? 'dark' : 'light'} />
+        {/* TrackGate mounts and renders immediately underneath the launch
+            overlay — nothing extra loads once the ship finishes crossing,
+            the overlay is purely a deliberate brand beat layered on top of
+            an already-ready app, not a cover for real initialization. */}
+        <View style={{ flex: 1 }}>
+          <TrackGate />
+          {showLaunch && !reducedMotion ? (
+            <LaunchAnimation palette={p} onDone={() => setShowLaunch(false)} />
+          ) : null}
+        </View>
+      </TrackProvider>
+    </ThemeProvider>
   );
 }

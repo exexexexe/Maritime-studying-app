@@ -1,9 +1,9 @@
 import Constants from 'expo-constants';
 import { useCallback, useState } from 'react';
-import { Alert, ScrollView, Share, useColorScheme, View } from 'react-native';
+import { Alert, ScrollView, Share, View } from 'react-native';
 import Animated, { FadeInDown, useReducedMotion } from 'react-native-reanimated';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { useFocusEffect } from 'expo-router';
+import { Link, useFocusEffect } from 'expo-router';
 
 import { Disclaimer } from '@/components/disclaimer';
 import { FeedbackFlagButton } from '@/components/feedback-flag-button';
@@ -11,12 +11,22 @@ import { ThemedPressable, ThemedText, ThemedView } from '@/components/themed';
 import { itemsForTrack } from '@/content';
 import { clearFeedbackFlags, countFeedbackFlags, listFeedbackFlags } from '@/db/feedback';
 import { formatFeedbackExport } from '@/lib/feedback-export';
+import { useAppColorScheme } from '@/state/theme-context';
+import type { ThemeOverride } from '@/state/theme';
 import { TRACK_NAMES, TRACK_ORDER, useTrack } from '@/state/track-context';
 import { palette } from '@/theme/tokens';
 
+const THEME_OVERRIDE_LABELS: Record<ThemeOverride, string> = {
+  system: 'System',
+  light: 'Ljust',
+  dark: 'Mörkt',
+};
+const THEME_OVERRIDE_ORDER: ThemeOverride[] = ['system', 'light', 'dark'];
+
 export default function SettingsScreen() {
   const { track, setTrack } = useTrack();
-  const p = palette(useColorScheme());
+  const { scheme, override, setOverride } = useAppColorScheme();
+  const p = palette(scheme);
   const reducedMotion = useReducedMotion();
   const [flagCount, setFlagCount] = useState(0);
 
@@ -96,18 +106,65 @@ export default function SettingsScreen() {
           })}
         </ThemedView>
 
-        {/* Utseende had zero interactivity — pure disclosure text, no
-            control — so it competed for weight with Aktivt spår (the only
-            genuinely interactive thing on this screen) without earning it.
-            Merged into Om appen; both are the same kind of static fact. */}
+        <Link href="/reference/theory-book" asChild>
+          <ThemedPressable
+            bg="surface"
+            borderTone="fog"
+            borderOpacity={15}
+            className="flex-row items-center justify-between mt-4 rounded-xl border px-5 py-5 active:opacity-80"
+          >
+            <View>
+              <ThemedText tone="fog" className="text-caption font-mono uppercase tracking-widest">
+                Studiehandbok
+              </ThemedText>
+              <ThemedText className="text-body font-sans mt-2">Läs teoriboken (PDF)</ThemedText>
+            </View>
+            <ThemedText tone="fog" className="text-body font-sans">
+              ›
+            </ThemedText>
+          </ThemedPressable>
+        </Link>
+
+        <ThemedView
+          bg="surface"
+          borderTone="fog"
+          borderOpacity={15}
+          className="mt-4 rounded-xl border px-5 py-5"
+        >
+          <ThemedText tone="fog" className="text-caption font-mono uppercase tracking-widest">
+            Utseende
+          </ThemedText>
+          <View className="flex-row mt-3 -mx-1">
+            {THEME_OVERRIDE_ORDER.map((value) => {
+              const active = value === override;
+              return (
+                <ThemedPressable
+                  key={value}
+                  onPress={() => setOverride(value)}
+                  bg={active ? 'brass' : undefined}
+                  borderTone={active ? undefined : 'fog'}
+                  borderOpacity={active ? undefined : 15}
+                  className={`flex-1 items-center rounded-lg px-3 py-2.5 mx-1 ${active ? 'active:opacity-90' : 'border active:opacity-80'}`}
+                >
+                  <ThemedText
+                    tone={active ? 'bg' : 'ink'}
+                    className={`text-body ${active ? 'font-sans-semibold' : 'font-sans'}`}
+                  >
+                    {THEME_OVERRIDE_LABELS[value]}
+                  </ThemedText>
+                </ThemedPressable>
+              );
+            })}
+          </View>
+        </ThemedView>
+
         <ThemedView bg="surface" bgOpacity={45} className="mt-4 rounded-xl px-5 py-4">
           <ThemedText tone="fog" className="text-caption font-mono uppercase tracking-widest">
             Om appen
           </ThemedText>
           <ThemedText tone="fog" className="text-small font-sans mt-2">
-            Version {Constants.expoConfig?.version ?? '—'} · Följer systemets
-            mörka/ljusa läge (mörkt är standard) · All data sparas lokalt på
-            enheten. Appen kräver ingen nätverksanslutning.
+            Version {Constants.expoConfig?.version ?? '—'} · All data sparas
+            lokalt på enheten. Appen kräver ingen nätverksanslutning.
           </ThemedText>
         </ThemedView>
 

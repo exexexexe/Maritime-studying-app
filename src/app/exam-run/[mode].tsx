@@ -1,6 +1,6 @@
 import { router, Stack, useLocalSearchParams } from 'expo-router';
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { ScrollView, useColorScheme, View } from 'react-native';
+import { ScrollView, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { Image } from 'expo-image';
@@ -27,6 +27,7 @@ import {
 } from '@/lib/map-answer';
 import { attemptSeed, seededShuffle } from '@/lib/shuffle';
 import { markActivity } from '@/state/activity';
+import { useAppColorScheme } from '@/state/theme-context';
 import { TRACK_NAMES, useTrack } from '@/state/track-context';
 import { palette } from '@/theme/tokens';
 
@@ -45,7 +46,7 @@ export default function ExamRunScreen() {
   const { mode: modeParam } = useLocalSearchParams<{ mode: string }>();
   const mode: ExamMode = modeParam === 'full' ? 'full' : 'quick';
   const { track } = useTrack();
-  const p = palette(useColorScheme());
+  const p = palette(useAppColorScheme().scheme);
 
   const [exam] = useState(() => {
     const startedAt = Date.now();

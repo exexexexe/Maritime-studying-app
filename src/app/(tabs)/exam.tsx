@@ -1,6 +1,6 @@
 import { Link, useFocusEffect } from 'expo-router';
 import { useCallback, useState } from 'react';
-import { ScrollView, useColorScheme, View } from 'react-native';
+import { ScrollView, View } from 'react-native';
 import Animated, { FadeInDown, useReducedMotion } from 'react-native-reanimated';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
@@ -11,6 +11,7 @@ import { itemsForTrack } from '@/content';
 import type { Track } from '@/content/types';
 import { listExamSessions, type ExamSessionRecord } from '@/db/exams';
 import { assembleExam, examConfig, type ExamMode } from '@/exam/assemble';
+import { useAppColorScheme } from '@/state/theme-context';
 import { TRACK_NAMES, useTrack } from '@/state/track-context';
 import { palette } from '@/theme/tokens';
 
@@ -33,7 +34,7 @@ function fmtDate(ts: number) {
 
 export default function ExamScreen() {
   const { track } = useTrack();
-  const p = palette(useColorScheme());
+  const p = palette(useAppColorScheme().scheme);
   const reducedMotion = useReducedMotion();
   const config = examConfig(track);
   const poolSize = itemsForTrack(track).length;

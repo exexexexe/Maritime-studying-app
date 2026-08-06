@@ -1,9 +1,10 @@
 import { useState } from 'react';
-import { Modal, TextInput, useColorScheme, View } from 'react-native';
+import { Modal, TextInput, View } from 'react-native';
 import Svg, { Path } from 'react-native-svg';
 
 import { ThemedPressable, ThemedText, ThemedView, withAlpha } from '@/components/themed';
 import { addFeedbackFlag, type FeedbackCategory } from '@/db/feedback';
+import { useAppColorScheme } from '@/state/theme-context';
 import { palette } from '@/theme/tokens';
 
 /**
@@ -63,7 +64,7 @@ function CheckGlyph({ color, size = 18 }: { color: string; size?: number }) {
 }
 
 export function FeedbackFlagButton({ item, trigger, onSaved }: FeedbackFlagButtonProps) {
-  const p = palette(useColorScheme());
+  const p = palette(useAppColorScheme().scheme);
   const [open, setOpen] = useState(false);
   const [note, setNote] = useState('');
   const [confirmed, setConfirmed] = useState(false);

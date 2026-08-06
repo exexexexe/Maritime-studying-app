@@ -1,11 +1,11 @@
 import { Tabs } from 'expo-router';
-import { useColorScheme } from 'react-native';
 
 import { ChartsIcon, ChronometerIcon, CompassIcon, HelmIcon } from '@/components/icons';
+import { useAppColorScheme } from '@/state/theme-context';
 import { fonts, palette } from '@/theme/tokens';
 
 export default function TabLayout() {
-  const p = palette(useColorScheme());
+  const p = palette(useAppColorScheme().scheme);
 
   return (
     <Tabs

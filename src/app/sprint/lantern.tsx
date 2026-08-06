@@ -1,6 +1,6 @@
 import { router, Stack } from 'expo-router';
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { ScrollView, useColorScheme, View } from 'react-native';
+import { ScrollView, View } from 'react-native';
 import Animated, { useAnimatedStyle } from 'react-native-reanimated';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
@@ -12,6 +12,7 @@ import type { Item, LanternScene } from '@/content/types';
 import { RHYTHM, useRhythm } from '@/lib/rhythm';
 import { attemptSeed, seededShuffle } from '@/lib/shuffle';
 import { characteristicOf, lanternSprintItems, sprintChoices } from '@/lib/sprint';
+import { useAppColorScheme } from '@/state/theme-context';
 import { useTrack } from '@/state/track-context';
 import { palette } from '@/theme/tokens';
 
@@ -36,7 +37,7 @@ type Phase = 'ready' | 'running' | 'done';
 
 export default function LanternSprintScreen() {
   const { track } = useTrack();
-  const p = palette(useColorScheme());
+  const p = palette(useAppColorScheme().scheme);
   const attemptKey = useRef(Date.now()).current;
 
   const [pool] = useState<Item[]>(() =>

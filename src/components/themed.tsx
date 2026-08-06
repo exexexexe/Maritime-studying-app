@@ -1,7 +1,6 @@
 import { forwardRef, type ComponentProps } from 'react';
 import {
   Text,
-  useColorScheme,
   View,
   type TextProps,
   type View as ViewRef,
@@ -9,6 +8,7 @@ import {
 } from 'react-native';
 
 import { PressableScale } from '@/components/pressable-scale';
+import { useAppColorScheme } from '@/state/theme-context';
 import { palette, type Palette } from '@/theme/tokens';
 
 /**
@@ -65,7 +65,7 @@ export const ThemedText = forwardRef<Text, ThemedTextProps>(function ThemedText(
   { tone = 'ink', toneOpacity, style, ...props },
   ref,
 ) {
-  const p = palette(useColorScheme());
+  const p = palette(useAppColorScheme().scheme);
   const color = toneOpacity != null ? withAlpha(p[tone], toneOpacity) : p[tone];
   return <Text ref={ref} style={[{ color }, style]} {...props} />;
 });
@@ -92,7 +92,7 @@ export const ThemedView = forwardRef<ViewRef, ThemedViewProps>(function ThemedVi
   { bg, bgOpacity, borderTone, borderOpacity, elevated, style, ...props },
   ref,
 ) {
-  const p = palette(useColorScheme());
+  const p = palette(useAppColorScheme().scheme);
   const colorStyle = colorStyleFor(p, { bg, bgOpacity, borderTone, borderOpacity });
   return (
     <View ref={ref} style={[colorStyle, elevated ? ELEVATION_STYLE : null, style]} {...props} />
@@ -108,7 +108,7 @@ export const ThemedPressable = forwardRef<ViewRef, ThemedPressableProps>(functio
   { bg, bgOpacity, borderTone, borderOpacity, style, ...props },
   ref,
 ) {
-  const p = palette(useColorScheme());
+  const p = palette(useAppColorScheme().scheme);
   const colorStyle = colorStyleFor(p, { bg, bgOpacity, borderTone, borderOpacity });
   return <PressableScale ref={ref} style={[colorStyle, style]} {...props} />;
 });

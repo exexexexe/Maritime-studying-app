@@ -1,6 +1,6 @@
 import { router, Stack, useLocalSearchParams } from 'expo-router';
 import { useMemo, useState } from 'react';
-import { ScrollView, useColorScheme, View } from 'react-native';
+import { ScrollView, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { Image } from 'expo-image';
@@ -29,28 +29,39 @@ import {
 } from '@/lib/map-answer';
 import { gradeRadioProcedure } from '@/lib/radio-procedure';
 import { attemptSeed, seededShuffle } from '@/lib/shuffle';
-import { buildSession, buildTopicSession } from '@/srs/session';
+import { buildFreeSession, buildFreeTopicSession, buildSession, buildTopicSession } from '@/srs/session';
 import { markActivity } from '@/state/activity';
+import { useAppColorScheme } from '@/state/theme-context';
 import { useTrack } from '@/state/track-context';
 import { palette } from '@/theme/tokens';
 
 export default function DrillScreen() {
-  const { slug, topic } = useLocalSearchParams<{ slug: string; topic?: string }>();
+  const { slug, topic, free } = useLocalSearchParams<{
+    slug: string;
+    topic?: string;
+    free?: string;
+  }>();
   const { track } = useTrack();
-  const p = palette(useColorScheme());
+  const p = palette(useAppColorScheme().scheme);
+  const isFree = free === '1';
 
   // Session is fixed at mount; attemptKey seeds this attempt's option order.
   const [session] = useState(() => {
     const module = moduleBySlug(slug);
+    const now = Date.now();
     const items = module
-      ? topic
-        ? buildTopicSession(topic, track, Date.now())
-        : buildSession(module.id, track, Date.now())
+      ? isFree
+        ? topic
+          ? buildFreeTopicSession(topic, track, now)
+          : buildFreeSession(module.id, track, now)
+        : topic
+          ? buildTopicSession(topic, track, now)
+          : buildSession(module.id, track, now)
       : [];
     return {
       module,
       items,
-      attemptKey: Date.now(),
+      attemptKey: now,
     };
   });
 
@@ -109,7 +120,9 @@ export default function DrillScreen() {
       >
         <Stack.Screen options={{ headerShown: false }} />
         <ThemedText tone="fog" className="text-body font-sans text-center">
-          Inget att öva just nu — alla frågor är schemalagda framåt i tiden.
+          {isFree
+            ? 'Inget innehåll här ännu.'
+            : 'Inget att öva just nu — alla frågor är schemalagda framåt i tiden.'}
         </ThemedText>
         <ThemedPressable
           borderTone="fog"
@@ -243,6 +256,11 @@ export default function DrillScreen() {
           <ThemedText tone="fog" className="text-small font-sans">Avbryt</ThemedText>
         </ThemedPressable>
         <View className="flex-row items-center gap-4">
+          {isFree ? (
+            <ThemedText tone="tide" className="text-caption font-mono uppercase tracking-widest">
+              Fritt läge
+            </ThemedText>
+          ) : null}
           <FeedbackFlagButton item={{ id: item.id, topicId: item.topicId, type: item.type }} />
           <ThemedText tone="fog" className="text-caption font-mono tracking-widest">
             {String(index + 1).padStart(2, '0')} / {String(session.items.length).padStart(2, '0')}

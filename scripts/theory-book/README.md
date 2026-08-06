@@ -1,9 +1,11 @@
 # Theory book generator
 
-Compiles the app's own content into `docs/theory-book.pdf` — a reference
-book with real chapters, a page-numbered table of contents, and navigable
-PDF bookmarks. This is a reusable pipeline, not a one-off document: rerun
-it any time content changes, especially as more items get marked
+Compiles the app's own content into `assets/theory-book.pdf` — a
+reference book with real chapters, a page-numbered table of contents, and
+navigable PDF bookmarks, bundled into the app itself and readable offline
+from Inställningar → Studiehandbok (`src/app/reference/theory-book.tsx`).
+This is a reusable pipeline, not a one-off document: rerun it any time
+content changes, especially as more items get marked
 `authorReviewed: true` in `content/`.
 
 ## Setup
@@ -23,13 +25,14 @@ Use a venv instead if you'd rather not touch the system environment.)
 # book will be
 npm run theory-book:coverage
 
-# generate docs/theory-book.pdf and verify its bookmarks with pypdf
+# generate assets/theory-book.pdf and verify its bookmarks with pypdf
 npm run generate:theory-book
 ```
 
-`docs/theory-book.pdf` is generated output, not checked into git (see
-"Why the PDF isn't committed" below) — run the command above to produce
-your own copy.
+After regenerating, **commit the updated `assets/theory-book.pdf`** —
+unlike a typical generated artifact, this one is a real app asset bundled
+into every build (see "Why the PDF is committed" below), so a stale copy
+in git means a stale copy in the shipped app.
 
 ## How a section's draft/reviewed status is decided
 
@@ -109,15 +112,21 @@ feeding the same heading into the visual `TableOfContents` flowable via
 with `pypdf` and walks `reader.outline` to confirm the structure is
 actually there — the generation code isn't trusted on its own.
 
-## Why the PDF isn't committed
+## Why the PDF IS committed
 
-`.gitignore` already treats generated/native build output as something
-to regenerate rather than commit (`/ios`, `/android`, `dist/`, `.expo/`,
-etc.). `docs/theory-book.pdf` follows the same convention — it's ignored,
-and `npm run generate:theory-book` is the documented way to produce a
-current copy on demand. A committed PDF would also go stale immediately
-as content review progresses, which defeats the point of this being a
-living, rerunnable pipeline rather than a snapshot.
+`assets/theory-book.pdf` is loaded by `src/app/reference/theory-book.tsx`
+via Metro's asset pipeline (`require('../../../assets/theory-book.pdf')`,
+resolved through `expo-asset`) and shown in a `react-native-webview`
+inside the app — it has to exist in the git tree for EAS to bundle it
+into a build, the same as any app icon or font. This is the one
+generated-output rule in this pipeline that deliberately breaks from the
+repo's usual "regenerate, don't commit" convention (see `/ios`,
+`/android`, `dist/`, `.expo/` in `.gitignore`) — the tradeoff is that the
+committed PDF can go stale relative to `content/` if someone forgets to
+regenerate before committing. Regenerate and commit together whenever
+content changes, especially after marking items `authorReviewed: true`.
+The pipeline's intermediate output (`_render_cache/`, `__pycache__/`) is
+still gitignored — only the final PDF is tracked.
 
 ## English version (not built yet)
 
@@ -135,5 +144,5 @@ source used in `synth.py` and adding `prose/lanterns_en.py` /
 - `synth.py` — mechanical prose synthesis for non-flagship modules
 - `prose/lanterns.py`, `prose/buoyage.py` — hand-authored flagship chapters
 - `pdf_builder.py` — reportlab styles, fonts, bookmark mechanism, flowable helpers
-- `generate_book.py` — orchestrates everything above into `docs/theory-book.pdf`
+- `generate_book.py` — orchestrates everything above into `assets/theory-book.pdf`
 - `verify_bookmarks.py` — reads the PDF back and confirms the outline is real

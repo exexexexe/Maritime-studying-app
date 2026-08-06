@@ -1,6 +1,6 @@
 import { Link, Stack, useLocalSearchParams } from 'expo-router';
 import { useState } from 'react';
-import { ScrollView, useColorScheme, View } from 'react-native';
+import { ScrollView, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { NumericReadout } from '@/components/numeric-readout';
@@ -9,13 +9,14 @@ import { itemsForTrack, moduleBySlug, topicsForModule } from '@/content';
 import { orbitTrainerItems } from '@/lib/orbit';
 import { lanternSprintItems } from '@/lib/sprint';
 import { moduleProgress, topicProgress } from '@/srs/session';
+import { useAppColorScheme } from '@/state/theme-context';
 import { useTrack } from '@/state/track-context';
 import { palette } from '@/theme/tokens';
 
 export default function ModuleScreen() {
   const { slug } = useLocalSearchParams<{ slug: string }>();
   const { track } = useTrack();
-  const p = palette(useColorScheme());
+  const p = palette(useAppColorScheme().scheme);
   const module = moduleBySlug(slug);
   const [progress] = useState(() =>
     module ? moduleProgress(module.id, track, Date.now()) : null,
@@ -114,21 +115,27 @@ export default function ModuleScreen() {
             return (
               <Link
                 key={t.id}
-                href={{ pathname: '/drill/[slug]', params: { slug: module.slug, topic: t.id } }}
+                href={{
+                  pathname: '/drill/[slug]',
+                  params: {
+                    slug: module.slug,
+                    topic: t.id,
+                    ...(tDrillable ? {} : { free: '1' }),
+                  },
+                }}
                 asChild
               >
                 <ThemedPressable
-                  disabled={!tDrillable}
                   bg={tDrillable ? 'surface' : undefined}
                   borderTone="fog"
                   borderOpacity={15}
                   className={`flex-row items-center justify-between rounded-xl border px-4 py-3.5 mb-2 ${
-                    tDrillable ? 'active:opacity-80' : 'opacity-50'
+                    tDrillable ? 'active:opacity-80' : 'active:opacity-70 opacity-70'
                   }`}
                 >
                   <ThemedText className="text-body font-sans flex-1 pr-3">{t.titleSv}</ThemedText>
-                  <ThemedText tone="fog" className="text-caption font-mono">
-                    {tDrillable ? (tp.due > 0 ? `${tp.due} att repetera` : `${tp.unseen} nya`) : 'Klart'}
+                  <ThemedText tone={tDrillable ? 'fog' : 'tide'} className="text-caption font-mono">
+                    {tDrillable ? (tp.due > 0 ? `${tp.due} att repetera` : `${tp.unseen} nya`) : 'Öva ändå'}
                   </ThemedText>
                 </ThemedPressable>
               </Link>
@@ -173,15 +180,30 @@ export default function ModuleScreen() {
             </ThemedPressable>
           </Link>
         ) : (
-          <ThemedView
-            borderTone="fog"
-            borderOpacity={15}
-            className="rounded-xl border py-4 items-center"
-          >
-            <ThemedText tone="fog" className="text-body font-sans">
-              Allt repeterat — kom tillbaka när nästa repetition förfaller.
-            </ThemedText>
-          </ThemedView>
+          <View>
+            <ThemedView
+              borderTone="fog"
+              borderOpacity={15}
+              className="rounded-xl border py-4 items-center"
+            >
+              <ThemedText tone="fog" className="text-body font-sans">
+                Allt repeterat — kom tillbaka när nästa repetition förfaller.
+              </ThemedText>
+            </ThemedView>
+            <Link
+              href={{ pathname: '/drill/[slug]', params: { slug: module.slug, free: '1' } }}
+              asChild
+            >
+              <ThemedPressable
+                borderTone="tide"
+                className="rounded-xl border px-4 py-3.5 items-center active:opacity-80 mt-2"
+              >
+                <ThemedText tone="tide" className="text-body font-sans-medium">
+                  Öva ändå (hela modulen)
+                </ThemedText>
+              </ThemedPressable>
+            </Link>
+          </View>
         )}
       </ScrollView>
     </SafeAreaView>
