@@ -56,7 +56,9 @@
     "check:content": "node scripts/check-content.js",
     "typecheck": "tsc --noEmit",
     "review": "node scripts/review-tool/server.js",
-    "review:progress": "node scripts/review-progress.mjs"
+    "review:progress": "node scripts/review-progress.mjs",
+    "theory-book:coverage": "python3 scripts/theory-book/coverage_report.py",
+    "generate:theory-book": "python3 scripts/theory-book/generate_book.py && python3 scripts/theory-book/verify_bookmarks.py"
   },
   "jest": {
     "preset": "jest-expo",

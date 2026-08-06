@@ -50,3 +50,9 @@ example
 
 # Local reference material (copyrighted textbook photos - do not publish)
 questions/
+
+# Generated theory book — regenerate with `npm run generate:theory-book`
+docs/theory-book.pdf
+scripts/theory-book/_render_cache/
+scripts/theory-book/__pycache__/
+scripts/theory-book/prose/__pycache__/
